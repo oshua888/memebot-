@@ -1,0 +1,39 @@
+# Fait tourner le bot SIMULÉ toutes les ~5 minutes sur les serveurs de GitHub
+# et publie le tableau de bord (dossier docs/, via GitHub Pages).
+name: memebot
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: memebot
+  cancel-in-progress: false
+
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Un cycle du bot (argent fictif)
+        run: python memescanner.py bot --cycles 1 | tee -a bot.log
+      - name: Export du tableau de bord
+        run: |
+          tail -n 2000 bot.log > bot.tmp && mv bot.tmp bot.log
+          python dashboard.py --export docs
+      - name: Sauvegarde de l'état
+        run: |
+          git config user.name "memebot"
+          git config user.email "memebot@users.noreply.github.com"
+          git add portfolio.json journal.csv status.json bot.log docs
+          git diff --cached --quiet && exit 0
+          git commit -m "cycle $(date -u +%Y-%m-%dT%H:%M)"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
