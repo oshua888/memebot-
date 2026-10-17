@@ -1,0 +1,76 @@
+{
+ "prudente": {
+  "cash": 1000.0,
+  "positions": {},
+  "realized": 0.0,
+  "fees": 0.0,
+  "wins": 0,
+  "losses": 0,
+  "history": [
+   [
+    1792263050,
+    1000.0
+   ]
+  ]
+ },
+ "actuelle": {
+  "cash": 980.0,
+  "positions": {
+   "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump": {
+    "symbol": "MOMO",
+    "entry": 0.00013311,
+    "qty": 150251.67154984598,
+    "cost": 20.0,
+    "high": 0.00013311,
+    "last": 0.0001305,
+    "tp_done": false,
+    "opened": 1792263049.5344858
+   }
+  },
+  "realized": 0.0,
+  "fees": 0.4,
+  "wins": 0,
+  "losses": 0,
+  "history": [
+   [
+    1792263050,
+    999.61
+   ]
+  ]
+ },
+ "agressive": {
+  "cash": 940.0176470588235,
+  "positions": {
+   "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump": {
+    "symbol": "MOMO",
+    "entry": 0.00013311,
+    "qty": 225377.507324769,
+    "cost": 30.0,
+    "high": 0.00013311,
+    "last": 0.0001305,
+    "tp_done": false,
+    "opened": 1792263049.5354168
+   },
+   "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": {
+    "symbol": "SI276",
+    "entry": 0.00074205,
+    "qty": 40404.76105542277,
+    "cost": 29.98235294117647,
+    "high": 0.00074205,
+    "last": 0.0007275,
+    "tp_done": false,
+    "opened": 1792263049.5357182
+   }
+  },
+  "realized": 0.0,
+  "fees": 1.1996470588235293,
+  "wins": 0,
+  "losses": 0,
+  "history": [
+   [
+    1792263050,
+    998.82
+   ]
+  ]
+ }
+}
