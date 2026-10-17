@@ -49,3 +49,17 @@ prudente      1000.00$    +0.0%     +0.00$    0.00$    0/0       0
 actuelle       996.24$    -0.4%     +0.00$    1.20$    0/0       3
 agressive      991.94$    -0.8%     +0.00$    2.39$    0/0       4
 (argent fictif)
+=== BOT EN MODE SIMULATION (argent fictif) — Ctrl+C pour arrêter ===
+
+--- cycle 1 — 23:01:47 ---
+Récupération des candidats sur DexScreener…
+  56 tokens trouvés, analyse en cours…
+  [prudente] ACHAT YILONGMA @ 0.00108936$ — 10.00$ score 87
+  [actuelle] ACHAT GLITCH @ 0.00129642$ — 20.10$ score 69
+  [agressive] ACHAT GLITCH @ 0.00129642$ — 30.09$ score 69
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       999.80$    -0.0%     +0.00$    0.20$    0/0       1
+actuelle      1004.52$    +0.5%     +0.00$    1.60$    0/0       4
+agressive     1002.31$    +0.2%     +0.00$    2.99$    0/0       5
+(argent fictif)

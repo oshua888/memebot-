@@ -1,9 +1,20 @@
 {
  "prudente": {
-  "cash": 1000.0,
-  "positions": {},
+  "cash": 990.0,
+  "positions": {
+   "DrLF1dG1K4U6ggx5BZ6bSwzGcPNVrQwYoTJzRDyZpump": {
+    "symbol": "YILONGMA",
+    "entry": 0.00108936,
+    "qty": 9179.70184328413,
+    "cost": 10.0,
+    "high": 0.00108936,
+    "last": 0.001068,
+    "tp_done": false,
+    "opened": 1792278111.6123328
+   }
+  },
   "realized": 0.0,
-  "fees": 0.0,
+  "fees": 0.2,
   "wins": 0,
   "losses": 0,
   "history": [
@@ -22,11 +33,15 @@
    [
     1792271008,
     1000.0
+   ],
+   [
+    1792278112,
+    999.8
    ]
   ]
  },
  "actuelle": {
-  "cash": 940.1268792168058,
+  "cash": 920.028664540407,
   "positions": {
    "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump": {
     "symbol": "MOMO",
@@ -34,7 +49,7 @@
     "qty": 150251.67154984598,
     "cost": 20.0,
     "high": 0.0001372,
-    "last": 0.0001133,
+    "last": 0.000128,
     "tp_done": false,
     "opened": 1792263049.5344858
    },
@@ -44,7 +59,7 @@
     "qty": 198754.3785507016,
     "cost": 19.94047028773195,
     "high": 0.0001003272,
-    "last": 9.836e-05,
+    "last": 9.306e-05,
     "tp_done": false,
     "opened": 1792271007.8161356
    },
@@ -53,14 +68,24 @@
     "entry": 0.000786828,
     "qty": 25332.919641220513,
     "cost": 19.932650495462255,
-    "high": 0.000786828,
-    "last": 0.0007714,
+    "high": 0.001068,
+    "last": 0.001068,
     "tp_done": false,
     "opened": 1792271007.8166747
+   },
+   "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": {
+    "symbol": "GLITCH",
+    "entry": 0.00129642,
+    "qty": 15502.857620523255,
+    "cost": 20.098214676398758,
+    "high": 0.00129642,
+    "last": 0.001271,
+    "tp_done": false,
+    "opened": 1792278111.613292
    }
   },
   "realized": 0.0,
-  "fees": 1.1974624156638842,
+  "fees": 1.5994267091918593,
   "wins": 0,
   "losses": 0,
   "history": [
@@ -79,11 +104,15 @@
    [
     1792271008,
     996.24
+   ],
+   [
+    1792278112,
+    1004.52
    ]
   ]
  },
  "agressive": {
-  "cash": 880.4486345704479,
+  "cash": 850.3617501354873,
   "positions": {
    "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump": {
     "symbol": "MOMO",
@@ -91,7 +120,7 @@
     "qty": 225377.507324769,
     "cost": 30.0,
     "high": 0.0001372,
-    "last": 0.0001133,
+    "last": 0.000128,
     "tp_done": false,
     "opened": 1792263049.5354168
    },
@@ -101,7 +130,7 @@
     "qty": 40404.76105542277,
     "cost": 29.98235294117647,
     "high": 0.00074205,
-    "last": 0.000682,
+    "last": 0.0006323,
     "tp_done": false,
     "opened": 1792263049.5357182
    },
@@ -111,7 +140,7 @@
     "qty": 296961.0332029155,
     "cost": 29.793268970355548,
     "high": 0.0001003272,
-    "last": 9.836e-05,
+    "last": 9.306e-05,
     "tp_done": false,
     "opened": 1792271007.818538
    },
@@ -120,14 +149,24 @@
     "entry": 0.000786828,
     "qty": 37842.76044830641,
     "cost": 29.77574351802004,
-    "high": 0.000786828,
-    "last": 0.0007714,
+    "high": 0.001068,
+    "last": 0.001068,
     "tp_done": false,
     "opened": 1792271007.8190513
+   },
+   "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": {
+    "symbol": "GLITCH",
+    "entry": 0.00129642,
+    "qty": 23207.66760383248,
+    "cost": 30.086884434960503,
+    "high": 0.00129642,
+    "last": 0.001271,
+    "tp_done": false,
+    "opened": 1792278111.6147332
    }
   },
   "realized": 0.0,
-  "fees": 2.391027308591041,
+  "fees": 2.992764997290251,
   "wins": 0,
   "losses": 0,
   "history": [
@@ -146,6 +185,10 @@
    [
     1792271008,
     991.94
+   ],
+   [
+    1792278112,
+    1002.31
    ]
   ]
  }
