@@ -9,6 +9,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: memebot
@@ -17,6 +19,8 @@ concurrency:
 jobs:
   cycle:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
@@ -33,7 +37,13 @@ jobs:
         run: |
           git config user.name "memebot"
           git config user.email "memebot@users.noreply.github.com"
-          git add portfolio.json journal.csv status.json bot.log docs
+          git add portfolio.json journal.csv status.json bot.log
           git diff --cached --quiet && exit 0
           git commit -m "cycle $(date -u +%Y-%m-%dT%H:%M)"
           for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Publication du tableau de bord (GitHub Pages)
+        uses: actions/deploy-pages@v4
+        continue-on-error: true  # tant que Pages n'est pas activé
