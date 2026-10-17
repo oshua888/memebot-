@@ -12,3 +12,14 @@ prudente      1000.00$    +0.0%     +0.00$    0.00$    0/0       0
 actuelle       999.61$    -0.0%     +0.00$    0.40$    0/0       1
 agressive      998.82$    -0.1%     +0.00$    1.20$    0/0       2
 (argent fictif)
+=== BOT EN MODE SIMULATION (argent fictif) — Ctrl+C pour arrêter ===
+
+--- cycle 1 — 18:51:29 ---
+Récupération des candidats sur DexScreener…
+  49 tokens trouvés, analyse en cours…
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente      1000.00$    +0.0%     +0.00$    0.00$    0/0       0
+actuelle      1000.15$    +0.0%     +0.00$    0.40$    0/0       1
+agressive      999.86$    -0.0%     +0.00$    1.20$    0/0       2
+(argent fictif)
