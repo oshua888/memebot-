@@ -18,11 +18,15 @@
    [
     1792263334,
     1000.0
+   ],
+   [
+    1792271008,
+    1000.0
    ]
   ]
  },
  "actuelle": {
-  "cash": 980.0,
+  "cash": 940.1268792168058,
   "positions": {
    "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump": {
     "symbol": "MOMO",
@@ -30,13 +34,33 @@
     "qty": 150251.67154984598,
     "cost": 20.0,
     "high": 0.0001372,
-    "last": 0.0001372,
+    "last": 0.0001133,
     "tp_done": false,
     "opened": 1792263049.5344858
+   },
+   "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump": {
+    "symbol": "PROINU",
+    "entry": 0.0001003272,
+    "qty": 198754.3785507016,
+    "cost": 19.94047028773195,
+    "high": 0.0001003272,
+    "last": 9.836e-05,
+    "tp_done": false,
+    "opened": 1792271007.8161356
+   },
+   "DrLF1dG1K4U6ggx5BZ6bSwzGcPNVrQwYoTJzRDyZpump": {
+    "symbol": "YILONGMA",
+    "entry": 0.000786828,
+    "qty": 25332.919641220513,
+    "cost": 19.932650495462255,
+    "high": 0.000786828,
+    "last": 0.0007714,
+    "tp_done": false,
+    "opened": 1792271007.8166747
    }
   },
   "realized": 0.0,
-  "fees": 0.4,
+  "fees": 1.1974624156638842,
   "wins": 0,
   "losses": 0,
   "history": [
@@ -51,11 +75,15 @@
    [
     1792263334,
     1000.61
+   ],
+   [
+    1792271008,
+    996.24
    ]
   ]
  },
  "agressive": {
-  "cash": 940.0176470588235,
+  "cash": 880.4486345704479,
   "positions": {
    "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump": {
     "symbol": "MOMO",
@@ -63,7 +91,7 @@
     "qty": 225377.507324769,
     "cost": 30.0,
     "high": 0.0001372,
-    "last": 0.0001372,
+    "last": 0.0001133,
     "tp_done": false,
     "opened": 1792263049.5354168
    },
@@ -73,13 +101,33 @@
     "qty": 40404.76105542277,
     "cost": 29.98235294117647,
     "high": 0.00074205,
-    "last": 0.0007214,
+    "last": 0.000682,
     "tp_done": false,
     "opened": 1792263049.5357182
+   },
+   "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump": {
+    "symbol": "PROINU",
+    "entry": 0.0001003272,
+    "qty": 296961.0332029155,
+    "cost": 29.793268970355548,
+    "high": 0.0001003272,
+    "last": 9.836e-05,
+    "tp_done": false,
+    "opened": 1792271007.818538
+   },
+   "DrLF1dG1K4U6ggx5BZ6bSwzGcPNVrQwYoTJzRDyZpump": {
+    "symbol": "YILONGMA",
+    "entry": 0.000786828,
+    "qty": 37842.76044830641,
+    "cost": 29.77574351802004,
+    "high": 0.000786828,
+    "last": 0.0007714,
+    "tp_done": false,
+    "opened": 1792271007.8190513
    }
   },
   "realized": 0.0,
-  "fees": 1.1996470588235293,
+  "fees": 2.391027308591041,
   "wins": 0,
   "losses": 0,
   "history": [
@@ -94,6 +142,10 @@
    [
     1792263334,
     1000.09
+   ],
+   [
+    1792271008,
+    991.94
    ]
   ]
  }
