@@ -12,3 +12,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 00:50:40,prudente,VENTE,YILONGMA,0.002002,9.01,take-profit 50% PnL +4.01$
 2026-10-18 00:50:40,actuelle,VENTE,YILONGMA,0.002002,24.85,take-profit 50% PnL +14.88$
 2026-10-18 00:50:40,actuelle,ACHAT,FTR,0.00128928,20.46,score 63
+2026-10-18 05:12:25,prudente,ACHAT,FTR,0.00148818,10.12,score 74
+2026-10-18 05:12:25,actuelle,VENTE,MOMO,8.9e-05,13.10,stop-loss PnL -6.90$
+2026-10-18 05:12:25,actuelle,ACHAT,Chaton,0.00085935,20.62,score 69
+2026-10-18 05:12:25,agressive,VENTE,YILONGMA,0.002901,53.79,take-profit 50% PnL +38.91$

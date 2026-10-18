@@ -77,3 +77,18 @@ prudente      1008.19$    +0.8%     +4.01$    0.38$    1/0       1
 actuelle      1022.56$    +2.3%    +14.88$    2.52$    1/0       5
 agressive     1032.83$    +3.3%     +0.00$    2.99$    0/0       5
 (argent fictif)
+=== BOT EN MODE SIMULATION (argent fictif) — Ctrl+C pour arrêter ===
+
+--- cycle 1 — 05:12:21 ---
+Récupération des candidats sur DexScreener…
+  56 tokens trouvés, analyse en cours…
+  [prudente] ACHAT FTR @ 0.00148818$ — 10.12$ score 74
+  [actuelle] VENTE MOMO @ 8.9e-05$ — 13.10$ stop-loss PnL -6.90$
+  [actuelle] ACHAT Chaton @ 0.00085935$ — 20.62$ score 69
+  [agressive] VENTE YILONGMA @ 0.002901$ — 53.79$ take-profit 50% PnL +38.91$
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente      1012.12$    +1.2%     +4.01$    0.59$    1/0       2
+actuelle      1030.59$    +3.1%     +7.99$    3.20$    1/1       5
+agressive     1058.16$    +5.8%    +38.91$    4.09$    1/0       5
+(argent fictif)
