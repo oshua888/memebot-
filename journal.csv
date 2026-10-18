@@ -168,3 +168,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 20:40:10,actuelle,VENTE,CATONICE,0.00112,12.49,stop-loss (-30%) PnL -5.57$ coût 1.0%
 2026-10-18 21:24:10,prudente,VENTE,Gato,0.0005943,7.77,stop-loss (-21%) PnL -2.16$ coût 1.0%
 2026-10-18 21:27:10,actuelle,VENTE,Gato,0.0005697,12.35,stop-loss (-32%) PnL -5.95$ coût 1.0%
+2026-10-18 21:34:10,hasard,VENTE,FTR,0.001884,15.82,durée max 12h PnL -4.16$ coût 1.0%
+2026-10-18 21:34:10,hasard,VENTE,DOPE,0.003757,14.61,durée max 12h PnL -5.36$ coût 1.0%
+2026-10-18 21:34:10,hasard,VENTE,CLAUDIA,0.007212,16.37,durée max 12h PnL -3.60$ coût 1.0%
+2026-10-18 21:36:10,hasard,VENTE,MINTER,0.009366,9.81,palier +50% PnL +3.38$ coût 1.0%
+2026-10-18 21:36:10,hasard,ACHAT,VEIL,0.003294338678,19.62,score 50 coût 1.0%
+2026-10-18 21:37:10,hasard,ACHAT,FTR,0.001383179569,19.65,score 51 coût 1.0%
