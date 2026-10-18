@@ -17,3 +17,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 09:34:02,hasard,ACHAT,FTR,0.002355804108,19.98,score 34 coût 1.0%
 2026-10-18 09:34:02,hasard,ACHAT,DOPE,0.005084034747,19.98,score 39 coût 1.0%
 2026-10-18 09:34:02,hasard,ACHAT,CLAUDIA,0.008708081156,19.97,score 25 coût 1.0%
+2026-10-18 09:46:02,prudente,ACHAT,SUPERCORE,0.0005588911443,10.01,score 71 coût 1.0%
+2026-10-18 09:47:02,prudente,VENTE,FTR,0.001079,7.77,stop-loss (-22%) PnL -2.23$ coût 1.0%
