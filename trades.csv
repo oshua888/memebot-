@@ -1,3 +1,4 @@
 ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,fdv_liq,age_h,turnover,buy_ratio,m5,h1,h6,boost
 2026-10-18 09:34,2026-10-18 09:47,prudente,FTR,boost+tendance,stop-loss (-22%),0.22,-22.32,80,108827,12.38,39.3,1.377,0.65,-3.63,15.9,3.83,1
 2026-10-18 09:34,2026-10-18 10:03,actuelle,SUPERCORE,tendance,stop-loss (-30%),0.48,-31.06,66,78556,8.66,7.6,1.558,0.509,8.77,48.64,651,0
+2026-10-18 09:34,2026-10-18 10:13,prudente,Chaton,boost,trailing-stop,0.65,37.35,79,56784,7.01,13.7,2.411,0.707,0.03,43.67,-46.52,1
