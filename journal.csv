@@ -61,3 +61,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 11:52:03,prudente,ACHAT,Chaton,0.0004883868914,9.97,score 72 coût 1.0%
 2026-10-18 11:54:03,agressive,VENTE,Chaton,0.0004513,17.51,stop-loss (-41%) PnL -12.45$ coût 1.1%
 2026-10-18 11:54:03,agressive,ACHAT,Chaton,0.0004562488556,29.39,score 65 coût 1.1%
+2026-10-18 12:08:04,prudente,VENTE,TSI,0.0003898,7.70,stop-loss (-22%) PnL -2.30$ coût 1.0%
