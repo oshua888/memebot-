@@ -152,3 +152,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 19:22:09,prudente,ACHAT,CATONICE,0.001631434533,9.92,score 81 coût 1.0%
 2026-10-18 19:24:08,agressive,VENTE,koinu,5.095e-05,14.60,stop-loss (-48%) PnL -13.63$ coût 1.2%
 2026-10-18 19:24:08,agressive,ACHAT,Gato,0.000773313084,26.48,score 69 coût 1.1%
+2026-10-18 19:30:09,actuelle,VENTE,ZeroFee,0.0001423,13.03,stop-loss (-33%) PnL -6.74$ coût 1.1%
+2026-10-18 19:30:09,actuelle,ACHAT,CBUCKS,0.0009746985282,18.10,score 63 coût 1.0%
+2026-10-18 19:31:09,agressive,VENTE,ZeroFee,0.0001209,16.63,stop-loss (-42%) PnL -12.58$ coût 1.1%
+2026-10-18 19:31:09,agressive,ACHAT,CBUCKS,0.0009976860895,26.12,score 63 coût 1.1%
