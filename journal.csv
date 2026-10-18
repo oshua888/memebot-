@@ -179,3 +179,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 21:53:35,hasard,VENTE,MINTER,0.003947,8.39,stop-loss (-35%) PnL -4.66$ coût 1.0%
 2026-10-18 21:53:35,hasard,ACHAT,mucron,0.0001822792455,19.40,score 40 coût 1.1%
 2026-10-18 22:47:35,actuelle,ACHAT,FTR,0.002017365118,17.74,score 61 coût 1.0%
+2026-10-18 23:27:24,prudente,VENTE,GLITCH,0.001708,9.99,durée max 8h PnL +0.02$ coût 1.0%
