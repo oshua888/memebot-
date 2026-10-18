@@ -1056,3 +1056,66 @@ actuelle       989.26$    -1.1%     -6.11$    2.02$    2/2       4
 agressive      975.83$    -2.4%    -15.83$    2.05$    0/1       5
 hasard        1006.92$    +0.7%     +6.37$    1.51$    2/0       5
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 86 — 2026-10-18 10:58:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  20 retenus / 87 ; rejets : liquidité faible ×58, trop récent ×38, volume faible ×28, trop ancien ×8, FDV/liquidité trop élevé ×4
+  [actuelle] ACHAT ZeroFee @ 0.00021352405$ — 19.77$ score 60 coût 1.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       999.03$    -0.1%     -0.75$    0.91$    3/2       3
+actuelle       988.19$    -1.2%     -6.11$    2.23$    2/2       5
+agressive      975.48$    -2.5%    -15.83$    2.05$    0/1       5
+hasard        1006.52$    +0.7%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 87 — 2026-10-18 10:59:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  20 retenus / 88 ; rejets : liquidité faible ×60, trop récent ×40, volume faible ×29, trop ancien ×8, FDV/liquidité trop élevé ×4
+  [agressive] VENTE SUPERCORE @ 0.0003999$ — 16.60$ stop-loss (-44%) PnL -13.32$ coût 1.1%
+  [agressive] ACHAT ZeroFee @ 0.00020998685$ — 29.22$ score 60 coût 1.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       998.96$    -0.1%     -0.75$    0.91$    3/2       3
+actuelle       987.86$    -1.2%     -6.11$    2.23$    2/2       5
+agressive      973.21$    -2.7%    -29.16$    2.56$    0/2       5
+hasard        1005.47$    +0.5%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 88 — 2026-10-18 11:00:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  90 tokens trouvés, analyse en cours…
+  21 retenus / 87 ; rejets : liquidité faible ×58, trop récent ×38, volume faible ×27, trop ancien ×8, FDV/liquidité trop élevé ×4
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       999.89$    -0.0%     -0.75$    0.91$    3/2       3
+actuelle       989.88$    -1.0%     -6.11$    2.23$    2/2       5
+agressive      977.21$    -2.3%    -29.16$    2.56$    0/2       5
+hasard        1005.71$    +0.6%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 89 — 2026-10-18 11:01:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  21 retenus / 87 ; rejets : liquidité faible ×57, trop récent ×38, volume faible ×27, trop ancien ×8, FDV/liquidité trop élevé ×4
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       999.43$    -0.1%     -0.75$    0.91$    3/2       3
+actuelle       988.92$    -1.1%     -6.11$    2.23$    2/2       5
+agressive      975.39$    -2.5%    -29.16$    2.56$    0/2       5
+hasard        1006.13$    +0.6%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 90 — 2026-10-18 11:02:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  21 retenus / 88 ; rejets : liquidité faible ×58, trop récent ×38, volume faible ×29, trop ancien ×9, FDV/liquidité trop élevé ×4
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente      1000.17$    +0.0%     -0.75$    0.91$    3/2       3
+actuelle       990.55$    -0.9%     -6.11$    2.23$    2/2       5
+agressive      978.30$    -2.2%    -29.16$    2.56$    0/2       5
+hasard        1005.97$    +0.6%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)

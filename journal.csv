@@ -36,3 +36,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 10:51:04,hasard,ACHAT,SI276,0.0006674326127,20.15,score 42 coût 1.0%
 2026-10-18 10:52:04,agressive,VENTE,YILONGMA,0.0007669,14.11,stop-loss (-52%) PnL -15.83$ coût 1.0%
 2026-10-18 10:52:04,agressive,ACHAT,CATSZN,0.0009768929838,29.24,score 76 coût 1.1%
+2026-10-18 10:59:03,actuelle,ACHAT,ZeroFee,0.0002135240515,19.77,score 60 coût 1.1%
+2026-10-18 11:00:03,agressive,VENTE,SUPERCORE,0.0003999,16.60,stop-loss (-44%) PnL -13.32$ coût 1.1%
+2026-10-18 11:00:03,agressive,ACHAT,ZeroFee,0.0002099868532,29.22,score 60 coût 1.1%
