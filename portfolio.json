@@ -1,0 +1,737 @@
+{
+ "prudente": {
+  "cash": 960.0121394316235,
+  "positions": {
+   "AcV6CcpMGFrA1dhRFiCKNiVNje8QE6ZXR9ep9jh7pump": {
+    "symbol": "TSI",
+    "entry": 0.0005868633108621405,
+    "qty": 17039.743011552975,
+    "cost": 10.0,
+    "cost0": 10.0,
+    "proceeds": 0.0,
+    "high": 0.0006071,
+    "last": 0.0005603,
+    "liq": 73675.73,
+    "tp_idx": 0,
+    "opened": 1792314680.6121101,
+    "missing": 0,
+    "sources": [
+     "tendance"
+    ],
+    "features": {
+     "score": 74,
+     "liq": 75290,
+     "fdv_liq": 7.52,
+     "age_h": 7.8,
+     "turnover": 2.107,
+     "buy_ratio": 0.534,
+     "m5": -3.79,
+     "h1": 42.52,
+     "h6": 25.03,
+     "boost": 0,
+     "lp_locked": 100,
+     "top10": 14.513257871651536,
+     "rug_score": 1
+    }
+   },
+   "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump": {
+    "symbol": "FTR",
+    "entry": 0.001387991600350225,
+    "qty": 7203.190566116702,
+    "cost": 9.997968001491964,
+    "cost0": 9.997968001491964,
+    "proceeds": 0.0,
+    "high": 0.001471,
+    "last": 0.001372,
+    "liq": 109163.16,
+    "tp_idx": 0,
+    "opened": 1792314680.612524,
+    "missing": 0,
+    "sources": [
+     "boost",
+     "tendance"
+    ],
+    "features": {
+     "score": 72,
+     "liq": 109199,
+     "fdv_liq": 12.45,
+     "age_h": 38.9,
+     "turnover": 1.189,
+     "buy_ratio": 0.694,
+     "m5": 5.72,
+     "h1": 20.41,
+     "h6": -4.35,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 2.096513767963202,
+     "rug_score": 1
+    }
+   },
+   "DrLF1dG1K4U6ggx5BZ6bSwzGcPNVrQwYoTJzRDyZpump": {
+    "symbol": "YILONGMA",
+    "entry": 0.0016819321682947197,
+    "qty": 5943.1365243727605,
+    "cost": 9.995952500909821,
+    "cost0": 9.995952500909821,
+    "proceeds": 0.0,
+    "high": 0.0016819321682947197,
+    "last": 0.001615,
+    "liq": 116158.16,
+    "tp_idx": 0,
+    "opened": 1792314680.612818,
+    "missing": 0,
+    "sources": [
+     "tendance"
+    ],
+    "features": {
+     "score": 71,
+     "liq": 117967,
+     "fdv_liq": 14.06,
+     "age_h": 16.8,
+     "turnover": 1.555,
+     "buy_ratio": 0.628,
+     "m5": -2.2,
+     "h1": 52.62,
+     "h6": -42.45,
+     "boost": 0,
+     "lp_locked": 100,
+     "top10": 1.4569199074329464,
+     "rug_score": 1
+    }
+   },
+   "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump": {
+    "symbol": "Chaton",
+    "entry": 0.0005278860048131696,
+    "qty": 18932.004210855932,
+    "cost": 9.993940065974842,
+    "cost0": 9.993940065974842,
+    "proceeds": 0.0,
+    "high": 0.0005294,
+    "last": 0.0005284,
+    "liq": 65259.65,
+    "tp_idx": 0,
+    "opened": 1792314680.61311,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 70,
+     "liq": 64866,
+     "fdv_liq": 7.97,
+     "age_h": 13.4,
+     "turnover": 1.77,
+     "buy_ratio": 0.629,
+     "m5": -2.21,
+     "h1": 54.32,
+     "h6": -19.9,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 2.33113884729001,
+     "rug_score": 1
+    }
+   }
+  },
+  "realized": 0.0,
+  "fees": 0.40499550186828537,
+  "wins": 0,
+  "losses": 0,
+  "history": [
+   [
+    1792314681,
+    999.19
+   ],
+   [
+    1792314740,
+    999.65
+   ],
+   [
+    1792314799,
+    998.43
+   ],
+   [
+    1792314865,
+    998.18
+   ],
+   [
+    1792314919,
+    998.64
+   ]
+  ]
+ },
+ "actuelle": {
+  "cash": 900.0826960066682,
+  "positions": {
+   "AcV6CcpMGFrA1dhRFiCKNiVNje8QE6ZXR9ep9jh7pump": {
+    "symbol": "TSI",
+    "entry": 0.000587017621724281,
+    "qty": 34070.52745921466,
+    "cost": 20.0,
+    "cost0": 20.0,
+    "proceeds": 0.0,
+    "high": 0.0006071,
+    "last": 0.0005603,
+    "liq": 73675.73,
+    "tp_idx": 0,
+    "opened": 1792314680.6139166,
+    "missing": 0,
+    "sources": [
+     "tendance"
+    ],
+    "features": {
+     "score": 74,
+     "liq": 75290,
+     "fdv_liq": 7.52,
+     "age_h": 7.8,
+     "turnover": 2.107,
+     "buy_ratio": 0.534,
+     "m5": -3.79,
+     "h1": 42.52,
+     "h6": 25.03,
+     "boost": 0,
+     "lp_locked": 100,
+     "top10": 14.513257871651536,
+     "rug_score": 1
+    }
+   },
+   "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump": {
+    "symbol": "FTR",
+    "entry": 0.001388243093219212,
+    "qty": 14400.694709246747,
+    "cost": 19.991664967670246,
+    "cost0": 19.991664967670246,
+    "proceeds": 0.0,
+    "high": 0.001471,
+    "last": 0.001372,
+    "liq": 109163.16,
+    "tp_idx": 0,
+    "opened": 1792314680.6141927,
+    "missing": 0,
+    "sources": [
+     "boost",
+     "tendance"
+    ],
+    "features": {
+     "score": 72,
+     "liq": 109199,
+     "fdv_liq": 12.45,
+     "age_h": 38.9,
+     "turnover": 1.189,
+     "buy_ratio": 0.694,
+     "m5": 5.72,
+     "h1": 20.41,
+     "h6": -4.35,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 2.096513767963202,
+     "rug_score": 1
+    }
+   },
+   "DrLF1dG1K4U6ggx5BZ6bSwzGcPNVrQwYoTJzRDyZpump": {
+    "symbol": "YILONGMA",
+    "entry": 0.0016822140982592707,
+    "qty": 11879.26201396404,
+    "cost": 19.983462036806127,
+    "cost0": 19.983462036806127,
+    "proceeds": 0.0,
+    "high": 0.0016822140982592707,
+    "last": 0.001615,
+    "liq": 116158.16,
+    "tp_idx": 0,
+    "opened": 1792314680.614472,
+    "missing": 0,
+    "sources": [
+     "tendance"
+    ],
+    "features": {
+     "score": 71,
+     "liq": 117967,
+     "fdv_liq": 14.06,
+     "age_h": 16.8,
+     "turnover": 1.555,
+     "buy_ratio": 0.628,
+     "m5": -2.2,
+     "h1": 52.62,
+     "h6": -42.45,
+     "boost": 0,
+     "lp_locked": 100,
+     "top10": 1.4569199074329464,
+     "rug_score": 1
+    }
+   },
+   "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump": {
+    "symbol": "Chaton",
+    "entry": 0.0005280468066959856,
+    "qty": 37828.62337884686,
+    "cost": 19.97528377690519,
+    "cost0": 19.97528377690519,
+    "proceeds": 0.0,
+    "high": 0.0005294,
+    "last": 0.0005284,
+    "liq": 65259.65,
+    "tp_idx": 0,
+    "opened": 1792314680.6147509,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 70,
+     "liq": 64866,
+     "fdv_liq": 7.97,
+     "age_h": 13.4,
+     "turnover": 1.77,
+     "buy_ratio": 0.629,
+     "m5": -2.21,
+     "h1": 54.32,
+     "h6": -19.9,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 2.33113884729001,
+     "rug_score": 1
+    }
+   },
+   "48hnR1CWtafBumJsJod6Q8yduwDuYyumCJzuBVzvpump": {
+    "symbol": "Dip",
+    "entry": 0.00023725973727313084,
+    "qty": 84156.26452862761,
+    "cost": 19.966893211950286,
+    "cost0": 19.966893211950286,
+    "proceeds": 0.0,
+    "high": 0.00023725973727313084,
+    "last": 0.0002241,
+    "liq": 42891.14,
+    "tp_idx": 0,
+    "opened": 1792314680.615047,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 65,
+     "liq": 44056,
+     "fdv_liq": 5.15,
+     "age_h": 61.1,
+     "turnover": 0.138,
+     "buy_ratio": 0.699,
+     "m5": 1.6,
+     "h1": 7.69,
+     "h6": 37.65,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 31.14300409784115,
+     "rug_score": 1
+    }
+   }
+  },
+  "realized": 0.0,
+  "fees": 1.0432778082025203,
+  "wins": 0,
+  "losses": 0,
+  "history": [
+   [
+    1792314681,
+    997.91
+   ],
+   [
+    1792314740,
+    998.84
+   ],
+   [
+    1792314799,
+    995.71
+   ],
+   [
+    1792314865,
+    995.13
+   ],
+   [
+    1792314919,
+    995.94
+   ]
+  ]
+ },
+ "agressive": {
+  "cash": 850.189978558236,
+  "positions": {
+   "AcV6CcpMGFrA1dhRFiCKNiVNje8QE6ZXR9ep9jh7pump": {
+    "symbol": "TSI",
+    "entry": 0.0005871719325864217,
+    "qty": 51092.36040601194,
+    "cost": 30.0,
+    "cost0": 30.0,
+    "proceeds": 0.0,
+    "high": 0.0006071,
+    "last": 0.0005603,
+    "liq": 73675.73,
+    "tp_idx": 0,
+    "opened": 1792314680.6158152,
+    "missing": 0,
+    "sources": [
+     "tendance"
+    ],
+    "features": {
+     "score": 74,
+     "liq": 75290,
+     "fdv_liq": 7.52,
+     "age_h": 7.8,
+     "turnover": 2.107,
+     "buy_ratio": 0.534,
+     "m5": -3.79,
+     "h1": 42.52,
+     "h6": 25.03,
+     "boost": 0,
+     "lp_locked": 100,
+     "top10": 14.513257871651536,
+     "rug_score": 1
+    }
+   },
+   "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump": {
+    "symbol": "FTR",
+    "entry": 0.001388494470800993,
+    "qty": 21592.29391214663,
+    "cost": 29.980780708925536,
+    "cost0": 29.980780708925536,
+    "proceeds": 0.0,
+    "high": 0.001471,
+    "last": 0.001372,
+    "liq": 109163.16,
+    "tp_idx": 0,
+    "opened": 1792314680.6161857,
+    "missing": 0,
+    "sources": [
+     "boost",
+     "tendance"
+    ],
+    "features": {
+     "score": 72,
+     "liq": 109199,
+     "fdv_liq": 12.45,
+     "age_h": 38.9,
+     "turnover": 1.189,
+     "buy_ratio": 0.694,
+     "m5": 5.72,
+     "h1": 20.41,
+     "h6": -4.35,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 2.096513767963202,
+     "rug_score": 1
+    }
+   },
+   "DrLF1dG1K4U6ggx5BZ6bSwzGcPNVrQwYoTJzRDyZpump": {
+    "symbol": "YILONGMA",
+    "entry": 0.0016824957751887257,
+    "qty": 17808.073054396984,
+    "cost": 29.962007678275114,
+    "cost0": 29.962007678275114,
+    "proceeds": 0.0,
+    "high": 0.0016824957751887257,
+    "last": 0.001615,
+    "liq": 116158.16,
+    "tp_idx": 0,
+    "opened": 1792314680.6164618,
+    "missing": 0,
+    "sources": [
+     "tendance"
+    ],
+    "features": {
+     "score": 71,
+     "liq": 117967,
+     "fdv_liq": 14.06,
+     "age_h": 16.8,
+     "turnover": 1.555,
+     "buy_ratio": 0.628,
+     "m5": -2.2,
+     "h1": 52.62,
+     "h6": -42.45,
+     "boost": 0,
+     "lp_locked": 100,
+     "top10": 1.4569199074329464,
+     "rug_score": 1
+    }
+   },
+   "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump": {
+    "symbol": "Chaton",
+    "entry": 0.0005282073941663805,
+    "qty": 56688.56351700887,
+    "cost": 29.9433184143546,
+    "cost0": 29.9433184143546,
+    "proceeds": 0.0,
+    "high": 0.0005294,
+    "last": 0.0005284,
+    "liq": 65259.65,
+    "tp_idx": 0,
+    "opened": 1792314680.6167526,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 70,
+     "liq": 64866,
+     "fdv_liq": 7.97,
+     "age_h": 13.4,
+     "turnover": 1.77,
+     "buy_ratio": 0.629,
+     "m5": -2.21,
+     "h1": 54.32,
+     "h6": -19.9,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 2.33113884729001,
+     "rug_score": 1
+    }
+   },
+   "48hnR1CWtafBumJsJod6Q8yduwDuYyumCJzuBVzvpump": {
+    "symbol": "Dip",
+    "entry": 0.00023736582436262784,
+    "qty": 126066.65142532658,
+    "cost": 29.923914640208697,
+    "cost0": 29.923914640208697,
+    "proceeds": 0.0,
+    "high": 0.00023736582436262784,
+    "last": 0.0002241,
+    "liq": 42891.14,
+    "tp_idx": 0,
+    "opened": 1792314680.6170616,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 65,
+     "liq": 44056,
+     "fdv_liq": 5.15,
+     "age_h": 61.1,
+     "turnover": 0.138,
+     "buy_ratio": 0.699,
+     "m5": 1.6,
+     "h1": 7.69,
+     "h6": 37.65,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 31.14300409784115,
+     "rug_score": 1
+    }
+   }
+  },
+  "realized": 0.0,
+  "fees": 1.604598283889879,
+  "wins": 0,
+  "losses": 0,
+  "history": [
+   [
+    1792314681,
+    996.79
+   ],
+   [
+    1792314740,
+    998.17
+   ],
+   [
+    1792314799,
+    993.48
+   ],
+   [
+    1792314865,
+    992.61
+   ],
+   [
+    1792314919,
+    993.84
+   ]
+  ]
+ },
+ "hasard": {
+  "cash": 900.0860658822712,
+  "positions": {
+   "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump": {
+    "symbol": "MOMO",
+    "entry": 0.00011014266889785252,
+    "qty": 181582.67091337882,
+    "cost": 20.0,
+    "cost0": 20.0,
+    "proceeds": 0.0,
+    "high": 0.0001144,
+    "last": 0.0001075,
+    "liq": 28158.34,
+    "tp_idx": 0,
+    "opened": 1792314680.6179059,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 48,
+     "liq": 28347,
+     "fdv_liq": 3.75,
+     "age_h": 31.4,
+     "turnover": 0.217,
+     "buy_ratio": 0.679,
+     "m5": 0.67,
+     "h1": -4.61,
+     "h6": 3.83,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 18.368013317641925,
+     "rug_score": 1
+    }
+   },
+   "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump": {
+    "symbol": "Chaton",
+    "entry": 0.0005280470595725892,
+    "qty": 37858.331087098966,
+    "cost": 19.990980410868154,
+    "cost0": 19.990980410868154,
+    "proceeds": 0.0,
+    "high": 0.0005294,
+    "last": 0.0005284,
+    "liq": 65259.65,
+    "tp_idx": 0,
+    "opened": 1792314680.6181905,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 70,
+     "liq": 64866,
+     "fdv_liq": 7.97,
+     "age_h": 13.4,
+     "turnover": 1.77,
+     "buy_ratio": 0.629,
+     "m5": -2.21,
+     "h1": 54.32,
+     "h6": -19.9,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 2.33113884729001,
+     "rug_score": 1
+    }
+   },
+   "B2GESkSErPjuCq6n4LcaJP5v2z1kJnw3xHVZnop2sZx": {
+    "symbol": "ELON",
+    "entry": 0.003066032899486225,
+    "qty": 6517.406541573957,
+    "cost": 19.982582875792488,
+    "cost0": 19.982582875792488,
+    "proceeds": 0.0,
+    "high": 0.003066032899486225,
+    "last": 0.003063,
+    "liq": 178426.82,
+    "tp_idx": 0,
+    "opened": 1792314680.6184788,
+    "missing": 0,
+    "sources": [
+     "tendance"
+    ],
+    "features": {
+     "score": 58,
+     "liq": 177617,
+     "fdv_liq": 17.09,
+     "age_h": 39.7,
+     "turnover": 0.286,
+     "buy_ratio": 0.515,
+     "m5": -3.15,
+     "h1": 7.09,
+     "h6": 16.65,
+     "boost": 0,
+     "lp_locked": 99.79999999995705,
+     "top10": 25.67893280911478,
+     "rug_score": 1
+    }
+   },
+   "48hnR1CWtafBumJsJod6Q8yduwDuYyumCJzuBVzvpump": {
+    "symbol": "Dip",
+    "entry": 0.000237259818251638,
+    "qty": 84188.26990201214,
+    "cost": 19.974493615871246,
+    "cost0": 19.974493615871246,
+    "proceeds": 0.0,
+    "high": 0.000237259818251638,
+    "last": 0.0002241,
+    "liq": 42891.14,
+    "tp_idx": 0,
+    "opened": 1792314680.6187565,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 65,
+     "liq": 44056,
+     "fdv_liq": 5.15,
+     "age_h": 61.1,
+     "turnover": 0.138,
+     "buy_ratio": 0.699,
+     "m5": 1.6,
+     "h1": 7.69,
+     "h6": 37.65,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 31.14300409784115,
+     "rug_score": 1
+    }
+   },
+   "8QtbrC9d3BezyCwzBFUQbNsWJGte7ckrZ7HWcn81pump": {
+    "symbol": "DICKBUTTIFIER",
+    "entry": 9.114460122206498e-05,
+    "qty": 219057.15695164536,
+    "cost": 19.965877215197015,
+    "cost0": 19.965877215197015,
+    "proceeds": 0.0,
+    "high": 9.114460122206498e-05,
+    "last": 8.865e-05,
+    "liq": 24883.71,
+    "tp_idx": 0,
+    "opened": 1792314680.619086,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 47,
+     "liq": 25054,
+     "fdv_liq": 3.46,
+     "age_h": 63.0,
+     "turnover": 0.089,
+     "buy_ratio": 0.622,
+     "m5": -0.21,
+     "h1": 2.84,
+     "h6": 14.5,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 31.68432063974344,
+     "rug_score": 1
+    }
+   }
+  },
+  "realized": 0.0,
+  "fees": 1.0822376212302873,
+  "wins": 0,
+  "losses": 0,
+  "history": [
+   [
+    1792314681,
+    997.84
+   ],
+   [
+    1792314740,
+    996.94
+   ],
+   [
+    1792314799,
+    997.06
+   ],
+   [
+    1792314865,
+    997.61
+   ],
+   [
+    1792314919,
+    996.79
+   ]
+  ]
+ }
+}
