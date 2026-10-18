@@ -53,3 +53,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 11:28:04,prudente,ACHAT,Chaton,0.0007635490194,10.02,score 81 coût 1.0%
 2026-10-18 11:28:04,agressive,VENTE,Chaton,0.0007558,18.47,trailing-stop PnL +8.43$ coût 1.0%
 2026-10-18 11:28:04,agressive,ACHAT,Chaton,0.0007639291615,29.96,score 81 coût 1.1%
+2026-10-18 11:34:04,prudente,VENTE,Chaton,0.0005477,7.11,stop-loss (-28%) PnL -2.91$ coût 1.0%
+2026-10-18 11:34:04,actuelle,VENTE,Chaton,0.0005477,12.48,stop-loss (-37%) PnL -7.51$ coût 1.0%
+2026-10-18 11:34:04,actuelle,ACHAT,Chaton,0.0005534997431,19.82,score 65 coût 1.1%
