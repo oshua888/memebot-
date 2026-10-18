@@ -2169,3 +2169,69 @@ actuelle       975.03$    -2.5%    -18.71$    4.17$    5/6       5
 agressive      969.49$    -3.1%     -3.58$    4.11$    3/3       5
 hasard         996.99$    -0.3%     -0.13$    1.86$    2/1       5
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 176 — 2026-10-18 12:28:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  91 tokens trouvés, analyse en cours…
+  19 retenus / 91 ; rejets : liquidité faible ×63, trop récent ×41, volume faible ×32, trop ancien ×8, FDV/liquidité trop élevé ×5
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       995.98$    -0.4%     -5.61$    1.68$    6/6       1
+actuelle       973.34$    -2.7%    -18.71$    4.17$    5/6       5
+agressive      967.23$    -3.3%     -3.58$    4.11$    3/3       5
+hasard         996.73$    -0.3%     -0.13$    1.86$    2/1       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 177 — 2026-10-18 12:29:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  92 tokens trouvés, analyse en cours…
+  19 retenus / 92 ; rejets : liquidité faible ×64, trop récent ×41, volume faible ×33, trop ancien ×8, FDV/liquidité trop élevé ×5
+  [actuelle] VENTE Chaton @ 0.0002369$ — 12.25$ stop-loss (-37%) PnL -7.27$ coût 1.1%
+  [actuelle] ACHAT Chaton @ 0.00023947852$ — 19.37$ score 63 coût 1.1%
+  [agressive] VENTE Chaton @ 0.0002369$ — 15.10$ stop-loss (-48%) PnL -14.29$ coût 1.1%
+  [agressive] ACHAT mucron @ 0.00080463734$ — 28.92$ score 64 coût 1.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       995.74$    -0.4%     -5.61$    1.68$    6/6       1
+actuelle       968.03$    -3.2%    -25.98$    4.51$    5/7       5
+agressive      963.29$    -3.7%    -17.87$    4.58$    3/4       5
+hasard         996.72$    -0.3%     -0.13$    1.86$    2/1       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 178 — 2026-10-18 12:30:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  92 tokens trouvés, analyse en cours…
+  19 retenus / 92 ; rejets : liquidité faible ×64, trop récent ×40, volume faible ×33, trop ancien ×8, FDV/liquidité trop élevé ×5
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       995.89$    -0.4%     -5.61$    1.68$    6/6       1
+actuelle       969.21$    -3.1%    -25.98$    4.51$    5/7       5
+agressive      963.69$    -3.6%    -17.87$    4.58$    3/4       5
+hasard         996.46$    -0.4%     -0.13$    1.86$    2/1       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 179 — 2026-10-18 12:31:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  92 tokens trouvés, analyse en cours…
+  19 retenus / 92 ; rejets : liquidité faible ×64, trop récent ×40, volume faible ×32, trop ancien ×8, FDV/liquidité trop élevé ×5
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       995.94$    -0.4%     -5.61$    1.68$    6/6       1
+actuelle       970.54$    -2.9%    -25.98$    4.51$    5/7       5
+agressive      962.81$    -3.7%    -17.87$    4.58$    3/4       5
+hasard         996.84$    -0.3%     -0.13$    1.86$    2/1       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 180 — 2026-10-18 12:32:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  92 tokens trouvés, analyse en cours…
+  19 retenus / 88 ; rejets : liquidité faible ×60, trop récent ×36, volume faible ×28, trop ancien ×8, FDV/liquidité trop élevé ×5
+  [agressive] VENTE TSI @ 0.0002977$ — 17.61$ stop-loss (-41%) PnL -12.35$ coût 1.1%
+  [agressive] ACHAT Chaton @ 0.00025767177$ — 28.91$ score 63 coût 1.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       996.10$    -0.4%     -5.61$    1.68$    6/6       1
+actuelle       971.19$    -2.9%    -25.98$    4.51$    5/7       5
+agressive      963.02$    -3.7%    -30.22$    5.09$    3/5       5
+hasard         996.59$    -0.3%     -0.13$    1.86$    2/1       5
+(argent fictif — valeur nette si tout était revendu maintenant)
