@@ -61,3 +61,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-18 18:12,2026-10-18 19:38,hasard,CATONICE,boost,trailing-stop,1.43,39.33,65,94694,12.29,2.6,3.275,0.827,-0.82,-2.54,1767,1
 2026-10-18 18:58,2026-10-18 19:40,prudente,CATSZN,boost+tendance,stop-loss (-27%),0.7,-27.38,72,60606,6.98,16.5,5.168,0.628,4.86,5.32,-62.58,1
 2026-10-18 18:58,2026-10-18 19:42,actuelle,CATSZN,boost+tendance,stop-loss (-47%),0.73,-47.86,72,60606,6.98,16.5,5.168,0.628,4.86,5.32,-62.58,1
+2026-10-18 19:15,2026-10-18 19:55,prudente,ELON,tendance,stop-loss (-22%),0.67,-23.12,70,187682,17.63,49.7,1.127,0.669,63.67,39.25,70.66,0
