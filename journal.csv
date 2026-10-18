@@ -165,3 +165,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 19:55:10,prudente,VENTE,ELON,0.002596,7.64,stop-loss (-22%) PnL -2.30$ coût 1.0%
 2026-10-18 20:14:11,prudente,VENTE,CATONICE,0.001261,7.59,stop-loss (-23%) PnL -2.33$ coût 1.0%
 2026-10-18 20:28:11,actuelle,ACHAT,MOMO,0.000121947789,17.82,score 61 coût 1.1%
+2026-10-18 20:40:10,actuelle,VENTE,CATONICE,0.00112,12.49,stop-loss (-30%) PnL -5.57$ coût 1.0%
