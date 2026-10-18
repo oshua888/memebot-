@@ -88,3 +88,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 15:04:26,agressive,ACHAT,koinu,9.737107885e-05,28.22,score 65 coût 1.2%
 2026-10-18 15:08:26,actuelle,VENTE,YILONGMA,0.000421,9.45,palier +50% PnL +3.16$ coût 1.0%
 2026-10-18 15:12:27,prudente,VENTE,YILONGMA,0.0004963,6.59,palier +30% PnL +1.61$ coût 1.0%
+2026-10-18 15:15:24,actuelle,VENTE,YILONGMA,0.000573,13.05,palier +100% PnL +6.67$ coût 1.0%
+2026-10-18 15:15:24,agressive,VENTE,YILONGMA,0.000573,18.95,palier +100% PnL +9.68$ coût 1.1%
+2026-10-18 15:16:24,prudente,ACHAT,mucron,0.0005842481392,9.99,score 74 coût 1.0%
