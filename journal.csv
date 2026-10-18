@@ -75,3 +75,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 12:30:03,agressive,ACHAT,mucron,0.0008046373369,28.92,score 64 coût 1.1%
 2026-10-18 12:33:02,agressive,VENTE,TSI,0.0002977,17.61,stop-loss (-41%) PnL -12.35$ coût 1.1%
 2026-10-18 12:33:02,agressive,ACHAT,Chaton,0.0002576717748,28.91,score 63 coût 1.1%
+2026-10-18 12:41:02,actuelle,VENTE,Chaton,7.292e-06,0.58,stop-loss (-97%) PnL -18.79$ coût 1.0%
+2026-10-18 12:41:02,actuelle,ACHAT,YILONGMA,0.00027726314,19.05,score 69 coût 1.1%
+2026-10-18 12:41:02,agressive,VENTE,Chaton,7.292e-06,0.81,stop-loss (-97%) PnL -28.10$ coût 1.0%
+2026-10-18 12:41:02,agressive,ACHAT,YILONGMA,0.0002773676199,28.09,score 69 coût 1.1%
+2026-10-18 12:43:02,actuelle,VENTE,mucron,0.0006631,13.13,stop-loss (-32%) PnL -6.46$ coût 1.0%
+2026-10-18 12:43:02,actuelle,ACHAT,GLITCH,0.00184586652,18.99,score 63 coût 1.0%
