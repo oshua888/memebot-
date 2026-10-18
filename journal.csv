@@ -144,3 +144,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 19:12:09,prudente,VENTE,CATONICE,0.001836,4.18,palier +60% PnL +1.71$ coût 1.0%
 2026-10-18 19:12:09,actuelle,VENTE,CATONICE,0.001836,9.64,palier +50% PnL +3.60$ coût 1.0%
 2026-10-18 19:12:09,hasard,VENTE,CATONICE,0.001836,9.88,palier +50% PnL +3.44$ coût 1.0%
+2026-10-18 19:15:09,prudente,ACHAT,ELON,0.003342440382,9.94,score 70 coût 1.0%
+2026-10-18 19:15:09,agressive,VENTE,mucron,0.000329,16.61,stop-loss (-40%) PnL -11.39$ coût 1.1%
+2026-10-18 19:15:09,agressive,ACHAT,ELON,0.003343052017,27.28,score 70 coût 1.0%
