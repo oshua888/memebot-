@@ -59,3 +59,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 11:47:03,actuelle,VENTE,FTR,0.0009601,13.82,stop-loss (-30%) PnL -6.18$ coût 1.0%
 2026-10-18 11:47:03,actuelle,ACHAT,SI276,0.0007021765578,19.64,score 60 coût 1.0%
 2026-10-18 11:52:03,prudente,ACHAT,Chaton,0.0004883868914,9.97,score 72 coût 1.0%
+2026-10-18 11:54:03,agressive,VENTE,Chaton,0.0004513,17.51,stop-loss (-41%) PnL -12.45$ coût 1.1%
+2026-10-18 11:54:03,agressive,ACHAT,Chaton,0.0004562488556,29.39,score 65 coût 1.1%

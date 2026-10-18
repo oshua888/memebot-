@@ -1739,3 +1739,65 @@ actuelle       985.55$    -1.4%     -5.49$    3.48$    5/4       5
 agressive      982.10$    -1.8%     +8.87$    3.60$    3/2       5
 hasard        1004.43$    +0.4%     +6.37$    1.51$    2/0       5
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 141 — 2026-10-18 11:53:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  20 retenus / 88 ; rejets : liquidité faible ×59, trop récent ×38, volume faible ×28, trop ancien ×8, FDV/liquidité trop élevé ×5
+  [agressive] VENTE Chaton @ 0.0004513$ — 17.51$ stop-loss (-41%) PnL -12.45$ coût 1.1%
+  [agressive] ACHAT Chaton @ 0.00045624886$ — 29.39$ score 65 coût 1.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       996.59$    -0.3%     -0.82$    1.52$    6/4       3
+actuelle       983.63$    -1.6%     -5.49$    3.48$    5/4       5
+agressive      979.11$    -2.1%     -3.58$    4.11$    3/3       5
+hasard        1003.99$    +0.4%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 142 — 2026-10-18 11:54:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  20 retenus / 89 ; rejets : liquidité faible ×60, trop récent ×40, volume faible ×29, trop ancien ×8, FDV/liquidité trop élevé ×5
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       996.91$    -0.3%     -0.82$    1.52$    6/4       3
+actuelle       984.14$    -1.6%     -5.49$    3.48$    5/4       5
+agressive      980.17$    -2.0%     -3.58$    4.11$    3/3       5
+hasard        1004.00$    +0.4%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 143 — 2026-10-18 11:55:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  20 retenus / 87 ; rejets : liquidité faible ×58, trop récent ×37, volume faible ×28, trop ancien ×8, FDV/liquidité trop élevé ×5
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       996.49$    -0.4%     -0.82$    1.52$    6/4       3
+actuelle       983.38$    -1.7%     -5.49$    3.48$    5/4       5
+agressive      979.41$    -2.1%     -3.58$    4.11$    3/3       5
+hasard        1004.20$    +0.4%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 144 — 2026-10-18 11:56:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  20 retenus / 89 ; rejets : liquidité faible ×60, trop récent ×40, volume faible ×30, trop ancien ×8, FDV/liquidité trop élevé ×5
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       996.71$    -0.3%     -0.82$    1.52$    6/4       3
+actuelle       983.75$    -1.6%     -5.49$    3.48$    5/4       5
+agressive      979.80$    -2.0%     -3.58$    4.11$    3/3       5
+hasard        1003.59$    +0.4%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 145 — 2026-10-18 11:57:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  20 retenus / 89 ; rejets : liquidité faible ×60, trop récent ×39, volume faible ×30, trop ancien ×8, FDV/liquidité trop élevé ×5
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       997.34$    -0.3%     -0.82$    1.52$    6/4       3
+actuelle       985.35$    -1.5%     -5.49$    3.48$    5/4       5
+agressive      982.16$    -1.8%     -3.58$    4.11$    3/3       5
+hasard        1003.36$    +0.3%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
