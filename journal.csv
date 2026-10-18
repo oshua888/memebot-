@@ -39,3 +39,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 10:59:03,actuelle,ACHAT,ZeroFee,0.0002135240515,19.77,score 60 coût 1.1%
 2026-10-18 11:00:03,agressive,VENTE,SUPERCORE,0.0003999,16.60,stop-loss (-44%) PnL -13.32$ coût 1.1%
 2026-10-18 11:00:03,agressive,ACHAT,ZeroFee,0.0002099868532,29.22,score 60 coût 1.1%
+2026-10-18 11:08:04,prudente,VENTE,Chaton,0.000767,6.97,palier +30% PnL +1.97$ coût 1.0%
