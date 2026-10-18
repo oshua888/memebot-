@@ -5553,3 +5553,74 @@ agressive      866.30$   -13.4%   -142.07$    9.30$    4/14      5
 hasard         976.18$    -2.4%    -18.82$    3.82$    5/5       5
 apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 196 — 2026-10-18 19:37:57 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  16 retenus / 94 ; rejets : liquidité faible ×69, trop récent ×46, volume faible ×38, trop ancien ×8, FDV/liquidité trop élevé ×2
+  [actuelle] VENTE CATONICE @ 0.001586$ — 16.91$ trailing-stop PnL +4.64$ coût 1.0%
+  [actuelle] ACHAT CATONICE @ 0.0016023746$ — 18.06$ score 81 coût 1.0%
+  [hasard] VENTE CATONICE @ 0.001586$ — 17.32$ trailing-stop PnL +4.24$ coût 1.0%
+  [hasard] ACHAT MINTER @ 0.0060781962$ — 19.49$ score 64 coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       989.74$    -1.0%     -7.77$    3.69$   13/12      5
+actuelle       902.63$    -9.7%    -91.40$    8.57$    9/18      5
+agressive      864.80$   -13.5%   -142.07$    9.30$    4/14      5
+hasard         974.05$    -2.6%    -14.58$    4.19$    6/5       5
+apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 197 — 2026-10-18 19:38:57 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  93 tokens trouvés, analyse en cours…
+  16 retenus / 92 ; rejets : liquidité faible ×68, trop récent ×44, volume faible ×36, trop ancien ×8, FDV/liquidité trop élevé ×2
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       988.45$    -1.2%     -7.77$    3.69$   13/12      5
+actuelle       900.72$    -9.9%    -91.40$    8.57$    9/18      5
+agressive      866.37$   -13.4%   -142.07$    9.30$    4/14      5
+hasard         972.24$    -2.8%    -14.58$    4.19$    6/5       5
+apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 198 — 2026-10-18 19:39:57 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  95 tokens trouvés, analyse en cours…
+  17 retenus / 93 ; rejets : liquidité faible ×67, trop récent ×43, volume faible ×33, trop ancien ×8, FDV/liquidité trop élevé ×2
+  [prudente] VENTE CATSZN @ 0.000317$ — 7.21$ stop-loss (-27%) PnL -2.72$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       988.09$    -1.2%    -10.48$    3.76$   13/13      4
+actuelle       899.94$   -10.0%    -91.40$    8.57$    9/18      5
+agressive      866.93$   -13.3%   -142.07$    9.30$    4/14      5
+hasard         972.26$    -2.8%    -14.58$    4.19$    6/5       5
+apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 199 — 2026-10-18 19:40:57 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  18 retenus / 93 ; rejets : liquidité faible ×66, trop récent ×44, volume faible ×34, trop ancien ×8, FDV/liquidité trop élevé ×2
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       988.51$    -1.1%    -10.48$    3.76$   13/13      4
+actuelle       900.69$    -9.9%    -91.40$    8.57$    9/18      5
+agressive      869.00$   -13.1%   -142.07$    9.30$    4/14      5
+hasard         973.44$    -2.7%    -14.58$    4.19$    6/5       5
+apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 200 — 2026-10-18 19:41:57 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  18 retenus / 94 ; rejets : liquidité faible ×68, trop récent ×45, volume faible ×36, trop ancien ×8, FDV/liquidité trop élevé ×2
+  [actuelle] VENTE CATSZN @ 0.0002277$ — 9.54$ stop-loss (-47%) PnL -8.75$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       988.50$    -1.1%    -10.48$    3.76$   13/13      4
+actuelle       896.86$   -10.3%   -100.16$    8.67$    9/19      4
+agressive      869.35$   -13.1%   -142.07$    9.30$    4/14      5
+hasard         973.78$    -2.6%    -14.58$    4.19$    6/5       5
+apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
+(argent fictif — valeur nette si tout était revendu maintenant)

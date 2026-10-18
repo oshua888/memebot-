@@ -156,3 +156,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 19:30:09,actuelle,ACHAT,CBUCKS,0.0009746985282,18.10,score 63 coût 1.0%
 2026-10-18 19:31:09,agressive,VENTE,ZeroFee,0.0001209,16.63,stop-loss (-42%) PnL -12.58$ coût 1.1%
 2026-10-18 19:31:09,agressive,ACHAT,CBUCKS,0.0009976860895,26.12,score 63 coût 1.1%
+2026-10-18 19:38:11,actuelle,VENTE,CATONICE,0.001586,16.91,trailing-stop PnL +4.64$ coût 1.0%
+2026-10-18 19:38:11,actuelle,ACHAT,CATONICE,0.001602374574,18.06,score 81 coût 1.0%
+2026-10-18 19:38:11,hasard,VENTE,CATONICE,0.001586,17.32,trailing-stop PnL +4.24$ coût 1.0%
+2026-10-18 19:38:11,hasard,ACHAT,MINTER,0.006078196155,19.49,score 64 coût 1.0%
+2026-10-18 19:40:09,prudente,VENTE,CATSZN,0.000317,7.21,stop-loss (-27%) PnL -2.72$ coût 1.0%
+2026-10-18 19:42:10,actuelle,VENTE,CATSZN,0.0002277,9.54,stop-loss (-47%) PnL -8.75$ coût 1.0%
