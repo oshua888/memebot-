@@ -103,3 +103,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 15:42:25,hasard,VENTE,hi,0.0006562,9.88,palier +50% PnL +3.33$ coût 1.0%
 2026-10-18 15:57:26,prudente,ACHAT,koinu,0.0001306770671,9.91,score 71 coût 1.1%
 2026-10-18 16:07:25,prudente,VENTE,CATSZN,0.0007704,7.83,stop-loss (-21%) PnL -2.18$ coût 1.0%
+2026-10-18 16:17:26,actuelle,VENTE,CATSZN,0.0006535,12.38,stop-loss (-37%) PnL -7.56$ coût 1.0%
+2026-10-18 16:17:26,actuelle,ACHAT,Gold,0.0001245856859,18.92,score 67 coût 1.1%
+2026-10-18 16:18:25,agressive,VENTE,CATSZN,0.0005683,16.83,stop-loss (-42%) PnL -12.41$ coût 1.0%
+2026-10-18 16:18:25,agressive,ACHAT,Dip,0.0003430546914,27.98,score 61 coût 1.1%
