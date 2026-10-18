@@ -141,3 +141,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 18:58:09,prudente,ACHAT,CATSZN,0.0004320160171,9.92,score 72 coût 1.0%
 2026-10-18 18:58:09,actuelle,VENTE,ELON,0.002045,12.75,stop-loss (-31%) PnL -5.90$ coût 1.0%
 2026-10-18 18:58:09,actuelle,ACHAT,CATSZN,0.0004321341048,18.29,score 72 coût 1.1%
+2026-10-18 19:12:09,prudente,VENTE,CATONICE,0.001836,4.18,palier +60% PnL +1.71$ coût 1.0%
+2026-10-18 19:12:09,actuelle,VENTE,CATONICE,0.001836,9.64,palier +50% PnL +3.60$ coût 1.0%
+2026-10-18 19:12:09,hasard,VENTE,CATONICE,0.001836,9.88,palier +50% PnL +3.44$ coût 1.0%
