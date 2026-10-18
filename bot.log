@@ -929,3 +929,70 @@ actuelle       989.71$    -1.0%     -3.00$    1.49$    1/1       5
 agressive      984.58$    -1.5%     +0.00$    1.59$    0/0       5
 hasard        1008.45$    +0.8%     +3.21$    1.13$    1/0       5
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 76 — 2026-10-18 10:48:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  22 retenus / 79 ; rejets : liquidité faible ×50, trop récent ×31, volume faible ×22, trop ancien ×7, FDV/liquidité trop élevé ×4
+  [actuelle] VENTE YILONGMA @ 0.001116$ — 13.70$ stop-loss (-31%) PnL -6.28$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       999.68$    -0.0%     -0.75$    0.91$    3/2       3
+actuelle       990.75$    -0.9%     -9.27$    1.63$    1/2       4
+agressive      986.02$    -1.4%     +0.00$    1.59$    0/0       5
+hasard        1009.66$    +1.0%     +3.21$    1.13$    1/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 77 — 2026-10-18 10:49:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  21 retenus / 85 ; rejets : liquidité faible ×55, trop récent ×37, volume faible ×28, trop ancien ×7, FDV/liquidité trop élevé ×4
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       998.84$    -0.1%     -0.75$    0.91$    3/2       3
+actuelle       989.33$    -1.1%     -9.27$    1.63$    1/2       4
+agressive      982.61$    -1.7%     +0.00$    1.59$    0/0       5
+hasard        1008.48$    +0.8%     +3.21$    1.13$    1/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 78 — 2026-10-18 10:50:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  21 retenus / 86 ; rejets : liquidité faible ×58, trop récent ×38, volume faible ×28, trop ancien ×7, FDV/liquidité trop élevé ×4
+  [actuelle] VENTE Chaton @ 0.0005079$ — 16.56$ trailing-stop PnL +3.16$ coût 1.1%
+  [actuelle] ACHAT Chaton @ 0.00051329084$ — 19.78$ score 65 coût 1.1%
+  [hasard] VENTE Chaton @ 0.0005079$ — 16.57$ trailing-stop PnL +3.17$ coût 1.1%
+  [hasard] ACHAT SI276 @ 0.00066743261$ — 20.15$ score 42 coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       998.70$    -0.1%     -0.75$    0.91$    3/2       3
+actuelle       988.56$    -1.1%     -6.11$    2.02$    2/2       4
+agressive      978.06$    -2.2%     +0.00$    1.59$    0/0       5
+hasard        1007.17$    +0.7%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 79 — 2026-10-18 10:51:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  21 retenus / 86 ; rejets : liquidité faible ×58, trop récent ×38, volume faible ×28, trop ancien ×7, FDV/liquidité trop élevé ×4
+  [agressive] VENTE YILONGMA @ 0.0007669$ — 14.11$ stop-loss (-52%) PnL -15.83$ coût 1.0%
+  [agressive] ACHAT CATSZN @ 0.00097689298$ — 29.24$ score 76 coût 1.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       998.23$    -0.2%     -0.75$    0.91$    3/2       3
+actuelle       987.74$    -1.2%     -6.11$    2.02$    2/2       4
+agressive      974.10$    -2.6%    -15.83$    2.05$    0/1       5
+hasard        1007.06$    +0.7%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 80 — 2026-10-18 10:52:50 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  21 retenus / 77 ; rejets : liquidité faible ×49, trop récent ×29, volume faible ×19, trop ancien ×7, FDV/liquidité trop élevé ×4, aucune vente ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       997.87$    -0.2%     -0.75$    0.91$    3/2       3
+actuelle       986.83$    -1.3%     -6.11$    2.02$    2/2       4
+agressive      972.35$    -2.8%    -15.83$    2.05$    0/1       5
+hasard        1006.69$    +0.7%     +6.37$    1.51$    2/0       5
+(argent fictif — valeur nette si tout était revendu maintenant)

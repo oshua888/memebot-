@@ -29,3 +29,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 10:13:03,prudente,VENTE,Chaton,0.0005392,3.28,trailing-stop PnL +0.78$ coût 1.0%
 2026-10-18 10:13:03,prudente,ACHAT,Chaton,0.0005447547973,10.00,score 80 coût 1.0%
 2026-10-18 10:31:04,prudente,VENTE,SUPERCORE,0.0004375,7.75,stop-loss (-22%) PnL -2.25$ coût 1.0%
+2026-10-18 10:49:05,actuelle,VENTE,YILONGMA,0.001116,13.70,stop-loss (-31%) PnL -6.28$ coût 1.0%
+2026-10-18 10:51:04,actuelle,VENTE,Chaton,0.0005079,16.56,trailing-stop PnL +3.16$ coût 1.1%
+2026-10-18 10:51:04,actuelle,ACHAT,Chaton,0.0005132908397,19.78,score 65 coût 1.1%
+2026-10-18 10:51:04,hasard,VENTE,Chaton,0.0005079,16.57,trailing-stop PnL +3.17$ coût 1.1%
+2026-10-18 10:51:04,hasard,ACHAT,SI276,0.0006674326127,20.15,score 42 coût 1.0%
+2026-10-18 10:52:04,agressive,VENTE,YILONGMA,0.0007669,14.11,stop-loss (-52%) PnL -15.83$ coût 1.0%
+2026-10-18 10:52:04,agressive,ACHAT,CATSZN,0.0009768929838,29.24,score 76 coût 1.1%
