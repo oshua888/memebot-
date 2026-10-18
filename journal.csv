@@ -121,3 +121,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 17:37:11,prudente,ACHAT,CATONICE,0.001074874115,9.88,score 80 coût 1.0%
 2026-10-18 17:44:11,hasard,VENTE,SI276,0.0004666,13.94,stop-loss (-30%) PnL -6.21$ coût 1.0%
 2026-10-18 17:44:11,hasard,ACHAT,CATSZN,0.0004857040409,19.66,score 34 coût 1.1%
+2026-10-18 18:07:13,prudente,VENTE,MINTER,0.01603,7.04,palier +30% PnL +2.11$ coût 1.0%
