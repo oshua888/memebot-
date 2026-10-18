@@ -9,3 +9,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-17 23:01:51,prudente,ACHAT,YILONGMA,0.00108936,10.00,score 87
 2026-10-17 23:01:51,actuelle,ACHAT,GLITCH,0.00129642,20.10,score 69
 2026-10-17 23:01:51,agressive,ACHAT,GLITCH,0.00129642,30.09,score 69
+2026-10-18 00:50:40,prudente,VENTE,YILONGMA,0.002002,9.01,take-profit 50% PnL +4.01$
+2026-10-18 00:50:40,actuelle,VENTE,YILONGMA,0.002002,24.85,take-profit 50% PnL +14.88$
+2026-10-18 00:50:40,actuelle,ACHAT,FTR,0.00128928,20.46,score 63
