@@ -20,3 +20,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 09:46:02,prudente,ACHAT,SUPERCORE,0.0005588911443,10.01,score 71 coût 1.0%
 2026-10-18 09:47:02,prudente,VENTE,FTR,0.001079,7.77,stop-loss (-22%) PnL -2.23$ coût 1.0%
 2026-10-18 09:51:02,prudente,VENTE,Chaton,0.0005309,6.46,palier +30% PnL +1.47$ coût 1.0%
+2026-10-18 09:55:02,actuelle,VENTE,Chaton,0.0006102,9.80,palier +50% PnL +3.20$ coût 1.0%
+2026-10-18 09:55:02,hasard,VENTE,Chaton,0.0006102,9.81,palier +50% PnL +3.21$ coût 1.0%
