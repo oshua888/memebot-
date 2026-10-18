@@ -83,6 +83,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 12:43:02,actuelle,ACHAT,GLITCH,0.00184586652,18.99,score 63 coût 1.0%
 2026-10-18 12:44:02,hasard,VENTE,ELON,0.001955,13.08,stop-loss (-34%) PnL -6.94$ coût 1.0%
 2026-10-18 12:44:02,hasard,ACHAT,hi,0.000430616482,19.86,score 39 coût 1.1%
-2026-10-18 13:44:02,prudente,ACHAT,YILONGMA,0.0002938266445,9.96,score 70 coût 1.0%
-2026-10-18 14:13:04,agressive,VENTE,mucron,0.000427,15.18,stop-loss (-47%) PnL -13.73$ coût 1.1%
-2026-10-18 14:13:04,agressive,ACHAT,texcat,0.0003318471096,27.89,score 53 coût 1.1%
+2026-10-18 15:04:25,prudente,ACHAT,YILONGMA,0.000371408491,9.96,score 74 coût 1.0%
+2026-10-18 15:04:26,agressive,VENTE,mucron,0.0004643,16.51,stop-loss (-42%) PnL -12.41$ coût 1.1%
+2026-10-18 15:04:26,agressive,ACHAT,koinu,9.737107885e-05,28.22,score 65 coût 1.2%
+2026-10-18 15:08:26,actuelle,VENTE,YILONGMA,0.000421,9.45,palier +50% PnL +3.16$ coût 1.0%
