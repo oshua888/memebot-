@@ -25,3 +25,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 10:02:04,prudente,ACHAT,CATSZN,0.000974562085,10.00,score 71 coût 1.0%
 2026-10-18 10:03:04,actuelle,VENTE,SUPERCORE,0.0004967,13.76,stop-loss (-30%) PnL -6.20$ coût 1.0%
 2026-10-18 10:03:04,actuelle,ACHAT,CATSZN,0.001041752937,19.95,score 71 coût 1.0%
+2026-10-18 10:06:03,prudente,VENTE,Chaton,0.0006545,3.99,palier +60% PnL +1.49$ coût 1.0%
