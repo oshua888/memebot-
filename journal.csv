@@ -18,3 +18,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 09:11:20,hasard,ACHAT,ELON,0.003066032899,19.98,score 58 coût 1.0%
 2026-10-18 09:11:20,hasard,ACHAT,Dip,0.0002372598183,19.97,score 65 coût 1.1%
 2026-10-18 09:11:20,hasard,ACHAT,DICKBUTTIFIER,9.114460122e-05,19.97,score 47 coût 1.2%
+2026-10-18 09:23:19,prudente,VENTE,Chaton,0.0004174,7.82,stop-loss (-21%) PnL -2.17$ coût 1.0%
+2026-10-18 09:23:19,prudente,ACHAT,Chaton,0.0004217175908,9.95,score 77 coût 1.0%
