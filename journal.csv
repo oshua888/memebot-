@@ -147,3 +147,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 19:15:09,prudente,ACHAT,ELON,0.003342440382,9.94,score 70 coût 1.0%
 2026-10-18 19:15:09,agressive,VENTE,mucron,0.000329,16.61,stop-loss (-40%) PnL -11.39$ coût 1.1%
 2026-10-18 19:15:09,agressive,ACHAT,ELON,0.003343052017,27.28,score 70 coût 1.0%
+2026-10-18 19:21:11,prudente,ACHAT,Gato,0.0007516109026,9.93,score 70 coût 1.0%
+2026-10-18 19:22:09,prudente,VENTE,CATONICE,0.001615,3.67,trailing-stop PnL +1.20$ coût 1.0%
+2026-10-18 19:22:09,prudente,ACHAT,CATONICE,0.001631434533,9.92,score 81 coût 1.0%
