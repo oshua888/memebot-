@@ -31,6 +31,8 @@ def state():
                         params=ms.strat_cfg(ms.CONFIG, n))
                 for n, pf in pfs.items()},
         "study": ms.study(),
+        "model": {k: v for k, v in ms.load_model().items() if k not in ("w", "mean", "std")},
+        "shadows": len(ms.load_shadows()["active"]),
         "trades": trades[::-1], "status": status,
         "interval": ms.CONFIG["scan_interval_s"],
     }

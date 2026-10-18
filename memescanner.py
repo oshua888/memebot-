@@ -53,6 +53,8 @@ CONFIG = {
     "trailing_stop_pct": 25.0,       # après la 1re prise de bénéfice
     "max_hold_hours": 12,            # vente si rien ne s'est passé
     "missing_cycles_writeoff": 5,    # token introuvable N fois de suite = perdu
+    "cooldown_after_loss_h": 24,     # pas de rachat d'un token vendu à perte
+    "ban_after_crash_pct": -80,      # token effondré : plus jamais racheté
     # coûts réalistes : frais fixes + impact sur le prix selon la liquidité
     "base_fee_pct": 1.0,             # frais DEX + réseau + priorité
     "impact_mult": 2.0,              # pool x*y=k : impact ≈ 2 × mise / liquidité
@@ -70,6 +72,8 @@ STRATEGIES = {
                   "tp_ladder": [[100, 0.33], [200, 0.5]], "trailing_stop_pct": 35.0,
                   "position_size_pct": 3.0, "max_hold_hours": 24},
     "hasard": {"random": True},
+    # apprend seule : choisit ses tokens ET ses règles de sortie à partir des observations
+    "apprentie": {"learned": True},
 }
 for _name in STRATEGIES:
     STRATEGIES[_name]["name"] = _name
@@ -284,7 +288,11 @@ def print_scan(results, show_rejected=False):
 
 # ---------------------------------------------------------------- paper trading
 def strat_cfg(cfg, name):
-    return dict(cfg, **STRATEGIES[name])
+    c = dict(cfg, **STRATEGIES[name])
+    if c.get("learned") and MODEL.get("rule"):  # règles de sortie apprises
+        c.update(stop_loss_pct=MODEL["rule"][0], tp_ladder=[[MODEL["rule"][1], 1.0]],
+                 max_hold_hours=HORIZON_H)
+    return c
 
 
 def cost_pct(usd, liq, cfg):
@@ -386,6 +394,11 @@ def sell(pf, addr, price, fraction, cfg, reason):
             f"{reason} PnL {proceeds-cost:+.2f}$ coût {c:.1f}%")
     if fraction >= 0.999:
         record_trade(pos, cfg, reason)
+        total = (pos["proceeds"] / pos["cost0"] - 1) * 100 if pos["cost0"] else 0
+        if total <= cfg["ban_after_crash_pct"]:
+            pf.setdefault("cooldown", {})[addr] = time.time() + 365 * 86400
+        elif total < 0:
+            pf.setdefault("cooldown", {})[addr] = time.time() + cfg["cooldown_after_loss_h"] * 3600
         del pf["positions"][addr]
 
 
@@ -419,8 +432,16 @@ def manage_positions(pf, market, cfg):
 
 
 def open_positions(pf, results, cfg, n_random=0):
-    eligible = [r for r in results if not r["rejects"] and r["address"] not in pf["positions"]]
-    if cfg.get("random"):
+    now = time.time()
+    cd = pf["cooldown"] = {a: t for a, t in pf.get("cooldown", {}).items() if t > now}
+    eligible = [r for r in results if not r["rejects"] and r["address"] not in pf["positions"]
+                and r["address"] not in cd]
+    if cfg.get("learned"):
+        if not MODEL.get("active"):
+            return  # tant que le modèle ne bat pas la moyenne, elle n'achète rien
+        scored = [(predict(MODEL, model_inputs(r["features"], r["sources"])), r) for r in eligible]
+        eligible = [r for p, r in sorted(scored, key=lambda x: -x[0]) if p >= MODEL["threshold"]]
+    elif cfg.get("random"):
         # même rythme d'achat que la stratégie actuelle, mais tokens tirés au sort
         eligible = random.sample(eligible, min(n_random, len(eligible)))
     else:
@@ -507,6 +528,213 @@ def print_study():
         print("\nUn écart n'est fiable qu'avec beaucoup de trades (des centaines).")
 
 
+# ---------------------------------------------------------------- apprentissage
+# Le bot suit en « fantôme » chaque token qui passe les filtres (acheté ou non)
+# pendant 12 h et note ce qu'auraient donné plusieurs règles de sortie.
+# Toutes les heures, il réentraîne un modèle sur ces observations et ne s'en
+# sert que si le modèle fait mieux que la moyenne sur des données qu'il n'a
+# jamais vues (les observations les plus récentes).
+SHADOWS_FILE = DATA_DIR / "shadows.json"
+OBS_FILE = DATA_DIR / "observations.csv"
+MODEL_FILE = DATA_DIR / "model.json"
+HORIZON_H = 12
+SHADOW_EVERY_H = 6                 # un même token n'est réobservé qu'après 6 h
+MAX_SHADOWS = 150
+EXIT_GRID = [(sl, tp) for sl in (-15, -25, -35, -50) for tp in (25, 50, 100, 200)]
+MODEL_INPUTS = ["score", "log_liq", "log_fdv_liq", "log_age", "turnover", "buy_ratio",
+                "m5", "h1", "h6", "boost", "lp_locked", "top10",
+                "src_tendance", "src_nouveau", "src_profil"]
+MIN_OBS_TO_TRAIN = 80
+RETRAIN_EVERY = 60                 # cycles (≈ 1 h)
+MODEL = {}
+
+
+def rule_key(rule):
+    return f"sl{-rule[0]}_tp{rule[1]}"
+
+
+def net_pnl(ratio):
+    """Gain en % après ~1 % de frais à l'achat et à la vente."""
+    return round((ratio * 0.99 / 1.01 - 1) * 100, 2)
+
+
+def model_inputs(features, sources):
+    import math
+    f = features or {}
+    num = lambda k, d=0.0: float(f.get(k)) if isinstance(f.get(k), (int, float)) else d
+    return {
+        "score": num("score"), "log_liq": math.log10(max(num("liq"), 1)),
+        "log_fdv_liq": math.log1p(max(num("fdv_liq"), 0)),
+        "log_age": math.log1p(max(num("age_h"), 0)), "turnover": min(num("turnover"), 5),
+        "buy_ratio": num("buy_ratio", 0.5), "m5": max(min(num("m5"), 100), -100),
+        "h1": max(min(num("h1"), 300), -100), "h6": max(min(num("h6"), 1000), -100),
+        "boost": float("boost" in sources), "lp_locked": num("lp_locked", 100),
+        "top10": num("top10", 20), "src_tendance": float("tendance" in sources),
+        "src_nouveau": float("nouveau" in sources), "src_profil": float("profil" in sources),
+    }
+
+
+def load_shadows():
+    try:
+        return json.loads(SHADOWS_FILE.read_text())
+    except (OSError, ValueError):
+        return {"active": {}, "seen": {}}
+
+
+def save_shadows(sh):
+    SHADOWS_FILE.write_text(json.dumps(sh))
+
+
+def update_shadows(sh, results, market):
+    """Démarre, met à jour et clôt les observations fantômes."""
+    now = time.time()
+    sh["seen"] = {a: t for a, t in sh["seen"].items() if now - t < SHADOW_EVERY_H * 3600}
+    # 1. mise à jour des fantômes en cours
+    for addr in list(sh["active"]):
+        s = sh["active"][addr]
+        if addr in market:
+            s["missing"] = 0
+            ratio = market[addr][0] / s["p0"]
+        else:
+            s["missing"] += 1
+            ratio = 0.0 if s["missing"] >= 10 else None  # disparu = perdu
+        if ratio is not None:
+            s["lo"], s["hi"] = min(s["lo"], ratio), max(s["hi"], ratio)
+            for k, v in s["rules"].items():
+                if v is None:
+                    sl, tp = (int(x) for x in k[2:].split("_tp"))
+                    if (ratio - 1) * 100 <= -sl or (ratio - 1) * 100 >= tp:
+                        s["rules"][k] = net_pnl(ratio)
+        expired = now - s["t0"] >= HORIZON_H * 3600 or ratio == 0.0
+        if expired:
+            last = ratio if ratio is not None else s["lo"]
+            for k, v in s["rules"].items():
+                if v is None:
+                    s["rules"][k] = net_pnl(last)
+            write_observation(addr, s)
+            del sh["active"][addr]
+    # 2. nouveaux fantômes : tous les tokens qui passent les filtres
+    for r in results:
+        if r["rejects"] or not r["price"] or len(sh["active"]) >= MAX_SHADOWS:
+            continue
+        if r["address"] in sh["active"] or r["address"] in sh["seen"]:
+            continue
+        sh["seen"][r["address"]] = now
+        sh["active"][r["address"]] = {
+            "t0": now, "p0": r["price"], "symbol": r["symbol"], "missing": 0,
+            "lo": 1.0, "hi": 1.0, "features": r["features"], "sources": r["sources"],
+            "rules": {rule_key(x): None for x in EXIT_GRID},
+        }
+
+
+def write_observation(addr, s):
+    row = {"t0": round(s["t0"]), "symbole": s["symbol"], "adresse": addr,
+           "max_pct": round((s["hi"] - 1) * 100, 1), "min_pct": round((s["lo"] - 1) * 100, 1)}
+    row.update(model_inputs(s["features"], s["sources"]))
+    row.update({k: s["rules"][k] for k in sorted(s["rules"])})
+    new = not OBS_FILE.exists()
+    with OBS_FILE.open("a", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=list(row))
+        if new:
+            w.writeheader()
+        w.writerow(row)
+
+
+def _sigmoid(z):
+    import math
+    return 1 / (1 + math.exp(-max(min(z, 30), -30)))
+
+
+def fit_logistic(X, y, l2=1.0, iters=400, lr=0.3):
+    """Régression logistique (descente de gradient), sans dépendance externe."""
+    d = len(X[0])
+    w, b = [0.0] * d, 0.0
+    n = len(X)
+    for _ in range(iters):
+        gw, gb = [l2 * wi / n for wi in w], 0.0
+        for xi, yi in zip(X, y):
+            err = _sigmoid(b + sum(a * c for a, c in zip(w, xi))) - yi
+            gb += err / n
+            for j in range(d):
+                gw[j] += err * xi[j] / n
+        w = [wi - lr * g for wi, g in zip(w, gw)]
+        b -= lr * gb
+    return w, b
+
+
+def predict(model, inputs):
+    x = [(inputs[k] - m) / s for k, m, s in zip(MODEL_INPUTS, model["mean"], model["std"])]
+    return _sigmoid(model["b"] + sum(a * c for a, c in zip(model["w"], x)))
+
+
+def train_model():
+    """Réentraîne le modèle ; ne l'active que s'il bat la moyenne sur des données neuves."""
+    global MODEL
+    if not OBS_FILE.exists():
+        MODEL = {"status": "en attente", "n": 0}
+        return MODEL
+    with OBS_FILE.open() as f:
+        rows = sorted(csv.DictReader(f), key=lambda r: float(r["t0"]))[-5000:]
+    n = len(rows)
+    if n < MIN_OBS_TO_TRAIN:
+        MODEL = {"status": "en attente", "n": n, "need": MIN_OBS_TO_TRAIN,
+                 "trained_at": time.time()}
+        MODEL_FILE.write_text(json.dumps(MODEL))
+        return MODEL
+    cut = int(n * 0.7)
+    train, test = rows[:cut], rows[cut:]
+    out = lambda r, k: float(r[k])
+    # 1. meilleure règle de sortie sur les données d'entraînement
+    keys = [rule_key(x) for x in EXIT_GRID]
+    perf = {k: statistics.mean(out(r, k) for r in train) for k in keys}
+    best = max(perf, key=perf.get)
+    # 2. modèle : ce token aurait-il été gagnant avec cette règle ?
+    def matrix(rs, mean=None, std=None):
+        raw = [[float(r[k]) for k in MODEL_INPUTS] for r in rs]
+        if mean is None:
+            mean = [statistics.mean(c) for c in zip(*raw)]
+            std = [statistics.pstdev(c) or 1.0 for c in zip(*raw)]
+        return [[(v - m) / s for v, m, s in zip(row, mean, std)] for row in raw], mean, std
+    Xtr, mean, std = matrix(train)
+    w, b = fit_logistic(Xtr, [float(out(r, best) > 0) for r in train])
+    tmp = {"w": w, "b": b, "mean": mean, "std": std}
+    # 3. validation sur les 30 % les plus récents, jamais vus
+    scored = sorted(((predict(tmp, {k: float(r[k]) for k in MODEL_INPUTS}), out(r, best))
+                     for r in test), reverse=True)
+    top = scored[:max(1, len(scored) // 4)]
+    avg_all = statistics.mean(p for _, p in scored)
+    avg_top = statistics.mean(p for _, p in top)
+    win_top = sum(p > 0 for _, p in top) / len(top) * 100
+    active = len(test) >= 30 and avg_top > avg_all
+    # 4. modèle final sur toutes les données ; seuil = 25 % des meilleurs
+    Xall, mean, std = matrix(rows)
+    w, b = fit_logistic(Xall, [float(out(r, best) > 0) for r in rows])
+    final = {"w": w, "b": b, "mean": mean, "std": std}
+    preds = sorted(predict(final, {k: float(r[k]) for k in MODEL_INPUTS}) for r in rows)
+    sl, tp = (int(x) for x in best[2:].split("_tp"))
+    MODEL = dict(final, status="actif" if active else "pas meilleur que la moyenne",
+                 active=active, n=n, n_test=len(test), rule=[-sl, tp], rule_key=best,
+                 threshold=preds[int(len(preds) * 0.75)], trained_at=time.time(),
+                 test_avg_all=round(avg_all, 2), test_avg_top=round(avg_top, 2),
+                 test_win_top=round(win_top, 1),
+                 rules={k: round(v, 2) for k, v in sorted(perf.items(), key=lambda x: -x[1])},
+                 weights=sorted(([k, round(x, 3)] for k, x in zip(MODEL_INPUTS, w)),
+                                key=lambda x: -abs(x[1])))
+    MODEL_FILE.write_text(json.dumps(MODEL))
+    print(f"  [apprentissage] {n} observations — règle {best} — top 25 % : "
+          f"{avg_top:+.1f}% vs moyenne {avg_all:+.1f}% → {MODEL['status']}")
+    return MODEL
+
+
+def load_model():
+    global MODEL
+    try:
+        MODEL = json.loads(MODEL_FILE.read_text())
+    except (OSError, ValueError):
+        MODEL = {}
+    return MODEL
+
+
 # ---------------------------------------------------------------- boucle
 def acquire_lock():
     """Empêche deux bots de tourner en même temps."""
@@ -525,7 +753,8 @@ def git_sync():
     try:
         subprocess.run([sys.executable, str(DATA_DIR / "dashboard.py"), "--export", "docs"],
                        cwd=DATA_DIR, check=True, capture_output=True)
-        files = [f.name for f in (PORTFOLIO_FILE, JOURNAL_FILE, TRADES_FILE, STATUS_FILE)
+        files = [f.name for f in (PORTFOLIO_FILE, JOURNAL_FILE, TRADES_FILE, STATUS_FILE,
+                                  SHADOWS_FILE, OBS_FILE, MODEL_FILE)
                  if f.exists()] + ["state.json", "bot.log"]
         files = [f for f in files if (DATA_DIR / f).exists()]
         sh = lambda *a: subprocess.run(a, cwd=DATA_DIR, capture_output=True, text=True)
@@ -550,6 +779,9 @@ def bot(cfg, demo=False, cycles=None, minutes=None, sync_every=0):
         return
     print("=== BOT EN MODE SIMULATION (argent fictif) — Ctrl+C pour arrêter ===")
     pfs = load_all(cfg)
+    shadows = load_shadows()
+    load_model()
+    train_model()
     deadline = time.time() + minutes * 60 if minutes else None
     n = 0
     try:
@@ -563,6 +795,8 @@ def bot(cfg, demo=False, cycles=None, minutes=None, sync_every=0):
             set_phase("vet", n, cfg["chain"])
             market = {r["address"]: (r["price"], r["liq"]) for r in results if r["price"]}
             held = {a: p for pf in pfs.values() for a, p in pf["positions"].items()}
+            for a, s_ in shadows["active"].items():
+                held.setdefault(a, {"last": s_["p0"], "liq": 1e5})
             missing = [a for a in held if a not in market]
             if missing:  # tokens détenus absents du scan
                 if demo:
@@ -584,8 +818,12 @@ def bot(cfg, demo=False, cycles=None, minutes=None, sync_every=0):
                 set_phase("size", n, cfg["chain"])
                 open_positions(pf, results, scfg, n_random)
                 pf["history"] = (pf["history"] + [[round(time.time()), round(equity(pf, scfg), 2)]])[-3000:]
+            update_shadows(shadows, results, market)
+            if n % RETRAIN_EVERY == 0:
+                train_model()
             set_phase("book", n, cfg["chain"])
             save_all(pfs)
+            save_shadows(shadows)
             set_phase(None, n, cfg["chain"])
             print_pf(pfs, cfg)
             sys.stdout.flush()
@@ -597,6 +835,7 @@ def bot(cfg, demo=False, cycles=None, minutes=None, sync_every=0):
         print("\nArrêt.")
     finally:
         save_all(pfs)
+        save_shadows(shadows)
         LOCK_FILE.unlink(missing_ok=True)
         if sync_every:
             git_sync()
@@ -642,7 +881,7 @@ def demo_pairs():
 # ---------------------------------------------------------------- CLI
 def main():
     ap = argparse.ArgumentParser(description="Scanner de meme coins + paper trading")
-    ap.add_argument("cmd", choices=["scan", "bot", "portfolio", "analyse", "reset"])
+    ap.add_argument("cmd", choices=["scan", "bot", "portfolio", "analyse", "apprendre", "reset"])
     ap.add_argument("--demo", action="store_true", help="données inventées, sans internet")
     ap.add_argument("--rejected", action="store_true", help="affiche les tokens rejetés")
     ap.add_argument("--cycles", type=int, help="nombre de cycles du bot (défaut : infini)")
@@ -661,8 +900,13 @@ def main():
         print_pf(load_all(cfg), cfg)
     elif a.cmd == "analyse":
         print_study()
+    elif a.cmd == "apprendre":
+        m = train_model()
+        print(json.dumps({k: v for k, v in m.items() if k not in ("w", "mean", "std")},
+                         indent=1, ensure_ascii=False))
     elif a.cmd == "reset":
-        for f in (PORTFOLIO_FILE, JOURNAL_FILE, TRADES_FILE, STATUS_FILE, LOCK_FILE):
+        for f in (PORTFOLIO_FILE, JOURNAL_FILE, TRADES_FILE, STATUS_FILE, LOCK_FILE,
+                  SHADOWS_FILE, OBS_FILE, MODEL_FILE):
             f.unlink(missing_ok=True)
         print("Portefeuilles simulés remis à zéro.")
 

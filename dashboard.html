@@ -95,6 +95,8 @@ h1{font-size:34px;font-weight:700;letter-spacing:-.5px}
 
   <div class="panel cmp"><div class="ph">COMPARAISON DES STRATÉGIES <span class="mono">clique pour sélectionner</span></div><div class="mono" id="cmp"></div></div>
 
+  <div class="panel cmp"><div class="ph">APPRENTISSAGE <span class="mono" id="mlN"></span></div><div class="mono" id="ml"></div></div>
+
   <div class="panel cmp"><div class="ph">CE QUI MARCHE <span class="mono" id="studyN"></span></div><div class="mono" id="study"></div></div>
 
   <div class="panel"><div class="ph">POSITIONS OUVERTES <span class="mono" id="posT"></span></div><div class="log mono positions" id="positions"></div></div>
@@ -112,7 +114,7 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 
 $("agents").innerHTML=AG.map(([k,n,b],i)=>`<div class="agent" id="ag-${k}"><div class="top mono"><span>0${i+1} · ${k.toUpperCase()}</span><span class="st">IDLE</span></div><div class="blob ${b}"><i></i><i></i></div><div class="name">${n}</div></div>`).join("");
 
-const COL={prudente:"#7aa2ff",actuelle:"#d4f25a",agressive:"#ff8a3d",hasard:"#bdbdbd"};
+const COL={prudente:"#7aa2ff",actuelle:"#d4f25a",agressive:"#ff8a3d",hasard:"#bdbdbd",apprentie:"#c792ea"};
 function chart(pfs,start,sel){
   const svg=$("chart"),W=svg.clientWidth||500,H=300,p={l:52,r:8,t:10,b:20};
   const series=Object.entries(pfs).map(([n,pf])=>[n,pf.history.length?pf.history:[[Date.now()/1000,start]]]);
@@ -159,7 +161,7 @@ async function refresh(){
   $("sub").textContent=`SIMULATION · 6 AGENTS · ${Object.keys(s.pfs).length} STRATÉGIES · ${pf.history.length} CYCLES`;
   chart(s.pfs,s.start,SEL);
   $("cmp").innerHTML=`<table><tr><th>STRATÉGIE</th><th>CAPITAL</th><th>P&amp;L</th><th>WINRATE</th><th>VENTES</th><th>FRAIS</th><th>RÈGLES</th></tr>${Object.entries(s.pfs).map(([n,q])=>{const r=q.equity/s.start*100-100,t=q.wins+q.losses,P=q.params;
-    return `<tr class="${n===SEL?"on":""}" onclick="pick('${n}')"><td><span class="sw" style="background:${COL[n]||"#aaa"}"></span>${n}</td><td>${usd(q.equity)}</td><td class="${r>=0?"pos":"neg"}">${r>=0?"+":""}${r.toFixed(1)}%</td><td>${t?(q.wins/t*100).toFixed(0)+"%":"–"}</td><td>${t}</td><td>${usd(q.fees)}</td><td style="color:#888;white-space:nowrap">${P.random?"tokens tirés au sort · ":"score≥"+P.min_score_to_buy+" · "}SL ${P.stop_loss_pct}% · paliers ${P.tp_ladder.map(x=>"+"+x[0]+"%").join("/")} · ${P.max_hold_hours}h max · mise ${P.position_size_pct}%</td></tr>`}).join("")}</table>`;
+    return `<tr class="${n===SEL?"on":""}" onclick="pick('${n}')"><td><span class="sw" style="background:${COL[n]||"#aaa"}"></span>${n}</td><td>${usd(q.equity)}</td><td class="${r>=0?"pos":"neg"}">${r>=0?"+":""}${r.toFixed(1)}%</td><td>${t?(q.wins/t*100).toFixed(0)+"%":"–"}</td><td>${t}</td><td>${usd(q.fees)}</td><td style="color:#888;white-space:nowrap">${P.learned?"tokens choisis par le modèle · ":P.random?"tokens tirés au sort · ":"score≥"+P.min_score_to_buy+" · "}SL ${P.stop_loss_pct}% · paliers ${P.tp_ladder.map(x=>"+"+x[0]+"%").join("/")} · ${P.max_hold_hours}h max · mise ${P.position_size_pct}%</td></tr>`}).join("")}</table>`;
   const tr=s.trades.filter(t=>t.strategie===SEL);
   $("fills").textContent=tr.length+" ORDRES";
   $("log").innerHTML=tr.length?`<table>${tr.map((t,i)=>{const m=/PnL ([+-][\d.]+)/.exec(t.note||"");const r=m?(+m[1]>=0?'<span class="pos">WIN</span>':'<span class="neg">LOSS</span>'):'<span style="color:#666">OPEN</span>';
@@ -170,6 +172,13 @@ async function refresh(){
   const pct=v=>`<span class="${v>=0?"pos":"neg"}">${v>=0?"+":""}${v.toFixed(1)}%</span>`;
   $("study").innerHTML=st2.n?`<table><tr><th>STRATÉGIE</th><th>TRADES</th><th>GAIN MOYEN</th><th>MÉDIANE</th><th>GAGNANTS</th><th>VS HASARD</th></tr>${Object.entries(st2.strategies).map(([n,v])=>`<tr><td><span class="sw" style="background:${COL[n]||"#aaa"}"></span>${n}</td><td>${v.n}</td><td>${pct(v.moyenne)}</td><td>${pct(v.mediane)}</td><td>${v.gagnants.toFixed(0)}%</td><td>${n==="hasard"||!hz?"–":pct(v.moyenne-hz.moyenne)}</td></tr>`).join("")}</table>`
     +(st2.features.length?`<table style="margin-top:14px"><tr><th>MESURE À L’ACHAT</th><th>SEUIL</th><th>EN DESSOUS</th><th>AU DESSUS</th><th>ÉCART</th></tr>${st2.features.map(f=>`<tr><td>${LBL[f.mesure]||f.mesure}</td><td>${f.seuil}</td><td>${pct(f.bas_moy)} <span style="color:#666">(${f.bas_n})</span></td><td>${pct(f.haut_moy)} <span style="color:#666">(${f.haut_n})</span></td><td>${pct(f.haut_moy-f.bas_moy)}</td></tr>`).join("")}</table>`:""):'<div class="empty">Aucun trade fermé pour l’instant.</div>';
+  const M=s.model||{},ago=t=>t?Math.round((s.now-t)/60)+" min":"jamais";
+  $("mlN").textContent=`${M.n||0} observations · ${s.shadows||0} tokens suivis en ce moment`;
+  const LBL2=Object.assign({log_liq:"liquidité",log_fdv_liq:"FDV / liquidité",log_age:"âge",lp_locked:"liquidité verrouillée %",top10:"part des 10 plus gros",src_tendance:"source : tendance",src_nouveau:"source : nouvelle paire",src_profil:"source : profil"},LBL);
+  $("ml").innerHTML=!M.rule?`<div class="empty">Le bot observe chaque token qui passe les filtres pendant 12 h. Premier entraînement à ${M.need||80} observations (${M.n||0} pour l’instant). D’ici là, la stratégie « apprentie » n’achète rien.</div>`
+   :`<table><tr><th>ÉTAT</th><th>RÈGLE DE SORTIE APPRISE</th><th>TEST : 25 % PRÉFÉRÉS</th><th>TEST : MOYENNE</th><th>ENTRAÎNÉ IL Y A</th></tr><tr><td class="${M.active?"pos":"neg"}">${M.active?"ACTIF":"EN PAUSE"}</td><td>stop ${M.rule[0]}% · vente +${M.rule[1]}%</td><td>${pct(M.test_avg_top)} <span style="color:#666">(${M.test_win_top}% gagnants)</span></td><td>${pct(M.test_avg_all)}</td><td>${ago(M.trained_at)}</td></tr></table>`
+   +`<div class="empty" style="padding:10px 0 4px">${M.active?"Sur les observations récentes qu’il n’avait jamais vues, le modèle a mieux choisi que la moyenne : la stratégie « apprentie » l’utilise.":"Le modèle ne fait pas mieux que la moyenne sur les observations récentes : la stratégie « apprentie » n’achète rien tant que ça ne change pas."}${M.test_avg_top<0?" Même ses choix préférés perdent en moyenne.":""}</div>`
+   +(M.weights?`<table><tr><th>CE QUI COMPTE LE PLUS POUR LE MODÈLE</th><th>EFFET</th></tr>${M.weights.slice(0,6).map(([k,v])=>`<tr><td>${LBL2[k]||k}</td><td class="${v>=0?"pos":"neg"}">${v>=0?"↑ favorise":"↓ pénalise"} (${v})</td></tr>`).join("")}</table>`:"");
   $("posT").textContent=SEL.toUpperCase();
   $("positions").innerHTML=pos.length?`<table style="width:100%">${pos.map(p=>{const c=(p.last/p.entry-1)*100;return `<tr><td>$${esc(p.symbol)}</td><td>entrée ${p.entry.toPrecision(4)}</td><td>actuel ${p.last.toPrecision(4)}</td><td class="${c>=0?"pos":"neg"}">${c>=0?"+":""}${c.toFixed(1)}%</td><td style="text-align:right">${usd(p.qty*p.last)}</td></tr>`}).join("")}</table>`:'<div class="empty">Aucune position ouverte.</div>';
   const st=s.status||{},age=s.now-(st.ts||0);alive=age<Math.max(s.interval*3,180);
