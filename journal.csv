@@ -133,3 +133,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 18:15:12,actuelle,ACHAT,CATONICE,0.001138714794,18.31,score 65 coût 1.0%
 2026-10-18 18:15:12,agressive,VENTE,MINTER,0.004103,10.08,stop-loss (-63%) PnL -17.54$ coût 1.0%
 2026-10-18 18:15:12,agressive,ACHAT,CATONICE,0.001138921785,26.83,score 65 coût 1.1%
+2026-10-18 18:49:12,hasard,VENTE,Gold,8.163e-05,12.46,stop-loss (-36%) PnL -7.20$ coût 1.1%
+2026-10-18 18:49:12,hasard,ACHAT,texcat,0.0003438603148,19.37,score 52 coût 1.1%
