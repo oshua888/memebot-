@@ -2,6 +2,7 @@
 """Tableau de bord du bot simulé : python3 dashboard.py  ->  http://localhost:8765"""
 import csv
 import json
+import os
 import sys
 import time
 import webbrowser
@@ -26,8 +27,10 @@ def state():
             pass
     return {
         "now": time.time(), "start": ms.CONFIG["start_balance_usd"],
-        "pfs": {n: dict(pf, equity=ms.equity(pf), params=ms.strat_cfg(ms.CONFIG, n))
+        "pfs": {n: dict(pf, equity=ms.equity(pf, ms.strat_cfg(ms.CONFIG, n)),
+                        params=ms.strat_cfg(ms.CONFIG, n))
                 for n, pf in pfs.items()},
+        "study": ms.study(),
         "trades": trades[::-1], "status": status,
         "interval": ms.CONFIG["scan_interval_s"],
     }
@@ -53,9 +56,14 @@ def export(out_dir):
     """Version statique (GitHub Pages) : index.html + state.json."""
     out = ms.DATA_DIR / out_dir
     out.mkdir(exist_ok=True)
-    (out / "index.html").write_bytes((ms.DATA_DIR / "dashboard.html").read_bytes())
+    html = (ms.DATA_DIR / "dashboard.html").read_text()
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    if repo:  # la page lit l'état publié dans le dépôt, mis à jour toutes les ~5 min
+        url = f"https://raw.githubusercontent.com/{repo}/main/state.json"
+        html = html.replace("<head>", f'<head>\n<script>window.STATE_URL="{url}"</script>', 1)
+    (out / "index.html").write_text(html)
     st = state()
-    st["interval"] = 300  # GitHub Actions : un cycle toutes les ~5 min
+    st["interval"] = 300  # sur GitHub, l'état publié a jusqu'à ~5 min de retard
     (out / "state.json").write_text(json.dumps(st))
     print(f"Tableau de bord exporté dans {out}")
 

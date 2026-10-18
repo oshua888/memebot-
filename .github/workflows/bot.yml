@@ -1,10 +1,12 @@
-# Fait tourner le bot SIMULÉ toutes les ~5 minutes sur les serveurs de GitHub
-# et publie le tableau de bord (dossier docs/, via GitHub Pages).
+# Fait tourner le bot SIMULÉ sur les serveurs de GitHub.
+# Les tâches programmées de GitHub sont irrégulières : chaque lancement fait donc
+# tourner le bot ~5h30 (un cycle par minute) et publie l'état toutes les 5 minutes.
+# Un nouveau lancement attend que le précédent soit fini (concurrency).
 name: memebot
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -17,33 +19,26 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  cycle:
+  run:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     environment:
       name: github-pages
-    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Un cycle du bot (argent fictif)
-        run: python memescanner.py bot --cycles 1 | tee -a bot.log
-      - name: Export du tableau de bord
-        run: |
-          tail -n 2000 bot.log > bot.tmp && mv bot.tmp bot.log
-          python dashboard.py --export docs
-      - name: Sauvegarde de l'état
-        run: |
-          git config user.name "memebot"
-          git config user.email "memebot@users.noreply.github.com"
-          git add portfolio.json journal.csv status.json bot.log
-          git diff --cached --quiet && exit 0
-          git commit -m "cycle $(date -u +%Y-%m-%dT%H:%M)"
-          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+      - name: Publication du tableau de bord (GitHub Pages)
+        run: python dashboard.py --export docs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - name: Publication du tableau de bord (GitHub Pages)
-        uses: actions/deploy-pages@v4
-        continue-on-error: true  # tant que Pages n'est pas activé
+      - uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Bot (argent fictif) pendant ~5h30
+        run: |
+          git config user.name "memebot"
+          git config user.email "memebot@users.noreply.github.com"
+          touch bot.log && tail -n 3000 bot.log > bot.tmp && mv bot.tmp bot.log
+          python -u memescanner.py bot --minutes 330 --sync-every 5 2>&1 | tee -a bot.log
