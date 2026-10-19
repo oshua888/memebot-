@@ -226,3 +226,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 12:22:42,hasard,VENTE,CATONICE,0.0002542,12.84,palier +100% PnL +6.46$ coût 1.1%
 2026-10-19 12:32:40,hasard,VENTE,CATONICE,0.0002418,12.21,trailing-stop PnL +5.83$ coût 1.1%
 2026-10-19 12:32:40,hasard,ACHAT,VEIL,0.003186219814,19.01,score 22 coût 1.0%
+2026-10-19 12:41:40,prudente,ACHAT,DOGESTER,0.0002047318333,9.84,score 70 coût 1.1%
