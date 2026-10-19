@@ -294,3 +294,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 18:14:00,actuelle,ACHAT,COMPUTE,0.0002288498508,17.99,score 62 coût 1.1%
 2026-10-19 18:42:59,agressive,VENTE,startupSI,0.02308,28.39,trailing-stop PnL +20.23$ coût 1.0%
 2026-10-19 18:42:59,agressive,ACHAT,COMPUTE,0.0002087157275,25.47,score 52 coût 1.1%
+2026-10-19 18:43:59,actuelle,VENTE,UHI,0.0006718,12.41,stop-loss (-30%) PnL -5.58$ coût 1.0%
