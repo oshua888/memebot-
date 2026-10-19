@@ -218,3 +218,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 12:01:40,actuelle,ACHAT,Doomsday,0.0007965310969,17.56,score 74 coût 1.0%
 2026-10-19 12:05:41,prudente,VENTE,Doomsday,0.0007654,7.74,stop-loss (-20%) PnL -2.08$ coût 1.0%
 2026-10-19 12:13:43,prudente,VENTE,startupSI,0.008819,6.53,palier +30% PnL +1.62$ coût 1.0%
+2026-10-19 12:16:43,agressive,VENTE,ELON,0.002001,16.16,stop-loss (-40%) PnL -11.12$ coût 1.0%
+2026-10-19 12:16:43,agressive,ACHAT,SI276,0.0006700245912,24.52,score 61 coût 1.1%
+2026-10-19 12:17:42,prudente,ACHAT,UHI,0.0009207011154,9.83,score 75 coût 1.0%
