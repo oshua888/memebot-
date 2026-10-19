@@ -312,3 +312,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 21:52:57,agressive,VENTE,ETCHY,0.0008619,14.15,stop-loss (-43%) PnL -10.85$ coût 1.0%
 2026-10-19 21:52:57,agressive,ACHAT,broomy,0.0001113996469,24.43,score 66 coût 1.2%
 2026-10-19 22:50:44,prudente,ACHAT,Onion,0.0001984650267,9.87,score 70 coût 1.1%
+2026-10-19 23:30:45,hasard,VENTE,Dacity,0.005585,16.57,trailing-stop PnL +3.79$ coût 1.0%
+2026-10-19 23:32:44,prudente,VENTE,Dacity,0.005517,7.76,stop-loss (-21%) PnL -2.12$ coût 1.0%
