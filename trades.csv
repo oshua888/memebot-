@@ -117,3 +117,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-19 17:54,2026-10-19 18:14,actuelle,WORTHLESS,boost,stop-loss (-33%),0.33,-33.33,73,72646,8.55,3.6,4.061,0.643,-8.99,50.09,1284,1
 2026-10-19 09:54,2026-10-19 18:42,agressive,startupSI,boost+tendance,trailing-stop,8.81,183.3,74,238293,27.19,15.3,1.126,0.824,5.1,-4.74,46.54,1
 2026-10-19 16:56,2026-10-19 18:43,actuelle,UHI,tendance,stop-loss (-30%),1.79,-31.04,74,99603,9.2,16.2,3.601,0.515,-10.68,8.47,3.92,0
+2026-10-19 18:14,2026-10-19 19:04,actuelle,COMPUTE,tendance,stop-loss (-32%),0.85,-33.04,62,43836,4.97,5.9,2.922,0.553,-13.53,5.18,429,0
