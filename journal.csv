@@ -239,3 +239,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 14:49:41,actuelle,VENTE,startupSI,0.01345,11.92,palier +100% PnL +6.04$ coût 1.0%
 2026-10-19 14:49:41,agressive,VENTE,startupSI,0.01345,16.30,palier +100% PnL +8.26$ coût 1.0%
 2026-10-19 14:49:41,hasard,VENTE,startupSI,0.01345,12.77,palier +100% PnL +6.40$ coût 1.0%
+2026-10-19 15:06:40,agressive,VENTE,startupSI,0.01981,24.37,palier +200% PnL +16.20$ coût 1.0%
+2026-10-19 15:08:40,agressive,VENTE,Doomsday,0.001343,15.92,palier +100% PnL +7.88$ coût 1.0%
