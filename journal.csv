@@ -292,3 +292,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 18:11:59,prudente,ACHAT,Dacity,0.006955293016,9.88,score 70 coût 1.0%
 2026-10-19 18:14:00,actuelle,VENTE,WORTHLESS,0.0004405,12.04,stop-loss (-33%) PnL -6.02$ coût 1.0%
 2026-10-19 18:14:00,actuelle,ACHAT,COMPUTE,0.0002288498508,17.99,score 62 coût 1.1%
+2026-10-19 18:42:59,agressive,VENTE,startupSI,0.02308,28.39,trailing-stop PnL +20.23$ coût 1.0%
+2026-10-19 18:42:59,agressive,ACHAT,COMPUTE,0.0002087157275,25.47,score 52 coût 1.1%
