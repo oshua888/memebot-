@@ -192,3 +192,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 05:33:41,actuelle,VENTE,CBUCKS,0.001509,9.15,palier +50% PnL +3.18$ coût 1.0%
 2026-10-19 06:37:56,hasard,VENTE,VEIL,0.003565,14.08,trailing-stop PnL +0.94$ coût 1.0%
 2026-10-19 06:49:56,hasard,VENTE,texcat,0.0004174,23.26,durée max 12h PnL +3.89$ coût 1.1%
+2026-10-19 07:03:55,actuelle,VENTE,MOMO,8.512e-05,12.30,stop-loss (-30%) PnL -5.52$ coût 1.1%
