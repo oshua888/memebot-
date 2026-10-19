@@ -266,3 +266,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 17:06:48,actuelle,VENTE,WORTHLESS,0.0006604,9.02,palier +50% PnL +3.00$ coût 1.0%
 2026-10-19 17:06:48,actuelle,ACHAT,Doomsday,0.001088183822,18.15,score 63 coût 1.0%
 2026-10-19 17:08:41,prudente,VENTE,DOGESTER,0.0001621,7.71,stop-loss (-21%) PnL -2.13$ coût 1.0%
+2026-10-19 17:16:00,agressive,VENTE,Doomsday,0.0007708,18.55,trailing-stop PnL +2.23$ coût 1.0%
+2026-10-19 17:16:00,agressive,ACHAT,Doomsday,0.0007790094041,25.88,score 68 coût 1.1%
+2026-10-19 17:16:00,hasard,VENTE,Doomsday,0.0007708,12.71,stop-loss (-34%) PnL -6.75$ coût 1.0%
+2026-10-19 17:16:00,hasard,ACHAT,texcat,0.0004595371162,19.22,score 46 coût 1.1%
+2026-10-19 17:17:03,actuelle,VENTE,Doomsday,0.0006103,10.08,stop-loss (-44%) PnL -8.08$ coût 1.0%
+2026-10-19 17:17:03,actuelle,ACHAT,Dacity,0.005474902427,18.01,score 60 coût 1.0%
+2026-10-19 17:17:59,prudente,VENTE,WORTHLESS,0.0005176,5.79,trailing-stop PnL +0.87$ coût 1.0%
