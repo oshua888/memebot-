@@ -123,3 +123,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-19 18:42,2026-10-19 19:37,agressive,COMPUTE,tendance,stop-loss (-42%),0.9,-42.19,52,41765,4.75,6.4,1.768,0.52,5.79,-36.5,17.4,0
 2026-10-19 19:35,2026-10-19 20:40,actuelle,ETCHY,nouveau,stop-loss (-31%),1.08,-32.0,66,110358,13.02,146.7,2.822,0.645,1.21,281,171,0
 2026-10-19 20:23,2026-10-19 20:41,actuelle,Kim,nouveau,trailing-stop,0.32,34.38,61,61957,7.13,20.7,19.538,0.564,21.26,219,2627,0
+2026-10-19 19:35,2026-10-19 21:52,agressive,ETCHY,nouveau,stop-loss (-43%),2.28,-43.38,66,110358,13.02,146.7,2.822,0.645,1.21,281,171,0

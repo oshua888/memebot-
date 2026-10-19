@@ -309,3 +309,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 20:41:57,actuelle,VENTE,Kim,0.0005779,14.68,trailing-stop PnL +2.80$ coût 1.0%
 2026-10-19 21:03:57,actuelle,ACHAT,broomy,9.760101286e-05,17.74,score 67 coût 1.1%
 2026-10-19 21:19:56,actuelle,ACHAT,NPC,0.001021513601,17.76,score 60 coût 1.0%
+2026-10-19 21:52:57,agressive,VENTE,ETCHY,0.0008619,14.15,stop-loss (-43%) PnL -10.85$ coût 1.0%
+2026-10-19 21:52:57,agressive,ACHAT,broomy,0.0001113996469,24.43,score 66 coût 1.2%
