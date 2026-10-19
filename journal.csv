@@ -187,3 +187,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 01:54:42,hasard,VENTE,FTR,0.0009608,13.51,stop-loss (-31%) PnL -6.14$ coût 1.0%
 2026-10-19 02:13:42,agressive,VENTE,FTR,0.000738,15.93,stop-loss (-46%) PnL -14.07$ coût 1.0%
 2026-10-19 02:36:42,hasard,VENTE,mucron,0.0001246,13.12,stop-loss (-32%) PnL -6.28$ coût 1.1%
+2026-10-19 03:22:43,hasard,VENTE,VEIL,0.005046,9.82,palier +50% PnL +3.34$ coût 1.0%
