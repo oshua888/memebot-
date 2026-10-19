@@ -299,3 +299,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 19:29:59,agressive,VENTE,UHI,0.0005343,14.41,stop-loss (-40%) PnL -9.94$ coût 1.0%
 2026-10-19 19:29:59,agressive,ACHAT,DOGESTER,0.000122827306,25.20,score 55 coût 1.2%
 2026-10-19 19:31:59,agressive,VENTE,CBUCKS,0.001261,32.66,durée max 24h PnL +6.54$ coût 1.1%
+2026-10-19 19:35:59,actuelle,ACHAT,ETCHY,0.001506388498,17.71,score 66 coût 1.0%
+2026-10-19 19:35:59,agressive,ACHAT,ETCHY,0.001506585555,25.00,score 66 coût 1.0%
+2026-10-19 19:37:00,agressive,VENTE,COMPUTE,0.000122,14.72,stop-loss (-42%) PnL -10.74$ coût 1.1%
