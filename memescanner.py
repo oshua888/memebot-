@@ -538,13 +538,13 @@ SHADOWS_FILE = DATA_DIR / "shadows.json"
 OBS_FILE = DATA_DIR / "observations.csv"
 MODEL_FILE = DATA_DIR / "model.json"
 HORIZON_H = 12
-SHADOW_EVERY_H = 6                 # un même token n'est réobservé qu'après 6 h
+SHADOW_EVERY_H = 2                 # un même token n'est réobservé qu'après 2 h
 MAX_SHADOWS = 150
-EXIT_GRID = [(sl, tp) for sl in (-15, -25, -35, -50) for tp in (25, 50, 100, 200)]
+EXIT_GRID = [(sl, tp) for sl in (-15, -25, -35, -50) for tp in (10, 15, 25, 50, 100, 200)]
 MODEL_INPUTS = ["score", "log_liq", "log_fdv_liq", "log_age", "turnover", "buy_ratio",
                 "m5", "h1", "h6", "boost", "lp_locked", "top10",
                 "src_tendance", "src_nouveau", "src_profil"]
-MIN_OBS_TO_TRAIN = 80
+MIN_OBS_TO_TRAIN = 60
 RETRAIN_EVERY = 60                 # cycles (≈ 1 h)
 MODEL = {}
 
@@ -632,12 +632,23 @@ def write_observation(addr, s):
            "max_pct": round((s["hi"] - 1) * 100, 1), "min_pct": round((s["lo"] - 1) * 100, 1)}
     row.update(model_inputs(s["features"], s["sources"]))
     row.update({k: s["rules"][k] for k in sorted(s["rules"])})
-    new = not OBS_FILE.exists()
-    with OBS_FILE.open("a", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(row))
-        if new:
+    old = []
+    if OBS_FILE.exists():
+        with OBS_FILE.open() as f:
+            rd = csv.DictReader(f)
+            if rd.fieldnames and set(row) - set(rd.fieldnames):  # nouvelles colonnes
+                old = list(rd)
+    if old or not OBS_FILE.exists():
+        fields = list(dict.fromkeys([*(old[0].keys() if old else []), *row]))
+        with OBS_FILE.open("w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=fields, restval="")
             w.writeheader()
-        w.writerow(row)
+            w.writerows(old + [row])
+        return
+    with OBS_FILE.open() as f:
+        fields = next(csv.reader(f))
+    with OBS_FILE.open("a", newline="") as f:
+        csv.DictWriter(f, fieldnames=fields, restval="").writerow(row)
 
 
 def _sigmoid(z):
@@ -685,9 +696,17 @@ def train_model():
     train, test = rows[:cut], rows[cut:]
     out = lambda r, k: float(r[k])
     # 1. meilleure règle de sortie sur les données d'entraînement
-    keys = [rule_key(x) for x in EXIT_GRID]
-    perf = {k: statistics.mean(out(r, k) for r in train) for k in keys}
+    #    (une règle ajoutée récemment n'est jugée que sur les observations qui l'ont)
+    perf = {}
+    for k in (rule_key(x) for x in EXIT_GRID):
+        vals = [out(r, k) for r in train if r.get(k) not in (None, "")]
+        if len(vals) >= MIN_OBS_TO_TRAIN * 0.7 * 0.8:
+            perf[k] = statistics.mean(vals)
     best = max(perf, key=perf.get)
+    rows = [r for r in rows if r.get(best) not in (None, "")]
+    n = len(rows)
+    cut = int(n * 0.7)
+    train, test = rows[:cut], rows[cut:]
     # 2. modèle : ce token aurait-il été gagnant avec cette règle ?
     def matrix(rs, mean=None, std=None):
         raw = [[float(r[k]) for k in MODEL_INPUTS] for r in rs]
@@ -705,16 +724,28 @@ def train_model():
     avg_all = statistics.mean(p for _, p in scored)
     avg_top = statistics.mean(p for _, p in top)
     win_top = sum(p > 0 for _, p in top) / len(top) * 100
-    active = len(test) >= 30 and avg_top > avg_all
+    # n'achète que si le gain moyen est POSITIF sur des données jamais vues :
+    # - « modèle » : ses tokens préférés gagnent et battent la moyenne
+    # - « règle »  : la règle de sortie seule gagne déjà en moyenne
+    enough = len(test) >= 20
+    if enough and avg_top > avg_all and avg_top > 0:
+        mode = "modèle"
+    elif enough and avg_all > 0:
+        mode = "règle"
+    else:
+        mode = "pause"
+    active = mode != "pause"
     # 4. modèle final sur toutes les données ; seuil = 25 % des meilleurs
     Xall, mean, std = matrix(rows)
     w, b = fit_logistic(Xall, [float(out(r, best) > 0) for r in rows])
     final = {"w": w, "b": b, "mean": mean, "std": std}
     preds = sorted(predict(final, {k: float(r[k]) for k in MODEL_INPUTS}) for r in rows)
     sl, tp = (int(x) for x in best[2:].split("_tp"))
-    MODEL = dict(final, status="actif" if active else "pas meilleur que la moyenne",
-                 active=active, n=n, n_test=len(test), rule=[-sl, tp], rule_key=best,
-                 threshold=preds[int(len(preds) * 0.75)], trained_at=time.time(),
+    status = {"modèle": "actif : choisit ses tokens", "règle": "actif : applique la règle apprise",
+              "pause": "en pause : rien de rentable sur les données récentes"}[mode]
+    MODEL = dict(final, status=status, mode=mode, active=active, n=n, n_test=len(test), rule=[-sl, tp], rule_key=best,
+                 threshold=preds[int(len(preds) * 0.75)] if mode == "modèle" else 0.0,
+                 trained_at=time.time(),
                  test_avg_all=round(avg_all, 2), test_avg_top=round(avg_top, 2),
                  test_win_top=round(win_top, 1),
                  rules={k: round(v, 2) for k, v in sorted(perf.items(), key=lambda x: -x[1])},
