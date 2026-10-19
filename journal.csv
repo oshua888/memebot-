@@ -184,3 +184,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-18 23:38:24,hasard,VENTE,Gato,0.0002015,6.57,stop-loss (-66%) PnL -13.06$ coût 1.1%
 2026-10-19 00:59:42,actuelle,VENTE,GLITCH,0.001801,18.33,durée max 12h PnL -0.65$ coût 1.0%
 2026-10-19 01:49:42,actuelle,VENTE,FTR,0.001001,12.11,stop-loss (-31%) PnL -5.59$ coût 1.0%
+2026-10-19 01:54:42,hasard,VENTE,FTR,0.0009608,13.51,stop-loss (-31%) PnL -6.14$ coût 1.0%
