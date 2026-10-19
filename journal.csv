@@ -283,3 +283,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 17:30:59,prudente,VENTE,WORTHLESS,0.0007411,6.48,palier +30% PnL +1.55$ coût 1.0%
 2026-10-19 17:35:01,prudente,VENTE,WORTHLESS,0.000903,3.95,palier +60% PnL +1.48$ coût 1.0%
 2026-10-19 17:35:01,actuelle,VENTE,WORTHLESS,0.000903,12.51,palier +100% PnL +6.41$ coût 1.0%
+2026-10-19 17:45:05,prudente,VENTE,WORTHLESS,0.0007149,3.13,trailing-stop PnL +0.66$ coût 1.0%
