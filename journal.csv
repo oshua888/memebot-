@@ -304,3 +304,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 19:37:00,agressive,VENTE,COMPUTE,0.000122,14.72,stop-loss (-42%) PnL -10.74$ coût 1.1%
 2026-10-19 19:40:00,agressive,ACHAT,MOMO,0.00010228138,24.92,score 62 coût 1.2%
 2026-10-19 20:23:00,actuelle,ACHAT,Kim,0.000462842091,17.73,score 61 coût 1.1%
+2026-10-19 20:34:55,actuelle,VENTE,Kim,0.0007312,9.15,palier +50% PnL +3.30$ coût 1.0%
