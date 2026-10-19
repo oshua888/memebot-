@@ -246,3 +246,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 15:15:40,hasard,VENTE,PIERRE,0.0009463,12.70,stop-loss (-33%) PnL -6.32$ coût 1.0%
 2026-10-19 15:15:40,hasard,ACHAT,Doomsday,0.001168020729,19.46,score 82 coût 1.0%
 2026-10-19 15:28:41,prudente,VENTE,WEFT,0.002425,7.73,stop-loss (-21%) PnL -2.11$ coût 1.0%
+2026-10-19 15:37:40,actuelle,VENTE,WEFT,0.002343,12.16,stop-loss (-30%) PnL -5.41$ coût 1.0%
+2026-10-19 15:37:40,actuelle,ACHAT,Mimi,0.0003282694526,18.14,score 71 coût 1.1%
