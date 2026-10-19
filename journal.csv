@@ -211,3 +211,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 10:37:05,prudente,ACHAT,Doomsday,0.0009616335868,9.82,score 85 coût 1.0%
 2026-10-19 10:39:06,actuelle,VENTE,FTR,0.001404,12.22,stop-loss (-30%) PnL -5.52$ coût 1.0%
 2026-10-19 10:39:06,actuelle,ACHAT,PIERRE,0.001369976601,17.64,score 65 coût 1.0%
+2026-10-19 10:49:08,hasard,VENTE,CATONICE,0.0001947,9.69,palier +50% PnL +3.40$ coût 1.0%
