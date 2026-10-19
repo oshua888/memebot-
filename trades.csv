@@ -103,3 +103,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-19 12:01,2026-10-19 16:52,actuelle,Doomsday,boost,trailing-stop,4.85,38.8,74,79554,9.79,14.3,1.806,0.7,-5.08,-36.97,37.54,1
 2026-10-19 09:54,2026-10-19 16:52,hasard,godspeed,tendance,stop-loss (-37%),6.98,-37.82,53,31759,3.46,12.9,0.47,0.55,12.2,46.85,55.41,0
 2026-10-19 09:54,2026-10-19 16:56,actuelle,UHI,tendance,trailing-stop,7.04,20.68,60,94092,9.03,9.1,2.534,0.532,-3.32,-28.75,160,0
+2026-10-19 12:41,2026-10-19 17:08,prudente,DOGESTER,tendance,stop-loss (-21%),4.45,-21.65,70,37662,5.22,20.2,0.551,0.758,6.87,9.61,2.54,0
