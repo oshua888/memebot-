@@ -365,3 +365,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 07:03:08,actuelle,VENTE,COLLECTOOOR,0.0005043,8.78,palier +50% PnL +2.93$ coût 1.0%
 2026-10-20 07:05:08,hasard,VENTE,COLLECTOOOR,0.0005615,9.89,palier +50% PnL +3.64$ coût 1.0%
 2026-10-20 07:21:08,actuelle,ACHAT,BORLY,0.001782150293,17.53,score 66 coût 1.0%
+2026-10-20 07:42:07,prudente,ACHAT,Twyne,0.0002990823882,9.79,score 73 coût 1.0%
+2026-10-20 07:43:07,prudente,VENTE,Twyne,0.0001842,5.97,stop-loss (-38%) PnL -3.82$ coût 1.0%
