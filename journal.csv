@@ -357,21 +357,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 06:04:06,prudente,VENTE,startupSI,0.01178,7.73,stop-loss (-20%) PnL -2.06$ coût 1.0%
 2026-10-20 06:13:08,prudente,VENTE,BORLY,0.001913,7.62,stop-loss (-21%) PnL -2.17$ coût 1.0%
 2026-10-20 06:14:10,actuelle,VENTE,ORYN,0.0001408,15.33,trailing-stop PnL +3.44$ coût 1.1%
-2026-10-20 06:39:14,prudente,ACHAT,LEONIDA,0.0001696749319,9.76,score 75 coût 1.1%
-2026-10-20 06:39:14,actuelle,ACHAT,LEONIDA,0.0001697527385,17.68,score 75 coût 1.1%
-2026-10-20 06:56:08,prudente,VENTE,LEONIDA,0.00023,6.55,palier +30% PnL +1.67$ coût 1.0%
-2026-10-20 06:59:08,prudente,VENTE,LEONIDA,0.0002,5.69,trailing-stop PnL +0.81$ coût 1.0%
-2026-10-20 07:00:07,actuelle,VENTE,LEONIDA,2.558e-06,0.26,stop-loss (-98%) PnL -17.41$ coût 1.0%
-2026-10-20 07:03:08,actuelle,VENTE,COLLECTOOOR,0.0005043,8.78,palier +50% PnL +2.93$ coût 1.0%
-2026-10-20 07:05:08,hasard,VENTE,COLLECTOOOR,0.0005615,9.89,palier +50% PnL +3.64$ coût 1.0%
-2026-10-20 07:21:08,actuelle,ACHAT,BORLY,0.001782150293,17.53,score 66 coût 1.0%
-2026-10-20 07:42:07,prudente,ACHAT,Twyne,0.0002990823882,9.79,score 73 coût 1.0%
-2026-10-20 07:43:07,prudente,VENTE,Twyne,0.0001842,5.97,stop-loss (-38%) PnL -3.82$ coût 1.0%
-2026-10-20 08:00:08,prudente,VENTE,broomy,0.0001025,10.08,durée max 8h PnL +0.24$ coût 1.1%
-2026-10-20 08:01:08,actuelle,VENTE,COLLECTOOOR,0.0004675,16.52,trailing-stop PnL +4.64$ coût 1.0%
-2026-10-20 08:01:08,actuelle,ACHAT,Twyne,0.0001511518517,17.48,score 67 coût 1.1%
-2026-10-20 08:01:08,hasard,VENTE,COLLECTOOOR,0.0004675,16.72,trailing-stop PnL +4.03$ coût 1.0%
-2026-10-20 08:01:08,hasard,ACHAT,COLLECTOOOR,0.0004724101922,18.98,score 61 coût 1.1%
-2026-10-20 08:05:08,actuelle,VENTE,Twyne,0.000105,12.01,stop-loss (-31%) PnL -5.47$ coût 1.1%
-2026-10-20 08:05:08,actuelle,ACHAT,COLLECTOOOR,0.0004617828938,17.38,score 61 coût 1.0%
-2026-10-20 09:04:09,actuelle,VENTE,broomy,9.84e-05,17.69,durée max 12h PnL -0.06$ coût 1.1%
+2026-10-20 09:15:25,prudente,VENTE,broomy,9.939e-05,9.78,durée max 8h PnL -0.06$ coût 1.1%
+2026-10-20 09:15:25,prudente,ACHAT,Twyne,0.0001119831719,9.76,score 83 coût 1.1%
+2026-10-20 09:15:25,actuelle,VENTE,broomy,9.939e-05,17.86,durée max 12h PnL +0.12$ coût 1.1%
+2026-10-20 09:15:25,actuelle,ACHAT,Twyne,0.0001120442491,17.69,score 83 coût 1.1%
