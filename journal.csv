@@ -335,3 +335,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 05:01:09,prudente,ACHAT,BORLY,0.002432412508,9.78,score 74 coût 1.0%
 2026-10-20 05:03:06,actuelle,VENTE,GTA6,0.0001598,18.88,durée max 12h PnL +0.82$ coût 1.1%
 2026-10-20 05:03:06,actuelle,ACHAT,COLLECTOOOR,0.0003326792998,17.73,score 71 coût 1.1%
+2026-10-20 05:11:06,prudente,VENTE,aDOGymous,0.0006445,6.93,stop-loss (-29%) PnL -2.88$ coût 1.0%
+2026-10-20 05:13:06,prudente,ACHAT,ORYN,0.000123909224,9.75,score 75 coût 1.1%
