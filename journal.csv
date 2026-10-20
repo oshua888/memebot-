@@ -359,3 +359,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 06:14:10,actuelle,VENTE,ORYN,0.0001408,15.33,trailing-stop PnL +3.44$ coût 1.1%
 2026-10-20 06:39:14,prudente,ACHAT,LEONIDA,0.0001696749319,9.76,score 75 coût 1.1%
 2026-10-20 06:39:14,actuelle,ACHAT,LEONIDA,0.0001697527385,17.68,score 75 coût 1.1%
+2026-10-20 06:56:08,prudente,VENTE,LEONIDA,0.00023,6.55,palier +30% PnL +1.67$ coût 1.0%
+2026-10-20 06:59:08,prudente,VENTE,LEONIDA,0.0002,5.69,trailing-stop PnL +0.81$ coût 1.0%
