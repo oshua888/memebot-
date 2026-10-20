@@ -373,3 +373,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 11:05:22,actuelle,VENTE,broomy,3.161e-06,0.47,stop-loss (-97%) PnL -17.18$ coût 1.0%
 2026-10-20 11:05:22,agressive,VENTE,broomy,3.161e-06,0.69,stop-loss (-97%) PnL -23.74$ coût 1.0%
 2026-10-20 11:05:22,agressive,ACHAT,startupSI,0.0007830637937,23.26,score 67 coût 1.1%
+2026-10-20 11:15:22,actuelle,VENTE,COLLECTOOOR,0.0005292,9.21,palier +50% PnL +3.36$ coût 1.0%
+2026-10-20 11:15:22,hasard,VENTE,COLLECTOOOR,0.0005292,9.32,palier +50% PnL +3.07$ coût 1.0%
