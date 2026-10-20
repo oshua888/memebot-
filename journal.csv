@@ -405,3 +405,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 13:04:20,hasard,VENTE,HOOT,5.154e-05,12.96,stop-loss (-31%) PnL -6.03$ coût 1.1%
 2026-10-20 13:04:20,hasard,ACHAT,UHI,0.0002156981171,18.67,score 26 coût 1.1%
 2026-10-20 13:06:24,agressive,ACHAT,CBUCKS,0.001149857693,22.88,score 52 coût 1.0%
+2026-10-20 13:18:21,agressive,VENTE,COLLECTOOOR,0.0002327,13.44,stop-loss (-43%) PnL -10.57$ coût 1.1%
+2026-10-20 13:18:21,hasard,VENTE,COLLECTOOOR,0.0002327,12.83,stop-loss (-31%) PnL -5.90$ coût 1.0%
+2026-10-20 13:18:21,hasard,ACHAT,COMPUTE,0.0003105876028,18.61,score 51 coût 1.1%
+2026-10-20 13:18:21,apprentie,VENTE,COLLECTOOOR,0.0002327,13.50,stop-loss (-32%) PnL -6.44$ coût 1.1%
+2026-10-20 13:18:21,apprentie,ACHAT,SI276,0.0007026769483,19.64,score 51 coût 1.0%
