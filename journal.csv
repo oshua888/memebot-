@@ -464,3 +464,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 18:05:50,actuelle,ACHAT,pika,9.375331721e-05,17.09,score 62 coût 1.1%
 2026-10-20 18:05:50,hasard,VENTE,EVYN,0.0001557,17.31,trailing-stop PnL +5.12$ coût 1.1%
 2026-10-20 18:05:50,hasard,ACHAT,COLLECTOOOR,0.0001921463346,18.46,score 30 coût 1.1%
+2026-10-20 18:12:51,agressive,VENTE,texcat,0.0003441,13.50,stop-loss (-40%) PnL -9.42$ coût 1.1%
+2026-10-20 18:12:51,agressive,ACHAT,Dacity,0.009851650204,22.15,score 75 coût 1.0%

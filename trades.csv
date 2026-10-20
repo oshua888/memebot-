@@ -194,3 +194,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-20 15:32,2026-10-20 18:03,apprentie,Dacity,tendance,palier +25%,2.52,26.28,60,337413,22.09,220.3,0.926,0.488,23.94,19.36,24.39,0
 2026-10-20 16:44,2026-10-20 18:04,actuelle,Pokémon,tendance,trailing-stop,1.33,44.46,67,121240,9.13,42.0,0.954,0.555,0.16,17.78,55.7,0
 2026-10-20 17:23,2026-10-20 18:05,hasard,EVYN,boost,trailing-stop,0.7,47.8,42,26712,3.83,142.3,1.597,0.517,3.44,126,268,1
+2026-10-20 14:38,2026-10-20 18:12,agressive,texcat,boost,stop-loss (-40%),3.57,-41.09,54,69056,8.04,287.6,0.205,0.629,0.09,12.22,43.6,1
