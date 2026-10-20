@@ -353,3 +353,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 05:54:07,prudente,ACHAT,startupSI,0.01477705867,9.79,score 73 coût 1.0%
 2026-10-20 05:59:07,actuelle,VENTE,aDOGymous,0.0003462,11.04,stop-loss (-37%) PnL -6.69$ coût 1.0%
 2026-10-20 05:59:07,actuelle,ACHAT,startupSI,0.01347471036,17.71,score 75 coût 1.0%
+2026-10-20 06:01:07,actuelle,VENTE,ORYN,0.0001737,9.32,palier +50% PnL +3.46$ coût 1.1%
+2026-10-20 06:04:06,prudente,VENTE,startupSI,0.01178,7.73,stop-loss (-20%) PnL -2.06$ coût 1.0%
