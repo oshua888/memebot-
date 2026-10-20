@@ -135,3 +135,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-20 00:32,2026-10-20 01:49,hasard,WEFT,tendance,stop-loss (-36%),1.28,-36.66,44,117920,14.05,54.6,0.059,0.623,0,1.67,-7.27,0
 2026-10-20 01:10,2026-10-20 02:06,agressive,COLLECTOOOR,tendance,stop-loss (-53%),0.93,-53.54,61,87702,7.41,6.2,5.091,0.542,-2.36,-27.15,377,0
 2026-10-20 01:43,2026-10-20 02:12,prudente,aDOGymous,profil,trailing-stop,0.48,44.5,77,60885,8.3,2.0,1.991,0.823,14.57,37.91,950,0
+2026-10-20 01:44,2026-10-20 02:17,prudente,GDC,boost,trailing-stop,0.55,51.28,78,60007,7.85,2.3,5.201,0.74,-3.21,5.94,721,1
