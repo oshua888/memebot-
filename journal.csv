@@ -350,3 +350,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 03:12:43,agressive,ACHAT,aDOGymous,0.001011547557,23.31,score 56 coût 1.1%
 2026-10-20 03:23:43,prudente,VENTE,COLLECTOOOR,0.0003824,7.72,stop-loss (-22%) PnL -2.23$ coût 1.0%
 2026-10-20 03:23:43,prudente,ACHAT,FAUCET,0.0003742339369,9.91,score 73 coût 1.0%
+2026-10-20 03:25:43,prudente,VENTE,FAUCET,0.0002987,7.83,stop-loss (-20%) PnL -2.08$ coût 1.0%
