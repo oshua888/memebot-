@@ -165,3 +165,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-20 04:07,2026-10-20 14:35,hasard,HOOT,tendance,stop-loss (-46%),10.48,-46.65,51,25104,2.85,27.5,0.412,0.538,-2.94,10.85,53.2,0
 2026-10-20 11:54,2026-10-20 14:35,hasard,startupSI,boost+tendance,stop-loss (-52%),2.69,-52.21,79,95793,9.71,41.3,1.711,0.921,4.3,31.23,-93.73,1
 2026-10-20 03:55,2026-10-20 14:38,agressive,COLLECTOOOR,tendance,stop-loss (-40%),10.73,-40.95,58,69117,5.73,8.9,1.551,0.587,-0.88,-15.46,1071,0
+2026-10-20 14:35,2026-10-20 14:43,apprentie,startupSI,boost+tendance,palier +25%,0.13,36.71,75,68227,6.65,44.0,1.736,0.685,-6.62,17.53,-95.93,1

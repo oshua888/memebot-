@@ -399,3 +399,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 14:36:52,hasard,ACHAT,Pokémon,0.00168813082,18.67,score 52 coût 1.0%
 2026-10-20 14:38:50,agressive,VENTE,COLLECTOOOR,0.0002455,14.18,stop-loss (-40%) PnL -9.83$ coût 1.1%
 2026-10-20 14:38:50,agressive,ACHAT,texcat,0.0005779986854,22.92,score 54 coût 1.1%
+2026-10-20 14:43:52,apprentie,VENTE,startupSI,0.0006364,27.34,palier +25% PnL +7.34$ coût 1.1%
+2026-10-20 14:43:52,apprentie,ACHAT,startupSI,0.0006430799747,20.14,score 60 coût 1.0%
