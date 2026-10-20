@@ -323,34 +323,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 00:40:44,prudente,VENTE,Onion,0.0001545,7.60,stop-loss (-22%) PnL -2.27$ coût 1.0%
 2026-10-20 00:44:44,prudente,ACHAT,Pokémon,0.0005838192906,9.84,score 78 coût 1.0%
 2026-10-20 00:46:45,prudente,VENTE,Pokémon,0.0004418,7.37,stop-loss (-24%) PnL -2.47$ coût 1.0%
-2026-10-20 01:10:44,agressive,VENTE,HOOT,7.26e-05,14.06,stop-loss (-41%) PnL -10.05$ coût 1.1%
-2026-10-20 01:10:44,agressive,ACHAT,COLLECTOOOR,0.0006743358297,23.84,score 61 coût 1.1%
-2026-10-20 01:25:45,prudente,ACHAT,GDC,0.0004431364124,9.81,score 76 coût 1.0%
-2026-10-20 01:36:43,prudente,VENTE,GDC,0.000615,6.74,palier +30% PnL +1.83$ coût 1.0%
-2026-10-20 01:39:43,prudente,VENTE,GDC,0.0004887,5.35,trailing-stop PnL +0.45$ coût 1.0%
-2026-10-20 01:43:44,prudente,ACHAT,aDOGymous,0.0005161739907,9.83,score 77 coût 1.0%
-2026-10-20 01:44:44,prudente,ACHAT,GDC,0.0004791984075,9.83,score 78 coût 1.0%
-2026-10-20 01:49:45,hasard,VENTE,WEFT,0.001125,12.06,stop-loss (-36%) PnL -6.98$ coût 1.0%
-2026-10-20 01:49:45,hasard,ACHAT,Dacity,0.005117366461,18.94,score 35 coût 1.0%
-2026-10-20 01:51:44,prudente,VENTE,aDOGymous,0.0006798,6.41,palier +30% PnL +1.49$ coût 1.0%
-2026-10-20 02:04:43,prudente,VENTE,aDOGymous,0.0008432,3.97,palier +60% PnL +1.52$ coût 1.0%
-2026-10-20 02:06:43,agressive,VENTE,COLLECTOOOR,0.0003166,11.08,stop-loss (-53%) PnL -12.76$ coût 1.0%
-2026-10-20 02:06:43,agressive,ACHAT,GDC,0.0005440732312,23.28,score 78 coût 1.1%
-2026-10-20 02:12:42,prudente,VENTE,aDOGymous,0.0008113,3.82,trailing-stop PnL +1.37$ coût 1.0%
-2026-10-20 02:12:42,prudente,VENTE,GDC,0.0007023,7.13,palier +30% PnL +2.22$ coût 1.0%
-2026-10-20 02:15:43,prudente,VENTE,GDC,0.0007898,4.01,palier +60% PnL +1.55$ coût 1.0%
-2026-10-20 02:17:43,prudente,VENTE,GDC,0.0007351,3.73,trailing-stop PnL +1.27$ coût 1.0%
-2026-10-20 02:19:43,prudente,ACHAT,GDC,0.0005933456207,9.93,score 78 coût 1.0%
-2026-10-20 02:55:43,prudente,ACHAT,COLLECTOOOR,0.0004879575477,9.95,score 76 coût 1.0%
-2026-10-20 03:01:42,prudente,VENTE,GDC,0.0007729,6.40,palier +30% PnL +1.44$ coût 1.0%
-2026-10-20 03:04:43,prudente,VENTE,GDC,0.0006208,5.14,trailing-stop PnL +0.18$ coût 1.0%
-2026-10-20 03:04:43,prudente,ACHAT,GDC,0.0006271827796,9.94,score 78 coût 1.0%
-2026-10-20 03:06:43,prudente,VENTE,GDC,0.0004795,7.52,stop-loss (-24%) PnL -2.42$ coût 1.0%
-2026-10-20 03:12:43,agressive,VENTE,GDC,0.0002217,9.39,stop-loss (-59%) PnL -13.89$ coût 1.0%
-2026-10-20 03:12:43,agressive,ACHAT,aDOGymous,0.001011547557,23.31,score 56 coût 1.1%
-2026-10-20 03:23:43,prudente,VENTE,COLLECTOOOR,0.0003824,7.72,stop-loss (-22%) PnL -2.23$ coût 1.0%
-2026-10-20 03:23:43,prudente,ACHAT,FAUCET,0.0003742339369,9.91,score 73 coût 1.0%
-2026-10-20 03:25:43,prudente,VENTE,FAUCET,0.0002987,7.83,stop-loss (-20%) PnL -2.08$ coût 1.0%
-2026-10-20 03:40:44,prudente,ACHAT,aDOGymous,0.0008655790504,9.89,score 76 coût 1.0%
-2026-10-20 03:50:42,hasard,VENTE,texcat,0.0003176,13.14,stop-loss (-31%) PnL -6.08$ coût 1.1%
-2026-10-20 03:50:42,hasard,ACHAT,COLLECTOOOR,0.0004014933891,18.96,score 63 coût 1.1%
+2026-10-20 03:55:05,agressive,VENTE,HOOT,7.298e-05,14.14,stop-loss (-41%) PnL -9.98$ coût 1.1%
+2026-10-20 03:55:05,agressive,ACHAT,COLLECTOOOR,0.0004113527094,24.00,score 58 coût 1.1%
