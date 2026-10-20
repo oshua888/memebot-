@@ -434,3 +434,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 15:53:49,apprentie,ACHAT,COMPUTE,0.0002524009978,19.73,score 55 coût 1.1%
 2026-10-20 15:54:49,hasard,VENTE,UHI,0.0001641,12.77,stop-loss (-31%) PnL -5.91$ coût 1.1%
 2026-10-20 15:54:49,hasard,ACHAT,DARKCAT,0.0008183769435,18.28,score 34 coût 1.0%
+2026-10-20 16:01:49,agressive,VENTE,WORTHLESS,5.065e-05,13.44,stop-loss (-41%) PnL -9.51$ coût 1.1%
+2026-10-20 16:01:49,agressive,ACHAT,SI276,0.0007277746775,22.47,score 53 coût 1.1%
+2026-10-20 16:03:49,actuelle,ACHAT,DARKCAT,0.0008354241284,17.10,score 61 coût 1.0%
