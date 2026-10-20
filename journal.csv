@@ -454,3 +454,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 17:23:51,hasard,ACHAT,EVYN,0.0001084180388,18.19,score 42 coût 1.1%
 2026-10-20 17:26:50,agressive,ACHAT,ONEPIECE,8.209541179e-05,22.28,score 53 coût 1.2%
 2026-10-20 17:30:50,actuelle,VENTE,Pokémon,0.001891,9.09,palier +50% PnL +3.48$ coût 1.0%
+2026-10-20 17:36:50,hasard,VENTE,EVYN,0.0001748,9.58,palier +50% PnL +3.57$ coût 1.1%
+2026-10-20 17:38:50,hasard,VENTE,COMPUTE,0.0003293,9.23,palier +50% PnL +3.18$ coût 1.0%
+2026-10-20 17:38:50,apprentie,VENTE,COMPUTE,0.0003293,25.46,palier +25% PnL +5.73$ coût 1.1%
+2026-10-20 17:39:51,actuelle,ACHAT,ONEPIECE,9.846434319e-05,17.23,score 64 coût 1.1%
