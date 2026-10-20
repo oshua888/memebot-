@@ -494,3 +494,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 22:11:20,hasard,VENTE,DTC,0.001831,14.13,trailing-stop PnL +2.02$ coût 1.0%
 2026-10-20 22:11:20,hasard,ACHAT,Dacity,0.01112105121,17.96,score 83 coût 1.0%
 2026-10-20 22:13:22,prudente,ACHAT,DTC,0.001853638955,9.75,score 82 coût 1.0%
+2026-10-20 22:19:20,prudente,VENTE,pika,7.414e-05,7.68,stop-loss (-20%) PnL -2.02$ coût 1.1%
