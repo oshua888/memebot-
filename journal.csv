@@ -442,3 +442,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 16:18:52,prudente,VENTE,MONEYBIZ,0.002149,6.35,palier +30% PnL +1.49$ coût 1.0%
 2026-10-20 16:21:49,prudente,VENTE,MONEYBIZ,0.001816,5.37,trailing-stop PnL +0.50$ coût 1.0%
 2026-10-20 16:21:49,prudente,ACHAT,MONEYBIZ,0.001834454198,9.75,score 82 coût 1.0%
+2026-10-20 16:28:49,apprentie,VENTE,MONEYBIZ,0.001534,14.21,stop-loss (-27%) PnL -5.59$ coût 1.0%
+2026-10-20 16:28:49,apprentie,ACHAT,CBUCKS,0.001232624953,19.68,score 43 coût 1.0%
