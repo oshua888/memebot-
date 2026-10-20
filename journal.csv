@@ -469,3 +469,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 18:41:55,actuelle,VENTE,ONEPIECE,6.89e-05,11.92,stop-loss (-30%) PnL -5.31$ coût 1.1%
 2026-10-20 18:50:57,hasard,VENTE,COMPUTE,0.0002905,16.53,trailing-stop PnL +4.25$ coût 1.1%
 2026-10-20 18:50:57,hasard,ACHAT,COMPUTE,0.0002936075012,18.37,score 29 coût 1.1%
+2026-10-20 19:40:55,agressive,VENTE,MOMO,0.0001053,25.35,durée max 24h PnL +0.44$ coût 1.2%
+2026-10-20 19:40:55,agressive,ACHAT,DARKCAT,0.0008724951811,21.80,score 58 coût 1.1%
