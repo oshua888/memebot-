@@ -463,3 +463,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 20:09:18,apprentie,VENTE,COMPUTE,0.0003162,24.45,palier +25% PnL +4.72$ coût 1.1%
 2026-10-20 20:18:19,prudente,ACHAT,pika,9.267798636e-05,9.71,score 75 coût 1.1%
 2026-10-20 20:18:19,actuelle,ACHAT,pika,9.273157229e-05,17.02,score 75 coût 1.1%
+2026-10-20 21:06:20,actuelle,ACHAT,DTC,0.00142858732,16.91,score 66 coût 1.0%
+2026-10-20 21:07:20,prudente,ACHAT,DTC,0.00146779002,9.70,score 81 coût 1.0%
