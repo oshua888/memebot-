@@ -384,3 +384,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 11:55:22,actuelle,VENTE,COLLECTOOOR,0.0003917,13.84,trailing-stop PnL +1.96$ coût 1.0%
 2026-10-20 11:55:22,hasard,VENTE,COLLECTOOOR,0.0003917,14.01,trailing-stop PnL +1.32$ coût 1.0%
 2026-10-20 11:55:22,hasard,ACHAT,BORLY,0.0009413154125,18.92,score 32 coût 1.0%
+2026-10-20 12:15:24,apprentie,ACHAT,startupSI,0.001108391521,20.00,score 78 coût 1.0%
+2026-10-20 12:15:24,apprentie,ACHAT,COMPUTE,0.000452859028,19.99,score 54 coût 1.1%
+2026-10-20 12:15:24,apprentie,ACHAT,BORLY,0.000896584567,19.98,score 31 coût 1.0%
+2026-10-20 12:15:24,apprentie,ACHAT,texcat,0.0005319872099,19.98,score 33 coût 1.1%
+2026-10-20 12:15:24,apprentie,ACHAT,Dacity,0.005839595575,19.97,score 33 coût 1.0%
+2026-10-20 12:17:22,agressive,VENTE,SI276,0.000673,24.37,durée max 24h PnL -0.15$ coût 1.1%
+2026-10-20 12:17:22,agressive,ACHAT,WORTHLESS,9.072703774e-05,23.57,score 54 coût 1.2%
