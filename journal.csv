@@ -437,3 +437,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 16:01:49,agressive,VENTE,WORTHLESS,5.065e-05,13.44,stop-loss (-41%) PnL -9.51$ coût 1.1%
 2026-10-20 16:01:49,agressive,ACHAT,SI276,0.0007277746775,22.47,score 53 coût 1.1%
 2026-10-20 16:03:49,actuelle,ACHAT,DARKCAT,0.0008354241284,17.10,score 61 coût 1.0%
+2026-10-20 16:15:50,apprentie,VENTE,MONEYBIZ,0.002094,24.42,palier +25% PnL +4.68$ coût 1.0%
+2026-10-20 16:15:50,apprentie,ACHAT,MONEYBIZ,0.002115580849,19.81,score 83 coût 1.0%
+2026-10-20 16:18:52,prudente,VENTE,MONEYBIZ,0.002149,6.35,palier +30% PnL +1.49$ coût 1.0%
