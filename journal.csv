@@ -343,3 +343,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 02:19:43,prudente,ACHAT,GDC,0.0005933456207,9.93,score 78 coût 1.0%
 2026-10-20 02:55:43,prudente,ACHAT,COLLECTOOOR,0.0004879575477,9.95,score 76 coût 1.0%
 2026-10-20 03:01:42,prudente,VENTE,GDC,0.0007729,6.40,palier +30% PnL +1.44$ coût 1.0%
+2026-10-20 03:04:43,prudente,VENTE,GDC,0.0006208,5.14,trailing-stop PnL +0.18$ coût 1.0%
+2026-10-20 03:04:43,prudente,ACHAT,GDC,0.0006271827796,9.94,score 78 coût 1.0%
+2026-10-20 03:06:43,prudente,VENTE,GDC,0.0004795,7.52,stop-loss (-24%) PnL -2.42$ coût 1.0%
