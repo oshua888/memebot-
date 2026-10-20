@@ -372,3 +372,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 08:01:08,actuelle,ACHAT,Twyne,0.0001511518517,17.48,score 67 coût 1.1%
 2026-10-20 08:01:08,hasard,VENTE,COLLECTOOOR,0.0004675,16.72,trailing-stop PnL +4.03$ coût 1.0%
 2026-10-20 08:01:08,hasard,ACHAT,COLLECTOOOR,0.0004724101922,18.98,score 61 coût 1.1%
+2026-10-20 08:05:08,actuelle,VENTE,Twyne,0.000105,12.01,stop-loss (-31%) PnL -5.47$ coût 1.1%
+2026-10-20 08:05:08,actuelle,ACHAT,COLLECTOOOR,0.0004617828938,17.38,score 61 coût 1.0%
