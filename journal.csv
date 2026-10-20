@@ -379,3 +379,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 11:40:24,hasard,VENTE,SI276,0.0006581,18.79,durée max 12h PnL -0.32$ coût 1.0%
 2026-10-20 11:40:24,hasard,ACHAT,WORTHLESS,0.0001183159464,18.85,score 51 coût 1.1%
 2026-10-20 11:45:21,hasard,VENTE,WORTHLESS,0.000203,10.56,palier +50% PnL +4.34$ coût 1.1%
+2026-10-20 11:54:22,hasard,VENTE,WORTHLESS,0.0001311,13.84,trailing-stop PnL +1.21$ coût 1.1%
+2026-10-20 11:54:22,hasard,ACHAT,startupSI,0.0009438102732,18.93,score 79 coût 1.0%
