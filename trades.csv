@@ -202,3 +202,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-20 15:54,2026-10-20 21:49,hasard,DARKCAT,boost+profil,stop-loss (-31%),5.91,-31.61,34,78338,10.19,5.9,1.206,0.38,21.05,102,1678,1
 2026-10-20 15:53,2026-10-20 21:49,apprentie,DARKCAT,boost+profil,stop-loss (-31%),5.93,-31.75,19,78421,10.2,5.8,1.211,0.381,31.36,96.85,1682,1
 2026-10-20 15:36,2026-10-20 21:50,hasard,MONEYBIZ,boost,stop-loss (-30%),6.22,-30.96,82,116308,14.64,2.5,4.468,0.782,0.19,29.46,2434,1
+2026-10-20 19:56,2026-10-20 21:59,agressive,DARKCAT,boost,stop-loss (-41%),2.05,-41.35,59,78498,9.99,9.9,1.043,0.375,-10.87,6.21,98.33,1
