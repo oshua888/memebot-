@@ -452,22 +452,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 17:21:58,agressive,VENTE,Dacity,0.008347,38.38,durée max 24h PnL +13.00$ coût 1.0%
 2026-10-20 17:23:51,hasard,VENTE,Dacity,0.008337,22.43,durée max 12h PnL +3.51$ coût 1.0%
 2026-10-20 17:23:51,hasard,ACHAT,EVYN,0.0001084180388,18.19,score 42 coût 1.1%
-2026-10-20 17:26:50,agressive,ACHAT,ONEPIECE,8.209541179e-05,22.28,score 53 coût 1.2%
-2026-10-20 17:30:50,actuelle,VENTE,Pokémon,0.001891,9.09,palier +50% PnL +3.48$ coût 1.0%
-2026-10-20 17:36:50,hasard,VENTE,EVYN,0.0001748,9.58,palier +50% PnL +3.57$ coût 1.1%
-2026-10-20 17:38:50,hasard,VENTE,COMPUTE,0.0003293,9.23,palier +50% PnL +3.18$ coût 1.0%
-2026-10-20 17:38:50,apprentie,VENTE,COMPUTE,0.0003293,25.46,palier +25% PnL +5.73$ coût 1.1%
-2026-10-20 17:39:51,actuelle,ACHAT,ONEPIECE,9.846434319e-05,17.23,score 64 coût 1.1%
-2026-10-20 18:03:51,apprentie,VENTE,Dacity,0.009781,24.95,palier +25% PnL +5.19$ coût 1.0%
-2026-10-20 18:04:50,actuelle,VENTE,Pokémon,0.001584,15.46,trailing-stop PnL +4.07$ coût 1.0%
-2026-10-20 18:04:50,actuelle,ACHAT,Pokémon,0.001600209147,17.12,score 71 coût 1.0%
-2026-10-20 18:05:50,actuelle,ACHAT,pika,9.375331721e-05,17.09,score 62 coût 1.1%
-2026-10-20 18:05:50,hasard,VENTE,EVYN,0.0001557,17.31,trailing-stop PnL +5.12$ coût 1.1%
-2026-10-20 18:05:50,hasard,ACHAT,COLLECTOOOR,0.0001921463346,18.46,score 30 coût 1.1%
-2026-10-20 18:12:51,agressive,VENTE,texcat,0.0003441,13.50,stop-loss (-40%) PnL -9.42$ coût 1.1%
-2026-10-20 18:12:51,agressive,ACHAT,Dacity,0.009851650204,22.15,score 75 coût 1.0%
-2026-10-20 18:41:55,actuelle,VENTE,ONEPIECE,6.89e-05,11.92,stop-loss (-30%) PnL -5.31$ coût 1.1%
-2026-10-20 18:50:57,hasard,VENTE,COMPUTE,0.0002905,16.53,trailing-stop PnL +4.25$ coût 1.1%
-2026-10-20 18:50:57,hasard,ACHAT,COMPUTE,0.0002936075012,18.37,score 29 coût 1.1%
-2026-10-20 19:40:55,agressive,VENTE,MOMO,0.0001053,25.35,durée max 24h PnL +0.44$ coût 1.2%
-2026-10-20 19:40:55,agressive,ACHAT,DARKCAT,0.0008724951811,21.80,score 58 coût 1.1%
+2026-10-20 19:56:19,agressive,VENTE,MOMO,0.0001096,26.39,durée max 24h PnL +1.47$ coût 1.2%
+2026-10-20 19:56:19,agressive,ACHAT,DARKCAT,0.0008041047547,22.09,score 59 coût 1.1%
+2026-10-20 19:56:19,agressive,ACHAT,Dacity,0.009983959109,22.07,score 57 coût 1.0%
+2026-10-20 19:56:19,apprentie,VENTE,Dacity,0.009884,25.21,palier +25% PnL +5.46$ coût 1.0%
