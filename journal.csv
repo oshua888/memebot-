@@ -483,3 +483,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 21:50:20,hasard,ACHAT,COLLECTOOOR,0.0001826440015,17.90,score 41 coût 1.1%
 2026-10-20 21:59:22,agressive,VENTE,DARKCAT,0.0004766,12.95,stop-loss (-41%) PnL -9.13$ coût 1.0%
 2026-10-20 21:59:22,agressive,ACHAT,DTC,0.001584276575,21.59,score 80 coût 1.0%
+2026-10-20 22:05:20,prudente,VENTE,DTC,0.00215,6.80,palier +30% PnL +1.94$ coût 1.0%
