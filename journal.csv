@@ -470,3 +470,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 21:13:23,prudente,VENTE,DTC,0.001534,5.02,trailing-stop PnL +0.17$ coût 1.0%
 2026-10-20 21:13:23,actuelle,VENTE,DTC,0.001534,12.04,trailing-stop PnL +0.71$ coût 1.0%
 2026-10-20 21:13:23,actuelle,ACHAT,DTC,0.001549806004,17.01,score 66 coût 1.0%
+2026-10-20 21:21:21,prudente,ACHAT,DTC,0.001521323716,9.73,score 81 coût 1.0%
