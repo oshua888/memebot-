@@ -472,3 +472,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 21:13:23,actuelle,ACHAT,DTC,0.001549806004,17.01,score 66 coût 1.0%
 2026-10-20 21:21:21,prudente,ACHAT,DTC,0.001521323716,9.73,score 81 coût 1.0%
 2026-10-20 21:37:21,actuelle,VENTE,Pokémon,0.001746,8.39,palier +50% PnL +2.79$ coût 1.0%
+2026-10-20 21:47:20,hasard,VENTE,EVYN,7.427e-05,12.33,stop-loss (-31%) PnL -5.87$ coût 1.1%
+2026-10-20 21:47:20,hasard,ACHAT,DTC,0.001552864591,18.06,score 80 coût 1.0%
+2026-10-20 21:49:20,actuelle,VENTE,DARKCAT,0.0005656,11.45,stop-loss (-32%) PnL -5.64$ coût 1.0%
+2026-10-20 21:49:20,hasard,VENTE,DARKCAT,0.0005656,12.50,stop-loss (-31%) PnL -5.78$ coût 1.0%
+2026-10-20 21:49:20,hasard,ACHAT,GTAa,0.0001004462041,17.91,score 39 coût 1.1%
+2026-10-20 21:49:20,apprentie,VENTE,DARKCAT,0.0005656,13.47,stop-loss (-31%) PnL -6.27$ coût 1.0%
+2026-10-20 21:50:20,actuelle,VENTE,Pokémon,0.00246,12.00,palier +100% PnL +6.31$ coût 1.0%
+2026-10-20 21:50:20,hasard,VENTE,MONEYBIZ,0.001208,12.69,stop-loss (-30%) PnL -5.69$ coût 1.0%
+2026-10-20 21:50:20,hasard,ACHAT,COLLECTOOOR,0.0001826440015,17.90,score 41 coût 1.1%
