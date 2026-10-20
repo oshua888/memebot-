@@ -325,3 +325,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 00:46:45,prudente,VENTE,Pokémon,0.0004418,7.37,stop-loss (-24%) PnL -2.47$ coût 1.0%
 2026-10-20 01:10:44,agressive,VENTE,HOOT,7.26e-05,14.06,stop-loss (-41%) PnL -10.05$ coût 1.1%
 2026-10-20 01:10:44,agressive,ACHAT,COLLECTOOOR,0.0006743358297,23.84,score 61 coût 1.1%
+2026-10-20 01:25:45,prudente,ACHAT,GDC,0.0004431364124,9.81,score 76 coût 1.0%
