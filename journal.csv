@@ -333,3 +333,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 01:49:45,hasard,VENTE,WEFT,0.001125,12.06,stop-loss (-36%) PnL -6.98$ coût 1.0%
 2026-10-20 01:49:45,hasard,ACHAT,Dacity,0.005117366461,18.94,score 35 coût 1.0%
 2026-10-20 01:51:44,prudente,VENTE,aDOGymous,0.0006798,6.41,palier +30% PnL +1.49$ coût 1.0%
+2026-10-20 02:04:43,prudente,VENTE,aDOGymous,0.0008432,3.97,palier +60% PnL +1.52$ coût 1.0%
+2026-10-20 02:06:43,agressive,VENTE,COLLECTOOOR,0.0003166,11.08,stop-loss (-53%) PnL -12.76$ coût 1.0%
+2026-10-20 02:06:43,agressive,ACHAT,GDC,0.0005440732312,23.28,score 78 coût 1.1%
