@@ -484,3 +484,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 21:59:22,agressive,VENTE,DARKCAT,0.0004766,12.95,stop-loss (-41%) PnL -9.13$ coût 1.0%
 2026-10-20 21:59:22,agressive,ACHAT,DTC,0.001584276575,21.59,score 80 coût 1.0%
 2026-10-20 22:05:20,prudente,VENTE,DTC,0.00215,6.80,palier +30% PnL +1.94$ coût 1.0%
+2026-10-20 22:06:21,prudente,VENTE,DTC,0.002461,3.89,palier +60% PnL +1.46$ coût 1.0%
+2026-10-20 22:06:21,actuelle,VENTE,Dacity,0.01154,8.42,palier +50% PnL +2.77$ coût 1.0%
+2026-10-20 22:06:21,actuelle,VENTE,DTC,0.002461,8.82,palier +50% PnL +3.21$ coût 1.0%
+2026-10-20 22:06:21,hasard,VENTE,DTC,0.002461,9.35,palier +50% PnL +3.39$ coût 1.0%
+2026-10-20 22:07:20,prudente,VENTE,DTC,0.001925,3.05,trailing-stop PnL +0.61$ coût 1.0%
