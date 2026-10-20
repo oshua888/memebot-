@@ -396,3 +396,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 12:38:21,apprentie,ACHAT,COLLECTOOOR,0.000340074104,19.93,score 57 coût 1.1%
 2026-10-20 12:41:22,apprentie,VENTE,BORLY,0.001123,24.77,palier +25% PnL +4.78$ coût 1.1%
 2026-10-20 12:41:22,apprentie,ACHAT,BORLY,0.001134690693,19.95,score 37 coût 1.0%
+2026-10-20 12:56:21,prudente,VENTE,COMPUTE,0.0003159,7.62,stop-loss (-21%) PnL -2.12$ coût 1.0%
+2026-10-20 12:57:21,apprentie,VENTE,startupSI,0.0008261,14.75,stop-loss (-25%) PnL -5.25$ coût 1.0%
+2026-10-20 12:57:21,apprentie,ACHAT,Mimi,0.0001054797752,19.82,score 47 coût 1.1%
+2026-10-20 12:59:21,hasard,VENTE,startupSI,0.0005748,11.41,stop-loss (-39%) PnL -7.52$ coût 1.0%
+2026-10-20 12:59:21,hasard,ACHAT,COLLECTOOOR,0.0003361212994,18.72,score 47 coût 1.1%
