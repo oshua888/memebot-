@@ -410,3 +410,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 15:02:50,hasard,ACHAT,COMPUTE,0.0002135862105,18.33,score 54 coût 1.1%
 2026-10-20 15:02:50,apprentie,VENTE,BORLY,0.0004953,9.19,stop-loss (-54%) PnL -10.79$ coût 1.0%
 2026-10-20 15:02:50,apprentie,ACHAT,COMPUTE,0.0002135982935,19.61,score 54 coût 1.1%
+2026-10-20 15:05:49,apprentie,VENTE,WORTHLESS,9.78e-05,14.30,stop-loss (-28%) PnL -5.70$ coût 1.1%
+2026-10-20 15:05:49,apprentie,ACHAT,SI276,0.0007073183425,19.56,score 45 coût 1.0%
+2026-10-20 15:08:49,actuelle,ACHAT,MONEYBIZ,0.002037715443,17.19,score 68 coût 1.0%
+2026-10-20 15:09:49,hasard,VENTE,Pokémon,0.001166,12.76,stop-loss (-31%) PnL -5.91$ coût 1.0%
+2026-10-20 15:09:49,hasard,ACHAT,WORTHLESS,0.0001006234597,18.31,score 53 coût 1.1%
