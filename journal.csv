@@ -368,3 +368,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 09:40:25,actuelle,VENTE,startupSI,0.008129,10.57,stop-loss (-40%) PnL -7.13$ coût 1.0%
 2026-10-20 10:14:24,actuelle,VENTE,broomy,0.0001836,9.88,palier +50% PnL +4.07$ coût 1.1%
 2026-10-20 10:17:23,actuelle,ACHAT,EVOLVE,0.0001291223371,17.76,score 62 coût 1.1%
+2026-10-20 10:54:23,actuelle,VENTE,broomy,0.0001161,12.68,trailing-stop PnL +0.89$ coût 1.1%
+2026-10-20 10:54:23,actuelle,ACHAT,broomy,0.0001174036557,17.65,score 77 coût 1.1%
