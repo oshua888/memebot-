@@ -428,3 +428,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 15:48:50,actuelle,VENTE,texcat,0.0003689,10.94,stop-loss (-36%) PnL -6.25$ coût 1.0%
 2026-10-20 15:48:50,apprentie,VENTE,texcat,0.0003689,12.71,stop-loss (-36%) PnL -7.26$ coût 1.0%
 2026-10-20 15:48:50,apprentie,ACHAT,DARKCAT,0.0006349428542,19.70,score 49 coût 1.1%
+2026-10-20 15:53:49,apprentie,VENTE,UHI,0.0001735,14.43,stop-loss (-27%) PnL -5.54$ coût 1.1%
+2026-10-20 15:53:49,apprentie,VENTE,DARKCAT,0.0008116,24.91,palier +25% PnL +5.21$ coût 1.1%
+2026-10-20 15:53:49,apprentie,ACHAT,DARKCAT,0.0008201245346,19.74,score 19 coût 1.1%
+2026-10-20 15:53:49,apprentie,ACHAT,COMPUTE,0.0002524009978,19.73,score 55 coût 1.1%
+2026-10-20 15:54:49,hasard,VENTE,UHI,0.0001641,12.77,stop-loss (-31%) PnL -5.91$ coût 1.1%
+2026-10-20 15:54:49,hasard,ACHAT,DARKCAT,0.0008183769435,18.28,score 34 coût 1.0%
