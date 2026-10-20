@@ -512,3 +512,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 23:24:21,actuelle,VENTE,Pokémon,0.001978,9.65,trailing-stop PnL +3.96$ coût 1.0%
 2026-10-20 23:29:20,hasard,VENTE,COLLECTOOOR,0.00012,11.63,stop-loss (-34%) PnL -6.26$ coût 1.1%
 2026-10-20 23:29:20,hasard,ACHAT,DTC,0.00139323933,17.63,score 64 coût 1.0%
+2026-10-20 23:36:20,agressive,VENTE,DTC,0.0008536,11.09,stop-loss (-48%) PnL -10.62$ coût 1.0%
+2026-10-20 23:36:20,agressive,ACHAT,SASONA,7.399510674e-05,21.32,score 58 coût 1.1%
+2026-10-20 23:36:20,hasard,VENTE,DTC,0.0008536,10.69,stop-loss (-39%) PnL -6.94$ coût 1.0%
+2026-10-20 23:36:20,hasard,ACHAT,SASONA,7.398363804e-05,17.45,score 58 coût 1.1%
+2026-10-20 23:40:20,hasard,VENTE,COMPUTE,0.0001485,12.61,stop-loss (-30%) PnL -5.72$ coût 1.1%
