@@ -384,39 +384,18 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 11:55:22,actuelle,VENTE,COLLECTOOOR,0.0003917,13.84,trailing-stop PnL +1.96$ coût 1.0%
 2026-10-20 11:55:22,hasard,VENTE,COLLECTOOOR,0.0003917,14.01,trailing-stop PnL +1.32$ coût 1.0%
 2026-10-20 11:55:22,hasard,ACHAT,BORLY,0.0009413154125,18.92,score 32 coût 1.0%
-2026-10-20 12:15:24,apprentie,ACHAT,startupSI,0.001108391521,20.00,score 78 coût 1.0%
-2026-10-20 12:15:24,apprentie,ACHAT,COMPUTE,0.000452859028,19.99,score 54 coût 1.1%
-2026-10-20 12:15:24,apprentie,ACHAT,BORLY,0.000896584567,19.98,score 31 coût 1.0%
-2026-10-20 12:15:24,apprentie,ACHAT,texcat,0.0005319872099,19.98,score 33 coût 1.1%
-2026-10-20 12:15:24,apprentie,ACHAT,Dacity,0.005839595575,19.97,score 33 coût 1.0%
-2026-10-20 12:17:22,agressive,VENTE,SI276,0.000673,24.37,durée max 24h PnL -0.15$ coût 1.1%
-2026-10-20 12:17:22,agressive,ACHAT,WORTHLESS,9.072703774e-05,23.57,score 54 coût 1.2%
-2026-10-20 12:28:22,prudente,ACHAT,COMPUTE,0.0003994812104,9.73,score 71 coût 1.0%
-2026-10-20 12:38:21,apprentie,VENTE,COMPUTE,0.0003365,14.70,stop-loss (-26%) PnL -5.29$ coût 1.1%
-2026-10-20 12:38:21,apprentie,ACHAT,COLLECTOOOR,0.000340074104,19.93,score 57 coût 1.1%
-2026-10-20 12:41:22,apprentie,VENTE,BORLY,0.001123,24.77,palier +25% PnL +4.78$ coût 1.1%
-2026-10-20 12:41:22,apprentie,ACHAT,BORLY,0.001134690693,19.95,score 37 coût 1.0%
-2026-10-20 12:56:21,prudente,VENTE,COMPUTE,0.0003159,7.62,stop-loss (-21%) PnL -2.12$ coût 1.0%
-2026-10-20 12:57:21,apprentie,VENTE,startupSI,0.0008261,14.75,stop-loss (-25%) PnL -5.25$ coût 1.0%
-2026-10-20 12:57:21,apprentie,ACHAT,Mimi,0.0001054797752,19.82,score 47 coût 1.1%
-2026-10-20 12:59:21,hasard,VENTE,startupSI,0.0005748,11.41,stop-loss (-39%) PnL -7.52$ coût 1.0%
-2026-10-20 12:59:21,hasard,ACHAT,COLLECTOOOR,0.0003361212994,18.72,score 47 coût 1.1%
-2026-10-20 13:02:20,agressive,VENTE,startupSI,0.0004328,12.72,stop-loss (-45%) PnL -10.54$ coût 1.0%
-2026-10-20 13:04:20,hasard,VENTE,HOOT,5.154e-05,12.96,stop-loss (-31%) PnL -6.03$ coût 1.1%
-2026-10-20 13:04:20,hasard,ACHAT,UHI,0.0002156981171,18.67,score 26 coût 1.1%
-2026-10-20 13:06:24,agressive,ACHAT,CBUCKS,0.001149857693,22.88,score 52 coût 1.0%
-2026-10-20 13:18:21,agressive,VENTE,COLLECTOOOR,0.0002327,13.44,stop-loss (-43%) PnL -10.57$ coût 1.1%
-2026-10-20 13:18:21,hasard,VENTE,COLLECTOOOR,0.0002327,12.83,stop-loss (-31%) PnL -5.90$ coût 1.0%
-2026-10-20 13:18:21,hasard,ACHAT,COMPUTE,0.0003105876028,18.61,score 51 coût 1.1%
-2026-10-20 13:18:21,apprentie,VENTE,COLLECTOOOR,0.0002327,13.50,stop-loss (-32%) PnL -6.44$ coût 1.1%
-2026-10-20 13:18:21,apprentie,ACHAT,SI276,0.0007026769483,19.64,score 51 coût 1.0%
-2026-10-20 13:34:20,agressive,ACHAT,BORLY,0.001121619974,22.71,score 51 coût 1.0%
-2026-10-20 13:42:22,actuelle,ACHAT,CBUCKS,0.00118105353,17.19,score 62 coût 1.0%
-2026-10-20 13:50:20,hasard,VENTE,FTR,0.0006248,12.99,stop-loss (-30%) PnL -5.82$ coût 1.0%
-2026-10-20 13:56:20,apprentie,VENTE,Mimi,0.0001328,24.67,palier +25% PnL +4.85$ coût 1.1%
-2026-10-20 13:56:20,apprentie,ACHAT,UHI,0.0002066142339,19.80,score 24 coût 1.1%
-2026-10-20 14:01:20,apprentie,VENTE,BORLY,0.0007837,13.64,stop-loss (-31%) PnL -6.31$ coût 1.0%
-2026-10-20 14:01:20,apprentie,ACHAT,PIERRE,0.0001890405994,19.78,score 32 coût 1.1%
-2026-10-20 14:09:21,hasard,ACHAT,Pokémon,0.001728545687,18.60,score 59 coût 1.0%
-2026-10-20 14:12:21,actuelle,ACHAT,Pokémon,0.001809317398,17.17,score 73 coût 1.0%
-2026-10-20 14:16:24,actuelle,ACHAT,COLLECTOOOR,0.000281044387,17.16,score 66 coût 1.1%
+2026-10-20 14:35:51,agressive,VENTE,SI276,0.0007113,25.75,durée max 24h PnL +1.23$ coût 1.1%
+2026-10-20 14:35:51,agressive,VENTE,startupSI,0.0004557,13.40,stop-loss (-42%) PnL -9.87$ coût 1.0%
+2026-10-20 14:35:51,agressive,ACHAT,WORTHLESS,8.550509725e-05,22.95,score 56 coût 1.2%
+2026-10-20 14:35:51,agressive,ACHAT,Pokémon,0.001722571968,22.93,score 52 coût 1.0%
+2026-10-20 14:35:51,hasard,VENTE,HOOT,4.029e-05,10.13,stop-loss (-46%) PnL -8.86$ coût 1.1%
+2026-10-20 14:35:51,hasard,VENTE,startupSI,0.0004557,9.05,stop-loss (-52%) PnL -9.89$ coût 1.0%
+2026-10-20 14:35:51,hasard,ACHAT,UHI,0.0002375193247,18.68,score 40 coût 1.1%
+2026-10-20 14:35:51,apprentie,ACHAT,startupSI,0.000460524167,20.00,score 75 coût 1.1%
+2026-10-20 14:35:51,apprentie,ACHAT,COLLECTOOOR,0.0002851127154,19.99,score 53 coût 1.1%
+2026-10-20 14:35:51,apprentie,ACHAT,BORLY,0.001065989122,19.98,score 37 coût 1.0%
+2026-10-20 14:35:51,apprentie,ACHAT,texcat,0.0005736057613,19.97,score 51 coût 1.1%
+2026-10-20 14:35:51,apprentie,ACHAT,UHI,0.0002375309481,19.97,score 40 coût 1.1%
+2026-10-20 14:36:52,hasard,ACHAT,Pokémon,0.00168813082,18.67,score 52 coût 1.0%
+2026-10-20 14:38:50,agressive,VENTE,COLLECTOOOR,0.0002455,14.18,stop-loss (-40%) PnL -9.83$ coût 1.1%
+2026-10-20 14:38:50,agressive,ACHAT,texcat,0.0005779986854,22.92,score 54 coût 1.1%
