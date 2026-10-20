@@ -404,3 +404,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 14:49:50,actuelle,ACHAT,texcat,0.0005734583697,17.19,score 60 coût 1.0%
 2026-10-20 14:53:51,apprentie,VENTE,COLLECTOOOR,0.0002099,14.56,stop-loss (-26%) PnL -5.43$ coût 1.1%
 2026-10-20 14:53:51,apprentie,ACHAT,WORTHLESS,0.0001352990338,20.00,score 40 coût 1.1%
+2026-10-20 15:01:51,apprentie,VENTE,startupSI,0.0004759,14.75,stop-loss (-26%) PnL -5.39$ coût 1.0%
+2026-10-20 15:01:51,apprentie,ACHAT,Dacity,0.006080994088,19.84,score 31 coût 1.0%
+2026-10-20 15:02:50,hasard,VENTE,BORLY,0.0004953,9.85,stop-loss (-47%) PnL -9.07$ coût 1.0%
+2026-10-20 15:02:50,hasard,ACHAT,COMPUTE,0.0002135862105,18.33,score 54 coût 1.1%
+2026-10-20 15:02:50,apprentie,VENTE,BORLY,0.0004953,9.19,stop-loss (-54%) PnL -10.79$ coût 1.0%
+2026-10-20 15:02:50,apprentie,ACHAT,COMPUTE,0.0002135982935,19.61,score 54 coût 1.1%
