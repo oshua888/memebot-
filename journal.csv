@@ -318,3 +318,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-19 23:57:43,agressive,VENTE,DOGESTER,7.301e-05,14.81,stop-loss (-41%) PnL -10.39$ coût 1.1%
 2026-10-19 23:57:43,agressive,ACHAT,HOOT,0.0001230977493,24.11,score 52 coût 1.1%
 2026-10-19 23:59:43,prudente,ACHAT,broomy,9.896453256e-05,9.84,score 75 coût 1.1%
+2026-10-20 00:32:45,hasard,VENTE,VEIL,0.002994,17.68,durée max 12h PnL -1.33$ coût 1.0%
+2026-10-20 00:32:45,hasard,ACHAT,WEFT,0.001757962127,19.05,score 44 coût 1.0%
