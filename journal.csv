@@ -447,3 +447,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 16:38:49,prudente,VENTE,MONEYBIZ,0.001456,7.66,stop-loss (-21%) PnL -2.09$ coût 1.0%
 2026-10-20 16:44:50,actuelle,ACHAT,Pokémon,0.00115475037,16.99,score 67 coût 1.0%
 2026-10-20 16:49:50,actuelle,VENTE,MONEYBIZ,0.001412,11.79,stop-loss (-31%) PnL -5.40$ coût 1.0%
+2026-10-20 17:08:50,hasard,VENTE,FTR,0.0006239,12.97,stop-loss (-30%) PnL -5.84$ coût 1.0%
+2026-10-20 17:08:50,hasard,ACHAT,PIERRE,0.0001710399689,18.14,score 26 coût 1.1%
