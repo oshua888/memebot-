@@ -458,3 +458,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 19:56:19,apprentie,VENTE,Dacity,0.009884,25.21,palier +25% PnL +5.46$ coût 1.0%
 2026-10-20 20:02:19,prudente,ACHAT,PEPEMON,0.002145545221,9.73,score 83 coût 1.0%
 2026-10-20 20:02:19,actuelle,ACHAT,PEPEMON,0.002145777239,17.13,score 83 coût 1.0%
+2026-10-20 20:06:18,prudente,VENTE,PEPEMON,0.001544,6.93,stop-loss (-28%) PnL -2.80$ coût 1.0%
+2026-10-20 20:07:18,actuelle,VENTE,PEPEMON,0.001233,9.74,stop-loss (-43%) PnL -7.39$ coût 1.0%
+2026-10-20 20:09:18,apprentie,VENTE,COMPUTE,0.0003162,24.45,palier +25% PnL +4.72$ coût 1.1%
