@@ -465,3 +465,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 20:18:19,actuelle,ACHAT,pika,9.273157229e-05,17.02,score 75 coût 1.1%
 2026-10-20 21:06:20,actuelle,ACHAT,DTC,0.00142858732,16.91,score 66 coût 1.0%
 2026-10-20 21:07:20,prudente,ACHAT,DTC,0.00146779002,9.70,score 81 coût 1.0%
+2026-10-20 21:11:22,prudente,VENTE,DTC,0.002045,6.69,palier +30% PnL +1.84$ coût 1.0%
+2026-10-20 21:12:20,actuelle,VENTE,DTC,0.002167,8.38,palier +50% PnL +2.80$ coût 1.0%
+2026-10-20 21:13:23,prudente,VENTE,DTC,0.001534,5.02,trailing-stop PnL +0.17$ coût 1.0%
+2026-10-20 21:13:23,actuelle,VENTE,DTC,0.001534,12.04,trailing-stop PnL +0.71$ coût 1.0%
+2026-10-20 21:13:23,actuelle,ACHAT,DTC,0.001549806004,17.01,score 66 coût 1.0%
