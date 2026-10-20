@@ -321,3 +321,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 00:32:45,hasard,VENTE,VEIL,0.002994,17.68,durée max 12h PnL -1.33$ coût 1.0%
 2026-10-20 00:32:45,hasard,ACHAT,WEFT,0.001757962127,19.05,score 44 coût 1.0%
 2026-10-20 00:40:44,prudente,VENTE,Onion,0.0001545,7.60,stop-loss (-22%) PnL -2.27$ coût 1.0%
+2026-10-20 00:44:44,prudente,ACHAT,Pokémon,0.0005838192906,9.84,score 78 coût 1.0%
+2026-10-20 00:46:45,prudente,VENTE,Pokémon,0.0004418,7.37,stop-loss (-24%) PnL -2.47$ coût 1.0%
