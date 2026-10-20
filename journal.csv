@@ -375,3 +375,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 11:05:22,agressive,ACHAT,startupSI,0.0007830637937,23.26,score 67 coût 1.1%
 2026-10-20 11:15:22,actuelle,VENTE,COLLECTOOOR,0.0005292,9.21,palier +50% PnL +3.36$ coût 1.0%
 2026-10-20 11:15:22,hasard,VENTE,COLLECTOOOR,0.0005292,9.32,palier +50% PnL +3.07$ coût 1.0%
+2026-10-20 11:36:25,actuelle,VENTE,EVOLVE,8.616e-05,11.72,stop-loss (-33%) PnL -6.04$ coût 1.1%
