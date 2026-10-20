@@ -185,3 +185,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-20 15:29,2026-10-20 16:15,apprentie,MONEYBIZ,boost,palier +25%,0.77,23.71,82,114172,14.42,2.4,4.88,0.773,-2.18,29.59,2350,1
 2026-10-20 15:20,2026-10-20 16:21,prudente,MONEYBIZ,boost,trailing-stop,1.02,20.44,81,112808,14.2,2.2,5.214,0.779,-7.11,46.2,2284,1
 2026-10-20 16:15,2026-10-20 16:28,apprentie,MONEYBIZ,boost,stop-loss (-27%),0.22,-28.23,83,129441,16.07,3.1,2.349,0.816,2.75,20.57,2995,1
+2026-10-20 16:21,2026-10-20 16:38,prudente,MONEYBIZ,boost,stop-loss (-21%),0.28,-21.44,82,120424,14.98,3.2,2.822,0.814,-14.44,12.25,2584,1
