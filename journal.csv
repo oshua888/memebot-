@@ -402,3 +402,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 14:43:52,apprentie,VENTE,startupSI,0.0006364,27.34,palier +25% PnL +7.34$ coût 1.1%
 2026-10-20 14:43:52,apprentie,ACHAT,startupSI,0.0006430799747,20.14,score 60 coût 1.0%
 2026-10-20 14:49:50,actuelle,ACHAT,texcat,0.0005734583697,17.19,score 60 coût 1.0%
+2026-10-20 14:53:51,apprentie,VENTE,COLLECTOOOR,0.0002099,14.56,stop-loss (-26%) PnL -5.43$ coût 1.1%
+2026-10-20 14:53:51,apprentie,ACHAT,WORTHLESS,0.0001352990338,20.00,score 40 coût 1.1%
