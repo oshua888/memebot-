@@ -501,3 +501,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 22:53:21,agressive,VENTE,DTC,0.00322,14.34,palier +100% PnL +7.21$ coût 1.0%
 2026-10-20 22:54:21,prudente,VENTE,DTC,0.002507,3.26,trailing-stop PnL +0.83$ coût 1.0%
 2026-10-20 22:55:21,prudente,ACHAT,DTC,0.003260660981,9.79,score 70 coût 1.0%
+2026-10-20 22:56:21,prudente,VENTE,DTC,0.002105,6.26,stop-loss (-35%) PnL -3.53$ coût 1.0%
+2026-10-20 22:56:21,actuelle,VENTE,DTC,0.002105,13.00,trailing-stop PnL +1.46$ coût 1.0%
+2026-10-20 22:56:21,actuelle,ACHAT,DTC,0.002126596137,17.36,score 83 coût 1.0%
+2026-10-20 22:57:21,agressive,VENTE,MONEYBIZ,0.0007019,9.45,stop-loss (-58%) PnL -13.18$ coût 1.0%
+2026-10-20 22:57:21,agressive,VENTE,DTC,0.001637,14.80,trailing-stop PnL +0.33$ coût 1.0%
+2026-10-20 22:57:21,agressive,ACHAT,DTC,0.001653972645,21.71,score 74 coût 1.0%
