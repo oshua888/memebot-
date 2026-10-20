@@ -364,3 +364,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 07:00:07,actuelle,VENTE,LEONIDA,2.558e-06,0.26,stop-loss (-98%) PnL -17.41$ coût 1.0%
 2026-10-20 07:03:08,actuelle,VENTE,COLLECTOOOR,0.0005043,8.78,palier +50% PnL +2.93$ coût 1.0%
 2026-10-20 07:05:08,hasard,VENTE,COLLECTOOOR,0.0005615,9.89,palier +50% PnL +3.64$ coût 1.0%
+2026-10-20 07:21:08,actuelle,ACHAT,BORLY,0.001782150293,17.53,score 66 coût 1.0%
