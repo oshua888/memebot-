@@ -339,3 +339,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 05:13:06,prudente,ACHAT,ORYN,0.000123909224,9.75,score 75 coût 1.1%
 2026-10-20 05:17:06,actuelle,VENTE,Dacity,0.006997,22.78,durée max 12h PnL +4.77$ coût 1.0%
 2026-10-20 05:17:06,actuelle,ACHAT,aDOGymous,0.0005501459112,17.72,score 62 coût 1.1%
+2026-10-20 05:20:05,prudente,VENTE,ORYN,0.0001818,7.08,palier +30% PnL +2.20$ coût 1.0%
+2026-10-20 05:21:06,prudente,VENTE,ORYN,0.0001199,4.67,trailing-stop PnL -0.21$ coût 1.0%
+2026-10-20 05:22:05,actuelle,VENTE,SI276,0.0006458,16.47,durée max 12h PnL -1.44$ coût 1.0%
+2026-10-20 05:23:06,prudente,ACHAT,ORYN,0.0001079460601,9.78,score 75 coût 1.1%
+2026-10-20 05:23:06,actuelle,ACHAT,ORYN,0.0001080097535,17.75,score 75 coût 1.1%
+2026-10-20 05:23:06,hasard,VENTE,GTA6,0.0001615,18.16,durée max 12h PnL -1.02$ coût 1.1%
+2026-10-20 05:23:06,hasard,ACHAT,Dacity,0.006959712685,18.92,score 44 coût 1.0%
