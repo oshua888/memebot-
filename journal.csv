@@ -421,3 +421,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 15:32:51,actuelle,ACHAT,Dacity,0.007666669935,17.11,score 60 coût 1.0%
 2026-10-20 15:32:51,apprentie,VENTE,COMPUTE,0.0002677,24.31,palier +25% PnL +4.70$ coût 1.1%
 2026-10-20 15:32:51,apprentie,ACHAT,Dacity,0.007666788803,19.76,score 60 coût 1.0%
+2026-10-20 15:36:51,hasard,VENTE,WORTHLESS,6.959e-05,12.52,stop-loss (-31%) PnL -5.79$ coût 1.1%
+2026-10-20 15:36:51,hasard,ACHAT,MONEYBIZ,0.001731681759,18.38,score 82 coût 1.0%
+2026-10-20 15:39:49,agressive,VENTE,Pokémon,0.00103,13.57,stop-loss (-40%) PnL -9.36$ coût 1.0%
+2026-10-20 15:39:49,agressive,ACHAT,MONEYBIZ,0.001663113805,22.63,score 82 coût 1.0%
