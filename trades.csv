@@ -147,3 +147,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-20 05:01,2026-10-20 06:13,prudente,BORLY,profil,stop-loss (-21%),1.2,-22.15,74,141695,16.92,2.0,1.198,0.716,15.65,37.01,4064,0
 2026-10-20 05:23,2026-10-20 06:14,actuelle,ORYN,profil,trailing-stop,0.85,38.89,75,26750,3.85,2.3,5.084,0.723,-19.02,11.82,147,0
 2026-10-20 06:39,2026-10-20 06:59,prudente,LEONIDA,boost+profil,trailing-stop,0.33,25.41,75,34166,4.85,2.0,4.587,0.699,-2.18,11.12,273,1
+2026-10-20 06:39,2026-10-20 07:00,actuelle,LEONIDA,boost+profil,stop-loss (-98%),0.35,-98.51,75,34166,4.85,2.0,4.587,0.699,-2.18,11.12,273,1
