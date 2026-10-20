@@ -510,3 +510,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 23:08:25,actuelle,VENTE,DTC,0.001366,11.03,stop-loss (-36%) PnL -6.32$ coût 1.0%
 2026-10-20 23:11:28,agressive,ACHAT,pika,9.309759311e-05,21.62,score 72 coût 1.2%
 2026-10-20 23:24:21,actuelle,VENTE,Pokémon,0.001978,9.65,trailing-stop PnL +3.96$ coût 1.0%
+2026-10-20 23:29:20,hasard,VENTE,COLLECTOOOR,0.00012,11.63,stop-loss (-34%) PnL -6.26$ coût 1.1%
+2026-10-20 23:29:20,hasard,ACHAT,DTC,0.00139323933,17.63,score 64 coût 1.0%

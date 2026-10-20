@@ -214,3 +214,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-20 21:59,2026-10-20 22:57,agressive,DTC,boost,trailing-stop,0.97,34.91,80,113505,13.73,2.9,4.598,0.687,0.69,11.89,2717,1
 2026-10-20 22:56,2026-10-20 23:08,actuelle,DTC,boost,stop-loss (-36%),0.2,-36.42,83,133786,15.63,3.8,6.807,0.707,-26.46,40.74,3681,1
 2026-10-20 16:44,2026-10-20 23:24,actuelle,Pokémon,tendance,trailing-stop,6.66,76.84,67,121240,9.13,42.0,0.954,0.555,0.16,17.78,55.7,0
+2026-10-20 21:50,2026-10-20 23:29,hasard,COLLECTOOOR,tendance,stop-loss (-34%),1.65,-35.0,41,47213,3.73,26.9,0.373,0.509,1.24,2.42,19.12,0
