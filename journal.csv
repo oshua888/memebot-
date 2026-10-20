@@ -461,3 +461,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 18:03:51,apprentie,VENTE,Dacity,0.009781,24.95,palier +25% PnL +5.19$ coût 1.0%
 2026-10-20 18:04:50,actuelle,VENTE,Pokémon,0.001584,15.46,trailing-stop PnL +4.07$ coût 1.0%
 2026-10-20 18:04:50,actuelle,ACHAT,Pokémon,0.001600209147,17.12,score 71 coût 1.0%
+2026-10-20 18:05:50,actuelle,ACHAT,pika,9.375331721e-05,17.09,score 62 coût 1.1%
+2026-10-20 18:05:50,hasard,VENTE,EVYN,0.0001557,17.31,trailing-stop PnL +5.12$ coût 1.1%
+2026-10-20 18:05:50,hasard,ACHAT,COLLECTOOOR,0.0001921463346,18.46,score 30 coût 1.1%
