@@ -361,3 +361,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-20 09:15:25,prudente,ACHAT,Twyne,0.0001119831719,9.76,score 83 coût 1.1%
 2026-10-20 09:15:25,actuelle,VENTE,broomy,9.939e-05,17.86,durée max 12h PnL +0.12$ coût 1.1%
 2026-10-20 09:15:25,actuelle,ACHAT,Twyne,0.0001120442491,17.69,score 83 coût 1.1%
+2026-10-20 09:20:25,actuelle,VENTE,NPC,0.0008927,15.36,durée max 12h PnL -2.40$ coût 1.0%
+2026-10-20 09:21:23,prudente,VENTE,Twyne,8.256e-05,7.12,stop-loss (-26%) PnL -2.64$ coût 1.1%
+2026-10-20 09:22:23,actuelle,VENTE,Twyne,7.123e-05,11.12,stop-loss (-36%) PnL -6.57$ coût 1.1%
