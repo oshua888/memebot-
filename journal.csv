@@ -585,3 +585,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 12:55:47,hasard,ACHAT,HUSH,0.0001153834488,17.74,score 56 coût 1.1%
 2026-10-21 12:57:47,apprentie,ACHAT,Pokecity,0.001540785679,19.63,score 83 coût 1.0%
 2026-10-21 13:03:47,prudente,ACHAT,HUSH,0.0001131970192,9.72,score 71 coût 1.1%
+2026-10-21 13:08:47,prudente,VENTE,HUSH,7.407e-05,6.29,stop-loss (-35%) PnL -3.43$ coût 1.1%
+2026-10-21 13:08:47,hasard,VENTE,HUSH,7.407e-05,11.26,stop-loss (-36%) PnL -6.48$ coût 1.1%
