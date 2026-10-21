@@ -562,3 +562,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 06:02:00,hasard,ACHAT,KIMCHIBOSS,0.0001774230626,17.62,score 61 coût 1.1%
 2026-10-21 06:05:00,hasard,VENTE,KIMCHIBOSS,9.452e-05,9.29,stop-loss (-47%) PnL -8.34$ coût 1.1%
 2026-10-21 06:05:00,hasard,ACHAT,texcat,0.000443544146,17.47,score 25 coût 1.1%
+2026-10-21 06:33:00,actuelle,VENTE,CPU,8.984e-05,11.42,stop-loss (-31%) PnL -5.39$ coût 1.1%
+2026-10-21 06:34:00,actuelle,ACHAT,SASONA,8.477116443e-05,16.78,score 65 coût 1.1%
