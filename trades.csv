@@ -244,3 +244,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-21 03:00,2026-10-21 11:36,actuelle,Pokecity,boost,trailing-stop,8.6,29.59,60,78352,10.24,4.0,1.687,0.794,-6.45,-5.99,1542,1
 2026-10-21 03:00,2026-10-21 11:36,hasard,Pokecity,boost,trailing-stop,8.6,29.58,60,78352,10.24,4.0,1.687,0.794,-6.45,-5.99,1542,1
 2026-10-20 23:36,2026-10-21 11:37,hasard,SASONA,boost,durée max 12h,12.02,27.2,58,49466,1.48,6.0,0.372,0.598,1.95,29.68,314,1
+2026-10-21 09:26,2026-10-21 11:52,prudente,startupSI,tendance,trailing-stop,2.43,33.27,72,25772,2.36,62.9,1.578,0.742,7.13,8.74,-42.36,0

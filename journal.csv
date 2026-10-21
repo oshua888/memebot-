@@ -585,3 +585,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 11:37:19,apprentie,ACHAT,Pokecity,0.001019529012,19.63,score 89 coût 1.0%
 2026-10-21 11:47:19,prudente,VENTE,startupSI,8.687e-05,6.81,palier +30% PnL +1.93$ coût 1.0%
 2026-10-21 11:50:19,actuelle,VENTE,startupSI,9.568e-05,8.34,palier +50% PnL +2.79$ coût 1.1%
+2026-10-21 11:52:19,prudente,VENTE,startupSI,7.912e-05,6.20,trailing-stop PnL +1.32$ coût 1.0%
+2026-10-21 11:52:19,prudente,ACHAT,startupSI,7.996291215e-05,9.77,score 87 coût 1.1%
