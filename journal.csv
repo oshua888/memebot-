@@ -542,3 +542,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 02:23:08,prudente,ACHAT,KIMCHIBOSS,0.000944564262,9.80,score 79 coût 1.0%
 2026-10-21 02:40:02,prudente,VENTE,KIMCHIBOSS,0.0007234,7.43,stop-loss (-23%) PnL -2.37$ coût 1.0%
 2026-10-21 02:42:01,prudente,VENTE,Pokecity,0.001038,6.58,palier +30% PnL +1.69$ coût 1.0%
+2026-10-21 02:53:02,prudente,VENTE,Pokecity,0.0009181,5.82,trailing-stop PnL +0.93$ coût 1.0%
+2026-10-21 02:53:02,prudente,ACHAT,Pokecity,0.0009274966317,9.80,score 75 coût 1.0%
