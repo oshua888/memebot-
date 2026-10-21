@@ -583,3 +583,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 11:37:19,hasard,VENTE,SASONA,9.513e-05,22.19,durée max 12h PnL +4.75$ coût 1.1%
 2026-10-21 11:37:19,apprentie,ACHAT,KIMCHI,0.0006358212418,19.63,score 65 coût 1.1%
 2026-10-21 11:37:19,apprentie,ACHAT,Pokecity,0.001019529012,19.63,score 89 coût 1.0%
+2026-10-21 11:47:19,prudente,VENTE,startupSI,8.687e-05,6.81,palier +30% PnL +1.93$ coût 1.0%
+2026-10-21 11:50:19,actuelle,VENTE,startupSI,9.568e-05,8.34,palier +50% PnL +2.79$ coût 1.1%
