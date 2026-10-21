@@ -606,16 +606,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 14:18:49,apprentie,ACHAT,KOLO,0.001128590534,19.54,score 33 coût 1.0%
 2026-10-21 14:21:49,apprentie,VENTE,Pokecity,0.00114,14.38,stop-loss (-26%) PnL -5.26$ coût 1.0%
 2026-10-21 14:24:52,apprentie,ACHAT,DOT,0.0002879918799,19.50,score 46 coût 1.1%
-2026-10-21 16:01:50,agressive,VENTE,SI276,0.0005722,17.48,durée max 24h PnL -4.99$ coût 1.0%
-2026-10-21 16:01:50,agressive,ACHAT,PHP,0.0005702819984,22.10,score 65 coût 1.1%
-2026-10-21 16:03:50,apprentie,VENTE,DOT,0.0001934,12.96,stop-loss (-33%) PnL -6.55$ coût 1.1%
-2026-10-21 16:09:53,actuelle,ACHAT,Ser,0.0001142611086,16.93,score 60 coût 1.1%
-2026-10-21 16:24:52,prudente,ACHAT,Ser,0.0001182463562,9.68,score 74 coût 1.1%
-2026-10-21 16:34:52,prudente,VENTE,Ser,8.529e-05,6.90,stop-loss (-28%) PnL -2.77$ coût 1.1%
-2026-10-21 16:35:53,agressive,VENTE,PHP,0.0003001,11.51,stop-loss (-47%) PnL -10.59$ coût 1.0%
-2026-10-21 16:35:53,agressive,ACHAT,Ser,8.71082811e-05,21.59,score 59 coût 1.2%
-2026-10-21 16:38:52,actuelle,VENTE,Ser,7.564e-05,11.08,stop-loss (-34%) PnL -5.85$ coût 1.1%
-2026-10-21 16:41:52,actuelle,ACHAT,DOPE,0.001842582993,16.83,score 60 coût 1.0%
-2026-10-21 16:46:52,agressive,VENTE,Ser,5.145e-05,12.61,stop-loss (-41%) PnL -8.98$ coût 1.1%
-2026-10-21 16:46:52,agressive,ACHAT,KOLO,0.001130650626,21.38,score 60 coût 1.0%
-2026-10-21 17:14:52,apprentie,ACHAT,DacityCoin,0.0002286365992,19.37,score 29 coût 1.1%
+2026-10-21 17:18:14,agressive,VENTE,SI276,0.0004266,13.03,stop-loss (-41%) PnL -9.43$ coût 1.0%
+2026-10-21 17:18:14,agressive,ACHAT,DOPE,0.001922480437,21.57,score 54 coût 1.0%
+2026-10-21 17:18:14,apprentie,VENTE,DOT,0.0001943,13.02,stop-loss (-33%) PnL -6.49$ coût 1.1%
+2026-10-21 17:19:14,apprentie,ACHAT,DacityCoin,0.0002283335742,19.38,score 34 coût 1.1%
