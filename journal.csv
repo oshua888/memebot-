@@ -571,3 +571,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 11:57:48,hasard,ACHAT,PHP,0.0007060000899,17.76,score 64 coût 1.0%
 2026-10-21 11:58:47,actuelle,VENTE,startupSI,5.227e-05,11.14,stop-loss (-33%) PnL -5.74$ coût 1.1%
 2026-10-21 11:58:47,actuelle,ACHAT,PHP,0.0006908294388,16.76,score 64 coût 1.0%
+2026-10-21 12:02:47,prudente,VENTE,startupSI,4.878e-05,7.64,stop-loss (-21%) PnL -2.12$ coût 1.1%
