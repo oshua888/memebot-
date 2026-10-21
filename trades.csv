@@ -224,3 +224,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-20 14:38,2026-10-21 01:22,agressive,texcat,boost,stop-loss (-40%),10.72,-40.99,54,69056,8.04,287.6,0.205,0.629,0.09,12.22,43.6,1
 2026-10-21 01:38,2026-10-21 02:07,prudente,Pokecity,boost,trailing-stop,0.48,28.39,75,66966,8.88,2.6,1.762,0.824,-4.18,10.55,1117,1
 2026-10-21 02:04,2026-10-21 02:23,prudente,KIMCHIBOSS,boost,trailing-stop,0.32,17.57,79,83185,10.56,2.0,2.998,0.771,0.28,52.17,1413,1
+2026-10-21 02:23,2026-10-21 02:40,prudente,KIMCHIBOSS,boost,stop-loss (-23%),0.28,-24.2,79,85566,10.84,2.3,2.699,0.704,-5.51,19.76,1497,1
