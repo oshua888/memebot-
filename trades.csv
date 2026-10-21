@@ -265,3 +265,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-21 21:28,2026-10-21 21:58,prudente,KIMCHIBULL,boost+profil,stop-loss (-22%),0.5,-22.87,73,295403,33.97,2.0,4.502,0.708,14.78,684,18140,1
 2026-10-21 21:28,2026-10-21 21:59,apprentie,KIMCHIBULL,boost+profil,stop-loss (-27%),0.52,-27.93,73,295403,33.97,2.0,4.502,0.708,14.78,684,18140,1
 2026-10-21 21:28,2026-10-21 22:16,actuelle,KIMCHIBULL,boost+profil,stop-loss (-31%),0.8,-31.82,73,295403,33.97,2.0,4.502,0.708,14.78,684,18140,1
+2026-10-21 19:57,2026-10-21 22:36,agressive,PHP,tendance,stop-loss (-42%),2.65,-42.48,63,71980,7.13,14.7,1.092,0.541,3.89,20.51,23.66,0
