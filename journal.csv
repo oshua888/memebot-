@@ -580,3 +580,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 12:45:46,actuelle,VENTE,Pokecity,0.001241,8.38,palier +50% PnL +2.79$ coût 1.0%
 2026-10-21 12:45:46,hasard,VENTE,Pokecity,0.001241,8.64,palier +50% PnL +2.88$ coût 1.0%
 2026-10-21 12:46:46,agressive,VENTE,Pokecity,0.001272,13.72,palier +100% PnL +6.88$ coût 1.0%
+2026-10-21 12:53:46,actuelle,VENTE,Pokecity,0.001641,11.25,palier +100% PnL +5.57$ coût 1.0%
+2026-10-21 12:53:46,hasard,VENTE,Pokecity,0.001641,11.59,palier +100% PnL +5.75$ coût 1.0%
+2026-10-21 12:55:47,hasard,ACHAT,HUSH,0.0001153834488,17.74,score 56 coût 1.1%
