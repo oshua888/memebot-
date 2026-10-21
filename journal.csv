@@ -554,3 +554,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 04:29:00,apprentie,VENTE,CBUCKS,0.001014,16.02,durée max 12h PnL -3.66$ coût 1.0%
 2026-10-21 04:53:00,actuelle,VENTE,KIMCHIBOSS,0.0006249,11.74,stop-loss (-30%) PnL -5.25$ coût 1.0%
 2026-10-21 05:24:00,actuelle,ACHAT,CPU,0.0001308352039,16.81,score 60 coût 1.1%
+2026-10-21 05:48:00,actuelle,VENTE,Pokecity,0.001241,8.38,palier +50% PnL +2.79$ coût 1.0%
+2026-10-21 05:48:00,hasard,VENTE,Pokecity,0.001241,8.64,palier +50% PnL +2.88$ coût 1.0%
