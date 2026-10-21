@@ -577,3 +577,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 12:24:46,prudente,VENTE,PHP,0.0006523,7.53,stop-loss (-22%) PnL -2.21$ coût 1.0%
 2026-10-21 12:24:46,hasard,VENTE,KIMCHI,7.927e-06,0.15,stop-loss (-99%) PnL -11.76$ coût 1.0%
 2026-10-21 12:29:46,hasard,VENTE,texcat,0.0003242,12.38,stop-loss (-30%) PnL -5.50$ coût 1.0%
+2026-10-21 12:45:46,actuelle,VENTE,Pokecity,0.001241,8.38,palier +50% PnL +2.79$ coût 1.0%
+2026-10-21 12:45:46,hasard,VENTE,Pokecity,0.001241,8.64,palier +50% PnL +2.88$ coût 1.0%
+2026-10-21 12:46:46,agressive,VENTE,Pokecity,0.001272,13.72,palier +100% PnL +6.88$ coût 1.0%
