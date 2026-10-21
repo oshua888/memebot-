@@ -527,3 +527,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 01:30:01,agressive,ACHAT,GTAa,9.853653019e-05,20.71,score 54 coût 1.2%
 2026-10-21 01:37:03,actuelle,ACHAT,GTAa,9.850822589e-05,16.86,score 62 coût 1.1%
 2026-10-21 01:38:01,prudente,ACHAT,Pokecity,0.0006072861286,9.76,score 75 coût 1.0%
+2026-10-21 01:51:01,prudente,ACHAT,KIMCHI,0.01177731986,9.76,score 85 coût 1.0%
+2026-10-21 01:51:01,actuelle,ACHAT,KIMCHI,0.01177784606,16.90,score 85 coût 1.0%
+2026-10-21 01:51:01,hasard,ACHAT,KIMCHI,0.01177788258,17.40,score 85 coût 1.0%
