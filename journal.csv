@@ -562,28 +562,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 09:09:18,hasard,ACHAT,texcat,0.0004634515355,17.88,score 38 coût 1.1%
 2026-10-21 09:13:18,actuelle,VENTE,KIMCHI,0.007908,9.93,stop-loss (-41%) PnL -7.11$ coût 1.0%
 2026-10-21 09:26:18,prudente,ACHAT,startupSI,6.162587688e-05,9.76,score 72 coût 1.1%
-2026-10-21 09:41:18,actuelle,ACHAT,startupSI,6.30235715e-05,16.83,score 71 coût 1.1%
-2026-10-21 09:50:20,hasard,VENTE,GTAa,0.0001088,19.18,durée max 12h PnL +1.27$ coût 1.1%
-2026-10-21 09:50:20,hasard,ACHAT,KIMCHI,0.00834165612,17.80,score 75 coût 1.0%
-2026-10-21 10:12:19,hasard,VENTE,Dacity,0.01412,22.58,durée max 12h PnL +4.61$ coût 1.0%
-2026-10-21 10:12:19,hasard,ACHAT,PHP,0.0006880206912,17.75,score 63 coût 1.0%
-2026-10-21 10:15:18,prudente,ACHAT,Dacity,0.01431227973,9.76,score 70 coût 1.0%
-2026-10-21 10:28:18,hasard,VENTE,KIMCHI,0.005218,11.02,stop-loss (-37%) PnL -6.78$ coût 1.0%
-2026-10-21 10:28:18,hasard,ACHAT,Dacity,0.01372691921,17.52,score 65 coût 1.0%
-2026-10-21 11:14:19,prudente,ACHAT,PHP,0.0008656594712,9.75,score 74 coût 1.0%
-2026-10-21 11:22:19,prudente,VENTE,PHP,0.0006728,7.50,stop-loss (-22%) PnL -2.25$ coût 1.0%
-2026-10-21 11:31:19,actuelle,VENTE,Pokecity,0.001252,8.46,palier +50% PnL +2.86$ coût 1.0%
-2026-10-21 11:31:19,hasard,VENTE,Pokecity,0.001252,8.71,palier +50% PnL +2.95$ coût 1.0%
-2026-10-21 11:31:19,hasard,VENTE,texcat,0.0003234,12.35,stop-loss (-30%) PnL -5.53$ coût 1.0%
-2026-10-21 11:32:28,agressive,VENTE,Pokecity,0.001331,14.35,palier +100% PnL +7.52$ coût 1.0%
-2026-10-21 11:36:19,actuelle,VENTE,Pokecity,0.0009847,13.50,trailing-stop PnL +2.15$ coût 1.0%
-2026-10-21 11:36:19,actuelle,ACHAT,Pokecity,0.0009949214575,16.94,score 89 coût 1.0%
-2026-10-21 11:36:19,hasard,VENTE,Pokecity,0.0009847,13.91,trailing-stop PnL +2.21$ coût 1.0%
-2026-10-21 11:36:19,hasard,ACHAT,Pokecity,0.0009949379649,17.69,score 89 coût 1.0%
-2026-10-21 11:37:19,hasard,VENTE,SASONA,9.513e-05,22.19,durée max 12h PnL +4.75$ coût 1.1%
-2026-10-21 11:37:19,apprentie,ACHAT,KIMCHI,0.0006358212418,19.63,score 65 coût 1.1%
-2026-10-21 11:37:19,apprentie,ACHAT,Pokecity,0.001019529012,19.63,score 89 coût 1.0%
-2026-10-21 11:47:19,prudente,VENTE,startupSI,8.687e-05,6.81,palier +30% PnL +1.93$ coût 1.0%
-2026-10-21 11:50:19,actuelle,VENTE,startupSI,9.568e-05,8.34,palier +50% PnL +2.79$ coût 1.1%
-2026-10-21 11:52:19,prudente,VENTE,startupSI,7.912e-05,6.20,trailing-stop PnL +1.32$ coût 1.0%
-2026-10-21 11:52:19,prudente,ACHAT,startupSI,7.996291215e-05,9.77,score 87 coût 1.1%
+2026-10-21 11:57:48,actuelle,ACHAT,startupSI,7.834319762e-05,16.88,score 87 coût 1.1%
+2026-10-21 11:57:48,hasard,VENTE,GTAa,9.801e-05,17.28,durée max 12h PnL -0.63$ coût 1.1%
+2026-10-21 11:57:48,hasard,VENTE,Dacity,0.01424,22.77,durée max 12h PnL +4.81$ coût 1.0%
+2026-10-21 11:57:48,hasard,VENTE,SASONA,9.512e-05,22.19,durée max 12h PnL +4.74$ coût 1.1%
+2026-10-21 11:57:48,hasard,ACHAT,KIMCHI,0.0006314446671,17.77,score 66 coût 1.0%
+2026-10-21 11:57:48,hasard,ACHAT,Dacity,0.01438345706,17.77,score 47 coût 1.0%
+2026-10-21 11:57:48,hasard,ACHAT,PHP,0.0007060000899,17.76,score 64 coût 1.0%
+2026-10-21 11:58:47,actuelle,VENTE,startupSI,5.227e-05,11.14,stop-loss (-33%) PnL -5.74$ coût 1.1%
+2026-10-21 11:58:47,actuelle,ACHAT,PHP,0.0006908294388,16.76,score 64 coût 1.0%
