@@ -628,3 +628,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 22:54:36,agressive,VENTE,Pokecity,0.0004411,12.33,stop-loss (-41%) PnL -8.62$ coût 1.0%
 2026-10-21 22:54:36,agressive,ACHAT,PHP,0.0003138345047,20.58,score 51 coût 1.1%
 2026-10-21 23:10:36,prudente,VENTE,KIMCHIBULL,0.00929,6.43,palier +30% PnL +1.60$ coût 1.0%
+2026-10-21 23:20:35,hasard,VENTE,CHOO,0.001074,11.02,palier +50% PnL +5.34$ coût 1.0%
+2026-10-21 23:20:35,apprentie,VENTE,CHOO,0.001074,37.47,palier +50% PnL +18.14$ coût 1.1%
+2026-10-21 23:20:35,apprentie,ACHAT,MONEYBIZ,0.001391243956,19.80,score 79 coût 1.0%
+2026-10-21 23:21:35,hasard,VENTE,CHOO,0.0007539,15.71,trailing-stop PnL +4.17$ coût 1.0%
+2026-10-21 23:21:35,hasard,ACHAT,CHOO,0.0007617818856,17.46,score 36 coût 1.0%
