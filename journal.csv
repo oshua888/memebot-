@@ -609,3 +609,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 16:01:50,agressive,VENTE,SI276,0.0005722,17.48,durée max 24h PnL -4.99$ coût 1.0%
 2026-10-21 16:01:50,agressive,ACHAT,PHP,0.0005702819984,22.10,score 65 coût 1.1%
 2026-10-21 16:03:50,apprentie,VENTE,DOT,0.0001934,12.96,stop-loss (-33%) PnL -6.55$ coût 1.1%
+2026-10-21 16:09:53,actuelle,ACHAT,Ser,0.0001142611086,16.93,score 60 coût 1.1%
