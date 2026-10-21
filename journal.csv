@@ -563,3 +563,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 09:13:18,actuelle,VENTE,KIMCHI,0.007908,9.93,stop-loss (-41%) PnL -7.11$ coût 1.0%
 2026-10-21 09:26:18,prudente,ACHAT,startupSI,6.162587688e-05,9.76,score 72 coût 1.1%
 2026-10-21 09:41:18,actuelle,ACHAT,startupSI,6.30235715e-05,16.83,score 71 coût 1.1%
+2026-10-21 09:50:20,hasard,VENTE,GTAa,0.0001088,19.18,durée max 12h PnL +1.27$ coût 1.1%
+2026-10-21 09:50:20,hasard,ACHAT,KIMCHI,0.00834165612,17.80,score 75 coût 1.0%
