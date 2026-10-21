@@ -624,3 +624,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 20:53:15,apprentie,ACHAT,CHOO,0.0007600008969,19.33,score 61 coût 1.1%
 2026-10-21 20:57:15,actuelle,ACHAT,Pokémon,0.0004540738831,16.54,score 60 coût 1.0%
 2026-10-21 21:15:14,prudente,VENTE,Dacity,0.01213,7.63,stop-loss (-20%) PnL -2.05$ coût 1.0%
+2026-10-21 21:28:15,prudente,ACHAT,KIMCHIBULL,0.01016125804,9.66,score 73 coût 1.0%
+2026-10-21 21:28:15,actuelle,ACHAT,KIMCHIBULL,0.01016172226,16.48,score 73 coût 1.0%
+2026-10-21 21:28:15,apprentie,ACHAT,KIMCHIBULL,0.01016191644,19.33,score 73 coût 1.0%
