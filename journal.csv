@@ -616,3 +616,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 16:35:53,agressive,ACHAT,Ser,8.71082811e-05,21.59,score 59 coût 1.2%
 2026-10-21 16:38:52,actuelle,VENTE,Ser,7.564e-05,11.08,stop-loss (-34%) PnL -5.85$ coût 1.1%
 2026-10-21 16:41:52,actuelle,ACHAT,DOPE,0.001842582993,16.83,score 60 coût 1.0%
+2026-10-21 16:46:52,agressive,VENTE,Ser,5.145e-05,12.61,stop-loss (-41%) PnL -8.98$ coût 1.1%
+2026-10-21 16:46:52,agressive,ACHAT,KOLO,0.001130650626,21.38,score 60 coût 1.0%
