@@ -611,3 +611,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 17:18:14,apprentie,VENTE,DOT,0.0001943,13.02,stop-loss (-33%) PnL -6.49$ coût 1.1%
 2026-10-21 17:19:14,apprentie,ACHAT,DacityCoin,0.0002283335742,19.38,score 34 coût 1.1%
 2026-10-21 18:38:13,actuelle,VENTE,SASONA,6.248e-05,12.19,durée max 12h PnL -4.55$ coût 1.1%
+2026-10-21 19:35:15,agressive,VENTE,Pokecity,0.001139,24.93,trailing-stop PnL +11.06$ coût 1.1%
+2026-10-21 19:35:15,agressive,ACHAT,Pokecity,0.001150886008,21.39,score 55 coût 1.0%
