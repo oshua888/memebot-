@@ -601,3 +601,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 13:58:49,prudente,ACHAT,Dacity,0.01523139066,9.68,score 70 coût 1.0%
 2026-10-21 14:01:54,hasard,ACHAT,AOP,0.0002702915727,17.53,score 44 coût 1.1%
 2026-10-21 14:01:54,apprentie,ACHAT,AOP,0.000270316641,19.55,score 44 coût 1.1%
+2026-10-21 14:07:49,actuelle,VENTE,Dacity,0.01492,11.05,trailing-stop PnL +5.31$ coût 1.0%
+2026-10-21 14:07:49,actuelle,ACHAT,Dacity,0.01507022633,16.91,score 71 coût 1.0%
