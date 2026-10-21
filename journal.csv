@@ -523,3 +523,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 00:51:19,actuelle,VENTE,pika,2.832e-06,0.51,stop-loss (-97%) PnL -16.51$ coût 1.0%
 2026-10-21 00:51:19,agressive,VENTE,pika,2.832e-06,0.65,stop-loss (-97%) PnL -20.97$ coût 1.0%
 2026-10-21 00:51:19,hasard,VENTE,pika,2.832e-06,0.53,stop-loss (-97%) PnL -16.85$ coût 1.0%
+2026-10-21 01:00:19,agressive,VENTE,texcat,0.0003445,13.52,stop-loss (-40%) PnL -9.40$ coût 1.1%
