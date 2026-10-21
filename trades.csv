@@ -226,3 +226,5 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-21 02:04,2026-10-21 02:23,prudente,KIMCHIBOSS,boost,trailing-stop,0.32,17.57,79,83185,10.56,2.0,2.998,0.771,0.28,52.17,1413,1
 2026-10-21 02:23,2026-10-21 02:40,prudente,KIMCHIBOSS,boost,stop-loss (-23%),0.28,-24.2,79,85566,10.84,2.3,2.699,0.704,-5.51,19.76,1497,1
 2026-10-21 02:07,2026-10-21 02:53,prudente,Pokecity,boost,trailing-stop,0.77,26.74,72,75467,9.91,3.1,1.482,0.825,-14.81,11.61,1431,1
+2026-10-21 01:17,2026-10-21 03:00,actuelle,Pokecity,boost,trailing-stop,1.72,36.35,68,67955,9.04,2.3,2.006,0.598,-0.91,28.72,1157,1
+2026-10-21 01:17,2026-10-21 03:00,hasard,Pokecity,boost,trailing-stop,1.72,36.34,68,67955,9.04,2.3,2.006,0.598,-0.91,28.72,1157,1
