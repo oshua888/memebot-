@@ -568,3 +568,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 10:12:19,hasard,VENTE,Dacity,0.01412,22.58,durée max 12h PnL +4.61$ coût 1.0%
 2026-10-21 10:12:19,hasard,ACHAT,PHP,0.0006880206912,17.75,score 63 coût 1.0%
 2026-10-21 10:15:18,prudente,ACHAT,Dacity,0.01431227973,9.76,score 70 coût 1.0%
+2026-10-21 10:28:18,hasard,VENTE,KIMCHI,0.005218,11.02,stop-loss (-37%) PnL -6.78$ coût 1.0%
+2026-10-21 10:28:18,hasard,ACHAT,Dacity,0.01372691921,17.52,score 65 coût 1.0%
