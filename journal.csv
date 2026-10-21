@@ -531,3 +531,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 01:51:01,actuelle,ACHAT,KIMCHI,0.01177784606,16.90,score 85 coût 1.0%
 2026-10-21 01:51:01,hasard,ACHAT,KIMCHI,0.01177788258,17.40,score 85 coût 1.0%
 2026-10-21 01:54:02,prudente,VENTE,Pokecity,0.0008193,6.51,palier +30% PnL +1.64$ coût 1.0%
+2026-10-21 02:04:02,prudente,ACHAT,KIMCHIBOSS,0.0008945634424,9.79,score 79 coût 1.0%
+2026-10-21 02:04:02,actuelle,ACHAT,KIMCHIBOSS,0.000894716653,16.99,score 79 coût 1.0%
