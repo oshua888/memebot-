@@ -571,3 +571,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 10:28:18,hasard,VENTE,KIMCHI,0.005218,11.02,stop-loss (-37%) PnL -6.78$ coût 1.0%
 2026-10-21 10:28:18,hasard,ACHAT,Dacity,0.01372691921,17.52,score 65 coût 1.0%
 2026-10-21 11:14:19,prudente,ACHAT,PHP,0.0008656594712,9.75,score 74 coût 1.0%
+2026-10-21 11:22:19,prudente,VENTE,PHP,0.0006728,7.50,stop-loss (-22%) PnL -2.25$ coût 1.0%
