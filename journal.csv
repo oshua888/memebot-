@@ -565,3 +565,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 09:41:18,actuelle,ACHAT,startupSI,6.30235715e-05,16.83,score 71 coût 1.1%
 2026-10-21 09:50:20,hasard,VENTE,GTAa,0.0001088,19.18,durée max 12h PnL +1.27$ coût 1.1%
 2026-10-21 09:50:20,hasard,ACHAT,KIMCHI,0.00834165612,17.80,score 75 coût 1.0%
+2026-10-21 10:12:19,hasard,VENTE,Dacity,0.01412,22.58,durée max 12h PnL +4.61$ coût 1.0%
+2026-10-21 10:12:19,hasard,ACHAT,PHP,0.0006880206912,17.75,score 63 coût 1.0%
+2026-10-21 10:15:18,prudente,ACHAT,Dacity,0.01431227973,9.76,score 70 coût 1.0%
