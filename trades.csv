@@ -252,3 +252,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-21 03:00,2026-10-21 13:46,actuelle,Pokecity,boost,trailing-stop,10.78,65.92,60,78352,10.24,4.0,1.687,0.794,-6.45,-5.99,1542,1
 2026-10-21 03:00,2026-10-21 13:46,hasard,Pokecity,boost,trailing-stop,10.78,65.92,60,78352,10.24,4.0,1.687,0.794,-6.45,-5.99,1542,1
 2026-10-20 15:32,2026-10-21 14:07,actuelle,Dacity,tendance,trailing-stop,22.58,80.67,60,337413,22.09,220.3,0.926,0.488,23.94,19.36,24.39,0
+2026-10-21 12:57,2026-10-21 14:21,apprentie,Pokecity,boost,stop-loss (-26%),1.4,-26.77,83,111788,13.5,14.0,1.166,0.737,-6.02,59.18,89.46,1
