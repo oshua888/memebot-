@@ -574,3 +574,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 12:02:47,prudente,VENTE,startupSI,4.878e-05,7.64,stop-loss (-21%) PnL -2.12$ coût 1.1%
 2026-10-21 12:18:47,hasard,VENTE,KIMCHI,0.0009659,8.88,palier +50% PnL +3.02$ coût 1.0%
 2026-10-21 12:19:47,prudente,ACHAT,PHP,0.0008354560049,9.74,score 72 coût 1.0%
+2026-10-21 12:24:46,prudente,VENTE,PHP,0.0006523,7.53,stop-loss (-22%) PnL -2.21$ coût 1.0%
+2026-10-21 12:24:46,hasard,VENTE,KIMCHI,7.927e-06,0.15,stop-loss (-99%) PnL -11.76$ coût 1.0%
