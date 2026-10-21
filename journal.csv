@@ -553,3 +553,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 03:17:01,prudente,VENTE,KIMCHI,0.009338,7.66,stop-loss (-21%) PnL -2.10$ coût 1.0%
 2026-10-21 04:29:00,apprentie,VENTE,CBUCKS,0.001014,16.02,durée max 12h PnL -3.66$ coût 1.0%
 2026-10-21 04:53:00,actuelle,VENTE,KIMCHIBOSS,0.0006249,11.74,stop-loss (-30%) PnL -5.25$ coût 1.0%
+2026-10-21 05:24:00,actuelle,ACHAT,CPU,0.0001308352039,16.81,score 60 coût 1.1%
