@@ -611,24 +611,16 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 17:18:14,apprentie,VENTE,DOT,0.0001943,13.02,stop-loss (-33%) PnL -6.49$ coût 1.1%
 2026-10-21 17:19:14,apprentie,ACHAT,DacityCoin,0.0002283335742,19.38,score 34 coût 1.1%
 2026-10-21 18:38:13,actuelle,VENTE,SASONA,6.248e-05,12.19,durée max 12h PnL -4.55$ coût 1.1%
-2026-10-21 19:35:15,agressive,VENTE,Pokecity,0.001139,24.93,trailing-stop PnL +11.06$ coût 1.1%
-2026-10-21 19:35:15,agressive,ACHAT,Pokecity,0.001150886008,21.39,score 55 coût 1.0%
-2026-10-21 19:55:15,actuelle,VENTE,Pokecity,0.0008146,10.94,stop-loss (-35%) PnL -6.02$ coût 1.0%
-2026-10-21 19:55:15,hasard,VENTE,Pokecity,0.0008146,11.33,stop-loss (-35%) PnL -6.23$ coût 1.0%
-2026-10-21 19:55:15,hasard,ACHAT,DOPE,0.002090066938,17.35,score 33 coût 1.0%
-2026-10-21 19:57:14,agressive,VENTE,Dacity,0.01427,31.23,durée max 24h PnL +9.16$ coût 1.0%
-2026-10-21 19:57:14,agressive,ACHAT,PHP,0.0005310636237,21.14,score 63 coût 1.1%
-2026-10-21 20:06:14,agressive,VENTE,Pokecity,0.0006226,11.45,stop-loss (-46%) PnL -9.94$ coût 1.0%
-2026-10-21 20:23:15,agressive,ACHAT,COMPUTE,0.0002539232548,21.14,score 50 coût 1.1%
-2026-10-21 20:50:16,actuelle,ACHAT,CHOO,0.0007587348233,16.58,score 69 coût 1.0%
-2026-10-21 20:53:15,apprentie,ACHAT,CHOO,0.0007600008969,19.33,score 61 coût 1.1%
-2026-10-21 20:57:15,actuelle,ACHAT,Pokémon,0.0004540738831,16.54,score 60 coût 1.0%
-2026-10-21 21:15:14,prudente,VENTE,Dacity,0.01213,7.63,stop-loss (-20%) PnL -2.05$ coût 1.0%
-2026-10-21 21:28:15,prudente,ACHAT,KIMCHIBULL,0.01016125804,9.66,score 73 coût 1.0%
-2026-10-21 21:28:15,actuelle,ACHAT,KIMCHIBULL,0.01016172226,16.48,score 73 coût 1.0%
-2026-10-21 21:28:15,apprentie,ACHAT,KIMCHIBULL,0.01016191644,19.33,score 73 coût 1.0%
-2026-10-21 21:58:15,prudente,VENTE,KIMCHIBULL,0.007917,7.45,stop-loss (-22%) PnL -2.21$ coût 1.0%
-2026-10-21 21:59:15,apprentie,VENTE,KIMCHIBULL,0.007398,13.93,stop-loss (-27%) PnL -5.40$ coût 1.0%
-2026-10-21 22:16:14,actuelle,VENTE,KIMCHIBULL,0.006999,11.23,stop-loss (-31%) PnL -5.24$ coût 1.0%
-2026-10-21 22:36:14,agressive,VENTE,PHP,0.0003087,12.16,stop-loss (-42%) PnL -8.98$ coût 1.0%
-2026-10-21 22:36:14,agressive,ACHAT,KIMCHIBULL,0.007031781799,20.76,score 73 coût 1.0%
+2026-10-21 22:38:36,prudente,VENTE,Dacity,0.0111,6.98,stop-loss (-27%) PnL -2.70$ coût 1.0%
+2026-10-21 22:38:36,prudente,ACHAT,KIMCHIBULL,0.0069069199,9.65,score 73 coût 1.0%
+2026-10-21 22:38:36,actuelle,VENTE,Pokecity,0.0007341,9.86,stop-loss (-41%) PnL -7.10$ coût 1.0%
+2026-10-21 22:38:36,actuelle,ACHAT,KIMCHIBULL,0.006907302617,16.50,score 73 coût 1.0%
+2026-10-21 22:38:36,agressive,VENTE,Dacity,0.0111,24.29,durée max 24h PnL +2.22$ coût 1.0%
+2026-10-21 22:38:36,agressive,VENTE,Pokecity,0.0007341,16.07,trailing-stop PnL +2.19$ coût 1.0%
+2026-10-21 22:38:36,agressive,ACHAT,KIMCHIBULL,0.006907552395,20.97,score 73 coût 1.0%
+2026-10-21 22:38:36,agressive,ACHAT,Pokecity,0.0007418294793,20.95,score 58 coût 1.1%
+2026-10-21 22:38:36,hasard,VENTE,Pokecity,0.0007341,10.21,stop-loss (-41%) PnL -7.35$ coût 1.0%
+2026-10-21 22:38:36,hasard,ACHAT,CHOO,0.0005481121651,17.22,score 30 coût 1.1%
+2026-10-21 22:38:36,apprentie,ACHAT,CHOO,0.0005481474938,19.33,score 30 coût 1.1%
+2026-10-21 22:38:36,apprentie,ACHAT,KIMCHIBULL,0.006907460717,19.33,score 73 coût 1.0%
+2026-10-21 22:41:37,actuelle,ACHAT,MONEYBIZ,0.001273989281,16.50,score 69 coût 1.0%
