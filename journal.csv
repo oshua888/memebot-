@@ -525,3 +525,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 01:18:01,hasard,VENTE,PIERRE,0.000119,12.49,stop-loss (-30%) PnL -5.66$ coût 1.1%
 2026-10-21 01:22:01,agressive,VENTE,texcat,0.0003447,13.53,stop-loss (-40%) PnL -9.40$ coût 1.1%
 2026-10-21 01:30:01,agressive,ACHAT,GTAa,9.853653019e-05,20.71,score 54 coût 1.2%
+2026-10-21 01:37:03,actuelle,ACHAT,GTAa,9.850822589e-05,16.86,score 62 coût 1.1%
+2026-10-21 01:38:01,prudente,ACHAT,Pokecity,0.0006072861286,9.76,score 75 coût 1.0%
