@@ -637,3 +637,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 23:35:35,prudente,ACHAT,KIMCHIBULL,0.007714951496,9.66,score 82 coût 1.0%
 2026-10-21 23:36:35,agressive,VENTE,SASONA,6.879e-05,19.61,durée max 24h PnL -1.71$ coût 1.1%
 2026-10-21 23:36:35,agressive,ACHAT,MONEYBIZ,0.001333691912,20.97,score 93 coût 1.0%
+2026-10-21 23:49:36,prudente,VENTE,KIMCHIBULL,0.005963,7.39,stop-loss (-23%) PnL -2.27$ coût 1.0%
