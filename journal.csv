@@ -523,3 +523,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 01:17:00,agressive,ACHAT,Pokecity,0.0006272853954,20.71,score 68 coût 1.1%
 2026-10-21 01:17:00,hasard,ACHAT,Pokecity,0.0006272245823,17.38,score 68 coût 1.1%
 2026-10-21 01:18:01,hasard,VENTE,PIERRE,0.000119,12.49,stop-loss (-30%) PnL -5.66$ coût 1.1%
+2026-10-21 01:22:01,agressive,VENTE,texcat,0.0003447,13.53,stop-loss (-40%) PnL -9.40$ coût 1.1%
