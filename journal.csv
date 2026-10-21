@@ -613,3 +613,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 18:38:13,actuelle,VENTE,SASONA,6.248e-05,12.19,durée max 12h PnL -4.55$ coût 1.1%
 2026-10-21 19:35:15,agressive,VENTE,Pokecity,0.001139,24.93,trailing-stop PnL +11.06$ coût 1.1%
 2026-10-21 19:35:15,agressive,ACHAT,Pokecity,0.001150886008,21.39,score 55 coût 1.0%
+2026-10-21 19:55:15,actuelle,VENTE,Pokecity,0.0008146,10.94,stop-loss (-35%) PnL -6.02$ coût 1.0%
+2026-10-21 19:55:15,hasard,VENTE,Pokecity,0.0008146,11.33,stop-loss (-35%) PnL -6.23$ coût 1.0%
+2026-10-21 19:55:15,hasard,ACHAT,DOPE,0.002090066938,17.35,score 33 coût 1.0%
+2026-10-21 19:57:14,agressive,VENTE,Dacity,0.01427,31.23,durée max 24h PnL +9.16$ coût 1.0%
+2026-10-21 19:57:14,agressive,ACHAT,PHP,0.0005310636237,21.14,score 63 coût 1.1%
