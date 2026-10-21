@@ -556,3 +556,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 05:24:00,actuelle,ACHAT,CPU,0.0001308352039,16.81,score 60 coût 1.1%
 2026-10-21 05:48:00,actuelle,VENTE,Pokecity,0.001241,8.38,palier +50% PnL +2.79$ coût 1.0%
 2026-10-21 05:48:00,hasard,VENTE,Pokecity,0.001241,8.64,palier +50% PnL +2.88$ coût 1.0%
+2026-10-21 06:02:00,actuelle,VENTE,Pokecity,0.0009305,12.76,trailing-stop PnL +1.41$ coût 1.0%
+2026-10-21 06:02:00,actuelle,ACHAT,Pokecity,0.0009401800291,17.06,score 91 coût 1.0%
+2026-10-21 06:02:00,hasard,VENTE,Pokecity,0.0009305,13.15,trailing-stop PnL +1.45$ coût 1.0%
+2026-10-21 06:02:00,hasard,ACHAT,KIMCHIBOSS,0.0001774230626,17.62,score 61 coût 1.1%
+2026-10-21 06:05:00,hasard,VENTE,KIMCHIBOSS,9.452e-05,9.29,stop-loss (-47%) PnL -8.34$ coût 1.1%
+2026-10-21 06:05:00,hasard,ACHAT,texcat,0.000443544146,17.47,score 25 coût 1.1%
