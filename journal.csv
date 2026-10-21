@@ -623,3 +623,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 20:50:16,actuelle,ACHAT,CHOO,0.0007587348233,16.58,score 69 coût 1.0%
 2026-10-21 20:53:15,apprentie,ACHAT,CHOO,0.0007600008969,19.33,score 61 coût 1.1%
 2026-10-21 20:57:15,actuelle,ACHAT,Pokémon,0.0004540738831,16.54,score 60 coût 1.0%
+2026-10-21 21:15:14,prudente,VENTE,Dacity,0.01213,7.63,stop-loss (-20%) PnL -2.05$ coût 1.0%
