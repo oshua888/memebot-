@@ -576,3 +576,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 12:19:47,prudente,ACHAT,PHP,0.0008354560049,9.74,score 72 coût 1.0%
 2026-10-21 12:24:46,prudente,VENTE,PHP,0.0006523,7.53,stop-loss (-22%) PnL -2.21$ coût 1.0%
 2026-10-21 12:24:46,hasard,VENTE,KIMCHI,7.927e-06,0.15,stop-loss (-99%) PnL -11.76$ coût 1.0%
+2026-10-21 12:29:46,hasard,VENTE,texcat,0.0003242,12.38,stop-loss (-30%) PnL -5.50$ coût 1.0%
