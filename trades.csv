@@ -267,3 +267,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-21 22:38,2026-10-21 23:35,prudente,KIMCHIBULL,boost,trailing-stop,0.95,21.31,73,244565,27.88,3.2,2.899,0.88,-5.1,-39.24,12296,1
 2026-10-20 23:36,2026-10-21 23:36,agressive,SASONA,boost,durée max 24h,24.0,-8.04,58,49466,1.48,6.0,0.372,0.598,1.95,29.68,314,1
 2026-10-21 23:35,2026-10-21 23:49,prudente,KIMCHIBULL,boost,stop-loss (-23%),0.23,-23.49,82,258257,29.5,4.1,1.48,0.797,-13.81,9.76,13746,1
+2026-10-21 11:57,2026-10-21 23:58,hasard,Dacity,tendance,durée max 12h,12.01,-11.22,47,478656,29.22,240.7,0.295,0.531,2.81,4.87,43.8,0
