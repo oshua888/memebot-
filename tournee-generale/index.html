@@ -1,0 +1,1181 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tournée Générale</title>
+<meta name="description" content="Jeux à boire et suivi d'alcoolémie en direct entre amis.">
+<meta name="theme-color" content="#1a1224">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Tournée">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@500&display=swap">
+<style>
+/* Layout: app mobile une colonne, en-tête fixe, contenu par onglet, barre d'onglets collée en bas. Thème unique de nuit, choisi volontairement. */
+:root {
+  color-scheme: dark;
+  --bg: #1a1224;
+  --surface: #251a33;
+  --surface-2: #31233f;
+  --line: #43325a;
+  --fg: #f5eefa;
+  --muted: #b3a3c4;
+  --accent: #ffb547;      /* ambre bière */
+  --accent-ink: #2a1a05;
+  --pink: #ff7aa2;
+  --ok: #5fd39b;
+  --warn: #ffb547;
+  --bad: #ff5d6c;
+  --f-display: "Bricolage Grotesque", "Arial Black", system-ui, sans-serif;
+  --f-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-num: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --r: 14px;
+  --tab-h: 64px;
+}
+* { box-sizing: border-box; }
+:root { padding-top: env(safe-area-inset-top, 0px); }
+html, body { height: 100%; }
+[hidden] { display: none !important; }
+img { max-width: 100%; }
+body {
+  margin: 0;
+  background: var(--bg); color: var(--fg);
+  font-family: var(--f-body); font-size: 15px; line-height: 1.45;
+  -webkit-tap-highlight-color: transparent;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap {
+  max-width: 560px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+header.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 12px; }
+.brand { font-family: var(--f-display); font-weight: 800; font-size: 22px; letter-spacing: -0.02em; margin: 0; }
+.brand span { color: var(--accent); }
+.sync { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.sync i { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); display: inline-block; }
+.sync.on i { background: var(--ok); }
+.sync.err i { background: var(--bad); }
+
+main { padding-bottom: calc(var(--tab-h) + env(safe-area-inset-bottom, 0px) + 24px); }
+main .wrap { padding-block: 20px; display: flex; flex-direction: column; gap: 20px; }
+h2 { font-family: var(--f-display); font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+h3 { font-family: var(--f-display); font-weight: 800; font-size: 18px; margin: 0; }
+.eyebrow { font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); font-weight: 700; }
+p { margin: 0; }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+
+button, .btn {
+  font: inherit; font-weight: 700; color: var(--fg);
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: 12px; padding: 12px 16px; cursor: pointer;
+  transition: transform .08s ease, background .15s ease;
+}
+button:active { transform: scale(0.97); }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.btn-primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.btn-pink { background: var(--pink); color: #2b0812; border-color: var(--pink); }
+.btn-ghost { background: transparent; }
+.btn-sm { padding: 7px 12px; font-size: 13px; border-radius: 10px; }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.row > * { min-width: 0; }
+.grow { flex: 1 1 0; }
+
+input, select {
+  font: inherit; color: var(--fg); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; width: 100%;
+}
+label.field { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--muted); font-weight: 500; }
+.seg { display: flex; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 3px; gap: 3px; }
+.seg button { flex: 1; padding: 8px 10px; border: 0; background: transparent; border-radius: 8px; font-size: 13px; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--surface-2); color: var(--fg); }
+
+/* Tab bar */
+nav.tabs {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 6;
+  background: var(--surface); border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  padding-left: max(8px, env(safe-area-inset-left, 0px));
+  padding-right: max(8px, env(safe-area-inset-right, 0px));
+}
+nav.tabs .inner { max-width: 560px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); height: var(--tab-h); }
+nav.tabs button { background: none; border: 0; border-radius: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; color: var(--muted); font-size: 12px; font-weight: 700; padding: 6px; }
+nav.tabs button svg { width: 24px; height: 24px; }
+nav.tabs button[aria-selected="true"] { color: var(--accent); }
+
+/* Joueurs */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 6px 6px 6px 12px; font-weight: 500; }
+.chip button { padding: 0; width: 22px; height: 22px; border-radius: 50%; border: 0; background: var(--line); font-size: 14px; line-height: 1; color: var(--fg); }
+
+/* Grille des jeux */
+.games { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.game-tile { text-align: left; display: flex; flex-direction: column; gap: 8px; padding: 16px; min-height: 132px; border-radius: var(--r); background: var(--surface); }
+.game-tile .glyph { font-family: var(--f-display); font-weight: 800; font-size: 30px; line-height: 1; color: var(--tile, var(--accent)); }
+.game-tile strong { font-family: var(--f-display); font-size: 17px; line-height: 1.15; }
+.game-tile span { font-size: 12.5px; color: var(--muted); font-weight: 400; }
+
+/* Carte de jeu */
+.card {
+  background: var(--fg); color: #1a1224; border-radius: 22px;
+  min-height: 260px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; gap: 18px;
+  box-shadow: 0 18px 40px -18px rgba(0,0,0,.7);
+}
+.card .kind { font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; font-weight: 700; color: var(--card-accent, #8a3b8f); }
+.card .text { font-family: var(--f-display); font-weight: 800; font-size: clamp(22px, 6vw, 30px); line-height: 1.15; letter-spacing: -0.01em; text-wrap: balance; }
+.card .foot { font-size: 13px; color: #5a4a68; font-weight: 500; }
+.card.flip { animation: flip .35s ease; }
+@keyframes flip { from { transform: rotateY(70deg) scale(.96); opacity: .3; } to { transform: none; opacity: 1; } }
+.back-link { align-self: flex-start; }
+
+/* Cartes à jouer */
+.playing { aspect-ratio: 5 / 7; max-width: 100%; width: 220px; align-self: center; background: #fbf7ff; color: #1a1224; border-radius: 16px; position: relative; box-shadow: 0 18px 40px -18px rgba(0,0,0,.7); }
+.playing .corner { position: absolute; font-family: var(--f-display); font-weight: 800; font-size: 26px; line-height: .95; text-align: center; }
+.playing .corner.tl { top: 12px; left: 14px; }
+.playing .corner.br { bottom: 12px; right: 14px; transform: rotate(180deg); }
+.playing .pip { position: absolute; inset: 0; display: grid; place-items: center; font-size: 84px; }
+.playing.red { color: #d0263e; }
+.kings { display: flex; gap: 6px; align-items: center; }
+.kings i { width: 14px; height: 20px; border-radius: 3px; border: 1.5px solid var(--accent); display: inline-block; }
+.kings i.on { background: var(--accent); }
+
+/* Roue */
+.wheel-box { position: relative; width: min(300px, 100%); aspect-ratio: 1; align-self: center; }
+.wheel-box canvas { width: 100%; height: 100%; display: block; }
+.wheel-box .pointer { position: absolute; top: -4px; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 22px solid var(--fg); filter: drop-shadow(0 2px 2px rgba(0,0,0,.5)); }
+.result { font-family: var(--f-display); font-weight: 800; font-size: 22px; text-align: center; min-height: 1.4em; text-wrap: balance; }
+
+/* Alcoolémie */
+.gauge { display: flex; flex-direction: column; gap: 6px; }
+.big { font-family: var(--f-num); font-size: clamp(52px, 17vw, 76px); line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; }
+.big small { font-size: 0.32em; letter-spacing: 0; color: var(--muted); margin-left: 6px; }
+.pill { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; padding: 5px 12px; font-size: 13px; font-weight: 700; align-self: flex-start; }
+.pill.ok { background: color-mix(in srgb, var(--ok) 20%, transparent); color: var(--ok); }
+.pill.warn { background: color-mix(in srgb, var(--warn) 20%, transparent); color: var(--warn); }
+.pill.bad { background: color-mix(in srgb, var(--bad) 22%, transparent); color: var(--bad); }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.stat { background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 10px; display: flex; flex-direction: column; gap: 2px; }
+.stat b { font-family: var(--f-num); font-size: 18px; font-variant-numeric: tabular-nums; font-weight: 500; }
+.stat span { font-size: 11.5px; color: var(--muted); }
+.chart { width: 100%; height: 190px; display: block; }
+.drinks-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.drink { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; padding: 10px; text-align: left; border-radius: 12px; }
+.drink strong { font-size: 14px; }
+.drink span { font-size: 11.5px; color: var(--muted); font-weight: 400; }
+.log { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.log li { display: flex; align-items: center; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--line); }
+.log li:last-child { border-bottom: 0; }
+.log time { font-family: var(--f-num); font-size: 13px; color: var(--muted); width: 46px; flex: none; font-variant-numeric: tabular-nums; }
+.log .g { font-family: var(--f-num); font-size: 12px; color: var(--muted); margin-left: auto; flex: none; }
+.log button { flex: none; padding: 4px 9px; font-size: 12px; }
+.warning { border-left: 3px solid var(--bad); padding: 10px 12px; background: color-mix(in srgb, var(--bad) 10%, transparent); border-radius: 0 10px 10px 0; font-size: 13.5px; }
+.disclaimer { font-size: 12px; color: var(--muted); }
+
+/* Amis */
+.people { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.person { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+.person img { width: 36px; height: 36px; border-radius: 50%; flex: none; }
+.person .rank { font-family: var(--f-num); color: var(--muted); width: 18px; flex: none; text-align: center; }
+.person .who { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.person .who strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.person .who span { font-size: 12px; color: var(--muted); }
+.person .val { font-family: var(--f-num); font-size: 18px; font-variant-numeric: tabular-nums; flex: none; }
+.person.me { border-color: var(--accent); }
+.bar { height: 4px; border-radius: 2px; background: var(--line); overflow: hidden; margin-top: 4px; }
+.bar i { display: block; height: 100%; background: var(--accent); }
+.empty { text-align: center; padding: 22px 12px; color: var(--muted); font-size: 14px; border: 1px dashed var(--line); border-radius: 12px; }
+
+.game-tile.wide { grid-column: 1 / -1; min-height: 0; flex-direction: row; align-items: center; gap: 16px; }
+.game-tile.wide > div { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+
+/* Dés */
+.dice { display: flex; justify-content: center; gap: 22px; padding-block: 8px; }
+.die { width: 104px; height: 104px; border-radius: 20px; background: #fbf7ff; display: grid; grid-template: repeat(3, 1fr) / repeat(3, 1fr); padding: 14px; box-shadow: 0 14px 30px -14px rgba(0,0,0,.8), inset 0 -4px 0 rgba(0,0,0,.08); }
+.die i { width: 18px; height: 18px; border-radius: 50%; background: #1a1224; place-self: center; visibility: hidden; }
+.die i.on { visibility: visible; }
+.die.red i { background: #d0263e; }
+.die.roll { animation: roll .6s cubic-bezier(.2,.8,.3,1); }
+@keyframes roll { 0% { transform: rotate(0) scale(.85); } 60% { transform: rotate(380deg) scale(1.05); } 100% { transform: rotate(360deg) scale(1); } }
+.sum { font-family: var(--f-num); font-size: 15px; color: var(--muted); text-align: center; }
+.rules-out { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.rules-out li { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; font-weight: 500; }
+.rules-out li b { color: var(--accent); }
+.rules-ref { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; font-size: 13.5px; }
+.rules-ref dt { font-family: var(--f-num); color: var(--accent); }
+.rules-ref dd { margin: 0; color: var(--muted); }
+
+/* Groupe */
+.code { font-family: var(--f-num); font-size: 30px; letter-spacing: 0.18em; color: var(--accent); }
+.share-link { font-family: var(--f-num); font-size: 12px; color: var(--muted); word-break: break-all; user-select: all; }
+
+@media (max-width: 380px) {
+  .die { width: 88px; height: 88px; padding: 12px; }
+  .drinks-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .games { gap: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <h1 class="brand">Tournée <span>Générale</span></h1>
+    <div class="sync" id="sync"><i></i><span>Hors ligne</span></div>
+  </div>
+</header>
+
+<main>
+  <!-- JEUX -->
+  <section id="view-jeux" class="view" aria-labelledby="t-jeux">
+    <div class="wrap" id="jeux-home">
+      <div>
+        <p class="eyebrow">Ce soir on joue</p>
+        <h2 id="t-jeux">Choisis un jeu</h2>
+      </div>
+      <div class="panel">
+        <div class="row" style="justify-content:space-between">
+          <h3>Joueurs</h3>
+          <span class="small muted" id="players-hint"></span>
+        </div>
+        <div class="chips" id="players"></div>
+        <form class="row" id="add-player">
+          <input id="player-name" class="grow" maxlength="20" placeholder="Prénom du joueur" autocomplete="off" style="flex:1 1 140px">
+          <button class="btn-primary" type="submit">Ajouter</button>
+        </form>
+      </div>
+      <div class="games">
+        <button class="game-tile" data-game="av" style="--tile:var(--pink)"><span class="glyph">A/V</span><strong>Action ou vérité</strong><span>Chacun son tour, on répond ou on boit.</span></button>
+        <button class="game-tile" data-game="jnj" style="--tile:var(--accent)"><span class="glyph">✋</span><strong>Je n'ai jamais</strong><span>Ceux qui l'ont déjà fait boivent.</span></button>
+        <button class="game-tile" data-game="qui" style="--tile:#8fd3ff"><span class="glyph">☝</span><strong>Qui pourrait…</strong><span>On pointe du doigt, ou la roue décide.</span></button>
+        <button class="game-tile" data-game="roi" style="--tile:#ff8f6b"><span class="glyph">♠♥</span><strong>Le jeu du Roi</strong><span>52 cartes, une règle par carte.</span></button>
+        <button class="game-tile wide" data-game="des" style="--tile:#c79bff"><span class="glyph">⚄⚀</span><div><strong>Le jeu des deux dés</strong><span>Lance les dés : 7, 9, 10, doubles et le Bonhomme 3 décident qui boit.</span></div></button>
+      </div>
+      <p class="disclaimer">Personne n'est obligé de boire. Une gorgée peut toujours être remplacée par de l'eau ou un soft.</p>
+    </div>
+
+    <!-- Action ou vérité -->
+    <div class="wrap" id="game-av" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Action ou vérité</p><h2 id="av-turn">À toi</h2></div>
+      <div class="card" id="av-card" style="--card-accent:#c2185b">
+        <span class="kind" id="av-kind">Choisis</span>
+        <p class="text" id="av-text">Action ou vérité ?</p>
+        <p class="foot" id="av-foot">Si tu refuses : 2 gorgées.</p>
+      </div>
+      <div class="row">
+        <button class="btn-pink grow" id="av-action">Action</button>
+        <button class="btn-primary grow" id="av-verite">Vérité</button>
+      </div>
+      <button id="av-next">Joueur suivant →</button>
+    </div>
+
+    <!-- Je n'ai jamais -->
+    <div class="wrap" id="game-jnj" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Je n'ai jamais</p><h2>Ceux qui l'ont fait boivent</h2></div>
+      <div class="card" id="jnj-card" style="--card-accent:#b26a00">
+        <span class="kind" id="jnj-count">Carte 1</span>
+        <p class="text" id="jnj-text"></p>
+        <p class="foot">1 gorgée si tu l'as déjà fait.</p>
+      </div>
+      <button class="btn-primary" id="jnj-next">Carte suivante</button>
+    </div>
+
+    <!-- Qui pourrait / roue -->
+    <div class="wrap" id="game-qui" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Qui est le plus susceptible de…</p><h2>À trois, tout le monde pointe</h2></div>
+      <div class="card" id="qui-card" style="--card-accent:#1f6fa8">
+        <span class="kind">Qui pourrait…</span>
+        <p class="text" id="qui-text"></p>
+        <p class="foot">La personne la plus pointée boit 2 gorgées.</p>
+      </div>
+      <div class="row">
+        <button class="btn-primary grow" id="qui-next">Question suivante</button>
+        <button class="grow" id="qui-spin">La roue décide</button>
+      </div>
+      <div class="wheel-box"><canvas id="wheel" width="600" height="600" aria-label="Roue des joueurs"></canvas><span class="pointer"></span></div>
+      <p class="result" id="wheel-result" aria-live="polite"></p>
+    </div>
+
+    <!-- Jeu du Roi -->
+    <div class="wrap" id="game-roi" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div class="row" style="justify-content:space-between">
+        <div><p class="eyebrow">Le jeu du Roi</p><h2 id="roi-left">52 cartes</h2></div>
+        <div class="kings" id="kings" aria-label="Rois tirés"><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="playing" id="roi-card">
+        <span class="corner tl" id="roi-c1"></span>
+        <span class="pip" id="roi-pip">?</span>
+        <span class="corner br" id="roi-c2"></span>
+      </div>
+      <div class="panel">
+        <h3 id="roi-rule">Pose un grand verre au milieu de la table</h3>
+        <p class="muted" id="roi-desc">Chaque joueur tire une carte à tour de rôle. Le quatrième Roi tiré boit la coupe du milieu.</p>
+      </div>
+      <div class="row">
+        <button class="btn-primary grow" id="roi-draw">Tirer une carte</button>
+        <button class="btn-ghost" id="roi-reset">Nouveau paquet</button>
+      </div>
+    </div>
+
+    <!-- Deux dés -->
+    <div class="wrap" id="game-des" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Le jeu des deux dés</p><h2 id="des-turn">À toi de lancer</h2></div>
+      <div class="dice" aria-live="polite" id="dice-box">
+        <div class="die" id="die1" aria-label="Dé 1"></div>
+        <div class="die red" id="die2" aria-label="Dé 2"></div>
+      </div>
+      <p class="sum" id="des-sum">Touche « Lancer les dés »</p>
+      <ul class="rules-out" id="des-out"></ul>
+      <div class="row">
+        <button class="btn-primary grow" id="des-roll">Lancer les dés</button>
+        <button class="grow" id="des-next">Joueur suivant →</button>
+      </div>
+      <p class="small muted" id="des-bonhomme">Pas encore de Bonhomme 3.</p>
+      <details class="panel">
+        <summary style="cursor:pointer;font-weight:700">Les règles</summary>
+        <dl class="rules-ref">
+          <dt>7</dt><dd>Le joueur précédent boit 1 gorgée.</dd>
+          <dt>9</dt><dd>Le joueur suivant boit 1 gorgée.</dd>
+          <dt>10</dt><dd>Tout le monde boit 1 gorgée.</dd>
+          <dt>Double</dt><dd>Tu distribues autant de gorgées que la valeur d'un dé.</dd>
+          <dt>Double 6</dt><dd>Tu inventes une règle pour le reste de la partie.</dd>
+          <dt>Un 3</dt><dd>Le premier qui fait un 3 devient le Bonhomme. Ensuite, à chaque 3 sorti, le Bonhomme boit. Le Bonhomme se libère en faisant lui-même un 3.</dd>
+          <dt>1 + 2</dt><dd>Tu bois 1 gorgée.</dd>
+          <dt>Rien</dt><dd>Personne ne boit, tu passes les dés.</dd>
+        </dl>
+      </details>
+    </div>
+  </section>
+
+  <!-- ALCOOLEMIE -->
+  <section id="view-taux" class="view" hidden aria-labelledby="t-taux">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow" id="taux-who">Mon taux estimé</p>
+        <h2 id="t-taux">Alcoolémie en direct</h2>
+      </div>
+
+      <div class="panel gauge">
+        <div class="big" id="bac-now">0,00<small>g/L</small></div>
+        <span class="pill ok" id="bac-pill">Sobre</span>
+        <div class="stats">
+          <div class="stat"><b id="st-peak">–</b><span>Pic prévu</span></div>
+          <div class="stat"><b id="st-05">–</b><span id="st-05-label">Sous 0,5 g/L</span></div>
+          <div class="stat"><b id="st-0">–</b><span>Retour à 0</span></div>
+        </div>
+        <canvas class="chart" id="chart" aria-label="Courbe d'alcoolémie"></canvas>
+        <div class="warning" id="bac-warn" hidden>Ne prends pas le volant. Bois de l'eau, et rentre en taxi, VTC ou avec un conducteur sobre.</div>
+      </div>
+
+      <div class="panel">
+        <div class="row" style="justify-content:space-between">
+          <h3>Ajouter un verre</h3>
+          <label class="small muted row" style="gap:6px">Bu
+            <select id="ago" style="width:auto;padding:6px 8px">
+              <option value="0">maintenant</option>
+              <option value="15">il y a 15 min</option>
+              <option value="30">il y a 30 min</option>
+              <option value="60">il y a 1 h</option>
+              <option value="120">il y a 2 h</option>
+            </select>
+          </label>
+        </div>
+        <div class="drinks-grid" id="drinks"></div>
+        <details>
+          <summary class="small muted" style="cursor:pointer">Autre boisson (volume et degré)</summary>
+          <form class="row" id="custom-drink" style="margin-top:10px">
+            <label class="field grow" style="flex:1 1 80px">Volume (cl)<input id="cd-vol" type="number" min="1" max="200" step="1" value="25" inputmode="decimal"></label>
+            <label class="field grow" style="flex:1 1 80px">Degré (%)<input id="cd-deg" type="number" min="0.5" max="80" step="0.5" value="6" inputmode="decimal"></label>
+            <button class="btn-primary" type="submit" style="align-self:flex-end">Ajouter</button>
+          </form>
+        </details>
+      </div>
+
+      <div class="panel">
+        <div class="row" style="justify-content:space-between">
+          <h3>Mes verres de la soirée</h3>
+          <button class="btn-sm btn-ghost" id="reset-night">Nouvelle soirée</button>
+        </div>
+        <div id="reset-confirm" class="row" hidden>
+          <span class="small grow">Effacer tous les verres ?</span>
+          <button class="btn-sm" id="reset-no">Annuler</button>
+          <button class="btn-sm btn-pink" id="reset-yes">Effacer</button>
+        </div>
+        <ul class="log" id="log"></ul>
+      </div>
+
+      <div class="panel">
+        <h3>Mon profil</h3>
+        <label class="field">Pseudo (visible par tes amis)<input id="p-pseudo" maxlength="24" placeholder="Ton pseudo de soirée"></label>
+        <div class="row">
+          <label class="field grow" style="flex:1 1 120px">Poids (kg)<input id="p-weight" type="number" min="35" max="200" step="1" inputmode="numeric"></label>
+          <div class="field grow" style="flex:1 1 160px">Sexe
+            <div class="seg" id="p-sex"><button type="button" data-v="h">Homme</button><button type="button" data-v="f">Femme</button></div>
+          </div>
+        </div>
+        <div class="field">Estomac
+          <div class="seg" id="p-fed"><button type="button" data-v="0">À jeun</button><button type="button" data-v="1">J'ai mangé</button></div>
+        </div>
+        <div class="field">Permis
+          <div class="seg" id="p-young"><button type="button" data-v="0">Classique · 0,5 g/L</button><button type="button" data-v="1">Jeune permis · 0,2</button></div>
+        </div>
+        <p class="disclaimer">Estimation par la formule de Widmark (coefficient 0,7 homme, 0,6 femme), absorption sur 30 min à jeun ou 1 h après un repas, élimination de 0,10 g/L par heure. La limite est de 0,5 g/L, et de 0,2 g/L en permis probatoire (3 ans, ou 2 ans après la conduite accompagnée). Le vrai taux varie d'une personne à l'autre. Ce calcul ne remplace pas un éthylotest : ne t'en sers jamais pour décider si tu peux conduire.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AMIS -->
+  <section id="view-amis" class="view" hidden aria-labelledby="t-amis">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Classement en direct</p>
+        <h2 id="t-amis">Mon groupe d'amis</h2>
+      </div>
+
+      <div class="panel" id="group-none">
+        <h3>Rejoindre ou créer un groupe</h3>
+        <p class="small muted">Chacun installe l'appli sur son téléphone et note ses verres. Entrez tous le même code de groupe pour comparer vos taux en direct.</p>
+        <form class="row" id="join-form">
+          <input id="join-code" class="grow" style="flex:1 1 140px;text-transform:uppercase;font-family:var(--f-num);letter-spacing:.12em" maxlength="12" placeholder="CODE" autocomplete="off" autocapitalize="characters" aria-label="Code du groupe">
+          <button class="btn-primary" type="submit">Rejoindre</button>
+        </form>
+        <p class="small" id="join-err" hidden style="color:var(--bad)"></p>
+        <button id="create-group">Créer un nouveau groupe</button>
+      </div>
+
+      <div class="panel" id="group-in" hidden>
+        <div class="row" style="justify-content:space-between">
+          <div><p class="eyebrow">Code du groupe</p><p class="code" id="group-code"></p></div>
+          <button class="btn-sm btn-ghost" id="leave-group">Quitter</button>
+        </div>
+        <p class="share-link" id="share-link"></p>
+        <div class="row">
+          <button class="btn-primary grow" id="share-btn">Inviter des amis</button>
+          <button class="grow" id="copy-btn">Copier le lien</button>
+        </div>
+        <p class="small muted" id="share-msg" aria-live="polite"></p>
+      </div>
+
+      <p class="small muted" id="amis-status"></p>
+      <ul class="people" id="friends"></ul>
+      <p class="disclaimer">Le groupe passe par un serveur public gratuit (broker.emqx.io). Toute personne qui connaît le code peut voir les pseudos et les verres du groupe : choisis un pseudo plutôt que ton nom complet. Quitter le groupe efface tes données du serveur.</p>
+    </div>
+  </section>
+</main>
+
+<nav class="tabs" aria-label="Onglets">
+  <div class="inner" role="tablist">
+    <button role="tab" data-tab="jeux" aria-selected="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="11" height="16" rx="2"/><path d="M17 6l3 1-3.5 13-2.5-.7"/></svg>
+      Jeux
+    </button>
+    <button role="tab" data-tab="taux" aria-selected="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h10l-1 17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1L7 3z"/><path d="M7.5 10h9"/></svg>
+      Alcoolémie
+    </button>
+    <button role="tab" data-tab="amis" aria-selected="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.6c2.8.2 4.7 2 5.4 5.4"/></svg>
+      Amis
+    </button>
+  </div>
+</nav>
+
+<script src="mqtt.min.js"></script>
+<script>
+(() => {
+"use strict";
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+const rand = a => a[Math.floor(Math.random() * a.length)];
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const fmt = (n, d = 2) => n.toFixed(d).replace(".", ",");
+const hhmm = t => new Date(t).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
+
+/* ---------- Onglets ---------- */
+function showTab(name) {
+  $$("nav.tabs [data-tab]").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === name)));
+  $$(".view").forEach(v => v.hidden = v.id !== "view-" + name);
+  store.set("tg.tab", name);
+  if (name === "taux") drawChart();
+  window.scrollTo(0, 0);
+}
+$$("nav.tabs [data-tab]").forEach(b => b.addEventListener("click", () => showTab(b.dataset.tab)));
+
+/* ---------- Joueurs ---------- */
+let players = store.get("tg.players", null);
+const examplePlayers = !players;
+if (!players) players = ["Léa", "Tom", "Inès", "Max"];
+function renderPlayers() {
+  const box = $("#players"); box.textContent = "";
+  players.forEach((p, i) => {
+    const c = document.createElement("span"); c.className = "chip";
+    const n = document.createElement("span"); n.textContent = p;
+    const x = document.createElement("button"); x.type = "button"; x.textContent = "×"; x.setAttribute("aria-label", "Retirer " + p);
+    x.onclick = () => { players.splice(i, 1); savePlayers(); };
+    c.append(n, x); box.append(c);
+  });
+  $("#players-hint").textContent = players.length < 2 ? "Ajoute au moins 2 joueurs" : (examplePlayers && !store.get("tg.players", null) ? "Exemples : remplace-les par vos prénoms" : players.length + " joueurs");
+}
+function savePlayers() { store.set("tg.players", players); renderPlayers(); drawWheel(); }
+$("#add-player").addEventListener("submit", e => {
+  e.preventDefault();
+  const v = $("#player-name").value.trim();
+  if (v && !players.includes(v)) { players.push(v); savePlayers(); }
+  $("#player-name").value = ""; $("#player-name").focus();
+});
+renderPlayers();
+
+/* ---------- Navigation jeux ---------- */
+function openGame(id) {
+  $("#jeux-home").hidden = true;
+  $$("[id^=game-]").forEach(g => g.hidden = g.id !== "game-" + id);
+  if (id === "av") avStart();
+  if (id === "jnj") jnjNext();
+  if (id === "qui") { quiNext(); drawWheel(); }
+  if (id === "des") desStart();
+  window.scrollTo(0, 0);
+}
+$$("[data-game]").forEach(b => b.addEventListener("click", () => openGame(b.dataset.game)));
+$$("[data-back]").forEach(b => b.addEventListener("click", () => { $$("[id^=game-]").forEach(g => g.hidden = true); $("#jeux-home").hidden = false; }));
+const flip = el => { el.classList.remove("flip"); void el.offsetWidth; el.classList.add("flip"); };
+// Pioche sans répétition tant que le paquet n'est pas vide
+function deck(list) { let pile = []; return () => { if (!pile.length) pile = shuffle(list); return pile.pop(); }; }
+const other = cur => { const o = players.filter(p => p !== cur); return o.length ? rand(o) : "ton voisin"; };
+
+/* ---------- Action ou vérité ---------- */
+const VERITES = [
+  "Quel est ton pire râteau ?", "Qui ici te plaît le plus physiquement ?", "Quel est le dernier mensonge que tu as dit ?",
+  "Quelle est la chose la plus gênante dans ton historique de recherche ?", "As-tu déjà stalké un ex ? Raconte.",
+  "Ta pire honte en soirée ?", "Le message le plus gênant que tu as envoyé par erreur ?", "Qui est ton crush secret du moment ?",
+  "Qu'est-ce que tu n'avouerais jamais à tes parents ?", "As-tu déjà fait semblant d'être malade pour éviter quelqu'un ?",
+  "Ton plus gros caprice d'enfant ?", "Quel joueur ici emmènerais-tu sur une île déserte ?", "Quelle est ta plus grande peur ?",
+  "Le pire cadeau que tu aies reçu, et de qui ?", "As-tu déjà lu les messages de quelqu'un en cachette ?",
+  "Quelle appli as-tu ouverte le plus de fois aujourd'hui ?", "Quel est ton plaisir coupable musical ?",
+  "Qu'est-ce qui t'a fait pleurer la dernière fois ?", "Si tu devais embrasser quelqu'un ici, qui ?", "Ta pire note à un examen ?",
+  "Le truc le plus bizarre que tu aies mangé ?", "Qui ici a le pire style vestimentaire ?", "As-tu déjà ghosté quelqu'un ?",
+  "Quelle est ta pire habitude ?", "Ton premier bisou, c'était où et avec qui ?"
+];
+const ACTIONS = [
+  "Imite {other} jusqu'à ce que quelqu'un devine.", "Envoie un vocal de 10 secondes qui chante à la dernière personne de ta conversation.",
+  "Fais 15 squats en gardant ton verre à la main sans le renverser.", "Parle avec un accent marseillais jusqu'à ton prochain tour.",
+  "Laisse {other} écrire ton prochain statut.", "Fais une déclaration d'amour dramatique à {other}.",
+  "Danse 30 secondes sans musique.", "Montre la dernière photo de ta galerie.", "Échange un vêtement avec {other}.",
+  "Fais un compliment sincère à chaque joueur.", "Mime un film : les autres ont 30 secondes pour trouver.",
+  "Raconte une blague. Si personne ne rit, 2 gorgées.", "Fais le tour de la pièce en marchant comme un crabe.",
+  "Laisse {other} te dessiner une moustache.", "Appelle quelqu'un et chante-lui joyeux anniversaire.",
+  "Garde un glaçon dans la main jusqu'à ce qu'il fonde, ou bois 3 gorgées.", "Fais ta meilleure imitation d'un prof.",
+  "Lis à voix haute ton dernier message envoyé.", "Fais une pose de mannequin pendant 20 secondes.",
+  "Donne ton téléphone à {other} pendant 1 minute.", "Parle uniquement en rimes jusqu'à ton prochain tour.",
+  "Fais un massage des épaules de 30 secondes à {other}.", "Commande une pizza imaginaire avec la voix la plus grave possible.",
+  "Bois une gorgée sans les mains.", "Fais 10 pompes ou bois 2 gorgées."
+];
+let avIdx = 0;
+const nextVerite = deck(VERITES), nextAction = deck(ACTIONS);
+function avStart() { avIdx = avIdx % Math.max(players.length, 1); avShowTurn(); }
+function avShowTurn() {
+  const p = players[avIdx] || "Joueur";
+  $("#av-turn").textContent = "À " + p + " de jouer";
+  $("#av-kind").textContent = "Choisis";
+  $("#av-text").textContent = "Action ou vérité ?";
+  $("#av-foot").textContent = "Si tu refuses : 2 gorgées.";
+  flip($("#av-card"));
+}
+function avPick(kind) {
+  const p = players[avIdx] || "Joueur";
+  const txt = (kind === "a" ? nextAction() : nextVerite()).replaceAll("{other}", other(p));
+  $("#av-kind").textContent = kind === "a" ? "Action pour " + p : "Vérité pour " + p;
+  $("#av-text").textContent = txt;
+  $("#av-foot").textContent = "Tu refuses ? 2 gorgées.";
+  flip($("#av-card"));
+}
+$("#av-action").onclick = () => avPick("a");
+$("#av-verite").onclick = () => avPick("v");
+$("#av-next").onclick = () => { avIdx = (avIdx + 1) % Math.max(players.length, 1); avShowTurn(); };
+
+/* ---------- Je n'ai jamais ---------- */
+const JAMAIS = [
+  "Je n'ai jamais dormi plus de 14 heures d'affilée.", "Je n'ai jamais envoyé un message à la mauvaise personne.",
+  "Je n'ai jamais menti sur mon âge.", "Je n'ai jamais pris un avion seul·e.", "Je n'ai jamais fait de nuit blanche pour réviser.",
+  "Je n'ai jamais été recalé·e d'une boîte de nuit.", "Je n'ai jamais embrassé quelqu'un dans cette pièce.",
+  "Je n'ai jamais pleuré devant un dessin animé.", "Je n'ai jamais oublié l'anniversaire d'un proche.",
+  "Je n'ai jamais fait semblant de connaître une chanson.", "Je n'ai jamais chanté au karaoké.",
+  "Je n'ai jamais perdu mon téléphone en soirée.", "Je n'ai jamais ghosté quelqu'un.", "Je n'ai jamais eu de surnom gênant.",
+  "Je n'ai jamais été pris·e en train de mentir.", "Je n'ai jamais dragué sur une appli de rencontre.",
+  "Je n'ai jamais fait un tatouage que je regrette.", "Je n'ai jamais séché un cours pour dormir.",
+  "Je n'ai jamais mangé un plat tombé par terre.", "Je n'ai jamais raté un train ou un avion.",
+  "Je n'ai jamais fait la bise à quelqu'un qui tendait la main.", "Je n'ai jamais stalké un ex sur les réseaux.",
+  "Je n'ai jamais dit « je t'aime » sans le penser.", "Je n'ai jamais eu de crush sur un prof.",
+  "Je n'ai jamais fait de camping sauvage.", "Je n'ai jamais dansé sur une table.", "Je n'ai jamais été dans un commissariat.",
+  "Je n'ai jamais fait une teinture ratée.", "Je n'ai jamais parlé à un animal comme à un humain.",
+  "Je n'ai jamais écouté la même chanson plus de 10 fois d'affilée.", "Je n'ai jamais fini une soirée en pyjama chez un inconnu.",
+  "Je n'ai jamais lu les messages de quelqu'un en cachette.", "Je n'ai jamais fait de chute en public.",
+  "Je n'ai jamais eu peur du noir après 15 ans.", "Je n'ai jamais quitté une soirée sans dire au revoir.",
+  "Je n'ai jamais flirté pour éviter une amende.", "Je n'ai jamais mangé une pizza entière seul·e.",
+  "Je n'ai jamais fait un selfie avec une célébrité.", "Je n'ai jamais été amoureux·se de deux personnes à la fois.",
+  "Je n'ai jamais fait de rêve avec quelqu'un de cette pièce."
+];
+const nextJamais = deck(JAMAIS); let jnjN = 0;
+function jnjNext() { jnjN++; $("#jnj-count").textContent = "Carte " + jnjN; $("#jnj-text").textContent = nextJamais(); flip($("#jnj-card")); }
+$("#jnj-next").onclick = jnjNext;
+
+/* ---------- Qui pourrait / roue ---------- */
+const QUI = [
+  "finir en prison", "se marier en premier", "oublier son téléphone dans un taxi", "devenir célèbre sur internet",
+  "pleurer devant un film d'animation", "partir vivre à l'autre bout du monde", "s'endormir en premier ce soir",
+  "envoyer un message à son ex ce soir", "survivre à une apocalypse zombie", "devenir millionnaire",
+  "se perdre avec un GPS", "manger le dernier morceau sans demander", "rire à un enterrement",
+  "oublier le prénom de quelqu'un qu'il vient de rencontrer", "adopter dix chats", "se faire tatouer un prénom",
+  "dépenser tout son salaire en une journée", "être en retard à son propre mariage", "gagner à Koh-Lanta",
+  "avoir une double vie", "chanter sous la douche à fond", "faire un discours gênant à un mariage",
+  "rater son vol", "garder un secret toute sa vie", "tomber amoureux en vacances", "devenir président",
+  "lancer une start-up farfelue", "se battre avec un pigeon", "finir la soirée sur la table", "appeler sa mère ce soir"
+];
+const nextQui = deck(QUI);
+function quiNext() { $("#qui-text").textContent = "… " + nextQui() + " ?"; $("#wheel-result").textContent = ""; flip($("#qui-card")); }
+$("#qui-next").onclick = quiNext;
+
+const WHEEL_COLORS = ["#ffb547", "#ff7aa2", "#8fd3ff", "#5fd39b", "#c79bff", "#ff8f6b", "#ffe083", "#7fe3d6"];
+let wheelAngle = 0, spinning = false;
+function drawWheel() {
+  const c = $("#wheel"); if (!c) return;
+  const ctx = c.getContext("2d"), W = c.width, R = W / 2 - 6;
+  ctx.clearRect(0, 0, W, W);
+  const names = players.length ? players : ["?"];
+  const n = names.length, seg = Math.PI * 2 / n;
+  ctx.save(); ctx.translate(W / 2, W / 2); ctx.rotate(wheelAngle);
+  names.forEach((nm, i) => {
+    ctx.beginPath(); ctx.moveTo(0, 0); ctx.arc(0, 0, R, i * seg, (i + 1) * seg); ctx.closePath();
+    ctx.fillStyle = WHEEL_COLORS[i % WHEEL_COLORS.length]; ctx.fill();
+    ctx.strokeStyle = "#1a1224"; ctx.lineWidth = 4; ctx.stroke();
+    ctx.save(); ctx.rotate(i * seg + seg / 2); ctx.textAlign = "right"; ctx.textBaseline = "middle";
+    ctx.fillStyle = "#1a1224"; ctx.font = "800 " + (n > 8 ? 26 : 32) + "px 'Bricolage Grotesque', 'Arial Black', sans-serif";
+    ctx.fillText(nm.length > 12 ? nm.slice(0, 11) + "…" : nm, R - 22, 0); ctx.restore();
+  });
+  ctx.restore();
+  ctx.beginPath(); ctx.arc(W / 2, W / 2, 26, 0, Math.PI * 2); ctx.fillStyle = "#1a1224"; ctx.fill();
+  ctx.strokeStyle = "#f5eefa"; ctx.lineWidth = 4; ctx.stroke();
+}
+$("#qui-spin").onclick = () => {
+  if (spinning || players.length < 2) { if (players.length < 2) $("#wheel-result").textContent = "Ajoute au moins 2 joueurs."; return; }
+  spinning = true; $("#wheel-result").textContent = "";
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const start = wheelAngle, delta = Math.PI * 2 * (5 + Math.random() * 3) + Math.random() * Math.PI * 2;
+  const dur = reduce ? 1 : 3800, t0 = performance.now();
+  const step = now => {
+    const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 4);
+    wheelAngle = start + delta * e; drawWheel();
+    if (k < 1) return requestAnimationFrame(step);
+    spinning = false;
+    // Le pointeur est en haut (angle -90°)
+    const n = players.length, seg = Math.PI * 2 / n;
+    let a = (-Math.PI / 2 - wheelAngle) % (Math.PI * 2); if (a < 0) a += Math.PI * 2;
+    const who = players[Math.floor(a / seg) % n];
+    $("#wheel-result").textContent = who + " boit 2 gorgées !";
+  };
+  requestAnimationFrame(step);
+};
+drawWheel();
+
+/* ---------- Jeu du Roi ---------- */
+const RULES = {
+  A: ["Cascade", "Tout le monde boit en même temps. Personne ne s'arrête avant la personne à sa droite."],
+  2: ["Toi", "Désigne quelqu'un qui boit 2 gorgées."],
+  3: ["Moi", "Tu bois 3 gorgées."],
+  4: ["Le sol", "Tout le monde touche le sol. Le dernier boit."],
+  5: ["Les gars", "Tous les garçons boivent."],
+  6: ["Les filles", "Toutes les filles boivent."],
+  7: ["Le ciel", "Tout le monde lève la main. Le dernier boit."],
+  8: ["Compagnon", "Choisis un partenaire : il boit chaque fois que tu bois, jusqu'au prochain 8."],
+  9: ["Rimes", "Dis un mot. Chacun trouve une rime à son tour. Le premier qui sèche boit."],
+  10: ["Catégories", "Choisis une catégorie (marques de bière, pays…). Le premier qui sèche boit."],
+  V: ["Nouvelle règle", "Invente une règle qui dure jusqu'à la fin de la partie. Qui l'enfreint boit."],
+  D: ["Maître des questions", "Jusqu'à la prochaine Dame, quiconque répond à tes questions boit."],
+  R: ["Le Roi", "Verse un peu de ton verre dans la coupe du milieu. Le 4e Roi boit la coupe."]
+};
+const RANKS = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "V", "D", "R"], SUITS = ["♠", "♥", "♦", "♣"];
+let cards = [], kings = 0;
+function roiReset() {
+  cards = shuffle(RANKS.flatMap(r => SUITS.map(s => ({ r, s })))); kings = 0;
+  $("#roi-left").textContent = "52 cartes";
+  $("#roi-c1").textContent = $("#roi-c2").textContent = ""; $("#roi-pip").textContent = "?";
+  $("#roi-card").classList.remove("red");
+  $("#roi-rule").textContent = "Pose un grand verre au milieu de la table";
+  $("#roi-desc").textContent = "Chaque joueur tire une carte à tour de rôle. Le quatrième Roi tiré boit la coupe du milieu.";
+  $("#roi-draw").disabled = false; renderKings();
+}
+function renderKings() { $$("#kings i").forEach((k, i) => k.classList.toggle("on", i < kings)); }
+$("#roi-draw").onclick = () => {
+  const c = cards.pop(); if (!c) return;
+  const red = c.s === "♥" || c.s === "♦";
+  $("#roi-card").classList.toggle("red", red);
+  $("#roi-c1").innerHTML = $("#roi-c2").innerHTML = c.r + "<br>" + c.s;
+  $("#roi-pip").textContent = c.s;
+  let [title, desc] = RULES[c.r];
+  if (c.r === "R") { kings++; renderKings(); if (kings === 4) { title = "4e Roi !"; desc = "Tu bois la coupe du milieu (ou tu la remplaces par un verre d'eau). Partie terminée."; } }
+  $("#roi-rule").textContent = c.r + " · " + title;
+  $("#roi-desc").textContent = desc;
+  $("#roi-left").textContent = cards.length + (cards.length > 1 ? " cartes" : " carte");
+  flip($("#roi-card"));
+  if (!cards.length || kings === 4) $("#roi-draw").disabled = true;
+};
+$("#roi-reset").onclick = roiReset;
+roiReset();
+
+/* ---------- Deux dés ---------- */
+const PIPS = { 1: [4], 2: [0, 8], 3: [0, 4, 8], 4: [0, 2, 6, 8], 5: [0, 2, 4, 6, 8], 6: [0, 2, 3, 5, 6, 8] };
+let desIdx = 0, bonhomme = null, rolling = false;
+function drawDie(el, v) {
+  el.textContent = "";
+  for (let i = 0; i < 9; i++) { const d = document.createElement("i"); if (v && PIPS[v].includes(i)) d.className = "on"; el.append(d); }
+  el.setAttribute("aria-label", v ? "Dé : " + v : "Dé");
+}
+const pl = i => players.length ? players[((i % players.length) + players.length) % players.length] : "Joueur";
+function desStart() {
+  desIdx = desIdx % Math.max(players.length, 1);
+  $("#des-turn").textContent = "À " + pl(desIdx) + " de lancer";
+  renderBonhomme();
+  if (!$("#die1").children.length) { drawDie($("#die1"), 0); drawDie($("#die2"), 0); }
+}
+function renderBonhomme() { $("#des-bonhomme").textContent = bonhomme ? "Bonhomme 3 : " + bonhomme : "Pas encore de Bonhomme 3."; }
+function desRules(a, b, me) {
+  const out = [], sum = a + b, n = players.length;
+  const prev = pl(desIdx - 1), next = pl(desIdx + 1);
+  if (a === b) {
+    if (a === 6) out.push(["Double 6", me + " invente une nouvelle règle et distribue 6 gorgées."]);
+    else out.push(["Double " + a, me + " distribue " + a + (a > 1 ? " gorgées." : " gorgée.")]);
+  }
+  if (sum === 7) out.push(["7", (n > 1 ? prev : "Le joueur précédent") + " boit 1 gorgée."]);
+  if (sum === 9) out.push(["9", (n > 1 ? next : "Le joueur suivant") + " boit 1 gorgée."]);
+  if (sum === 10) out.push(["10", "Tout le monde boit 1 gorgée. Santé !"]);
+  if (sum === 3) out.push(["1 + 2", me + " boit 1 gorgée."]);
+  const threes = (a === 3) + (b === 3);
+  if (threes) {
+    if (!bonhomme) { bonhomme = me; out.push(["Un 3", me + " devient le Bonhomme 3."]); }
+    else if (bonhomme === me) { bonhomme = null; out.push(["Un 3", me + " se libère : plus de Bonhomme 3 !"]); }
+    else out.push(["Un 3", bonhomme + " (le Bonhomme) boit " + threes + (threes > 1 ? " gorgées." : " gorgée.")]);
+  }
+  if (!out.length) out.push(["Rien", "Personne ne boit. Passe les dés."]);
+  return out;
+}
+$("#des-roll").onclick = () => {
+  if (rolling) return; rolling = true;
+  const a = 1 + Math.floor(Math.random() * 6), b = 1 + Math.floor(Math.random() * 6);
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const d1 = $("#die1"), d2 = $("#die2");
+  [d1, d2].forEach(d => { d.classList.remove("roll"); void d.offsetWidth; if (!reduce) d.classList.add("roll"); });
+  let ticks = reduce ? 0 : 6;
+  const tick = () => {
+    if (ticks-- > 0) { drawDie(d1, 1 + Math.floor(Math.random() * 6)); drawDie(d2, 1 + Math.floor(Math.random() * 6)); return setTimeout(tick, 80); }
+    drawDie(d1, a); drawDie(d2, b);
+    $("#des-sum").textContent = a + " + " + b + " = " + (a + b);
+    const ul = $("#des-out"); ul.textContent = "";
+    desRules(a, b, pl(desIdx)).forEach(([k, t]) => {
+      const li = document.createElement("li"); const bb = document.createElement("b"); bb.textContent = k + " · ";
+      li.append(bb, document.createTextNode(t)); ul.append(li);
+    });
+    renderBonhomme(); rolling = false;
+  };
+  tick();
+};
+$("#des-next").onclick = () => {
+  desIdx = (desIdx + 1) % Math.max(players.length, 1);
+  $("#des-turn").textContent = "À " + pl(desIdx) + " de lancer";
+  $("#des-out").textContent = ""; $("#des-sum").textContent = "Touche « Lancer les dés »";
+};
+
+/* =====================================================
+   ALCOOLÉMIE
+   ===================================================== */
+const ELIM = 0.10;              // g/L par heure
+const K = { h: 0.7, f: 0.6 };   // coefficient de diffusion
+const DAY = 24 * 3600e3, MIN = 60e3;
+const grams = (cl, deg) => cl * 10 * (deg / 100) * 0.8;
+const DRINKS = [
+  { label: "Demi", note: "25 cl · 5 %", g: grams(25, 5) },
+  { label: "Pinte", note: "50 cl · 5 %", g: grams(50, 5) },
+  { label: "Bière forte", note: "33 cl · 8 %", g: grams(33, 8) },
+  { label: "Vin", note: "12 cl · 12 %", g: grams(12, 12) },
+  { label: "Champagne", note: "12 cl · 12 %", g: grams(12, 12) },
+  { label: "Shot", note: "3 cl · 40 %", g: grams(3, 40) },
+  { label: "Cocktail", note: "5 cl d'alcool fort", g: grams(5, 40) },
+  { label: "Cidre", note: "25 cl · 5 %", g: grams(25, 5) },
+  { label: "Pastis", note: "2 cl · 45 %", g: grams(2, 45) }
+];
+
+const defaultMe = () => ({ pseudo: "", sex: "h", weight: 70, fed: 1, young: 0, drinks: [], updatedAt: 0 });
+const limitOf = p => (p && p.young ? 0.2 : 0.5);
+let me = Object.assign(defaultMe(), store.get("tg.me", {}));
+pruneDrinks(me);
+function pruneDrinks(p) { const lim = Date.now() - DAY; p.drinks = (p.drinks || []).filter(d => d.t > lim).sort((a, b) => a.t - b.t); }
+
+// Simulation minute par minute : absorption linéaire puis élimination constante.
+function simulate(p, tEnd, sample) {
+  const drinks = (p.drinks || []).filter(d => d.t > tEnd - DAY - 3 * 3600e3 && d.t <= tEnd + 1);
+  const w = Math.max(35, +p.weight || 70), k = K[p.sex] || 0.7;
+  const absorb = (p.fed ? 60 : 30) * MIN;
+  if (!drinks.length) return { bac: 0, series: [] };
+  let t = drinks[0].t, bac = 0;
+  const series = [];
+  for (; t <= tEnd; t += MIN) {
+    for (const d of drinks) if (t >= d.t && t < d.t + absorb) bac += (d.g / (w * k)) * (MIN / absorb);
+    bac = Math.max(0, bac - ELIM / 60);
+    if (sample) series.push([t, bac]);
+  }
+  return { bac, series };
+}
+function bacNow(p) { return simulate(p, Date.now()).bac; }
+// Projection : pic, heure de passage sous la limite légale et retour à 0
+function project(p) {
+  const now = Date.now();
+  const past = simulate(p, now, true);
+  const w = Math.max(35, +p.weight || 70), k = K[p.sex] || 0.7, absorb = (p.fed ? 60 : 30) * MIN;
+  const drinks = p.drinks || [];
+  const lim = limitOf(p);
+  let bac = past.bac, peak = bac, peakT = now, under05 = null, zero = null;
+  const future = [[now, bac]];
+  const lastAbs = drinks.length ? drinks[drinks.length - 1].t + absorb : now;
+  if (!drinks.length || (bac <= 0 && lastAbs <= now)) return { now: bac, past: past.series, future, peak, peakT, under05, zero };
+  for (let t = now + MIN; t < now + DAY; t += MIN) {
+    for (const d of drinks) if (t >= d.t && t < d.t + absorb) bac += (d.g / (w * k)) * (MIN / absorb);
+    bac = Math.max(0, bac - ELIM / 60);
+    future.push([t, bac]);
+    if (bac > peak) { peak = bac; peakT = t; }
+    if (t >= lastAbs) {
+      if (under05 === null && peak >= lim && bac < lim) under05 = t;
+      if (bac <= 0) { zero = t; break; }
+    }
+  }
+  return { now: past.bac, past: past.series, future, peak, peakT, under05, zero };
+}
+function level(b, young) {
+  if (b < 0.01) return ["ok", "Sobre"];
+  if (b >= 0.8) return ["bad", "Au-dessus de 0,8 : délit au volant"];
+  if (young) {
+    if (b < 0.2) return ["warn", "Sous 0,2 : conduite déconseillée"];
+    return ["bad", "Au-dessus de 0,2 : interdit de conduire en jeune permis"];
+  }
+  if (b < 0.2) return ["ok", "Léger"];
+  if (b < 0.5) return ["warn", "Sous 0,5 : conduite déconseillée"];
+  return ["bad", "Au-dessus de 0,5 : interdit de conduire"];
+}
+
+function renderDrinkButtons() {
+  const box = $("#drinks"); box.textContent = "";
+  DRINKS.forEach(d => {
+    const b = document.createElement("button"); b.className = "drink"; b.type = "button";
+    const s = document.createElement("strong"); s.textContent = d.label;
+    const n = document.createElement("span"); n.textContent = d.note;
+    b.append(s, n); b.onclick = () => addDrink(d.label, d.g);
+    box.append(b);
+  });
+}
+function addDrink(label, g) {
+  const ago = +$("#ago").value || 0;
+  me.drinks.push({ t: Date.now() - ago * MIN, g: Math.round(g * 10) / 10, label });
+  $("#ago").value = "0";
+  changed();
+}
+$("#custom-drink").addEventListener("submit", e => {
+  e.preventDefault();
+  const vol = +$("#cd-vol").value, deg = +$("#cd-deg").value;
+  if (vol > 0 && deg > 0) addDrink(vol + " cl · " + String(deg).replace(".", ",") + " %", grams(vol, deg));
+});
+$("#reset-night").onclick = () => { $("#reset-confirm").hidden = false; };
+$("#reset-no").onclick = () => { $("#reset-confirm").hidden = true; };
+$("#reset-yes").onclick = () => { me.drinks = []; $("#reset-confirm").hidden = true; changed(); };
+
+function renderLog() {
+  const ul = $("#log"); ul.textContent = "";
+  if (!me.drinks.length) { const li = document.createElement("li"); li.className = "muted small"; li.textContent = "Aucun verre pour l'instant. Touche une boisson ci-dessus pour l'ajouter."; ul.append(li); return; }
+  me.drinks.slice().reverse().forEach(d => {
+    const li = document.createElement("li");
+    const t = document.createElement("time"); t.textContent = hhmm(d.t);
+    const n = document.createElement("span"); n.textContent = d.label;
+    const g = document.createElement("span"); g.className = "g"; g.textContent = fmt(d.g, 0) + " g";
+    const x = document.createElement("button"); x.type = "button"; x.className = "btn-ghost"; x.textContent = "Retirer";
+    x.onclick = () => { me.drinks = me.drinks.filter(o => o !== d); changed(); };
+    li.append(t, n, g, x); ul.append(li);
+  });
+}
+
+let proj = null;
+function renderBac() {
+  proj = project(me);
+  const b = proj.now;
+  $("#bac-now").innerHTML = fmt(b) + "<small>g/L</small>";
+  const lim = limitOf(me);
+  const [cls, txt] = level(b, me.young);
+  const pill = $("#bac-pill"); pill.className = "pill " + cls; pill.textContent = txt;
+  $("#bac-warn").hidden = !(b >= 0.2 || proj.peak >= lim || (me.young && b > 0));
+  $("#st-peak").textContent = proj.peak > 0.005 ? fmt(proj.peak) : "–";
+  $("#st-05-label").textContent = "Sous " + fmt(lim, 1) + " g/L";
+  $("#st-05").textContent = proj.under05 ? hhmm(proj.under05) : (proj.peak >= lim ? "> 24 h" : "OK");
+  $("#st-0").textContent = proj.zero ? hhmm(proj.zero) : (b > 0 ? "> 24 h" : "–");
+  $("#taux-who").textContent = me.pseudo ? "Taux estimé de " + me.pseudo : "Mon taux estimé";
+  drawChart();
+}
+
+function drawChart() {
+  const c = $("#chart"); if (!c || !proj || c.offsetParent === null) return;
+  const dpr = window.devicePixelRatio || 1, W = c.clientWidth, H = c.clientHeight;
+  c.width = W * dpr; c.height = H * dpr;
+  const ctx = c.getContext("2d"); ctx.scale(dpr, dpr); ctx.clearRect(0, 0, W, H);
+  const css = getComputedStyle(document.documentElement);
+  const col = n => css.getPropertyValue(n).trim();
+  const now = Date.now();
+  const pts = proj.past.concat(proj.future.filter(p => p[1] > 0 || p[0] === now));
+  const t0 = proj.past.length ? Math.min(proj.past[0][0], now - 30 * MIN) : now - 2 * 3600e3;
+  const t1 = Math.max(proj.zero || now, now + 2 * 3600e3);
+  const ymax = Math.max(0.8, Math.ceil((proj.peak * 1.15) * 5) / 5);
+  const L = 34, R = 8, T = 10, B = 22;
+  const x = t => L + (t - t0) / (t1 - t0) * (W - L - R);
+  const y = v => T + (1 - v / ymax) * (H - T - B);
+  ctx.font = "11px 'DM Mono', monospace"; ctx.fillStyle = col("--muted"); ctx.textBaseline = "middle";
+  // grille
+  for (let v = 0; v <= ymax + 1e-9; v += ymax > 1.6 ? 0.5 : 0.2) {
+    ctx.strokeStyle = col("--line"); ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(L, y(v)); ctx.lineTo(W - R, y(v)); ctx.stroke();
+    ctx.textAlign = "right"; ctx.fillText(fmt(v, 1), L - 6, y(v));
+  }
+  // seuil légal
+  const lim = limitOf(me);
+  ctx.setLineDash([4, 4]); ctx.strokeStyle = col("--bad"); ctx.beginPath(); ctx.moveTo(L, y(lim)); ctx.lineTo(W - R, y(lim)); ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle = col("--bad"); ctx.textAlign = "right"; ctx.fillText(me.young ? "0,2 jeune permis" : "0,5 limite", W - R, y(lim) - 8);
+  // heures
+  ctx.fillStyle = col("--muted"); ctx.textAlign = "center"; ctx.textBaseline = "alphabetic";
+  const span = t1 - t0, stepH = span > 10 * 3600e3 ? 3 : span > 5 * 3600e3 ? 2 : 1;
+  const first = new Date(t0); first.setMinutes(0, 0, 0);
+  for (let t = first.getTime() + 3600e3; t < t1; t += stepH * 3600e3) ctx.fillText(new Date(t).getHours() + "h", x(t), H - 6);
+  if (!pts.length) return;
+  // aire + courbe passée
+  const acc = col("--accent");
+  const past = pts.filter(p => p[0] <= now), fut = pts.filter(p => p[0] >= now);
+  if (past.length) {
+    ctx.beginPath(); ctx.moveTo(x(past[0][0]), y(0)); past.forEach(p => ctx.lineTo(x(p[0]), y(p[1]))); ctx.lineTo(x(past[past.length - 1][0]), y(0)); ctx.closePath();
+    ctx.fillStyle = "rgba(255,181,71,0.18)"; ctx.fill();
+    ctx.beginPath(); past.forEach((p, i) => i ? ctx.lineTo(x(p[0]), y(p[1])) : ctx.moveTo(x(p[0]), y(p[1]))); ctx.strokeStyle = acc; ctx.lineWidth = 2.5; ctx.stroke();
+  }
+  if (fut.length > 1) {
+    ctx.setLineDash([5, 5]); ctx.beginPath(); fut.forEach((p, i) => i ? ctx.lineTo(x(p[0]), y(p[1])) : ctx.moveTo(x(p[0]), y(p[1])));
+    ctx.strokeStyle = acc; ctx.lineWidth = 2; ctx.stroke(); ctx.setLineDash([]);
+  }
+  // point "maintenant"
+  ctx.beginPath(); ctx.arc(x(now), y(proj.now), 5, 0, Math.PI * 2); ctx.fillStyle = acc; ctx.fill();
+  ctx.strokeStyle = col("--bg"); ctx.lineWidth = 2; ctx.stroke();
+}
+addEventListener("resize", drawChart);
+
+/* Profil */
+function renderProfile() {
+  if (document.activeElement !== $("#p-pseudo")) $("#p-pseudo").value = me.pseudo;
+  if (document.activeElement !== $("#p-weight")) $("#p-weight").value = me.weight;
+  $$("#p-sex button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === me.sex)));
+  $$("#p-fed button").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.v === +me.fed)));
+  $$("#p-young button").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.v === +(me.young || 0))));
+}
+let typeTimer;
+$("#p-pseudo").addEventListener("input", e => { me.pseudo = e.target.value.trim().slice(0, 24); clearTimeout(typeTimer); typeTimer = setTimeout(changed, 700); });
+$("#p-weight").addEventListener("input", e => { const v = +e.target.value; if (v >= 35 && v <= 200) { me.weight = v; clearTimeout(typeTimer); typeTimer = setTimeout(changed, 700); } });
+$$("#p-sex button").forEach(b => b.onclick = () => { me.sex = b.dataset.v; changed(); });
+$$("#p-fed button").forEach(b => b.onclick = () => { me.fed = +b.dataset.v; changed(); });
+$$("#p-young button").forEach(b => b.onclick = () => { me.young = +b.dataset.v; changed(); });
+
+function changed() {
+  pruneDrinks(me);
+  me.updatedAt = Date.now();
+  store.set("tg.me", me);
+  renderProfile(); renderLog(); renderBac(); renderFriends();
+  publishMe();
+}
+
+/* =====================================================
+   GROUPE D'AMIS (MQTT sur WebSocket, sans compte)
+   Chaque téléphone publie son état en message "retenu" sur
+   tourneegenerale/v1/<CODE>/<id-appareil> ; tout le groupe s'abonne à
+   tourneegenerale/v1/<CODE>/+ et reçoit les états des autres en direct.
+   ===================================================== */
+const BROKER = "wss://broker.emqx.io:8084/mqtt";
+const TOPIC = code => "tourneegenerale/v1/" + code;
+const CODE_RE = /^[A-Z0-9]{4,12}$/;
+const devId = (() => {
+  let v = store.get("tg.dev", "");
+  if (!/^[a-z0-9]{8,32}$/.test(v)) { v = Array.from({ length: 16 }, () => "abcdefghijklmnopqrstuvwxyz0123456789"[Math.floor(Math.random() * 36)]).join(""); store.set("tg.dev", v); }
+  return v;
+})();
+let group = store.get("tg.group", "");
+let client = null, members = {}, pubTimer = null;
+
+function setSync(state, text) {
+  const el = $("#sync"); el.className = "sync" + (state ? " " + state : "");
+  $("span", el).textContent = text;
+}
+function payload() {
+  return { v: 1, pseudo: me.pseudo, sex: me.sex, weight: me.weight, fed: me.fed, young: me.young || 0, drinks: me.drinks, updatedAt: me.updatedAt };
+}
+// Les messages viennent d'inconnus : on ne garde que des champs propres.
+function clean(o) {
+  if (!o || typeof o !== "object") return null;
+  const pseudo = typeof o.pseudo === "string" ? o.pseudo.slice(0, 24).trim() : "";
+  if (!pseudo) return null;
+  const drinks = Array.isArray(o.drinks) ? o.drinks.slice(-80).filter(d => d && isFinite(d.t) && isFinite(d.g) && d.g > 0 && d.g < 300)
+    .map(d => ({ t: +d.t, g: +d.g, label: String(d.label || "Verre").slice(0, 40) })) : [];
+  const weight = Math.min(200, Math.max(35, +o.weight || 70));
+  return { pseudo, sex: o.sex === "f" ? "f" : "h", weight, fed: o.fed ? 1 : 0, young: o.young ? 1 : 0, drinks, updatedAt: +o.updatedAt || 0 };
+}
+function publishMe() {
+  if (!client || !group) return;
+  clearTimeout(pubTimer);
+  pubTimer = setTimeout(() => {
+    if (!client || !client.connected) return;   // republié à la reconnexion
+    client.publish(TOPIC(group) + "/" + devId, JSON.stringify(payload()), { qos: 1, retain: true });
+  }, 300);
+}
+function connectGroup() {
+  if (client) { try { client.end(true); } catch {} client = null; }
+  members = {};
+  renderGroup(); renderFriends();
+  if (!group) { setSync("", "Hors groupe"); return; }
+  if (!window.mqtt) { setSync("err", "Synchro indisponible"); return; }
+  setSync("", "Connexion…");
+  const c = mqtt.connect(BROKER, { clientId: "tg_" + devId + "_" + Math.random().toString(36).slice(2, 7), clean: true, reconnectPeriod: 4000, connectTimeout: 10000, keepalive: 45 });
+  client = c;
+  const base = TOPIC(group);
+  c.on("connect", () => {
+    if (client !== c) return;
+    setSync("on", "Groupe " + group);
+    c.subscribe(base + "/+", { qos: 1 });
+    if (me.pseudo) c.publish(base + "/" + devId, JSON.stringify(payload()), { qos: 1, retain: true });
+  });
+  c.on("message", (topic, buf) => {
+    if (client !== c || !topic.startsWith(base + "/")) return;
+    const id = topic.slice(base.length + 1);
+    if (id === devId) return;
+    let data = null;
+    try { data = buf.length ? clean(JSON.parse(new TextDecoder().decode(buf))) : null; } catch {}
+    if (data) members[id] = data; else delete members[id];
+    renderFriends();
+  });
+  c.on("reconnect", () => { if (client === c) setSync("", "Reconnexion…"); });
+  c.on("offline", () => { if (client === c) setSync("err", "Hors ligne"); });
+  c.on("error", () => { if (client === c) setSync("err", "Erreur réseau"); });
+}
+function joinGroup(code) {
+  group = code; store.set("tg.group", code);
+  connectGroup();
+}
+function leaveGroup() {
+  const c = client, base = group ? TOPIC(group) : null;
+  if (c && c.connected && base) c.publish(base + "/" + devId, "", { qos: 1, retain: true }, () => c.end());
+  else if (c) c.end(true);
+  client = null; group = ""; store.set("tg.group", "");
+  connectGroup();
+}
+const shareUrl = () => location.origin + location.pathname + "?groupe=" + group;
+function renderGroup() {
+  $("#group-none").hidden = !!group;
+  $("#group-in").hidden = !group;
+  if (group) { $("#group-code").textContent = group; $("#share-link").textContent = shareUrl(); }
+}
+$("#join-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const v = $("#join-code").value.trim().toUpperCase().replace(/\s+/g, "");
+  const err = $("#join-err");
+  if (!CODE_RE.test(v)) { err.hidden = false; err.textContent = "Le code fait 4 à 12 lettres ou chiffres, sans espace."; return; }
+  err.hidden = true; $("#join-code").value = ""; joinGroup(v);
+});
+$("#create-group").onclick = () => {
+  const A = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+  joinGroup(Array.from({ length: 6 }, () => A[Math.floor(Math.random() * A.length)]).join(""));
+};
+$("#leave-group").onclick = leaveGroup;
+async function copyLink() {
+  try { await navigator.clipboard.writeText(shareUrl()); $("#share-msg").textContent = "Lien copié."; }
+  catch { const r = document.createRange(); r.selectNodeContents($("#share-link")); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); $("#share-msg").textContent = "Lien sélectionné : copie-le."; }
+}
+$("#copy-btn").onclick = copyLink;
+$("#share-btn").onclick = async () => {
+  const text = "Rejoins mon groupe sur Tournée Générale avec le code " + group;
+  if (navigator.share) { try { await navigator.share({ title: "Tournée Générale", text, url: shareUrl() }); return; } catch (e) { if (e && e.name === "AbortError") return; } }
+  copyLink();
+};
+
+function renderFriends() {
+  const status = $("#amis-status");
+  if (!group) status.textContent = "Tu n'es dans aucun groupe pour l'instant.";
+  else if (!me.pseudo) status.textContent = "Choisis un pseudo dans l'onglet Alcoolémie pour apparaître chez tes amis.";
+  else status.textContent = "Les taux se mettent à jour en direct.";
+  const lim = Date.now() - DAY;
+  const rows = [{ id: devId, d: me, mine: true }, ...Object.entries(members).map(([id, d]) => ({ id, d }))]
+    .filter(r => r.mine || (r.d.drinks.length ? r.d.drinks[r.d.drinks.length - 1].t > lim : r.d.updatedAt > lim))
+    .map(r => ({ ...r, bac: bacNow(r.d) }))
+    .sort((a, b) => b.bac - a.bac);
+  const ul = $("#friends"); ul.textContent = "";
+  const maxBac = Math.max(0.5, ...rows.map(r => r.bac));
+  rows.forEach((r, i) => ul.append(personRow(r, i + 1, maxBac)));
+  if (rows.length < 2) {
+    const li = document.createElement("li"); li.className = "empty";
+    li.textContent = group ? "Personne d'autre dans le groupe pour l'instant. Envoie le code à tes amis." : "Crée un groupe ou entre le code d'un ami pour comparer vos taux.";
+    ul.append(li);
+  }
+}
+function personRow(r, rank, maxBac) {
+  const li = document.createElement("li"); li.className = "person" + (r.mine ? " me" : "");
+  const rk = document.createElement("span"); rk.className = "rank"; rk.textContent = rank;
+  const who = document.createElement("div"); who.className = "who";
+  const s = document.createElement("strong"); s.textContent = (r.d.pseudo || "Moi") + (r.mine ? " (toi)" : "");
+  const n = (r.d.drinks || []).length, last = n ? r.d.drinks[n - 1].t : 0;
+  const sub = document.createElement("span");
+  sub.textContent = n + (n > 1 ? " verres" : " verre") + (last ? " · dernier à " + hhmm(last) : "") + (r.d.young ? " · jeune permis" : "");
+  const bar = document.createElement("div"); bar.className = "bar";
+  const bi = document.createElement("i"); bi.style.width = Math.min(100, r.bac / maxBac * 100) + "%";
+  const l = limitOf(r.d);
+  bi.style.background = r.bac >= l ? "var(--bad)" : r.bac >= l * 0.4 ? "var(--warn)" : "var(--ok)";
+  bar.append(bi); who.append(s, sub, bar);
+  const v = document.createElement("span"); v.className = "val"; v.textContent = fmt(r.bac);
+  li.append(rk, who, v);
+  return li;
+}
+
+/* ---------- Démarrage ---------- */
+const hashTab = (location.hash || "").slice(1);
+showTab(["jeux", "taux", "amis"].includes(hashTab) ? hashTab : store.get("tg.tab", "jeux"));
+const qsGroup = new URLSearchParams(location.search).get("groupe");
+if (qsGroup && CODE_RE.test(qsGroup.toUpperCase())) {
+  group = qsGroup.toUpperCase(); store.set("tg.group", group);
+  history.replaceState(null, "", location.pathname + location.hash);
+  showTab("amis");
+}
+renderDrinkButtons(); renderProfile(); renderLog(); renderBac();
+connectGroup();
+setInterval(() => { renderBac(); renderFriends(); }, 30e3);   // le taux évolue avec le temps
+document.addEventListener("visibilitychange", () => { if (!document.hidden) { renderBac(); renderFriends(); } });
+if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>
