@@ -818,3 +818,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 17:19:26,agressive,VENTE,SHAVCOIN,0.001196,11919.28,stop-loss (-45%) PnL -34706.97$ coût 53.7%
 2026-10-22 17:19:26,agressive,ACHAT,TRENCHERS,0.00019342,45582.25,score 56 coût 90.0%
 2026-10-22 17:20:24,agressive,VENTE,TRENCHERS,0.0001044,2460.34,stop-loss (-46%) PnL -43121.92$ coût 90.0%
+2026-10-22 17:26:26,agressive,ACHAT,SHADOW,0.00027474,44283.60,score 52 coût 90.0%
+2026-10-22 17:26:26,hasard,ACHAT,1SHARE,0.00049191,19690.41,score 41 coût 90.0%
+2026-10-22 17:27:27,agressive,VENTE,SHADOW,0.0001507,2429.04,stop-loss (-45%) PnL -41854.56$ coût 90.0%
+2026-10-22 17:27:27,hasard,VENTE,1SHARE,0.0002527,5127.02,stop-loss (-49%) PnL -14563.39$ coût 49.3%
