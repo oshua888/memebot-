@@ -667,3 +667,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 01:30:32,agressive,ACHAT,COMPUTE,0.0003613188353,20.61,score 61 coût 1.1%
 2026-10-22 01:52:33,hasard,VENTE,LARPCHECK,0.0006669,14.42,durée max 12h PnL -3.16$ coût 1.0%
 2026-10-22 01:52:33,hasard,ACHAT,CYBER,0.0005852481651,17.27,score 53 coût 1.0%
+2026-10-22 02:02:32,hasard,VENTE,AOP,0.0002731,17.52,durée max 12h PnL -0.01$ coût 1.1%
+2026-10-22 02:02:32,hasard,ACHAT,MONEYBIZ,0.0003512862188,17.23,score 61 coût 1.1%
+2026-10-22 02:02:32,apprentie,VENTE,AOP,0.0002731,19.54,durée max 12h PnL -0.01$ coût 1.1%
