@@ -313,6 +313,15 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
 .badge b { font-size: 14px; }
 .badge span { font-size: 12.5px; color: var(--muted); overflow-wrap: anywhere; }
 
+/* Mode Soirée */
+.soiree-cta { border-color: color-mix(in srgb, var(--pink) 55%, var(--line)); background: linear-gradient(135deg, color-mix(in srgb, var(--pink) 14%, var(--surface)), var(--surface) 60%); }
+.vote-row { cursor: pointer; text-align: left; width: 100%; font-weight: 500; }
+.vote-row:disabled { opacity: 1; cursor: default; }
+.vote-row.voted { border-color: var(--pink); box-shadow: 0 0 0 1px var(--pink); }
+.vote-row .val { font-size: 15px; }
+.vote-row .bar i { background: var(--pink); }
+.so-by { font-size: 12.5px; color: var(--muted); }
+
 /* Réglages */
 .custom-list, .hist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
 .custom-list li, .hist li { display: flex; gap: 10px; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
@@ -372,6 +381,11 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
         <div class="seg" id="pack-seg"></div>
         <p class="small muted" id="pack-note" hidden>Hot +18 : tout le monde doit être d'accord, et on peut toujours passer son tour en buvant.</p>
       </div>
+      <div class="panel soiree-cta">
+        <div class="row between"><h3>Mode Soirée</h3><span class="small muted" id="soiree-cta-status"></span></div>
+        <p class="small muted">Le même jeu sur tous les téléphones du groupe : cartes, votes en direct, dés et roulette. Chacun note ce qu'il boit sur son téléphone.</p>
+        <button class="btn-pink" id="soiree-open">Jouer avec le groupe</button>
+      </div>
       <div class="games">
         <button class="game-tile" data-game="av" style="--tile:var(--pink)"><span class="glyph">A/V</span><strong>Action ou vérité</strong><span>Chacun son tour, on répond ou on boit.</span></button>
         <button class="game-tile" data-game="jnj" style="--tile:var(--accent)"><span class="glyph">✋</span><strong>Je n'ai jamais</strong><span>Ceux qui l'ont déjà fait boivent.</span></button>
@@ -381,6 +395,7 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
         <button class="game-tile" data-game="pyramide" style="--tile:#ffe083"><span class="glyph">▲</span><strong>La pyramide</strong><span>15 cartes retournées, ta main décide.</span></button>
         <button class="game-tile" data-game="purple" style="--tile:#c79bff"><span class="glyph">♦?</span><strong>Purple</strong><span>Rouge ou noir, plus ou moins… 4 questions.</span></button>
         <button class="game-tile" data-game="mot" style="--tile:#ff7aa2"><span class="glyph">🤐</span><strong>Le mot interdit</strong><span>Un mot à ne pas dire, un chrono.</span></button>
+        <button class="game-tile wide" data-game="roulette" style="--tile:#ff8f6b"><span class="glyph">◎</span><div><strong>La roulette des shots</strong><span>La roue décide : tu bois, tu donnes, verre d'eau, joker ou cul sec.</span></div></button>
         <button class="game-tile wide" data-game="des" style="--tile:#c79bff"><span class="glyph">⚄⚀</span><div><strong>Le jeu des deux dés</strong><span>Lance les dés : 7, 9, 10, doubles et le Bonhomme 3 décident qui boit.</span></div></button>
       </div>
       <p class="disclaimer">Personne n'est obligé de boire. Une gorgée peut toujours être remplacée par de l'eau ou un soft.</p>
@@ -481,6 +496,62 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
           <dt>Rien</dt><dd>Personne ne boit, tu passes les dés.</dd>
         </dl>
       </details>
+    </div>
+
+    <!-- Roulette des shots -->
+    <div class="wrap game" id="game-roulette" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">La roulette des shots</p><h2 id="rou-turn">À toi</h2></div>
+      <div class="wheel-box"><canvas id="rwheel" width="600" height="600" aria-label="Roulette des shots"></canvas><span class="pointer"></span></div>
+      <p class="result" id="rou-result" aria-live="polite"></p>
+      <div class="row">
+        <button class="btn-primary grow" id="rou-spin">Tourner la roue</button>
+        <button class="grow" id="rou-next">Joueur suivant →</button>
+      </div>
+    </div>
+
+    <!-- Mode Soirée (partagé avec le groupe) -->
+    <div class="wrap game" id="game-soiree" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Mode Soirée · <span id="so-code"></span></p><h2 id="so-title">Lance un jeu pour tout le groupe</h2></div>
+      <div class="panel" id="so-off" hidden>
+        <p>Le mode Soirée a besoin d'un groupe. Crée-en un ou rejoins celui d'un ami, puis reviens ici.</p>
+        <button class="btn-primary" id="so-goto-amis">Aller dans Amis</button>
+      </div>
+      <div id="so-on" style="display:flex;flex-direction:column;gap:20px">
+        <div class="field">Jeu pour tout le groupe
+          <div class="seg" id="so-modes"></div>
+        </div>
+        <div class="card" id="so-card" style="--card-accent:#c2185b">
+          <span class="kind" id="so-kind">Mode Soirée</span>
+          <p class="text" id="so-text">Choisis un jeu ci-dessus : il s'affichera sur tous les téléphones du groupe.</p>
+          <p class="foot" id="so-foot"></p>
+        </div>
+        <p class="so-by" id="so-by"></p>
+        <div class="row" id="so-av" hidden>
+          <button class="btn-pink grow" id="so-av-a">Action</button>
+          <button class="btn-primary grow" id="so-av-v">Vérité</button>
+        </div>
+        <div id="so-vote" hidden style="display:flex;flex-direction:column;gap:8px">
+          <p class="small muted" id="so-vote-count"></p>
+          <div class="people" id="so-vote-list" style="display:flex;flex-direction:column;gap:8px"></div>
+          <button id="so-reveal">Révéler les votes</button>
+        </div>
+        <div id="so-dice" hidden style="display:flex;flex-direction:column;gap:12px">
+          <div class="dice"><div class="die" id="so-die1" aria-label="Dé 1"></div><div class="die reddie" id="so-die2" aria-label="Dé 2"></div></div>
+          <ul class="rules-out" id="so-dice-out"></ul>
+        </div>
+        <div class="wheel-box" id="so-wheel" hidden><canvas id="swheel" width="600" height="600" aria-label="Roulette du groupe"></canvas><span class="pointer"></span></div>
+        <button class="btn-primary" id="so-next" hidden>Carte suivante</button>
+        <div class="panel">
+          <div class="row between"><h3>J'ai bu</h3><span class="small muted">Compte dans ton suivi et prévient le groupe</span></div>
+          <div class="sip-grid" id="so-sips">
+            <button data-s="1">1</button><button data-s="2">2</button><button data-s="3">3</button><button data-s="4">4</button><button data-s="5">Cul sec</button>
+          </div>
+          <button class="btn-water" id="so-water">Un verre d'eau</button>
+          <ul class="feed" id="so-feed"></ul>
+        </div>
+      </div>
     </div>
 
     <!-- Le 21 -->
@@ -772,7 +843,7 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
         <ul class="hist" id="hist"></ul>
       </div>
 
-      <p class="disclaimer">Version 2.0 · Tournée Générale fonctionne sans compte. Tes réglages, tes cartes et ton historique restent sur ce téléphone. L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
+      <p class="disclaimer">Version 2.1 · Tournée Générale fonctionne sans compte. Tes réglages, tes cartes et ton historique restent sur ce téléphone. L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
     </div>
   </section>
 </main>
@@ -876,11 +947,13 @@ const buzz = p => { if (settings.vibrate && navigator.vibrate) try { navigator.v
 
 /* ---------- Toast ---------- */
 let toastTimer;
-function toast(msg, alert) {
+let toastAction = null;
+function toast(msg, alert, onClick) {
   const t = $("#toast"); t.textContent = msg; t.className = "toast" + (alert ? " alert" : ""); t.hidden = false;
+  toastAction = onClick || null; t.style.cursor = onClick ? "pointer" : "";
   clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, alert ? 6000 : 3200);
 }
-$("#toast").addEventListener("click", () => { $("#toast").hidden = true; });
+$("#toast").addEventListener("click", () => { $("#toast").hidden = true; if (toastAction) { const f = toastAction; toastAction = null; f(); } });
 
 /* ---------- Onglets ---------- */
 let currentGame = null;
@@ -890,6 +963,7 @@ function showTab(name) {
   store.set("tg.tab", name);
   updateSipFab();
   if (name === "taux") drawChart();
+  if (name === "jeux" && currentGame === "soiree") soRender();
   window.scrollTo(0, 0);
 }
 $$("nav.tabs [data-tab]").forEach(b => b.addEventListener("click", () => showTab(b.dataset.tab)));
@@ -943,7 +1017,7 @@ function openGame(id) {
   currentGame = id;
   $("#jeux-home").hidden = true;
   $$(".game").forEach(g => g.hidden = g.id !== "game-" + id);
-  ({ av: avStart, jnj: jnjNext, qui: () => { quiNext(); drawWheel(); }, des: desStart, vingtun: v21Render, pyramide: pyrStart, purple: purStart, mot: motRender }[id] || (() => {}))();
+  ({ av: avStart, jnj: jnjNext, qui: () => { quiNext(); drawWheel(); }, des: desStart, vingtun: v21Render, pyramide: pyrStart, purple: purStart, mot: motRender, roulette: rouStart, soiree: soRender }[id] || (() => {}))();
   updateSipFab();
   window.scrollTo(0, 0);
 }
@@ -985,46 +1059,83 @@ function quiNext() {
 }
 $("#qui-next").onclick = quiNext;
 const WHEEL_COLORS = ["#ffb547", "#ff7aa2", "#8fd3ff", "#5fd39b", "#c79bff", "#ff8f6b", "#ffe083", "#7fe3d6"];
-let wheelAngle = 0, spinning = false;
-function drawWheel() {
-  const c = $("#wheel"); if (!c) return;
+// Une roue : canvas + libellés + angle courant. Le pointeur est en haut.
+function makeWheel(id, labels) { return { id, labels, angle: 0, spinning: false }; }
+function paintWheel(w) {
+  const c = $("#" + w.id); if (!c) return;
   const ctx = c.getContext("2d"), W = c.width, R = W / 2 - 6;
   ctx.clearRect(0, 0, W, W);
-  const names = players.length ? players : ["?"];
+  const names = w.labels().length ? w.labels() : ["?"];
   const n = names.length, seg = Math.PI * 2 / n;
-  ctx.save(); ctx.translate(W / 2, W / 2); ctx.rotate(wheelAngle);
+  ctx.save(); ctx.translate(W / 2, W / 2); ctx.rotate(w.angle);
   names.forEach((nm, i) => {
     ctx.beginPath(); ctx.moveTo(0, 0); ctx.arc(0, 0, R, i * seg, (i + 1) * seg); ctx.closePath();
     ctx.fillStyle = WHEEL_COLORS[i % WHEEL_COLORS.length]; ctx.fill();
     ctx.strokeStyle = "#1a1224"; ctx.lineWidth = 4; ctx.stroke();
-    ctx.save(); ctx.rotate(i * seg + seg / 2); ctx.textAlign = "right"; ctx.textBaseline = "middle";
-    ctx.fillStyle = "#1a1224"; ctx.font = "800 " + (n > 8 ? 26 : 32) + "px 'Bricolage Grotesque', 'Arial Black', sans-serif";
-    ctx.fillText(nm.length > 12 ? nm.slice(0, 11) + "…" : nm, R - 22, 0); ctx.restore();
+    // texte toujours lisible : retourné sur la moitié gauche de la roue
+    const mid = ((i * seg + seg / 2 + w.angle) % (Math.PI * 2) + Math.PI * 2) % (Math.PI * 2);
+    const flipText = mid > Math.PI / 2 && mid < Math.PI * 1.5;
+    ctx.save(); ctx.rotate(i * seg + seg / 2 + (flipText ? Math.PI : 0)); ctx.textAlign = flipText ? "left" : "right"; ctx.textBaseline = "middle";
+    ctx.fillStyle = "#1a1224"; ctx.font = "800 " + (n > 10 ? 24 : n > 8 ? 26 : 32) + "px 'Bricolage Grotesque', 'Arial Black', sans-serif";
+    ctx.fillText(nm.length > 12 ? nm.slice(0, 11) + "…" : nm, flipText ? -(R - 22) : R - 22, 0); ctx.restore();
   });
   ctx.restore();
   ctx.beginPath(); ctx.arc(W / 2, W / 2, 26, 0, Math.PI * 2); ctx.fillStyle = "#1a1224"; ctx.fill();
   ctx.strokeStyle = "#f5eefa"; ctx.lineWidth = 4; ctx.stroke();
 }
-$("#qui-spin").onclick = () => {
-  if (spinning) return;
-  if (players.length < 2) { $("#wheel-result").textContent = "Ajoute au moins 2 joueurs."; return; }
-  spinning = true; $("#wheel-result").textContent = "";
+// Fait tourner la roue pour qu'elle s'arrête sur la case `target`
+function spinWheel(w, target, done) {
+  if (w.spinning) return false;
+  const n = Math.max(1, w.labels().length), seg = Math.PI * 2 / n, TAU = Math.PI * 2;
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const start = wheelAngle, delta = Math.PI * 2 * (5 + Math.random() * 3) + Math.random() * Math.PI * 2;
-  const dur = reduce ? 1 : 3800, t0 = performance.now(), n = players.length, seg = Math.PI * 2 / n;
-  let lastSeg = -1;
-  const segAt = ang => { let a = (-Math.PI / 2 - ang) % (Math.PI * 2); if (a < 0) a += Math.PI * 2; return Math.floor(a / seg) % n; };
+  const start = w.angle;
+  let end = -Math.PI / 2 - (target + 0.5) * seg + (Math.random() - 0.5) * seg * 0.6;
+  end += TAU * Math.ceil((start + TAU * 5 - end) / TAU);
+  const dur = reduce ? 1 : 3800, t0 = performance.now();
+  const segAt = ang => { let a = (-Math.PI / 2 - ang) % TAU; if (a < 0) a += TAU; return Math.floor(a / seg) % n; };
+  let lastSeg = -1; w.spinning = true;
   const step = now => {
     const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 4);
-    wheelAngle = start + delta * e; drawWheel();
-    const s = segAt(wheelAngle); if (s !== lastSeg) { lastSeg = s; sfx.tick(); }
+    w.angle = start + (end - start) * e; paintWheel(w);
+    const s_ = segAt(w.angle); if (s_ !== lastSeg) { lastSeg = s_; sfx.tick(); }
     if (k < 1) return requestAnimationFrame(step);
-    spinning = false;
-    $("#wheel-result").textContent = players[segAt(wheelAngle)] + " boit 2 gorgées !";
-    sfx.win(); buzz(60);
+    w.angle %= TAU; w.spinning = false; done && done();
   };
   requestAnimationFrame(step);
+  return true;
+}
+// Pose la roue directement sur une case, sans animation
+function setWheel(w, target) { const n = Math.max(1, w.labels().length); w.angle = -Math.PI / 2 - (target + 0.5) * (Math.PI * 2 / n); paintWheel(w); }
+
+const quiWheel = makeWheel("wheel", () => players);
+function drawWheel() { paintWheel(quiWheel); paintWheel(rouWheel); paintWheel(soWheel); }
+$("#qui-spin").onclick = () => {
+  if (quiWheel.spinning) return;
+  if (players.length < 2) { $("#wheel-result").textContent = "Ajoute au moins 2 joueurs."; return; }
+  $("#wheel-result").textContent = "";
+  const t = Math.floor(Math.random() * players.length);
+  spinWheel(quiWheel, t, () => { $("#wheel-result").textContent = players[t] + " boit 2 gorgées !"; sfx.win(); buzz(60); });
 };
+
+/* ---------- Roulette des shots ---------- */
+const ROU = [
+  ["Bois 1", "bois 1 gorgée"], ["Donne 2", "donne 2 gorgées"], ["Bois 2", "bois 2 gorgées"], ["Eau !", "bois un verre d'eau"],
+  ["Tous !", "tout le monde boit 1 gorgée"], ["Bois 3", "bois 3 gorgées"], ["Joker", "joker : pas de gorgée"],
+  ["Donne 3", "donne 3 gorgées"], ["Choisis", "choisis qui boit 2 gorgées"], ["Voisins", "tes deux voisins boivent 1 gorgée"],
+  ["Cul sec", "cul sec (ou un verre d'eau)"], ["Rejoue", "relance la roue"]
+];
+const rouWheel = makeWheel("rwheel", () => ROU.map(r => r[0]));
+let rouIdx = 0;
+function rouStart() { rouIdx = rouIdx % Math.max(players.length, 1); $("#rou-turn").textContent = "À " + pl(rouIdx) + " de tourner"; paintWheel(rouWheel); }
+$("#rou-spin").onclick = () => {
+  const t = Math.floor(Math.random() * ROU.length), who = pl(rouIdx);
+  if (spinWheel(rouWheel, t, () => {
+    const txt = who + " : " + ROU[t][1];
+    $("#rou-result").textContent = txt.charAt(0).toUpperCase() + txt.slice(1);
+    t === 6 || t === 3 ? sfx.win() : sfx.pop(); buzz(60);
+  })) $("#rou-result").textContent = "";
+};
+$("#rou-next").onclick = () => { rouIdx = (rouIdx + 1) % Math.max(players.length, 1); $("#rou-result").textContent = ""; rouStart(); };
 
 /* ---------- Cartes à jouer (partagé) ---------- */
 const RANKS = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "V", "D", "R"], SUITS = ["♠", "♥", "♦", "♣"];
@@ -1097,24 +1208,29 @@ function desStart() {
   if (!$("#die1").children.length) { drawDie($("#die1"), 0); drawDie($("#die2"), 0); }
 }
 function renderBonhomme() { $("#des-bonhomme").textContent = bonhomme ? "Bonhomme 3 : " + bonhomme : "Pas encore de Bonhomme 3."; }
-function desRules(a, b, me_) {
-  const out = [], sum = a + b, n = players.length;
+// Règles du jeu de dés pour le joueur names[i] ; renvoie aussi le nouveau Bonhomme 3
+function diceOutcome(a, b, names, i, bon) {
+  const out = [], sum = a + b, n = names.length, at = k => names[((k % n) + n) % n], me_ = at(i);
   if (a === b) {
     if (a === 6) out.push(["Double 6", me_ + " invente une nouvelle règle et distribue 6 gorgées."]);
     else out.push(["Double " + a, me_ + " distribue " + a + (a > 1 ? " gorgées." : " gorgée.")]);
   }
-  if (sum === 7) out.push(["7", (n > 1 ? pl(desIdx - 1) : "Le joueur précédent") + " boit 1 gorgée."]);
-  if (sum === 9) out.push(["9", (n > 1 ? pl(desIdx + 1) : "Le joueur suivant") + " boit 1 gorgée."]);
+  if (sum === 7) out.push(["7", (n > 1 ? at(i - 1) : "Le joueur précédent") + " boit 1 gorgée."]);
+  if (sum === 9) out.push(["9", (n > 1 ? at(i + 1) : "Le joueur suivant") + " boit 1 gorgée."]);
   if (sum === 10) out.push(["10", "Tout le monde boit 1 gorgée. Santé !"]);
   if (sum === 3) out.push(["1 + 2", me_ + " boit 1 gorgée."]);
   const threes = (a === 3) + (b === 3);
   if (threes) {
-    if (!bonhomme) { bonhomme = me_; out.push(["Un 3", me_ + " devient le Bonhomme 3."]); }
-    else if (bonhomme === me_) { bonhomme = null; out.push(["Un 3", me_ + " se libère : plus de Bonhomme 3 !"]); }
-    else out.push(["Un 3", bonhomme + " (le Bonhomme) boit " + threes + (threes > 1 ? " gorgées." : " gorgée.")]);
+    if (!bon) { bon = me_; out.push(["Un 3", me_ + " devient le Bonhomme 3."]); }
+    else if (bon === me_) { bon = null; out.push(["Un 3", me_ + " se libère : plus de Bonhomme 3 !"]); }
+    else out.push(["Un 3", bon + " (le Bonhomme) boit " + threes + (threes > 1 ? " gorgées." : " gorgée.")]);
   }
   if (!out.length) out.push(["Rien", "Personne ne boit. Passe les dés."]);
-  return out;
+  return { out, bon };
+}
+function desRules(a, b) {
+  const r = diceOutcome(a, b, players.length ? players : ["Joueur"], desIdx, bonhomme);
+  bonhomme = r.bon; return r.out;
 }
 $("#des-roll").onclick = () => {
   if (rolling) return; rolling = true;
@@ -1129,7 +1245,7 @@ $("#des-roll").onclick = () => {
     drawDie(d1, a); drawDie(d2, b);
     $("#des-sum").textContent = a + " + " + b + " = " + (a + b);
     const ul = $("#des-out"); ul.textContent = "";
-    desRules(a, b, pl(desIdx)).forEach(([k, t]) => { const li = el("li"); li.append(el("b", null, k + " · "), document.createTextNode(t)); ul.append(li); });
+    desRules(a, b).forEach(([k, t]) => { const li = el("li"); li.append(el("b", null, k + " · "), document.createTextNode(t)); ul.append(li); });
     renderBonhomme(); rolling = false;
   };
   tick();
@@ -1589,7 +1705,7 @@ function changed() {
 
 /* ---------- Bouton gorgées (jeux) ---------- */
 function updateSipFab() {
-  const inGame = !!currentGame && !$("#view-jeux").hidden;
+  const inGame = !!currentGame && currentGame !== "soiree" && !$("#view-jeux").hidden;
   $("#sip-fab").hidden = !inGame;
   if (!inGame) closeSip();
 }
@@ -1655,8 +1771,8 @@ function publishMe() {
 }
 function connectGroup() {
   if (client) { try { client.end(true); } catch {} client = null; }
-  members = {}; feed = [];
-  renderGroup(); renderFriends(); renderFeed();
+  members = {}; feed = []; shared = null; votes = {}; soFeed = [];
+  renderGroup(); renderFriends(); renderFeed(); soRender();
   if (!group) { setSync("", "Hors groupe"); return; }
   if (!window.mqtt) { setSync("err", "Synchro indisponible"); return; }
   setSync("", "Connexion…");
@@ -1675,6 +1791,8 @@ function connectGroup() {
     let raw = null;
     try { raw = buf.length ? JSON.parse(new TextDecoder().decode(buf)) : null; } catch {}
     if (id === "_r") { if (!packet.retain) onReact(raw); return; }
+    if (id === "_g") { onShared(raw, !packet.retain); return; }
+    if (id.startsWith("_v")) { onVote(id.slice(2), raw); return; }
     if (id === devId) return;
     const data = clean(raw);
     if (data) members[id] = data; else delete members[id];
@@ -1687,7 +1805,7 @@ function connectGroup() {
 function joinGroup(code) { group = code; store.set("tg.group", code); connectGroup(); }
 function leaveGroup() {
   const c = client, base = group ? TOPIC(group) : null;
-  if (c && c.connected && base) c.publish(base + "/" + devId, "", { qos: 1, retain: true }, () => c.end());
+  if (c && c.connected && base) { c.publish(base + "/_v" + devId, "", { qos: 1, retain: true }); c.publish(base + "/" + devId, "", { qos: 1, retain: true }, () => c.end()); }
   else if (c) c.end(true);
   client = null; group = ""; store.set("tg.group", "");
   connectGroup();
@@ -1738,6 +1856,11 @@ function sendReact(k) {
   client.publish(TOPIC(group) + "/_r", JSON.stringify({ from: devId, pseudo: me.pseudo, k, t: Date.now() }), { qos: 0, retain: false });
 }
 function onReact(o) {
+  if (o && o.k === "bu" && typeof o.pseudo === "string") {
+    const n = Math.max(0, Math.min(5, Math.round(+o.n || 0)));
+    soFeed.unshift({ t: Date.now(), who: o.from === devId ? "Toi" : o.pseudo.slice(0, 24), txt: n === 0 ? "a bu un verre d'eau 💧" : n === 5 ? "a fait cul sec 🍺" : "a bu " + n + (n > 1 ? " gorgées" : " gorgée") });
+    soFeed = soFeed.slice(0, 8); renderSoFeed(); return;
+  }
   if (!o || !REACTS[o.k] || typeof o.pseudo !== "string") return;
   const mine = o.from === devId, who = mine ? "Toi" : o.pseudo.slice(0, 24);
   feed.unshift({ t: Date.now(), who, k: o.k }); feed = feed.slice(0, 8); renderFeed();
@@ -1775,6 +1898,7 @@ function renderFriends() {
     if (r.bac < 0.7) alerted[r.id] = false;
   });
   renderDrivers(rows); renderBadges(rows);
+  if (shared && shared.game === "vote" && currentGame === "soiree") renderVote();
 }
 function personRow(r, rank, maxBac) {
   const li = el("li", "person" + (r.mine ? " me" : ""));
@@ -1834,6 +1958,182 @@ function renderBadges(rows) {
     b.append(el("span", "ico", ico), d); box.append(b);
   });
 }
+
+/* =====================================================
+   MODE SOIRÉE : un jeu partagé par tout le groupe
+   État courant en message retenu sur <CODE>/_g ; votes sur <CODE>/_v<id>.
+   N'importe qui dans le groupe peut lancer une carte : la dernière gagne.
+   ===================================================== */
+const SO_GAMES = { jnj: "Je n'ai jamais", av: "Action ou vérité", vote: "Vote", des: "Dés", roulette: "Roulette" };
+const SO_NEXT = { jnj: "Carte suivante", av: "Joueur suivant", vote: "Nouvelle question", des: "Lancer les dés", roulette: "Tourner la roue" };
+let shared = null, votes = {}, soFeed = [];
+const soWheel = makeWheel("swheel", () => ROU.map(r => r[0]));
+const clampInt = (v, a, b) => Math.max(a, Math.min(b, Math.round(+v) || a));
+const str = (x, n) => typeof x === "string" ? x.slice(0, n) : "";
+
+function soPeople() { return groupRows().map(r => ({ id: r.id, name: r.mine ? (me.pseudo || "Moi") : r.d.pseudo, mine: !!r.mine })).sort((a, b) => a.name.localeCompare(b.name)); }
+function cleanShared(o) {
+  if (!o || typeof o !== "object" || !SO_GAMES[o.game]) return null;
+  const c = o.card && typeof o.card === "object" ? o.card : {}, card = {};
+  if (o.game === "jnj") card.text = str(c.text, 200);
+  if (o.game === "av") { card.target = str(c.target, 24); card.v = str(c.v, 200); card.a = str(c.a, 200); card.choice = c.choice === "a" || c.choice === "v" ? c.choice : null; }
+  if (o.game === "vote") { card.round = str(c.round, 20); card.q = str(c.q, 200); card.revealed = !!c.revealed; }
+  if (o.game === "des") {
+    card.a = clampInt(c.a, 1, 6); card.b = clampInt(c.b, 1, 6); card.roller = str(c.roller, 24); card.bon = str(c.bon, 24) || null;
+    card.out = Array.isArray(c.out) ? c.out.slice(0, 6).filter(Array.isArray).map(r => [str(r[0], 20), str(r[1], 200)]) : [];
+  }
+  if (o.game === "roulette") { card.i = clampInt(c.i, 0, ROU.length - 1); card.who = str(c.who, 24); }
+  return { game: o.game, seq: +o.seq || 0, by: str(o.by, 24) || "Quelqu'un", byId: str(o.byId, 40), t: +o.t || 0, card };
+}
+function publishShared(game, card) {
+  if (!client || !client.connected) { toast("Pas connecté au groupe pour l'instant."); return; }
+  if (!me.pseudo) { toast("Choisis d'abord un pseudo dans l'onglet Alcoolémie."); showTab("taux"); return; }
+  const state = { game, card, seq: (shared ? shared.seq : 0) + 1, by: me.pseudo, byId: devId, t: Date.now() };
+  client.publish(TOPIC(group) + "/_g", JSON.stringify(state), { qos: 1, retain: true });
+}
+function newCard(game) {
+  const people = soPeople(), names = people.map(p => p.name);
+  const someone = () => names.length ? rand(names) : "quelqu'un";
+  if (game === "jnj") return { text: draw("jamais").replaceAll("{other}", someone()) };
+  if (game === "av") {
+    // chacun son tour, dans l'ordre alphabétique des pseudos
+    let i = 0;
+    if (shared && shared.game === "av") { const j = names.indexOf(shared.card.target); i = j >= 0 ? (j + 1) % Math.max(1, names.length) : 0; }
+    const target = names[i] || "Toi";
+    return { target, v: draw("verites").replaceAll("{other}", rand(names.filter(n => n !== target)) || "ton voisin"),
+      a: draw("actions").replaceAll("{other}", rand(names.filter(n => n !== target)) || "ton voisin"), choice: null };
+  }
+  if (game === "vote") return { round: Math.random().toString(36).slice(2, 10), q: draw("qui").replaceAll("{other}", someone()), revealed: false };
+  if (game === "des") {
+    const a = 1 + Math.floor(Math.random() * 6), b = 1 + Math.floor(Math.random() * 6);
+    const meName = me.pseudo || "Moi", list = names.length ? names : [meName];
+    const r = diceOutcome(a, b, list, Math.max(0, list.indexOf(meName)), shared && shared.game === "des" ? shared.card.bon : null);
+    return { a, b, roller: meName, out: r.out, bon: r.bon };
+  }
+  if (game === "roulette") return { i: Math.floor(Math.random() * ROU.length), who: me.pseudo || "Moi" };
+}
+function onShared(raw, live) {
+  const next = cleanShared(raw), prev = shared;
+  if (!next) { shared = null; soRender(); return; }
+  if (prev && next.t < prev.t) return;
+  shared = next;
+  const fresh = !prev || prev.seq !== next.seq || prev.t !== next.t;
+  if (fresh && live) {
+    // animations et alertes seulement pour une carte jouée en direct (pas l'état retrouvé en rejoignant)
+    if (next.game === "roulette") soSpin = true;
+    if (next.game === "des") soRoll = true;
+    if (next.byId !== devId && (!prev || prev.game !== next.game) && currentGame !== "soiree") {
+      toast(next.by + " lance « " + SO_GAMES[next.game] + " » pour le groupe. Touche ici pour jouer.", false, () => { showTab("jeux"); openGame("soiree"); });
+      sfx.pop(); buzz(50);
+    }
+    if (next.game === "vote" && next.card.revealed && !(prev && prev.game === "vote" && prev.card.revealed && prev.card.round === next.card.round)) { sfx.win(); buzz([60, 40, 60]); }
+  }
+  soRender();
+}
+function onVote(voter, raw) {
+  if (!/^[a-z0-9]{8,32}$/.test(voter)) return;
+  if (!raw || typeof raw !== "object") { delete votes[voter]; } else votes[voter] = { round: str(raw.round, 20), target: str(raw.target, 40) };
+  if (shared && shared.game === "vote") soRender();
+}
+function myVote(target) {
+  if (!shared || shared.game !== "vote" || shared.card.revealed) return;
+  if (!client || !client.connected) { toast("Pas connecté au groupe pour l'instant."); return; }
+  client.publish(TOPIC(group) + "/_v" + devId, JSON.stringify({ round: shared.card.round, target }), { qos: 1, retain: true });
+  sfx.pop(); buzz(30);
+}
+let soSpin = false, soRoll = false;
+function soRender() {
+  $("#soiree-cta-status").textContent = group ? (shared ? "En cours : " + SO_GAMES[shared.game] : "Groupe " + group) : "Rejoins d'abord un groupe";
+  if (currentGame !== "soiree") return;
+  $("#so-off").hidden = !!group; $("#so-on").hidden = !group;
+  $("#so-on").style.display = group ? "flex" : "none";
+  $("#so-code").textContent = group ? "groupe " + group : "hors groupe";
+  const modes = $("#so-modes"); modes.textContent = "";
+  Object.entries(SO_GAMES).forEach(([k, label]) => {
+    const b = el("button", null, label); b.type = "button"; b.setAttribute("aria-pressed", String(!!shared && shared.game === k));
+    b.onclick = () => publishShared(k, newCard(k)); modes.append(b);
+  });
+  ["#so-av", "#so-vote", "#so-dice", "#so-wheel"].forEach(s_ => $(s_).hidden = true);
+  $("#so-next").hidden = !shared;
+  if (!shared) {
+    $("#so-title").textContent = "Lance un jeu pour tout le groupe";
+    $("#so-kind").textContent = "Mode Soirée"; $("#so-text").textContent = "Choisis un jeu ci-dessus : il s'affichera sur tous les téléphones du groupe."; $("#so-foot").textContent = ""; $("#so-by").textContent = "";
+    renderSoFeed(); return;
+  }
+  const g = shared.game, c = shared.card;
+  $("#so-title").textContent = SO_GAMES[g];
+  $("#so-next").textContent = SO_NEXT[g];
+  $("#so-by").textContent = "Lancé par " + (shared.byId === devId ? "toi" : shared.by) + " à " + hhmm(shared.t);
+  const kind = $("#so-kind"), text = $("#so-text"), foot = $("#so-foot");
+  if (g === "jnj") { kind.textContent = "Je n'ai jamais"; text.textContent = c.text; foot.textContent = "1 gorgée si tu l'as déjà fait : note-la en bas."; }
+  if (g === "av") {
+    kind.textContent = "Pour " + c.target;
+    if (!c.choice) { text.textContent = c.target + " : action ou vérité ?"; foot.textContent = "N'importe qui peut choisir pour " + c.target + "."; $("#so-av").hidden = false; }
+    else { text.textContent = c.choice === "a" ? c.a : c.v; kind.textContent = (c.choice === "a" ? "Action" : "Vérité") + " pour " + c.target; foot.textContent = "Refus : 2 gorgées."; }
+  }
+  if (g === "vote") {
+    kind.textContent = "Vote en direct"; text.textContent = "Qui pourrait " + c.q + " ?";
+    foot.textContent = c.revealed ? "Le plus voté boit 2 gorgées." : "Vote sur ton téléphone. Les votes restent secrets jusqu'à la révélation.";
+    renderVote();
+  }
+  if (g === "des") {
+    kind.textContent = "Lancer de " + c.roller; text.textContent = c.a + " + " + c.b + " = " + (c.a + c.b);
+    foot.textContent = c.bon ? "Bonhomme 3 : " + c.bon : "Pas de Bonhomme 3.";
+    $("#so-dice").hidden = false;
+    const d1 = $("#so-die1"), d2 = $("#so-die2");
+    if (soRoll) { soRoll = false; [d1, d2].forEach(d => { d.classList.remove("roll"); void d.offsetWidth; d.classList.add("roll"); }); sfx.dice(); buzz(40); }
+    drawDie(d1, c.a); drawDie(d2, c.b);
+    const ul = $("#so-dice-out"); ul.textContent = "";
+    c.out.forEach(([k, t]) => { const li = el("li"); li.append(el("b", null, k + " · "), document.createTextNode(t)); ul.append(li); });
+  }
+  if (g === "roulette") {
+    kind.textContent = "Roulette de " + c.who; $("#so-wheel").hidden = false;
+    const res = c.who + " : " + ROU[c.i][1];
+    if (soSpin) { soSpin = false; text.textContent = c.who + " fait tourner la roue…"; foot.textContent = ""; spinWheel(soWheel, c.i, () => { text.textContent = res; sfx.win(); buzz(60); }); }
+    else if (!soWheel.spinning) { setWheel(soWheel, c.i); text.textContent = res; foot.textContent = ""; }
+  }
+  renderSoFeed();
+}
+function renderVote() {
+  const c = shared.card, people = soPeople(), box = $("#so-vote-list"); box.textContent = "";
+  $("#so-vote").hidden = false;
+  const valid = Object.entries(votes).filter(([, v]) => v.round === c.round && people.some(p => p.id === v.target));
+  const counts = {}; valid.forEach(([, v]) => { counts[v.target] = (counts[v.target] || 0) + 1; });
+  const mine = votes[devId] && votes[devId].round === c.round ? votes[devId].target : null;
+  const max = Math.max(0, ...Object.values(counts));
+  $("#so-vote-count").textContent = valid.length + " vote" + (valid.length > 1 ? "s" : "") + " sur " + people.length + (mine ? " · tu as voté" : " · à toi de voter");
+  const list = c.revealed ? people.slice().sort((a, b) => (counts[b.id] || 0) - (counts[a.id] || 0)) : people;
+  list.forEach(p => {
+    const row = el("button", "person vote-row" + (mine === p.id ? " voted" : "")); row.type = "button";
+    const who = el("div", "who"); who.append(el("strong", null, p.name + (p.mine ? " (toi)" : "")));
+    if (c.revealed) { const bar = el("div", "bar"), bi = el("i"); bi.style.width = (max ? (counts[p.id] || 0) / max * 100 : 0) + "%"; bar.append(bi); who.append(bar); }
+    row.append(who, el("span", "val", c.revealed ? String(counts[p.id] || 0) : (mine === p.id ? "✓" : "")));
+    row.disabled = c.revealed; row.onclick = () => myVote(p.id);
+    box.append(row);
+  });
+  const reveal = $("#so-reveal"); reveal.hidden = c.revealed; reveal.disabled = !valid.length;
+  if (c.revealed) {
+    const top = people.filter(p => max && counts[p.id] === max).map(p => p.name);
+    $("#so-text").textContent = top.length ? top.join(" et ") + (top.length > 1 ? " boivent" : " boit") + " 2 gorgées !" : "Personne n'a voté.";
+    $("#so-kind").textContent = "Qui pourrait " + c.q + " ?";
+  }
+}
+function renderSoFeed() {
+  const ul = $("#so-feed"); ul.textContent = "";
+  soFeed.forEach(f => { const li = el("li"); li.append(el("time", null, hhmm(f.t)), el("span", null, f.who + " " + f.txt)); ul.append(li); });
+}
+function soDrank(n) {
+  if (n === 0) addWater(); else addSips(n);
+  if (client && client.connected && me.pseudo) client.publish(TOPIC(group) + "/_r", JSON.stringify({ from: devId, pseudo: me.pseudo, k: "bu", n, t: Date.now() }), { qos: 0, retain: false });
+}
+$("#soiree-open").onclick = () => openGame("soiree");
+$("#so-goto-amis").onclick = () => showTab("amis");
+$("#so-next").onclick = () => { if (shared) publishShared(shared.game, newCard(shared.game)); };
+$("#so-av-a").onclick = () => { if (shared && shared.game === "av") publishShared("av", Object.assign({}, shared.card, { choice: "a" })); };
+$("#so-av-v").onclick = () => { if (shared && shared.game === "av") publishShared("av", Object.assign({}, shared.card, { choice: "v" })); };
+$("#so-reveal").onclick = () => { if (shared && shared.game === "vote") publishShared("vote", Object.assign({}, shared.card, { revealed: true })); };
+$$("#so-sips button").forEach(b => b.onclick = () => soDrank(+b.dataset.s));
+$("#so-water").onclick = () => soDrank(0);
 
 /* =====================================================
    RÉGLAGES
