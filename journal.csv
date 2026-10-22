@@ -858,3 +858,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 21:28:32,apprentie,VENTE,CLOUT,0.0001111,14.24,stop-loss (-27%) PnL -5.41$ coût 1.1%
 2026-10-22 21:28:32,apprentie,ACHAT,Pepper,0.0006162707797,19.47,score 34 coût 1.0%
 2026-10-22 21:48:37,prudente,ACHAT,VIRTUAL,0.0004002012433,9.44,score 79 coût 1.0%
+2026-10-22 22:07:33,agressive,ACHAT,PUMPATAR,0.00037848,37573.12,score 55 coût 90.0%
+2026-10-22 22:07:33,hasard,ACHAT,PUMPATAR,0.0003781468841,18206.64,score 55 coût 89.8%
+2026-10-22 22:08:32,agressive,VENTE,PUMPATAR,0.0002034,2019.23,stop-loss (-46%) PnL -35553.89$ coût 90.0%
+2026-10-22 22:08:32,hasard,VENTE,PUMPATAR,0.0002034,5054.57,stop-loss (-46%) PnL -13152.07$ coût 48.4%
