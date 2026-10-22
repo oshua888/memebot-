@@ -822,3 +822,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 17:26:26,hasard,ACHAT,1SHARE,0.00049191,19690.41,score 41 coût 90.0%
 2026-10-22 17:27:27,agressive,VENTE,SHADOW,0.0001507,2429.04,stop-loss (-45%) PnL -41854.56$ coût 90.0%
 2026-10-22 17:27:27,hasard,VENTE,1SHARE,0.0002527,5127.02,stop-loss (-49%) PnL -14563.39$ coût 49.3%
+2026-10-22 17:35:26,agressive,ACHAT,MI,0.00146984,43036.32,score 52 coût 90.0%
+2026-10-22 17:35:26,hasard,ACHAT,MI,0.00117802476,19399.14,score 52 coût 52.3%
