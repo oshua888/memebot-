@@ -665,22 +665,18 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 01:30:32,actuelle,ACHAT,COMPUTE,0.0003612668564,16.21,score 61 coût 1.1%
 2026-10-22 01:30:32,agressive,VENTE,GTAa,8.158e-05,16.95,durée max 24h PnL -3.76$ coût 1.1%
 2026-10-22 01:30:32,agressive,ACHAT,COMPUTE,0.0003613188353,20.61,score 61 coût 1.1%
-2026-10-22 01:52:33,hasard,VENTE,LARPCHECK,0.0006669,14.42,durée max 12h PnL -3.16$ coût 1.0%
-2026-10-22 01:52:33,hasard,ACHAT,CYBER,0.0005852481651,17.27,score 53 coût 1.0%
-2026-10-22 02:02:32,hasard,VENTE,AOP,0.0002731,17.52,durée max 12h PnL -0.01$ coût 1.1%
-2026-10-22 02:02:32,hasard,ACHAT,MONEYBIZ,0.0003512862188,17.23,score 61 coût 1.1%
-2026-10-22 02:02:32,apprentie,VENTE,AOP,0.0002731,19.54,durée max 12h PnL -0.01$ coût 1.1%
-2026-10-22 02:05:33,actuelle,ACHAT,FRENS,0.0001349769847,16.22,score 60 coût 1.1%
-2026-10-22 02:08:33,actuelle,VENTE,Dacity,0.01239,13.77,durée max 12h PnL -3.15$ coût 1.0%
-2026-10-22 02:18:33,agressive,VENTE,KIMCHIBULL,0.003752,11.27,stop-loss (-46%) PnL -9.69$ coût 1.0%
-2026-10-22 02:18:33,agressive,ACHAT,FRENS,0.0001396671646,20.81,score 62 coût 1.1%
-2026-10-22 02:19:33,apprentie,VENTE,KOLO,0.001095,18.76,durée max 12h PnL -0.78$ coût 1.0%
-2026-10-22 02:39:33,agressive,VENTE,PHP,0.001315,14.27,palier +100% PnL +7.25$ coût 1.0%
-2026-10-22 02:39:33,hasard,VENTE,CYBER,0.0004035,11.78,stop-loss (-31%) PnL -5.49$ coût 1.0%
-2026-10-22 02:39:33,hasard,ACHAT,COMPUTE,0.0004189657727,17.14,score 55 coût 1.1%
-2026-10-22 03:23:34,agressive,VENTE,CYBER,0.0003547,11.97,stop-loss (-42%) PnL -8.72$ coût 1.0%
-2026-10-22 03:23:34,agressive,ACHAT,GLITCH,0.001929757046,21.00,score 63 coût 1.0%
-2026-10-22 03:25:34,actuelle,VENTE,CYBER,0.0003118,10.58,stop-loss (-35%) PnL -5.80$ coût 1.0%
-2026-10-22 03:25:34,apprentie,VENTE,CYBER,0.0003118,12.54,stop-loss (-34%) PnL -6.65$ coût 1.0%
-2026-10-22 03:29:34,actuelle,ACHAT,RETAIL,0.0004275713644,16.17,score 61 coût 1.1%
-2026-10-22 03:57:37,actuelle,ACHAT,Au,0.0005069670766,16.20,score 68 coût 1.0%
+2026-10-22 03:58:51,actuelle,VENTE,Dacity,0.01182,13.13,durée max 12h PnL -3.78$ coût 1.0%
+2026-10-22 03:58:51,agressive,VENTE,KIMCHIBULL,0.002875,8.64,stop-loss (-58%) PnL -12.33$ coût 1.0%
+2026-10-22 03:58:51,agressive,VENTE,CYBER,0.0003433,11.59,stop-loss (-43%) PnL -9.10$ coût 1.0%
+2026-10-22 03:58:51,agressive,ACHAT,CHOO,0.0006517343151,21.00,score 56 coût 1.1%
+2026-10-22 03:58:51,agressive,ACHAT,Au,0.0005626072424,20.98,score 53 coût 1.1%
+2026-10-22 03:58:51,hasard,VENTE,LARPCHECK,0.0006859,14.83,durée max 12h PnL -2.75$ coût 1.0%
+2026-10-22 03:58:51,hasard,VENTE,AOP,0.0002732,17.53,durée max 12h PnL -0.00$ coût 1.1%
+2026-10-22 03:58:51,hasard,ACHAT,Au,0.0005625474463,17.30,score 53 coût 1.1%
+2026-10-22 03:58:51,hasard,ACHAT,MONEYBIZ,0.0003573486498,17.29,score 51 coût 1.1%
+2026-10-22 03:58:51,apprentie,VENTE,AOP,0.0002732,19.55,durée max 12h PnL -0.01$ coût 1.1%
+2026-10-22 03:58:51,apprentie,VENTE,KOLO,0.001095,18.76,durée max 12h PnL -0.78$ coût 1.0%
+2026-10-22 03:58:51,apprentie,VENTE,CYBER,0.0003433,13.81,stop-loss (-27%) PnL -5.39$ coût 1.0%
+2026-10-22 03:58:51,apprentie,ACHAT,Au,0.0005625774277,19.14,score 53 coût 1.1%
+2026-10-22 04:00:51,actuelle,ACHAT,Au,0.0005478797602,16.14,score 68 coût 1.0%
+2026-10-22 04:02:51,actuelle,VENTE,CYBER,0.0003201,10.86,stop-loss (-33%) PnL -5.52$ coût 1.0%
