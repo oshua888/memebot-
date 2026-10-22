@@ -798,3 +798,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 16:14:23,prudente,ACHAT,SHAVCOIN,0.00114051766,9.50,score 75 coût 1.0%
 2026-10-22 16:23:24,hasard,ACHAT,QI,0.0003625338777,20306.53,score 49 coût 80.2%
 2026-10-22 16:24:24,hasard,VENTE,QI,0.0001958,6100.43,stop-loss (-46%) PnL -14206.11$ coût 44.4%
+2026-10-22 16:27:23,prudente,VENTE,SHAVCOIN,0.001489,6.14,palier +30% PnL +1.39$ coût 1.0%
