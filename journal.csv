@@ -708,3 +708,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 07:04:52,prudente,VENTE,SURY,0.0001398,6.38,stop-loss (-32%) PnL -3.17$ coût 1.0%
 2026-10-22 07:16:52,apprentie,ACHAT,ヤギ,0.0005734027127,19.21,score 39 coût 1.1%
 2026-10-22 07:17:52,apprentie,VENTE,ヤギ,0.000414,13.72,stop-loss (-28%) PnL -5.48$ coût 1.0%
+2026-10-22 07:23:52,apprentie,ACHAT,GLITCH,0.001998391668,19.14,score 25 coût 1.0%
