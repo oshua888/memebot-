@@ -796,3 +796,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 16:05:24,hasard,VENTE,CLOUT,0.0001475,3654.57,stop-loss (-50%) PnL -16991.80$ coût 64.8%
 2026-10-22 16:11:23,prudente,VENTE,BLACKTOBER,0.0003929,7.41,stop-loss (-21%) PnL -2.08$ coût 1.0%
 2026-10-22 16:14:23,prudente,ACHAT,SHAVCOIN,0.00114051766,9.50,score 75 coût 1.0%
+2026-10-22 16:23:24,hasard,ACHAT,QI,0.0003625338777,20306.53,score 49 coût 80.2%
+2026-10-22 16:24:24,hasard,VENTE,QI,0.0001958,6100.43,stop-loss (-46%) PnL -14206.11$ coût 44.4%
