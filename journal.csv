@@ -763,12 +763,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 13:07:13,hasard,VENTE,CYBER,0.0005214,9.58,trailing-stop PnL +3.82$ coût 1.0%
 2026-10-22 13:07:13,hasard,ACHAT,CYBER,0.0008372269791,22385.88,score 77 coût 60.6%
 2026-10-22 13:08:13,hasard,VENTE,CYBER,0.0005458,8912.82,stop-loss (-35%) PnL -13473.07$ coût 38.9%
-2026-10-22 13:18:13,actuelle,ACHAT,BLACKTOBER,0.00019646,24569.32,score 63 coût 90.0%
-2026-10-22 13:19:13,actuelle,VENTE,BLACKTOBER,0.0001034,1293.12,stop-loss (-47%) PnL -23276.20$ coût 90.0%
-2026-10-22 13:19:13,hasard,ACHAT,PHP,0.001355366877,22116.42,score 43 coût 44.8%
-2026-10-22 13:20:16,hasard,VENTE,DOPE,0.001953,14.50,durée max 12h PnL -2.79$ coût 1.0%
-2026-10-22 13:20:16,hasard,VENTE,PHP,0.0009383,10523.34,stop-loss (-31%) PnL -11593.09$ coût 31.3%
-2026-10-22 13:31:13,actuelle,VENTE,COMPUTE,0.0003724,16.54,durée max 12h PnL +0.32$ coût 1.1%
-2026-10-22 14:13:12,actuelle,VENTE,FRENS,0.0002632,13.39,trailing-stop PnL +2.89$ coût 1.1%
-2026-10-22 14:32:13,actuelle,ACHAT,FRENS,0.00059869,24103.75,score 66 coût 90.0%
-2026-10-22 14:33:13,actuelle,VENTE,FRENS,0.0003216,5731.74,stop-loss (-46%) PnL -18372.01$ coût 55.7%
+2026-10-22 14:41:21,actuelle,VENTE,COMPUTE,0.0005542,8.12,palier +50% PnL +2.77$ coût 1.0%
+2026-10-22 14:41:21,hasard,VENTE,DOPE,0.001863,13.83,durée max 12h PnL -3.46$ coût 1.0%
+2026-10-22 14:41:21,hasard,ACHAT,PHP,0.001573617166,22116.41,score 59 coût 40.9%
