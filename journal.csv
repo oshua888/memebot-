@@ -845,3 +845,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 20:05:31,apprentie,VENTE,DOPE,0.002336,24.56,palier +25% PnL +4.92$ coût 1.0%
 2026-10-22 20:05:31,apprentie,ACHAT,VIRTUAL,0.0003394275366,19.58,score 52 coût 1.1%
 2026-10-22 20:16:33,hasard,ACHAT,CYBERCAT,0.00026277,18691.21,score 47 coût 90.0%
+2026-10-22 20:17:31,agressive,ACHAT,Pepper,0.0011305,39628.50,score 54 coût 90.0%
+2026-10-22 20:17:31,hasard,VENTE,CYBERCAT,0.0001391,3550.91,stop-loss (-47%) PnL -15140.30$ coût 64.1%
+2026-10-22 20:18:31,agressive,VENTE,Pepper,0.0006029,10593.38,stop-loss (-47%) PnL -29035.12$ coût 49.9%
+2026-10-22 20:20:32,hasard,ACHAT,HELL,0.002547748223,18388.40,score 44 coût 33.0%
+2026-10-22 20:21:35,agressive,ACHAT,CYBERCAT,0.00023541,38754.70,score 50 coût 90.0%
+2026-10-22 20:21:35,hasard,VENTE,HELL,0.001686,9300.27,stop-loss (-34%) PnL -9088.13$ coût 23.6%
