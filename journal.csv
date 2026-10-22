@@ -748,3 +748,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 11:19:14,hasard,ACHAT,SHAV,0.0003078,23019.22,score 48 coût 90.0%
 2026-10-22 11:20:14,actuelle,VENTE,OA,0.01483,12.12,trailing-stop PnL +1.62$ coût 1.0%
 2026-10-22 11:20:14,hasard,VENTE,SHAV,0.0001562,3668.05,stop-loss (-49%) PnL -19351.17$ coût 68.6%
+2026-10-22 11:26:14,actuelle,ACHAT,SHAV,0.00030305,25007.19,score 64 coût 90.0%
+2026-10-22 11:26:14,agressive,ACHAT,SHAV,0.00030305,48595.33,score 64 coût 90.0%
+2026-10-22 11:27:14,actuelle,VENTE,SHAV,0.0001556,3111.58,stop-loss (-49%) PnL -21895.61$ coût 75.8%
+2026-10-22 11:27:14,agressive,VENTE,SHAV,0.0001556,2495.11,stop-loss (-49%) PnL -46100.22$ coût 90.0%
