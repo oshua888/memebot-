@@ -769,3 +769,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 14:47:21,actuelle,ACHAT,PHP,0.001596169144,24569.46,score 60 coût 45.6%
 2026-10-22 14:47:21,hasard,VENTE,PHP,0.001096,10939.07,stop-loss (-30%) PnL -11177.34$ coût 29.0%
 2026-10-22 14:48:21,actuelle,VENTE,PHP,0.001114,11679.86,stop-loss (-30%) PnL -12889.60$ coût 31.9%
+2026-10-22 14:52:21,actuelle,VENTE,FRENS,0.0002615,13.30,trailing-stop PnL +2.80$ coût 1.1%
