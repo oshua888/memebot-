@@ -782,3 +782,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 15:23:22,hasard,VENTE,KTA,0.0002982,5684.72,stop-loss (-44%) PnL -15669.80$ coût 52.9%
 2026-10-22 15:25:22,actuelle,ACHAT,KTA,0.00048241,23607.11,score 61 coût 90.0%
 2026-10-22 15:26:22,actuelle,VENTE,KTA,0.0002558,5106.44,stop-loss (-47%) PnL -18500.68$ coût 59.2%
+2026-10-22 15:31:22,prudente,ACHAT,KTA,0.0003121130218,9.52,score 77 coût 1.0%
+2026-10-22 15:34:21,prudente,VENTE,KTA,0.0002456,7.41,stop-loss (-21%) PnL -2.11$ coût 1.0%
