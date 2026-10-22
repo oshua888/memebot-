@@ -713,3 +713,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 08:47:52,apprentie,VENTE,OA,0.01799,28.72,palier +50% PnL +9.54$ coût 1.0%
 2026-10-22 08:51:52,apprentie,ACHAT,BLACKTOBER,0.0001222738406,19.29,score 49 coût 1.1%
 2026-10-22 08:52:51,actuelle,VENTE,OA,0.0193,7.77,palier +50% PnL +2.60$ coût 1.0%
+2026-10-22 09:05:50,apprentie,VENTE,BLACKTOBER,9.086e-05,14.17,stop-loss (-26%) PnL -5.12$ coût 1.1%
