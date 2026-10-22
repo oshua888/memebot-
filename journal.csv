@@ -758,3 +758,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 12:03:12,actuelle,VENTE,GLITCH,0.002128,16.68,durée max 12h PnL +0.13$ coût 1.0%
 2026-10-22 12:24:13,hasard,VENTE,GLITCH,0.002101,18.04,durée max 12h PnL +0.72$ coût 1.0%
 2026-10-22 12:24:13,hasard,ACHAT,GLITCH,0.002867124463,22632.27,score 44 coût 36.5%
+2026-10-22 12:41:13,hasard,VENTE,GLITCH,0.00173,10308.38,stop-loss (-40%) PnL -12323.89$ coût 24.5%
