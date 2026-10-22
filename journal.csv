@@ -691,3 +691,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 04:55:51,apprentie,ACHAT,SURY,0.0003165630667,19.07,score 46 coût 1.1%
 2026-10-22 04:56:52,actuelle,ACHAT,BROZO,0.0001328518114,15.96,score 64 coût 1.1%
 2026-10-22 04:56:52,apprentie,ACHAT,BROZO,0.0001328786853,19.07,score 64 coût 1.1%
+2026-10-22 05:09:51,agressive,VENTE,PHP,0.001923,21.18,palier +200% PnL +14.06$ coût 1.0%
+2026-10-22 05:11:52,apprentie,VENTE,SURY,0.0004827,28.77,palier +50% PnL +9.69$ coût 1.1%
