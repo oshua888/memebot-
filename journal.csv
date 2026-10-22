@@ -784,3 +784,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 15:26:22,actuelle,VENTE,KTA,0.0002558,5106.44,stop-loss (-47%) PnL -18500.68$ coût 59.2%
 2026-10-22 15:31:22,prudente,ACHAT,KTA,0.0003121130218,9.52,score 77 coût 1.0%
 2026-10-22 15:34:21,prudente,VENTE,KTA,0.0002456,7.41,stop-loss (-21%) PnL -2.11$ coût 1.0%
+2026-10-22 15:46:23,hasard,ACHAT,TRENCHERS,0.000186466,21041.13,score 58 coût 90.0%
+2026-10-22 15:47:24,hasard,VENTE,TRENCHERS,9.614e-05,1303.10,stop-loss (-48%) PnL -19738.03$ coût 88.0%
+2026-10-22 15:48:23,actuelle,ACHAT,TRENCHERS,0.000184186,23237.15,score 60 coût 90.0%
+2026-10-22 15:49:24,actuelle,VENTE,TRENCHERS,9.82e-05,1238.90,stop-loss (-47%) PnL -21998.25$ coût 90.0%
