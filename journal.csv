@@ -658,3 +658,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 01:13:35,agressive,VENTE,MONEYBIZ,0.0003205,4.99,stop-loss (-76%) PnL -15.98$ coût 1.0%
 2026-10-22 01:13:35,agressive,ACHAT,CYBER,0.0006066156135,20.69,score 66 coût 1.1%
 2026-10-22 01:13:35,apprentie,VENTE,MONEYBIZ,0.0003205,4.51,stop-loss (-77%) PnL -15.28$ coût 1.0%
+2026-10-22 01:19:32,actuelle,VENTE,KOLO,0.001095,17.23,durée max 12h PnL +0.31$ coût 1.0%
+2026-10-22 01:19:32,hasard,VENTE,KOLO,0.001095,17.84,durée max 12h PnL +0.33$ coût 1.0%
+2026-10-22 01:19:32,hasard,ACHAT,DOPE,0.002305214676,17.29,score 52 coût 1.0%
+2026-10-22 01:19:32,apprentie,ACHAT,CYBER,0.0004722288772,19.20,score 51 coût 1.1%
