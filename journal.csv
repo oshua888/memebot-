@@ -848,3 +848,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 18:40:10,actuelle,ACHAT,Pepper,0.0009826374046,21495.24,score 70 coût 48.4%
 2026-10-22 18:45:09,actuelle,ACHAT,SHADOW,0.00033174,21287.88,score 60 coût 90.0%
 2026-10-22 18:46:16,actuelle,VENTE,SHADOW,0.0001706,3993.79,stop-loss (-49%) PnL -17294.10$ coût 63.5%
+2026-10-22 18:59:10,actuelle,VENTE,Pepper,0.0006491,9558.73,stop-loss (-34%) PnL -11936.51$ coût 32.7%
