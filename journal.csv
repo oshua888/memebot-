@@ -766,3 +766,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 14:41:21,actuelle,VENTE,COMPUTE,0.0005542,8.12,palier +50% PnL +2.77$ coût 1.0%
 2026-10-22 14:41:21,hasard,VENTE,DOPE,0.001863,13.83,durée max 12h PnL -3.46$ coût 1.0%
 2026-10-22 14:41:21,hasard,ACHAT,PHP,0.001573617166,22116.41,score 59 coût 40.9%
+2026-10-22 14:47:21,actuelle,ACHAT,PHP,0.001596169144,24569.46,score 60 coût 45.6%
+2026-10-22 14:47:21,hasard,VENTE,PHP,0.001096,10939.07,stop-loss (-30%) PnL -11177.34$ coût 29.0%
+2026-10-22 14:48:21,actuelle,VENTE,PHP,0.001114,11679.86,stop-loss (-30%) PnL -12889.60$ coût 31.9%
