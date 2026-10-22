@@ -685,3 +685,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 04:29:50,hasard,VENTE,Au,0.0003886,11.82,stop-loss (-31%) PnL -5.47$ coût 1.0%
 2026-10-22 04:29:50,hasard,ACHAT,CYBER,0.000310256386,17.19,score 60 coût 1.1%
 2026-10-22 04:29:50,apprentie,VENTE,Au,0.0003886,13.09,stop-loss (-31%) PnL -6.06$ coût 1.0%
+2026-10-22 04:51:50,actuelle,VENTE,Au,0.0003407,9.93,stop-loss (-38%) PnL -6.21$ coût 1.0%
+2026-10-22 04:52:50,agressive,VENTE,Au,0.0003282,12.11,stop-loss (-42%) PnL -8.87$ coût 1.0%
