@@ -641,3 +641,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-21 23:58:38,hasard,VENTE,Dacity,0.0129,15.77,durée max 12h PnL -1.99$ coût 1.0%
 2026-10-21 23:58:38,hasard,ACHAT,KIMCHIBULL,0.00689119313,17.41,score 69 coût 1.0%
 2026-10-22 00:02:35,actuelle,ACHAT,GLITCH,0.002089214361,16.54,score 64 coût 1.0%
+2026-10-22 00:05:35,agressive,VENTE,PHP,0.0006801,14.56,palier +100% PnL +7.77$ coût 1.0%
