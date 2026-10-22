@@ -776,3 +776,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 15:07:23,hasard,VENTE,FTR,0.0003698,8866.44,stop-loss (-37%) PnL -13026.42$ coût 36.1%
 2026-10-22 15:07:23,hasard,ACHAT,SHAVCOIN,0.0007819499547,21632.33,score 41 coût 76.5%
 2026-10-22 15:08:37,hasard,VENTE,SHAVCOIN,0.0005376,7741.90,stop-loss (-31%) PnL -13890.43$ coût 47.9%
+2026-10-22 15:19:22,actuelle,ACHAT,SHAVCOIN,0.001520851844,23910.50,score 61 coût 56.5%
+2026-10-22 15:20:23,actuelle,VENTE,SHAVCOIN,0.0008436,8741.58,stop-loss (-45%) PnL -15168.92$ coût 34.1%
