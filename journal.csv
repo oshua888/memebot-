@@ -745,3 +745,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 11:14:13,actuelle,VENTE,OA,0.02009,8.09,palier +50% PnL +2.92$ coût 1.0%
 2026-10-22 11:14:13,apprentie,VENTE,Kimchi,9.878e-05,12.57,stop-loss (-36%) PnL -7.26$ coût 1.1%
 2026-10-22 11:15:14,hasard,VENTE,MONEYBIZ,0.0002409,11.53,stop-loss (-33%) PnL -5.76$ coût 1.0%
+2026-10-22 11:19:14,hasard,ACHAT,SHAV,0.0003078,23019.22,score 48 coût 90.0%
+2026-10-22 11:20:14,actuelle,VENTE,OA,0.01483,12.12,trailing-stop PnL +1.62$ coût 1.0%
+2026-10-22 11:20:14,hasard,VENTE,SHAV,0.0001562,3668.05,stop-loss (-49%) PnL -19351.17$ coût 68.6%
