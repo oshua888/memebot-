@@ -731,3 +731,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 09:33:13,agressive,VENTE,BLACKTOBER,0.0001195,2802.46,stop-loss (-47%) PnL -50176.97$ coût 90.0%
 2026-10-22 09:47:12,apprentie,VENTE,BLACKTOBER,7.908e-05,14.09,stop-loss (-26%) PnL -5.05$ coût 1.1%
 2026-10-22 10:56:12,apprentie,ACHAT,GLITCH,0.002111551174,19.84,score 28 coût 1.0%
+2026-10-22 11:02:15,actuelle,ACHAT,ZILLIONS,0.000187473,25489.94,score 61 coût 90.0%
+2026-10-22 11:02:15,agressive,ACHAT,ZILLIONS,0.000187473,51474.35,score 61 coût 90.0%
+2026-10-22 11:02:15,hasard,ACHAT,ZILLIONS,0.000187473,23906.49,score 61 coût 90.0%
+2026-10-22 11:03:14,actuelle,VENTE,ZILLIONS,9.94e-05,1351.50,stop-loss (-47%) PnL -24138.44$ coût 90.0%
+2026-10-22 11:03:14,agressive,VENTE,ZILLIONS,9.94e-05,2729.22,stop-loss (-47%) PnL -48745.13$ coût 90.0%
+2026-10-22 11:03:14,hasard,VENTE,ZILLIONS,9.94e-05,1267.55,stop-loss (-47%) PnL -22638.95$ coût 90.0%
+2026-10-22 11:03:14,hasard,ACHAT,Kimchi,0.00022724,23453.70,score 44 coût 90.0%
