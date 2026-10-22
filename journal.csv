@@ -709,3 +709,20 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 07:16:52,apprentie,ACHAT,ヤギ,0.0005734027127,19.21,score 39 coût 1.1%
 2026-10-22 07:17:52,apprentie,VENTE,ヤギ,0.000414,13.72,stop-loss (-28%) PnL -5.48$ coût 1.0%
 2026-10-22 09:19:13,apprentie,ACHAT,BLACKTOBER,0.0001062030534,19.14,score 48 coût 1.1%
+2026-10-22 09:24:13,actuelle,VENTE,CHOO,0.002152,16.34,palier +50% PnL +11.02$ coût 1.0%
+2026-10-22 09:24:13,agressive,VENTE,CHOO,0.002152,22.64,palier +100% PnL +15.71$ coût 1.0%
+2026-10-22 09:24:13,hasard,VENTE,CHOO,0.002152,16.11,palier +50% PnL +10.35$ coût 1.0%
+2026-10-22 09:24:13,apprentie,VENTE,CHOO,0.002152,60.05,palier +50% PnL +40.49$ coût 1.1%
+2026-10-22 09:25:13,actuelle,VENTE,CHOO,1635.65,1273686.76,palier +100% PnL +1273681.36$ coût 90.0%
+2026-10-22 09:25:13,agressive,VENTE,CHOO,1635.65,1765262.60,palier +200% PnL +1765255.57$ coût 90.0%
+2026-10-22 09:25:13,hasard,VENTE,CHOO,1635.65,1256053.15,palier +100% PnL +1256047.30$ coût 90.0%
+2026-10-22 09:26:13,actuelle,VENTE,CHOO,0.002134,16.45,trailing-stop PnL +11.05$ coût 1.0%
+2026-10-22 09:26:13,agressive,VENTE,CHOO,0.002134,22.79,trailing-stop PnL +15.76$ coût 1.0%
+2026-10-22 09:26:13,hasard,VENTE,CHOO,0.002134,16.22,trailing-stop PnL +10.37$ coût 1.0%
+2026-10-22 09:26:13,hasard,ACHAT,BLACKTOBER,0.00019418,25138.59,score 47 coût 90.0%
+2026-10-22 09:26:13,apprentie,VENTE,OA,0.01792,28.60,palier +50% PnL +9.43$ coût 1.0%
+2026-10-22 09:26:13,apprentie,VENTE,ヤギ,0.0002497,14.08,stop-loss (-26%) PnL -5.09$ coût 1.1%
+2026-10-22 09:27:13,hasard,VENTE,BLACKTOBER,0.0001023,1324.38,stop-loss (-47%) PnL -23814.21$ coût 90.0%
+2026-10-22 09:27:13,hasard,ACHAT,FRENS,0.00041781,24662.30,score 56 coût 90.0%
+2026-10-22 09:28:13,hasard,VENTE,FRENS,0.0002379,4044.33,stop-loss (-43%) PnL -20617.97$ coût 71.2%
+2026-10-22 09:28:13,hasard,ACHAT,COMPUTE,0.0006335883831,24249.95,score 36 coût 83.6%
