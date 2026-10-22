@@ -772,3 +772,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 14:52:21,actuelle,VENTE,FRENS,0.0002615,13.30,trailing-stop PnL +2.80$ coût 1.1%
 2026-10-22 14:59:21,actuelle,ACHAT,BLACKTOBER,0.00040736,24311.64,score 67 coût 90.0%
 2026-10-22 15:00:25,actuelle,VENTE,BLACKTOBER,0.0002016,4256.55,stop-loss (-51%) PnL -20055.10$ coût 64.6%
+2026-10-22 15:06:22,hasard,ACHAT,FTR,0.0005831263365,21892.86,score 42 coût 56.1%
+2026-10-22 15:07:23,hasard,VENTE,FTR,0.0003698,8866.44,stop-loss (-37%) PnL -13026.42$ coût 36.1%
+2026-10-22 15:07:23,hasard,ACHAT,SHAVCOIN,0.0007819499547,21632.33,score 41 coût 76.5%
+2026-10-22 15:08:37,hasard,VENTE,SHAVCOIN,0.0005376,7741.90,stop-loss (-31%) PnL -13890.43$ coût 47.9%
