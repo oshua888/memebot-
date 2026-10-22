@@ -809,3 +809,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 16:53:24,actuelle,VENTE,COMPUTE,0.0004389,13.06,trailing-stop PnL +2.20$ coût 1.0%
 2026-10-22 16:59:22,apprentie,VENTE,SHAVCOIN,0.001604,14.16,stop-loss (-27%) PnL -5.50$ coût 1.0%
 2026-10-22 16:59:22,apprentie,ACHAT,FRENS,0.0002837597583,19.46,score 41 coût 1.1%
+2026-10-22 17:01:23,prudente,VENTE,SHAVCOIN,0.001292,6.36,stop-loss (-33%) PnL -3.16$ coût 1.0%
+2026-10-22 17:05:23,prudente,ACHAT,SHAV,9.86527672e-05,9.49,score 74 coût 1.1%
