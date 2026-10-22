@@ -804,3 +804,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 16:41:24,apprentie,ACHAT,CLOUT,0.0001515784506,19.65,score 28 coût 1.1%
 2026-10-22 16:41:24,apprentie,ACHAT,DOPE,0.001848706972,19.64,score 40 coût 1.0%
 2026-10-22 16:41:24,apprentie,ACHAT,Dacity,0.01045446617,19.63,score 39 coût 1.0%
+2026-10-22 16:48:23,prudente,VENTE,SHAVCOIN,0.001895,3.90,trailing-stop PnL +1.53$ coût 1.0%
+2026-10-22 16:48:23,prudente,ACHAT,SHAVCOIN,0.001914243112,9.52,score 70 coût 1.0%
