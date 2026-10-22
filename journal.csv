@@ -852,3 +852,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 19:30:12,agressive,ACHAT,CLOUT,0.00028348,38895.01,score 53 coût 90.0%
 2026-10-22 19:31:08,agressive,VENTE,CLOUT,0.0001492,2047.11,stop-loss (-47%) PnL -36847.91$ coût 90.0%
 2026-10-22 19:35:09,prudente,ACHAT,TRENCHERS,0.000100265523,9.44,score 71 coût 1.1%
+2026-10-22 19:45:10,apprentie,VENTE,FRENS,0.000396,26.86,palier +25% PnL +7.40$ coût 1.1%
+2026-10-22 19:45:10,apprentie,ACHAT,VIRTUAL,0.0003334681815,19.71,score 52 coût 1.1%
