@@ -811,3 +811,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 16:59:22,apprentie,ACHAT,FRENS,0.0002837597583,19.46,score 41 coût 1.1%
 2026-10-22 17:01:23,prudente,VENTE,SHAVCOIN,0.001292,6.36,stop-loss (-33%) PnL -3.16$ coût 1.0%
 2026-10-22 17:05:23,prudente,ACHAT,SHAV,9.86527672e-05,9.49,score 74 coût 1.1%
+2026-10-22 17:16:26,hasard,ACHAT,SHADOW,0.00026923,20022.41,score 52 coût 90.0%
+2026-10-22 17:17:26,hasard,VENTE,SHADOW,0.0001473,3422.55,stop-loss (-45%) PnL -16599.86$ coût 68.8%
+2026-10-22 17:18:26,agressive,VENTE,DOPE,0.001781,19.78,durée max 24h PnL -1.79$ coût 1.0%
+2026-10-22 17:18:26,agressive,ACHAT,SHAVCOIN,0.0021679,46626.24,score 59 coût 90.0%
+2026-10-22 17:19:26,agressive,VENTE,SHAVCOIN,0.001196,11919.28,stop-loss (-45%) PnL -34706.97$ coût 53.7%
+2026-10-22 17:19:26,agressive,ACHAT,TRENCHERS,0.00019342,45582.25,score 56 coût 90.0%
+2026-10-22 17:20:24,agressive,VENTE,TRENCHERS,0.0001044,2460.34,stop-loss (-46%) PnL -43121.92$ coût 90.0%
