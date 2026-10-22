@@ -729,3 +729,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 09:29:13,hasard,VENTE,COMPUTE,0.0003404,7075.66,stop-loss (-46%) PnL -17174.29$ coût 45.7%
 2026-10-22 09:32:13,agressive,ACHAT,BLACKTOBER,0.00022591,52979.44,score 54 coût 90.0%
 2026-10-22 09:33:13,agressive,VENTE,BLACKTOBER,0.0001195,2802.46,stop-loss (-47%) PnL -50176.97$ coût 90.0%
+2026-10-22 09:47:12,apprentie,VENTE,BLACKTOBER,7.908e-05,14.09,stop-loss (-26%) PnL -5.05$ coût 1.1%
