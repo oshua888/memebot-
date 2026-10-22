@@ -840,17 +840,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 17:49:28,agressive,VENTE,VIRTUAL,0.0002173,2194.27,stop-loss (-46%) PnL -38614.31$ coût 90.0%
 2026-10-22 17:49:28,hasard,VENTE,VIRTUAL,0.0002173,4718.60,stop-loss (-46%) PnL -14461.95$ coût 54.2%
 2026-10-22 18:02:20,actuelle,VENTE,MI,0.0006471,8388.49,stop-loss (-30%) PnL -13728.64$ coût 45.5%
-2026-10-22 18:12:11,agressive,ACHAT,Pepper,0.001611675374,39608.85,score 56 coût 75.1%
-2026-10-22 18:12:11,hasard,ACHAT,Pepper,0.001254810154,18891.32,score 56 coût 36.4%
-2026-10-22 18:13:29,agressive,VENTE,Pepper,0.0009077,12711.09,stop-loss (-44%) PnL -26897.75$ coût 43.0%
-2026-10-22 18:15:11,hasard,VENTE,Pepper,0.0008356,9353.86,stop-loss (-33%) PnL -9537.46$ coût 25.6%
-2026-10-22 18:40:10,prudente,ACHAT,Pepper,0.0006690608661,9.45,score 70 coût 1.0%
-2026-10-22 18:40:10,actuelle,ACHAT,Pepper,0.0009826374046,21495.24,score 70 coût 48.4%
-2026-10-22 18:45:09,actuelle,ACHAT,SHADOW,0.00033174,21287.88,score 60 coût 90.0%
-2026-10-22 18:46:16,actuelle,VENTE,SHADOW,0.0001706,3993.79,stop-loss (-49%) PnL -17294.10$ coût 63.5%
-2026-10-22 18:59:10,actuelle,VENTE,Pepper,0.0006491,9558.73,stop-loss (-34%) PnL -11936.51$ coût 32.7%
-2026-10-22 19:30:12,agressive,ACHAT,CLOUT,0.00028348,38895.01,score 53 coût 90.0%
-2026-10-22 19:31:08,agressive,VENTE,CLOUT,0.0001492,2047.11,stop-loss (-47%) PnL -36847.91$ coût 90.0%
-2026-10-22 19:35:09,prudente,ACHAT,TRENCHERS,0.000100265523,9.44,score 71 coût 1.1%
-2026-10-22 19:45:10,apprentie,VENTE,FRENS,0.000396,26.86,palier +25% PnL +7.40$ coût 1.1%
-2026-10-22 19:45:10,apprentie,ACHAT,VIRTUAL,0.0003334681815,19.71,score 52 coût 1.1%
+2026-10-22 20:02:33,hasard,ACHAT,Pepper,0.0008244297729,18891.32,score 44 coût 46.2%
+2026-10-22 20:03:30,hasard,VENTE,Pepper,0.0005711,8886.03,stop-loss (-31%) PnL -10005.29$ coût 32.1%
+2026-10-22 20:05:31,apprentie,VENTE,DOPE,0.002336,24.56,palier +25% PnL +4.92$ coût 1.0%
+2026-10-22 20:05:31,apprentie,ACHAT,VIRTUAL,0.0003394275366,19.58,score 52 coût 1.1%
