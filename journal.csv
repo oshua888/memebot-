@@ -700,3 +700,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 05:47:54,apprentie,VENTE,BROZO,9.935e-05,14.10,stop-loss (-25%) PnL -4.97$ coût 1.1%
 2026-10-22 06:09:52,agressive,VENTE,PHP,0.001224,13.48,trailing-stop PnL +6.36$ coût 1.0%
 2026-10-22 06:09:52,agressive,ACHAT,PHP,0.001236683216,20.89,score 65 coût 1.0%
+2026-10-22 06:31:52,actuelle,VENTE,BROZO,9.085e-05,10.79,stop-loss (-32%) PnL -5.16$ coût 1.1%
