@@ -862,3 +862,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 22:07:33,hasard,ACHAT,PUMPATAR,0.0003781468841,18206.64,score 55 coût 89.8%
 2026-10-22 22:08:32,agressive,VENTE,PUMPATAR,0.0002034,2019.23,stop-loss (-46%) PnL -35553.89$ coût 90.0%
 2026-10-22 22:08:32,hasard,VENTE,PUMPATAR,0.0002034,5054.57,stop-loss (-46%) PnL -13152.07$ coût 48.4%
+2026-10-22 22:40:31,actuelle,ACHAT,BTC,0.0006377755773,21495.24,score 62 coût 85.4%
+2026-10-22 22:40:31,agressive,ACHAT,BTC,0.0006536,36506.43,score 62 coût 90.0%
+2026-10-22 22:40:31,hasard,ACHAT,BTC,0.0005898036837,17943.60,score 62 coût 71.5%
+2026-10-22 22:41:31,actuelle,VENTE,BTC,0.000344,6200.65,stop-loss (-46%) PnL -15294.59$ coût 46.5%
+2026-10-22 22:41:31,agressive,VENTE,BTC,0.000344,4527.85,stop-loss (-47%) PnL -31978.58$ coût 76.4%
+2026-10-22 22:41:31,hasard,VENTE,BTC,0.000344,6060.79,stop-loss (-42%) PnL -11882.81$ coût 42.1%
