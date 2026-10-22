@@ -662,3 +662,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 01:19:32,hasard,VENTE,KOLO,0.001095,17.84,durée max 12h PnL +0.33$ coût 1.0%
 2026-10-22 01:19:32,hasard,ACHAT,DOPE,0.002305214676,17.29,score 52 coût 1.0%
 2026-10-22 01:19:32,apprentie,ACHAT,CYBER,0.0004722288772,19.20,score 51 coût 1.1%
+2026-10-22 01:30:32,actuelle,ACHAT,COMPUTE,0.0003612668564,16.21,score 61 coût 1.1%
+2026-10-22 01:30:32,agressive,VENTE,GTAa,8.158e-05,16.95,durée max 24h PnL -3.76$ coût 1.1%
+2026-10-22 01:30:32,agressive,ACHAT,COMPUTE,0.0003613188353,20.61,score 61 coût 1.1%
