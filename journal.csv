@@ -754,3 +754,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 11:27:14,agressive,VENTE,SHAV,0.0001556,2495.11,stop-loss (-49%) PnL -46100.22$ coût 90.0%
 2026-10-22 11:39:12,actuelle,VENTE,FRENS,0.0003169,7.94,palier +50% PnL +2.77$ coût 1.0%
 2026-10-22 11:43:12,hasard,VENTE,CYBER,0.0004693,8.49,palier +50% PnL +2.82$ coût 1.0%
+2026-10-22 11:53:12,agressive,ACHAT,Dacity,0.01542990879,47212.56,score 50 coût 21.6%
