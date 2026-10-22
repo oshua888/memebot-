@@ -868,3 +868,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 22:41:31,actuelle,VENTE,BTC,0.000344,6200.65,stop-loss (-46%) PnL -15294.59$ coût 46.5%
 2026-10-22 22:41:31,agressive,VENTE,BTC,0.000344,4527.85,stop-loss (-47%) PnL -31978.58$ coût 76.4%
 2026-10-22 22:41:31,hasard,VENTE,BTC,0.000344,6060.79,stop-loss (-42%) PnL -11882.81$ coût 42.1%
+2026-10-22 22:44:32,prudente,VENTE,TRENCHERS,7.605e-05,7.29,stop-loss (-22%) PnL -2.16$ coût 1.1%
