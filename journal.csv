@@ -879,3 +879,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 23:34:31,prudente,VENTE,BTC,0.0008145,3.87,palier +60% PnL +1.51$ coût 1.0%
 2026-10-22 23:38:31,prudente,VENTE,BTC,0.0007517,3.57,trailing-stop PnL +1.21$ coût 1.0%
 2026-10-22 23:39:31,prudente,VENTE,VIRTUAL,0.0003055,7.13,stop-loss (-24%) PnL -2.31$ coût 1.0%
+2026-10-22 23:42:31,apprentie,VENTE,VIRTUAL,0.0002414,13.78,stop-loss (-29%) PnL -5.80$ coût 1.1%
+2026-10-22 23:46:31,hasard,ACHAT,EMP,0.00038228,17705.94,score 43 coût 90.0%

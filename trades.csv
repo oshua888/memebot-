@@ -386,3 +386,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-22 23:14,2026-10-22 23:23,prudente,BTC,boost,trailing-stop,0.15,47.55,77,52818,6.84,2.6,4.57,0.738,18.07,7.87,546,1
 2026-10-22 23:25,2026-10-22 23:38,prudente,BTC,boost,trailing-stop,0.22,45.75,78,61761,7.84,2.8,6.266,0.749,-2.71,48.65,765,1
 2026-10-22 21:48,2026-10-22 23:39,prudente,VIRTUAL,boost+tendance,stop-loss (-24%),1.85,-24.45,79,53336,6.54,6.0,1.284,0.693,1.94,10.22,824,1
+2026-10-22 20:05,2026-10-22 23:42,apprentie,VIRTUAL,boost+tendance,stop-loss (-29%),3.62,-29.64,52,48797,6.07,4.3,0.826,0.599,2.19,7.93,683,1
