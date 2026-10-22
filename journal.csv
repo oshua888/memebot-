@@ -738,3 +738,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 11:03:14,agressive,VENTE,ZILLIONS,9.94e-05,2729.22,stop-loss (-47%) PnL -48745.13$ coût 90.0%
 2026-10-22 11:03:14,hasard,VENTE,ZILLIONS,9.94e-05,1267.55,stop-loss (-47%) PnL -22638.95$ coût 90.0%
 2026-10-22 11:03:14,hasard,ACHAT,Kimchi,0.00022724,23453.70,score 44 coût 90.0%
+2026-10-22 11:04:15,hasard,VENTE,Kimchi,0.000119,1733.05,stop-loss (-48%) PnL -21720.65$ coût 85.9%
+2026-10-22 11:06:14,apprentie,ACHAT,Kimchi,0.0001541045223,19.83,score 44 coût 1.1%
+2026-10-22 11:07:14,agressive,ACHAT,Kimchi,0.0002432,50011.92,score 59 coût 90.0%
+2026-10-22 11:08:14,agressive,VENTE,Kimchi,0.0001357,2790.55,stop-loss (-44%) PnL -47221.37$ coût 90.0%
