@@ -651,3 +651,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 00:29:35,actuelle,ACHAT,CYBER,0.0004778510946,16.38,score 68 coût 1.0%
 2026-10-22 00:40:35,prudente,ACHAT,CYBER,0.0006863495055,9.64,score 70 coût 1.0%
 2026-10-22 00:55:34,prudente,VENTE,CYBER,0.0005068,7.04,stop-loss (-26%) PnL -2.59$ coût 1.0%
+2026-10-22 00:59:34,agressive,VENTE,PHP,0.0006331,13.76,trailing-stop PnL +6.87$ coût 1.0%
+2026-10-22 00:59:34,agressive,ACHAT,PHP,0.0006397623825,21.25,score 74 coût 1.1%
