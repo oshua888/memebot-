@@ -645,3 +645,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 00:18:34,agressive,VENTE,PHP,0.0009787,21.27,palier +200% PnL +14.38$ coût 1.0%
 2026-10-22 00:20:34,apprentie,VENTE,KIMCHIBULL,0.004972,13.77,stop-loss (-28%) PnL -5.56$ coût 1.0%
 2026-10-22 00:20:34,apprentie,ACHAT,CHOO,0.0006933284994,19.56,score 40 coût 1.1%
+2026-10-22 00:23:34,actuelle,VENTE,KIMCHIBULL,0.004636,10.96,stop-loss (-33%) PnL -5.54$ coût 1.0%
+2026-10-22 00:23:34,hasard,VENTE,KIMCHIBULL,0.004636,11.60,stop-loss (-33%) PnL -5.82$ coût 1.0%
+2026-10-22 00:23:34,hasard,ACHAT,GLITCH,0.00199630634,17.32,score 45 coût 1.0%
