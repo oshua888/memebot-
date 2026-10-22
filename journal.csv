@@ -788,3 +788,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 15:47:24,hasard,VENTE,TRENCHERS,9.614e-05,1303.10,stop-loss (-48%) PnL -19738.03$ coût 88.0%
 2026-10-22 15:48:23,actuelle,ACHAT,TRENCHERS,0.000184186,23237.15,score 60 coût 90.0%
 2026-10-22 15:49:24,actuelle,VENTE,TRENCHERS,9.82e-05,1238.90,stop-loss (-47%) PnL -21998.25$ coût 90.0%
+2026-10-22 15:52:23,actuelle,ACHAT,FRENS,0.00052972,22797.18,score 63 coût 90.0%
+2026-10-22 15:53:24,actuelle,VENTE,FRENS,0.0002901,5341.87,stop-loss (-45%) PnL -17455.31$ coût 57.2%
+2026-10-22 15:55:23,prudente,ACHAT,PHP,0.001339466878,9.50,score 81 coût 1.0%
