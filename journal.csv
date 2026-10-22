@@ -760,3 +760,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-22 12:24:13,hasard,ACHAT,GLITCH,0.002867124463,22632.27,score 44 coût 36.5%
 2026-10-22 12:41:13,hasard,VENTE,GLITCH,0.00173,10308.38,stop-loss (-40%) PnL -12323.89$ coût 24.5%
 2026-10-22 12:50:14,hasard,VENTE,CYBER,0.0006407,11.77,palier +100% PnL +6.01$ coût 1.0%
+2026-10-22 13:07:13,hasard,VENTE,CYBER,0.0005214,9.58,trailing-stop PnL +3.82$ coût 1.0%
+2026-10-22 13:07:13,hasard,ACHAT,CYBER,0.0008372269791,22385.88,score 77 coût 60.6%
+2026-10-22 13:08:13,hasard,VENTE,CYBER,0.0005458,8912.82,stop-loss (-35%) PnL -13473.07$ coût 38.9%
