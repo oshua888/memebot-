@@ -910,3 +910,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 01:31:25,agressive,VENTE,COMPUTE,0.0002863,16.15,durée max 24h PnL -4.45$ coût 1.1%
 2026-10-23 02:25:26,apprentie,VENTE,Dacity,0.01569,29.17,palier +50% PnL +9.53$ coût 1.0%
 2026-10-23 02:29:28,prudente,VENTE,McRib,0.0006802,7.05,stop-loss (-24%) PnL -2.36$ coût 1.0%
+2026-10-23 02:56:27,actuelle,ACHAT,OA,0.01332517098,20164.96,score 68 coût 13.6%
+2026-10-23 02:56:27,agressive,ACHAT,OA,0.01434756466,34115.12,score 68 coût 22.3%
+2026-10-23 02:56:27,hasard,ACHAT,OA,0.01308911325,16944.05,score 68 coût 11.6%
+2026-10-23 02:57:28,prudente,ACHAT,OA,0.00450603447,9.38,score 70 coût 1.0%
+2026-10-23 02:57:28,actuelle,VENTE,OA,0.004461,6220.81,stop-loss (-67%) PnL -13944.16$ coût 7.9%
+2026-10-23 02:57:28,agressive,VENTE,OA,0.004461,9359.28,stop-loss (-69%) PnL -24755.84$ coût 11.8%
+2026-10-23 02:57:28,hasard,VENTE,OA,0.004461,5378.64,stop-loss (-66%) PnL -11565.41$ coût 6.9%
