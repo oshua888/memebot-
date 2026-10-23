@@ -1012,3 +1012,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 12:39:36,agressive,VENTE,ヤギ,0.001398,11638.79,stop-loss (-40%) PnL -16727.12$ coût 31.1%
 2026-10-23 12:39:36,hasard,VENTE,ヤギ,0.001398,8695.82,stop-loss (-30%) PnL -6998.94$ coût 20.5%
 2026-10-23 12:41:35,hasard,ACHAT,GLITCH,0.002355709889,14636.32,score 17 coût 25.2%
+2026-10-23 12:51:40,hasard,ACHAT,LilPengu,0.00020653,14523.93,score 44 coût 90.0%
+2026-10-23 12:51:40,apprentie,ACHAT,LilPengu,0.0001099386766,18.74,score 44 coût 1.1%
+2026-10-23 12:52:40,hasard,VENTE,LilPengu,9.642e-05,3068.28,stop-loss (-53%) PnL -11455.65$ coût 54.7%
