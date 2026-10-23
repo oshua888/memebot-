@@ -1053,12 +1053,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 15:26:35,apprentie,ACHAT,ODIE,0.00420038322,18.52,score 71 coût 1.0%
 2026-10-23 15:33:40,apprentie,VENTE,ODIE,0.003139,13.70,stop-loss (-25%) PnL -4.82$ coût 1.0%
 2026-10-23 15:47:35,actuelle,VENTE,ODIE,0.002698,9586.60,stop-loss (-31%) PnL -6931.58$ coût 15.7%
-2026-10-23 15:49:35,hasard,VENTE,ODIE,0.002629,8297.64,stop-loss (-31%) PnL -5652.45$ coût 13.6%
-2026-10-23 15:52:35,prudente,VENTE,GUST,0.0001475,7.25,stop-loss (-20%) PnL -1.93$ coût 1.0%
-2026-10-23 16:16:35,agressive,VENTE,FTR,0.0003309,8638.65,stop-loss (-41%) PnL -15094.13$ coût 38.4%
-2026-10-23 16:23:37,apprentie,VENTE,HELL,0.00193,18.83,durée max 12h PnL -0.68$ coût 1.0%
-2026-10-23 16:23:37,apprentie,ACHAT,PHP,0.0003745133429,18.37,score 47 coût 1.1%
-2026-10-23 16:24:34,prudente,VENTE,ODIE,0.00254,7.02,stop-loss (-23%) PnL -2.15$ coût 1.0%
-2026-10-23 16:33:39,agressive,VENTE,ODIE,0.002483,11001.36,stop-loss (-40%) PnL -11869.11$ coût 19.4%
-2026-10-23 16:46:40,prudente,ACHAT,BLACKTOBER,0.0007610955476,9.13,score 76 coût 1.0%
-2026-10-23 17:16:33,apprentie,VENTE,PHP,0.0002799,13.59,stop-loss (-25%) PnL -4.79$ coût 1.0%
+2026-10-23 17:24:56,prudente,VENTE,GUST,8.965e-05,4.41,stop-loss (-52%) PnL -4.78$ coût 1.0%
+2026-10-23 17:24:56,prudente,VENTE,ODIE,0.002576,7.12,stop-loss (-22%) PnL -2.05$ coût 1.0%
+2026-10-23 17:24:56,agressive,VENTE,FTR,0.0003336,8690.54,stop-loss (-40%) PnL -15042.23$ coût 38.5%
+2026-10-23 17:24:56,hasard,VENTE,ODIE,0.002576,8148.80,stop-loss (-33%) PnL -5801.28$ coût 13.4%
+2026-10-23 17:24:56,apprentie,VENTE,HELL,0.002086,20.35,durée max 12h PnL +0.84$ coût 1.0%
+2026-10-23 17:24:56,apprentie,ACHAT,HELL,0.002107492552,18.39,score 30 coût 1.0%
