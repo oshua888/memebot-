@@ -925,3 +925,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 03:59:27,agressive,ACHAT,CYBER,0.00032965,31745.44,score 55 coût 90.0%
 2026-10-23 04:00:28,agressive,VENTE,KIMCHIBULL,0.0006611,9812.81,stop-loss (-45%) PnL -22611.28$ coût 45.3%
 2026-10-23 04:00:28,agressive,VENTE,CYBER,0.0001727,3649.54,stop-loss (-48%) PnL -28095.90$ coût 78.1%
+2026-10-23 04:14:27,agressive,ACHAT,POOT,0.000174667,30902.81,score 57 coût 90.0%
+2026-10-23 04:14:27,hasard,ACHAT,POOT,0.000174667,16700.90,score 57 coût 90.0%
+2026-10-23 04:15:27,agressive,VENTE,POOT,9.788e-05,1731.73,stop-loss (-44%) PnL -29171.08$ coût 90.0%
+2026-10-23 04:15:27,hasard,VENTE,POOT,9.788e-05,2633.00,stop-loss (-44%) PnL -14067.90$ coût 71.9%
+2026-10-23 04:16:28,hasard,ACHAT,GLOOB,0.000173527,16417.01,score 44 coût 90.0%
+2026-10-23 04:17:27,hasard,VENTE,GLOOB,7.949e-05,2574.64,stop-loss (-54%) PnL -13842.37$ coût 65.8%
