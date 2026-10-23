@@ -1078,3 +1078,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 18:10:58,agressive,ACHAT,requests,0.00020881,22006.00,score 56 coût 90.0%
 2026-10-23 18:10:58,hasard,VENTE,requests,0.0001099,3557.99,stop-loss (-47%) PnL -9786.99$ coût 49.3%
 2026-10-23 18:11:57,agressive,VENTE,requests,0.0001099,2233.28,stop-loss (-47%) PnL -19772.72$ coût 80.7%
+2026-10-23 18:21:56,apprentie,VENTE,PHP,0.0002286,13.31,stop-loss (-27%) PnL -5.07$ coût 1.1%
