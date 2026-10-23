@@ -958,3 +958,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 05:25:30,prudente,VENTE,ヤギ,0.002107,6.12,palier +30% PnL +1.47$ coût 1.0%
 2026-10-23 05:35:27,prudente,VENTE,ヤギ,0.001783,5.18,trailing-stop PnL +0.53$ coût 1.0%
 2026-10-23 05:47:28,hasard,ACHAT,MEOWE,0.0004516847697,15589.45,score 37 coût 66.1%
+2026-10-23 05:48:28,agressive,ACHAT,MEOWE,0.00049324,27934.04,score 52 coût 90.0%
+2026-10-23 05:48:28,hasard,VENTE,MEOWE,0.0002596,5435.78,stop-loss (-43%) PnL -10153.67$ coût 39.3%
+2026-10-23 05:49:27,agressive,VENTE,MEOWE,0.0002417,5234.30,stop-loss (-51%) PnL -22699.73$ coût 61.8%
