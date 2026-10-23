@@ -1024,3 +1024,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 13:28:37,prudente,VENTE,ARCTIS,7.26e-05,5.95,stop-loss (-35%) PnL -3.32$ coût 1.1%
 2026-10-23 13:48:37,prudente,ACHAT,LilPengu,0.0001181458234,9.23,score 70 coût 1.1%
 2026-10-23 13:48:37,actuelle,ACHAT,LilPengu,0.00022211,17176.42,score 70 coût 90.0%
+2026-10-23 13:49:36,actuelle,VENTE,LilPengu,0.0001224,3142.83,stop-loss (-45%) PnL -14033.59$ coût 66.8%
+2026-10-23 13:53:36,agressive,ACHAT,FTR,0.0005600006125,23732.78,score 50 coût 63.1%
