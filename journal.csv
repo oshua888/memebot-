@@ -1089,3 +1089,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 19:15:58,hasard,VENTE,FTR,0.0003117,6957.02,stop-loss (-30%) PnL -6829.12$ coût 27.4%
 2026-10-23 19:18:58,actuelle,ACHAT,SQUADS,0.0003848977883,15984.01,score 62 coût 78.1%
 2026-10-23 19:18:58,agressive,ACHAT,SQUADS,0.00041059,21250.68,score 62 coût 90.0%
+2026-10-23 19:19:57,actuelle,VENTE,SQUADS,0.0002343,5245.06,stop-loss (-39%) PnL -10738.95$ coût 46.1%
+2026-10-23 19:19:57,agressive,VENTE,SQUADS,0.0002343,5190.07,stop-loss (-43%) PnL -16060.62$ coût 57.2%
