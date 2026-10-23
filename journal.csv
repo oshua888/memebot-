@@ -978,3 +978,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 08:02:48,apprentie,ACHAT,Au,0.0001758031498,18.88,score 56 coût 1.1%
 2026-10-23 08:15:49,actuelle,ACHAT,Au,0.00032927,18594.73,score 60 coût 90.0%
 2026-10-23 08:16:49,actuelle,VENTE,Au,0.0001733,4892.69,stop-loss (-47%) PnL -13702.04$ coût 50.0%
+2026-10-23 09:03:48,actuelle,ACHAT,zonki,0.00025612,18303.97,score 67 coût 90.0%
+2026-10-23 09:04:47,actuelle,VENTE,zonki,0.0001396,3723.44,stop-loss (-45%) PnL -14580.53$ coût 62.7%
