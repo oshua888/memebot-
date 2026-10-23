@@ -1111,3 +1111,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 21:58:59,actuelle,ACHAT,Peekhole,0.00024073,15606.73,score 62 coût 90.0%
 2026-10-23 21:58:59,agressive,ACHAT,Peekhole,0.00024073,20357.51,score 62 coût 90.0%
 2026-10-23 21:58:59,hasard,ACHAT,Peekhole,0.0002360162842,12671.52,score 62 coût 86.3%
+2026-10-23 21:59:55,actuelle,VENTE,Peekhole,0.0001282,3608.03,stop-loss (-47%) PnL -11998.70$ coût 56.6%
+2026-10-23 21:59:55,agressive,VENTE,Peekhole,0.0001282,2871.81,stop-loss (-47%) PnL -17485.70$ coût 73.5%
+2026-10-23 21:59:55,hasard,VENTE,Peekhole,0.0001282,3645.52,stop-loss (-46%) PnL -9026.01$ coût 47.0%
