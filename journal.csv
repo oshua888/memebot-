@@ -945,3 +945,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 04:59:26,apprentie,ACHAT,TRENCHERS,0.0001039793789,19.38,score 62 coût 1.1%
 2026-10-23 05:02:27,agressive,ACHAT,zonki,0.00036442,29173.30,score 56 coût 90.0%
 2026-10-23 05:02:27,hasard,ACHAT,zonki,0.0003608720467,15913.70,score 56 coût 88.2%
+2026-10-23 05:03:26,agressive,VENTE,zonki,0.0001932,2260.41,stop-loss (-47%) PnL -26912.89$ coût 85.4%
+2026-10-23 05:03:26,hasard,VENTE,zonki,0.0001932,4474.24,stop-loss (-46%) PnL -11439.46$ coût 47.5%
+2026-10-23 05:04:27,actuelle,ACHAT,POOT,0.000187853,19385.60,score 62 coût 90.0%
+2026-10-23 05:05:29,actuelle,VENTE,POOT,9.788e-05,2362.44,stop-loss (-48%) PnL -17023.16$ coût 76.6%
