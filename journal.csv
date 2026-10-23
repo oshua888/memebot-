@@ -1047,3 +1047,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 15:01:36,agressive,ACHAT,ODIE,0.004161017932,22870.47,score 70 coût 28.0%
 2026-10-23 15:01:36,hasard,ACHAT,ODIE,0.003818755362,13950.09,score 70 coût 17.5%
 2026-10-23 15:01:36,apprentie,ACHAT,ODIE,0.003284218593,18.47,score 70 coût 1.0%
+2026-10-23 15:08:37,hasard,VENTE,PHP,0.0003576,6679.72,stop-loss (-31%) PnL -7390.18$ coût 31.1%
