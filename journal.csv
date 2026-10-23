@@ -961,3 +961,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 05:48:28,agressive,ACHAT,MEOWE,0.00049324,27934.04,score 52 coût 90.0%
 2026-10-23 05:48:28,hasard,VENTE,MEOWE,0.0002596,5435.78,stop-loss (-43%) PnL -10153.67$ coût 39.3%
 2026-10-23 05:49:27,agressive,VENTE,MEOWE,0.0002417,5234.30,stop-loss (-51%) PnL -22699.73$ coût 61.8%
+2026-10-23 05:55:28,actuelle,ACHAT,MEOWE,0.0004132203712,18923.65,score 68 coût 89.8%
+2026-10-23 05:55:28,apprentie,VENTE,zonki,0.0001302,13.58,stop-loss (-29%) PnL -5.71$ coût 1.1%
+2026-10-23 05:55:28,apprentie,ACHAT,EMP,0.0001818985431,19.24,score 11 coût 1.1%
+2026-10-23 05:56:27,actuelle,VENTE,MEOWE,0.0002086,5075.93,stop-loss (-50%) PnL -13847.72$ coût 46.9%
