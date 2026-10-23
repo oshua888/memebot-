@@ -1026,3 +1026,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 13:48:37,actuelle,ACHAT,LilPengu,0.00022211,17176.42,score 70 coût 90.0%
 2026-10-23 13:49:36,actuelle,VENTE,LilPengu,0.0001224,3142.83,stop-loss (-45%) PnL -14033.59$ coût 66.8%
 2026-10-23 13:53:36,agressive,ACHAT,FTR,0.0005600006125,23732.78,score 50 coût 63.1%
+2026-10-23 13:54:37,prudente,VENTE,LilPengu,9.08e-05,7.02,stop-loss (-23%) PnL -2.21$ coût 1.1%
+2026-10-23 13:54:37,actuelle,ACHAT,McNugget,0.001354337273,16895.75,score 64 coût 40.8%
+2026-10-23 13:54:37,agressive,ACHAT,McNugget,0.001499258938,23286.83,score 64 coût 55.9%
+2026-10-23 13:54:37,hasard,ACHAT,McNugget,0.001294944412,14276.51,score 64 coût 34.7%
+2026-10-23 13:54:37,apprentie,ACHAT,McNugget,0.0009716355876,18.50,score 64 coût 1.0%
