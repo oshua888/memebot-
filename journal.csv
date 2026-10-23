@@ -941,3 +941,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 04:35:28,actuelle,ACHAT,GLOOB,0.000174344,19760.35,score 60 coût 90.0%
 2026-10-23 04:36:27,actuelle,VENTE,GLOOB,9.585e-05,1579.70,stop-loss (-45%) PnL -18180.64$ coût 85.5%
 2026-10-23 04:54:27,agressive,VENTE,FRENS,0.0002585,24.74,durée max 24h PnL +3.65$ coût 1.1%
+2026-10-23 04:59:26,apprentie,VENTE,FRENS,0.0002587,17.55,durée max 12h PnL -1.91$ coût 1.1%
+2026-10-23 04:59:26,apprentie,ACHAT,TRENCHERS,0.0001039793789,19.38,score 62 coût 1.1%
+2026-10-23 05:02:27,agressive,ACHAT,zonki,0.00036442,29173.30,score 56 coût 90.0%
+2026-10-23 05:02:27,hasard,ACHAT,zonki,0.0003608720467,15913.70,score 56 coût 88.2%
