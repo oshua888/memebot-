@@ -1108,3 +1108,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 20:22:00,hasard,ACHAT,HELL,0.002828454822,12762.90,score 46 coût 20.8%
 2026-10-23 20:46:59,apprentie,VENTE,requests,7.194e-05,12.08,stop-loss (-33%) PnL -6.27$ coût 1.1%
 2026-10-23 20:54:58,hasard,VENTE,Macca,0.001021,7409.75,stop-loss (-30%) PnL -5500.70$ coût 18.0%
+2026-10-23 21:58:59,actuelle,ACHAT,Peekhole,0.00024073,15606.73,score 62 coût 90.0%
+2026-10-23 21:58:59,agressive,ACHAT,Peekhole,0.00024073,20357.51,score 62 coût 90.0%
+2026-10-23 21:58:59,hasard,ACHAT,Peekhole,0.0002360162842,12671.52,score 62 coût 86.3%
