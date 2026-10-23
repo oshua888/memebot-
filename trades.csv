@@ -400,3 +400,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-23 01:25,2026-10-23 01:29,hasard,McRib,tendance,stop-loss (-31%),0.07,-49.66,77,92625,9.32,6.0,8.442,0.551,-3.79,39.61,1719,0
 2026-10-23 01:23,2026-10-23 01:30,prudente,KIMCHINU,boost+profil,stop-loss (-21%),0.12,-22.11,79,93065,11.64,2.2,9.667,0.689,10.09,28.62,1998,1
 2026-10-22 01:30,2026-10-23 01:31,agressive,COMPUTE,tendance,durée max 24h,24.01,-21.6,61,60423,5.69,61.2,0.692,0.58,17.25,34.73,103,0
+2026-10-22 16:41,2026-10-23 02:25,apprentie,Dacity,tendance,palier +50%,9.73,48.56,39,420635,24.17,269.4,0.363,0.544,0.93,3.92,-11.14,0
