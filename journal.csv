@@ -965,3 +965,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 05:55:28,apprentie,VENTE,zonki,0.0001302,13.58,stop-loss (-29%) PnL -5.71$ coût 1.1%
 2026-10-23 05:55:28,apprentie,ACHAT,EMP,0.0001818985431,19.24,score 11 coût 1.1%
 2026-10-23 05:56:27,actuelle,VENTE,MEOWE,0.0002086,5075.93,stop-loss (-50%) PnL -13847.72$ coût 46.9%
+2026-10-23 06:10:29,agressive,ACHAT,Au,0.00023275,27246.06,score 50 coût 90.0%
+2026-10-23 06:11:28,agressive,VENTE,Au,0.0001227,1833.03,stop-loss (-47%) PnL -25413.02$ coût 87.2%
