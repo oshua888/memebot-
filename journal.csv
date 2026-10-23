@@ -969,3 +969,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 06:11:28,agressive,VENTE,Au,0.0001227,1833.03,stop-loss (-47%) PnL -25413.02$ coût 87.2%
 2026-10-23 06:58:52,actuelle,ACHAT,MEOWE,0.00035511,18911.40,score 67 coût 90.0%
 2026-10-23 06:59:52,actuelle,VENTE,MEOWE,0.0001924,4915.75,stop-loss (-46%) PnL -13995.65$ coût 52.0%
+2026-10-23 07:04:54,prudente,VENTE,KIMCHIBULL,0.0001813,2.81,stop-loss (-70%) PnL -6.68$ coût 1.0%
+2026-10-23 07:04:54,apprentie,VENTE,KIMCHIBULL,0.0001813,4.77,stop-loss (-75%) PnL -14.73$ coût 1.0%
+2026-10-23 07:07:51,apprentie,VENTE,zonki,0.0001165,12.15,stop-loss (-36%) PnL -7.14$ coût 1.1%
