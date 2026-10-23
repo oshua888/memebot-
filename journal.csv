@@ -955,3 +955,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 05:09:29,hasard,ACHAT,ヤギ,0.002006143176,15694.76,score 80 coût 27.9%
 2026-10-23 05:16:29,apprentie,VENTE,SHADOW,0.0002011,14.32,stop-loss (-26%) PnL -5.18$ coût 1.1%
 2026-10-23 05:16:29,apprentie,ACHAT,zonki,0.0001829052921,19.29,score 56 coût 1.1%
+2026-10-23 05:25:30,prudente,VENTE,ヤギ,0.002107,6.12,palier +30% PnL +1.47$ coût 1.0%
