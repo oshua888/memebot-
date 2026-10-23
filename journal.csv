@@ -981,3 +981,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 09:03:48,actuelle,ACHAT,zonki,0.00025612,18303.97,score 67 coût 90.0%
 2026-10-23 09:04:47,actuelle,VENTE,zonki,0.0001396,3723.44,stop-loss (-45%) PnL -14580.53$ coût 62.7%
 2026-10-23 09:23:48,apprentie,VENTE,Au,0.0001308,13.89,stop-loss (-26%) PnL -4.98$ coût 1.1%
+2026-10-23 09:28:47,apprentie,VENTE,Pepper,0.0005483,17.14,durée max 12h PnL -2.33$ coût 1.0%
+2026-10-23 09:31:50,actuelle,ACHAT,GUST,0.00029849,18021.63,score 63 coût 90.0%
+2026-10-23 09:31:50,agressive,ACHAT,GUST,0.00029849,26495.94,score 63 coût 90.0%
+2026-10-23 09:31:50,hasard,ACHAT,GUST,0.00029849,15376.27,score 63 coût 90.0%
+2026-10-23 09:32:48,actuelle,VENTE,GUST,0.0001495,3997.88,stop-loss (-50%) PnL -14023.76$ coût 55.7%
+2026-10-23 09:32:48,agressive,VENTE,GUST,0.0001495,2463.88,stop-loss (-50%) PnL -24032.06$ coût 81.4%
+2026-10-23 09:32:48,hasard,VENTE,GUST,0.0001495,4029.49,stop-loss (-50%) PnL -11346.79$ coût 47.7%
