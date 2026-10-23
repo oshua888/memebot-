@@ -1038,3 +1038,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 14:14:59,hasard,VENTE,McNugget,0.0008221,6871.69,stop-loss (-37%) PnL -7404.81$ coût 24.2%
 2026-10-23 14:15:40,apprentie,VENTE,McNugget,0.0006756,12.73,stop-loss (-30%) PnL -5.77$ coût 1.0%
 2026-10-23 14:41:36,hasard,ACHAT,DOPE,0.003174528572,14121.79,score 40 coût 13.8%
+2026-10-23 14:47:36,hasard,ACHAT,PHP,0.0005186848251,14069.90,score 60 coût 44.7%
+2026-10-23 14:48:36,actuelle,ACHAT,PHP,0.0005691156128,16707.09,score 60 coût 51.7%
