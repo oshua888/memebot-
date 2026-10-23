@@ -1108,3 +1108,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 23:20:19,agressive,ACHAT,YMBCOIN,0.001294706333,20031.92,score 73 coût 50.6%
 2026-10-23 23:25:19,apprentie,VENTE,requests,8.058e-05,13.53,stop-loss (-25%) PnL -4.82$ coût 1.1%
 2026-10-23 23:25:19,apprentie,ACHAT,YMBCOIN,0.00100254379,18.52,score 72 coût 1.0%
+2026-10-23 23:38:18,agressive,ACHAT,POP,0.000162849,19691.83,score 53 coût 90.0%
+2026-10-23 23:39:19,agressive,VENTE,POP,8.544e-05,1870.38,stop-loss (-48%) PnL -17821.45$ coût 81.9%
+2026-10-23 23:39:19,agressive,ACHAT,YMB,0.001287915469,19135.41,score 56 coût 38.0%
