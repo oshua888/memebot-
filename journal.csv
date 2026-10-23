@@ -1056,3 +1056,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 15:49:35,hasard,VENTE,ODIE,0.002629,8297.64,stop-loss (-31%) PnL -5652.45$ coût 13.6%
 2026-10-23 15:52:35,prudente,VENTE,GUST,0.0001475,7.25,stop-loss (-20%) PnL -1.93$ coût 1.0%
 2026-10-23 16:16:35,agressive,VENTE,FTR,0.0003309,8638.65,stop-loss (-41%) PnL -15094.13$ coût 38.4%
+2026-10-23 16:23:37,apprentie,VENTE,HELL,0.00193,18.83,durée max 12h PnL -0.68$ coût 1.0%
+2026-10-23 16:23:37,apprentie,ACHAT,PHP,0.0003745133429,18.37,score 47 coût 1.1%
