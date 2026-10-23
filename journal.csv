@@ -1106,3 +1106,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 20:13:05,hasard,VENTE,CI,0.0003803,4036.42,stop-loss (-61%) PnL -8935.96$ coût 19.8%
 2026-10-23 20:13:05,apprentie,VENTE,CI,0.0003803,7.45,stop-loss (-60%) PnL -11.14$ coût 1.0%
 2026-10-23 20:22:00,hasard,ACHAT,HELL,0.002828454822,12762.90,score 46 coût 20.8%
+2026-10-23 20:46:59,apprentie,VENTE,requests,7.194e-05,12.08,stop-loss (-33%) PnL -6.27$ coût 1.1%
