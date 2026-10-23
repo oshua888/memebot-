@@ -973,3 +973,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 07:04:54,apprentie,VENTE,KIMCHIBULL,0.0001813,4.77,stop-loss (-75%) PnL -14.73$ coût 1.0%
 2026-10-23 07:07:51,apprentie,VENTE,zonki,0.0001165,12.15,stop-loss (-36%) PnL -7.14$ coût 1.1%
 2026-10-23 07:47:48,agressive,ACHAT,Au,0.00026296,27249.63,score 50 coût 90.0%
+2026-10-23 07:48:50,agressive,VENTE,Au,0.0001468,2423.11,stop-loss (-44%) PnL -24826.52$ coût 84.1%
+2026-10-23 07:50:48,actuelle,VENTE,DOPE,0.002101,11705.34,stop-loss (-30%) PnL -8180.74$ coût 15.6%
