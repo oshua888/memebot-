@@ -997,3 +997,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 12:05:41,actuelle,VENTE,RAT,0.0003308,6309.25,stop-loss (-40%) PnL -11425.67$ coût 40.6%
 2026-10-23 12:05:41,agressive,VENTE,RAT,0.0003308,6571.71,stop-loss (-47%) PnL -19193.59$ coût 51.5%
 2026-10-23 12:05:41,hasard,VENTE,RAT,0.0003308,6072.49,stop-loss (-36%) PnL -9053.21$ coût 36.8%
+2026-10-23 12:09:38,apprentie,ACHAT,GUST,0.0004405359951,18.72,score 45 coût 1.1%
+2026-10-23 12:13:37,prudente,ACHAT,ARCTIS,9.831452018e-05,9.25,score 75 coût 1.1%
+2026-10-23 12:13:37,actuelle,ACHAT,ARCTIS,0.000184813,17503.75,score 75 coût 90.0%
+2026-10-23 12:13:37,agressive,ACHAT,ARCTIS,0.000184813,25185.17,score 75 coût 90.0%
+2026-10-23 12:13:37,hasard,ACHAT,ARCTIS,0.000184813,14901.48,score 75 coût 90.0%
