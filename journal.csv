@@ -1002,3 +1002,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 12:13:37,actuelle,ACHAT,ARCTIS,0.000184813,17503.75,score 75 coût 90.0%
 2026-10-23 12:13:37,agressive,ACHAT,ARCTIS,0.000184813,25185.17,score 75 coût 90.0%
 2026-10-23 12:13:37,hasard,ACHAT,ARCTIS,0.000184813,14901.48,score 75 coût 90.0%
+2026-10-23 12:14:36,actuelle,VENTE,ARCTIS,9.806e-05,2339.39,stop-loss (-47%) PnL -15164.36$ coût 74.8%
+2026-10-23 12:14:36,agressive,VENTE,ARCTIS,9.806e-05,1336.30,stop-loss (-47%) PnL -23848.87$ coût 90.0%
+2026-10-23 12:14:36,hasard,VENTE,ARCTIS,9.806e-05,2859.22,stop-loss (-47%) PnL -12042.26$ coût 63.8%
