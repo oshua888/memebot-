@@ -1085,3 +1085,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 18:57:00,apprentie,ACHAT,MCRIBINU,0.000879405191,18.48,score 33 coût 1.0%
 2026-10-23 18:57:57,agressive,ACHAT,DOPE,0.003218316245,21412.82,score 54 coût 20.9%
 2026-10-23 19:03:58,hasard,ACHAT,SQUADS,0.0004134888655,13170.04,score 30 coût 58.5%
+2026-10-23 19:05:00,hasard,VENTE,SQUADS,0.0002689,5326.53,stop-loss (-35%) PnL -7843.51$ coût 37.8%
