@@ -388,3 +388,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-22 21:48,2026-10-22 23:39,prudente,VIRTUAL,boost+tendance,stop-loss (-24%),1.85,-24.45,79,53336,6.54,6.0,1.284,0.693,1.94,10.22,824,1
 2026-10-22 20:05,2026-10-22 23:42,apprentie,VIRTUAL,boost+tendance,stop-loss (-29%),3.62,-29.64,52,48797,6.07,4.3,0.826,0.599,2.19,7.93,683,1
 2026-10-22 23:46,2026-10-22 23:47,hasard,EMP,boost,stop-loss (-47%),0.02,-74.67,43,36589,5.33,73.2,0.205,0.741,-6.47,-31.18,301,1
+2026-10-23 00:15,2026-10-23 00:16,actuelle,SHADOW,boost,stop-loss (-47%),0.02,-80.94,61,35524,4.63,31.0,0.519,0.967,-0.9,2.84,12.35,1
