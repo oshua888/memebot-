@@ -989,11 +989,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 09:32:48,agressive,VENTE,GUST,0.0001495,2463.88,stop-loss (-50%) PnL -24032.06$ coût 81.4%
 2026-10-23 09:32:48,hasard,VENTE,GUST,0.0001495,4029.49,stop-loss (-50%) PnL -11346.79$ coût 47.7%
 2026-10-23 10:09:47,apprentie,VENTE,TRENCHERS,7.736e-05,14.26,stop-loss (-26%) PnL -5.12$ coût 1.1%
-2026-10-23 11:23:49,actuelle,ACHAT,RAT,0.0005509091534,17755.21,score 64 coût 69.9%
-2026-10-23 11:23:49,agressive,ACHAT,RAT,0.00061617,25797.34,score 64 coût 90.0%
-2026-10-23 11:23:49,hasard,ACHAT,RAT,0.000518039546,15142.43,score 64 coût 59.7%
-2026-10-23 11:24:49,actuelle,VENTE,RAT,0.0003041,5873.63,stop-loss (-45%) PnL -11881.58$ coût 40.1%
-2026-10-23 11:24:49,agressive,VENTE,RAT,0.0003041,6142.57,stop-loss (-51%) PnL -19654.77$ coût 51.8%
-2026-10-23 11:24:49,hasard,VENTE,RAT,0.0003041,5650.26,stop-loss (-41%) PnL -9492.17$ coût 36.4%
-2026-10-23 11:59:49,hasard,VENTE,Dacity,0.01244,18493.25,durée max 12h PnL +1051.74$ coût 9.9%
-2026-10-23 11:59:49,hasard,ACHAT,Dacity,0.01336769633,14936.91,score 35 coût 7.5%
+2026-10-23 12:04:35,actuelle,ACHAT,RAT,0.0005527509825,17734.92,score 64 coût 67.1%
+2026-10-23 12:04:35,agressive,ACHAT,RAT,0.00062852,25765.30,score 64 coût 90.0%
+2026-10-23 12:04:35,hasard,VENTE,Dacity,0.01241,18451.34,durée max 12h PnL +1009.83$ coût 9.9%
+2026-10-23 12:04:35,hasard,ACHAT,RAT,0.0005205834543,15125.70,score 64 coût 57.4%
+2026-10-23 12:04:35,hasard,ACHAT,Dacity,0.01333662388,14944.63,score 34 coût 7.5%
+2026-10-23 12:05:41,actuelle,VENTE,RAT,0.0003308,6309.25,stop-loss (-40%) PnL -11425.67$ coût 40.6%
+2026-10-23 12:05:41,agressive,VENTE,RAT,0.0003308,6571.71,stop-loss (-47%) PnL -19193.59$ coût 51.5%
+2026-10-23 12:05:41,hasard,VENTE,RAT,0.0003308,6072.49,stop-loss (-36%) PnL -9053.21$ coût 36.8%
