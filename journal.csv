@@ -891,3 +891,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 00:24:33,hasard,ACHAT,KIMCHIBULL,0.0009465474968,17378.73,score 80 coût 44.6%
 2026-10-23 00:25:32,actuelle,VENTE,KIMCHIBULL,0.0006455,8727.94,stop-loss (-36%) PnL -12118.38$ coût 34.9%
 2026-10-23 00:25:32,hasard,VENTE,KIMCHIBULL,0.0006455,8180.97,stop-loss (-32%) PnL -9197.76$ coût 31.0%
+2026-10-23 00:40:31,prudente,VENTE,BTC,0.001198,6.50,palier +30% PnL +1.75$ coût 1.0%
