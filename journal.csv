@@ -1033,3 +1033,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 13:54:37,apprentie,ACHAT,McNugget,0.0009716355876,18.50,score 64 coût 1.0%
 2026-10-23 14:07:42,prudente,ACHAT,McNugget,0.001217282851,9.20,score 76 coût 1.0%
 2026-10-23 14:13:40,prudente,VENTE,McNugget,0.0009527,7.13,stop-loss (-22%) PnL -2.07$ coût 1.0%
+2026-10-23 14:14:59,actuelle,VENTE,McNugget,0.0008221,7462.96,stop-loss (-39%) PnL -9432.79$ coût 27.2%
+2026-10-23 14:14:59,agressive,VENTE,McNugget,0.0008221,8470.88,stop-loss (-45%) PnL -14815.95$ coût 33.7%
+2026-10-23 14:14:59,hasard,VENTE,McNugget,0.0008221,6871.69,stop-loss (-37%) PnL -7404.81$ coût 24.2%
+2026-10-23 14:15:40,apprentie,VENTE,McNugget,0.0006756,12.73,stop-loss (-30%) PnL -5.77$ coût 1.0%

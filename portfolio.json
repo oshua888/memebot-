@@ -10,8 +10,8 @@
     "cost0": 9.256111495131101,
     "proceeds": 0.0,
     "high": 0.000363,
-    "last": 0.0002993,
-    "liq": 47746.67,
+    "last": 0.0002977,
+    "liq": 47464.08,
     "tp_idx": 0,
     "opened": 1792758635.0547972,
     "missing": 0,
@@ -40,26 +40,6 @@
   "wins": 58,
   "losses": 62,
   "history": [
-   [
-    1792487726,
-    975.9
-   ],
-   [
-    1792487784,
-    976.23
-   ],
-   [
-    1792487845,
-    976.66
-   ],
-   [
-    1792487904,
-    975.7
-   ],
-   [
-    1792487964,
-    974.54
-   ],
    [
     1792488025,
     974.23
@@ -12039,6 +12019,26 @@
    [
     1792764821,
     918.22
+   ],
+   [
+    1792764900,
+    917.96
+   ],
+   [
+    1792764941,
+    918.3
+   ],
+   [
+    1792765003,
+    918.25
+   ],
+   [
+    1792765060,
+    918.06
+   ],
+   [
+    1792765132,
+    918.18
    ]
   ],
   "cooldown": {
@@ -12060,67 +12060,13 @@
   }
  },
  "actuelle": {
-  "cash": 827891.6392052982,
-  "positions": {
-   "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": {
-    "symbol": "McNugget",
-    "entry": 0.0013543372728736375,
-    "qty": 12475288.155537637,
-    "cost": 16895.747738883634,
-    "cost0": 16895.747738883634,
-    "proceeds": 0.0,
-    "high": 0.0013543372728736375,
-    "last": 0.0009527,
-    "liq": 84298.14,
-    "tp_idx": 0,
-    "opened": 1792763677.5421798,
-    "missing": 0,
-    "sources": [
-     "boost",
-     "profil"
-    ],
-    "features": {
-     "score": 64,
-     "liq": 84814,
-     "fdv_liq": 11.26,
-     "age_h": 2.0,
-     "turnover": 2.376,
-     "buy_ratio": 0.824,
-     "m5": 21.05,
-     "h1": 116,
-     "h6": 2001,
-     "boost": 1,
-     "lp_locked": 100,
-     "top10": 4.873106769573995,
-     "rug_score": 1
-    }
-   }
-  },
-  "realized": 843787.386944182,
-  "fees": 11884746.413678216,
+  "cash": 835354.6014600039,
+  "positions": {},
+  "realized": 834354.6014600041,
+  "fees": 11887539.385816177,
   "wins": 63,
-  "losses": 89,
+  "losses": 90,
   "history": [
-   [
-    1792487726,
-    884.2
-   ],
-   [
-    1792487784,
-    885.67
-   ],
-   [
-    1792487845,
-    886.61
-   ],
-   [
-    1792487904,
-    884.7
-   ],
-   [
-    1792487964,
-    882.49
-   ],
    [
     1792488025,
     881.9
@@ -24100,6 +24046,26 @@
    [
     1792764821,
     836306.6
+   ],
+   [
+    1792764900,
+    835354.6
+   ],
+   [
+    1792764941,
+    835354.6
+   ],
+   [
+    1792765003,
+    835354.6
+   ],
+   [
+    1792765060,
+    835354.6
+   ],
+   [
+    1792765132,
+    835354.6
    ]
   ],
   "cooldown": {
@@ -24133,11 +24099,12 @@
    "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump": 1792843541.8803716,
    "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": 1824293676.6400871,
    "EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792844735.8033657,
-   "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump": 1824299376.8589044
+   "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump": 1824299376.8589044,
+   "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792851299.772442
   }
  },
  "agressive": {
-  "cash": 744072.896157382,
+  "cash": 752543.777697921,
   "positions": {
    "DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump": {
     "symbol": "FTR",
@@ -24147,8 +24114,8 @@
     "cost0": 23732.77506173605,
     "proceeds": 0.0,
     "high": 0.000560000612468071,
-    "last": 0.0003463,
-    "liq": 76829.46,
+    "last": 0.0003471,
+    "liq": 76789.08,
     "tp_idx": 0,
     "opened": 1792763616.8977323,
     "missing": 0,
@@ -24170,66 +24137,13 @@
      "top10": 15.95071388100516,
      "rug_score": 1
     }
-   },
-   "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": {
-    "symbol": "McNugget",
-    "entry": 0.0014992589377862274,
-    "qty": 15532227.457076361,
-    "cost": 23286.830838750382,
-    "cost0": 23286.830838750382,
-    "proceeds": 0.0,
-    "high": 0.0014992589377862274,
-    "last": 0.0009527,
-    "liq": 84298.14,
-    "tp_idx": 0,
-    "opened": 1792763677.5429106,
-    "missing": 0,
-    "sources": [
-     "boost",
-     "profil"
-    ],
-    "features": {
-     "score": 64,
-     "liq": 84814,
-     "fdv_liq": 11.26,
-     "age_h": 2.0,
-     "turnover": 2.376,
-     "buy_ratio": 0.824,
-     "m5": 21.05,
-     "h1": 116,
-     "h6": 2001,
-     "boost": 1,
-     "lp_locked": 100,
-     "top10": 4.873106769573995,
-     "rug_score": 1
-    }
    }
   },
-  "realized": 790092.5020578677,
-  "fees": 16856877.630151007,
+  "realized": 775276.5527596563,
+  "fees": 16861175.79280293,
   "wins": 28,
-  "losses": 76,
+  "losses": 77,
   "history": [
-   [
-    1792487726,
-    793.47
-   ],
-   [
-    1792487784,
-    795.57
-   ],
-   [
-    1792487845,
-    795.46
-   ],
-   [
-    1792487904,
-    793.62
-   ],
-   [
-    1792487964,
-    795.71
-   ],
    [
     1792488025,
     794.72
@@ -36209,6 +36123,26 @@
    [
     1792764821,
     762449.84
+   ],
+   [
+    1792764900,
+    761466.22
+   ],
+   [
+    1792764941,
+    761387.31
+   ],
+   [
+    1792765003,
+    761387.31
+   ],
+   [
+    1792765060,
+    761387.31
+   ],
+   [
+    1792765132,
+    761470.89
    ]
   ],
   "cooldown": {
@@ -36247,11 +36181,12 @@
    "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump": 1792843541.881436,
    "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": 1824293676.640983,
    "EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792845576.2276573,
-   "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump": 1824296258.3609316
+   "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump": 1824296258.3609316,
+   "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792851299.7732048
   }
  },
  "hasard": {
-  "cash": 678507.1973523911,
+  "cash": 685378.8915773237,
   "positions": {
    "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": {
     "symbol": "Dacity",
@@ -36261,8 +36196,8 @@
     "cost0": 14944.631938711773,
     "proceeds": 0.0,
     "high": 0.013336623875252586,
-    "last": 0.01144,
-    "liq": 443602.14,
+    "last": 0.0114,
+    "liq": 442803.31,
     "tp_idx": 0,
     "opened": 1792757075.728296,
     "missing": 0,
@@ -36316,66 +36251,13 @@
      "top10": 26.91036293812197,
      "rug_score": 1
     }
-   },
-   "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": {
-    "symbol": "McNugget",
-    "entry": 0.0012949444120174604,
-    "qty": 11024803.073769422,
-    "cost": 14276.507133970634,
-    "cost0": 14276.507133970634,
-    "proceeds": 0.0,
-    "high": 0.0012949444120174604,
-    "last": 0.0009527,
-    "liq": 84298.14,
-    "tp_idx": 0,
-    "opened": 1792763677.5436597,
-    "missing": 0,
-    "sources": [
-     "boost",
-     "profil"
-    ],
-    "features": {
-     "score": 64,
-     "liq": 84814,
-     "fdv_liq": 11.26,
-     "age_h": 2.0,
-     "turnover": 2.376,
-     "buy_ratio": 0.824,
-     "m5": 21.05,
-     "h1": 116,
-     "h6": 2001,
-     "boost": 1,
-     "lp_locked": 100,
-     "top10": 4.873106769573995,
-     "rug_score": 1
-    }
    }
   },
-  "realized": 721364.6603036681,
-  "fees": 11835813.71650186,
+  "realized": 713959.8473946301,
+  "fees": 11838005.512883874,
   "wins": 46,
-  "losses": 89,
+  "losses": 90,
   "history": [
-   [
-    1792487726,
-    941.78
-   ],
-   [
-    1792487784,
-    942.44
-   ],
-   [
-    1792487845,
-    942.11
-   ],
-   [
-    1792487904,
-    941.31
-   ],
-   [
-    1792487964,
-    940.95
-   ],
    [
     1792488025,
     940.83
@@ -48355,6 +48237,26 @@
    [
     1792764821,
     707768.85
+   ],
+   [
+    1792764900,
+    706809.12
+   ],
+   [
+    1792764941,
+    706890.04
+   ],
+   [
+    1792765003,
+    706859.71
+   ],
+   [
+    1792765060,
+    706829.16
+   ],
+   [
+    1792765132,
+    706819.09
    ]
   ],
   "cooldown": {
@@ -48395,11 +48297,12 @@
    "9FAjujeZsLW7C8jRLvcH1fS3dYCtLV6LYHKq822dpump": 1792843541.8822603,
    "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": 1824293676.6417534,
    "EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792845576.2284086,
-   "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump": 1792846360.7230356
+   "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump": 1792846360.7230356,
+   "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792851299.7739105
   }
  },
  "apprentie": {
-  "cash": 868.6823294091665,
+  "cash": 881.415178533471,
   "positions": {
    "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": {
     "symbol": "HELL",
@@ -48409,8 +48312,8 @@
     "cost0": 19.514019001548807,
     "proceeds": 0.0,
     "high": 0.002062,
-    "last": 0.002026,
-    "liq": 119444.99,
+    "last": 0.001999,
+    "liq": 118607.65,
     "tp_idx": 0,
     "opened": 1792729407.0699308,
     "missing": 0,
@@ -48441,8 +48344,8 @@
     "cost0": 18.752630969972802,
     "proceeds": 0.0,
     "high": 0.000354,
-    "last": 0.0003463,
-    "liq": 76829.46,
+    "last": 0.0003471,
+    "liq": 76789.08,
     "tp_idx": 0,
     "opened": 1792758095.827446,
     "missing": 0,
@@ -48464,66 +48367,13 @@
      "top10": 15.950713881005145,
      "rug_score": 1
     }
-   },
-   "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": {
-    "symbol": "McNugget",
-    "entry": 0.000971635587614792,
-    "qty": 19044.097534086333,
-    "cost": 18.503922898125385,
-    "cost0": 18.503922898125385,
-    "proceeds": 0.0,
-    "high": 0.001208,
-    "last": 0.0009527,
-    "liq": 84298.14,
-    "tp_idx": 0,
-    "opened": 1792763677.5446117,
-    "missing": 0,
-    "sources": [
-     "boost",
-     "profil"
-    ],
-    "features": {
-     "score": 64,
-     "liq": 84814,
-     "fdv_liq": 11.26,
-     "age_h": 2.0,
-     "turnover": 2.376,
-     "buy_ratio": 0.824,
-     "m5": 21.05,
-     "h1": 116,
-     "h6": 2001,
-     "boost": 1,
-     "lp_locked": 100,
-     "top10": 4.873106769573995,
-     "rug_score": 1
-    }
    }
   },
-  "realized": -74.54709772118618,
-  "fees": 20.539998009497175,
+  "realized": -80.31817149500702,
+  "fees": 20.673341179221367,
   "wins": 13,
-  "losses": 37,
+  "losses": 38,
   "history": [
-   [
-    1792487726,
-    1000.0
-   ],
-   [
-    1792487784,
-    1000.0
-   ],
-   [
-    1792487845,
-    1000.0
-   ],
-   [
-    1792487904,
-    1000.0
-   ],
-   [
-    1792487964,
-    1000.0
-   ],
    [
     1792488025,
     1000.0
@@ -60503,6 +60353,26 @@
    [
     1792764821,
     924.98
+   ],
+   [
+    1792764900,
+    922.68
+   ],
+   [
+    1792764941,
+    919.71
+   ],
+   [
+    1792765003,
+    919.65
+   ],
+   [
+    1792765060,
+    917.7
+   ],
+   [
+    1792765132,
+    919.54
    ]
   ],
   "cooldown": {
@@ -60518,7 +60388,8 @@
    "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": 1792834127.989884,
    "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump": 1792836587.7598956,
    "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump": 1792846716.504384,
-   "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792847737.9131386
+   "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792847737.9131386,
+   "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792851340.9339905
   }
  }
 }
