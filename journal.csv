@@ -989,3 +989,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 09:32:48,agressive,VENTE,GUST,0.0001495,2463.88,stop-loss (-50%) PnL -24032.06$ coût 81.4%
 2026-10-23 09:32:48,hasard,VENTE,GUST,0.0001495,4029.49,stop-loss (-50%) PnL -11346.79$ coût 47.7%
 2026-10-23 10:09:47,apprentie,VENTE,TRENCHERS,7.736e-05,14.26,stop-loss (-26%) PnL -5.12$ coût 1.1%
+2026-10-23 11:23:49,actuelle,ACHAT,RAT,0.0005509091534,17755.21,score 64 coût 69.9%
+2026-10-23 11:23:49,agressive,ACHAT,RAT,0.00061617,25797.34,score 64 coût 90.0%
+2026-10-23 11:23:49,hasard,ACHAT,RAT,0.000518039546,15142.43,score 64 coût 59.7%
+2026-10-23 11:24:49,actuelle,VENTE,RAT,0.0003041,5873.63,stop-loss (-45%) PnL -11881.58$ coût 40.1%
+2026-10-23 11:24:49,agressive,VENTE,RAT,0.0003041,6142.57,stop-loss (-51%) PnL -19654.77$ coût 51.8%
+2026-10-23 11:24:49,hasard,VENTE,RAT,0.0003041,5650.26,stop-loss (-41%) PnL -9492.17$ coût 36.4%
