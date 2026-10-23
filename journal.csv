@@ -1086,3 +1086,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 18:57:57,agressive,ACHAT,DOPE,0.003218316245,21412.82,score 54 coût 20.9%
 2026-10-23 19:03:58,hasard,ACHAT,SQUADS,0.0004134888655,13170.04,score 30 coût 58.5%
 2026-10-23 19:05:00,hasard,VENTE,SQUADS,0.0002689,5326.53,stop-loss (-35%) PnL -7843.51$ coût 37.8%
+2026-10-23 19:15:58,hasard,VENTE,FTR,0.0003117,6957.02,stop-loss (-30%) PnL -6829.12$ coût 27.4%
+2026-10-23 19:18:58,actuelle,ACHAT,SQUADS,0.0003848977883,15984.01,score 62 coût 78.1%
+2026-10-23 19:18:58,agressive,ACHAT,SQUADS,0.00041059,21250.68,score 62 coût 90.0%
