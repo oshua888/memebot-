@@ -949,3 +949,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 05:03:26,hasard,VENTE,zonki,0.0001932,4474.24,stop-loss (-46%) PnL -11439.46$ coût 47.5%
 2026-10-23 05:04:27,actuelle,ACHAT,POOT,0.000187853,19385.60,score 62 coût 90.0%
 2026-10-23 05:05:29,actuelle,VENTE,POOT,9.788e-05,2362.44,stop-loss (-48%) PnL -17023.16$ coût 76.6%
+2026-10-23 05:09:29,prudente,ACHAT,ヤギ,0.001583930338,9.30,score 80 coût 1.0%
+2026-10-23 05:09:29,actuelle,ACHAT,ヤギ,0.002096335158,19045.45,score 80 coût 33.7%
+2026-10-23 05:09:29,agressive,ACHAT,ヤギ,0.002347218314,28365.91,score 80 coût 49.7%
+2026-10-23 05:09:29,hasard,ACHAT,ヤギ,0.002006143176,15694.76,score 80 coût 27.9%
