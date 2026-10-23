@@ -1072,3 +1072,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 17:52:56,apprentie,ACHAT,MCRIBINU,0.0004762084195,18.29,score 66 coût 1.1%
 2026-10-23 17:53:55,actuelle,VENTE,MCRIBINU,0.0004883,6727.47,stop-loss (-34%) PnL -9445.44$ coût 37.1%
 2026-10-23 17:53:55,agressive,VENTE,MCRIBINU,0.0004883,7170.30,stop-loss (-42%) PnL -15294.53$ coût 45.1%
+2026-10-23 18:00:57,apprentie,ACHAT,requests,0.0001081060125,18.35,score 21 coût 1.1%
