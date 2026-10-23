@@ -934,3 +934,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 04:23:27,apprentie,ACHAT,HELL,0.001979243381,19.51,score 18 coût 1.0%
 2026-10-23 04:23:27,apprentie,ACHAT,KIMCHIBULL,0.0007335935447,19.51,score 59 coût 1.0%
 2026-10-23 04:23:27,apprentie,ACHAT,SHADOW,0.0002709141846,19.50,score 38 coût 1.1%
+2026-10-23 04:30:27,hasard,ACHAT,Au,0.00025897,16191.35,score 43 coût 90.0%
+2026-10-23 04:31:26,hasard,VENTE,Au,0.0001329,4247.55,stop-loss (-49%) PnL -11943.81$ coût 48.9%
