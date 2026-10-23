@@ -1061,3 +1061,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 16:24:34,prudente,VENTE,ODIE,0.00254,7.02,stop-loss (-23%) PnL -2.15$ coût 1.0%
 2026-10-23 16:33:39,agressive,VENTE,ODIE,0.002483,11001.36,stop-loss (-40%) PnL -11869.11$ coût 19.4%
 2026-10-23 16:46:40,prudente,ACHAT,BLACKTOBER,0.0007610955476,9.13,score 76 coût 1.0%
+2026-10-23 17:16:33,apprentie,VENTE,PHP,0.0002799,13.59,stop-loss (-25%) PnL -4.79$ coût 1.0%
