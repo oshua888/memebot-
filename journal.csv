@@ -921,3 +921,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 03:21:26,agressive,ACHAT,EMP,0.00035226,33372.50,score 56 coût 90.0%
 2026-10-23 03:22:25,agressive,VENTE,EMP,0.0001854,1756.45,stop-loss (-47%) PnL -31616.06$ coût 90.0%
 2026-10-23 03:30:26,actuelle,ACHAT,DOPE,0.003013576902,19886.08,score 65 coût 20.2%
+2026-10-23 03:59:27,agressive,ACHAT,KIMCHIBULL,0.001195480043,32424.09,score 61 coût 81.1%
+2026-10-23 03:59:27,agressive,ACHAT,CYBER,0.00032965,31745.44,score 55 coût 90.0%
+2026-10-23 04:00:28,agressive,VENTE,KIMCHIBULL,0.0006611,9812.81,stop-loss (-45%) PnL -22611.28$ coût 45.3%
+2026-10-23 04:00:28,agressive,VENTE,CYBER,0.0001727,3649.54,stop-loss (-48%) PnL -28095.90$ coût 78.1%
