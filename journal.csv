@@ -995,3 +995,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 11:24:49,actuelle,VENTE,RAT,0.0003041,5873.63,stop-loss (-45%) PnL -11881.58$ coût 40.1%
 2026-10-23 11:24:49,agressive,VENTE,RAT,0.0003041,6142.57,stop-loss (-51%) PnL -19654.77$ coût 51.8%
 2026-10-23 11:24:49,hasard,VENTE,RAT,0.0003041,5650.26,stop-loss (-41%) PnL -9492.17$ coût 36.4%
+2026-10-23 11:59:49,hasard,VENTE,Dacity,0.01244,18493.25,durée max 12h PnL +1051.74$ coût 9.9%
+2026-10-23 11:59:49,hasard,ACHAT,Dacity,0.01336769633,14936.91,score 35 coût 7.5%
