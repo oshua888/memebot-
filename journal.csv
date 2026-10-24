@@ -1259,3 +1259,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 09:59:05,prudente,VENTE,REMUS,0.000349,7.02,stop-loss (-22%) PnL -2.10$ coût 1.0%
 2026-10-24 10:09:05,apprentie,VENTE,VIRTUAL,0.0003657,23.29,palier +25% PnL +4.47$ coût 1.1%
 2026-10-24 10:09:05,apprentie,ACHAT,VIRTUAL,0.0003696035551,18.22,score 55 coût 1.1%
+2026-10-24 10:28:05,apprentie,VENTE,ARCTIS,0.0001406,23.38,palier +25% PnL +5.04$ coût 1.2%
+2026-10-24 10:28:05,apprentie,ACHAT,HELL,0.003319645404,18.33,score 31 coût 1.0%
