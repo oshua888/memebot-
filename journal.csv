@@ -1261,3 +1261,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 10:09:05,apprentie,ACHAT,VIRTUAL,0.0003696035551,18.22,score 55 coût 1.1%
 2026-10-24 10:28:05,apprentie,VENTE,ARCTIS,0.0001406,23.38,palier +25% PnL +5.04$ coût 1.2%
 2026-10-24 10:28:05,apprentie,ACHAT,HELL,0.003319645404,18.33,score 31 coût 1.0%
+2026-10-24 10:44:06,actuelle,ACHAT,BIO,0.0002559362082,13846.56,score 65 coût 87.9%
+2026-10-24 10:44:06,agressive,ACHAT,BIO,0.00025878,14415.65,score 65 coût 90.0%
+2026-10-24 10:44:06,hasard,ACHAT,BIO,0.0002316531081,11006.10,score 65 coût 70.1%
