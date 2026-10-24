@@ -661,3 +661,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-24 22:27,2026-10-24 22:28,actuelle,VICECITY,boost,stop-loss (-44%),0.02,-68.37,60,31280,4.25,6.0,0.457,0.614,-2.19,7.5,241,1
 2026-10-24 21:45,2026-10-24 22:34,actuelle,SWORDOPE,boost,trailing-stop,0.82,14.19,81,113299,14.19,2.0,8.535,0.75,-12.13,12.63,2800,1
 2026-10-24 21:45,2026-10-24 22:34,hasard,SWORDOPE,boost,trailing-stop,0.82,18.24,81,113299,14.19,2.0,8.535,0.75,-12.13,12.63,2800,1
+2026-10-24 20:07,2026-10-24 22:51,apprentie,REMUS,boost+tendance,palier +25%,2.73,31.11,67,71028,8.57,20.9,1.233,0.561,2.92,21.18,17.92,1
