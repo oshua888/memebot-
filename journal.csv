@@ -1140,3 +1140,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 00:27:18,agressive,ACHAT,Moustache,0.0009532692132,18562.84,score 62 coût 52.5%
 2026-10-24 00:32:18,actuelle,VENTE,Moustache,0.0006024,7209.42,stop-loss (-33%) PnL -8146.99$ coût 30.0%
 2026-10-24 00:42:18,hasard,VENTE,GLITCH,0.00204,9977.28,durée max 12h PnL -4659.05$ coût 21.3%
+2026-10-24 00:45:18,agressive,VENTE,Moustache,0.0005355,7069.63,stop-loss (-44%) PnL -11493.22$ coût 32.2%
+2026-10-24 00:45:18,apprentie,ACHAT,YMBCOIN,0.00107710148,18.72,score 56 coût 1.0%
+2026-10-24 00:45:18,apprentie,ACHAT,YMB,0.0006459710373,18.71,score 52 coût 1.0%
+2026-10-24 00:48:18,apprentie,ACHAT,Pokémon,0.0002502339892,18.73,score 20 coût 1.1%
