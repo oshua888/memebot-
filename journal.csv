@@ -1276,3 +1276,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 11:22:06,actuelle,ACHAT,HUG,0.00025441,13656.01,score 65 coût 90.0%
 2026-10-24 11:23:06,actuelle,VENTE,HUG,0.0001238,3538.92,stop-loss (-51%) PnL -10117.09$ coût 46.7%
 2026-10-24 11:38:07,agressive,ACHAT,HELL,0.004369081498,13745.61,score 50 coût 17.8%
+2026-10-24 12:08:06,actuelle,ACHAT,SLOPCOIN,0.0002774621653,13453.67,score 62 coût 86.1%
+2026-10-24 12:08:06,agressive,ACHAT,SLOPCOIN,0.0002787421716,13589.40,score 62 coût 86.9%
+2026-10-24 12:09:10,actuelle,VENTE,SLOPCOIN,0.0001457,3802.24,stop-loss (-47%) PnL -9651.43$ coût 46.2%
+2026-10-24 12:09:10,agressive,VENTE,SLOPCOIN,0.0001457,3805.47,stop-loss (-48%) PnL -9783.93$ coût 46.4%
