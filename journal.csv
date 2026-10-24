@@ -1264,3 +1264,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 10:44:06,actuelle,ACHAT,BIO,0.0002559362082,13846.56,score 65 coût 87.9%
 2026-10-24 10:44:06,agressive,ACHAT,BIO,0.00025878,14415.65,score 65 coût 90.0%
 2026-10-24 10:44:06,hasard,ACHAT,BIO,0.0002316531081,11006.10,score 65 coût 70.1%
+2026-10-24 10:48:07,actuelle,VENTE,BIO,0.0001626,4318.83,stop-loss (-36%) PnL -9527.73$ coût 50.9%
+2026-10-24 10:49:06,agressive,VENTE,BIO,8.013e-05,2789.08,stop-loss (-69%) PnL -11626.57$ coût 37.5%
+2026-10-24 10:49:06,hasard,VENTE,BIO,8.013e-05,2583.29,stop-loss (-65%) PnL -8422.81$ coût 32.1%
