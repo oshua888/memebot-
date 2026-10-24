@@ -664,3 +664,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-24 20:07,2026-10-24 22:51,apprentie,REMUS,boost+tendance,palier +25%,2.73,31.11,67,71028,8.57,20.9,1.233,0.561,2.92,21.18,17.92,1
 2026-10-24 22:09,2026-10-24 23:02,apprentie,SWORDOPE,boost,palier +25%,0.9,33.59,69,145409,17.94,2.4,5.394,0.717,8.23,126,4606,1
 2026-10-24 22:35,2026-10-24 23:07,prudente,SWORDOPE,boost,trailing-stop,0.55,28.63,81,137505,16.84,2.8,5.101,0.673,-13.96,55.89,4076,1
+2026-10-24 21:37,2026-10-24 23:22,apprentie,CATTLEAXE,profil,palier +25%,1.77,23.88,70,70812,9.35,2.0,7.226,0.714,1.32,2.5,845,0
