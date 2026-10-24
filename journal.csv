@@ -1120,3 +1120,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 00:00:48,prudente,VENTE,BITCHES,0.00396,3.67,palier +60% PnL +1.39$ coût 1.0%
 2026-10-24 00:03:21,prudente,VENTE,BITCHES,0.0032,2.96,trailing-stop PnL +0.69$ coût 1.0%
 2026-10-24 00:03:21,prudente,ACHAT,BITCHES,0.003232363468,9.17,score 81 coût 1.0%
+2026-10-24 00:05:25,hasard,VENTE,Dacity,0.0106,11096.48,durée max 12h PnL -3848.15$ coût 6.6%
+2026-10-24 00:05:25,hasard,ACHAT,Moustache,0.0008637831759,12934.68,score 49 coût 36.5%
+2026-10-24 00:06:21,hasard,VENTE,Moustache,0.0004161,4887.61,stop-loss (-52%) PnL -8047.07$ coût 21.6%
+2026-10-24 00:06:21,hasard,ACHAT,Pokémon,0.0003680805628,12781.36,score 21 coût 43.8%
+2026-10-24 00:06:21,apprentie,VENTE,YMBCOIN,0.001265,23.12,palier +25% PnL +4.60$ coût 1.0%
+2026-10-24 00:07:18,hasard,VENTE,Pokémon,0.0002561,6157.29,stop-loss (-30%) PnL -6624.07$ coût 30.8%
+2026-10-24 00:07:18,hasard,ACHAT,YMBCOIN,0.001595418588,12597.51,score 71 coût 26.5%
