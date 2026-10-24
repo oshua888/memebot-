@@ -1286,3 +1286,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 12:35:05,hasard,VENTE,OpenSolana,0.000201,4444.82,stop-loss (-33%) PnL -6098.04$ coût 37.5%
 2026-10-24 12:36:05,actuelle,VENTE,OpenSolana,0.0002033,4647.26,stop-loss (-40%) PnL -8613.38$ coût 41.4%
 2026-10-24 12:37:05,agressive,VENTE,OpenSolana,0.0001814,4364.75,stop-loss (-44%) PnL -8906.30$ coût 41.0%
+2026-10-24 12:49:05,apprentie,VENTE,Pokémon,0.0002061,15.26,durée max 12h PnL -3.47$ coût 1.1%
+2026-10-24 12:49:05,apprentie,ACHAT,Moustache,0.0007347945431,18.27,score 70 coût 1.0%
