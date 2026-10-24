@@ -1220,3 +1220,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 03:13:19,actuelle,ACHAT,ELIZABETH,0.0005286375206,14431.07,score 64 coût 58.0%
 2026-10-24 03:13:19,agressive,ACHAT,ELIZABETH,0.0005523402677,16224.84,score 64 coût 65.1%
 2026-10-24 03:14:18,actuelle,VENTE,ELIZABETH,0.0003684,6157.82,stop-loss (-30%) PnL -8273.25$ coût 38.8%
+2026-10-24 03:19:19,apprentie,VENTE,Moustache,0.000363,13.03,stop-loss (-28%) PnL -5.31$ coût 1.0%
+2026-10-24 03:19:19,apprentie,ACHAT,DOPE,0.002923411974,18.22,score 31 coût 1.0%
