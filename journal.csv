@@ -1280,29 +1280,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 12:08:06,agressive,ACHAT,SLOPCOIN,0.0002787421716,13589.40,score 62 coût 86.9%
 2026-10-24 12:09:10,actuelle,VENTE,SLOPCOIN,0.0001457,3802.24,stop-loss (-47%) PnL -9651.43$ coût 46.2%
 2026-10-24 12:09:10,agressive,VENTE,SLOPCOIN,0.0001457,3805.47,stop-loss (-48%) PnL -9783.93$ coût 46.4%
-2026-10-24 12:34:06,agressive,ACHAT,OpenSolana,0.0003255837906,13271.06,score 58 coût 71.1%
-2026-10-24 12:34:06,hasard,ACHAT,OpenSolana,0.0002981640557,10542.86,score 58 coût 56.7%
-2026-10-24 12:35:05,actuelle,ACHAT,OpenSolana,0.0003397461458,13260.64,score 66 coût 69.0%
-2026-10-24 12:35:05,hasard,VENTE,OpenSolana,0.000201,4444.82,stop-loss (-33%) PnL -6098.04$ coût 37.5%
-2026-10-24 12:36:05,actuelle,VENTE,OpenSolana,0.0002033,4647.26,stop-loss (-40%) PnL -8613.38$ coût 41.4%
-2026-10-24 12:37:05,agressive,VENTE,OpenSolana,0.0001814,4364.75,stop-loss (-44%) PnL -8906.30$ coût 41.0%
-2026-10-24 12:49:05,apprentie,VENTE,Pokémon,0.0002061,15.26,durée max 12h PnL -3.47$ coût 1.1%
-2026-10-24 12:49:05,apprentie,ACHAT,Moustache,0.0007347945431,18.27,score 70 coût 1.0%
-2026-10-24 12:57:05,apprentie,VENTE,Dacity,0.00717,12.85,stop-loss (-29%) PnL -5.36$ coût 1.0%
-2026-10-24 12:57:05,apprentie,ACHAT,SHADOW,0.000227652127,18.27,score 46 coût 1.1%
-2026-10-24 13:00:04,apprentie,VENTE,DOPE,0.004058,23.05,palier +25% PnL +4.72$ coût 1.0%
-2026-10-24 13:05:04,prudente,ACHAT,DacityCoin,0.003186827923,9.09,score 72 coût 1.0%
-2026-10-24 13:05:04,actuelle,ACHAT,DacityCoin,0.003586556167,13088.37,score 72 coût 13.7%
-2026-10-24 13:11:04,apprentie,VENTE,Moustache,0.0005287,13.01,stop-loss (-28%) PnL -5.26$ coût 1.0%
-2026-10-24 13:28:04,actuelle,ACHAT,Dacity,0.009472955917,13007.17,score 62 coût 7.6%
-2026-10-24 13:45:04,actuelle,ACHAT,DOPE,0.004008804171,12972.14,score 60 coût 11.4%
-2026-10-24 13:47:04,actuelle,ACHAT,TRUTH,0.001170294787,12925.45,score 60 coût 10.0%
-2026-10-24 13:47:04,agressive,ACHAT,GLITCH,0.003142192608,13148.46,score 52 coût 19.6%
-2026-10-24 13:48:04,actuelle,ACHAT,GLITCH,0.003227142327,12891.69,score 61 coût 18.9%
-2026-10-24 13:49:03,actuelle,VENTE,TRUTH,4.088e-05,426.53,stop-loss (-97%) PnL -12498.92$ coût 5.5%
-2026-10-24 13:55:06,prudente,ACHAT,Dacity,0.008936889087,9.08,score 70 coût 1.0%
-2026-10-24 13:58:04,prudente,VENTE,DacityCoin,0.002423,6.84,stop-loss (-24%) PnL -2.25$ coût 1.0%
-2026-10-24 13:58:04,actuelle,VENTE,DacityCoin,0.002423,7874.64,stop-loss (-32%) PnL -5213.73$ coût 10.9%
-2026-10-24 14:10:06,prudente,ACHAT,VIRTUAL,0.0003911974668,9.07,score 70 coût 1.0%
-2026-10-24 14:19:06,prudente,ACHAT,COIL,0.0001033913292,9.07,score 70 coût 1.1%
-2026-10-24 14:26:05,apprentie,ACHAT,DacityCoin,0.003457819288,18.25,score 69 coût 1.0%
+2026-10-24 14:46:44,prudente,ACHAT,VIRTUAL,0.0004706968176,9.09,score 80 coût 1.0%
+2026-10-24 14:46:44,agressive,ACHAT,GLITCH,0.003654486118,13316.04,score 59 coût 18.4%
+2026-10-24 14:46:44,apprentie,VENTE,Pokémon,0.0001718,12.72,stop-loss (-31%) PnL -6.01$ coût 1.1%
+2026-10-24 14:46:44,apprentie,VENTE,VIRTUAL,0.0004659,22.72,palier +25% PnL +4.50$ coût 1.1%
+2026-10-24 14:46:44,apprentie,ACHAT,VIRTUAL,0.0004708366728,18.32,score 80 coût 1.1%
+2026-10-24 14:46:44,apprentie,ACHAT,DacityCoin,0.003086107987,18.31,score 58 coût 1.0%
