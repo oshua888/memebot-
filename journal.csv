@@ -1144,3 +1144,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 00:45:18,apprentie,ACHAT,YMBCOIN,0.00107710148,18.72,score 56 coût 1.0%
 2026-10-24 00:45:18,apprentie,ACHAT,YMB,0.0006459710373,18.71,score 52 coût 1.0%
 2026-10-24 00:48:18,apprentie,ACHAT,Pokémon,0.0002502339892,18.73,score 20 coût 1.1%
+2026-10-24 00:50:18,agressive,ACHAT,TRUTH,0.0003651453429,18229.07,score 51 coût 81.5%
+2026-10-24 00:51:18,agressive,VENTE,TRUTH,0.0001944,5375.80,stop-loss (-47%) PnL -12853.27$ coût 44.6%
