@@ -1174,3 +1174,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 01:08:19,prudente,VENTE,YMBCOIN,0.001423,5.99,palier +30% PnL +1.41$ coût 1.0%
 2026-10-24 01:08:19,apprentie,VENTE,YMBCOIN,0.001423,24.48,palier +25% PnL +5.75$ coût 1.0%
 2026-10-24 01:08:19,apprentie,ACHAT,YMBCOIN,0.001437740214,18.83,score 57 coût 1.0%
+2026-10-24 01:10:18,actuelle,VENTE,YMB,0.0005198,7641.16,stop-loss (-30%) PnL -7655.15$ coût 28.6%
+2026-10-24 01:11:18,prudente,VENTE,YMBCOIN,0.001317,5.54,trailing-stop PnL +0.96$ coût 1.0%
+2026-10-24 01:11:18,prudente,ACHAT,YMBCOIN,0.00133041037,9.24,score 81 coût 1.0%
+2026-10-24 01:11:18,agressive,ACHAT,REMUS,0.00036385,17781.99,score 57 coût 90.0%
+2026-10-24 01:11:18,hasard,ACHAT,REMUS,0.0003206766092,12261.28,score 57 coût 67.5%
+2026-10-24 01:11:18,apprentie,VENTE,YMB,0.0003603,10.33,stop-loss (-44%) PnL -8.38$ coût 1.0%
+2026-10-24 01:11:18,apprentie,ACHAT,Moustache,0.0006480380654,18.70,score 50 coût 1.1%
+2026-10-24 01:12:18,agressive,VENTE,REMUS,0.0001948,4558.39,stop-loss (-46%) PnL -13223.60$ coût 52.1%
+2026-10-24 01:12:18,hasard,VENTE,REMUS,0.0001948,4394.97,stop-loss (-39%) PnL -7866.31$ coût 41.0%
