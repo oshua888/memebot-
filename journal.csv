@@ -1379,3 +1379,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 20:16:00,actuelle,VENTE,TRUMPE,0.0001177,3420.97,stop-loss (-47%) PnL -8898.27$ coût 47.8%
 2026-10-24 20:23:00,prudente,ACHAT,MI,0.000584848757,8.98,score 73 coût 1.0%
 2026-10-24 20:24:00,prudente,ACHAT,swordtrump,0.0005883812938,8.98,score 77 coût 1.0%
+2026-10-24 20:39:59,apprentie,VENTE,swordtrump,0.000632,22.12,palier +25% PnL +4.27$ coût 1.1%
+2026-10-24 20:39:59,apprentie,ACHAT,swordtrump,0.0006386466329,17.93,score 77 coût 1.1%
