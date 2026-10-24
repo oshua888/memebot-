@@ -1215,3 +1215,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 03:02:22,prudente,VENTE,TRUTH,0.0003247,3.77,palier +60% PnL +1.48$ coût 1.0%
 2026-10-24 03:03:18,agressive,ACHAT,Dacity,0.01096891168,16682.55,score 58 coût 9.0%
 2026-10-24 03:04:18,agressive,ACHAT,ELON,0.00021831,16602.61,score 59 coût 90.0%
+2026-10-24 03:05:18,agressive,VENTE,ELON,0.0001142,3601.26,stop-loss (-48%) PnL -13001.35$ coût 58.5%
