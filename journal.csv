@@ -1284,3 +1284,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 12:34:06,hasard,ACHAT,OpenSolana,0.0002981640557,10542.86,score 58 coût 56.7%
 2026-10-24 12:35:05,actuelle,ACHAT,OpenSolana,0.0003397461458,13260.64,score 66 coût 69.0%
 2026-10-24 12:35:05,hasard,VENTE,OpenSolana,0.000201,4444.82,stop-loss (-33%) PnL -6098.04$ coût 37.5%
+2026-10-24 12:36:05,actuelle,VENTE,OpenSolana,0.0002033,4647.26,stop-loss (-40%) PnL -8613.38$ coût 41.4%
+2026-10-24 12:37:05,agressive,VENTE,OpenSolana,0.0001814,4364.75,stop-loss (-44%) PnL -8906.30$ coût 41.0%
