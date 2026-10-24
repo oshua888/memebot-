@@ -1441,3 +1441,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 23:22:59,apprentie,VENTE,CATTLEAXE,0.0008412,22.05,palier +25% PnL +4.25$ coût 1.1%
 2026-10-24 23:25:01,prudente,ACHAT,███,0.0005272579335,9.00,score 81 coût 1.0%
 2026-10-24 23:25:01,apprentie,ACHAT,███,0.0005274012485,18.28,score 81 coût 1.1%
+2026-10-24 23:32:59,apprentie,VENTE,SWORDOPE,0.002697,13.47,stop-loss (-25%) PnL -4.75$ coût 1.0%
+2026-10-24 23:34:01,hasard,ACHAT,WILDWOOD,0.000213983777,9242.50,score 48 coût 56.5%
+2026-10-24 23:35:00,hasard,VENTE,WILDWOOD,0.0001303,3623.94,stop-loss (-39%) PnL -5618.57$ coût 35.6%
+2026-10-24 23:35:00,apprentie,VENTE,WRHND,0.001715,22.46,palier +25% PnL +4.53$ coût 1.0%
+2026-10-24 23:35:00,apprentie,ACHAT,WRHND,0.001732688115,18.27,score 64 coût 1.0%
