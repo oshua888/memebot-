@@ -1381,3 +1381,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 20:24:00,prudente,ACHAT,swordtrump,0.0005883812938,8.98,score 77 coût 1.0%
 2026-10-24 20:39:59,apprentie,VENTE,swordtrump,0.000632,22.12,palier +25% PnL +4.27$ coût 1.1%
 2026-10-24 20:39:59,apprentie,ACHAT,swordtrump,0.0006386466329,17.93,score 77 coût 1.1%
+2026-10-24 20:42:00,prudente,ACHAT,COIL,0.0001984545281,8.98,score 70 coût 1.0%
