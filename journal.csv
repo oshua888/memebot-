@@ -1212,3 +1212,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 02:45:17,apprentie,ACHAT,MCRIBINU,0.001262971605,18.33,score 51 coût 1.0%
 2026-10-24 02:46:18,hasard,VENTE,ELIZABETH,0.0002971,5187.06,stop-loss (-33%) PnL -6490.37$ coût 34.0%
 2026-10-24 02:50:18,prudente,VENTE,TRUTH,0.0002555,5.94,palier +30% PnL +1.34$ coût 1.0%
+2026-10-24 03:02:22,prudente,VENTE,TRUTH,0.0003247,3.77,palier +60% PnL +1.48$ coût 1.0%
+2026-10-24 03:03:18,agressive,ACHAT,Dacity,0.01096891168,16682.55,score 58 coût 9.0%
+2026-10-24 03:04:18,agressive,ACHAT,ELON,0.00021831,16602.61,score 59 coût 90.0%
