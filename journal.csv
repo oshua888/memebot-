@@ -1214,3 +1214,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 04:33:42,apprentie,VENTE,HELL,0.002654,22.92,palier +25% PnL +4.53$ coût 1.0%
 2026-10-24 04:34:43,agressive,ACHAT,DacityCoin,0.002249321725,16437.97,score 56 coût 22.7%
 2026-10-24 04:34:43,hasard,ACHAT,DacityCoin,0.002134386053,11690.87,score 56 coût 16.4%
+2026-10-24 04:53:43,actuelle,ACHAT,TRUMP,0.0008369543144,14425.28,score 63 coût 44.4%
+2026-10-24 04:53:43,agressive,ACHAT,TRUMP,0.0008686693068,16244.66,score 63 coût 49.8%
+2026-10-24 04:53:43,hasard,ACHAT,TRUMP,0.000788180557,11627.29,score 63 coût 36.0%
