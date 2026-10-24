@@ -1409,3 +1409,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 22:09:00,prudente,VENTE,SWORDOPE,0.002621,3.56,palier +60% PnL +1.32$ coût 1.0%
 2026-10-24 22:09:00,apprentie,VENTE,SWORDOPE,0.002621,22.38,palier +25% PnL +4.50$ coût 1.0%
 2026-10-24 22:09:00,apprentie,ACHAT,SWORDOPE,0.002647856949,17.95,score 69 coût 1.0%
+2026-10-24 22:17:59,prudente,VENTE,MI,0.000449,6.82,stop-loss (-23%) PnL -2.16$ coût 1.0%
+2026-10-24 22:17:59,hasard,VENTE,SWORDOPE,0.002858,4337.46,palier +50% PnL +1233.31$ coût 7.1%
+2026-10-24 22:19:59,actuelle,ACHAT,HCAT,0.00019475,12040.99,score 60 coût 90.0%
+2026-10-24 22:19:59,agressive,ACHAT,HCAT,0.0001893190367,11315.33,score 60 coût 84.7%
+2026-10-24 22:19:59,hasard,ACHAT,HCAT,0.0001751632226,9448.32,score 60 coût 70.9%
+2026-10-24 22:20:59,actuelle,VENTE,HCAT,8.689e-05,2986.15,stop-loss (-55%) PnL -9054.85$ coût 44.4%
+2026-10-24 22:20:59,agressive,VENTE,HCAT,8.689e-05,2961.78,stop-loss (-54%) PnL -8353.54$ coût 43.0%
+2026-10-24 22:20:59,hasard,VENTE,HCAT,8.689e-05,2864.78,stop-loss (-50%) PnL -6583.55$ coût 38.9%
