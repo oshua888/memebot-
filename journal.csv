@@ -1170,3 +1170,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 01:02:18,apprentie,VENTE,BITCHES,0.003051,9.25,stop-loss (-51%) PnL -9.78$ coût 1.0%
 2026-10-24 01:02:18,apprentie,ACHAT,VIRTUAL,0.0002922196148,18.81,score 55 coût 1.1%
 2026-10-24 01:04:19,actuelle,VENTE,BITCHES,0.002559,9032.92,stop-loss (-30%) PnL -6359.36$ coût 15.7%
+2026-10-24 01:06:18,hasard,VENTE,BITCHES,0.002211,6739.30,stop-loss (-38%) PnL -5639.61$ coût 12.4%
+2026-10-24 01:08:19,prudente,VENTE,YMBCOIN,0.001423,5.99,palier +30% PnL +1.41$ coût 1.0%
+2026-10-24 01:08:19,apprentie,VENTE,YMBCOIN,0.001423,24.48,palier +25% PnL +5.75$ coût 1.0%
+2026-10-24 01:08:19,apprentie,ACHAT,YMBCOIN,0.001437740214,18.83,score 57 coût 1.0%
