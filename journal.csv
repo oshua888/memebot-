@@ -1388,3 +1388,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 20:57:00,apprentie,VENTE,swordtrump,0.0004701,13.06,stop-loss (-26%) PnL -4.87$ coût 1.0%
 2026-10-24 21:06:00,prudente,ACHAT,COIL,0.0002687639916,8.97,score 77 coût 1.0%
 2026-10-24 21:11:00,hasard,VENTE,swordtrump,0.000457,5069.29,stop-loss (-31%) PnL -4506.79$ coût 23.5%
+2026-10-24 21:37:00,prudente,ACHAT,CATTLEAXE,0.0006717174227,8.97,score 70 coût 1.0%
+2026-10-24 21:37:00,actuelle,ACHAT,CATTLEAXE,0.0008993476024,12130.28,score 70 coût 35.3%
+2026-10-24 21:37:00,agressive,ACHAT,CATTLEAXE,0.0008880328041,11527.76,score 70 coût 33.6%
+2026-10-24 21:37:00,hasard,ACHAT,CATTLEAXE,0.0008495839479,9480.36,score 70 coût 27.8%
+2026-10-24 21:37:00,apprentie,ACHAT,CATTLEAXE,0.0006718832132,17.80,score 70 coût 1.1%
+2026-10-24 21:39:01,prudente,VENTE,COIL,0.0002117,7.00,stop-loss (-21%) PnL -1.98$ coût 1.0%
