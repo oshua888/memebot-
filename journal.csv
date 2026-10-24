@@ -1324,3 +1324,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 16:18:46,apprentie,VENTE,HELL,0.002487,13.59,stop-loss (-25%) PnL -4.74$ coût 1.0%
 2026-10-24 16:18:46,apprentie,ACHAT,VIRTUAL,0.0006707642336,18.18,score 82 coût 1.0%
 2026-10-24 16:20:50,agressive,ACHAT,PRIVACY,0.0007099352881,12751.45,score 63 coût 41.8%
+2026-10-24 16:29:44,agressive,VENTE,PRIVACY,0.0004081,5340.54,stop-loss (-43%) PnL -7410.91$ coût 27.1%
