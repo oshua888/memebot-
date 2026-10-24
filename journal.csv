@@ -1339,3 +1339,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 16:49:44,prudente,VENTE,SHADOW,0.0001676,7.09,stop-loss (-21%) PnL -2.00$ coût 1.0%
 2026-10-24 17:02:45,prudente,ACHAT,PRIVACY,0.0004487786641,9.07,score 77 coût 1.0%
 2026-10-24 17:06:45,actuelle,ACHAT,Dacity,0.01260733107,12710.01,score 60 coût 6.6%
+2026-10-24 17:20:43,prudente,VENTE,PRIVACY,5.775e-05,1.16,stop-loss (-87%) PnL -7.92$ coût 1.0%
+2026-10-24 17:20:43,apprentie,VENTE,PRIVACY,5.775e-05,2.19,stop-loss (-88%) PnL -15.81$ coût 1.0%
