@@ -1376,3 +1376,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 19:52:41,apprentie,VENTE,swordtrump,0.0007284,22.24,palier +25% PnL +4.44$ coût 1.1%
 2026-10-24 19:52:41,apprentie,ACHAT,swordtrump,0.0007360377255,17.90,score 70 coût 1.0%
 2026-10-24 19:54:41,prudente,VENTE,swordtrump,0.0007511,5.78,palier +30% PnL +1.30$ coût 1.0%
+2026-10-24 19:56:43,prudente,VENTE,swordtrump,0.0005692,4.38,trailing-stop PnL -0.10$ coût 1.0%
+2026-10-24 19:57:42,agressive,ACHAT,VICECITY,0.000177004,11851.04,score 53 coût 90.0%
+2026-10-24 19:57:42,apprentie,VENTE,swordtrump,0.0005466,13.15,stop-loss (-26%) PnL -4.75$ coût 1.0%
+2026-10-24 19:58:43,hasard,VENTE,swordtrump,0.0005055,5053.53,stop-loss (-32%) PnL -4508.15$ coût 22.1%
+2026-10-24 19:59:42,agressive,VENTE,swordtrump,0.0004262,4939.78,stop-loss (-46%) PnL -7098.00$ coût 24.1%
+2026-10-24 20:00:52,apprentie,VENTE,REMUS,0.0006118,21.79,palier +25% PnL +4.23$ coût 1.1%
+2026-10-24 20:00:52,apprentie,ACHAT,REMUS,0.0006182271638,17.83,score 66 coût 1.1%
