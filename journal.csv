@@ -1280,3 +1280,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 12:08:06,agressive,ACHAT,SLOPCOIN,0.0002787421716,13589.40,score 62 coût 86.9%
 2026-10-24 12:09:10,actuelle,VENTE,SLOPCOIN,0.0001457,3802.24,stop-loss (-47%) PnL -9651.43$ coût 46.2%
 2026-10-24 12:09:10,agressive,VENTE,SLOPCOIN,0.0001457,3805.47,stop-loss (-48%) PnL -9783.93$ coût 46.4%
+2026-10-24 12:34:06,agressive,ACHAT,OpenSolana,0.0003255837906,13271.06,score 58 coût 71.1%
+2026-10-24 12:34:06,hasard,ACHAT,OpenSolana,0.0002981640557,10542.86,score 58 coût 56.7%
+2026-10-24 12:35:05,actuelle,ACHAT,OpenSolana,0.0003397461458,13260.64,score 66 coût 69.0%
+2026-10-24 12:35:05,hasard,VENTE,OpenSolana,0.000201,4444.82,stop-loss (-33%) PnL -6098.04$ coût 37.5%
