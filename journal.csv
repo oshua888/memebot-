@@ -1403,3 +1403,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 21:50:06,actuelle,VENTE,CATTLEAXE,0.0006162,6200.75,stop-loss (-31%) PnL -5929.52$ coût 25.4%
 2026-10-24 21:50:06,apprentie,VENTE,SWORDOPE,0.002051,22.15,palier +25% PnL +4.34$ coût 1.0%
 2026-10-24 21:50:06,apprentie,ACHAT,SWORDOPE,0.002072083015,17.88,score 83 coût 1.0%
+2026-10-24 21:55:00,prudente,VENTE,SWORDOPE,0.002269,6.16,palier +30% PnL +1.69$ coût 1.0%
