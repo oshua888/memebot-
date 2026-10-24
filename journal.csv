@@ -1240,3 +1240,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 05:35:43,agressive,VENTE,baldcat,9.584e-05,2964.54,stop-loss (-48%) PnL -12452.98$ coût 63.1%
 2026-10-24 05:37:42,agressive,VENTE,DacityCoin,0.001255,7736.49,stop-loss (-44%) PnL -8701.48$ coût 15.6%
 2026-10-24 05:40:43,prudente,VENTE,Moustache,0.0003278,7.02,stop-loss (-22%) PnL -2.13$ coût 1.0%
+2026-10-24 05:46:43,apprentie,VENTE,mil,0.0005146,22.58,palier +25% PnL +4.32$ coût 1.1%
+2026-10-24 05:47:43,prudente,VENTE,mil,0.000574,6.29,palier +30% PnL +1.73$ coût 1.0%
