@@ -1373,3 +1373,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 20:08:00,actuelle,ACHAT,swordtrump,0.0006859432831,12448.82,score 60 coût 42.3%
 2026-10-24 20:08:00,hasard,VENTE,VICECITY,0.0001229,3315.51,stop-loss (-45%) PnL -6382.64$ coût 37.3%
 2026-10-24 20:10:00,actuelle,VENTE,swordtrump,0.0004734,6032.71,stop-loss (-31%) PnL -6416.11$ coût 29.8%
+2026-10-24 20:13:00,agressive,ACHAT,VICECITY,0.0002160145479,11859.28,score 57 coût 84.6%
+2026-10-24 20:14:00,agressive,VENTE,VICECITY,0.0001182,3471.31,stop-loss (-45%) PnL -8387.98$ coût 46.5%
+2026-10-24 20:15:00,actuelle,ACHAT,TRUMPE,0.0002212882954,12319.24,score 67 coût 89.3%
+2026-10-24 20:16:00,actuelle,VENTE,TRUMPE,0.0001177,3420.97,stop-loss (-47%) PnL -8898.27$ coût 47.8%
