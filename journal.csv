@@ -1363,25 +1363,13 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 18:26:42,agressive,VENTE,かぼす,8.624e-05,2939.66,stop-loss (-52%) PnL -9363.29$ coût 50.7%
 2026-10-24 18:26:42,hasard,VENTE,かぼす,8.624e-05,2873.35,stop-loss (-49%) PnL -6964.08$ coût 43.1%
 2026-10-24 18:29:43,prudente,VENTE,かぼす,6.592e-05,6.21,stop-loss (-30%) PnL -2.80$ coût 1.1%
-2026-10-24 18:58:42,agressive,VENTE,DOPE,0.003935,20645.82,durée max 24h PnL -767.00$ coût 21.1%
-2026-10-24 19:12:41,prudente,ACHAT,MI,0.0005753543574,8.98,score 70 coût 1.0%
-2026-10-24 19:23:42,hasard,ACHAT,VICECITY,0.0001664699052,9698.15,score 41 coût 78.3%
-2026-10-24 19:24:41,hasard,VENTE,VICECITY,8.633e-05,2874.69,stop-loss (-48%) PnL -6823.46$ coût 42.8%
-2026-10-24 19:41:43,prudente,ACHAT,swordtrump,0.0005767665602,8.97,score 70 coût 1.0%
-2026-10-24 19:41:43,actuelle,ACHAT,swordtrump,0.0007953557154,12450.14,score 70 coût 39.3%
-2026-10-24 19:41:43,agressive,ACHAT,swordtrump,0.0007881105661,12037.77,score 70 coût 38.0%
-2026-10-24 19:41:43,hasard,ACHAT,swordtrump,0.0007446060721,9561.68,score 70 coût 30.4%
-2026-10-24 19:41:43,apprentie,ACHAT,swordtrump,0.0005769217477,17.80,score 70 coût 1.1%
-2026-10-24 19:42:48,actuelle,VENTE,swordtrump,0.0005284,6000.84,stop-loss (-34%) PnL -6449.30$ coût 27.5%
-2026-10-24 19:52:41,apprentie,VENTE,swordtrump,0.0007284,22.24,palier +25% PnL +4.44$ coût 1.1%
-2026-10-24 19:52:41,apprentie,ACHAT,swordtrump,0.0007360377255,17.90,score 70 coût 1.0%
-2026-10-24 19:54:41,prudente,VENTE,swordtrump,0.0007511,5.78,palier +30% PnL +1.30$ coût 1.0%
-2026-10-24 19:56:43,prudente,VENTE,swordtrump,0.0005692,4.38,trailing-stop PnL -0.10$ coût 1.0%
-2026-10-24 19:57:42,agressive,ACHAT,VICECITY,0.000177004,11851.04,score 53 coût 90.0%
-2026-10-24 19:57:42,apprentie,VENTE,swordtrump,0.0005466,13.15,stop-loss (-26%) PnL -4.75$ coût 1.0%
-2026-10-24 19:58:43,hasard,VENTE,swordtrump,0.0005055,5053.53,stop-loss (-32%) PnL -4508.15$ coût 22.1%
-2026-10-24 19:59:42,agressive,VENTE,swordtrump,0.0004262,4939.78,stop-loss (-46%) PnL -7098.00$ coût 24.1%
-2026-10-24 20:00:52,apprentie,VENTE,REMUS,0.0006118,21.79,palier +25% PnL +4.23$ coût 1.1%
-2026-10-24 20:00:52,apprentie,ACHAT,REMUS,0.0006182271638,17.83,score 66 coût 1.1%
-2026-10-24 20:01:43,hasard,ACHAT,ZENO,0.0003155588384,9471.52,score 29 coût 49.1%
-2026-10-24 20:02:42,hasard,VENTE,ZENO,0.0002117,4241.94,stop-loss (-33%) PnL -5229.58$ coût 33.2%
+2026-10-24 20:07:00,agressive,VENTE,DOPE,0.003842,20235.33,durée max 24h PnL -1177.49$ coût 20.8%
+2026-10-24 20:07:00,agressive,ACHAT,swordtrump,0.0006999659454,12029.39,score 59 coût 40.2%
+2026-10-24 20:07:00,hasard,ACHAT,VICECITY,0.0002252839565,9698.15,score 40 coût 63.7%
+2026-10-24 20:07:00,hasard,ACHAT,swordtrump,0.0006600393803,9576.09,score 59 coût 32.2%
+2026-10-24 20:07:00,apprentie,VENTE,REMUS,0.0006171,21.97,palier +25% PnL +4.42$ coût 1.1%
+2026-10-24 20:07:00,apprentie,ACHAT,swordtrump,0.0005044824627,17.85,score 59 coût 1.1%
+2026-10-24 20:07:00,apprentie,ACHAT,REMUS,0.0006235809959,17.84,score 67 coût 1.1%
+2026-10-24 20:08:00,actuelle,ACHAT,swordtrump,0.0006859432831,12448.82,score 60 coût 42.3%
+2026-10-24 20:08:00,hasard,VENTE,VICECITY,0.0001229,3315.51,stop-loss (-45%) PnL -6382.64$ coût 37.3%
+2026-10-24 20:10:00,actuelle,VENTE,swordtrump,0.0004734,6032.71,stop-loss (-31%) PnL -6416.11$ coût 29.8%
