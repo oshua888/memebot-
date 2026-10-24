@@ -1336,3 +1336,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 16:43:47,prudente,VENTE,VIRTUAL,0.0002617,2.50,stop-loss (-44%) PnL -2.04$ coût 1.0%
 2026-10-24 16:43:47,apprentie,VENTE,VIRTUAL,0.0002617,7.02,stop-loss (-61%) PnL -11.16$ coût 1.0%
 2026-10-24 16:43:47,apprentie,ACHAT,PRIVACY,0.0004704337082,18.00,score 63 coût 1.1%
+2026-10-24 16:49:44,prudente,VENTE,SHADOW,0.0001676,7.09,stop-loss (-21%) PnL -2.00$ coût 1.0%

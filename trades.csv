@@ -620,3 +620,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-24 15:57,2026-10-24 16:38,actuelle,DacityCoin,tendance,stop-loss (-32%),0.68,-39.55,63,189491,13.94,218.5,1.225,0.503,-0.16,6.03,95.22,0
 2026-10-24 14:46,2026-10-24 16:43,prudente,VIRTUAL,boost+tendance,stop-loss (-44%),1.95,-2.69,80,61484,6.59,47.0,1.835,0.627,4.84,55.52,32.27,1
 2026-10-24 16:18,2026-10-24 16:43,apprentie,VIRTUAL,boost+tendance,stop-loss (-61%),0.42,-61.39,82,74003,7.8,48.5,1.518,0.676,18.25,31.04,76.18,1
+2026-10-24 15:30,2026-10-24 16:49,prudente,SHADOW,boost,stop-loss (-21%),1.32,-21.99,72,39302,4.99,70.3,0.757,0.954,-4.44,15.98,33.48,1
