@@ -1273,3 +1273,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 11:10:07,hasard,ACHAT,HUG,0.000257352016,10683.72,score 50 coût 66.6%
 2026-10-24 11:11:07,agressive,VENTE,HUG,0.0001439,3808.18,stop-loss (-50%) PnL -10259.48$ coût 45.6%
 2026-10-24 11:11:07,hasard,VENTE,HUG,0.0001439,3640.91,stop-loss (-44%) PnL -7042.80$ coût 39.1%
+2026-10-24 11:22:06,actuelle,ACHAT,HUG,0.00025441,13656.01,score 65 coût 90.0%
+2026-10-24 11:23:06,actuelle,VENTE,HUG,0.0001238,3538.92,stop-loss (-51%) PnL -10117.09$ coût 46.7%
