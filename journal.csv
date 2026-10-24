@@ -1288,3 +1288,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 12:37:05,agressive,VENTE,OpenSolana,0.0001814,4364.75,stop-loss (-44%) PnL -8906.30$ coût 41.0%
 2026-10-24 12:49:05,apprentie,VENTE,Pokémon,0.0002061,15.26,durée max 12h PnL -3.47$ coût 1.1%
 2026-10-24 12:49:05,apprentie,ACHAT,Moustache,0.0007347945431,18.27,score 70 coût 1.0%
+2026-10-24 12:57:05,apprentie,VENTE,Dacity,0.00717,12.85,stop-loss (-29%) PnL -5.36$ coût 1.0%
+2026-10-24 12:57:05,apprentie,ACHAT,SHADOW,0.000227652127,18.27,score 46 coût 1.1%
+2026-10-24 13:00:04,apprentie,VENTE,DOPE,0.004058,23.05,palier +25% PnL +4.72$ coût 1.0%
