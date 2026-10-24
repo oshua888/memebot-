@@ -1433,3 +1433,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 22:45:00,prudente,ACHAT,WRHND,0.001424340869,8.97,score 75 coût 1.0%
 2026-10-24 22:51:02,apprentie,VENTE,REMUS,0.0008263,23.39,palier +25% PnL +5.55$ coût 1.1%
 2026-10-24 22:51:02,apprentie,ACHAT,REMUS,0.000834923368,18.06,score 61 coût 1.0%
+2026-10-24 22:58:59,prudente,VENTE,SWORDOPE,0.003067,5.79,palier +30% PnL +1.31$ coût 1.0%
