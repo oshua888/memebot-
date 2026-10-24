@@ -1246,3 +1246,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 06:00:46,apprentie,ACHAT,mil,0.0005333651316,18.34,score 66 coût 1.1%
 2026-10-24 06:05:44,apprentie,ACHAT,ARCTIS,0.0001090251532,18.34,score 37 coût 1.1%
 2026-10-24 06:05:44,apprentie,ACHAT,DOPE,0.003194117023,18.33,score 34 coût 1.0%
+2026-10-24 06:23:41,apprentie,VENTE,mil,0.000395,13.44,stop-loss (-26%) PnL -4.90$ coût 1.0%
+2026-10-24 06:23:41,apprentie,ACHAT,Dacity,0.01005845726,18.21,score 31 coût 1.0%
