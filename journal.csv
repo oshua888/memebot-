@@ -1317,3 +1317,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 16:12:45,hasard,VENTE,GDC,0.0005992,5439.64,stop-loss (-33%) PnL -4881.89$ coût 21.4%
 2026-10-24 16:14:45,hasard,ACHAT,TRUMPE,0.0002159967631,10075.88,score 45 coût 71.4%
 2026-10-24 16:15:49,hasard,VENTE,TRUMPE,0.0001227,3344.56,stop-loss (-43%) PnL -6731.32$ coût 41.6%
+2026-10-24 16:16:47,agressive,VENTE,HELL,0.002619,7164.87,stop-loss (-40%) PnL -6580.74$ coût 13.0%
+2026-10-24 16:16:47,apprentie,VENTE,VIRTUAL,0.0005908,22.75,palier +25% PnL +4.42$ coût 1.1%
+2026-10-24 16:16:47,apprentie,ACHAT,MI,0.000721303482,18.20,score 47 coût 1.1%
+2026-10-24 16:18:46,prudente,VENTE,VIRTUAL,0.0006638,6.35,palier +30% PnL +1.80$ coût 1.0%
+2026-10-24 16:18:46,apprentie,VENTE,HELL,0.002487,13.59,stop-loss (-25%) PnL -4.74$ coût 1.0%
+2026-10-24 16:18:46,apprentie,ACHAT,VIRTUAL,0.0006707642336,18.18,score 82 coût 1.0%
+2026-10-24 16:20:50,agressive,ACHAT,PRIVACY,0.0007099352881,12751.45,score 63 coût 41.8%
