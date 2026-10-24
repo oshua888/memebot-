@@ -1352,3 +1352,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 18:04:44,prudente,ACHAT,GDC,0.001152624184,9.05,score 80 coût 1.0%
 2026-10-24 18:05:43,apprentie,VENTE,MI,0.0004665,11.65,stop-loss (-35%) PnL -6.55$ coût 1.0%
 2026-10-24 18:05:43,apprentie,ACHAT,REMUS,0.0004876992996,17.55,score 71 coût 1.1%
+2026-10-24 18:06:42,prudente,VENTE,GDC,0.0006372,4.95,stop-loss (-45%) PnL -4.10$ coût 1.0%
