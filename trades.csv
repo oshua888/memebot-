@@ -650,3 +650,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-24 20:07,2026-10-24 21:45,agressive,swordtrump,boost,stop-loss (-78%),1.63,-81.35,59,61347,8.1,2.4,7.263,0.668,5.55,-18.39,876,1
 2026-10-24 21:37,2026-10-24 21:50,actuelle,CATTLEAXE,profil,stop-loss (-31%),0.22,-48.88,70,70812,9.35,2.0,7.226,0.714,1.32,2.5,845,0
 2026-10-24 21:45,2026-10-24 21:50,apprentie,SWORDOPE,boost,palier +25%,0.08,24.4,81,113299,14.19,2.0,8.535,0.75,-12.13,12.63,2800,1
+2026-10-24 21:37,2026-10-24 21:58,hasard,CATTLEAXE,profil,stop-loss (-36%),0.35,-48.93,70,70812,9.35,2.0,7.226,0.714,1.32,2.5,845,0
