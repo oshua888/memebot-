@@ -1194,3 +1194,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 01:28:18,apprentie,VENTE,TRUTH,0.0001546,2.60,stop-loss (-86%) PnL -15.89$ coût 1.0%
 2026-10-24 01:30:26,hasard,ACHAT,McRib,0.0005793637426,12117.88,score 26 coût 36.3%
 2026-10-24 01:41:18,hasard,VENTE,McRib,0.0004047,6237.08,stop-loss (-30%) PnL -5880.81$ coût 26.3%
+2026-10-24 01:48:18,apprentie,VENTE,Moustache,0.0008264,23.59,palier +25% PnL +4.89$ coût 1.1%
