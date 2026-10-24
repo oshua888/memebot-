@@ -1183,3 +1183,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 01:11:18,apprentie,ACHAT,Moustache,0.0006480380654,18.70,score 50 coût 1.1%
 2026-10-24 01:12:18,agressive,VENTE,REMUS,0.0001948,4558.39,stop-loss (-46%) PnL -13223.60$ coût 52.1%
 2026-10-24 01:12:18,hasard,VENTE,REMUS,0.0001948,4394.97,stop-loss (-39%) PnL -7866.31$ coût 41.0%
+2026-10-24 01:17:18,actuelle,ACHAT,REMUS,0.0003522387162,15120.99,score 63 coût 82.4%
+2026-10-24 01:18:20,actuelle,VENTE,REMUS,0.0001922,4494.44,stop-loss (-45%) PnL -10626.56$ coût 45.5%
+2026-10-24 01:19:18,prudente,VENTE,YMBCOIN,0.0006117,4.20,stop-loss (-54%) PnL -5.03$ coût 1.0%
+2026-10-24 01:19:18,actuelle,VENTE,YMBCOIN,0.0006117,6003.72,stop-loss (-49%) PnL -9445.57$ coût 23.9%
+2026-10-24 01:19:18,agressive,VENTE,BITCHES,0.001225,6695.74,stop-loss (-61%) PnL -14118.88$ coût 17.1%
+2026-10-24 01:19:18,agressive,VENTE,YMBCOIN,0.0006117,6765.93,stop-loss (-53%) PnL -13265.99$ coût 28.5%
+2026-10-24 01:19:18,apprentie,VENTE,YMBCOIN,0.0006117,7.93,stop-loss (-57%) PnL -10.90$ coût 1.0%
