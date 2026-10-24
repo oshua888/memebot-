@@ -1146,3 +1146,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 00:48:18,apprentie,ACHAT,Pokémon,0.0002502339892,18.73,score 20 coût 1.1%
 2026-10-24 00:50:18,agressive,ACHAT,TRUTH,0.0003651453429,18229.07,score 51 coût 81.5%
 2026-10-24 00:51:18,agressive,VENTE,TRUTH,0.0001944,5375.80,stop-loss (-47%) PnL -12853.27$ coût 44.6%
+2026-10-24 00:56:18,prudente,VENTE,BITCHES,0.004408,6.19,palier +30% PnL +1.61$ coût 1.0%
+2026-10-24 00:56:18,hasard,VENTE,BITCHES,0.004408,6018.56,palier +50% PnL +1745.57$ coût 7.9%
+2026-10-24 00:56:18,apprentie,VENTE,BITCHES,0.004408,25.37,palier +25% PnL +6.81$ coût 1.0%
+2026-10-24 00:56:18,apprentie,ACHAT,BITCHES,0.004452951938,18.80,score 69 coût 1.0%
+2026-10-24 00:57:18,actuelle,VENTE,BITCHES,0.00499,7873.75,palier +50% PnL +2669.90$ coût 9.6%
+2026-10-24 00:58:18,prudente,VENTE,BITCHES,0.004181,5.87,trailing-stop PnL +1.29$ coût 1.0%
+2026-10-24 00:58:18,prudente,ACHAT,BITCHES,0.004223225256,9.21,score 85 coût 1.0%
+2026-10-24 00:59:18,prudente,VENTE,BITCHES,0.005514,5.95,palier +30% PnL +1.35$ coût 1.0%
