@@ -1386,3 +1386,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 20:55:00,prudente,VENTE,COIL,0.0002333,5.22,trailing-stop PnL +0.73$ coût 1.0%
 2026-10-24 20:57:00,prudente,VENTE,swordtrump,0.0004701,7.10,stop-loss (-20%) PnL -1.88$ coût 1.0%
 2026-10-24 20:57:00,apprentie,VENTE,swordtrump,0.0004701,13.06,stop-loss (-26%) PnL -4.87$ coût 1.0%
+2026-10-24 21:06:00,prudente,ACHAT,COIL,0.0002687639916,8.97,score 77 coût 1.0%
