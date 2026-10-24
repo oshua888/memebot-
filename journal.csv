@@ -1289,3 +1289,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 14:53:43,prudente,ACHAT,YMB,0.0003398599421,9.10,score 70 coût 1.0%
 2026-10-24 15:08:42,hasard,ACHAT,PHP,0.0001913878216,10542.86,score 34 coût 58.8%
 2026-10-24 15:09:42,hasard,VENTE,PHP,0.0001188,4107.35,stop-loss (-38%) PnL -6435.51$ coût 37.2%
+2026-10-24 15:17:42,apprentie,VENTE,Dacity,0.007305,13.09,stop-loss (-27%) PnL -5.12$ coût 1.0%
+2026-10-24 15:17:42,apprentie,ACHAT,GLITCH,0.002811533344,18.31,score 33 coût 1.0%
+2026-10-24 15:19:41,apprentie,VENTE,DacityCoin,0.002309,13.56,stop-loss (-25%) PnL -4.75$ coût 1.0%
+2026-10-24 15:19:41,apprentie,ACHAT,SHADOW,0.00020885962,18.25,score 55 coût 1.1%
