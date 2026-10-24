@@ -1227,3 +1227,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 05:13:42,agressive,ACHAT,Dacity,0.0106937248,15899.61,score 52 coût 8.7%
 2026-10-24 05:18:43,hasard,ACHAT,baldcat,0.000175693,11484.71,score 37 coût 90.0%
 2026-10-24 05:19:43,hasard,VENTE,baldcat,8.208e-05,2895.16,stop-loss (-53%) PnL -8589.55$ coût 46.0%
+2026-10-24 05:25:45,agressive,ACHAT,███,0.00031293,15792.51,score 51 coût 90.0%
+2026-10-24 05:25:45,hasard,ACHAT,███,0.0002730132406,11294.57,score 51 coût 65.8%
+2026-10-24 05:26:43,hasard,VENTE,███,0.0001907,4507.09,stop-loss (-30%) PnL -6787.48$ coût 42.9%
+2026-10-24 05:28:45,agressive,VENTE,███,0.0001864,4563.00,stop-loss (-40%) PnL -11229.52$ coût 51.5%
+2026-10-24 05:29:44,actuelle,ACHAT,███,0.0003451588088,14246.16,score 67 coût 75.3%
