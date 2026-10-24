@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tournée Générale</title>
+<script>
+  // Toute adresse inconnue du site renvoie vers l'appli (en gardant un éventuel ?groupe=CODE)
+  var base = "/memebot-/tournee-generale/";
+  if (location.pathname.indexOf(base) !== 0 || location.pathname !== base) location.replace(base + location.search + location.hash);
+</script>
+</head>
+<body style="background:#1a1224;color:#f5eefa;font-family:system-ui,sans-serif;padding:24px">
+<p>Cette page n'existe pas. <a href="/memebot-/tournee-generale/" style="color:#ffb547">Ouvrir Tournée Générale</a></p>
+</body>
+</html>
