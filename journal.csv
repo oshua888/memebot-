@@ -1301,3 +1301,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 13:48:04,actuelle,ACHAT,GLITCH,0.003227142327,12891.69,score 61 coût 18.9%
 2026-10-24 13:49:03,actuelle,VENTE,TRUTH,4.088e-05,426.53,stop-loss (-97%) PnL -12498.92$ coût 5.5%
 2026-10-24 13:55:06,prudente,ACHAT,Dacity,0.008936889087,9.08,score 70 coût 1.0%
+2026-10-24 13:58:04,prudente,VENTE,DacityCoin,0.002423,6.84,stop-loss (-24%) PnL -2.25$ coût 1.0%
+2026-10-24 13:58:04,actuelle,VENTE,DacityCoin,0.002423,7874.64,stop-loss (-32%) PnL -5213.73$ coût 10.9%
