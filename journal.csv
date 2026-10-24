@@ -1436,3 +1436,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 22:58:59,prudente,VENTE,SWORDOPE,0.003067,5.79,palier +30% PnL +1.31$ coût 1.0%
 2026-10-24 23:02:59,apprentie,VENTE,SWORDOPE,0.003574,23.97,palier +25% PnL +6.03$ coût 1.0%
 2026-10-24 23:02:59,apprentie,ACHAT,SWORDOPE,0.003610500508,18.22,score 79 coût 1.0%
+2026-10-24 23:07:59,prudente,VENTE,SWORDOPE,0.003039,5.74,trailing-stop PnL +1.26$ coût 1.0%
+2026-10-24 23:07:59,prudente,ACHAT,SWORDOPE,0.003069735277,8.99,score 79 coût 1.0%
