@@ -1258,3 +1258,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 08:41:42,agressive,VENTE,COIL,0.0001167,3482.89,stop-loss (-49%) PnL -11272.68$ coût 53.3%
 2026-10-24 08:41:42,hasard,VENTE,COIL,0.0001167,3417.42,stop-loss (-46%) PnL -7652.78$ coût 43.2%
 2026-10-24 08:49:42,actuelle,ACHAT,COIL,0.00022458,14050.99,score 66 coût 90.0%
+2026-10-24 08:50:42,actuelle,VENTE,COIL,0.0001148,3479.53,stop-loss (-49%) PnL -10571.45$ coût 51.6%
