@@ -1405,3 +1405,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 21:50:06,apprentie,ACHAT,SWORDOPE,0.002072083015,17.88,score 83 coût 1.0%
 2026-10-24 21:55:00,prudente,VENTE,SWORDOPE,0.002269,6.16,palier +30% PnL +1.69$ coût 1.0%
 2026-10-24 21:58:00,hasard,VENTE,CATTLEAXE,0.000542,4841.79,stop-loss (-36%) PnL -4638.57$ coût 19.9%
+2026-10-24 22:05:00,prudente,VENTE,CATTLEAXE,0.0005364,7.09,stop-loss (-20%) PnL -1.88$ coût 1.0%
