@@ -1207,3 +1207,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 02:25:17,hasard,VENTE,ELON,0.0001307,3883.49,stop-loss (-41%) PnL -7947.34$ coût 44.7%
 2026-10-24 02:28:16,prudente,ACHAT,TRUTH,0.0001957166011,9.19,score 70 coût 1.0%
 2026-10-24 02:42:17,hasard,VENTE,DOPE,0.002852,11106.88,durée max 12h PnL -3014.90$ coût 12.5%
+2026-10-24 02:45:17,hasard,ACHAT,ELIZABETH,0.0004411986253,11677.44,score 33 coût 50.5%
+2026-10-24 02:45:17,apprentie,ACHAT,Moustache,0.0005056819735,18.34,score 53 coût 1.1%
+2026-10-24 02:45:17,apprentie,ACHAT,MCRIBINU,0.001262971605,18.33,score 51 coût 1.0%
+2026-10-24 02:46:18,hasard,VENTE,ELIZABETH,0.0002971,5187.06,stop-loss (-33%) PnL -6490.37$ coût 34.0%
