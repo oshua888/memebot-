@@ -1117,3 +1117,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-23 23:51:18,prudente,ACHAT,MCRIBINU,0.001211221619,9.14,score 72 coût 1.0%
 2026-10-23 23:59:19,prudente,VENTE,BITCHES,0.00349,6.46,palier +30% PnL +1.91$ coût 1.0%
 2026-10-23 23:59:19,agressive,VENTE,YMB,0.0007661,8505.72,stop-loss (-41%) PnL -10629.68$ coût 25.3%
+2026-10-24 00:00:48,prudente,VENTE,BITCHES,0.00396,3.67,palier +60% PnL +1.39$ coût 1.0%
+2026-10-24 00:03:21,prudente,VENTE,BITCHES,0.0032,2.96,trailing-stop PnL +0.69$ coût 1.0%
+2026-10-24 00:03:21,prudente,ACHAT,BITCHES,0.003232363468,9.17,score 81 coût 1.0%
