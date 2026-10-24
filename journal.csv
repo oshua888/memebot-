@@ -1127,3 +1127,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 00:06:21,apprentie,VENTE,YMBCOIN,0.001265,23.12,palier +25% PnL +4.60$ coût 1.0%
 2026-10-24 00:07:18,hasard,VENTE,Pokémon,0.0002561,6157.29,stop-loss (-30%) PnL -6624.07$ coût 30.8%
 2026-10-24 00:07:18,hasard,ACHAT,YMBCOIN,0.001595418588,12597.51,score 71 coût 26.5%
+2026-10-24 00:15:18,agressive,VENTE,PHP,0.0002907,6762.89,stop-loss (-40%) PnL -12133.89$ coût 40.0%
+2026-10-24 00:15:18,hasard,VENTE,YMBCOIN,0.001116,7048.37,stop-loss (-30%) PnL -5549.15$ coût 20.0%
+2026-10-24 00:15:18,hasard,ACHAT,TRUTH,0.0003233907357,12469.30,score 46 coût 55.0%
+2026-10-24 00:16:18,hasard,VENTE,TRUTH,0.0002056,5108.23,stop-loss (-36%) PnL -7361.07$ coût 35.6%
+2026-10-24 00:16:18,hasard,ACHAT,YMB,0.0008803989335,12337.42,score 54 coût 28.8%
+2026-10-24 00:19:18,hasard,VENTE,YMB,0.0005717,6349.08,stop-loss (-35%) PnL -5988.35$ coût 20.8%
