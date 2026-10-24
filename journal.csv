@@ -1267,3 +1267,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 10:48:07,actuelle,VENTE,BIO,0.0001626,4318.83,stop-loss (-36%) PnL -9527.73$ coût 50.9%
 2026-10-24 10:49:06,agressive,VENTE,BIO,8.013e-05,2789.08,stop-loss (-69%) PnL -11626.57$ coût 37.5%
 2026-10-24 10:49:06,hasard,VENTE,BIO,8.013e-05,2583.29,stop-loss (-65%) PnL -8422.81$ coût 32.1%
+2026-10-24 11:08:07,hasard,ACHAT,SLOPCOIN,0.0001846461415,10837.64,score 38 coût 87.1%
+2026-10-24 11:09:06,hasard,VENTE,SLOPCOIN,0.0001027,3141.28,stop-loss (-44%) PnL -7696.37$ coût 47.9%
+2026-10-24 11:10:07,agressive,ACHAT,HUG,0.0002894398808,14067.66,score 50 coût 87.3%
+2026-10-24 11:10:07,hasard,ACHAT,HUG,0.000257352016,10683.72,score 50 coût 66.6%
