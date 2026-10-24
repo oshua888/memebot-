@@ -1296,3 +1296,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 13:11:04,apprentie,VENTE,Moustache,0.0005287,13.01,stop-loss (-28%) PnL -5.26$ coût 1.0%
 2026-10-24 13:28:04,actuelle,ACHAT,Dacity,0.009472955917,13007.17,score 62 coût 7.6%
 2026-10-24 13:45:04,actuelle,ACHAT,DOPE,0.004008804171,12972.14,score 60 coût 11.4%
+2026-10-24 13:47:04,actuelle,ACHAT,TRUTH,0.001170294787,12925.45,score 60 coût 10.0%
+2026-10-24 13:47:04,agressive,ACHAT,GLITCH,0.003142192608,13148.46,score 52 coût 19.6%
+2026-10-24 13:48:04,actuelle,ACHAT,GLITCH,0.003227142327,12891.69,score 61 coût 18.9%
+2026-10-24 13:49:03,actuelle,VENTE,TRUTH,4.088e-05,426.53,stop-loss (-97%) PnL -12498.92$ coût 5.5%
