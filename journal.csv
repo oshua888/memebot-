@@ -1201,3 +1201,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 02:00:17,actuelle,VENTE,mil,0.0001987,4610.53,stop-loss (-46%) PnL -10208.74$ coût 42.2%
 2026-10-24 02:00:17,agressive,VENTE,mil,0.0001987,4696.92,stop-loss (-49%) PnL -12337.88$ coût 45.5%
 2026-10-24 02:00:17,hasard,VENTE,mil,0.0001987,4403.03,stop-loss (-41%) PnL -7577.79$ coût 37.2%
+2026-10-24 02:13:16,actuelle,ACHAT,TRUTH,0.0003170761627,14615.09,score 66 coût 67.1%
+2026-10-24 02:14:17,actuelle,VENTE,TRUTH,0.0002015,5414.06,stop-loss (-36%) PnL -9201.04$ coût 41.7%
