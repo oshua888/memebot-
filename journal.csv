@@ -1345,3 +1345,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 17:49:44,prudente,VENTE,GDC,0.001137,6.59,palier +30% PnL +2.03$ coût 1.0%
 2026-10-24 17:50:52,prudente,VENTE,GDC,0.0008903,5.16,trailing-stop PnL +0.60$ coût 1.0%
 2026-10-24 17:50:52,prudente,ACHAT,GDC,0.0008993931318,9.02,score 79 coût 1.0%
+2026-10-24 17:51:45,hasard,ACHAT,VIRTUAL,0.0003826602598,9941.26,score 48 coût 43.7%
+2026-10-24 17:52:44,hasard,VENTE,VIRTUAL,0.0002634,4750.04,stop-loss (-31%) PnL -5191.22$ coût 30.6%
