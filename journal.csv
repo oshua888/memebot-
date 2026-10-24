@@ -1363,3 +1363,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 18:26:42,agressive,VENTE,かぼす,8.624e-05,2939.66,stop-loss (-52%) PnL -9363.29$ coût 50.7%
 2026-10-24 18:26:42,hasard,VENTE,かぼす,8.624e-05,2873.35,stop-loss (-49%) PnL -6964.08$ coût 43.1%
 2026-10-24 18:29:43,prudente,VENTE,かぼす,6.592e-05,6.21,stop-loss (-30%) PnL -2.80$ coût 1.1%
+2026-10-24 18:58:42,agressive,VENTE,DOPE,0.003935,20645.82,durée max 24h PnL -767.00$ coût 21.1%
