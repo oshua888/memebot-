@@ -1211,3 +1211,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 02:45:17,apprentie,ACHAT,Moustache,0.0005056819735,18.34,score 53 coût 1.1%
 2026-10-24 02:45:17,apprentie,ACHAT,MCRIBINU,0.001262971605,18.33,score 51 coût 1.0%
 2026-10-24 02:46:18,hasard,VENTE,ELIZABETH,0.0002971,5187.06,stop-loss (-33%) PnL -6490.37$ coût 34.0%
+2026-10-24 02:50:18,prudente,VENTE,TRUTH,0.0002555,5.94,palier +30% PnL +1.34$ coût 1.0%
