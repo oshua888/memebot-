@@ -1133,3 +1133,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 00:16:18,hasard,VENTE,TRUTH,0.0002056,5108.23,stop-loss (-36%) PnL -7361.07$ coût 35.6%
 2026-10-24 00:16:18,hasard,ACHAT,YMB,0.0008803989335,12337.42,score 54 coût 28.8%
 2026-10-24 00:19:18,hasard,VENTE,YMB,0.0005717,6349.08,stop-loss (-35%) PnL -5988.35$ coût 20.8%
+2026-10-24 00:21:18,prudente,VENTE,YMBCOIN,0.001067,5.55,trailing-stop PnL +0.99$ coût 1.0%
+2026-10-24 00:21:18,prudente,ACHAT,YMBCOIN,0.001077885962,9.17,score 72 coût 1.0%
+2026-10-24 00:22:18,apprentie,VENTE,FTR,0.0003067,16.45,durée max 12h PnL -2.30$ coût 1.0%
