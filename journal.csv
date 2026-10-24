@@ -1216,3 +1216,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 03:03:18,agressive,ACHAT,Dacity,0.01096891168,16682.55,score 58 coût 9.0%
 2026-10-24 03:04:18,agressive,ACHAT,ELON,0.00021831,16602.61,score 59 coût 90.0%
 2026-10-24 03:05:18,agressive,VENTE,ELON,0.0001142,3601.26,stop-loss (-48%) PnL -13001.35$ coût 58.5%
+2026-10-24 03:11:21,prudente,VENTE,TRUTH,0.0001614,1.88,trailing-stop PnL -0.42$ coût 1.0%
+2026-10-24 03:13:19,actuelle,ACHAT,ELIZABETH,0.0005286375206,14431.07,score 64 coût 58.0%
+2026-10-24 03:13:19,agressive,ACHAT,ELIZABETH,0.0005523402677,16224.84,score 64 coût 65.1%
+2026-10-24 03:14:18,actuelle,VENTE,ELIZABETH,0.0003684,6157.82,stop-loss (-30%) PnL -8273.25$ coût 38.8%
