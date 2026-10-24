@@ -1296,3 +1296,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 15:29:43,actuelle,ACHAT,MI,0.001592536616,13260.64,score 60 coût 29.5%
 2026-10-24 15:29:43,hasard,ACHAT,MI,0.001517355915,10414.15,score 60 coût 23.4%
 2026-10-24 15:30:42,prudente,ACHAT,SHADOW,0.0002126013744,9.09,score 72 coût 1.0%
+2026-10-24 15:31:43,actuelle,VENTE,MI,0.00108,7047.57,stop-loss (-32%) PnL -6213.07$ coût 21.6%
+2026-10-24 15:32:44,hasard,VENTE,MI,0.001022,5783.21,stop-loss (-33%) PnL -4630.94$ coût 17.6%
