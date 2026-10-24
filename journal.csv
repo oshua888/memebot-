@@ -1139,3 +1139,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 00:27:18,actuelle,ACHAT,Moustache,0.0008976281771,15356.41,score 62 coût 43.6%
 2026-10-24 00:27:18,agressive,ACHAT,Moustache,0.0009532692132,18562.84,score 62 coût 52.5%
 2026-10-24 00:32:18,actuelle,VENTE,Moustache,0.0006024,7209.42,stop-loss (-33%) PnL -8146.99$ coût 30.0%
+2026-10-24 00:42:18,hasard,VENTE,GLITCH,0.00204,9977.28,durée max 12h PnL -4659.05$ coût 21.3%
