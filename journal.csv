@@ -1365,3 +1365,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 18:29:43,prudente,VENTE,かぼす,6.592e-05,6.21,stop-loss (-30%) PnL -2.80$ coût 1.1%
 2026-10-24 18:58:42,agressive,VENTE,DOPE,0.003935,20645.82,durée max 24h PnL -767.00$ coût 21.1%
 2026-10-24 19:12:41,prudente,ACHAT,MI,0.0005753543574,8.98,score 70 coût 1.0%
+2026-10-24 19:23:42,hasard,ACHAT,VICECITY,0.0001664699052,9698.15,score 41 coût 78.3%
+2026-10-24 19:24:41,hasard,VENTE,VICECITY,8.633e-05,2874.69,stop-loss (-48%) PnL -6823.46$ coût 42.8%
