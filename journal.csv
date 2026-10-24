@@ -1210,3 +1210,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 04:13:43,agressive,VENTE,mil,0.0003712,6067.57,stop-loss (-45%) PnL -10680.31$ coût 34.1%
 2026-10-24 04:13:43,hasard,VENTE,mil,0.0003712,5326.23,stop-loss (-39%) PnL -6658.40$ coût 27.4%
 2026-10-24 04:13:43,hasard,VENTE,PRIVACY,0.0001406,3835.13,stop-loss (-44%) PnL -8029.84$ coût 42.0%
+2026-10-24 04:17:41,prudente,ACHAT,Moustache,0.0004228111331,9.15,score 75 coût 1.0%
