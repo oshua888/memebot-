@@ -1448,3 +1448,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 23:35:00,apprentie,ACHAT,WRHND,0.001732688115,18.27,score 64 coût 1.0%
 2026-10-24 23:40:00,apprentie,ACHAT,CATTLEAXE,0.001341753041,18.27,score 66 coût 1.0%
 2026-10-24 23:46:00,prudente,VENTE,WRHND,0.001875,5.84,palier +30% PnL +1.36$ coût 1.0%
+2026-10-24 23:49:00,hasard,ACHAT,NETWORK,0.0001947415885,9130.14,score 38 coût 67.2%
+2026-10-24 23:50:00,prudente,VENTE,███,0.0004141,6.99,stop-loss (-21%) PnL -2.00$ coût 1.0%
+2026-10-24 23:50:00,hasard,VENTE,NETWORK,0.0001117,3153.90,stop-loss (-43%) PnL -5976.23$ coût 39.8%
+2026-10-24 23:51:00,apprentie,VENTE,███,0.0003787,12.99,stop-loss (-28%) PnL -5.29$ coût 1.0%
