@@ -1314,3 +1314,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 16:01:45,apprentie,VENTE,DOPE,0.004014,22.80,palier +25% PnL +4.47$ coût 1.0%
 2026-10-24 16:01:45,apprentie,ACHAT,GDC,0.0007491721232,18.24,score 71 coût 1.0%
 2026-10-24 16:07:44,actuelle,VENTE,GDC,0.0006462,6593.88,stop-loss (-32%) PnL -6542.50$ coût 26.4%
+2026-10-24 16:12:45,hasard,VENTE,GDC,0.0005992,5439.64,stop-loss (-33%) PnL -4881.89$ coût 21.4%
+2026-10-24 16:14:45,hasard,ACHAT,TRUMPE,0.0002159967631,10075.88,score 45 coût 71.4%
+2026-10-24 16:15:49,hasard,VENTE,TRUMPE,0.0001227,3344.56,stop-loss (-43%) PnL -6731.32$ coût 41.6%
