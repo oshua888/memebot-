@@ -1198,3 +1198,15 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 04:05:41,prudente,VENTE,MCRIBINU,0.0007024,5.25,stop-loss (-42%) PnL -3.89$ coût 1.0%
 2026-10-24 04:05:41,hasard,VENTE,DOPE,0.003271,12624.15,durée max 12h PnL -1497.63$ coût 13.2%
 2026-10-24 04:05:41,hasard,VENTE,HELL,0.001929,7524.69,stop-loss (-31%) PnL -5508.00$ coût 16.4%
+2026-10-24 04:12:43,actuelle,ACHAT,PRIVACY,0.00027645,14819.27,score 66 coût 90.0%
+2026-10-24 04:12:43,actuelle,ACHAT,mil,0.000644269993,14603.17,score 63 coût 49.8%
+2026-10-24 04:12:43,agressive,ACHAT,PRIVACY,0.00027645,17143.04,score 66 coût 90.0%
+2026-10-24 04:12:43,agressive,ACHAT,mil,0.0006750778319,16747.88,score 63 coût 56.9%
+2026-10-24 04:12:43,hasard,ACHAT,mil,0.0006066559031,11984.63,score 63 coût 41.0%
+2026-10-24 04:12:43,hasard,ACHAT,PRIVACY,0.0002521678363,11864.98,score 66 coût 73.3%
+2026-10-24 04:13:43,actuelle,VENTE,PRIVACY,0.0001406,3938.61,stop-loss (-49%) PnL -10880.66$ coût 47.7%
+2026-10-24 04:13:43,actuelle,VENTE,mil,0.0003712,5784.16,stop-loss (-42%) PnL -8819.01$ coût 31.3%
+2026-10-24 04:13:43,agressive,VENTE,PRIVACY,0.0001406,3917.16,stop-loss (-49%) PnL -13225.88$ coût 55.1%
+2026-10-24 04:13:43,agressive,VENTE,mil,0.0003712,6067.57,stop-loss (-45%) PnL -10680.31$ coût 34.1%
+2026-10-24 04:13:43,hasard,VENTE,mil,0.0003712,5326.23,stop-loss (-39%) PnL -6658.40$ coût 27.4%
+2026-10-24 04:13:43,hasard,VENTE,PRIVACY,0.0001406,3835.13,stop-loss (-44%) PnL -8029.84$ coût 42.0%
