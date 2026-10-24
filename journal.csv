@@ -1342,3 +1342,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 17:20:43,prudente,VENTE,PRIVACY,5.775e-05,1.16,stop-loss (-87%) PnL -7.92$ coût 1.0%
 2026-10-24 17:20:43,apprentie,VENTE,PRIVACY,5.775e-05,2.19,stop-loss (-88%) PnL -15.81$ coût 1.0%
 2026-10-24 17:44:48,apprentie,VENTE,GDC,0.0007171,13.48,stop-loss (-26%) PnL -4.88$ coût 1.0%
+2026-10-24 17:49:44,prudente,VENTE,GDC,0.001137,6.59,palier +30% PnL +2.03$ coût 1.0%
+2026-10-24 17:50:52,prudente,VENTE,GDC,0.0008903,5.16,trailing-stop PnL +0.60$ coût 1.0%
+2026-10-24 17:50:52,prudente,ACHAT,GDC,0.0008993931318,9.02,score 79 coût 1.0%
