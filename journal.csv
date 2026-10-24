@@ -1333,3 +1333,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 16:36:44,agressive,ACHAT,TRUMPE,0.0002546149127,12562.32,score 51 coût 83.2%
 2026-10-24 16:37:48,agressive,VENTE,TRUMPE,0.0001254,3446.03,stop-loss (-51%) PnL -9116.29$ coût 44.3%
 2026-10-24 16:38:47,actuelle,VENTE,DacityCoin,0.002128,7751.24,stop-loss (-32%) PnL -5071.32$ coût 11.4%
+2026-10-24 16:43:47,prudente,VENTE,VIRTUAL,0.0002617,2.50,stop-loss (-44%) PnL -2.04$ coût 1.0%
+2026-10-24 16:43:47,apprentie,VENTE,VIRTUAL,0.0002617,7.02,stop-loss (-61%) PnL -11.16$ coût 1.0%
+2026-10-24 16:43:47,apprentie,ACHAT,PRIVACY,0.0004704337082,18.00,score 63 coût 1.1%
