@@ -1383,3 +1383,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 19:59:42,agressive,VENTE,swordtrump,0.0004262,4939.78,stop-loss (-46%) PnL -7098.00$ coût 24.1%
 2026-10-24 20:00:52,apprentie,VENTE,REMUS,0.0006118,21.79,palier +25% PnL +4.23$ coût 1.1%
 2026-10-24 20:00:52,apprentie,ACHAT,REMUS,0.0006182271638,17.83,score 66 coût 1.1%
+2026-10-24 20:01:43,hasard,ACHAT,ZENO,0.0003155588384,9471.52,score 29 coût 49.1%
+2026-10-24 20:02:42,hasard,VENTE,ZENO,0.0002117,4241.94,stop-loss (-33%) PnL -5229.58$ coût 33.2%

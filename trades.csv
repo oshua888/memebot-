@@ -644,3 +644,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-24 19:41,2026-10-24 19:58,hasard,swordtrump,boost,stop-loss (-32%),0.28,-47.15,70,64986,8.74,2.0,3.823,0.618,2.86,8.96,1017,1
 2026-10-24 19:41,2026-10-24 19:59,agressive,swordtrump,boost,stop-loss (-46%),0.3,-58.96,70,64986,8.74,2.0,3.823,0.618,2.86,8.96,1017,1
 2026-10-24 18:05,2026-10-24 20:00,apprentie,REMUS,boost+tendance,palier +25%,1.92,24.11,71,61993,7.68,18.9,1.635,0.559,6.15,8.19,28.1,1
+2026-10-24 20:01,2026-10-24 20:02,hasard,ZENO,nouveau,stop-loss (-33%),0.02,-55.21,29,39416,5.04,144.7,0.08,0.308,1.1,1.41,9.05,0
