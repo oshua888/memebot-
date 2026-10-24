@@ -1355,3 +1355,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 18:06:42,prudente,VENTE,GDC,0.0006372,4.95,stop-loss (-45%) PnL -4.10$ coût 1.0%
 2026-10-24 18:18:54,apprentie,VENTE,SHADOW,0.0002993,25.86,palier +25% PnL +7.61$ coût 1.1%
 2026-10-24 18:20:44,agressive,VENTE,GDC,0.0005514,5782.97,stop-loss (-42%) PnL -7203.35$ coût 23.7%
+2026-10-24 18:25:45,prudente,ACHAT,かぼす,9.466390621e-05,9.01,score 71 coût 1.1%
+2026-10-24 18:25:45,actuelle,ACHAT,かぼす,0.000177954,12645.15,score 71 coût 90.0%
+2026-10-24 18:25:45,agressive,ACHAT,かぼす,0.000177954,12302.95,score 71 coût 90.0%
+2026-10-24 18:25:45,hasard,ACHAT,かぼす,0.0001681110254,9837.43,score 71 coût 79.5%
