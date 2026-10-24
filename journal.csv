@@ -1418,3 +1418,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 22:20:59,agressive,VENTE,HCAT,8.689e-05,2961.78,stop-loss (-54%) PnL -8353.54$ coût 43.0%
 2026-10-24 22:20:59,hasard,VENTE,HCAT,8.689e-05,2864.78,stop-loss (-50%) PnL -6583.55$ coût 38.9%
 2026-10-24 22:21:59,actuelle,VENTE,SWORDOPE,0.003072,5630.37,palier +50% PnL +1662.73$ coût 8.8%
+2026-10-24 22:27:59,prudente,VENTE,SWORDOPE,0.002641,3.59,trailing-stop PnL +1.35$ coût 1.0%
+2026-10-24 22:27:59,actuelle,ACHAT,VICECITY,0.0002473023045,11890.25,score 60 coût 77.0%
+2026-10-24 22:28:59,actuelle,VENTE,VICECITY,0.0001395,3760.84,stop-loss (-44%) PnL -8129.40$ coût 43.9%
