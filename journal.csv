@@ -1488,3 +1488,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 02:36:19,apprentie,VENTE,Chunkee,0.0002671,13.13,stop-loss (-25%) PnL -4.68$ coût 1.1%
 2026-10-25 02:42:19,prudente,VENTE,KURUMI,0.0003784,7.03,stop-loss (-21%) PnL -1.92$ coût 1.0%
 2026-10-25 02:43:19,actuelle,VENTE,SWORDOPE,0.001922,7010.70,stop-loss (-30%) PnL -4616.00$ coût 13.8%
+2026-10-25 02:54:21,prudente,ACHAT,MAYA,0.001706152494,8.92,score 82 coût 1.0%
+2026-10-25 02:54:21,actuelle,ACHAT,MAYA,0.002027474718,10928.73,score 82 coût 20.0%
+2026-10-25 02:54:21,apprentie,ACHAT,MAYA,0.001706407598,17.59,score 82 coût 1.0%
