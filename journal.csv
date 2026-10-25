@@ -1615,3 +1615,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 22:57:47,actuelle,VENTE,Chop,0.0003541,4912.77,stop-loss (-32%) PnL -5085.96$ coût 27.5%
 2026-10-25 22:58:46,actuelle,ACHAT,CATTLEAXE,0.001345037038,9897.01,score 61 coût 20.7%
 2026-10-25 23:11:46,agressive,VENTE,CATTLEAXE,0.00105,5304.26,stop-loss (-40%) PnL -4932.04$ coût 13.6%
+2026-10-25 23:23:46,prudente,ACHAT,Chop,0.0004311011459,8.88,score 77 coût 1.0%
