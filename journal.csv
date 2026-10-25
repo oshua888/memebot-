@@ -1543,3 +1543,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 13:00:05,actuelle,VENTE,DOPE,0.002984,7341.91,stop-loss (-30%) PnL -4063.41$ coût 8.0%
 2026-10-25 13:08:05,apprentie,ACHAT,MERGE,0.0003190923294,17.35,score 38 coût 1.1%
 2026-10-25 13:14:05,agressive,ACHAT,MERGE,0.0004500475822,9657.90,score 50 coût 42.5%
+2026-10-25 13:19:08,agressive,ACHAT,COIL,0.0001491505286,9497.47,score 50 coût 75.0%
+2026-10-25 13:20:05,agressive,VENTE,COIL,8.53e-05,3079.74,stop-loss (-43%) PnL -6417.74$ coût 43.3%
