@@ -1582,3 +1582,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 17:30:24,hasard,VENTE,GME,0.0002407,3779.89,stop-loss (-33%) PnL -3507.10$ coût 22.8%
 2026-10-25 17:32:24,agressive,VENTE,WORTHLESS,9.874e-05,3262.90,stop-loss (-43%) PnL -6018.42$ coût 38.1%
 2026-10-25 17:32:24,agressive,ACHAT,NETWORK,0.0002672687345,9433.37,score 55 coût 56.8%
+2026-10-25 17:33:24,apprentie,ACHAT,HELL,0.002677151128,17.00,score 26 coût 1.0%
