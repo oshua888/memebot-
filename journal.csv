@@ -1478,3 +1478,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 02:15:25,actuelle,ACHAT,KURUMI,0.0006602328564,11216.70,score 77 coût 39.9%
 2026-10-25 02:16:19,actuelle,VENTE,Dacity,0.008815,8397.97,stop-loss (-30%) PnL -4312.04$ coût 5.5%
 2026-10-25 02:16:19,actuelle,VENTE,KURUMI,0.0004515,5504.57,stop-loss (-32%) PnL -5712.13$ coût 28.2%
+2026-10-25 02:20:21,actuelle,ACHAT,Chunkee,0.0003815491636,11090.41,score 62 coût 54.5%
+2026-10-25 02:21:24,prudente,VENTE,REACHY,0.0003666,3.11,trailing-stop PnL +0.89$ coût 1.0%
+2026-10-25 02:21:24,actuelle,VENTE,Chunkee,0.000227,4338.61,stop-loss (-41%) PnL -6751.80$ coût 34.2%
