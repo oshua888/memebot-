@@ -1595,3 +1595,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 16:01:03,apprentie,VENTE,MERGE,0.0002368,12.74,stop-loss (-26%) PnL -4.61$ coût 1.1%
 2026-10-25 16:23:05,apprentie,VENTE,SHADOW,0.0002909,28.87,palier +25% PnL +11.62$ coût 1.1%
 2026-10-25 16:39:04,actuelle,ACHAT,GME,0.0007733746441,10105.20,score 63 coût 29.2%
+2026-10-25 16:57:03,actuelle,VENTE,GME,0.0004839,5007.50,stop-loss (-37%) PnL -5097.70$ coût 20.8%
