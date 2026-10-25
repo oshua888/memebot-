@@ -1586,3 +1586,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 15:07:04,apprentie,ACHAT,PumpkinBot,0.0003900137724,17.24,score 71 coût 1.1%
 2026-10-25 15:12:04,apprentie,VENTE,PumpkinBot,0.0004882,21.35,palier +25% PnL +4.11$ coût 1.1%
 2026-10-25 15:12:04,apprentie,ACHAT,PumpkinBot,0.000493368141,17.32,score 66 coût 1.1%
+2026-10-25 15:14:03,hasard,VENTE,Bunnett,0.0002096,3680.03,stop-loss (-32%) PnL -3654.63$ coût 26.5%
+2026-10-25 15:17:04,actuelle,ACHAT,Bunnett,0.000340301267,10229.32,score 63 coût 51.2%
+2026-10-25 15:17:04,agressive,VENTE,NETWORK,0.0001476,3482.60,stop-loss (-40%) PnL -5530.50$ coût 35.6%
