@@ -1473,3 +1473,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 01:57:22,actuelle,VENTE,REACHY,0.0002508,4628.17,stop-loss (-37%) PnL -6746.37$ coût 35.5%
 2026-10-25 02:07:18,prudente,VENTE,SWORDOPE,0.002451,7.10,stop-loss (-20%) PnL -1.88$ coût 1.0%
 2026-10-25 02:08:18,prudente,VENTE,REACHY,0.0004108,6.98,palier +30% PnL +2.53$ coût 1.0%
+2026-10-25 02:12:18,prudente,VENTE,REACHY,0.000432,3.67,palier +60% PnL +1.44$ coût 1.0%
+2026-10-25 02:15:25,prudente,ACHAT,KURUMI,0.0004766644583,8.94,score 77 coût 1.0%
+2026-10-25 02:15:25,actuelle,ACHAT,KURUMI,0.0006602328564,11216.70,score 77 coût 39.9%
+2026-10-25 02:16:19,actuelle,VENTE,Dacity,0.008815,8397.97,stop-loss (-30%) PnL -4312.04$ coût 5.5%
+2026-10-25 02:16:19,actuelle,VENTE,KURUMI,0.0004515,5504.57,stop-loss (-32%) PnL -5712.13$ coût 28.2%
