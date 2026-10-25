@@ -810,7 +810,7 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
         <div class="badges" id="badges"></div>
       </div>
 
-      <p class="disclaimer">Le groupe passe par des serveurs publics gratuits (Eclipse, EMQX, HiveMQ). Toute personne qui connaît le code peut voir les pseudos et les verres du groupe : choisis un pseudo plutôt que ton nom complet. Quitter le groupe efface tes données du serveur. Une alerte s'affiche quand quelqu'un du groupe dépasse 0,8 g/L.</p>
+      <p class="disclaimer">Le groupe passe par des serveurs publics gratuits (Eclipse, EMQX, HiveMQ et ntfy.sh). Toute personne qui connaît le code peut voir les pseudos et les verres du groupe : choisis un pseudo plutôt que ton nom complet. Quitter le groupe efface tes données du serveur. Une alerte s'affiche quand quelqu'un du groupe dépasse 0,8 g/L.</p>
     </div>
   </section>
 
@@ -1775,16 +1775,18 @@ const seenMsg = new Set();   // les messages arrivent une fois par serveur : on 
 function makeBus(urls) {
   return {
     list: [],
-    get connected() { return this.list.some(c => c.connected); },
-    get count() { return this.list.filter(c => c.connected).length; },
+    ntfy: null, base: "",
+    get connected() { return this.list.some(c => c.connected) || !!(this.ntfy && this.ntfy.connected); },
+    get count() { return this.list.filter(c => c.connected).length + (this.ntfy && this.ntfy.connected ? 1 : 0); },
     publish(topic, msg, opts, cb) {
+      if (this.ntfy && topic.startsWith(this.base + "/")) this.ntfy.publish(topic.slice(this.base.length + 1), msg);
       const live = this.list.filter(c => c.connected);
       let pending = live.length;
       if (!pending) { cb && cb(); return; }
       live.forEach(c => c.publish(topic, msg, opts, () => { if (--pending === 0 && cb) cb(); }));
     },
-    end(force) { this.list.forEach(c => { try { c.end(force); } catch {} }); this.list = []; },
-    wake() { this.list.forEach(c => { if (!c.connected && !c.reconnecting && !c.disconnecting) try { c.reconnect(); } catch {} }); }
+    end(force) { this.list.forEach(c => { try { c.end(force); } catch {} }); this.list = []; if (this.ntfy) this.ntfy.end(); },
+    wake() { this.list.forEach(c => { if (!c.connected && !c.reconnecting && !c.disconnecting) try { c.reconnect(); } catch {} }); if (this.ntfy) this.ntfy.wake(); }
   };
 }
 const diag = {};   // url -> { state, err }
@@ -1793,10 +1795,10 @@ function renderDiag() {
   const box = $("#diag-box"); if (!box) return;
   box.hidden = !group;
   const ul = $("#diag"); ul.textContent = "";
-  BROKERS.forEach(url => {
+  [...BROKERS, "ntfy.sh (web)"].forEach(url => {
     const d = diag[url] || { state: "pas encore essayé" };
     const li = el("li");
-    li.append(el("span", null, (d.state === "connecté" ? "✅ " : d.state === "erreur" ? "❌ " : "⏳ ") + brokerName(url) + " : " + d.state + (d.err ? " (" + d.err + ")" : "")));
+    li.append(el("span", null, (d.state === "connecté" ? "✅ " : d.state === "erreur" ? "❌ " : "⏳ ") + (url.includes("://") ? brokerName(url) : url) + " : " + d.state + (d.err ? " (" + d.err + ")" : "")));
     ul.append(li);
   });
   const ua = el("li", "muted"); ua.textContent = "Navigateur : " + navigator.userAgent.replace(/^Mozilla\/5\.0 /, "").slice(0, 120) + (navigator.onLine === false ? " · hors ligne" : "");
@@ -1816,6 +1818,51 @@ function probe() {
     ws.onclose = ev => end("❌ " + brokerName(url) + " : fermé, code " + ev.code + (ev.reason ? " " + ev.reason : "") + " après " + (Date.now() - t0) + " ms");
     setTimeout(() => end("❌ " + brokerName(url) + " : pas de réponse en 10 s"), 10000);
   });
+}
+/* Relais HTTPS (ntfy.sh) : une connexion web ordinaire, que les réseaux ne bloquent pas.
+   Réception en flux (EventSource) avec les 12 dernières heures rejouées au démarrage,
+   envoi par simple requête POST. Limite du service gratuit : on espace les envois de profil. */
+const NTFY = "https://ntfy.sh/";
+function makeNtfy(code, handle, onStatus) {
+  const topic = "tourneegenerale_v1_" + code, key = "ntfy.sh (web)";
+  const t = { connected: false, es: null, start: Date.now(), lastState: 0, stateTimer: null, pending: null };
+  const setDiag = d => { diag[key] = d; renderDiag(); };
+  function open() {
+    try { t.es && t.es.close(); } catch {}
+    setDiag({ state: "connexion…" });
+    try { t.es = new EventSource(NTFY + topic + "/sse?since=12h"); }
+    catch (e) { setDiag({ state: "erreur", err: String(e && e.message || e).slice(0, 80) }); return; }
+    t.es.onopen = () => { t.connected = true; setDiag({ state: "connecté" }); onStatus(); };
+    t.es.onerror = () => { t.connected = t.es.readyState === 1; if (!t.connected) { setDiag({ state: t.es.readyState === 2 ? "erreur" : "coupé, nouvel essai…", err: t.es.readyState === 2 ? "refusé" : "" }); onStatus(); } };
+    t.es.onmessage = ev => {
+      let m, o, raw = null;
+      try { m = JSON.parse(ev.data); } catch { return; }
+      if (!m || m.event !== "message" || typeof m.message !== "string") return;
+      try { o = JSON.parse(m.message); } catch { return; }
+      if (!o || typeof o.p !== "string" || o.p.length > 40) return;
+      if (typeof o.m === "string" && o.m) { try { raw = JSON.parse(o.m); } catch { return; } }
+      handle(o.p, raw, (m.time || 0) * 1000 < t.start - 5000);   // ancien message = rejoué
+    };
+  }
+  t.send = (id, msg) => {
+    let body = JSON.stringify({ p: id, m: msg });
+    if (body.length > 3800 && id === devId) {   // limite de taille du service : profil allégé
+      const small = payload(); small.drinks = small.drinks.slice(-40).map(d => ({ t: d.t, g: d.g, label: "" })); small.water = small.water.slice(-30);
+      body = JSON.stringify({ p: id, m: JSON.stringify(small) });
+    }
+    fetch(NTFY + topic, { method: "POST", body }).then(r => { if (!r.ok) setDiag({ state: t.connected ? "connecté" : "erreur", err: "envoi refusé (" + r.status + ")" }); }).catch(() => {});
+  };
+  // le profil part au plus toutes les 15 s (le dernier état gagne) ; le reste part tout de suite
+  t.publish = (id, msg) => {
+    if (id === devId && msg) {
+      t.pending = msg; clearTimeout(t.stateTimer);
+      t.stateTimer = setTimeout(() => { t.lastState = Date.now(); t.send(id, t.pending); }, Math.max(0, t.lastState + 15000 - Date.now()));
+    } else t.send(id, msg);
+  };
+  t.end = () => { clearTimeout(t.stateTimer); try { t.es && t.es.close(); } catch {} t.connected = false; };
+  t.wake = () => { if (!t.es || t.es.readyState === 2) open(); };
+  open();
+  return t;
 }
 const msgId = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
 const alerted = {};
@@ -1853,19 +1900,41 @@ function connectGroup() {
   renderGroup(); renderFriends(); renderFeed(); soRender();
   Object.keys(diag).forEach(k => delete diag[k]); renderDiag();
   if (!group) { setSync("", "Hors groupe"); return; }
-  if (!window.mqtt) { setSync("err", "Synchro indisponible"); diag[BROKERS[0]] = { state: "erreur", err: "bibliothèque MQTT non chargée" }; renderDiag(); return; }
   setSync("", "Connexion…");
   const bus = makeBus(BROKERS), base = TOPIC(group);
-  client = bus;
+  bus.base = base; client = bus;
   const status = () => {
     if (client !== bus) return;
     if (bus.connected) setSync("on", "Groupe " + group);
     else setSync(navigator.onLine === false ? "err" : "", navigator.onLine === false ? "Hors ligne" : "Reconnexion…");
   };
+  // Même traitement quel que soit le chemin (serveur MQTT ou relais web)
+  const handle = (id, raw, retained) => {
+    if (client !== bus) return;
+    if (id === "_r") {
+      if (retained || !raw) return;
+      const key = String(raw.mid || (raw.from + ":" + raw.t + ":" + raw.k));
+      if (seenMsg.has(key)) return;
+      seenMsg.add(key); if (seenMsg.size > 300) seenMsg.delete(seenMsg.values().next().value);
+      onReact(raw); return;
+    }
+    if (id === "_g") { onShared(raw, !retained); return; }
+    if (id.startsWith("_v")) { onVote(id.slice(2), raw); return; }
+    if (id === devId || !/^[a-z0-9]{8,32}$/.test(id)) return;
+    const data = clean(raw);
+    if (data) { if (!members[id] || data.updatedAt >= members[id].updatedAt) members[id] = data; }
+    else delete members[id];
+    renderFriends();
+  };
+  if (window.EventSource) {
+    bus.ntfy = makeNtfy(group, handle, status);
+    if (me.pseudo) bus.ntfy.publish(devId, JSON.stringify(payload()));
+  }
+  if (!window.mqtt) { diag[BROKERS[0]] = { state: "erreur", err: "bibliothèque MQTT non chargée" }; renderDiag(); return; }
   BROKERS.forEach(url => {
     let c;
     try { c = mqtt.connect(url, { clientId: "tg_" + devId + "_" + Math.random().toString(36).slice(2, 7), clean: true, reconnectPeriod: 5000, connectTimeout: 12000, keepalive: 40 }); }
-    catch { return; }
+    catch (e) { diag[url] = { state: "erreur", err: String(e && e.message || e).slice(0, 80) }; renderDiag(); return; }
     bus.list.push(c);
     diag[url] = { state: "connexion…" }; renderDiag();
     c.on("connect", () => {
@@ -1876,24 +1945,10 @@ function connectGroup() {
       if (me.pseudo) c.publish(base + "/" + devId, JSON.stringify(payload()), { qos: 1, retain: true });
     });
     c.on("message", (topic, buf, packet) => {
-      if (client !== bus || !topic.startsWith(base + "/")) return;
-      const id = topic.slice(base.length + 1);
+      if (!topic.startsWith(base + "/")) return;
       let raw = null;
       try { raw = buf.length ? JSON.parse(new TextDecoder().decode(buf)) : null; } catch {}
-      if (id === "_r") {
-        if (packet.retain || !raw) return;
-        const key = String(raw.mid || (raw.from + ":" + raw.t + ":" + raw.k));
-        if (seenMsg.has(key)) return;
-        seenMsg.add(key); if (seenMsg.size > 300) seenMsg.delete(seenMsg.values().next().value);
-        onReact(raw); return;
-      }
-      if (id === "_g") { onShared(raw, !packet.retain); return; }
-      if (id.startsWith("_v")) { onVote(id.slice(2), raw); return; }
-      if (id === devId) return;
-      const data = clean(raw);
-      if (data) { if (!members[id] || data.updatedAt >= members[id].updatedAt) members[id] = data; }
-      else delete members[id];
-      renderFriends();
+      handle(topic.slice(base.length + 1), raw, packet.retain);
     });
     ["reconnect", "offline", "close", "error"].forEach(ev => c.on(ev, status));
     c.on("error", err => { if (client !== bus) return; diag[url] = { state: "erreur", err: String(err && (err.message || err.code) || err).slice(0, 80) }; renderDiag(); });
@@ -2288,7 +2343,7 @@ $("#hist-no").onclick = () => { $("#hist-confirm").hidden = true; };
 $("#hist-yes").onclick = () => { nights = []; store.set("tg.history", nights); $("#hist-confirm").hidden = true; renderHistory(); };
 
 /* ---------- Mises à jour ---------- */
-const APP_VERSION = "2.5";
+const APP_VERSION = "2.6";
 $("#app-version").textContent = "Version " + APP_VERSION;
 async function checkUpdate() {
   try {
