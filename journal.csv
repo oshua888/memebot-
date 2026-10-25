@@ -1603,3 +1603,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 19:02:23,hasard,VENTE,DOPE,0.002704,5540.37,durée max 12h PnL -2582.99$ coût 6.5%
 2026-10-25 19:30:22,agressive,VENTE,LAUNCH,0.002416,16561.70,trailing-stop PnL +13437.07$ coût 32.3%
 2026-10-25 20:01:22,agressive,ACHAT,LAUNCH,0.002295641,9027.31,score 64 coût 13.5%
+2026-10-25 20:31:22,agressive,ACHAT,Bunnett,0.0004114193797,8945.98,score 51 coût 38.8%
