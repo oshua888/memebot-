@@ -1465,3 +1465,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 01:30:18,hasard,VENTE,Moustache,0.000171,4137.94,stop-loss (-31%) PnL -4547.71$ coût 30.5%
 2026-10-25 01:31:18,prudente,VENTE,███,0.0003902,6.59,stop-loss (-26%) PnL -2.41$ coût 1.0%
 2026-10-25 01:31:18,apprentie,VENTE,███,0.0003902,13.38,stop-loss (-26%) PnL -4.90$ coût 1.0%
+2026-10-25 01:42:18,hasard,ACHAT,McRib,0.0003556558856,8594.75,score 21 coût 32.2%
+2026-10-25 01:43:17,actuelle,ACHAT,DOPE,0.004263034604,11405.32,score 61 coût 9.8%
+2026-10-25 01:45:18,agressive,VENTE,CATTLEAXE,0.001839,6786.94,palier +100% PnL +2982.78$ coût 13.8%
