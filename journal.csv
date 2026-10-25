@@ -1457,3 +1457,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 00:07:02,hasard,ACHAT,Moustache,0.0002417417695,8988.33,score 35 coût 46.4%
 2026-10-25 00:08:05,hasard,VENTE,Moustache,0.0001677,4223.96,stop-loss (-31%) PnL -4764.38$ coût 32.3%
 2026-10-25 00:11:02,prudente,VENTE,WRHND,0.001568,4.89,trailing-stop PnL +0.40$ coût 1.0%
+2026-10-25 00:12:04,prudente,VENTE,SWORDOPE,0.002451,7.10,stop-loss (-20%) PnL -1.88$ coût 1.0%
