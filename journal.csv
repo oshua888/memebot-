@@ -1505,3 +1505,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 03:37:19,actuelle,VENTE,MAYA,0.001407,6411.89,stop-loss (-31%) PnL -4516.84$ coût 15.5%
 2026-10-25 03:39:19,prudente,VENTE,MAYA,0.001315,6.81,stop-loss (-23%) PnL -2.11$ coût 1.0%
 2026-10-25 03:40:20,apprentie,VENTE,MAYA,0.001255,12.80,stop-loss (-26%) PnL -4.79$ coût 1.0%
+2026-10-25 03:50:19,apprentie,ACHAT,NETWORK,0.0001571241648,17.64,score 59 coût 1.1%
