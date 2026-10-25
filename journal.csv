@@ -1536,3 +1536,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 12:11:04,agressive,ACHAT,███,0.001057432242,9883.78,score 64 coût 23.1%
 2026-10-25 12:14:05,actuelle,ACHAT,BTC,0.0001839022434,10470.76,score 65 coût 76.3%
 2026-10-25 12:15:05,actuelle,VENTE,BTC,7.918e-05,2756.19,stop-loss (-57%) PnL -7714.57$ coût 38.9%
+2026-10-25 12:34:04,hasard,VENTE,McRib,0.0002397,4439.52,stop-loss (-33%) PnL -4155.23$ coût 23.4%
+2026-10-25 12:34:04,hasard,ACHAT,DacityCoin,0.002498982044,8081.02,score 23 coût 10.2%
