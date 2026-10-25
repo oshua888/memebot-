@@ -709,3 +709,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-25 06:47,2026-10-25 07:01,hasard,███,tendance,stop-loss (-30%),0.23,-42.74,75,73766,7.87,27.4,1.238,0.637,-1.58,19.96,7.7,0
 2026-10-24 21:37,2026-10-25 07:58,agressive,CATTLEAXE,profil,trailing-stop,10.36,53.46,70,70812,9.35,2.0,7.226,0.714,1.32,2.5,845,0
 2026-10-25 06:47,2026-10-25 08:27,agressive,Chunkee,boost,stop-loss (-100%),1.67,-99.67,76,60019,8.04,6.5,1.562,0.728,1.17,4.65,239,1
+2026-10-25 09:27,2026-10-25 09:28,actuelle,WHITEWHALE,profil,stop-loss (-46%),0.02,-68.78,64,28317,3.28,3.0,1.844,0.61,22.02,45.84,108,0
