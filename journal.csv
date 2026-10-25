@@ -1513,12 +1513,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 04:10:21,hasard,ACHAT,Marvin,0.0002201133884,8420.66,score 50 coût 48.6%
 2026-10-25 04:11:21,hasard,VENTE,Marvin,0.0001126,3057.50,stop-loss (-49%) PnL -5363.16$ coût 29.0%
 2026-10-25 04:11:21,hasard,ACHAT,KURUMI,0.0005272509266,8309.44,score 70 coût 32.3%
-2026-10-25 05:14:19,agressive,VENTE,Dacity,0.008106,11164.91,durée max 24h PnL -4734.69$ coût 7.4%
-2026-10-25 05:14:19,agressive,ACHAT,Chunkee,0.0006886748338,11054.79,score 76 coût 37.4%
-2026-10-25 05:23:19,hasard,VENTE,KURUMI,0.000356,4302.53,stop-loss (-32%) PnL -4006.92$ coût 23.3%
-2026-10-25 05:23:19,hasard,ACHAT,MAYA,0.001933806396,8199.56,score 56 coût 15.2%
-2026-10-25 05:24:19,apprentie,VENTE,KURUMI,0.000287,11.42,stop-loss (-35%) PnL -6.40$ coût 1.1%
-2026-10-25 05:27:19,apprentie,VENTE,REACHY,0.0003178,12.98,stop-loss (-26%) PnL -4.85$ coût 1.1%
-2026-10-25 05:40:20,actuelle,ACHAT,███,0.000674217683,10559.41,score 68 coût 32.0%
-2026-10-25 05:50:19,actuelle,VENTE,███,0.0004717,5641.27,stop-loss (-30%) PnL -4918.14$ coût 23.6%
-2026-10-25 06:13:19,apprentie,VENTE,CATTLEAXE,0.001837,12.91,stop-loss (-27%) PnL -4.84$ coût 1.0%
+2026-10-25 06:47:42,actuelle,ACHAT,███,0.0007725832556,10542.79,score 75 coût 29.6%
+2026-10-25 06:47:42,agressive,VENTE,Dacity,0.008455,11629.04,durée max 24h PnL -4270.57$ coût 7.5%
+2026-10-25 06:47:42,agressive,ACHAT,Chunkee,0.0006711512874,10937.46,score 76 coût 37.4%
+2026-10-25 06:47:42,hasard,VENTE,KURUMI,0.0003045,3757.51,stop-loss (-42%) PnL -4551.93$ coût 21.7%
+2026-10-25 06:47:42,hasard,ACHAT,███,0.0007344988939,8186.77,score 75 coût 23.2%
+2026-10-25 06:47:42,apprentie,VENTE,REACHY,0.0002385,9.74,stop-loss (-45%) PnL -8.08$ coût 1.0%
+2026-10-25 06:47:42,apprentie,VENTE,KURUMI,0.0003045,12.11,stop-loss (-31%) PnL -5.71$ coût 1.1%
+2026-10-25 06:49:41,apprentie,VENTE,CATTLEAXE,0.001865,13.10,stop-loss (-25%) PnL -4.65$ coût 1.0%
