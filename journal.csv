@@ -1461,3 +1461,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 00:20:03,prudente,ACHAT,WRHND,0.001633425732,8.97,score 70 coût 1.0%
 2026-10-25 00:20:03,hasard,ACHAT,YMB,0.0002050460978,8874.25,score 38 coût 44.0%
 2026-10-25 00:21:04,hasard,VENTE,YMB,0.0001411,4229.95,stop-loss (-31%) PnL -4644.30$ coût 30.7%
+2026-10-25 00:27:02,actuelle,VENTE,Dacity,0.008801,8384.80,stop-loss (-30%) PnL -4325.21$ coût 5.5%
+2026-10-25 00:31:04,prudente,VENTE,WRHND,0.001204,6.54,stop-loss (-26%) PnL -2.42$ coût 1.0%
+2026-10-25 00:31:04,apprentie,VENTE,WRHND,0.001204,12.57,stop-loss (-31%) PnL -5.71$ coût 1.0%
