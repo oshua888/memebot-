@@ -1616,3 +1616,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 22:58:46,actuelle,ACHAT,CATTLEAXE,0.001345037038,9897.01,score 61 coût 20.7%
 2026-10-25 23:11:46,agressive,VENTE,CATTLEAXE,0.00105,5304.26,stop-loss (-40%) PnL -4932.04$ coût 13.6%
 2026-10-25 23:23:46,prudente,ACHAT,Chop,0.0004311011459,8.88,score 77 coût 1.0%
+2026-10-25 23:44:46,actuelle,ACHAT,Bunnett,0.0003689928578,9837.52,score 60 coût 46.1%
+2026-10-25 23:45:46,actuelle,VENTE,Bunnett,0.0002547,4614.01,stop-loss (-31%) PnL -5223.51$ coût 32.1%
