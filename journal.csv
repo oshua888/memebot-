@@ -1578,3 +1578,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 14:47:05,hasard,VENTE,GME,0.0003596,3986.44,stop-loss (-33%) PnL -3404.96$ coût 19.2%
 2026-10-25 14:57:04,agressive,VENTE,GME,0.000286,3630.43,stop-loss (-49%) PnL -5228.24$ coût 19.9%
 2026-10-25 14:57:04,apprentie,VENTE,GME,0.000286,11.28,stop-loss (-34%) PnL -6.02$ coût 1.0%
+2026-10-25 15:03:03,agressive,ACHAT,Bunnett,0.0003207944553,8581.32,score 52 coût 43.3%
+2026-10-25 15:03:03,hasard,ACHAT,Bunnett,0.0003070432864,7334.66,score 52 coût 37.1%
+2026-10-25 15:06:03,actuelle,ACHAT,PumpkinBot,0.0005046893561,10314.41,score 68 coût 42.3%
+2026-10-25 15:07:04,prudente,ACHAT,PumpkinBot,0.0003898905793,8.90,score 71 coût 1.0%
+2026-10-25 15:07:04,apprentie,VENTE,PumpkinBot,0.0003859,21.98,palier +25% PnL +4.70$ coût 1.1%
+2026-10-25 15:07:04,apprentie,ACHAT,PumpkinBot,0.0003900137724,17.24,score 71 coût 1.1%
