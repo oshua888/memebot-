@@ -786,7 +786,7 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
         <div class="badges" id="badges"></div>
       </div>
 
-      <p class="disclaimer">Le groupe passe par un serveur public gratuit (broker.emqx.io). Toute personne qui connaît le code peut voir les pseudos et les verres du groupe : choisis un pseudo plutôt que ton nom complet. Quitter le groupe efface tes données du serveur. Une alerte s'affiche quand quelqu'un du groupe dépasse 0,8 g/L.</p>
+      <p class="disclaimer">Le groupe passe par des serveurs publics gratuits (Eclipse, EMQX, HiveMQ). Toute personne qui connaît le code peut voir les pseudos et les verres du groupe : choisis un pseudo plutôt que ton nom complet. Quitter le groupe efface tes données du serveur. Une alerte s'affiche quand quelqu'un du groupe dépasse 0,8 g/L.</p>
     </div>
   </section>
 
@@ -843,7 +843,7 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
         <ul class="hist" id="hist"></ul>
       </div>
 
-      <p class="disclaimer">Version 2.2 · Tournée Générale fonctionne sans compte. Tes réglages, tes cartes et ton historique restent sur ce téléphone. L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
+      <p class="disclaimer">Version 2.3 · Tournée Générale fonctionne sans compte. Tes réglages, tes cartes et ton historique restent sur ce téléphone. L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
     </div>
   </section>
 </main>
@@ -1725,8 +1725,14 @@ $("#sip-water").onclick = () => { addWater(); closeSip(); };
    tourneegenerale/v1/<CODE>/<id-appareil> ; tout le groupe s'abonne à
    tourneegenerale/v1/<CODE>/+ et reçoit les états des autres en direct.
    Les messages rapides passent par tourneegenerale/v1/<CODE>/_r (non retenus).
+   On se connecte à plusieurs serveurs publics à la fois et on publie partout :
+   si un réseau (4G, wifi d'école…) en bloque un, les autres prennent le relais.
    ===================================================== */
-const BROKER = "wss://broker.emqx.io:8084/mqtt";
+const BROKERS = [
+  "wss://mqtt.eclipseprojects.io:443/mqtt",   // port 443 : passe sur presque tous les réseaux
+  "wss://broker.emqx.io:8084/mqtt",
+  "wss://broker.hivemq.com:8884/mqtt"
+];
 const TOPIC = code => "tourneegenerale/v1/" + code;
 const CODE_RE = /^[A-Z0-9]{4,12}$/;
 const REACTS = {
@@ -1740,6 +1746,24 @@ const devId = (() => {
 })();
 let group = store.get("tg.group", "");
 let client = null, members = {}, pubTimer = null, feed = [], lastReact = 0;
+const seenMsg = new Set();   // les messages arrivent une fois par serveur : on ne les traite qu'une fois
+// Regroupe les connexions aux différents serveurs derrière une seule interface
+function makeBus(urls) {
+  return {
+    list: [],
+    get connected() { return this.list.some(c => c.connected); },
+    get count() { return this.list.filter(c => c.connected).length; },
+    publish(topic, msg, opts, cb) {
+      const live = this.list.filter(c => c.connected);
+      let pending = live.length;
+      if (!pending) { cb && cb(); return; }
+      live.forEach(c => c.publish(topic, msg, opts, () => { if (--pending === 0 && cb) cb(); }));
+    },
+    end(force) { this.list.forEach(c => { try { c.end(force); } catch {} }); this.list = []; },
+    wake() { this.list.forEach(c => { if (!c.connected && !c.reconnecting && !c.disconnecting) try { c.reconnect(); } catch {} }); }
+  };
+}
+const msgId = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
 const alerted = {};
 
 function setSync(state, text) {
@@ -1776,31 +1800,46 @@ function connectGroup() {
   if (!group) { setSync("", "Hors groupe"); return; }
   if (!window.mqtt) { setSync("err", "Synchro indisponible"); return; }
   setSync("", "Connexion…");
-  const c = mqtt.connect(BROKER, { clientId: "tg_" + devId + "_" + Math.random().toString(36).slice(2, 7), clean: true, reconnectPeriod: 4000, connectTimeout: 10000, keepalive: 45 });
-  client = c;
-  const base = TOPIC(group);
-  c.on("connect", () => {
-    if (client !== c) return;
-    setSync("on", "Groupe " + group);
-    c.subscribe(base + "/+", { qos: 1 });
-    if (me.pseudo) c.publish(base + "/" + devId, JSON.stringify(payload()), { qos: 1, retain: true });
+  const bus = makeBus(BROKERS), base = TOPIC(group);
+  client = bus;
+  const status = () => {
+    if (client !== bus) return;
+    if (bus.connected) setSync("on", "Groupe " + group);
+    else setSync(navigator.onLine === false ? "err" : "", navigator.onLine === false ? "Hors ligne" : "Reconnexion…");
+  };
+  BROKERS.forEach(url => {
+    let c;
+    try { c = mqtt.connect(url, { clientId: "tg_" + devId + "_" + Math.random().toString(36).slice(2, 7), clean: true, reconnectPeriod: 5000, connectTimeout: 12000, keepalive: 40 }); }
+    catch { return; }
+    bus.list.push(c);
+    c.on("connect", () => {
+      if (client !== bus) return;
+      status();
+      c.subscribe(base + "/+", { qos: 1 });
+      if (me.pseudo) c.publish(base + "/" + devId, JSON.stringify(payload()), { qos: 1, retain: true });
+    });
+    c.on("message", (topic, buf, packet) => {
+      if (client !== bus || !topic.startsWith(base + "/")) return;
+      const id = topic.slice(base.length + 1);
+      let raw = null;
+      try { raw = buf.length ? JSON.parse(new TextDecoder().decode(buf)) : null; } catch {}
+      if (id === "_r") {
+        if (packet.retain || !raw) return;
+        const key = String(raw.mid || (raw.from + ":" + raw.t + ":" + raw.k));
+        if (seenMsg.has(key)) return;
+        seenMsg.add(key); if (seenMsg.size > 300) seenMsg.delete(seenMsg.values().next().value);
+        onReact(raw); return;
+      }
+      if (id === "_g") { onShared(raw, !packet.retain); return; }
+      if (id.startsWith("_v")) { onVote(id.slice(2), raw); return; }
+      if (id === devId) return;
+      const data = clean(raw);
+      if (data) { if (!members[id] || data.updatedAt >= members[id].updatedAt) members[id] = data; }
+      else delete members[id];
+      renderFriends();
+    });
+    ["reconnect", "offline", "close", "error"].forEach(ev => c.on(ev, status));
   });
-  c.on("message", (topic, buf, packet) => {
-    if (client !== c || !topic.startsWith(base + "/")) return;
-    const id = topic.slice(base.length + 1);
-    let raw = null;
-    try { raw = buf.length ? JSON.parse(new TextDecoder().decode(buf)) : null; } catch {}
-    if (id === "_r") { if (!packet.retain) onReact(raw); return; }
-    if (id === "_g") { onShared(raw, !packet.retain); return; }
-    if (id.startsWith("_v")) { onVote(id.slice(2), raw); return; }
-    if (id === devId) return;
-    const data = clean(raw);
-    if (data) members[id] = data; else delete members[id];
-    renderFriends();
-  });
-  c.on("reconnect", () => { if (client === c) setSync("", "Reconnexion…"); });
-  c.on("offline", () => { if (client === c) setSync("err", "Hors ligne"); });
-  c.on("error", () => { if (client === c) setSync("err", "Erreur réseau"); });
 }
 function joinGroup(code) { group = code; store.set("tg.group", code); connectGroup(); }
 function leaveGroup() {
@@ -1853,7 +1892,7 @@ function sendReact(k) {
   if (!me.pseudo) { toast("Choisis d'abord un pseudo dans l'onglet Alcoolémie."); return; }
   if (Date.now() - lastReact < 2000) return;
   lastReact = Date.now();
-  client.publish(TOPIC(group) + "/_r", JSON.stringify({ from: devId, pseudo: me.pseudo, k, t: Date.now() }), { qos: 0, retain: false });
+  client.publish(TOPIC(group) + "/_r", JSON.stringify({ mid: msgId(), from: devId, pseudo: me.pseudo, k, t: Date.now() }), { qos: 0, retain: false });
 }
 function onReact(o) {
   if (o && o.k === "bu" && typeof o.pseudo === "string") {
@@ -2124,7 +2163,7 @@ function renderSoFeed() {
 }
 function soDrank(n) {
   if (n === 0) addWater(); else addSips(n);
-  if (client && client.connected && me.pseudo) client.publish(TOPIC(group) + "/_r", JSON.stringify({ from: devId, pseudo: me.pseudo, k: "bu", n, t: Date.now() }), { qos: 0, retain: false });
+  if (client && client.connected && me.pseudo) client.publish(TOPIC(group) + "/_r", JSON.stringify({ mid: msgId(), from: devId, pseudo: me.pseudo, k: "bu", n, t: Date.now() }), { qos: 0, retain: false });
 }
 $("#soiree-open").onclick = () => openGame("soiree");
 $("#so-goto-amis").onclick = () => showTab("amis");
@@ -2202,7 +2241,8 @@ if (qsGroup && CODE_RE.test(qsGroup.toUpperCase())) {
 applyTheme();
 connectGroup();
 setInterval(() => { renderBac(); renderFriends(); }, 30e3);   // le taux évolue avec le temps
-document.addEventListener("visibilitychange", () => { if (!document.hidden) { rollNight(); renderBac(); renderFriends(); } });
+document.addEventListener("visibilitychange", () => { if (!document.hidden) { rollNight(); renderBac(); renderFriends(); if (client) client.wake(); } });
+addEventListener("online", () => { if (client) client.wake(); });
 if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
 })();
 </script>
