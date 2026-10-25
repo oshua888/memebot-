@@ -1486,3 +1486,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 02:27:19,apprentie,ACHAT,Chunkee,0.0003583983061,17.81,score 34 coût 1.1%
 2026-10-25 02:27:19,apprentie,ACHAT,CATTLEAXE,0.001969036241,17.80,score 95 coût 1.0%
 2026-10-25 02:36:19,apprentie,VENTE,Chunkee,0.0002671,13.13,stop-loss (-25%) PnL -4.68$ coût 1.1%
+2026-10-25 02:42:19,prudente,VENTE,KURUMI,0.0003784,7.03,stop-loss (-21%) PnL -1.92$ coût 1.0%
+2026-10-25 02:43:19,actuelle,VENTE,SWORDOPE,0.001922,7010.70,stop-loss (-30%) PnL -4616.00$ coût 13.8%
