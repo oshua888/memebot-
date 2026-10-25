@@ -1540,3 +1540,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 09:53:41,agressive,ACHAT,Chubby,0.000281635435,9927.27,score 64 coût 57.0%
 2026-10-25 09:54:41,actuelle,VENTE,Chubby,0.0001679,3847.57,stop-loss (-41%) PnL -6469.28$ coût 36.6%
 2026-10-25 09:54:41,agressive,VENTE,Chubby,0.0001679,3805.23,stop-loss (-40%) PnL -6122.04$ coût 35.7%
+2026-10-25 10:08:41,prudente,ACHAT,REMUS,0.0008546372371,8.90,score 70 coût 1.0%
