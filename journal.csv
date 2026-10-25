@@ -1526,3 +1526,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 07:01:42,hasard,ACHAT,DOPE,0.003708717419,8123.36,score 29 coût 7.7%
 2026-10-25 07:58:42,agressive,VENTE,CATTLEAXE,0.001686,10903.41,trailing-stop PnL +3179.81$ coût 25.6%
 2026-10-25 07:58:42,agressive,ACHAT,MAYA,0.002055521594,10709.94,score 68 coût 19.4%
+2026-10-25 08:27:41,agressive,VENTE,Chunkee,2.33e-06,36.46,stop-loss (-100%) PnL -10901.00$ coût 4.0%
+2026-10-25 08:27:41,agressive,ACHAT,KURUMI,0.0005130975585,10437.08,score 68 coût 42.1%
