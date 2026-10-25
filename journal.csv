@@ -1481,3 +1481,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 02:20:21,actuelle,ACHAT,Chunkee,0.0003815491636,11090.41,score 62 coût 54.5%
 2026-10-25 02:21:24,prudente,VENTE,REACHY,0.0003666,3.11,trailing-stop PnL +0.89$ coût 1.0%
 2026-10-25 02:21:24,actuelle,VENTE,Chunkee,0.000227,4338.61,stop-loss (-41%) PnL -6751.80$ coût 34.2%
+2026-10-25 02:27:19,apprentie,ACHAT,REACHY,0.0004318497414,17.83,score 52 coût 1.1%
+2026-10-25 02:27:19,apprentie,ACHAT,KURUMI,0.0004432676809,17.82,score 68 coût 1.1%
+2026-10-25 02:27:19,apprentie,ACHAT,Chunkee,0.0003583983061,17.81,score 34 coût 1.1%
+2026-10-25 02:27:19,apprentie,ACHAT,CATTLEAXE,0.001969036241,17.80,score 95 coût 1.0%
