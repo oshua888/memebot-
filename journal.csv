@@ -1605,3 +1605,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 20:01:22,agressive,ACHAT,LAUNCH,0.002295641,9027.31,score 64 coût 13.5%
 2026-10-25 20:31:22,agressive,ACHAT,Bunnett,0.0004114193797,8945.98,score 51 coût 38.8%
 2026-10-25 21:08:21,agressive,VENTE,Bunnett,0.0002464,3970.36,stop-loss (-40%) PnL -4975.62$ coût 25.9%
+2026-10-25 21:22:21,prudente,ACHAT,LAUNCH,0.00195459351,8.86,score 75 coût 1.0%
