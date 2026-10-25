@@ -155,6 +155,16 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
 .toast.alert { background: var(--bad); color: #fff; }
 @keyframes drop { from { transform: translate(-50%, -12px); opacity: 0; } to { transform: translate(-50%, 0); opacity: 1; } }
 
+/* Bandeau de mise à jour */
+.update-bar {
+  position: sticky; top: calc(env(safe-area-inset-top, 0px) + 57px); z-index: 4;
+  display: flex; align-items: center; gap: 12px; justify-content: space-between; flex-wrap: wrap;
+  background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: 14px;
+  padding-block: 10px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.update-bar .btn-primary { background: var(--accent-ink); color: var(--accent); border-color: var(--accent-ink); }
+
 /* Joueurs */
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip { display: inline-flex; align-items: center; gap: 6px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 6px 6px 6px 12px; font-weight: 500; }
@@ -356,6 +366,10 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
 </header>
 
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<div class="update-bar" id="update-bar" hidden>
+  <span>Une nouvelle version de l'appli est disponible.</span>
+  <button class="btn-sm btn-primary" id="update-btn">Mettre à jour</button>
+</div>
 
 <main>
   <!-- ================= JEUX ================= -->
@@ -793,7 +807,7 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
   <!-- ================= RÉGLAGES ================= -->
   <section id="view-reglages" class="view" hidden aria-labelledby="t-reg">
     <div class="wrap">
-      <div><p class="eyebrow">Réglages</p><h2 id="t-reg">Mon appli</h2></div>
+      <div><p class="eyebrow">Réglages</p><h2 id="t-reg">Mon appli</h2><p class="small muted" id="app-version" style="margin-top:4px"></p></div>
 
       <div class="panel">
         <h3>Apparence et sons</h3>
@@ -843,7 +857,7 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
         <ul class="hist" id="hist"></ul>
       </div>
 
-      <p class="disclaimer">Version 2.3 · Tournée Générale fonctionne sans compte. Tes réglages, tes cartes et ton historique restent sur ce téléphone. L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
+      <p class="disclaimer">Tournée Générale fonctionne sans compte. Tes réglages, tes cartes et ton historique restent sur ce téléphone. L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
     </div>
   </section>
 </main>
@@ -2226,12 +2240,34 @@ $("#hist-clear").onclick = () => { $("#hist-confirm").hidden = false; };
 $("#hist-no").onclick = () => { $("#hist-confirm").hidden = true; };
 $("#hist-yes").onclick = () => { nights = []; store.set("tg.history", nights); $("#hist-confirm").hidden = true; renderHistory(); };
 
+/* ---------- Mises à jour ---------- */
+const APP_VERSION = "2.4";
+$("#app-version").textContent = "Version " + APP_VERSION;
+async function checkUpdate() {
+  try {
+    const r = await fetch("version.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) return;
+    const v = (await r.json()).version;
+    if (v && v !== APP_VERSION) $("#update-bar").hidden = false;
+  } catch {}
+}
+$("#update-btn").onclick = async () => {
+  $("#update-btn").disabled = true; $("#update-btn").textContent = "Mise à jour…";
+  // on vide le cache hors ligne (pas les verres ni les réglages) puis on recharge
+  try { const regs = await navigator.serviceWorker?.getRegistrations?.() || []; await Promise.all(regs.map(r => r.unregister())); } catch {}
+  try { const keys = await caches.keys(); await Promise.all(keys.map(k => caches.delete(k))); } catch {}
+  location.replace(location.pathname + "?v=" + Date.now() + location.hash);
+};
+checkUpdate();
+document.addEventListener("visibilitychange", () => { if (!document.hidden) checkUpdate(); });
+
 /* ---------- Démarrage ---------- */
 renderPlayers(); renderPackSeg(); drawWheel(); roiReset();
 renderDrinkButtons(); renderProfile(); renderLog(); renderBac();
 renderReacts(); renderSettings(); renderCustom(); renderHistory();
 const hashTab = (location.hash || "").slice(1);
 showTab(["jeux", "taux", "amis", "reglages"].includes(hashTab) ? hashTab : store.get("tg.tab", "jeux"));
+if (new URLSearchParams(location.search).has("v") && !new URLSearchParams(location.search).has("groupe")) window.history.replaceState(null, "", location.pathname + location.hash);
 const qsGroup = new URLSearchParams(location.search).get("groupe");
 if (qsGroup && CODE_RE.test(qsGroup.toUpperCase())) {
   group = qsGroup.toUpperCase(); store.set("tg.group", group);
