@@ -1446,29 +1446,22 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 23:35:00,hasard,VENTE,WILDWOOD,0.0001303,3623.94,stop-loss (-39%) PnL -5618.57$ coût 35.6%
 2026-10-24 23:35:00,apprentie,VENTE,WRHND,0.001715,22.46,palier +25% PnL +4.53$ coût 1.0%
 2026-10-24 23:35:00,apprentie,ACHAT,WRHND,0.001732688115,18.27,score 64 coût 1.0%
-2026-10-24 23:40:00,apprentie,ACHAT,CATTLEAXE,0.001341753041,18.27,score 66 coût 1.0%
-2026-10-24 23:46:00,prudente,VENTE,WRHND,0.001875,5.84,palier +30% PnL +1.36$ coût 1.0%
-2026-10-24 23:49:00,hasard,ACHAT,NETWORK,0.0001947415885,9130.14,score 38 coût 67.2%
-2026-10-24 23:50:00,prudente,VENTE,███,0.0004141,6.99,stop-loss (-21%) PnL -2.00$ coût 1.0%
-2026-10-24 23:50:00,hasard,VENTE,NETWORK,0.0001117,3153.90,stop-loss (-43%) PnL -5976.23$ coût 39.8%
-2026-10-24 23:51:00,apprentie,VENTE,███,0.0003787,12.99,stop-loss (-28%) PnL -5.29$ coût 1.0%
-2026-10-24 23:53:05,apprentie,VENTE,REMUS,0.0006006,12.86,stop-loss (-28%) PnL -5.20$ coût 1.0%
-2026-10-25 00:06:05,hasard,ACHAT,Dacity,0.009688800452,9014.13,score 24 coût 5.5%
-2026-10-25 00:07:02,hasard,ACHAT,Moustache,0.0002417417695,8988.33,score 35 coût 46.4%
-2026-10-25 00:08:05,hasard,VENTE,Moustache,0.0001677,4223.96,stop-loss (-31%) PnL -4764.38$ coût 32.3%
-2026-10-25 00:11:02,prudente,VENTE,WRHND,0.001568,4.89,trailing-stop PnL +0.40$ coût 1.0%
-2026-10-25 00:12:04,prudente,VENTE,SWORDOPE,0.002451,7.10,stop-loss (-20%) PnL -1.88$ coût 1.0%
-2026-10-25 00:20:03,prudente,ACHAT,WRHND,0.001633425732,8.97,score 70 coût 1.0%
-2026-10-25 00:20:03,hasard,ACHAT,YMB,0.0002050460978,8874.25,score 38 coût 44.0%
-2026-10-25 00:21:04,hasard,VENTE,YMB,0.0001411,4229.95,stop-loss (-31%) PnL -4644.30$ coût 30.7%
-2026-10-25 00:27:02,actuelle,VENTE,Dacity,0.008801,8384.80,stop-loss (-30%) PnL -4325.21$ coût 5.5%
-2026-10-25 00:31:04,prudente,VENTE,WRHND,0.001204,6.54,stop-loss (-26%) PnL -2.42$ coût 1.0%
-2026-10-25 00:31:04,apprentie,VENTE,WRHND,0.001204,12.57,stop-loss (-31%) PnL -5.71$ coût 1.0%
-2026-10-25 00:33:00,actuelle,VENTE,WRHND,0.00116,6699.43,stop-loss (-30%) PnL -5009.28$ coût 18.0%
-2026-10-25 00:41:00,hasard,VENTE,WRHND,0.001048,5199.49,stop-loss (-34%) PnL -4046.43$ coût 14.3%
-2026-10-25 00:43:00,agressive,VENTE,WRHND,0.0009726,5483.86,stop-loss (-41%) PnL -5526.21$ coût 15.8%
-2026-10-25 00:43:00,hasard,ACHAT,GLITCH,0.002867994204,8723.64,score 20 coût 13.4%
-2026-10-25 01:03:00,hasard,ACHAT,Pablo,0.0001667260173,8709.58,score 36 coût 68.8%
-2026-10-25 01:03:59,hasard,VENTE,Pablo,9.684e-05,2996.13,stop-loss (-42%) PnL -5713.45$ coût 40.8%
-2026-10-25 01:12:59,agressive,ACHAT,REMUS,0.0008166058753,11025.26,score 54 coût 31.6%
-2026-10-25 01:12:59,hasard,ACHAT,REMUS,0.0007745122779,8578.79,score 54 coût 24.8%
+2026-10-25 01:27:18,prudente,VENTE,WRHND,0.0005427,3.38,stop-loss (-62%) PnL -5.59$ coût 1.0%
+2026-10-25 01:27:18,actuelle,VENTE,WRHND,0.0005427,3337.97,stop-loss (-67%) PnL -8370.74$ coût 12.7%
+2026-10-25 01:27:18,actuelle,ACHAT,REMUS,0.0008157739572,11505.45,score 67 coût 33.1%
+2026-10-25 01:27:18,agressive,VENTE,WRHND,0.0005427,3194.76,stop-loss (-67%) PnL -7815.30$ coût 12.1%
+2026-10-25 01:27:18,agressive,ACHAT,REMUS,0.0008073098848,11010.48,score 67 coût 31.7%
+2026-10-25 01:27:18,hasard,VENTE,WRHND,0.0005427,2808.18,stop-loss (-66%) PnL -6437.75$ coût 10.6%
+2026-10-25 01:27:18,hasard,ACHAT,GLITCH,0.002783984197,9036.73,score 18 coût 14.1%
+2026-10-25 01:27:18,hasard,ACHAT,REMUS,0.0007728366808,8994.52,score 67 coût 26.1%
+2026-10-25 01:27:18,hasard,ACHAT,Pablo,0.0001639537032,8927.47,score 36 coût 71.8%
+2026-10-25 01:27:18,hasard,ACHAT,Dacity,0.009645267827,8808.97,score 40 coût 5.4%
+2026-10-25 01:27:18,apprentie,VENTE,REMUS,0.0006129,13.12,stop-loss (-27%) PnL -4.94$ coût 1.0%
+2026-10-25 01:27:18,apprentie,VENTE,WRHND,0.0005427,5.67,stop-loss (-69%) PnL -12.61$ coût 1.0%
+2026-10-25 01:28:18,hasard,VENTE,Pablo,9.363e-05,2964.33,stop-loss (-43%) PnL -5963.14$ coût 41.9%
+2026-10-25 01:28:18,hasard,ACHAT,NETWORK,0.000224319396,8782.52,score 33 coût 58.4%
+2026-10-25 01:29:18,hasard,VENTE,NETWORK,0.0001383,3420.55,stop-loss (-38%) PnL -5361.97$ coût 36.8%
+2026-10-25 01:29:18,hasard,ACHAT,Moustache,0.0002493659045,8685.65,score 45 coût 43.7%
+2026-10-25 01:30:18,hasard,VENTE,Moustache,0.000171,4137.94,stop-loss (-31%) PnL -4547.71$ coût 30.5%
+2026-10-25 01:31:18,prudente,VENTE,███,0.0003902,6.59,stop-loss (-26%) PnL -2.41$ coût 1.0%
+2026-10-25 01:31:18,apprentie,VENTE,███,0.0003902,13.38,stop-loss (-26%) PnL -4.90$ coût 1.0%
