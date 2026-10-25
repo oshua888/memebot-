@@ -1567,3 +1567,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 14:29:03,hasard,ACHAT,PumpkinBot,0.0003990842486,7562.60,score 42 coût 34.4%
 2026-10-25 14:29:03,apprentie,ACHAT,PumpkinBot,0.0003000957241,17.28,score 42 coût 1.1%
 2026-10-25 14:32:02,hasard,VENTE,DacityCoin,0.001681,4989.36,stop-loss (-33%) PnL -3091.66$ coût 8.2%
+2026-10-25 14:33:04,hasard,ACHAT,BASE,0.0001511604789,7489.96,score 44 coût 60.3%
+2026-10-25 14:34:03,hasard,VENTE,BASE,9.329e-05,2876.83,stop-loss (-38%) PnL -4613.13$ coût 37.8%
+2026-10-25 14:34:03,apprentie,ACHAT,SHADOW,0.0001718636072,17.25,score 21 coût 1.1%
+2026-10-25 14:37:02,agressive,ACHAT,NETWORK,0.0002461564817,9013.10,score 53 coût 57.1%
