@@ -1539,3 +1539,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 12:34:04,hasard,VENTE,McRib,0.0002397,4439.52,stop-loss (-33%) PnL -4155.23$ coût 23.4%
 2026-10-25 12:34:04,hasard,ACHAT,DacityCoin,0.002498982044,8081.02,score 23 coût 10.2%
 2026-10-25 12:38:04,agressive,VENTE,KURUMI,0.0002713,4102.75,stop-loss (-47%) PnL -6334.33$ coût 25.7%
+2026-10-25 12:46:04,agressive,VENTE,SWORDOPE,0.001154,5706.99,stop-loss (-41%) PnL -5570.27$ coût 14.4%
