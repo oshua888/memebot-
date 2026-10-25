@@ -1534,3 +1534,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 12:09:04,agressive,ACHAT,BTC,0.0001611858003,10133.62,score 50 coût 79.1%
 2026-10-25 12:11:04,agressive,VENTE,BTC,8.249e-05,2916.94,stop-loss (-49%) PnL -7216.68$ coût 43.8%
 2026-10-25 12:11:04,agressive,ACHAT,███,0.001057432242,9883.78,score 64 coût 23.1%
+2026-10-25 12:14:05,actuelle,ACHAT,BTC,0.0001839022434,10470.76,score 65 coût 76.3%
+2026-10-25 12:15:05,actuelle,VENTE,BTC,7.918e-05,2756.19,stop-loss (-57%) PnL -7714.57$ coût 38.9%
