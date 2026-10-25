@@ -1,78 +1,3 @@
-agressive      828.53$   -17.1%   -173.03$   14.38$   10/21      5
-hasard         962.99$    -3.7%    -42.85$   10.46$   17/17      5
-apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 207 — 2026-10-19 20:39:41 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  87 tokens trouvés, analyse en cours…
-  13 retenus / 87 ; rejets : liquidité faible ×62, trop récent ×41, volume faible ×38, trop ancien ×6, FDV/liquidité trop élevé ×5, RugCheck: liquidité non verrouillée ×1, RugCheck: top 10 détient 38% ×1
-
-STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
-prudente       988.17$    -1.2%    -12.32$    6.26$   24/22      1
-actuelle       892.94$   -10.7%   -113.12$   16.24$   23/33      5
-agressive      827.97$   -17.2%   -173.03$   14.38$   10/21      5
-hasard         962.76$    -3.7%    -42.85$   10.46$   17/17      5
-apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 208 — 2026-10-19 20:40:41 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  88 tokens trouvés, analyse en cours…
-  15 retenus / 86 ; rejets : liquidité faible ×60, trop récent ×40, volume faible ×37, trop ancien ×5, FDV/liquidité trop élevé ×5, RugCheck: liquidité non verrouillée ×1, RugCheck: top 10 détient 38% ×1
-  [actuelle] VENTE ETCHY @ 0.001035$ — 12.04$ stop-loss (-31%) PnL -5.67$ coût 1.0%
-
-STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
-prudente       988.33$    -1.2%    -12.32$    6.26$   24/22      1
-actuelle       891.83$   -10.8%   -118.78$   16.36$   23/34      4
-agressive      827.14$   -17.3%   -173.03$   14.38$   10/21      5
-hasard         962.82$    -3.7%    -42.85$   10.46$   17/17      5
-apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 209 — 2026-10-19 20:41:41 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  88 tokens trouvés, analyse en cours…
-  15 retenus / 87 ; rejets : liquidité faible ×61, trop récent ×41, volume faible ×37, trop ancien ×5, FDV/liquidité trop élevé ×5, RugCheck: liquidité non verrouillée ×1, RugCheck: top 10 détient 38% ×1
-  [actuelle] VENTE Kim @ 0.0005779$ — 14.68$ trailing-stop PnL +2.80$ coût 1.0%
-
-STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
-prudente       988.21$    -1.2%    -12.32$    6.26$   24/22      1
-actuelle       891.85$   -10.8%   -115.98$   16.52$   24/34      3
-agressive      828.39$   -17.2%   -173.03$   14.38$   10/21      5
-hasard         963.44$    -3.7%    -42.85$   10.46$   17/17      5
-apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 210 — 2026-10-19 20:42:41 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  88 tokens trouvés, analyse en cours…
-  15 retenus / 88 ; rejets : liquidité faible ×61, trop récent ×42, volume faible ×40, trop ancien ×5, FDV/liquidité trop élevé ×5, RugCheck: liquidité non verrouillée ×1, aucune vente ×1, RugCheck: top 10 détient 38% ×1
-
-STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
-prudente       988.07$    -1.2%    -12.32$    6.26$   24/22      1
-actuelle       891.48$   -10.9%   -115.98$   16.52$   24/34      3
-agressive      828.35$   -17.2%   -173.03$   14.38$   10/21      5
-hasard         963.03$    -3.7%    -42.85$   10.46$   17/17      5
-apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 211 — 2026-10-19 20:43:41 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  88 tokens trouvés, analyse en cours…
-  15 retenus / 87 ; rejets : liquidité faible ×60, trop récent ×41, volume faible ×40, FDV/liquidité trop élevé ×6, trop ancien ×5, RugCheck: liquidité non verrouillée ×1, RugCheck: top 10 détient 38% ×1
-
-STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
-prudente       987.83$    -1.2%    -12.32$    6.26$   24/22      1
-actuelle       890.51$   -10.9%   -115.98$   16.52$   24/34      3
-agressive      827.20$   -17.3%   -173.03$   14.38$   10/21      5
-hasard         962.06$    -3.8%    -42.85$   10.46$   17/17      5
-apprentie     1000.00$    +0.0%     +0.00$    0.00$    0/0       0
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 212 — 2026-10-19 20:44:41 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  87 tokens trouvés, analyse en cours…
   15 retenus / 87 ; rejets : liquidité faible ×61, volume faible ×41, trop récent ×41, trop ancien ×5, FDV/liquidité trop élevé ×5, RugCheck: liquidité non verrouillée ×1, RugCheck: top 10 détient 38% ×1
 
 STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
@@ -3072,4 +2997,77 @@ actuelle    522873.88$+52187.4%+533431.70$12177446.48$   67/129     3
 agressive   358620.57$+35762.1%+371515.95$17224278.27$   29/114     5
 hasard      406508.24$+40550.8%+418131.86$12108016.49$   50/140     5
 apprentie      867.51$   -13.2%   -132.00$   42.13$   42/67      1
+(argent fictif — valeur nette si tout était revendu maintenant)
+=== BOT EN MODE SIMULATION (argent fictif) — Ctrl+C pour arrêter ===
+  [apprentissage] 289 observations — règle sl25_tp25 — top 25 % : -2.5% vs moyenne -8.4% → en pause : rien de rentable sur les données récentes
+
+--- cycle 1 — 2026-10-25 12:07:52 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  16 retenus / 94 ; rejets : liquidité faible ×61, trop récent ×40, volume faible ×40, trop ancien ×14, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 38% ×1
+  [agressive] VENTE GLITCH @ 0.002183$ — 6896.57$ stop-loss (-40%) PnL -6419.46$ coût 13.3%
+  [agressive] VENTE MAYA @ 2.44e-06$ — 12.47$ stop-loss (-100%) PnL -10697.47$ coût 1.9%
+  [agressive] ACHAT CATTLEAXE @ 0.0017501915$ — 10236.30$ score 52 coût 19.4%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       890.48$   -11.0%   -109.52$   23.07$   91/87      0
+actuelle    523762.49$+52276.2%+528635.57$12179072.84$   67/130     2
+agressive   338141.61$+33714.2%+346677.82$17235589.94$   30/117     4
+hasard      404867.98$+40386.8%+414633.10$12109605.09$   50/141     5
+apprentie      868.84$   -13.1%   -132.00$   42.13$   42/67      1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 2 — 2026-10-25 12:08:52 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  15 retenus / 94 ; rejets : liquidité faible ×62, trop récent ×40, volume faible ×40, trop ancien ×14, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 38% ×1
+  [agressive] ACHAT BTC @ 0.0001611858$ — 10133.62$ score 50 coût 79.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       890.48$   -11.0%   -109.52$   23.07$   91/87      0
+actuelle    523996.26$+52299.6%+528635.57$12179072.84$   67/130     2
+agressive   330788.69$+32978.9%+346677.82$17240064.71$   30/117     5
+hasard      405207.04$+40420.7%+414633.10$12109605.09$   50/141     5
+apprentie      869.04$   -13.1%   -132.00$   42.13$   42/67      1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 3 — 2026-10-25 12:09:52 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  93 tokens trouvés, analyse en cours…
+  16 retenus / 93 ; rejets : liquidité faible ×59, volume faible ×39, trop récent ×38, trop ancien ×14, FDV/liquidité trop élevé ×4, RugCheck: top 10 détient 38% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       890.48$   -11.0%   -109.52$   23.07$   91/87      0
+actuelle    523942.15$+52294.2%+528635.57$12179072.84$   67/130     2
+agressive   329854.01$+32885.4%+346677.82$17240064.71$   30/117     5
+hasard      405083.18$+40408.3%+414633.10$12109605.09$   50/141     5
+apprentie      869.04$   -13.1%   -132.00$   42.13$   42/67      1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 4 — 2026-10-25 12:10:52 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  14 retenus / 94 ; rejets : liquidité faible ×63, volume faible ×40, trop récent ×39, trop ancien ×14, FDV/liquidité trop élevé ×4, RugCheck: top 10 détient 38% ×1
+  [agressive] VENTE BTC @ 8.249e-05$ — 2916.94$ stop-loss (-49%) PnL -7216.68$ coût 43.8%
+  [agressive] ACHAT ███ @ 0.0010574322$ — 9883.78$ score 64 coût 23.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       890.48$   -11.0%   -109.52$   23.07$   91/87      0
+actuelle    523619.39$+52261.9%+528635.57$12179072.84$   67/130     2
+agressive   326079.71$+32508.0%+339461.15$17244190.45$   30/118     5
+hasard      404826.18$+40382.6%+414633.10$12109605.09$   50/141     5
+apprentie      869.04$   -13.1%   -132.00$   42.13$   42/67      1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 5 — 2026-10-25 12:11:52 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  16 retenus / 94 ; rejets : liquidité faible ×61, volume faible ×40, trop récent ×38, trop ancien ×14, FDV/liquidité trop élevé ×4, RugCheck: top 10 détient 38% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       890.48$   -11.0%   -109.52$   23.07$   91/87      0
+actuelle    523598.48$+52259.8%+528635.57$12179072.84$   67/130     2
+agressive   325855.99$+32485.6%+339461.15$17244190.45$   30/118     5
+hasard      404799.54$+40380.0%+414633.10$12109605.09$   50/141     5
+apprentie      869.04$   -13.1%   -132.00$   42.13$   42/67      1
 (argent fictif — valeur nette si tout était revendu maintenant)
