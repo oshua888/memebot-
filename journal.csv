@@ -1509,3 +1509,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 03:53:19,actuelle,ACHAT,NETWORK,0.0002673976458,10706.55,score 60 coût 66.3%
 2026-10-25 03:54:19,actuelle,VENTE,NETWORK,0.0001599,3830.15,stop-loss (-40%) PnL -6876.41$ coût 40.2%
 2026-10-25 03:59:19,prudente,VENTE,Chunkee,0.0004111,7.07,stop-loss (-20%) PnL -1.88$ coût 1.0%
+2026-10-25 04:10:21,hasard,VENTE,Chunkee,0.0003961,4562.41,stop-loss (-30%) PnL -3934.66$ coût 23.2%
+2026-10-25 04:10:21,hasard,ACHAT,Marvin,0.0002201133884,8420.66,score 50 coût 48.6%
+2026-10-25 04:11:21,hasard,VENTE,Marvin,0.0001126,3057.50,stop-loss (-49%) PnL -5363.16$ coût 29.0%
+2026-10-25 04:11:21,hasard,ACHAT,KURUMI,0.0005272509266,8309.44,score 70 coût 32.3%
