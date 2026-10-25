@@ -1454,3 +1454,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-24 23:51:00,apprentie,VENTE,███,0.0003787,12.99,stop-loss (-28%) PnL -5.29$ coût 1.0%
 2026-10-24 23:53:05,apprentie,VENTE,REMUS,0.0006006,12.86,stop-loss (-28%) PnL -5.20$ coût 1.0%
 2026-10-25 00:06:05,hasard,ACHAT,Dacity,0.009688800452,9014.13,score 24 coût 5.5%
+2026-10-25 00:07:02,hasard,ACHAT,Moustache,0.0002417417695,8988.33,score 35 coût 46.4%
+2026-10-25 00:08:05,hasard,VENTE,Moustache,0.0001677,4223.96,stop-loss (-31%) PnL -4764.38$ coût 32.3%
+2026-10-25 00:11:02,prudente,VENTE,WRHND,0.001568,4.89,trailing-stop PnL +0.40$ coût 1.0%
