@@ -21,3 +21,8 @@ Pour tester en local : `python3 -m http.server` dans ce dossier, puis http://loc
 - `sw.js`, `manifest.webmanifest`, `icon-*.png` : installation et fonctionnement hors ligne
 
 L'estimation d'alcoolémie ne remplace pas un éthylotest.
+
+## Dossier docs/
+`docs/` est une copie de ce dossier (et de `index.html` / `404.html` à la racine), pour que le site marche
+que GitHub Pages soit réglé sur « / (root) » ou sur « /docs ». Après une modification, recopier avec :
+`cp tournee-generale/* docs/tournee-generale/`

@@ -1,0 +1,2210 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tournée Générale</title>
+<meta name="description" content="Jeux à boire et suivi d'alcoolémie en direct entre amis.">
+<meta name="theme-color" content="#1a1224" id="theme-color">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Tournée">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@500&display=swap">
+<script>
+  // Thème appliqué avant l'affichage pour éviter un flash
+  try { const t = JSON.parse(localStorage.getItem("tg.settings") || "{}").theme; if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
+</script>
+<style>
+/* Layout : app mobile une colonne, en-tête collant, contenu par onglet, barre d'onglets fixée en bas. Sombre par défaut, clair au choix. */
+:root {
+  color-scheme: dark;
+  --bg: #1a1224;
+  --surface: #251a33;
+  --surface-2: #31233f;
+  --line: #43325a;
+  --fg: #f5eefa;
+  --muted: #b3a3c4;
+  --accent: #ffb547;
+  --accent-ink: #2a1a05;
+  --accent-soft: rgba(255, 181, 71, 0.18);
+  --pink: #ff7aa2;
+  --water: #6cc4ff;
+  --ok: #5fd39b;
+  --warn: #ffb547;
+  --bad: #ff5d6c;
+  --paper: #fbf7ff;
+  --paper-ink: #1a1224;
+  --paper-line: transparent;
+  --f-display: "Bricolage Grotesque", "Arial Black", system-ui, sans-serif;
+  --f-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-num: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --r: 14px;
+  --tab-h: 64px;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+    --bg: #f6f1fa; --surface: #ffffff; --surface-2: #efe6f6; --line: #dccfe8; --fg: #1f1630; --muted: #6c5a80;
+    --accent: #e8900a; --accent-ink: #241402; --accent-soft: rgba(232, 144, 10, 0.16); --pink: #d63f6e; --water: #1e88d0;
+    --ok: #1f9d63; --warn: #b86e00; --bad: #d12c3d; --paper: #ffffff; --paper-ink: #1a1224; --paper-line: #dccfe8;
+  }
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f6f1fa; --surface: #ffffff; --surface-2: #efe6f6; --line: #dccfe8; --fg: #1f1630; --muted: #6c5a80;
+  --accent: #e8900a; --accent-ink: #241402; --accent-soft: rgba(232, 144, 10, 0.16); --pink: #d63f6e; --water: #1e88d0;
+  --ok: #1f9d63; --warn: #b86e00; --bad: #d12c3d; --paper: #ffffff; --paper-ink: #1a1224; --paper-line: #dccfe8;
+}
+* { box-sizing: border-box; }
+:root { padding-top: env(safe-area-inset-top, 0px); }
+html, body { height: 100%; }
+[hidden] { display: none !important; }
+img { max-width: 100%; }
+body {
+  margin: 0;
+  background: var(--bg); color: var(--fg);
+  font-family: var(--f-body); font-size: 15px; line-height: 1.45;
+  -webkit-tap-highlight-color: transparent;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap {
+  max-width: 560px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+header.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 12px; }
+.brand { font-family: var(--f-display); font-weight: 800; font-size: 22px; letter-spacing: -0.02em; margin: 0; }
+.brand span { color: var(--accent); }
+.sync { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.sync i { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); display: inline-block; }
+.sync.on i { background: var(--ok); }
+.sync.err i { background: var(--bad); }
+
+main { padding-bottom: calc(var(--tab-h) + env(safe-area-inset-bottom, 0px) + 24px); }
+main .wrap { padding-block: 20px; display: flex; flex-direction: column; gap: 20px; }
+h2 { font-family: var(--f-display); font-weight: 800; font-size: 26px; letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+h3 { font-family: var(--f-display); font-weight: 800; font-size: 18px; margin: 0; }
+.eyebrow { font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); font-weight: 700; margin: 0; }
+p { margin: 0; }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+
+button, .btn {
+  font: inherit; font-weight: 700; color: var(--fg);
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: 12px; padding: 12px 16px; cursor: pointer; text-decoration: none; text-align: center;
+  transition: transform .08s ease, background .15s ease;
+}
+button:active, .btn:active { transform: scale(0.97); }
+button:disabled { opacity: .45; cursor: default; }
+button:focus-visible, .btn:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.btn-primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.btn-pink { background: var(--pink); color: #2b0812; border-color: var(--pink); }
+.btn-water { background: var(--water); color: #04263d; border-color: var(--water); }
+.btn-ghost { background: transparent; }
+.btn-sm { padding: 7px 12px; font-size: 13px; border-radius: 10px; }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.row > * { min-width: 0; }
+.grow { flex: 1 1 0; }
+.between { justify-content: space-between; }
+
+input, select {
+  font: inherit; color: var(--fg); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; width: 100%;
+}
+label.field, div.field { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--muted); font-weight: 500; }
+.seg { display: flex; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 3px; gap: 3px; flex-wrap: wrap; }
+.seg button { flex: 1 1 auto; padding: 8px 10px; border: 0; background: transparent; border-radius: 8px; font-size: 13px; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--surface-2); color: var(--fg); box-shadow: 0 0 0 1px var(--line); }
+
+/* Barre d'onglets */
+nav.tabs {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 6;
+  background: var(--surface); border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  padding-left: max(8px, env(safe-area-inset-left, 0px));
+  padding-right: max(8px, env(safe-area-inset-right, 0px));
+}
+nav.tabs .inner { max-width: 560px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); height: var(--tab-h); }
+nav.tabs button { background: none; border: 0; border-radius: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; color: var(--muted); font-size: 11.5px; font-weight: 700; padding: 6px 2px; }
+nav.tabs button svg { width: 24px; height: 24px; }
+nav.tabs button[aria-selected="true"] { color: var(--accent); }
+
+/* Toast */
+.toast {
+  position: fixed; left: 50%; transform: translateX(-50%); z-index: 20;
+  top: calc(env(safe-area-inset-top, 0px) + 64px);
+  width: min(520px, calc(100% - 32px));
+  background: var(--fg); color: var(--bg); border-radius: 14px; padding: 12px 16px; font-weight: 700;
+  box-shadow: 0 12px 30px -10px rgba(0,0,0,.6); animation: drop .25s ease;
+}
+.toast.alert { background: var(--bad); color: #fff; }
+@keyframes drop { from { transform: translate(-50%, -12px); opacity: 0; } to { transform: translate(-50%, 0); opacity: 1; } }
+
+/* Joueurs */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 6px 6px 6px 12px; font-weight: 500; }
+.chip button { padding: 0; width: 22px; height: 22px; border-radius: 50%; border: 0; background: var(--line); font-size: 14px; line-height: 1; color: var(--fg); }
+
+/* Grille des jeux */
+.games { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.game-tile { text-align: left; display: flex; flex-direction: column; gap: 8px; padding: 16px; min-height: 132px; border-radius: var(--r); background: var(--surface); }
+.game-tile .glyph { font-family: var(--f-display); font-weight: 800; font-size: 28px; line-height: 1; color: var(--tile, var(--accent)); }
+.game-tile strong { font-family: var(--f-display); font-size: 17px; line-height: 1.15; }
+.game-tile span { font-size: 12.5px; color: var(--muted); font-weight: 400; }
+.game-tile.wide { grid-column: 1 / -1; min-height: 0; flex-direction: row; align-items: center; gap: 16px; }
+.game-tile.wide > div { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+
+/* Carte de jeu */
+.card {
+  background: var(--paper); color: var(--paper-ink); border: 1px solid var(--paper-line); border-radius: 22px;
+  min-height: 240px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; gap: 18px;
+  box-shadow: 0 18px 40px -18px rgba(0,0,0,.6);
+}
+.card .kind { font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; font-weight: 700; color: var(--card-accent, #8a3b8f); }
+.card .text { font-family: var(--f-display); font-weight: 800; font-size: clamp(22px, 6vw, 30px); line-height: 1.15; letter-spacing: -0.01em; text-wrap: balance; }
+.card .foot { font-size: 13px; color: #5a4a68; font-weight: 500; }
+.flip { animation: flip .35s ease; }
+@keyframes flip { from { transform: rotateY(70deg) scale(.96); opacity: .3; } to { transform: none; opacity: 1; } }
+.back-link { align-self: flex-start; }
+
+/* Cartes à jouer */
+.playing { aspect-ratio: 5 / 7; max-width: 100%; width: 200px; align-self: center; background: var(--paper); color: var(--paper-ink); border: 1px solid var(--paper-line); border-radius: 16px; position: relative; box-shadow: 0 18px 40px -18px rgba(0,0,0,.6); }
+.playing .corner { position: absolute; font-family: var(--f-display); font-weight: 800; font-size: 24px; line-height: .95; text-align: center; }
+.playing .corner.tl { top: 12px; left: 14px; }
+.playing .corner.br { bottom: 12px; right: 14px; transform: rotate(180deg); }
+.playing .pip { position: absolute; inset: 0; display: grid; place-items: center; font-size: 76px; }
+.red { color: #d0263e !important; }
+.mini { width: 46px; aspect-ratio: 5 / 7; border-radius: 7px; background: var(--paper); color: var(--paper-ink); border: 1px solid var(--paper-line); display: grid; place-items: center; font-family: var(--f-display); font-weight: 800; font-size: 15px; line-height: 1; text-align: center; box-shadow: 0 6px 14px -8px rgba(0,0,0,.6); }
+.mini.back { background: repeating-linear-gradient(45deg, var(--accent) 0 6px, color-mix(in srgb, var(--accent) 70%, var(--bg)) 6px 12px); color: transparent; border-color: transparent; }
+.mini.now { outline: 3px solid var(--pink); outline-offset: 2px; }
+.minis { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+.kings { display: flex; gap: 6px; align-items: center; }
+.kings i { width: 14px; height: 20px; border-radius: 3px; border: 1.5px solid var(--accent); display: inline-block; }
+.kings i.on { background: var(--accent); }
+.pyramid { display: flex; flex-direction: column; gap: 8px; align-items: center; }
+.pyramid .prow { display: flex; gap: 6px; align-items: center; }
+.pyramid .plabel { font-family: var(--f-num); font-size: 11px; color: var(--muted); width: 54px; text-align: right; }
+
+/* Roue */
+.wheel-box { position: relative; width: min(300px, 100%); aspect-ratio: 1; align-self: center; }
+.wheel-box canvas { width: 100%; height: 100%; display: block; }
+.wheel-box .pointer { position: absolute; top: -4px; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 22px solid var(--fg); filter: drop-shadow(0 2px 2px rgba(0,0,0,.5)); }
+.result { font-family: var(--f-display); font-weight: 800; font-size: 22px; text-align: center; min-height: 1.4em; text-wrap: balance; }
+
+/* Dés */
+.dice { display: flex; justify-content: center; gap: 22px; padding-block: 8px; }
+.die { width: 104px; height: 104px; border-radius: 20px; background: var(--paper); border: 1px solid var(--paper-line); display: grid; grid-template: repeat(3, 1fr) / repeat(3, 1fr); padding: 14px; box-shadow: 0 14px 30px -14px rgba(0,0,0,.7), inset 0 -4px 0 rgba(0,0,0,.08); }
+.die i { width: 18px; height: 18px; border-radius: 50%; background: #1a1224; place-self: center; visibility: hidden; }
+.die i.on { visibility: visible; }
+.die.reddie i { background: #d0263e; }
+.die.roll { animation: roll .6s cubic-bezier(.2,.8,.3,1); }
+@keyframes roll { 0% { transform: rotate(0) scale(.85); } 60% { transform: rotate(380deg) scale(1.05); } 100% { transform: rotate(360deg) scale(1); } }
+.sum { font-family: var(--f-num); font-size: 15px; color: var(--muted); text-align: center; }
+.rules-out { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.rules-out li { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; font-weight: 500; }
+.rules-out li b { color: var(--accent); }
+.rules-ref { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; font-size: 13.5px; margin: 0; }
+.rules-ref dt { font-family: var(--f-num); color: var(--accent); }
+.rules-ref dd { margin: 0; color: var(--muted); }
+
+/* 21 */
+.count21 { font-family: var(--f-num); font-size: clamp(72px, 24vw, 110px); line-height: 1; text-align: center; font-variant-numeric: tabular-nums; letter-spacing: -0.04em; }
+.count21 small { font-size: 0.25em; color: var(--muted); letter-spacing: 0; }
+.said { text-align: center; font-weight: 700; min-height: 1.4em; }
+
+/* Mot interdit */
+.timer { font-family: var(--f-num); font-variant-numeric: tabular-nums; color: var(--accent); flex: none; }
+.ban { display: flex; align-items: center; gap: 12px; background: var(--surface-2); border-radius: 12px; padding: 12px; }
+.ban strong { font-family: var(--f-display); font-size: 19px; flex: 1; min-width: 0; overflow-wrap: anywhere; }
+
+/* Bouton gorgées pendant les jeux */
+.sip-fab {
+  position: fixed; z-index: 7;
+  right: calc(max(16px, env(safe-area-inset-right, 0px)));
+  bottom: calc(var(--tab-h) + env(safe-area-inset-bottom, 0px) + 14px);
+  border-radius: 999px; padding: 12px 16px; background: var(--accent); color: var(--accent-ink); border: 0;
+  box-shadow: 0 10px 24px -8px rgba(0,0,0,.6);
+}
+.sip-sheet {
+  position: fixed; z-index: 8; left: 0; right: 0;
+  bottom: calc(var(--tab-h) + env(safe-area-inset-bottom, 0px));
+  background: var(--surface); border-top: 1px solid var(--line); border-radius: 18px 18px 0 0;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 16px; box-shadow: 0 -16px 40px -20px rgba(0,0,0,.7);
+}
+.sip-sheet .inner { max-width: 560px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+.sip-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.sip-grid button { padding: 12px 4px; }
+
+/* Alcoolémie */
+.gauge { display: flex; flex-direction: column; gap: 6px; }
+.big { font-family: var(--f-num); font-size: clamp(52px, 17vw, 76px); line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; }
+.big small { font-size: 0.32em; letter-spacing: 0; color: var(--muted); margin-left: 6px; }
+.pill { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; padding: 5px 12px; font-size: 13px; font-weight: 700; align-self: flex-start; }
+.pill.ok { background: color-mix(in srgb, var(--ok) 20%, transparent); color: var(--ok); }
+.pill.warn { background: color-mix(in srgb, var(--warn) 20%, transparent); color: var(--warn); }
+.pill.bad { background: color-mix(in srgb, var(--bad) 22%, transparent); color: var(--bad); }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.stat { background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 10px; display: flex; flex-direction: column; gap: 2px; }
+.stat b { font-family: var(--f-num); font-size: 18px; font-variant-numeric: tabular-nums; font-weight: 500; }
+.stat span { font-size: 11.5px; color: var(--muted); }
+.chart { width: 100%; height: 190px; display: block; }
+.drinks-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.drink { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; padding: 10px; text-align: left; border-radius: 12px; }
+.drink strong { font-size: 14px; }
+.drink span { font-size: 11.5px; color: var(--muted); font-weight: 400; }
+.drink.water { background: color-mix(in srgb, var(--water) 16%, var(--surface-2)); border-color: color-mix(in srgb, var(--water) 45%, var(--line)); }
+.drink.water strong { color: var(--water); }
+.log { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.log li { display: flex; align-items: center; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--line); }
+.log li:last-child { border-bottom: 0; }
+.log time { font-family: var(--f-num); font-size: 13px; color: var(--muted); width: 46px; flex: none; font-variant-numeric: tabular-nums; }
+.log .lbl { min-width: 0; overflow-wrap: anywhere; }
+.log .g { font-family: var(--f-num); font-size: 12px; color: var(--muted); margin-left: auto; flex: none; }
+.log button { flex: none; padding: 4px 9px; font-size: 12px; }
+.log .is-water .lbl { color: var(--water); }
+.warning { border-left: 3px solid var(--bad); padding: 10px 12px; background: color-mix(in srgb, var(--bad) 10%, transparent); border-radius: 0 10px 10px 0; font-size: 13.5px; }
+.tip { border-left: 3px solid var(--water); padding: 10px 12px; background: color-mix(in srgb, var(--water) 10%, transparent); border-radius: 0 10px 10px 0; font-size: 13.5px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.tip span { flex: 1 1 180px; }
+.disclaimer { font-size: 12px; color: var(--muted); }
+.links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.links .btn { padding: 11px 8px; font-size: 14px; }
+
+/* Amis */
+.people { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.person { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+.person .rank { font-family: var(--f-num); color: var(--muted); width: 18px; flex: none; text-align: center; }
+.person .who { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.person .who strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.person .who span { font-size: 12px; color: var(--muted); }
+.person .val { font-family: var(--f-num); font-size: 18px; font-variant-numeric: tabular-nums; flex: none; }
+.person.me { border-color: var(--accent); }
+.tag { display: inline-block; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 1px 6px; border-radius: 6px; background: var(--water); color: #04263d; margin-left: 6px; vertical-align: 2px; }
+.person .who .tag { color: #04263d; font-size: 10.5px; }
+.bar { height: 4px; border-radius: 2px; background: var(--line); overflow: hidden; margin-top: 4px; }
+.bar i { display: block; height: 100%; background: var(--accent); }
+.empty { text-align: center; padding: 22px 12px; color: var(--muted); font-size: 14px; border: 1px dashed var(--line); border-radius: 12px; }
+.code { font-family: var(--f-num); font-size: 30px; letter-spacing: 0.18em; color: var(--accent); }
+.share-link { font-family: var(--f-num); font-size: 12px; color: var(--muted); word-break: break-all; user-select: all; }
+.reacts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.reacts button { padding: 10px 6px; font-size: 13px; }
+.feed { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 13.5px; }
+.feed li { display: flex; gap: 8px; }
+.feed time { font-family: var(--f-num); color: var(--muted); flex: none; }
+.badges { display: flex; flex-direction: column; gap: 8px; }
+.badge { display: flex; gap: 10px; align-items: center; background: var(--surface-2); border-radius: 12px; padding: 10px 12px; }
+.badge .ico { font-size: 22px; flex: none; }
+.badge div { display: flex; flex-direction: column; min-width: 0; }
+.badge b { font-size: 14px; }
+.badge span { font-size: 12.5px; color: var(--muted); overflow-wrap: anywhere; }
+
+/* Mode Soirée */
+.soiree-cta { border-color: color-mix(in srgb, var(--pink) 55%, var(--line)); background: linear-gradient(135deg, color-mix(in srgb, var(--pink) 14%, var(--surface)), var(--surface) 60%); }
+.vote-row { cursor: pointer; text-align: left; width: 100%; font-weight: 500; }
+.vote-row:disabled { opacity: 1; cursor: default; }
+.vote-row.voted { border-color: var(--pink); box-shadow: 0 0 0 1px var(--pink); }
+.vote-row .val { font-size: 15px; }
+.vote-row .bar i { background: var(--pink); }
+.so-by { font-size: 12.5px; color: var(--muted); }
+
+/* Réglages */
+.custom-list, .hist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.custom-list li, .hist li { display: flex; gap: 10px; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.custom-list li:last-child, .hist li:last-child { border-bottom: 0; }
+.custom-list .k { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); width: 58px; flex: none; }
+.custom-list .t { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.hist .d { flex: 1; min-width: 0; }
+.hist .d b { display: block; }
+.hist .d span { font-size: 12.5px; color: var(--muted); }
+.hist .pk { font-family: var(--f-num); flex: none; }
+
+@media (max-width: 380px) {
+  .drinks-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .games { gap: 10px; }
+  .die { width: 88px; height: 88px; padding: 12px; }
+  .mini { width: 40px; font-size: 13px; }
+  .pyramid .plabel { width: 44px; }
+  .reacts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <h1 class="brand">Tournée <span>Générale</span></h1>
+    <div class="sync" id="sync"><i></i><span>Hors groupe</span></div>
+  </div>
+</header>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<main>
+  <!-- ================= JEUX ================= -->
+  <section id="view-jeux" class="view" aria-labelledby="t-jeux">
+    <div class="wrap" id="jeux-home">
+      <div>
+        <p class="eyebrow">Ce soir on joue</p>
+        <h2 id="t-jeux">Choisis un jeu</h2>
+      </div>
+      <div class="panel">
+        <div class="row between">
+          <h3>Joueurs</h3>
+          <span class="small muted" id="players-hint"></span>
+        </div>
+        <div class="chips" id="players"></div>
+        <form class="row" id="add-player">
+          <input id="player-name" class="grow" maxlength="20" placeholder="Prénom du joueur" autocomplete="off" style="flex:1 1 140px" aria-label="Prénom du joueur">
+          <button class="btn-primary" type="submit">Ajouter</button>
+        </form>
+      </div>
+      <div class="panel">
+        <div class="row between"><h3>Ambiance des cartes</h3><span class="small muted">Action ou vérité, Je n'ai jamais, Qui pourrait</span></div>
+        <div class="seg" id="pack-seg"></div>
+        <p class="small muted" id="pack-note" hidden>Hot +18 : tout le monde doit être d'accord, et on peut toujours passer son tour en buvant.</p>
+      </div>
+      <div class="panel soiree-cta">
+        <div class="row between"><h3>Mode Soirée</h3><span class="small muted" id="soiree-cta-status"></span></div>
+        <p class="small muted">Le même jeu sur tous les téléphones du groupe : cartes, votes en direct, dés et roulette. Chacun note ce qu'il boit sur son téléphone.</p>
+        <button class="btn-pink" id="soiree-open">Jouer avec le groupe</button>
+      </div>
+      <div class="games">
+        <button class="game-tile" data-game="av" style="--tile:var(--pink)"><span class="glyph">A/V</span><strong>Action ou vérité</strong><span>Chacun son tour, on répond ou on boit.</span></button>
+        <button class="game-tile" data-game="jnj" style="--tile:var(--accent)"><span class="glyph">✋</span><strong>Je n'ai jamais</strong><span>Ceux qui l'ont déjà fait boivent.</span></button>
+        <button class="game-tile" data-game="qui" style="--tile:#8fd3ff"><span class="glyph">☝</span><strong>Qui pourrait…</strong><span>On pointe du doigt, ou la roue décide.</span></button>
+        <button class="game-tile" data-game="roi" style="--tile:#ff8f6b"><span class="glyph">♠♥</span><strong>Le jeu du Roi</strong><span>52 cartes, une règle par carte.</span></button>
+        <button class="game-tile" data-game="vingtun" style="--tile:#5fd39b"><span class="glyph">21</span><strong>Le jeu du 21</strong><span>On compte jusqu'à 21, les règles s'empilent.</span></button>
+        <button class="game-tile" data-game="pyramide" style="--tile:#ffe083"><span class="glyph">▲</span><strong>La pyramide</strong><span>15 cartes retournées, ta main décide.</span></button>
+        <button class="game-tile" data-game="purple" style="--tile:#c79bff"><span class="glyph">♦?</span><strong>Purple</strong><span>Rouge ou noir, plus ou moins… 4 questions.</span></button>
+        <button class="game-tile" data-game="mot" style="--tile:#ff7aa2"><span class="glyph">🤐</span><strong>Le mot interdit</strong><span>Un mot à ne pas dire, un chrono.</span></button>
+        <button class="game-tile wide" data-game="roulette" style="--tile:#ff8f6b"><span class="glyph">◎</span><div><strong>La roulette des shots</strong><span>La roue décide : tu bois, tu donnes, verre d'eau, joker ou cul sec.</span></div></button>
+        <button class="game-tile wide" data-game="des" style="--tile:#c79bff"><span class="glyph">⚄⚀</span><div><strong>Le jeu des deux dés</strong><span>Lance les dés : 7, 9, 10, doubles et le Bonhomme 3 décident qui boit.</span></div></button>
+      </div>
+      <p class="disclaimer">Personne n'est obligé de boire. Une gorgée peut toujours être remplacée par de l'eau ou un soft.</p>
+    </div>
+
+    <!-- Action ou vérité -->
+    <div class="wrap game" id="game-av" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Action ou vérité</p><h2 id="av-turn">À toi</h2></div>
+      <div class="card" id="av-card" style="--card-accent:#c2185b">
+        <span class="kind" id="av-kind">Choisis</span>
+        <p class="text" id="av-text">Action ou vérité ?</p>
+        <p class="foot" id="av-foot">Si tu refuses : 2 gorgées.</p>
+      </div>
+      <div class="row">
+        <button class="btn-pink grow" id="av-action">Action</button>
+        <button class="btn-primary grow" id="av-verite">Vérité</button>
+      </div>
+      <button id="av-next">Joueur suivant →</button>
+    </div>
+
+    <!-- Je n'ai jamais -->
+    <div class="wrap game" id="game-jnj" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Je n'ai jamais</p><h2>Ceux qui l'ont fait boivent</h2></div>
+      <div class="card" id="jnj-card" style="--card-accent:#b26a00">
+        <span class="kind" id="jnj-count">Carte 1</span>
+        <p class="text" id="jnj-text"></p>
+        <p class="foot">1 gorgée si tu l'as déjà fait.</p>
+      </div>
+      <button class="btn-primary" id="jnj-next">Carte suivante</button>
+    </div>
+
+    <!-- Qui pourrait / roue -->
+    <div class="wrap game" id="game-qui" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Qui est le plus susceptible de…</p><h2>À trois, tout le monde pointe</h2></div>
+      <div class="card" id="qui-card" style="--card-accent:#1f6fa8">
+        <span class="kind">Qui pourrait…</span>
+        <p class="text" id="qui-text"></p>
+        <p class="foot">La personne la plus pointée boit 2 gorgées.</p>
+      </div>
+      <div class="row">
+        <button class="btn-primary grow" id="qui-next">Question suivante</button>
+        <button class="grow" id="qui-spin">La roue décide</button>
+      </div>
+      <div class="wheel-box"><canvas id="wheel" width="600" height="600" aria-label="Roue des joueurs"></canvas><span class="pointer"></span></div>
+      <p class="result" id="wheel-result" aria-live="polite"></p>
+    </div>
+
+    <!-- Jeu du Roi -->
+    <div class="wrap game" id="game-roi" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div class="row between">
+        <div><p class="eyebrow">Le jeu du Roi</p><h2 id="roi-left">52 cartes</h2></div>
+        <div class="kings" id="kings" aria-label="Rois tirés"><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="playing" id="roi-card">
+        <span class="corner tl" id="roi-c1"></span>
+        <span class="pip" id="roi-pip">?</span>
+        <span class="corner br" id="roi-c2"></span>
+      </div>
+      <div class="panel">
+        <h3 id="roi-rule">Pose un grand verre au milieu de la table</h3>
+        <p class="muted" id="roi-desc">Chaque joueur tire une carte à tour de rôle. Le quatrième Roi tiré boit la coupe du milieu.</p>
+      </div>
+      <div class="row">
+        <button class="btn-primary grow" id="roi-draw">Tirer une carte</button>
+        <button class="btn-ghost" id="roi-reset">Nouveau paquet</button>
+      </div>
+    </div>
+
+    <!-- Deux dés -->
+    <div class="wrap game" id="game-des" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Le jeu des deux dés</p><h2 id="des-turn">À toi de lancer</h2></div>
+      <div class="dice" aria-live="polite">
+        <div class="die" id="die1" aria-label="Dé 1"></div>
+        <div class="die reddie" id="die2" aria-label="Dé 2"></div>
+      </div>
+      <p class="sum" id="des-sum">Touche « Lancer les dés »</p>
+      <ul class="rules-out" id="des-out"></ul>
+      <div class="row">
+        <button class="btn-primary grow" id="des-roll">Lancer les dés</button>
+        <button class="grow" id="des-next">Joueur suivant →</button>
+      </div>
+      <p class="small muted" id="des-bonhomme">Pas encore de Bonhomme 3.</p>
+      <details class="panel">
+        <summary style="cursor:pointer;font-weight:700">Les règles</summary>
+        <dl class="rules-ref">
+          <dt>7</dt><dd>Le joueur précédent boit 1 gorgée.</dd>
+          <dt>9</dt><dd>Le joueur suivant boit 1 gorgée.</dd>
+          <dt>10</dt><dd>Tout le monde boit 1 gorgée.</dd>
+          <dt>Double</dt><dd>Tu distribues autant de gorgées que la valeur d'un dé.</dd>
+          <dt>Double 6</dt><dd>Tu inventes une règle pour le reste de la partie.</dd>
+          <dt>Un 3</dt><dd>Le premier qui fait un 3 devient le Bonhomme. Ensuite, à chaque 3 sorti, le Bonhomme boit. Le Bonhomme se libère en faisant lui-même un 3.</dd>
+          <dt>1 + 2</dt><dd>Tu bois 1 gorgée.</dd>
+          <dt>Rien</dt><dd>Personne ne boit, tu passes les dés.</dd>
+        </dl>
+      </details>
+    </div>
+
+    <!-- Roulette des shots -->
+    <div class="wrap game" id="game-roulette" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">La roulette des shots</p><h2 id="rou-turn">À toi</h2></div>
+      <div class="wheel-box"><canvas id="rwheel" width="600" height="600" aria-label="Roulette des shots"></canvas><span class="pointer"></span></div>
+      <p class="result" id="rou-result" aria-live="polite"></p>
+      <div class="row">
+        <button class="btn-primary grow" id="rou-spin">Tourner la roue</button>
+        <button class="grow" id="rou-next">Joueur suivant →</button>
+      </div>
+    </div>
+
+    <!-- Mode Soirée (partagé avec le groupe) -->
+    <div class="wrap game" id="game-soiree" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Mode Soirée · <span id="so-code"></span></p><h2 id="so-title">Lance un jeu pour tout le groupe</h2></div>
+      <div class="panel" id="so-off" hidden>
+        <p>Le mode Soirée a besoin d'un groupe. Crée-en un ou rejoins celui d'un ami, puis reviens ici.</p>
+        <button class="btn-primary" id="so-goto-amis">Aller dans Amis</button>
+      </div>
+      <div id="so-on" style="display:flex;flex-direction:column;gap:20px">
+        <div class="field">Jeu pour tout le groupe
+          <div class="seg" id="so-modes"></div>
+        </div>
+        <div class="card" id="so-card" style="--card-accent:#c2185b">
+          <span class="kind" id="so-kind">Mode Soirée</span>
+          <p class="text" id="so-text">Choisis un jeu ci-dessus : il s'affichera sur tous les téléphones du groupe.</p>
+          <p class="foot" id="so-foot"></p>
+        </div>
+        <p class="so-by" id="so-by"></p>
+        <div class="row" id="so-av" hidden>
+          <button class="btn-pink grow" id="so-av-a">Action</button>
+          <button class="btn-primary grow" id="so-av-v">Vérité</button>
+        </div>
+        <div id="so-vote" hidden style="display:flex;flex-direction:column;gap:8px">
+          <p class="small muted" id="so-vote-count"></p>
+          <div class="people" id="so-vote-list" style="display:flex;flex-direction:column;gap:8px"></div>
+          <button id="so-reveal">Révéler les votes</button>
+        </div>
+        <div id="so-dice" hidden style="display:flex;flex-direction:column;gap:12px">
+          <div class="dice"><div class="die" id="so-die1" aria-label="Dé 1"></div><div class="die reddie" id="so-die2" aria-label="Dé 2"></div></div>
+          <ul class="rules-out" id="so-dice-out"></ul>
+        </div>
+        <div class="wheel-box" id="so-wheel" hidden><canvas id="swheel" width="600" height="600" aria-label="Roulette du groupe"></canvas><span class="pointer"></span></div>
+        <button class="btn-primary" id="so-next" hidden>Carte suivante</button>
+        <div class="panel">
+          <div class="row between"><h3>J'ai bu</h3><span class="small muted">Compte dans ton suivi et prévient le groupe</span></div>
+          <div class="sip-grid" id="so-sips">
+            <button data-s="1">1</button><button data-s="2">2</button><button data-s="3">3</button><button data-s="4">4</button><button data-s="5">Cul sec</button>
+          </div>
+          <button class="btn-water" id="so-water">Un verre d'eau</button>
+          <ul class="feed" id="so-feed"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Le 21 -->
+    <div class="wrap game" id="game-vingtun" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Le jeu du 21</p><h2 id="v21-turn">À toi de compter</h2></div>
+      <div class="panel" style="align-items:center">
+        <div class="count21" id="v21-count">0<small> / 21</small></div>
+        <p class="said" id="v21-said" aria-live="polite">Dis 1, 2 ou 3 nombres, à voix haute.</p>
+      </div>
+      <div class="row" id="v21-btns">
+        <button class="btn-primary grow" data-n="1">+1</button>
+        <button class="btn-primary grow" data-n="2">+2</button>
+        <button class="btn-primary grow" data-n="3">+3</button>
+      </div>
+      <button class="btn-pink" id="v21-fail">Erreur ! Il ou elle boit, on recommence à 0</button>
+
+      <form class="panel" id="v21-form" hidden>
+        <h3 id="v21-win">21 !</h3>
+        <p class="small muted">Choisis un nombre à remplacer par une action. Désormais, il ne faudra plus le dire.</p>
+        <div class="row">
+          <label class="field" style="flex:0 0 96px">Nombre<select id="v21-num"></select></label>
+          <label class="field grow" style="flex:1 1 160px">Action<input id="v21-act" maxlength="40" placeholder="taper dans les mains"></label>
+        </div>
+        <div class="row">
+          <button type="button" class="grow" id="v21-idea">Idée au hasard</button>
+          <button type="submit" class="btn-primary grow">Ajouter la règle</button>
+        </div>
+      </form>
+
+      <details class="panel" id="v21-rules-box">
+        <summary style="cursor:pointer;font-weight:700">Règles en cours (<span id="v21-nrules">0</span>)</summary>
+        <dl class="rules-ref" id="v21-rules"></dl>
+        <button class="btn-sm btn-ghost" id="v21-reset" style="align-self:flex-start">Effacer les règles</button>
+      </details>
+      <details class="panel">
+        <summary style="cursor:pointer;font-weight:700">Comment jouer</summary>
+        <p class="small muted">Chacun son tour, on compte à voix haute en disant 1, 2 ou 3 nombres. Celui qui dit 21 boit 2 gorgées, puis remplace un nombre par une action (par exemple : 7 devient « taper dans les mains »). Qui se trompe boit 1 gorgée et on repart de 0. Les règles restent cachées : il faut s'en souvenir !</p>
+      </details>
+    </div>
+
+    <!-- Pyramide -->
+    <div class="wrap game" id="game-pyramide" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">La pyramide</p><h2 id="pyr-title">Mémorisez vos mains</h2></div>
+      <div class="panel">
+        <p class="small muted">Chaque joueur reçoit 4 cartes. Passe le téléphone : chacun regarde sa main 5 secondes, puis on retourne la pyramide en commençant par le bas.</p>
+        <div class="chips" id="pyr-hands"></div>
+        <div class="minis" id="pyr-hand-view" aria-live="polite"></div>
+      </div>
+      <div class="pyramid" id="pyr"></div>
+      <div class="panel"><h3 id="pyr-rule">Touche « Retourner une carte »</h3><p class="muted" id="pyr-desc">Rangées impaires : on boit. Rangées paires : on distribue. Le nombre de gorgées est celui de la rangée.</p></div>
+      <div class="row">
+        <button class="btn-primary grow" id="pyr-flip">Retourner une carte</button>
+        <button class="btn-ghost" id="pyr-reset">Nouvelle donne</button>
+      </div>
+    </div>
+
+    <!-- Purple -->
+    <div class="wrap game" id="game-purple" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Purple · étape <span id="pur-step">1</span> sur 4</p><h2 id="pur-turn">À toi</h2></div>
+      <div class="minis" id="pur-cards"></div>
+      <div class="card" style="--card-accent:#6a3cc0;min-height:170px">
+        <span class="kind" id="pur-kind">Question 1</span>
+        <p class="text" id="pur-q">Rouge ou noir ?</p>
+        <p class="foot" id="pur-foot">Faux : tu bois autant de gorgées que le numéro de l'étape.</p>
+      </div>
+      <div class="row" id="pur-opts"></div>
+      <button id="pur-next" hidden>Joueur suivant →</button>
+    </div>
+
+    <!-- Mot interdit -->
+    <div class="wrap game" id="game-mot" hidden>
+      <button class="btn-ghost btn-sm back-link" data-back>← Jeux</button>
+      <div><p class="eyebrow">Le mot interdit</p><h2>Qui le dit, boit</h2></div>
+      <div class="panel">
+        <div class="field">Durée
+          <div class="seg" id="mot-dur"><button type="button" data-v="5">5 min</button><button type="button" data-v="10">10 min</button><button type="button" data-v="15">15 min</button><button type="button" data-v="30">30 min</button></div>
+        </div>
+        <div class="row">
+          <button class="btn-primary grow" id="mot-word">Nouveau mot interdit</button>
+          <button class="grow" id="mot-gest">Nouvelle règle de geste</button>
+        </div>
+      </div>
+      <div id="mot-list" style="display:flex;flex-direction:column;gap:8px"></div>
+      <p class="small muted">Celui qui se fait prendre boit 1 gorgée. Plusieurs mots peuvent être interdits en même temps.</p>
+    </div>
+  </section>
+
+  <!-- ================= ALCOOLÉMIE ================= -->
+  <section id="view-taux" class="view" hidden aria-labelledby="t-taux">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow" id="taux-who">Mon taux estimé</p>
+        <h2 id="t-taux">Alcoolémie en direct</h2>
+      </div>
+
+      <div class="panel gauge">
+        <div class="big" id="bac-now">0,00<small>g/L</small></div>
+        <span class="pill ok" id="bac-pill">Sobre</span>
+        <div class="stats">
+          <div class="stat"><b id="st-peak">–</b><span>Pic prévu</span></div>
+          <div class="stat"><b id="st-05">–</b><span id="st-05-label">Sous 0,5 g/L</span></div>
+          <div class="stat"><b id="st-0">–</b><span>Retour à 0</span></div>
+        </div>
+        <canvas class="chart" id="chart" aria-label="Courbe d'alcoolémie"></canvas>
+        <div class="warning" id="bac-warn" hidden>Ne prends pas le volant. Bois de l'eau, et rentre en taxi, VTC ou avec un conducteur sobre.</div>
+        <div class="tip" id="water-tip" hidden><span id="water-tip-text">Un verre d'eau ?</span><button class="btn-sm btn-water" id="water-tip-btn">J'ai bu de l'eau</button></div>
+      </div>
+
+      <div class="panel">
+        <div class="row between">
+          <h3>Ajouter un verre</h3>
+          <label class="small muted row" style="gap:6px">Bu
+            <select id="ago" style="width:auto;padding:6px 8px">
+              <option value="0">maintenant</option>
+              <option value="15">il y a 15 min</option>
+              <option value="30">il y a 30 min</option>
+              <option value="60">il y a 1 h</option>
+              <option value="120">il y a 2 h</option>
+            </select>
+          </label>
+        </div>
+        <div class="drinks-grid" id="drinks"></div>
+        <details>
+          <summary class="small muted" style="cursor:pointer">Autre boisson (volume et degré)</summary>
+          <form class="row" id="custom-drink" style="margin-top:10px">
+            <label class="field grow" style="flex:1 1 80px">Volume (cl)<input id="cd-vol" type="number" min="1" max="200" step="1" value="25" inputmode="decimal"></label>
+            <label class="field grow" style="flex:1 1 80px">Degré (%)<input id="cd-deg" type="number" min="0.5" max="80" step="0.5" value="6" inputmode="decimal"></label>
+            <button class="btn-primary" type="submit" style="align-self:flex-end">Ajouter</button>
+          </form>
+        </details>
+      </div>
+
+      <div class="panel">
+        <h3>Je rentre comment ?</h3>
+        <p id="drive-when"></p>
+        <div class="links">
+          <a class="btn btn-primary" href="tel:3607">Taxi G7 · 36 07</a>
+          <a class="btn" href="https://m.uber.com/" target="_blank" rel="noopener">Uber</a>
+          <a class="btn" href="https://www.heetch.com/fr" target="_blank" rel="noopener">Heetch</a>
+          <a class="btn" href="https://bolt.eu/fr-fr/" target="_blank" rel="noopener">Bolt</a>
+        </div>
+        <div id="drivers-box" hidden>
+          <p class="eyebrow" style="margin-bottom:6px">Dans le groupe</p>
+          <ul class="people" id="drivers"></ul>
+        </div>
+        <p class="disclaimer">En cas d'urgence : 15 (SAMU) ou 112.</p>
+      </div>
+
+      <div class="panel">
+        <div class="row between">
+          <h3>Ma soirée</h3>
+          <button class="btn-sm btn-ghost" id="reset-night">Nouvelle soirée</button>
+        </div>
+        <div id="reset-confirm" class="row" hidden>
+          <span class="small grow">Terminer la soirée ? Elle sera rangée dans l'historique.</span>
+          <button class="btn-sm" id="reset-no">Annuler</button>
+          <button class="btn-sm btn-pink" id="reset-yes">Terminer</button>
+        </div>
+        <p class="small muted" id="night-sum"></p>
+        <ul class="log" id="log"></ul>
+      </div>
+
+      <div class="panel">
+        <h3>Mon profil</h3>
+        <label class="field">Pseudo (visible par ton groupe)<input id="p-pseudo" maxlength="24" placeholder="Ton pseudo de soirée"></label>
+        <div class="row">
+          <label class="field grow" style="flex:1 1 120px">Poids (kg)<input id="p-weight" type="number" min="35" max="200" step="1" inputmode="numeric"></label>
+          <div class="field grow" style="flex:1 1 160px">Sexe
+            <div class="seg" id="p-sex"><button type="button" data-v="h">Homme</button><button type="button" data-v="f">Femme</button></div>
+          </div>
+        </div>
+        <div class="field">Estomac
+          <div class="seg" id="p-fed"><button type="button" data-v="0">À jeun</button><button type="button" data-v="1">J'ai mangé</button></div>
+        </div>
+        <div class="field">Permis
+          <div class="seg" id="p-young"><button type="button" data-v="0">Classique · 0,5 g/L</button><button type="button" data-v="1">Jeune permis · 0,2</button></div>
+        </div>
+        <div class="field">Ce soir
+          <div class="seg" id="p-sam"><button type="button" data-v="0">Je ne conduis pas</button><button type="button" data-v="1">Je suis Sam, je conduis</button></div>
+        </div>
+        <p class="disclaimer">Estimation par la formule de Widmark (coefficient 0,7 homme, 0,6 femme), absorption sur 30 min à jeun ou 1 h après un repas, élimination de 0,10 g/L par heure. La limite est de 0,5 g/L, et de 0,2 g/L en permis probatoire (3 ans, ou 2 ans après la conduite accompagnée). Le vrai taux varie d'une personne à l'autre. Ce calcul ne remplace pas un éthylotest : ne t'en sers jamais pour décider si tu peux conduire.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= AMIS ================= -->
+  <section id="view-amis" class="view" hidden aria-labelledby="t-amis">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Classement en direct</p>
+        <h2 id="t-amis">Mon groupe d'amis</h2>
+      </div>
+
+      <div class="panel" id="group-none">
+        <h3>Rejoindre ou créer un groupe</h3>
+        <p class="small muted">Chacun installe l'appli sur son téléphone et note ses verres. Entrez tous le même code de groupe pour comparer vos taux en direct.</p>
+        <form class="row" id="join-form">
+          <input id="join-code" class="grow" style="flex:1 1 140px;text-transform:uppercase;font-family:var(--f-num);letter-spacing:.12em" maxlength="12" placeholder="CODE" autocomplete="off" autocapitalize="characters" aria-label="Code du groupe">
+          <button class="btn-primary" type="submit">Rejoindre</button>
+        </form>
+        <p class="small" id="join-err" hidden style="color:var(--bad)"></p>
+        <button id="create-group">Créer un nouveau groupe</button>
+      </div>
+
+      <div class="panel" id="group-in" hidden>
+        <div class="row between">
+          <div><p class="eyebrow">Code du groupe</p><p class="code" id="group-code"></p></div>
+          <button class="btn-sm btn-ghost" id="leave-group">Quitter</button>
+        </div>
+        <p class="share-link" id="share-link"></p>
+        <div class="row">
+          <button class="btn-primary grow" id="share-btn">Inviter des amis</button>
+          <button class="grow" id="copy-btn">Copier le lien</button>
+        </div>
+        <p class="small muted" id="share-msg" aria-live="polite"></p>
+      </div>
+
+      <p class="small muted" id="amis-status"></p>
+      <ul class="people" id="friends"></ul>
+
+      <div class="panel" id="react-box" hidden>
+        <h3>Messages rapides</h3>
+        <div class="reacts" id="reacts"></div>
+        <ul class="feed" id="feed"></ul>
+      </div>
+
+      <div class="panel" id="badge-box" hidden>
+        <h3>Badges de la soirée</h3>
+        <div class="badges" id="badges"></div>
+      </div>
+
+      <p class="disclaimer">Le groupe passe par un serveur public gratuit (broker.emqx.io). Toute personne qui connaît le code peut voir les pseudos et les verres du groupe : choisis un pseudo plutôt que ton nom complet. Quitter le groupe efface tes données du serveur. Une alerte s'affiche quand quelqu'un du groupe dépasse 0,8 g/L.</p>
+    </div>
+  </section>
+
+  <!-- ================= RÉGLAGES ================= -->
+  <section id="view-reglages" class="view" hidden aria-labelledby="t-reg">
+    <div class="wrap">
+      <div><p class="eyebrow">Réglages</p><h2 id="t-reg">Mon appli</h2></div>
+
+      <div class="panel">
+        <h3>Apparence et sons</h3>
+        <div class="field">Thème
+          <div class="seg" id="s-theme"><button type="button" data-v="auto">Auto</button><button type="button" data-v="dark">Sombre</button><button type="button" data-v="light">Clair</button></div>
+        </div>
+        <div class="row">
+          <div class="field grow" style="flex:1 1 140px">Sons
+            <div class="seg" id="s-sound"><button type="button" data-v="1">Activés</button><button type="button" data-v="0">Coupés</button></div>
+          </div>
+          <div class="field grow" style="flex:1 1 140px">Vibrations
+            <div class="seg" id="s-vibrate"><button type="button" data-v="1">Activées</button><button type="button" data-v="0">Coupées</button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Gorgées pendant les jeux</h3>
+        <p class="small muted">Le bouton « Gorgées » des jeux ajoute ce que tu bois à ton suivi d'alcoolémie. Choisis ce qu'il y a dans ton verre.</p>
+        <div class="seg" id="s-sip"></div>
+      </div>
+
+      <div class="panel">
+        <h3>Mes cartes</h3>
+        <p class="small muted">Tes cartes s'ajoutent à toutes les ambiances.</p>
+        <form class="row" id="custom-form">
+          <select id="cu-kind" style="flex:0 0 auto;width:auto" aria-label="Type de carte">
+            <option value="verites">Vérité</option>
+            <option value="actions">Action</option>
+            <option value="jamais">Je n'ai jamais</option>
+            <option value="qui">Qui pourrait</option>
+          </select>
+          <input id="cu-text" class="grow" style="flex:1 1 160px" maxlength="140" placeholder="Écris ta carte" aria-label="Texte de la carte">
+          <button class="btn-primary" type="submit">Ajouter</button>
+        </form>
+        <p class="small muted">Astuce : écris {other} pour désigner un joueur au hasard.</p>
+        <ul class="custom-list" id="custom-list"></ul>
+      </div>
+
+      <div class="panel">
+        <div class="row between"><h3>Mes soirées</h3><button class="btn-sm btn-ghost" id="hist-clear">Effacer</button></div>
+        <div id="hist-confirm" class="row" hidden>
+          <span class="small grow">Effacer tout l'historique ?</span>
+          <button class="btn-sm" id="hist-no">Annuler</button>
+          <button class="btn-sm btn-pink" id="hist-yes">Effacer</button>
+        </div>
+        <ul class="hist" id="hist"></ul>
+      </div>
+
+      <p class="disclaimer">Version 2.1 · Tournée Générale fonctionne sans compte. Tes réglages, tes cartes et ton historique restent sur ce téléphone. L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
+    </div>
+  </section>
+</main>
+
+<button class="sip-fab" id="sip-fab" hidden aria-expanded="false" aria-controls="sip-sheet">+ Gorgées</button>
+<div class="sip-sheet" id="sip-sheet" hidden>
+  <div class="inner">
+    <div class="row between"><h3>J'ai bu</h3><span class="small muted" id="sip-what"></span></div>
+    <div class="sip-grid" id="sip-grid">
+      <button data-s="1">1</button><button data-s="2">2</button><button data-s="3">3</button><button data-s="4">4</button><button data-s="5">Cul sec</button>
+    </div>
+    <div class="row"><button class="btn-water grow" id="sip-water">Un verre d'eau</button><button class="btn-ghost" id="sip-close">Fermer</button></div>
+  </div>
+</div>
+
+<nav class="tabs" aria-label="Onglets">
+  <div class="inner" role="tablist">
+    <button role="tab" data-tab="jeux" aria-selected="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="11" height="16" rx="2"/><path d="M17 6l3 1-3.5 13-2.5-.7"/></svg>
+      Jeux
+    </button>
+    <button role="tab" data-tab="taux" aria-selected="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h10l-1 17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1L7 3z"/><path d="M7.5 10h9"/></svg>
+      Alcoolémie
+    </button>
+    <button role="tab" data-tab="amis" aria-selected="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.6c2.8.2 4.7 2 5.4 5.4"/></svg>
+      Amis
+    </button>
+    <button role="tab" data-tab="reglages" aria-selected="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg>
+      Réglages
+    </button>
+  </div>
+</nav>
+
+<script src="mqtt.min.js"></script>
+<script src="cartes.js"></script>
+<script>
+(() => {
+"use strict";
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+const rand = a => a[Math.floor(Math.random() * a.length)];
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const fmt = (n, d = 2) => n.toFixed(d).replace(".", ",");
+const hhmm = t => new Date(t).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const C = window.TG_CARTES || { packs: {}, mots: [], gestes: [], regles21: [] };
+
+/* ---------- Réglages ---------- */
+const SIPS = {
+  biere: { label: "Bière", g: 2 },        // demi 25 cl à 5 % ≈ 10 g en 5 gorgées
+  vin: { label: "Vin", g: 2.3 },          // verre 12 cl à 12 % ≈ 11,5 g
+  cocktail: { label: "Cocktail", g: 2.7 },// ≈ 16 g en 6 gorgées
+  soft: { label: "Soft", g: 0 }
+};
+const settings = Object.assign({ theme: "auto", sound: 1, vibrate: 1, sip: "biere", pack: "potes" }, store.get("tg.settings", {}));
+if (!C.packs[settings.pack]) settings.pack = "potes";
+if (!SIPS[settings.sip]) settings.sip = "biere";
+const saveSettings = () => store.set("tg.settings", settings);
+let custom = Object.assign({ verites: [], actions: [], jamais: [], qui: [] }, store.get("tg.custom", {}));
+let nights = store.get("tg.history", []);
+
+function applyTheme() {
+  const r = document.documentElement;
+  if (settings.theme === "light" || settings.theme === "dark") r.dataset.theme = settings.theme; else delete r.dataset.theme;
+  requestAnimationFrame(() => {
+    $("#theme-color").setAttribute("content", getComputedStyle(r).getPropertyValue("--bg").trim() || "#1a1224");
+    drawChart(); drawWheel();
+  });
+}
+
+/* ---------- Sons et vibrations ---------- */
+let actx = null;
+function tone(freq, dur, type = "sine", vol = 0.12, delay = 0) {
+  if (!settings.sound) return;
+  try {
+    actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+    if (actx.state === "suspended") actx.resume();
+    const t = actx.currentTime + delay, o = actx.createOscillator(), g = actx.createGain();
+    o.type = type; o.frequency.setValueAtTime(freq, t);
+    g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    o.connect(g).connect(actx.destination); o.start(t); o.stop(t + dur + 0.02);
+  } catch {}
+}
+const sfx = {
+  flip: () => tone(520, 0.07, "triangle", 0.1),
+  tick: () => tone(1100, 0.025, "square", 0.04),
+  dice: () => { for (let i = 0; i < 6; i++) tone(180 + Math.random() * 260, 0.035, "square", 0.05, i * 0.07); },
+  win: () => { tone(660, 0.12, "triangle"); tone(880, 0.18, "triangle", 0.12, 0.12); },
+  lose: () => { tone(330, 0.15, "sawtooth", 0.06); tone(220, 0.25, "sawtooth", 0.06, 0.15); },
+  alert: () => { tone(880, 0.18, "square", 0.08); tone(660, 0.18, "square", 0.08, 0.22); tone(880, 0.18, "square", 0.08, 0.44); },
+  pop: () => tone(740, 0.06, "sine", 0.1)
+};
+const buzz = p => { if (settings.vibrate && navigator.vibrate) try { navigator.vibrate(p); } catch {} };
+
+/* ---------- Toast ---------- */
+let toastTimer;
+let toastAction = null;
+function toast(msg, alert, onClick) {
+  const t = $("#toast"); t.textContent = msg; t.className = "toast" + (alert ? " alert" : ""); t.hidden = false;
+  toastAction = onClick || null; t.style.cursor = onClick ? "pointer" : "";
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, alert ? 6000 : 3200);
+}
+$("#toast").addEventListener("click", () => { $("#toast").hidden = true; if (toastAction) { const f = toastAction; toastAction = null; f(); } });
+
+/* ---------- Onglets ---------- */
+let currentGame = null;
+function showTab(name) {
+  $$("nav.tabs [data-tab]").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === name)));
+  $$(".view").forEach(v => v.hidden = v.id !== "view-" + name);
+  store.set("tg.tab", name);
+  updateSipFab();
+  if (name === "taux") drawChart();
+  if (name === "jeux" && currentGame === "soiree") soRender();
+  window.scrollTo(0, 0);
+}
+$$("nav.tabs [data-tab]").forEach(b => b.addEventListener("click", () => showTab(b.dataset.tab)));
+
+/* ---------- Joueurs ---------- */
+let players = store.get("tg.players", null);
+const examplePlayers = !players;
+if (!players) players = ["Léa", "Tom", "Inès", "Max"];
+function renderPlayers() {
+  const box = $("#players"); box.textContent = "";
+  players.forEach((p, i) => {
+    const c = el("span", "chip"); const x = el("button", null, "×");
+    x.type = "button"; x.setAttribute("aria-label", "Retirer " + p);
+    x.onclick = () => { players.splice(i, 1); savePlayers(); };
+    c.append(el("span", null, p), x); box.append(c);
+  });
+  $("#players-hint").textContent = players.length < 2 ? "Ajoute au moins 2 joueurs" : (examplePlayers && !store.get("tg.players", null) ? "Exemples : remplace-les par vos prénoms" : players.length + " joueurs");
+}
+function savePlayers() { store.set("tg.players", players); renderPlayers(); drawWheel(); }
+$("#add-player").addEventListener("submit", e => {
+  e.preventDefault();
+  const v = $("#player-name").value.trim();
+  if (v && !players.includes(v)) { players.push(v); savePlayers(); }
+  $("#player-name").value = ""; $("#player-name").focus();
+});
+const pl = i => players.length ? players[((i % players.length) + players.length) % players.length] : "Joueur";
+const other = cur => { const o = players.filter(p => p !== cur); return o.length ? rand(o) : "ton voisin"; };
+
+/* ---------- Ambiance (paquets) ---------- */
+function renderPackSeg() {
+  const seg = $("#pack-seg"); seg.textContent = "";
+  Object.entries(C.packs).forEach(([k, p]) => {
+    const b = el("button", null, p.label); b.type = "button"; b.setAttribute("aria-pressed", String(k === settings.pack));
+    b.onclick = () => { settings.pack = k; saveSettings(); decks = {}; renderPackSeg(); };
+    seg.append(b);
+  });
+  $("#pack-note").hidden = settings.pack !== "hot";
+}
+// Pioche sans répétition tant que le paquet n'est pas vide
+let decks = {};
+function draw(kind) {
+  const key = settings.pack + ":" + kind;
+  const d = decks[key] || (decks[key] = { pile: [] });
+  if (!d.pile.length) d.pile = shuffle([...((C.packs[settings.pack] || {})[kind] || []), ...(custom[kind] || [])]);
+  return d.pile.pop() || "Plus de cartes : ajoute les tiennes dans Réglages.";
+}
+
+/* ---------- Navigation jeux ---------- */
+const flip = node => { node.classList.remove("flip"); void node.offsetWidth; node.classList.add("flip"); sfx.flip(); };
+function openGame(id) {
+  currentGame = id;
+  $("#jeux-home").hidden = true;
+  $$(".game").forEach(g => g.hidden = g.id !== "game-" + id);
+  ({ av: avStart, jnj: jnjNext, qui: () => { quiNext(); drawWheel(); }, des: desStart, vingtun: v21Render, pyramide: pyrStart, purple: purStart, mot: motRender, roulette: rouStart, soiree: soRender }[id] || (() => {}))();
+  updateSipFab();
+  window.scrollTo(0, 0);
+}
+function closeGame() { currentGame = null; $$(".game").forEach(g => g.hidden = true); $("#jeux-home").hidden = false; updateSipFab(); }
+$$("[data-game]").forEach(b => b.addEventListener("click", () => openGame(b.dataset.game)));
+$$("[data-back]").forEach(b => b.addEventListener("click", closeGame));
+
+/* ---------- Action ou vérité ---------- */
+let avIdx = 0;
+function avStart() { avIdx = avIdx % Math.max(players.length, 1); avShowTurn(); }
+function avShowTurn() {
+  $("#av-turn").textContent = "À " + pl(avIdx) + " de jouer";
+  $("#av-kind").textContent = "Choisis";
+  $("#av-text").textContent = "Action ou vérité ?";
+  $("#av-foot").textContent = "Si tu refuses : 2 gorgées.";
+  flip($("#av-card"));
+}
+function avPick(kind) {
+  const p = pl(avIdx);
+  $("#av-kind").textContent = (kind === "a" ? "Action pour " : "Vérité pour ") + p;
+  $("#av-text").textContent = draw(kind === "a" ? "actions" : "verites").replaceAll("{other}", other(p));
+  $("#av-foot").textContent = "Tu refuses ? 2 gorgées.";
+  flip($("#av-card"));
+}
+$("#av-action").onclick = () => avPick("a");
+$("#av-verite").onclick = () => avPick("v");
+$("#av-next").onclick = () => { avIdx = (avIdx + 1) % Math.max(players.length, 1); avShowTurn(); };
+
+/* ---------- Je n'ai jamais ---------- */
+let jnjN = 0;
+function jnjNext() { jnjN++; $("#jnj-count").textContent = "Carte " + jnjN; $("#jnj-text").textContent = draw("jamais").replaceAll("{other}", other("")); flip($("#jnj-card")); }
+$("#jnj-next").onclick = jnjNext;
+
+/* ---------- Qui pourrait / roue ---------- */
+function quiNext() {
+  const q = draw("qui").replaceAll("{other}", other(""));
+  $("#qui-text").textContent = (settings.pack === "couple" ? "Qui de nous deux pourrait " : "… ") + q + " ?";
+  $("#wheel-result").textContent = ""; flip($("#qui-card"));
+}
+$("#qui-next").onclick = quiNext;
+const WHEEL_COLORS = ["#ffb547", "#ff7aa2", "#8fd3ff", "#5fd39b", "#c79bff", "#ff8f6b", "#ffe083", "#7fe3d6"];
+// Une roue : canvas + libellés + angle courant. Le pointeur est en haut.
+function makeWheel(id, labels) { return { id, labels, angle: 0, spinning: false }; }
+function paintWheel(w) {
+  const c = $("#" + w.id); if (!c) return;
+  const ctx = c.getContext("2d"), W = c.width, R = W / 2 - 6;
+  ctx.clearRect(0, 0, W, W);
+  const names = w.labels().length ? w.labels() : ["?"];
+  const n = names.length, seg = Math.PI * 2 / n;
+  ctx.save(); ctx.translate(W / 2, W / 2); ctx.rotate(w.angle);
+  names.forEach((nm, i) => {
+    ctx.beginPath(); ctx.moveTo(0, 0); ctx.arc(0, 0, R, i * seg, (i + 1) * seg); ctx.closePath();
+    ctx.fillStyle = WHEEL_COLORS[i % WHEEL_COLORS.length]; ctx.fill();
+    ctx.strokeStyle = "#1a1224"; ctx.lineWidth = 4; ctx.stroke();
+    // texte toujours lisible : retourné sur la moitié gauche de la roue
+    const mid = ((i * seg + seg / 2 + w.angle) % (Math.PI * 2) + Math.PI * 2) % (Math.PI * 2);
+    const flipText = mid > Math.PI / 2 && mid < Math.PI * 1.5;
+    ctx.save(); ctx.rotate(i * seg + seg / 2 + (flipText ? Math.PI : 0)); ctx.textAlign = flipText ? "left" : "right"; ctx.textBaseline = "middle";
+    ctx.fillStyle = "#1a1224"; ctx.font = "800 " + (n > 10 ? 24 : n > 8 ? 26 : 32) + "px 'Bricolage Grotesque', 'Arial Black', sans-serif";
+    ctx.fillText(nm.length > 12 ? nm.slice(0, 11) + "…" : nm, flipText ? -(R - 22) : R - 22, 0); ctx.restore();
+  });
+  ctx.restore();
+  ctx.beginPath(); ctx.arc(W / 2, W / 2, 26, 0, Math.PI * 2); ctx.fillStyle = "#1a1224"; ctx.fill();
+  ctx.strokeStyle = "#f5eefa"; ctx.lineWidth = 4; ctx.stroke();
+}
+// Fait tourner la roue pour qu'elle s'arrête sur la case `target`
+function spinWheel(w, target, done) {
+  if (w.spinning) return false;
+  const n = Math.max(1, w.labels().length), seg = Math.PI * 2 / n, TAU = Math.PI * 2;
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const start = w.angle;
+  let end = -Math.PI / 2 - (target + 0.5) * seg + (Math.random() - 0.5) * seg * 0.6;
+  end += TAU * Math.ceil((start + TAU * 5 - end) / TAU);
+  const dur = reduce ? 1 : 3800, t0 = performance.now();
+  const segAt = ang => { let a = (-Math.PI / 2 - ang) % TAU; if (a < 0) a += TAU; return Math.floor(a / seg) % n; };
+  let lastSeg = -1; w.spinning = true;
+  const step = now => {
+    const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 4);
+    w.angle = start + (end - start) * e; paintWheel(w);
+    const s_ = segAt(w.angle); if (s_ !== lastSeg) { lastSeg = s_; sfx.tick(); }
+    if (k < 1) return requestAnimationFrame(step);
+    w.angle %= TAU; w.spinning = false; done && done();
+  };
+  requestAnimationFrame(step);
+  return true;
+}
+// Pose la roue directement sur une case, sans animation
+function setWheel(w, target) { const n = Math.max(1, w.labels().length); w.angle = -Math.PI / 2 - (target + 0.5) * (Math.PI * 2 / n); paintWheel(w); }
+
+const quiWheel = makeWheel("wheel", () => players);
+function drawWheel() { paintWheel(quiWheel); paintWheel(rouWheel); paintWheel(soWheel); }
+$("#qui-spin").onclick = () => {
+  if (quiWheel.spinning) return;
+  if (players.length < 2) { $("#wheel-result").textContent = "Ajoute au moins 2 joueurs."; return; }
+  $("#wheel-result").textContent = "";
+  const t = Math.floor(Math.random() * players.length);
+  spinWheel(quiWheel, t, () => { $("#wheel-result").textContent = players[t] + " boit 2 gorgées !"; sfx.win(); buzz(60); });
+};
+
+/* ---------- Roulette des shots ---------- */
+const ROU = [
+  ["Bois 1", "bois 1 gorgée"], ["Donne 2", "donne 2 gorgées"], ["Bois 2", "bois 2 gorgées"], ["Eau !", "bois un verre d'eau"],
+  ["Tous !", "tout le monde boit 1 gorgée"], ["Bois 3", "bois 3 gorgées"], ["Joker", "joker : pas de gorgée"],
+  ["Donne 3", "donne 3 gorgées"], ["Choisis", "choisis qui boit 2 gorgées"], ["Voisins", "tes deux voisins boivent 1 gorgée"],
+  ["Cul sec", "cul sec (ou un verre d'eau)"], ["Rejoue", "relance la roue"]
+];
+const rouWheel = makeWheel("rwheel", () => ROU.map(r => r[0]));
+let rouIdx = 0;
+function rouStart() { rouIdx = rouIdx % Math.max(players.length, 1); $("#rou-turn").textContent = "À " + pl(rouIdx) + " de tourner"; paintWheel(rouWheel); }
+$("#rou-spin").onclick = () => {
+  const t = Math.floor(Math.random() * ROU.length), who = pl(rouIdx);
+  if (spinWheel(rouWheel, t, () => {
+    const txt = who + " : " + ROU[t][1];
+    $("#rou-result").textContent = txt.charAt(0).toUpperCase() + txt.slice(1);
+    t === 6 || t === 3 ? sfx.win() : sfx.pop(); buzz(60);
+  })) $("#rou-result").textContent = "";
+};
+$("#rou-next").onclick = () => { rouIdx = (rouIdx + 1) % Math.max(players.length, 1); $("#rou-result").textContent = ""; rouStart(); };
+
+/* ---------- Cartes à jouer (partagé) ---------- */
+const RANKS = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "V", "D", "R"], SUITS = ["♠", "♥", "♦", "♣"];
+const VAL = { A: 14, V: 11, D: 12, R: 13 };
+const newDeck = () => shuffle(RANKS.flatMap(r => SUITS.map(s => ({ r, s }))));
+const isRed = c => c.s === "♥" || c.s === "♦";
+const val = c => VAL[c.r] || c.r;
+function miniCard(c, cls) {
+  const m = el("div", "mini" + (cls ? " " + cls : ""));
+  if (!c) { m.classList.add("back"); m.setAttribute("aria-label", "Carte cachée"); return m; }
+  if (isRed(c)) m.classList.add("red");
+  m.innerHTML = c.r + "<br>" + c.s; m.setAttribute("aria-label", c.r + " " + c.s);
+  return m;
+}
+
+/* ---------- Jeu du Roi ---------- */
+const RULES = {
+  A: ["Cascade", "Tout le monde boit en même temps. Personne ne s'arrête avant la personne à sa droite."],
+  2: ["Toi", "Désigne quelqu'un qui boit 2 gorgées."],
+  3: ["Moi", "Tu bois 3 gorgées."],
+  4: ["Le sol", "Tout le monde touche le sol. Le dernier boit."],
+  5: ["Les gars", "Tous les garçons boivent."],
+  6: ["Les filles", "Toutes les filles boivent."],
+  7: ["Le ciel", "Tout le monde lève la main. Le dernier boit."],
+  8: ["Compagnon", "Choisis un partenaire : il boit chaque fois que tu bois, jusqu'au prochain 8."],
+  9: ["Rimes", "Dis un mot. Chacun trouve une rime à son tour. Le premier qui sèche boit."],
+  10: ["Catégories", "Choisis une catégorie (marques de bière, pays…). Le premier qui sèche boit."],
+  V: ["Nouvelle règle", "Invente une règle qui dure jusqu'à la fin de la partie. Qui l'enfreint boit."],
+  D: ["Maître des questions", "Jusqu'à la prochaine Dame, quiconque répond à tes questions boit."],
+  R: ["Le Roi", "Verse un peu de ton verre dans la coupe du milieu. Le 4e Roi boit la coupe."]
+};
+let roiCards = [], kings = 0;
+function roiReset() {
+  roiCards = newDeck(); kings = 0;
+  $("#roi-left").textContent = "52 cartes";
+  $("#roi-c1").textContent = $("#roi-c2").textContent = ""; $("#roi-pip").textContent = "?";
+  $("#roi-card").classList.remove("red");
+  $("#roi-rule").textContent = "Pose un grand verre au milieu de la table";
+  $("#roi-desc").textContent = "Chaque joueur tire une carte à tour de rôle. Le quatrième Roi tiré boit la coupe du milieu.";
+  $("#roi-draw").disabled = false; renderKings();
+}
+function renderKings() { $$("#kings i").forEach((k, i) => k.classList.toggle("on", i < kings)); }
+$("#roi-draw").onclick = () => {
+  const c = roiCards.pop(); if (!c) return;
+  $("#roi-card").classList.toggle("red", isRed(c));
+  $("#roi-c1").innerHTML = $("#roi-c2").innerHTML = c.r + "<br>" + c.s;
+  $("#roi-pip").textContent = c.s;
+  let [title, desc] = RULES[c.r];
+  if (c.r === "R") { kings++; renderKings(); if (kings === 4) { title = "4e Roi !"; desc = "Tu bois la coupe du milieu (ou tu la remplaces par un verre d'eau). Partie terminée."; sfx.alert(); buzz([80, 60, 80]); } }
+  $("#roi-rule").textContent = c.r + " · " + title;
+  $("#roi-desc").textContent = desc;
+  $("#roi-left").textContent = roiCards.length + (roiCards.length > 1 ? " cartes" : " carte");
+  flip($("#roi-card"));
+  if (!roiCards.length || kings === 4) $("#roi-draw").disabled = true;
+};
+$("#roi-reset").onclick = roiReset;
+
+/* ---------- Deux dés ---------- */
+const PIPS = { 1: [4], 2: [0, 8], 3: [0, 4, 8], 4: [0, 2, 6, 8], 5: [0, 2, 4, 6, 8], 6: [0, 2, 3, 5, 6, 8] };
+let desIdx = 0, bonhomme = null, rolling = false;
+function drawDie(node, v) {
+  node.textContent = "";
+  for (let i = 0; i < 9; i++) { const d = el("i"); if (v && PIPS[v].includes(i)) d.className = "on"; node.append(d); }
+  node.setAttribute("aria-label", v ? "Dé : " + v : "Dé");
+}
+function desStart() {
+  desIdx = desIdx % Math.max(players.length, 1);
+  $("#des-turn").textContent = "À " + pl(desIdx) + " de lancer";
+  renderBonhomme();
+  if (!$("#die1").children.length) { drawDie($("#die1"), 0); drawDie($("#die2"), 0); }
+}
+function renderBonhomme() { $("#des-bonhomme").textContent = bonhomme ? "Bonhomme 3 : " + bonhomme : "Pas encore de Bonhomme 3."; }
+// Règles du jeu de dés pour le joueur names[i] ; renvoie aussi le nouveau Bonhomme 3
+function diceOutcome(a, b, names, i, bon) {
+  const out = [], sum = a + b, n = names.length, at = k => names[((k % n) + n) % n], me_ = at(i);
+  if (a === b) {
+    if (a === 6) out.push(["Double 6", me_ + " invente une nouvelle règle et distribue 6 gorgées."]);
+    else out.push(["Double " + a, me_ + " distribue " + a + (a > 1 ? " gorgées." : " gorgée.")]);
+  }
+  if (sum === 7) out.push(["7", (n > 1 ? at(i - 1) : "Le joueur précédent") + " boit 1 gorgée."]);
+  if (sum === 9) out.push(["9", (n > 1 ? at(i + 1) : "Le joueur suivant") + " boit 1 gorgée."]);
+  if (sum === 10) out.push(["10", "Tout le monde boit 1 gorgée. Santé !"]);
+  if (sum === 3) out.push(["1 + 2", me_ + " boit 1 gorgée."]);
+  const threes = (a === 3) + (b === 3);
+  if (threes) {
+    if (!bon) { bon = me_; out.push(["Un 3", me_ + " devient le Bonhomme 3."]); }
+    else if (bon === me_) { bon = null; out.push(["Un 3", me_ + " se libère : plus de Bonhomme 3 !"]); }
+    else out.push(["Un 3", bon + " (le Bonhomme) boit " + threes + (threes > 1 ? " gorgées." : " gorgée.")]);
+  }
+  if (!out.length) out.push(["Rien", "Personne ne boit. Passe les dés."]);
+  return { out, bon };
+}
+function desRules(a, b) {
+  const r = diceOutcome(a, b, players.length ? players : ["Joueur"], desIdx, bonhomme);
+  bonhomme = r.bon; return r.out;
+}
+$("#des-roll").onclick = () => {
+  if (rolling) return; rolling = true;
+  const a = 1 + Math.floor(Math.random() * 6), b = 1 + Math.floor(Math.random() * 6);
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const d1 = $("#die1"), d2 = $("#die2");
+  [d1, d2].forEach(d => { d.classList.remove("roll"); void d.offsetWidth; if (!reduce) d.classList.add("roll"); });
+  sfx.dice(); buzz(40);
+  let ticks = reduce ? 0 : 6;
+  const tick = () => {
+    if (ticks-- > 0) { drawDie(d1, 1 + Math.floor(Math.random() * 6)); drawDie(d2, 1 + Math.floor(Math.random() * 6)); return setTimeout(tick, 80); }
+    drawDie(d1, a); drawDie(d2, b);
+    $("#des-sum").textContent = a + " + " + b + " = " + (a + b);
+    const ul = $("#des-out"); ul.textContent = "";
+    desRules(a, b).forEach(([k, t]) => { const li = el("li"); li.append(el("b", null, k + " · "), document.createTextNode(t)); ul.append(li); });
+    renderBonhomme(); rolling = false;
+  };
+  tick();
+};
+$("#des-next").onclick = () => {
+  desIdx = (desIdx + 1) % Math.max(players.length, 1);
+  $("#des-turn").textContent = "À " + pl(desIdx) + " de lancer";
+  $("#des-out").textContent = ""; $("#des-sum").textContent = "Touche « Lancer les dés »";
+};
+
+/* ---------- Le 21 ---------- */
+const v21 = Object.assign({ count: 0, idx: 0, rules: {} }, store.get("tg.v21", {}));
+const v21Save = () => store.set("tg.v21", v21);
+function v21Render() {
+  $("#v21-turn").textContent = v21.count >= 21 ? pl(v21.idx) + " a dit 21 !" : "À " + pl(v21.idx) + " de compter";
+  $("#v21-count").innerHTML = v21.count + "<small> / 21</small>";
+  $$("#v21-btns button").forEach(b => b.disabled = v21.count + (+b.dataset.n) > 21 || v21.count >= 21);
+  $("#v21-fail").disabled = v21.count >= 21;
+  const nums = Object.keys(v21.rules).map(Number).sort((a, b) => a - b);
+  $("#v21-nrules").textContent = nums.length;
+  const dl = $("#v21-rules"); dl.textContent = "";
+  if (!nums.length) dl.append(el("dd", "muted", "Aucune règle pour l'instant."));
+  nums.forEach(n => { dl.append(el("dt", null, n), el("dd", null, v21.rules[n])); });
+}
+function v21Win() {
+  const p = pl(v21.idx);
+  $("#v21-win").textContent = p + " boit 2 gorgées et invente une règle";
+  const sel = $("#v21-num"); sel.textContent = "";
+  for (let n = 1; n <= 20; n++) if (!v21.rules[n]) { const o = el("option", null, n); o.value = n; sel.append(o); }
+  $("#v21-act").value = "";
+  $("#v21-form").hidden = sel.options.length === 0;
+  if (!sel.options.length) { $("#v21-said").textContent = "Tous les nombres sont remplacés ! Effacez les règles pour rejouer."; }
+  sfx.win(); buzz([60, 40, 60]);
+}
+$$("#v21-btns button").forEach(b => b.onclick = () => {
+  const n = +b.dataset.n, said = [];
+  for (let i = 1; i <= n; i++) { const k = v21.count + i; said.push(v21.rules[k] ? "« " + v21.rules[k] + " »" : String(k)); }
+  v21.count += n;
+  $("#v21-said").textContent = pl(v21.idx) + " : " + said.join(", ");
+  sfx.pop();
+  if (v21.count >= 21) v21Win(); else v21.idx = (v21.idx + 1) % Math.max(players.length, 1);
+  v21Save(); v21Render();
+});
+$("#v21-fail").onclick = () => {
+  $("#v21-said").textContent = pl(v21.idx) + " s'est trompé·e : 1 gorgée, on repart de 0.";
+  v21.count = 0; v21Save(); v21Render(); sfx.lose(); buzz(120);
+};
+$("#v21-idea").onclick = () => { $("#v21-act").value = rand(C.regles21.length ? C.regles21 : ["taper dans les mains"]); };
+$("#v21-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const n = +$("#v21-num").value, act = $("#v21-act").value.trim() || rand(C.regles21.length ? C.regles21 : ["taper dans les mains"]);
+  if (n) v21.rules[n] = act.slice(0, 40);
+  v21.count = 0; v21.idx = (v21.idx + 1) % Math.max(players.length, 1);
+  $("#v21-form").hidden = true;
+  $("#v21-said").textContent = "Nouvelle règle : " + n + " devient « " + v21.rules[n] + " ». On repart de 0.";
+  v21Save(); v21Render();
+});
+$("#v21-reset").onclick = () => { v21.rules = {}; v21.count = 0; $("#v21-form").hidden = true; $("#v21-said").textContent = "Règles effacées. On repart de 0."; v21Save(); v21Render(); };
+
+/* ---------- Pyramide ---------- */
+let pyr = null;
+const ROW_SIZES = [5, 4, 3, 2, 1];   // rangée 1 en bas
+function pyrDeal() {
+  const deck = newDeck(), hands = {};
+  const who = players.length ? players.slice(0, 9) : ["Joueur"];
+  who.forEach(p => { hands[p] = deck.splice(0, 4); });
+  pyr = { cards: deck.splice(0, 15), shown: 0, hands };
+  $("#pyr-hand-view").textContent = "";
+  $("#pyr-rule").textContent = "Touche « Retourner une carte »";
+  $("#pyr-desc").textContent = "Rangées impaires : on boit. Rangées paires : on distribue. Le nombre de gorgées est celui de la rangée.";
+  $("#pyr-title").textContent = "Mémorisez vos mains";
+  $("#pyr-flip").disabled = false;
+  pyrRender();
+}
+function pyrStart() { if (!pyr) pyrDeal(); else pyrRender(); }
+const rowOf = i => { let acc = 0; for (let r = 0; r < 5; r++) { acc += ROW_SIZES[r]; if (i < acc) return r + 1; } return 5; };
+function pyrRender() {
+  const box = $("#pyr-hands"); box.textContent = "";
+  Object.keys(pyr.hands).forEach(p => {
+    const b = el("button", "btn-sm", "Main de " + p); b.type = "button";
+    b.onclick = () => {
+      const v = $("#pyr-hand-view"); v.textContent = "";
+      v.append(el("span", "small muted", p + " : "), ...pyr.hands[p].map(c => miniCard(c)));
+      clearTimeout(pyrRender.t); pyrRender.t = setTimeout(() => { v.textContent = ""; }, 5000);
+    };
+    box.append(b);
+  });
+  const wrap = $("#pyr"); wrap.textContent = "";
+  let start = 15;
+  for (let r = 5; r >= 1; r--) {
+    const size = ROW_SIZES[r - 1]; start -= size;
+    const row = el("div", "prow");
+    row.append(el("span", "plabel", r + (r % 2 ? " · boire" : " · donner")));
+    for (let i = start; i < start + size; i++) row.append(miniCard(i < pyr.shown ? pyr.cards[i] : null, i === pyr.shown - 1 ? "now" : ""));
+    row.append(el("span", "plabel", ""));
+    wrap.append(row);
+  }
+}
+$("#pyr-flip").onclick = () => {
+  if (!pyr || pyr.shown >= 15) return;
+  const i = pyr.shown++, c = pyr.cards[i], row = rowOf(i), drink = row % 2 === 1;
+  const hits = Object.entries(pyr.hands).map(([p, h]) => [p, h.filter(x => x.r === c.r).length]).filter(([, n]) => n);
+  $("#pyr-title").textContent = "Rangée " + row + " · " + (drink ? "on boit" : "on distribue");
+  $("#pyr-rule").textContent = c.r + c.s + " · " + row + (row > 1 ? " gorgées" : " gorgée") + " par carte";
+  $("#pyr-desc").textContent = hits.length
+    ? hits.map(([p, n]) => p + (n > 1 ? " (×" + n + ")" : "")).join(", ") + (drink ? (hits.length > 1 ? " boivent " : " boit ") : (hits.length > 1 ? " distribuent " : " distribue ")) + (row * 1) + (row > 1 ? " gorgées" : " gorgée") + " par carte."
+    : "Personne n'a de " + c.r + ". Carte suivante.";
+  pyrRender(); sfx.flip();
+  if (hits.length) buzz(40);
+  if (pyr.shown >= 15) { $("#pyr-flip").disabled = true; $("#pyr-title").textContent = "Fin de la pyramide !"; sfx.win(); }
+};
+$("#pyr-reset").onclick = pyrDeal;
+
+/* ---------- Purple ---------- */
+let pur = { idx: 0, step: 1, drawn: [], deck: [], over: false };
+const PUR_Q = {
+  1: ["Rouge ou noir ?", [["Rouge", "rouge"], ["Noir", "noir"]]],
+  2: [c => "Plus haut ou plus bas que " + c[0].r + c[0].s + " ?", [["Plus haut", "haut"], ["Plus bas", "bas"]]],
+  3: [c => "Entre ou à l'extérieur de " + c[0].r + " et " + c[1].r + " ?", [["Entre", "in"], ["À l'extérieur", "out"]]],
+  4: ["Quelle couleur ?", [["♠", "♠"], ["♥", "♥"], ["♦", "♦"], ["♣", "♣"]]]
+};
+function purStart() { pur.idx = pur.idx % Math.max(players.length, 1); purNewTurn(); }
+function purNewTurn() { pur.step = 1; pur.drawn = []; pur.over = false; purRender(); }
+function purRender() {
+  $("#pur-step").textContent = Math.min(pur.step, 4);
+  $("#pur-turn").textContent = "À " + pl(pur.idx);
+  const cards = $("#pur-cards"); cards.textContent = "";
+  for (let i = 0; i < 4; i++) cards.append(miniCard(pur.drawn[i] || null));
+  const opts = $("#pur-opts"); opts.textContent = "";
+  $("#pur-next").hidden = !pur.over;
+  if (pur.over) return;
+  const [q, choices] = PUR_Q[pur.step];
+  $("#pur-kind").textContent = "Question " + pur.step;
+  $("#pur-q").textContent = typeof q === "function" ? q(pur.drawn) : q;
+  $("#pur-foot").textContent = "Faux : tu bois " + pur.step + (pur.step > 1 ? " gorgées." : " gorgée.");
+  choices.forEach(([label, v]) => {
+    const b = el("button", "grow" + (v === "♥" || v === "♦" || v === "rouge" ? " red" : ""), label); b.type = "button";
+    b.style.fontSize = pur.step === 4 ? "24px" : "";
+    b.onclick = () => purAnswer(v); opts.append(b);
+  });
+}
+function purAnswer(v) {
+  if (!pur.deck.length) pur.deck = newDeck();
+  const c = pur.deck.pop(), d = pur.drawn;
+  let ok = false;
+  if (pur.step === 1) ok = (v === "rouge") === isRed(c);
+  if (pur.step === 2) ok = v === "haut" ? val(c) > val(d[0]) : val(c) < val(d[0]);
+  if (pur.step === 3) { const lo = Math.min(val(d[0]), val(d[1])), hi = Math.max(val(d[0]), val(d[1])); ok = v === "in" ? val(c) > lo && val(c) < hi : val(c) < lo || val(c) > hi; }
+  if (pur.step === 4) ok = c.s === v;
+  d.push(c);
+  if (ok && pur.step === 4) {
+    pur.over = true; $("#pur-kind").textContent = "Gagné !"; $("#pur-q").textContent = c.r + c.s + " · " + pl(pur.idx) + " distribue 5 gorgées !";
+    $("#pur-foot").textContent = "Les 4 bonnes réponses d'affilée."; sfx.win(); buzz([60, 40, 60]);
+  } else if (ok) {
+    pur.step++; sfx.pop();
+  } else {
+    pur.over = true; $("#pur-kind").textContent = "Raté";
+    $("#pur-q").textContent = c.r + c.s + " · " + pl(pur.idx) + " boit " + pur.step + (pur.step > 1 ? " gorgées." : " gorgée.");
+    $("#pur-foot").textContent = "Au suivant !"; sfx.lose(); buzz(120);
+  }
+  purRender();
+}
+$("#pur-next").onclick = () => { pur.idx = (pur.idx + 1) % Math.max(players.length, 1); purNewTurn(); };
+
+/* ---------- Mot interdit ---------- */
+let bans = store.get("tg.bans", []).filter(b => b.until > Date.now());
+let motDur = 10;
+function motRender() {
+  $$("#mot-dur button").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.v === motDur)));
+  const box = $("#mot-list"); box.textContent = "";
+  if (!bans.length) box.append(el("p", "empty", "Aucun mot interdit pour l'instant. Tire-en un !"));
+  bans.forEach(b => {
+    const row = el("div", "ban");
+    row.append(el("strong", null, b.word ? "« " + b.text + " »" : b.text));
+    const t = el("span", "timer"); t.dataset.until = b.until; row.append(t);
+    const x = el("button", "btn-sm btn-ghost", "Retirer"); x.onclick = () => { bans = bans.filter(o => o !== b); store.set("tg.bans", bans); motRender(); };
+    row.append(x); box.append(row);
+  });
+  motTick();
+}
+function motTick() {
+  const now = Date.now();
+  const expired = bans.filter(b => b.until <= now);
+  if (expired.length) {
+    bans = bans.filter(b => b.until > now); store.set("tg.bans", bans);
+    expired.forEach(b => toast((b.word ? "« " + b.text + " »" : b.text) + " : c'est fini !"));
+    sfx.pop(); if (currentGame === "mot") motRender();
+    return;
+  }
+  $$("#mot-list .timer").forEach(t => { const s = Math.max(0, Math.round((+t.dataset.until - now) / 1000)); t.textContent = Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); });
+}
+function motAdd(text, word) {
+  bans.push({ text, word, until: Date.now() + motDur * 60e3 }); store.set("tg.bans", bans);
+  motRender(); sfx.flip(); buzz(40);
+}
+$$("#mot-dur button").forEach(b => b.onclick = () => { motDur = +b.dataset.v; motRender(); });
+$("#mot-word").onclick = () => { const used = bans.map(b => b.text); const pool = C.mots.filter(m => !used.includes(m)); motAdd(rand(pool.length ? pool : C.mots), true); };
+$("#mot-gest").onclick = () => { const used = bans.map(b => b.text); const pool = C.gestes.filter(m => !used.includes(m)); motAdd(rand(pool.length ? pool : C.gestes), false); };
+setInterval(() => { if (bans.length) motTick(); }, 1000);
+
+/* =====================================================
+   ALCOOLÉMIE
+   ===================================================== */
+const ELIM = 0.10;              // g/L par heure (valeur prudente)
+const K = { h: 0.7, f: 0.6 };   // coefficient de diffusion
+const DAY = 24 * 3600e3, MIN = 60e3;
+const grams = (cl, deg) => cl * 10 * (deg / 100) * 0.8;
+const DRINKS = [
+  { label: "Demi", note: "25 cl · 5 %", g: grams(25, 5) },
+  { label: "Pinte", note: "50 cl · 5 %", g: grams(50, 5) },
+  { label: "Bière forte", note: "33 cl · 8 %", g: grams(33, 8) },
+  { label: "Vin", note: "12 cl · 12 %", g: grams(12, 12) },
+  { label: "Champagne", note: "12 cl · 12 %", g: grams(12, 12) },
+  { label: "Shot", note: "3 cl · 40 %", g: grams(3, 40) },
+  { label: "Cocktail", note: "5 cl d'alcool fort", g: grams(5, 40) },
+  { label: "Cidre", note: "25 cl · 5 %", g: grams(25, 5) }
+];
+
+const defaultMe = () => ({ pseudo: "", sex: "h", weight: 70, fed: 1, young: 0, sam: 0, drinks: [], water: [], updatedAt: 0 });
+const limitOf = p => (p && p.young ? 0.2 : 0.5);
+let me = Object.assign(defaultMe(), store.get("tg.me", {}));
+if (!Array.isArray(me.water)) me.water = [];
+rollNight();
+
+// Soirée finie (dernier verre il y a plus de 12 h) : on la range dans l'historique
+function rollNight() {
+  const now = Date.now();
+  me.drinks = (me.drinks || []).filter(d => d && isFinite(d.t)).sort((a, b) => a.t - b.t);
+  me.water = (me.water || []).filter(isFinite).sort((a, b) => a - b);
+  const last = Math.max(me.drinks.length ? me.drinks[me.drinks.length - 1].t : 0, me.water.length ? me.water[me.water.length - 1] : 0);
+  if (last && last < now - 12 * 3600e3) archiveNight();
+  me.drinks = me.drinks.filter(d => d.t > now - DAY);
+  me.water = me.water.filter(t => t > now - DAY);
+}
+function archiveNight() {
+  if (me.drinks.length) {
+    const g = me.drinks.reduce((s, d) => s + d.g, 0);
+    let peak = 0; simulate(me, me.drinks[me.drinks.length - 1].t + 3 * 3600e3, true).series.forEach(p => { if (p[1] > peak) peak = p[1]; });
+    nights.unshift({ start: me.drinks[0].t, end: me.drinks[me.drinks.length - 1].t, grams: Math.round(g), peak: Math.round(peak * 100) / 100, water: me.water.length });
+    nights = nights.slice(0, 60); store.set("tg.history", nights);
+  }
+  me.drinks = []; me.water = [];
+}
+
+// Simulation minute par minute : absorption linéaire puis élimination constante.
+function simulate(p, tEnd, sample) {
+  const drinks = (p.drinks || []).filter(d => d.g > 0 && d.t > tEnd - DAY - 3 * 3600e3 && d.t <= tEnd + 1);
+  const w = Math.max(35, +p.weight || 70), k = K[p.sex] || 0.7;
+  const absorb = (p.fed ? 60 : 30) * MIN;
+  if (!drinks.length) return { bac: 0, series: [] };
+  let t = drinks[0].t, bac = 0;
+  const series = [];
+  for (; t <= tEnd; t += MIN) {
+    for (const d of drinks) if (t >= d.t && t < d.t + absorb) bac += (d.g / (w * k)) * (MIN / absorb);
+    bac = Math.max(0, bac - ELIM / 60);
+    if (sample) series.push([t, bac]);
+  }
+  return { bac, series };
+}
+const bacNow = p => simulate(p, Date.now()).bac;
+// Projection : pic, heure de passage sous la limite légale et retour à 0
+function project(p) {
+  const now = Date.now();
+  const past = simulate(p, now, true);
+  const w = Math.max(35, +p.weight || 70), k = K[p.sex] || 0.7, absorb = (p.fed ? 60 : 30) * MIN;
+  const drinks = (p.drinks || []).filter(d => d.g > 0);
+  const lim = limitOf(p);
+  let bac = past.bac, peak = bac, under = null, zero = null;
+  const future = [[now, bac]];
+  const lastAbs = drinks.length ? drinks[drinks.length - 1].t + absorb : now;
+  if (!drinks.length || (bac <= 0 && lastAbs <= now)) return { now: bac, past: past.series, future, peak, under, zero };
+  for (let t = now + MIN; t < now + DAY; t += MIN) {
+    for (const d of drinks) if (t >= d.t && t < d.t + absorb) bac += (d.g / (w * k)) * (MIN / absorb);
+    bac = Math.max(0, bac - ELIM / 60);
+    future.push([t, bac]);
+    if (bac > peak) peak = bac;
+    if (t >= lastAbs) {
+      if (under === null && peak >= lim && bac < lim) under = t;
+      if (bac <= 0) { zero = t; break; }
+    }
+  }
+  return { now: past.bac, past: past.series, future, peak, under, zero };
+}
+function level(b, young) {
+  if (b < 0.01) return ["ok", "Sobre"];
+  if (b >= 0.8) return ["bad", "Au-dessus de 0,8 : délit au volant"];
+  if (young) {
+    if (b < 0.2) return ["warn", "Sous 0,2 : conduite déconseillée"];
+    return ["bad", "Au-dessus de 0,2 : interdit de conduire en jeune permis"];
+  }
+  if (b < 0.2) return ["ok", "Léger"];
+  if (b < 0.5) return ["warn", "Sous 0,5 : conduite déconseillée"];
+  return ["bad", "Au-dessus de 0,5 : interdit de conduire"];
+}
+
+function renderDrinkButtons() {
+  const box = $("#drinks"); box.textContent = "";
+  const w = el("button", "drink water"); w.type = "button";
+  w.append(el("strong", null, "Verre d'eau"), el("span", null, "Pour tenir la soirée"));
+  w.onclick = addWater; box.append(w);
+  DRINKS.forEach(d => {
+    const b = el("button", "drink"); b.type = "button";
+    b.append(el("strong", null, d.label), el("span", null, d.note));
+    b.onclick = () => addDrink(d.label, d.g);
+    box.append(b);
+  });
+}
+function addDrink(label, g, extra) {
+  const ago = +$("#ago").value || 0;
+  me.drinks.push(Object.assign({ t: Date.now() - ago * MIN, g: Math.round(g * 10) / 10, label }, extra || {}));
+  $("#ago").value = "0";
+  sfx.pop(); changed();
+}
+function addWater() {
+  me.water.push(Date.now()); sfx.pop(); buzz(30);
+  toast("Verre d'eau ajouté. Bien joué !"); changed();
+}
+// Gorgées des jeux : regroupées avec la ligne précédente si elle date de moins de 20 min
+function addSips(n) {
+  const s = SIPS[settings.sip];
+  if (!s.g) { toast("Tu bois un soft : rien à ajouter au suivi."); return; }
+  const last = me.drinks[me.drinks.length - 1];
+  if (last && last.sips && last.kind === settings.sip && Date.now() - last.t < 20 * MIN) {
+    last.sips += n; last.g = Math.round(last.sips * s.g * 10) / 10; last.label = last.sips + " gorgées de " + s.label.toLowerCase();
+    sfx.pop(); changed();
+  } else {
+    addDrink(n + (n > 1 ? " gorgées de " : " gorgée de ") + s.label.toLowerCase(), n * s.g, { sips: n, kind: settings.sip });
+  }
+  toast((n === 5 ? "Cul sec" : n + (n > 1 ? " gorgées" : " gorgée")) + " ajouté à ton suivi");
+}
+$("#custom-drink").addEventListener("submit", e => {
+  e.preventDefault();
+  const vol = +$("#cd-vol").value, deg = +$("#cd-deg").value;
+  if (vol > 0 && deg > 0) addDrink(vol + " cl · " + String(deg).replace(".", ",") + " %", grams(vol, deg));
+});
+$("#water-tip-btn").onclick = addWater;
+$("#reset-night").onclick = () => { $("#reset-confirm").hidden = false; };
+$("#reset-no").onclick = () => { $("#reset-confirm").hidden = true; };
+$("#reset-yes").onclick = () => { archiveNight(); $("#reset-confirm").hidden = true; renderHistory(); changed(); toast("Soirée rangée dans l'historique (Réglages)."); };
+
+function renderLog() {
+  const ul = $("#log"); ul.textContent = "";
+  const items = [...me.drinks.map(d => ({ t: d.t, d })), ...me.water.map(t => ({ t, w: true }))].sort((a, b) => b.t - a.t);
+  const g = me.drinks.reduce((s, d) => s + d.g, 0);
+  $("#night-sum").textContent = me.drinks.length || me.water.length
+    ? fmt(g / 10, 1) + " verre" + (g >= 15 ? "s" : "") + " standard (10 g d'alcool chacun) · " + me.water.length + " verre" + (me.water.length > 1 ? "s" : "") + " d'eau"
+    : "";
+  if (!items.length) { ul.append(el("li", "muted small", "Aucun verre pour l'instant. Touche une boisson ci-dessus pour l'ajouter.")); return; }
+  items.forEach(it => {
+    const li = el("li", it.w ? "is-water" : "");
+    li.append(el("time", null, hhmm(it.t)), el("span", "lbl", it.w ? "Verre d'eau" : it.d.label));
+    li.append(el("span", "g", it.w ? "" : fmt(it.d.g, 0) + " g"));
+    const x = el("button", "btn-ghost", "Retirer"); x.type = "button";
+    x.onclick = () => { if (it.w) { const i = me.water.indexOf(it.t); if (i >= 0) me.water.splice(i, 1); } else me.drinks = me.drinks.filter(o => o !== it.d); changed(); };
+    li.append(x); ul.append(li);
+  });
+}
+
+let proj = null;
+function renderBac() {
+  proj = project(me);
+  const b = proj.now, lim = limitOf(me);
+  $("#bac-now").innerHTML = fmt(b) + "<small>g/L</small>";
+  const [cls, txt] = level(b, me.young);
+  const pill = $("#bac-pill"); pill.className = "pill " + cls; pill.textContent = txt;
+  $("#bac-warn").hidden = !(b >= 0.2 || proj.peak >= lim || (me.young && b > 0) || (me.sam && b > 0));
+  $("#bac-warn").textContent = me.sam && b > 0 ? "Tu es Sam ce soir : avec de l'alcool dans le sang, laisse quelqu'un d'autre conduire ou prends un taxi." : "Ne prends pas le volant. Bois de l'eau, et rentre en taxi, VTC ou avec un conducteur sobre.";
+  $("#st-peak").textContent = proj.peak > 0.005 ? fmt(proj.peak) : "–";
+  $("#st-05-label").textContent = "Sous " + fmt(lim, 1) + " g/L";
+  $("#st-05").textContent = proj.under ? hhmm(proj.under) : (proj.peak >= lim ? "> 24 h" : "OK");
+  $("#st-0").textContent = proj.zero ? hhmm(proj.zero) : (b > 0 ? "> 24 h" : "–");
+  $("#taux-who").textContent = me.pseudo ? "Taux estimé de " + me.pseudo : "Mon taux estimé";
+  // Rappel eau : 2 verres standard ou plus depuis le dernier verre d'eau
+  const lastWater = me.water.length ? me.water[me.water.length - 1] : 0;
+  const since = me.drinks.filter(d => d.t > lastWater).reduce((s, d) => s + d.g, 0);
+  $("#water-tip").hidden = since < 20;
+  $("#water-tip-text").textContent = "Tu as bu l'équivalent de " + fmt(since / 10, 1) + " verres depuis ton dernier verre d'eau. Un verre d'eau ?";
+  // Je rentre comment ?
+  let drive;
+  if (b <= 0 && !me.drinks.some(d => d.g > 0)) drive = "Tu n'as rien bu ce soir.";
+  else if (proj.peak < lim && b < lim) drive = "Ton taux estimé reste sous " + fmt(lim, 1) + " g/L. Vérifie avec un éthylotest avant de conduire.";
+  else if (proj.under) drive = "Pas de volant avant " + hhmm(proj.under) + " environ (estimation). D'ici là : taxi, VTC ou Sam.";
+  else drive = "Pas de volant ce soir. Rentre en taxi, en VTC ou avec Sam.";
+  $("#drive-when").textContent = drive;
+  drawChart();
+}
+
+function drawChart() {
+  const c = $("#chart"); if (!c || !proj || c.offsetParent === null) return;
+  const dpr = window.devicePixelRatio || 1, W = c.clientWidth, H = c.clientHeight;
+  c.width = W * dpr; c.height = H * dpr;
+  const ctx = c.getContext("2d"); ctx.scale(dpr, dpr); ctx.clearRect(0, 0, W, H);
+  const css = getComputedStyle(document.documentElement);
+  const col = n => css.getPropertyValue(n).trim();
+  const now = Date.now();
+  const pts = proj.past.concat(proj.future.filter(p => p[1] > 0 || p[0] === now));
+  const t0 = proj.past.length ? Math.min(proj.past[0][0], now - 30 * MIN) : now - 2 * 3600e3;
+  const t1 = Math.max(proj.zero || now, now + 2 * 3600e3);
+  const ymax = Math.max(0.8, Math.ceil((proj.peak * 1.15) * 5) / 5);
+  const L = 34, R = 8, T = 10, B = 22;
+  const x = t => L + (t - t0) / (t1 - t0) * (W - L - R);
+  const y = v => T + (1 - v / ymax) * (H - T - B);
+  ctx.font = "11px 'DM Mono', monospace"; ctx.fillStyle = col("--muted"); ctx.textBaseline = "middle";
+  for (let v = 0; v <= ymax + 1e-9; v += ymax > 1.6 ? 0.5 : 0.2) {
+    ctx.strokeStyle = col("--line"); ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(L, y(v)); ctx.lineTo(W - R, y(v)); ctx.stroke();
+    ctx.textAlign = "right"; ctx.fillText(fmt(v, 1), L - 6, y(v));
+  }
+  const lim = limitOf(me);
+  ctx.setLineDash([4, 4]); ctx.strokeStyle = col("--bad"); ctx.beginPath(); ctx.moveTo(L, y(lim)); ctx.lineTo(W - R, y(lim)); ctx.stroke(); ctx.setLineDash([]);
+  ctx.fillStyle = col("--bad"); ctx.textAlign = "left"; ctx.fillText(me.young ? "0,2 jeune permis" : "0,5 limite", L + 4, y(lim) - 9);
+  ctx.fillStyle = col("--muted"); ctx.textAlign = "center"; ctx.textBaseline = "alphabetic";
+  const span = t1 - t0, stepH = span > 10 * 3600e3 ? 3 : span > 5 * 3600e3 ? 2 : 1;
+  const first = new Date(t0); first.setMinutes(0, 0, 0);
+  for (let t = first.getTime() + 3600e3; t < t1; t += stepH * 3600e3) ctx.fillText(new Date(t).getHours() + "h", x(t), H - 6);
+  // verres d'eau : petites marques en bas
+  ctx.fillStyle = col("--water");
+  me.water.forEach(t => { if (t >= t0 && t <= t1) { ctx.beginPath(); ctx.arc(x(t), y(0) - 4, 3, 0, Math.PI * 2); ctx.fill(); } });
+  if (!pts.length) return;
+  const acc = col("--accent");
+  const past = pts.filter(p => p[0] <= now), fut = pts.filter(p => p[0] >= now);
+  if (past.length) {
+    ctx.beginPath(); ctx.moveTo(x(past[0][0]), y(0)); past.forEach(p => ctx.lineTo(x(p[0]), y(p[1]))); ctx.lineTo(x(past[past.length - 1][0]), y(0)); ctx.closePath();
+    ctx.fillStyle = col("--accent-soft"); ctx.fill();
+    ctx.beginPath(); past.forEach((p, i) => i ? ctx.lineTo(x(p[0]), y(p[1])) : ctx.moveTo(x(p[0]), y(p[1]))); ctx.strokeStyle = acc; ctx.lineWidth = 2.5; ctx.stroke();
+  }
+  if (fut.length > 1) {
+    ctx.setLineDash([5, 5]); ctx.beginPath(); fut.forEach((p, i) => i ? ctx.lineTo(x(p[0]), y(p[1])) : ctx.moveTo(x(p[0]), y(p[1])));
+    ctx.strokeStyle = acc; ctx.lineWidth = 2; ctx.stroke(); ctx.setLineDash([]);
+  }
+  ctx.beginPath(); ctx.arc(x(now), y(proj.now), 5, 0, Math.PI * 2); ctx.fillStyle = acc; ctx.fill();
+  ctx.strokeStyle = col("--bg"); ctx.lineWidth = 2; ctx.stroke();
+}
+addEventListener("resize", () => { drawChart(); });
+
+/* Profil */
+function renderProfile() {
+  if (document.activeElement !== $("#p-pseudo")) $("#p-pseudo").value = me.pseudo;
+  if (document.activeElement !== $("#p-weight")) $("#p-weight").value = me.weight;
+  const seg = (id, v) => $$(id + " button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === String(v))));
+  seg("#p-sex", me.sex); seg("#p-fed", +me.fed); seg("#p-young", +(me.young || 0)); seg("#p-sam", +(me.sam || 0));
+}
+let typeTimer;
+$("#p-pseudo").addEventListener("input", e => { me.pseudo = e.target.value.trim().slice(0, 24); clearTimeout(typeTimer); typeTimer = setTimeout(changed, 700); });
+$("#p-weight").addEventListener("input", e => { const v = +e.target.value; if (v >= 35 && v <= 200) { me.weight = v; clearTimeout(typeTimer); typeTimer = setTimeout(changed, 700); } });
+$$("#p-sex button").forEach(b => b.onclick = () => { me.sex = b.dataset.v; changed(); });
+$$("#p-fed button").forEach(b => b.onclick = () => { me.fed = +b.dataset.v; changed(); });
+$$("#p-young button").forEach(b => b.onclick = () => { me.young = +b.dataset.v; changed(); });
+$$("#p-sam button").forEach(b => b.onclick = () => { me.sam = +b.dataset.v; changed(); });
+
+function changed() {
+  rollNight();
+  me.updatedAt = Date.now();
+  store.set("tg.me", me);
+  renderProfile(); renderLog(); renderBac(); renderFriends();
+  publishMe();
+}
+
+/* ---------- Bouton gorgées (jeux) ---------- */
+function updateSipFab() {
+  const inGame = !!currentGame && currentGame !== "soiree" && !$("#view-jeux").hidden;
+  $("#sip-fab").hidden = !inGame;
+  if (!inGame) closeSip();
+}
+function closeSip() { $("#sip-sheet").hidden = true; $("#sip-fab").setAttribute("aria-expanded", "false"); }
+$("#sip-fab").onclick = () => {
+  const open = $("#sip-sheet").hidden;
+  $("#sip-sheet").hidden = !open; $("#sip-fab").setAttribute("aria-expanded", String(open));
+  $("#sip-what").textContent = "Dans mon verre : " + SIPS[settings.sip].label + " (Réglages)";
+};
+$("#sip-close").onclick = closeSip;
+$$("#sip-grid button").forEach(b => b.onclick = () => { addSips(+b.dataset.s); closeSip(); });
+$("#sip-water").onclick = () => { addWater(); closeSip(); };
+
+/* =====================================================
+   GROUPE D'AMIS (MQTT sur WebSocket, sans compte)
+   Chaque téléphone publie son état en message "retenu" sur
+   tourneegenerale/v1/<CODE>/<id-appareil> ; tout le groupe s'abonne à
+   tourneegenerale/v1/<CODE>/+ et reçoit les états des autres en direct.
+   Les messages rapides passent par tourneegenerale/v1/<CODE>/_r (non retenus).
+   ===================================================== */
+const BROKER = "wss://broker.emqx.io:8084/mqtt";
+const TOPIC = code => "tourneegenerale/v1/" + code;
+const CODE_RE = /^[A-Z0-9]{4,12}$/;
+const REACTS = {
+  sante: "🍻 Santé !", tournee: "📣 Tournée générale !", eau: "💧 Qui veut de l'eau ?",
+  danse: "💃 On danse !", rentre: "🚕 Je rentre", aide: "🆘 J'ai besoin d'aide"
+};
+const devId = (() => {
+  let v = store.get("tg.dev", "");
+  if (!/^[a-z0-9]{8,32}$/.test(v)) { v = Array.from({ length: 16 }, () => "abcdefghijklmnopqrstuvwxyz0123456789"[Math.floor(Math.random() * 36)]).join(""); store.set("tg.dev", v); }
+  return v;
+})();
+let group = store.get("tg.group", "");
+let client = null, members = {}, pubTimer = null, feed = [], lastReact = 0;
+const alerted = {};
+
+function setSync(state, text) {
+  const s = $("#sync"); s.className = "sync" + (state ? " " + state : "");
+  $("span", s).textContent = text;
+}
+function payload() {
+  return { v: 2, pseudo: me.pseudo, sex: me.sex, weight: me.weight, fed: me.fed, young: me.young || 0, sam: me.sam || 0,
+    drinks: me.drinks.map(d => ({ t: d.t, g: d.g, label: d.label })), water: me.water, updatedAt: me.updatedAt };
+}
+// Les messages viennent d'inconnus : on ne garde que des champs propres.
+function clean(o) {
+  if (!o || typeof o !== "object") return null;
+  const pseudo = typeof o.pseudo === "string" ? o.pseudo.slice(0, 24).trim() : "";
+  if (!pseudo) return null;
+  const drinks = Array.isArray(o.drinks) ? o.drinks.slice(-80).filter(d => d && isFinite(d.t) && isFinite(d.g) && d.g > 0 && d.g < 300)
+    .map(d => ({ t: +d.t, g: +d.g, label: String(d.label || "Verre").slice(0, 40) })).sort((a, b) => a.t - b.t) : [];
+  const water = Array.isArray(o.water) ? o.water.slice(-60).filter(isFinite).map(Number).sort((a, b) => a - b) : [];
+  return { pseudo, sex: o.sex === "f" ? "f" : "h", weight: Math.min(200, Math.max(35, +o.weight || 70)), fed: o.fed ? 1 : 0,
+    young: o.young ? 1 : 0, sam: o.sam ? 1 : 0, drinks, water, updatedAt: +o.updatedAt || 0 };
+}
+function publishMe() {
+  if (!client || !group) return;
+  clearTimeout(pubTimer);
+  pubTimer = setTimeout(() => {
+    if (!client || !client.connected) return;   // republié à la reconnexion
+    client.publish(TOPIC(group) + "/" + devId, JSON.stringify(payload()), { qos: 1, retain: true });
+  }, 300);
+}
+function connectGroup() {
+  if (client) { try { client.end(true); } catch {} client = null; }
+  members = {}; feed = []; shared = null; votes = {}; soFeed = [];
+  renderGroup(); renderFriends(); renderFeed(); soRender();
+  if (!group) { setSync("", "Hors groupe"); return; }
+  if (!window.mqtt) { setSync("err", "Synchro indisponible"); return; }
+  setSync("", "Connexion…");
+  const c = mqtt.connect(BROKER, { clientId: "tg_" + devId + "_" + Math.random().toString(36).slice(2, 7), clean: true, reconnectPeriod: 4000, connectTimeout: 10000, keepalive: 45 });
+  client = c;
+  const base = TOPIC(group);
+  c.on("connect", () => {
+    if (client !== c) return;
+    setSync("on", "Groupe " + group);
+    c.subscribe(base + "/+", { qos: 1 });
+    if (me.pseudo) c.publish(base + "/" + devId, JSON.stringify(payload()), { qos: 1, retain: true });
+  });
+  c.on("message", (topic, buf, packet) => {
+    if (client !== c || !topic.startsWith(base + "/")) return;
+    const id = topic.slice(base.length + 1);
+    let raw = null;
+    try { raw = buf.length ? JSON.parse(new TextDecoder().decode(buf)) : null; } catch {}
+    if (id === "_r") { if (!packet.retain) onReact(raw); return; }
+    if (id === "_g") { onShared(raw, !packet.retain); return; }
+    if (id.startsWith("_v")) { onVote(id.slice(2), raw); return; }
+    if (id === devId) return;
+    const data = clean(raw);
+    if (data) members[id] = data; else delete members[id];
+    renderFriends();
+  });
+  c.on("reconnect", () => { if (client === c) setSync("", "Reconnexion…"); });
+  c.on("offline", () => { if (client === c) setSync("err", "Hors ligne"); });
+  c.on("error", () => { if (client === c) setSync("err", "Erreur réseau"); });
+}
+function joinGroup(code) { group = code; store.set("tg.group", code); connectGroup(); }
+function leaveGroup() {
+  const c = client, base = group ? TOPIC(group) : null;
+  if (c && c.connected && base) { c.publish(base + "/_v" + devId, "", { qos: 1, retain: true }); c.publish(base + "/" + devId, "", { qos: 1, retain: true }, () => c.end()); }
+  else if (c) c.end(true);
+  client = null; group = ""; store.set("tg.group", "");
+  connectGroup();
+}
+const shareUrl = () => location.origin + location.pathname + "?groupe=" + group;
+function renderGroup() {
+  $("#group-none").hidden = !!group;
+  $("#group-in").hidden = !group;
+  $("#react-box").hidden = !group;
+  if (group) { $("#group-code").textContent = group; $("#share-link").textContent = shareUrl(); }
+}
+$("#join-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const v = $("#join-code").value.trim().toUpperCase().replace(/\s+/g, "");
+  const err = $("#join-err");
+  if (!CODE_RE.test(v)) { err.hidden = false; err.textContent = "Le code fait 4 à 12 lettres ou chiffres, sans espace."; return; }
+  err.hidden = true; $("#join-code").value = ""; joinGroup(v);
+});
+$("#create-group").onclick = () => {
+  const A = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+  joinGroup(Array.from({ length: 6 }, () => A[Math.floor(Math.random() * A.length)]).join(""));
+};
+$("#leave-group").onclick = leaveGroup;
+async function copyLink() {
+  try { await navigator.clipboard.writeText(shareUrl()); $("#share-msg").textContent = "Lien copié."; }
+  catch { const r = document.createRange(); r.selectNodeContents($("#share-link")); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); $("#share-msg").textContent = "Lien sélectionné : copie-le."; }
+}
+$("#copy-btn").onclick = copyLink;
+$("#share-btn").onclick = async () => {
+  const text = "Rejoins mon groupe sur Tournée Générale avec le code " + group;
+  if (navigator.share) { try { await navigator.share({ title: "Tournée Générale", text, url: shareUrl() }); return; } catch (e) { if (e && e.name === "AbortError") return; } }
+  copyLink();
+};
+
+/* Messages rapides */
+function renderReacts() {
+  const box = $("#reacts"); box.textContent = "";
+  Object.entries(REACTS).forEach(([k, label]) => {
+    const b = el("button", k === "aide" ? "btn-pink" : "", label); b.type = "button";
+    b.onclick = () => sendReact(k); box.append(b);
+  });
+}
+function sendReact(k) {
+  if (!client || !client.connected) { toast("Pas connecté au groupe pour l'instant."); return; }
+  if (!me.pseudo) { toast("Choisis d'abord un pseudo dans l'onglet Alcoolémie."); return; }
+  if (Date.now() - lastReact < 2000) return;
+  lastReact = Date.now();
+  client.publish(TOPIC(group) + "/_r", JSON.stringify({ from: devId, pseudo: me.pseudo, k, t: Date.now() }), { qos: 0, retain: false });
+}
+function onReact(o) {
+  if (o && o.k === "bu" && typeof o.pseudo === "string") {
+    const n = Math.max(0, Math.min(5, Math.round(+o.n || 0)));
+    soFeed.unshift({ t: Date.now(), who: o.from === devId ? "Toi" : o.pseudo.slice(0, 24), txt: n === 0 ? "a bu un verre d'eau 💧" : n === 5 ? "a fait cul sec 🍺" : "a bu " + n + (n > 1 ? " gorgées" : " gorgée") });
+    soFeed = soFeed.slice(0, 8); renderSoFeed(); return;
+  }
+  if (!o || !REACTS[o.k] || typeof o.pseudo !== "string") return;
+  const mine = o.from === devId, who = mine ? "Toi" : o.pseudo.slice(0, 24);
+  feed.unshift({ t: Date.now(), who, k: o.k }); feed = feed.slice(0, 8); renderFeed();
+  if (!mine) {
+    toast(who + " : " + REACTS[o.k], o.k === "aide");
+    if (o.k === "aide") { sfx.alert(); buzz([200, 100, 200, 100, 200]); } else { sfx.pop(); buzz(50); }
+  }
+}
+function renderFeed() {
+  const ul = $("#feed"); ul.textContent = "";
+  feed.forEach(f => { const li = el("li"); li.append(el("time", null, hhmm(f.t)), el("span", null, f.who + " · " + REACTS[f.k])); ul.append(li); });
+}
+
+/* Classement, alertes, conducteurs, badges */
+function groupRows() {
+  const lim = Date.now() - DAY;
+  return [{ id: devId, d: me, mine: true }, ...Object.entries(members).map(([id, d]) => ({ id, d }))]
+    .filter(r => r.mine || r.d.updatedAt > lim || (r.d.drinks.length && r.d.drinks[r.d.drinks.length - 1].t > lim))
+    .map(r => ({ ...r, bac: bacNow(r.d) }));
+}
+function renderFriends() {
+  const status = $("#amis-status");
+  if (!group) status.textContent = "Tu n'es dans aucun groupe pour l'instant.";
+  else if (!me.pseudo) status.textContent = "Choisis un pseudo dans l'onglet Alcoolémie pour apparaître chez tes amis.";
+  else status.textContent = "Les taux se mettent à jour en direct.";
+  const rows = groupRows().sort((a, b) => b.bac - a.bac);
+  const ul = $("#friends"); ul.textContent = "";
+  const maxBac = Math.max(0.5, ...rows.map(r => r.bac));
+  rows.forEach((r, i) => ul.append(personRow(r, i + 1, maxBac)));
+  if (rows.length < 2) ul.append(el("li", "empty", group ? "Personne d'autre dans le groupe pour l'instant. Envoie le code à tes amis." : "Crée un groupe ou entre le code d'un ami pour comparer vos taux."));
+  // Alerte quand quelqu'un dépasse 0,8 g/L
+  rows.forEach(r => {
+    if (r.mine) return;
+    if (r.bac >= 0.8 && !alerted[r.id]) { alerted[r.id] = true; toast("⚠ " + r.d.pseudo + " dépasse 0,8 g/L. Veillez sur cette personne : de l'eau, et pas de volant.", true); sfx.alert(); buzz([200, 100, 200]); }
+    if (r.bac < 0.7) alerted[r.id] = false;
+  });
+  renderDrivers(rows); renderBadges(rows);
+  if (shared && shared.game === "vote" && currentGame === "soiree") renderVote();
+}
+function personRow(r, rank, maxBac) {
+  const li = el("li", "person" + (r.mine ? " me" : ""));
+  const who = el("div", "who");
+  const s = el("strong", null, (r.d.pseudo || "Moi") + (r.mine ? " (toi)" : ""));
+  if (r.d.sam) s.append(el("span", "tag", "Sam"));
+  const n = (r.d.drinks || []).length, last = n ? r.d.drinks[n - 1].t : 0, w = (r.d.water || []).length;
+  const sub = el("span", null, n + (n > 1 ? " verres" : " verre") + (w ? " · 💧 " + w : "") + (last ? " · dernier à " + hhmm(last) : "") + (r.d.young ? " · jeune permis" : ""));
+  const bar = el("div", "bar"), bi = el("i");
+  const l = limitOf(r.d);
+  bi.style.width = Math.min(100, r.bac / maxBac * 100) + "%";
+  bi.style.background = r.bac >= l ? "var(--bad)" : r.bac >= l * 0.4 ? "var(--warn)" : "var(--ok)";
+  bar.append(bi); who.append(s, sub, bar);
+  li.append(el("span", "rank", rank), who, el("span", "val", fmt(r.bac)));
+  return li;
+}
+function renderDrivers(rows) {
+  const box = $("#drivers-box"), ul = $("#drivers"); ul.textContent = "";
+  const list = rows.filter(r => !r.mine && (r.d.sam || (r.bac <= 0 && !r.d.drinks.some(d => d.t > Date.now() - 6 * 3600e3))));
+  box.hidden = !group || !list.length;
+  list.sort((a, b) => b.d.sam - a.d.sam).forEach(r => {
+    const li = el("li", "person"), who = el("div", "who");
+    const s = el("strong", null, r.d.pseudo); if (r.d.sam) s.append(el("span", "tag", "Sam"));
+    who.append(s, el("span", null, r.bac > 0 ? "A bu : ne doit pas conduire" : "À 0,00 g/L (estimation)"));
+    li.append(who, el("span", "val", fmt(r.bac))); ul.append(li);
+  });
+}
+function renderBadges(rows) {
+  const box = $("#badges"); box.textContent = "";
+  const active = rows.filter(r => r.d.drinks.length || (r.d.water || []).length);
+  const drinkers = active.filter(r => r.d.drinks.length);
+  const out = [];
+  const best = (arr, f, dir) => arr.slice().sort((a, b) => dir * (f(a) - f(b)))[0];
+  if (drinkers.length >= 2) {
+    const peakOf = r => r.peak ?? (r.peak = project(r.d).peak);
+    const wise = best(drinkers, peakOf, 1);
+    out.push(["🧘", "Le plus raisonnable", wise.d.pseudo || "Toi", "Pic estimé le plus bas : " + fmt(peakOf(wise)) + " g/L"]);
+  }
+  const wet = active.filter(r => (r.d.water || []).length);
+  if (wet.length) {
+    const w = best(wet, r => r.d.water.length, -1);
+    out.push(["💧", "Champion de l'eau", w.d.pseudo || "Toi", w.d.water.length + " verre" + (w.d.water.length > 1 ? "s" : "") + " d'eau"]);
+    const f = best(wet, r => r.d.water[0], 1);
+    out.push(["🚰", "Premier verre d'eau", f.d.pseudo || "Toi", "à " + hhmm(f.d.water[0])]);
+  }
+  if (drinkers.length) {
+    const first = best(drinkers, r => r.d.drinks[0].t, 1);
+    out.push(["🥂", "Premier à trinquer", first.d.pseudo || "Toi", "à " + hhmm(first.d.drinks[0].t)]);
+    const owl = best(drinkers, r => r.d.drinks[r.d.drinks.length - 1].t, -1);
+    out.push(["🦉", "Oiseau de nuit", owl.d.pseudo || "Toi", "dernier verre à " + hhmm(owl.d.drinks[owl.d.drinks.length - 1].t)]);
+  }
+  rows.filter(r => r.d.sam && r.bac <= 0 && !r.d.drinks.length).forEach(r => out.push(["🚗", "Sam exemplaire", r.d.pseudo || "Toi", "0 verre ce soir"]));
+  $("#badge-box").hidden = !out.length;
+  out.forEach(([ico, title, who, why]) => {
+    const b = el("div", "badge"), d = el("div");
+    d.append(el("b", null, title + " · " + who), el("span", null, why));
+    b.append(el("span", "ico", ico), d); box.append(b);
+  });
+}
+
+/* =====================================================
+   MODE SOIRÉE : un jeu partagé par tout le groupe
+   État courant en message retenu sur <CODE>/_g ; votes sur <CODE>/_v<id>.
+   N'importe qui dans le groupe peut lancer une carte : la dernière gagne.
+   ===================================================== */
+const SO_GAMES = { jnj: "Je n'ai jamais", av: "Action ou vérité", vote: "Vote", des: "Dés", roulette: "Roulette" };
+const SO_NEXT = { jnj: "Carte suivante", av: "Joueur suivant", vote: "Nouvelle question", des: "Lancer les dés", roulette: "Tourner la roue" };
+let shared = null, votes = {}, soFeed = [];
+const soWheel = makeWheel("swheel", () => ROU.map(r => r[0]));
+const clampInt = (v, a, b) => Math.max(a, Math.min(b, Math.round(+v) || a));
+const str = (x, n) => typeof x === "string" ? x.slice(0, n) : "";
+
+function soPeople() { return groupRows().map(r => ({ id: r.id, name: r.mine ? (me.pseudo || "Moi") : r.d.pseudo, mine: !!r.mine })).sort((a, b) => a.name.localeCompare(b.name)); }
+function cleanShared(o) {
+  if (!o || typeof o !== "object" || !SO_GAMES[o.game]) return null;
+  const c = o.card && typeof o.card === "object" ? o.card : {}, card = {};
+  if (o.game === "jnj") card.text = str(c.text, 200);
+  if (o.game === "av") { card.target = str(c.target, 24); card.v = str(c.v, 200); card.a = str(c.a, 200); card.choice = c.choice === "a" || c.choice === "v" ? c.choice : null; }
+  if (o.game === "vote") { card.round = str(c.round, 20); card.q = str(c.q, 200); card.revealed = !!c.revealed; }
+  if (o.game === "des") {
+    card.a = clampInt(c.a, 1, 6); card.b = clampInt(c.b, 1, 6); card.roller = str(c.roller, 24); card.bon = str(c.bon, 24) || null;
+    card.out = Array.isArray(c.out) ? c.out.slice(0, 6).filter(Array.isArray).map(r => [str(r[0], 20), str(r[1], 200)]) : [];
+  }
+  if (o.game === "roulette") { card.i = clampInt(c.i, 0, ROU.length - 1); card.who = str(c.who, 24); }
+  return { game: o.game, seq: +o.seq || 0, by: str(o.by, 24) || "Quelqu'un", byId: str(o.byId, 40), t: +o.t || 0, card };
+}
+function publishShared(game, card) {
+  if (!client || !client.connected) { toast("Pas connecté au groupe pour l'instant."); return; }
+  if (!me.pseudo) { toast("Choisis d'abord un pseudo dans l'onglet Alcoolémie."); showTab("taux"); return; }
+  const state = { game, card, seq: (shared ? shared.seq : 0) + 1, by: me.pseudo, byId: devId, t: Date.now() };
+  client.publish(TOPIC(group) + "/_g", JSON.stringify(state), { qos: 1, retain: true });
+}
+function newCard(game) {
+  const people = soPeople(), names = people.map(p => p.name);
+  const someone = () => names.length ? rand(names) : "quelqu'un";
+  if (game === "jnj") return { text: draw("jamais").replaceAll("{other}", someone()) };
+  if (game === "av") {
+    // chacun son tour, dans l'ordre alphabétique des pseudos
+    let i = 0;
+    if (shared && shared.game === "av") { const j = names.indexOf(shared.card.target); i = j >= 0 ? (j + 1) % Math.max(1, names.length) : 0; }
+    const target = names[i] || "Toi";
+    return { target, v: draw("verites").replaceAll("{other}", rand(names.filter(n => n !== target)) || "ton voisin"),
+      a: draw("actions").replaceAll("{other}", rand(names.filter(n => n !== target)) || "ton voisin"), choice: null };
+  }
+  if (game === "vote") return { round: Math.random().toString(36).slice(2, 10), q: draw("qui").replaceAll("{other}", someone()), revealed: false };
+  if (game === "des") {
+    const a = 1 + Math.floor(Math.random() * 6), b = 1 + Math.floor(Math.random() * 6);
+    const meName = me.pseudo || "Moi", list = names.length ? names : [meName];
+    const r = diceOutcome(a, b, list, Math.max(0, list.indexOf(meName)), shared && shared.game === "des" ? shared.card.bon : null);
+    return { a, b, roller: meName, out: r.out, bon: r.bon };
+  }
+  if (game === "roulette") return { i: Math.floor(Math.random() * ROU.length), who: me.pseudo || "Moi" };
+}
+function onShared(raw, live) {
+  const next = cleanShared(raw), prev = shared;
+  if (!next) { shared = null; soRender(); return; }
+  if (prev && next.t < prev.t) return;
+  shared = next;
+  const fresh = !prev || prev.seq !== next.seq || prev.t !== next.t;
+  if (fresh && live) {
+    // animations et alertes seulement pour une carte jouée en direct (pas l'état retrouvé en rejoignant)
+    if (next.game === "roulette") soSpin = true;
+    if (next.game === "des") soRoll = true;
+    if (next.byId !== devId && (!prev || prev.game !== next.game) && currentGame !== "soiree") {
+      toast(next.by + " lance « " + SO_GAMES[next.game] + " » pour le groupe. Touche ici pour jouer.", false, () => { showTab("jeux"); openGame("soiree"); });
+      sfx.pop(); buzz(50);
+    }
+    if (next.game === "vote" && next.card.revealed && !(prev && prev.game === "vote" && prev.card.revealed && prev.card.round === next.card.round)) { sfx.win(); buzz([60, 40, 60]); }
+  }
+  soRender();
+}
+function onVote(voter, raw) {
+  if (!/^[a-z0-9]{8,32}$/.test(voter)) return;
+  if (!raw || typeof raw !== "object") { delete votes[voter]; } else votes[voter] = { round: str(raw.round, 20), target: str(raw.target, 40) };
+  if (shared && shared.game === "vote") soRender();
+}
+function myVote(target) {
+  if (!shared || shared.game !== "vote" || shared.card.revealed) return;
+  if (!client || !client.connected) { toast("Pas connecté au groupe pour l'instant."); return; }
+  client.publish(TOPIC(group) + "/_v" + devId, JSON.stringify({ round: shared.card.round, target }), { qos: 1, retain: true });
+  sfx.pop(); buzz(30);
+}
+let soSpin = false, soRoll = false;
+function soRender() {
+  $("#soiree-cta-status").textContent = group ? (shared ? "En cours : " + SO_GAMES[shared.game] : "Groupe " + group) : "Rejoins d'abord un groupe";
+  if (currentGame !== "soiree") return;
+  $("#so-off").hidden = !!group; $("#so-on").hidden = !group;
+  $("#so-on").style.display = group ? "flex" : "none";
+  $("#so-code").textContent = group ? "groupe " + group : "hors groupe";
+  const modes = $("#so-modes"); modes.textContent = "";
+  Object.entries(SO_GAMES).forEach(([k, label]) => {
+    const b = el("button", null, label); b.type = "button"; b.setAttribute("aria-pressed", String(!!shared && shared.game === k));
+    b.onclick = () => publishShared(k, newCard(k)); modes.append(b);
+  });
+  ["#so-av", "#so-vote", "#so-dice", "#so-wheel"].forEach(s_ => $(s_).hidden = true);
+  $("#so-next").hidden = !shared;
+  if (!shared) {
+    $("#so-title").textContent = "Lance un jeu pour tout le groupe";
+    $("#so-kind").textContent = "Mode Soirée"; $("#so-text").textContent = "Choisis un jeu ci-dessus : il s'affichera sur tous les téléphones du groupe."; $("#so-foot").textContent = ""; $("#so-by").textContent = "";
+    renderSoFeed(); return;
+  }
+  const g = shared.game, c = shared.card;
+  $("#so-title").textContent = SO_GAMES[g];
+  $("#so-next").textContent = SO_NEXT[g];
+  $("#so-by").textContent = "Lancé par " + (shared.byId === devId ? "toi" : shared.by) + " à " + hhmm(shared.t);
+  const kind = $("#so-kind"), text = $("#so-text"), foot = $("#so-foot");
+  if (g === "jnj") { kind.textContent = "Je n'ai jamais"; text.textContent = c.text; foot.textContent = "1 gorgée si tu l'as déjà fait : note-la en bas."; }
+  if (g === "av") {
+    kind.textContent = "Pour " + c.target;
+    if (!c.choice) { text.textContent = c.target + " : action ou vérité ?"; foot.textContent = "N'importe qui peut choisir pour " + c.target + "."; $("#so-av").hidden = false; }
+    else { text.textContent = c.choice === "a" ? c.a : c.v; kind.textContent = (c.choice === "a" ? "Action" : "Vérité") + " pour " + c.target; foot.textContent = "Refus : 2 gorgées."; }
+  }
+  if (g === "vote") {
+    kind.textContent = "Vote en direct"; text.textContent = "Qui pourrait " + c.q + " ?";
+    foot.textContent = c.revealed ? "Le plus voté boit 2 gorgées." : "Vote sur ton téléphone. Les votes restent secrets jusqu'à la révélation.";
+    renderVote();
+  }
+  if (g === "des") {
+    kind.textContent = "Lancer de " + c.roller; text.textContent = c.a + " + " + c.b + " = " + (c.a + c.b);
+    foot.textContent = c.bon ? "Bonhomme 3 : " + c.bon : "Pas de Bonhomme 3.";
+    $("#so-dice").hidden = false;
+    const d1 = $("#so-die1"), d2 = $("#so-die2");
+    if (soRoll) { soRoll = false; [d1, d2].forEach(d => { d.classList.remove("roll"); void d.offsetWidth; d.classList.add("roll"); }); sfx.dice(); buzz(40); }
+    drawDie(d1, c.a); drawDie(d2, c.b);
+    const ul = $("#so-dice-out"); ul.textContent = "";
+    c.out.forEach(([k, t]) => { const li = el("li"); li.append(el("b", null, k + " · "), document.createTextNode(t)); ul.append(li); });
+  }
+  if (g === "roulette") {
+    kind.textContent = "Roulette de " + c.who; $("#so-wheel").hidden = false;
+    const res = c.who + " : " + ROU[c.i][1];
+    if (soSpin) { soSpin = false; text.textContent = c.who + " fait tourner la roue…"; foot.textContent = ""; spinWheel(soWheel, c.i, () => { text.textContent = res; sfx.win(); buzz(60); }); }
+    else if (!soWheel.spinning) { setWheel(soWheel, c.i); text.textContent = res; foot.textContent = ""; }
+  }
+  renderSoFeed();
+}
+function renderVote() {
+  const c = shared.card, people = soPeople(), box = $("#so-vote-list"); box.textContent = "";
+  $("#so-vote").hidden = false;
+  const valid = Object.entries(votes).filter(([, v]) => v.round === c.round && people.some(p => p.id === v.target));
+  const counts = {}; valid.forEach(([, v]) => { counts[v.target] = (counts[v.target] || 0) + 1; });
+  const mine = votes[devId] && votes[devId].round === c.round ? votes[devId].target : null;
+  const max = Math.max(0, ...Object.values(counts));
+  $("#so-vote-count").textContent = valid.length + " vote" + (valid.length > 1 ? "s" : "") + " sur " + people.length + (mine ? " · tu as voté" : " · à toi de voter");
+  const list = c.revealed ? people.slice().sort((a, b) => (counts[b.id] || 0) - (counts[a.id] || 0)) : people;
+  list.forEach(p => {
+    const row = el("button", "person vote-row" + (mine === p.id ? " voted" : "")); row.type = "button";
+    const who = el("div", "who"); who.append(el("strong", null, p.name + (p.mine ? " (toi)" : "")));
+    if (c.revealed) { const bar = el("div", "bar"), bi = el("i"); bi.style.width = (max ? (counts[p.id] || 0) / max * 100 : 0) + "%"; bar.append(bi); who.append(bar); }
+    row.append(who, el("span", "val", c.revealed ? String(counts[p.id] || 0) : (mine === p.id ? "✓" : "")));
+    row.disabled = c.revealed; row.onclick = () => myVote(p.id);
+    box.append(row);
+  });
+  const reveal = $("#so-reveal"); reveal.hidden = c.revealed; reveal.disabled = !valid.length;
+  if (c.revealed) {
+    const top = people.filter(p => max && counts[p.id] === max).map(p => p.name);
+    $("#so-text").textContent = top.length ? top.join(" et ") + (top.length > 1 ? " boivent" : " boit") + " 2 gorgées !" : "Personne n'a voté.";
+    $("#so-kind").textContent = "Qui pourrait " + c.q + " ?";
+  }
+}
+function renderSoFeed() {
+  const ul = $("#so-feed"); ul.textContent = "";
+  soFeed.forEach(f => { const li = el("li"); li.append(el("time", null, hhmm(f.t)), el("span", null, f.who + " " + f.txt)); ul.append(li); });
+}
+function soDrank(n) {
+  if (n === 0) addWater(); else addSips(n);
+  if (client && client.connected && me.pseudo) client.publish(TOPIC(group) + "/_r", JSON.stringify({ from: devId, pseudo: me.pseudo, k: "bu", n, t: Date.now() }), { qos: 0, retain: false });
+}
+$("#soiree-open").onclick = () => openGame("soiree");
+$("#so-goto-amis").onclick = () => showTab("amis");
+$("#so-next").onclick = () => { if (shared) publishShared(shared.game, newCard(shared.game)); };
+$("#so-av-a").onclick = () => { if (shared && shared.game === "av") publishShared("av", Object.assign({}, shared.card, { choice: "a" })); };
+$("#so-av-v").onclick = () => { if (shared && shared.game === "av") publishShared("av", Object.assign({}, shared.card, { choice: "v" })); };
+$("#so-reveal").onclick = () => { if (shared && shared.game === "vote") publishShared("vote", Object.assign({}, shared.card, { revealed: true })); };
+$$("#so-sips button").forEach(b => b.onclick = () => soDrank(+b.dataset.s));
+$("#so-water").onclick = () => soDrank(0);
+
+/* =====================================================
+   RÉGLAGES
+   ===================================================== */
+function renderSettings() {
+  const seg = (id, v) => $$(id + " button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === String(v))));
+  seg("#s-theme", settings.theme); seg("#s-sound", +settings.sound); seg("#s-vibrate", +settings.vibrate);
+  const sip = $("#s-sip"); sip.textContent = "";
+  Object.entries(SIPS).forEach(([k, s]) => {
+    const b = el("button", null, s.label); b.type = "button"; b.setAttribute("aria-pressed", String(k === settings.sip));
+    b.onclick = () => { settings.sip = k; saveSettings(); renderSettings(); };
+    sip.append(b);
+  });
+}
+$$("#s-theme button").forEach(b => b.onclick = () => { settings.theme = b.dataset.v; saveSettings(); applyTheme(); renderSettings(); });
+$$("#s-sound button").forEach(b => b.onclick = () => { settings.sound = +b.dataset.v; saveSettings(); renderSettings(); sfx.pop(); });
+$$("#s-vibrate button").forEach(b => b.onclick = () => { settings.vibrate = +b.dataset.v; saveSettings(); renderSettings(); buzz(60); });
+
+const KIND_LABEL = { verites: "Vérité", actions: "Action", jamais: "Jamais", qui: "Qui" };
+function renderCustom() {
+  const ul = $("#custom-list"); ul.textContent = "";
+  const all = Object.entries(custom).flatMap(([k, arr]) => arr.map((t, i) => ({ k, t, i })));
+  if (!all.length) { ul.append(el("li", "muted small", "Pas encore de carte perso.")); return; }
+  all.forEach(c => {
+    const li = el("li"); li.append(el("span", "k", KIND_LABEL[c.k]), el("span", "t", c.t));
+    const x = el("button", "btn-sm btn-ghost", "Retirer"); x.type = "button";
+    x.onclick = () => { custom[c.k].splice(c.i, 1); store.set("tg.custom", custom); decks = {}; renderCustom(); };
+    li.append(x); ul.append(li);
+  });
+}
+$("#custom-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const k = $("#cu-kind").value, t = $("#cu-text").value.trim();
+  if (!t || !custom[k]) return;
+  custom[k].push(t.slice(0, 140)); store.set("tg.custom", custom); decks = {};
+  $("#cu-text").value = ""; renderCustom(); toast("Carte ajoutée.");
+});
+
+function renderHistory() {
+  const ul = $("#hist"); ul.textContent = "";
+  if (!nights.length) { ul.append(el("li", "muted small", "Tes soirées terminées apparaîtront ici.")); return; }
+  nights.forEach(h => {
+    const li = el("li"), d = el("div", "d");
+    const day = new Date(h.start).toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+    d.append(el("b", null, day.charAt(0).toUpperCase() + day.slice(1)),
+      el("span", null, hhmm(h.start) + " – " + hhmm(h.end) + " · " + fmt(h.grams / 10, 1) + " verres standard · 💧 " + h.water));
+    li.append(d, el("span", "pk", fmt(h.peak) + " g/L")); ul.append(li);
+  });
+}
+$("#hist-clear").onclick = () => { $("#hist-confirm").hidden = false; };
+$("#hist-no").onclick = () => { $("#hist-confirm").hidden = true; };
+$("#hist-yes").onclick = () => { nights = []; store.set("tg.history", nights); $("#hist-confirm").hidden = true; renderHistory(); };
+
+/* ---------- Démarrage ---------- */
+renderPlayers(); renderPackSeg(); drawWheel(); roiReset();
+renderDrinkButtons(); renderProfile(); renderLog(); renderBac();
+renderReacts(); renderSettings(); renderCustom(); renderHistory();
+const hashTab = (location.hash || "").slice(1);
+showTab(["jeux", "taux", "amis", "reglages"].includes(hashTab) ? hashTab : store.get("tg.tab", "jeux"));
+const qsGroup = new URLSearchParams(location.search).get("groupe");
+if (qsGroup && CODE_RE.test(qsGroup.toUpperCase())) {
+  group = qsGroup.toUpperCase(); store.set("tg.group", group);
+  window.history.replaceState(null, "", location.pathname + location.hash);
+  showTab("amis");
+}
+applyTheme();
+connectGroup();
+setInterval(() => { renderBac(); renderFriends(); }, 30e3);   // le taux évolue avec le temps
+document.addEventListener("visibilitychange", () => { if (!document.hidden) { rollNight(); renderBac(); renderFriends(); } });
+if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>
