@@ -1601,3 +1601,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 18:39:22,agressive,ACHAT,GME,0.0002346780666,9418.14,score 53 coût 54.0%
 2026-10-25 18:40:23,agressive,VENTE,GME,0.0001285,3474.48,stop-loss (-45%) PnL -5943.66$ coût 32.6%
 2026-10-25 19:02:23,hasard,VENTE,DOPE,0.002704,5540.37,durée max 12h PnL -2582.99$ coût 6.5%
+2026-10-25 19:30:22,agressive,VENTE,LAUNCH,0.002416,16561.70,trailing-stop PnL +13437.07$ coût 32.3%
