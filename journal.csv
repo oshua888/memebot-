@@ -1535,3 +1535,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 09:40:42,agressive,VENTE,Marvin,0.0001321,3741.80,stop-loss (-43%) PnL -6510.18$ coût 35.4%
 2026-10-25 09:40:42,agressive,ACHAT,WHITEWHALE,0.0001523444811,10082.51,score 59 coût 74.6%
 2026-10-25 09:41:41,agressive,VENTE,WHITEWHALE,8.662e-05,3266.69,stop-loss (-43%) PnL -6815.81$ coût 43.0%
+2026-10-25 09:50:41,agressive,VENTE,GLITCH,0.002192,6921.38,stop-loss (-40%) PnL -6394.65$ coût 13.3%
