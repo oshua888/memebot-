@@ -1515,3 +1515,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 04:11:21,hasard,ACHAT,KURUMI,0.0005272509266,8309.44,score 70 coût 32.3%
 2026-10-25 05:14:19,agressive,VENTE,Dacity,0.008106,11164.91,durée max 24h PnL -4734.69$ coût 7.4%
 2026-10-25 05:14:19,agressive,ACHAT,Chunkee,0.0006886748338,11054.79,score 76 coût 37.4%
+2026-10-25 05:23:19,hasard,VENTE,KURUMI,0.000356,4302.53,stop-loss (-32%) PnL -4006.92$ coût 23.3%
+2026-10-25 05:23:19,hasard,ACHAT,MAYA,0.001933806396,8199.56,score 56 coût 15.2%
+2026-10-25 05:24:19,apprentie,VENTE,KURUMI,0.000287,11.42,stop-loss (-35%) PnL -6.40$ coût 1.1%
