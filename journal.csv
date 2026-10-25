@@ -1524,3 +1524,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 06:59:42,actuelle,VENTE,███,0.0005403,5746.66,stop-loss (-30%) PnL -4796.13$ coût 22.1%
 2026-10-25 07:01:42,hasard,VENTE,███,0.0005113,4688.02,stop-loss (-30%) PnL -3498.76$ coût 17.7%
 2026-10-25 07:01:42,hasard,ACHAT,DOPE,0.003708717419,8123.36,score 29 coût 7.7%
+2026-10-25 07:58:42,agressive,VENTE,CATTLEAXE,0.001686,10903.41,trailing-stop PnL +3179.81$ coût 25.6%
+2026-10-25 07:58:42,agressive,ACHAT,MAYA,0.002055521594,10709.94,score 68 coût 19.4%
