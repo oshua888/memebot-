@@ -1470,3 +1470,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 00:43:00,hasard,ACHAT,GLITCH,0.002867994204,8723.64,score 20 coût 13.4%
 2026-10-25 01:03:00,hasard,ACHAT,Pablo,0.0001667260173,8709.58,score 36 coût 68.8%
 2026-10-25 01:03:59,hasard,VENTE,Pablo,9.684e-05,2996.13,stop-loss (-42%) PnL -5713.45$ coût 40.8%
+2026-10-25 01:12:59,agressive,ACHAT,REMUS,0.0008166058753,11025.26,score 54 coût 31.6%
+2026-10-25 01:12:59,hasard,ACHAT,REMUS,0.0007745122779,8578.79,score 54 coût 24.8%
