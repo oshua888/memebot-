@@ -1592,3 +1592,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 15:18:02,actuelle,VENTE,Bunnett,0.0002097,4219.34,stop-loss (-38%) PnL -6009.98$ coût 33.1%
 2026-10-25 15:34:02,agressive,VENTE,Bunnett,0.0001909,3659.92,stop-loss (-40%) PnL -4921.40$ coût 28.3%
 2026-10-25 15:51:05,apprentie,VENTE,NETWORK,0.0001442,16.01,durée max 12h PnL -1.63$ coût 1.1%
+2026-10-25 16:01:03,apprentie,VENTE,MERGE,0.0002368,12.74,stop-loss (-26%) PnL -4.61$ coût 1.1%
