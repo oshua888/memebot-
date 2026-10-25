@@ -1508,3 +1508,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 03:50:19,apprentie,ACHAT,NETWORK,0.0001571241648,17.64,score 59 coût 1.1%
 2026-10-25 03:53:19,actuelle,ACHAT,NETWORK,0.0002673976458,10706.55,score 60 coût 66.3%
 2026-10-25 03:54:19,actuelle,VENTE,NETWORK,0.0001599,3830.15,stop-loss (-40%) PnL -6876.41$ coût 40.2%
+2026-10-25 03:59:19,prudente,VENTE,Chunkee,0.0004111,7.07,stop-loss (-20%) PnL -1.88$ coût 1.0%
