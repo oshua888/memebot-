@@ -1466,3 +1466,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 00:31:04,apprentie,VENTE,WRHND,0.001204,12.57,stop-loss (-31%) PnL -5.71$ coût 1.0%
 2026-10-25 00:33:00,actuelle,VENTE,WRHND,0.00116,6699.43,stop-loss (-30%) PnL -5009.28$ coût 18.0%
 2026-10-25 00:41:00,hasard,VENTE,WRHND,0.001048,5199.49,stop-loss (-34%) PnL -4046.43$ coût 14.3%
+2026-10-25 00:43:00,agressive,VENTE,WRHND,0.0009726,5483.86,stop-loss (-41%) PnL -5526.21$ coût 15.8%
+2026-10-25 00:43:00,hasard,ACHAT,GLITCH,0.002867994204,8723.64,score 20 coût 13.4%
