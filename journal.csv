@@ -1492,3 +1492,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 02:54:21,actuelle,ACHAT,MAYA,0.002027474718,10928.73,score 82 coût 20.0%
 2026-10-25 02:54:21,apprentie,ACHAT,MAYA,0.001706407598,17.59,score 82 coût 1.0%
 2026-10-25 03:14:19,prudente,ACHAT,Chunkee,0.0004365593386,8.92,score 77 coût 1.0%
+2026-10-25 03:18:20,apprentie,VENTE,GLITCH,0.002386,15.38,durée max 12h PnL -2.93$ coût 1.0%
+2026-10-25 03:18:20,apprentie,VENTE,CATTLEAXE,0.002475,22.15,palier +25% PnL +4.34$ coût 1.0%
+2026-10-25 03:18:20,apprentie,ACHAT,CATTLEAXE,0.002500360804,17.75,score 79 coût 1.0%
+2026-10-25 03:20:19,hasard,VENTE,SWORDOPE,0.001842,5689.14,stop-loss (-31%) PnL -3601.09$ coût 11.3%
+2026-10-25 03:20:19,hasard,ACHAT,Chunkee,0.0005666516106,8497.07,score 62 coût 31.5%
