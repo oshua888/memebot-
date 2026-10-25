@@ -2343,7 +2343,7 @@ $("#hist-no").onclick = () => { $("#hist-confirm").hidden = true; };
 $("#hist-yes").onclick = () => { nights = []; store.set("tg.history", nights); $("#hist-confirm").hidden = true; renderHistory(); };
 
 /* ---------- Mises à jour ---------- */
-const APP_VERSION = "2.6";
+const APP_VERSION = "2.7";
 $("#app-version").textContent = "Version " + APP_VERSION;
 async function checkUpdate() {
   try {
