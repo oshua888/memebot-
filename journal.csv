@@ -1498,3 +1498,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 03:20:19,hasard,VENTE,SWORDOPE,0.001842,5689.14,stop-loss (-31%) PnL -3601.09$ coût 11.3%
 2026-10-25 03:20:19,hasard,ACHAT,Chunkee,0.0005666516106,8497.07,score 62 coût 31.5%
 2026-10-25 03:24:19,prudente,VENTE,Chunkee,0.0006107,6.18,palier +30% PnL +1.72$ coût 1.0%
+2026-10-25 03:28:19,prudente,VENTE,Chunkee,0.0005096,5.15,trailing-stop PnL +0.69$ coût 1.0%
+2026-10-25 03:28:19,prudente,ACHAT,Chunkee,0.0005148459012,8.94,score 78 coût 1.0%
+2026-10-25 03:30:19,actuelle,ACHAT,PUMP,0.0002788105646,10855.00,score 64 coût 59.2%
+2026-10-25 03:31:19,actuelle,VENTE,PUMP,0.0001677,4119.05,stop-loss (-40%) PnL -6735.96$ coût 36.9%
