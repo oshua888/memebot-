@@ -1,5 +1,5 @@
 // Cache hors ligne : l'appli s'ouvre même sans réseau (seule la synchro de groupe en a besoin).
-const CACHE = "tournee-v6";
+const CACHE = "tournee-v7";
 const FILES = ["./", "./index.html", "./mqtt.min.js", "./cartes.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES))); self.skipWaiting(); });
 self.addEventListener("activate", e => {

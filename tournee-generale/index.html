@@ -787,6 +787,16 @@ nav.tabs button[aria-selected="true"] { color: var(--accent); }
       </div>
 
       <p class="small muted" id="amis-status"></p>
+      <details class="panel" id="diag-box" hidden>
+        <summary style="cursor:pointer;font-weight:700">Détails de connexion</summary>
+        <ul class="feed" id="diag"></ul>
+        <div class="row">
+          <button class="btn-sm grow" id="diag-test">Tester la connexion</button>
+          <button class="btn-sm grow" id="diag-retry">Reconnecter</button>
+        </div>
+        <ul class="feed" id="diag-probe"></ul>
+        <p class="small muted">Si ça bloque, fais une capture de ce bloc et envoie-la.</p>
+      </details>
       <ul class="people" id="friends"></ul>
 
       <div class="panel" id="react-box" hidden>
@@ -1777,6 +1787,36 @@ function makeBus(urls) {
     wake() { this.list.forEach(c => { if (!c.connected && !c.reconnecting && !c.disconnecting) try { c.reconnect(); } catch {} }); }
   };
 }
+const diag = {};   // url -> { state, err }
+const brokerName = url => url.replace(/^wss?:\/\//, "").split(/[:/]/)[0];
+function renderDiag() {
+  const box = $("#diag-box"); if (!box) return;
+  box.hidden = !group;
+  const ul = $("#diag"); ul.textContent = "";
+  BROKERS.forEach(url => {
+    const d = diag[url] || { state: "pas encore essayé" };
+    const li = el("li");
+    li.append(el("span", null, (d.state === "connecté" ? "✅ " : d.state === "erreur" ? "❌ " : "⏳ ") + brokerName(url) + " : " + d.state + (d.err ? " (" + d.err + ")" : "")));
+    ul.append(li);
+  });
+  const ua = el("li", "muted"); ua.textContent = "Navigateur : " + navigator.userAgent.replace(/^Mozilla\/5\.0 /, "").slice(0, 120) + (navigator.onLine === false ? " · hors ligne" : "");
+  ul.append(ua);
+}
+// Test brut : ouvre une WebSocket vers chaque serveur, sans MQTT
+function probe() {
+  const ul = $("#diag-probe"); ul.textContent = "";
+  BROKERS.forEach(url => {
+    const li = el("li", null, "⏳ " + brokerName(url) + " : test…"); ul.append(li);
+    const t0 = Date.now(); let done = false;
+    const end = txt => { if (done) return; done = true; li.textContent = txt; try { ws.close(); } catch {} };
+    let ws;
+    try { ws = new WebSocket(url, "mqtt"); } catch (e) { end("❌ " + brokerName(url) + " : impossible (" + (e && e.message || e) + ")"); return; }
+    ws.onopen = () => end("✅ " + brokerName(url) + " : le réseau laisse passer (" + (Date.now() - t0) + " ms)");
+    ws.onerror = () => {};
+    ws.onclose = ev => end("❌ " + brokerName(url) + " : fermé, code " + ev.code + (ev.reason ? " " + ev.reason : "") + " après " + (Date.now() - t0) + " ms");
+    setTimeout(() => end("❌ " + brokerName(url) + " : pas de réponse en 10 s"), 10000);
+  });
+}
 const msgId = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
 const alerted = {};
 
@@ -1811,8 +1851,9 @@ function connectGroup() {
   if (client) { try { client.end(true); } catch {} client = null; }
   members = {}; feed = []; shared = null; votes = {}; soFeed = [];
   renderGroup(); renderFriends(); renderFeed(); soRender();
+  Object.keys(diag).forEach(k => delete diag[k]); renderDiag();
   if (!group) { setSync("", "Hors groupe"); return; }
-  if (!window.mqtt) { setSync("err", "Synchro indisponible"); return; }
+  if (!window.mqtt) { setSync("err", "Synchro indisponible"); diag[BROKERS[0]] = { state: "erreur", err: "bibliothèque MQTT non chargée" }; renderDiag(); return; }
   setSync("", "Connexion…");
   const bus = makeBus(BROKERS), base = TOPIC(group);
   client = bus;
@@ -1826,8 +1867,10 @@ function connectGroup() {
     try { c = mqtt.connect(url, { clientId: "tg_" + devId + "_" + Math.random().toString(36).slice(2, 7), clean: true, reconnectPeriod: 5000, connectTimeout: 12000, keepalive: 40 }); }
     catch { return; }
     bus.list.push(c);
+    diag[url] = { state: "connexion…" }; renderDiag();
     c.on("connect", () => {
       if (client !== bus) return;
+      diag[url] = { state: "connecté" }; renderDiag();
       status();
       c.subscribe(base + "/+", { qos: 1 });
       if (me.pseudo) c.publish(base + "/" + devId, JSON.stringify(payload()), { qos: 1, retain: true });
@@ -1853,6 +1896,8 @@ function connectGroup() {
       renderFriends();
     });
     ["reconnect", "offline", "close", "error"].forEach(ev => c.on(ev, status));
+    c.on("error", err => { if (client !== bus) return; diag[url] = { state: "erreur", err: String(err && (err.message || err.code) || err).slice(0, 80) }; renderDiag(); });
+    c.on("close", () => { if (client !== bus || !diag[url] || diag[url].state === "erreur") return; diag[url] = { state: "coupé, nouvel essai…" }; renderDiag(); });
   });
 }
 function joinGroup(code) { group = code; store.set("tg.group", code); connectGroup(); }
@@ -1882,6 +1927,8 @@ $("#create-group").onclick = () => {
   joinGroup(Array.from({ length: 6 }, () => A[Math.floor(Math.random() * A.length)]).join(""));
 };
 $("#leave-group").onclick = leaveGroup;
+$("#diag-test").onclick = probe;
+$("#diag-retry").onclick = () => connectGroup();
 async function copyLink() {
   try { await navigator.clipboard.writeText(shareUrl()); $("#share-msg").textContent = "Lien copié."; }
   catch { const r = document.createRange(); r.selectNodeContents($("#share-link")); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); $("#share-msg").textContent = "Lien sélectionné : copie-le."; }
@@ -2241,7 +2288,7 @@ $("#hist-no").onclick = () => { $("#hist-confirm").hidden = true; };
 $("#hist-yes").onclick = () => { nights = []; store.set("tg.history", nights); $("#hist-confirm").hidden = true; renderHistory(); };
 
 /* ---------- Mises à jour ---------- */
-const APP_VERSION = "2.4";
+const APP_VERSION = "2.5";
 $("#app-version").textContent = "Version " + APP_VERSION;
 async function checkUpdate() {
   try {
