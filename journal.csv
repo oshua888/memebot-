@@ -1597,3 +1597,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 18:09:24,prudente,ACHAT,GTA,0.0006026275138,8.90,score 78 coût 1.0%
 2026-10-25 18:24:24,prudente,VENTE,GTA,0.0004666,6.82,stop-loss (-23%) PnL -2.08$ coût 1.0%
 2026-10-25 18:33:23,prudente,VENTE,WILDWOOD,6.682e-05,6.87,stop-loss (-22%) PnL -2.03$ coût 1.1%
+2026-10-25 18:38:22,apprentie,VENTE,LAUNCH,0.003204,24.56,palier +25% PnL +7.53$ coût 1.0%
+2026-10-25 18:39:22,agressive,ACHAT,GME,0.0002346780666,9418.14,score 53 coût 54.0%
+2026-10-25 18:40:23,agressive,VENTE,GME,0.0001285,3474.48,stop-loss (-45%) PnL -5943.66$ coût 32.6%
