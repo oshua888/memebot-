@@ -1744,3 +1744,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 11:04:19,agressive,VENTE,Hellcat,9.171e-05,2778.87,stop-loss (-40%) PnL -4532.12$ coût 36.6%
 2026-10-26 11:19:19,hasard,ACHAT,Marvin,0.0001488388305,6262.38,score 27 coût 37.3%
 2026-10-26 11:23:19,hasard,VENTE,Marvin,4.284e-05,1439.40,stop-loss (-71%) PnL -4822.98$ coût 20.1%
+2026-10-26 11:37:21,actuelle,VENTE,GTA,3.788e-06,22.83,stop-loss (-100%) PnL -9270.74$ coût 2.1%
+2026-10-26 11:37:21,agressive,VENTE,GTA,3.788e-06,29.38,stop-loss (-99%) PnL -5637.32$ coût 2.4%
+2026-10-26 11:37:21,hasard,VENTE,GTA,3.788e-06,16.88,stop-loss (-100%) PnL -6511.79$ coût 1.8%
