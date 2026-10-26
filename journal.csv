@@ -1636,3 +1636,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 01:29:47,hasard,ACHAT,NETWORK,0.0002207163018,6998.05,score 46 coût 44.9%
 2026-10-26 01:30:47,hasard,VENTE,HELL,0.002913,5980.56,durée max 12h PnL -1736.53$ coût 10.2%
 2026-10-26 01:30:47,hasard,VENTE,NETWORK,0.0001466,3218.51,stop-loss (-34%) PnL -3779.54$ coût 30.8%
+2026-10-26 01:43:49,prudente,VENTE,GTA,0.000757,5.91,palier +30% PnL +1.47$ coût 1.0%
+2026-10-26 01:43:49,agressive,ACHAT,SCS,0.0002435566735,8366.76,score 56 coût 50.5%
+2026-10-26 01:43:49,hasard,ACHAT,SCS,0.0002299865495,6949.99,score 56 coût 42.1%
+2026-10-26 01:44:50,hasard,VENTE,SCS,0.0001535,3281.88,stop-loss (-33%) PnL -3668.11$ coût 29.2%
+2026-10-26 01:46:47,agressive,VENTE,SCS,0.0001417,3313.52,stop-loss (-42%) PnL -5053.24$ coût 31.9%
