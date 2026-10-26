@@ -1869,3 +1869,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 23:17:53,agressive,VENTE,XD,0.0004379,3365.72,stop-loss (-41%) PnL -3134.26$ coût 12.4%
 2026-10-26 23:17:53,agressive,ACHAT,CATTLEAXE,0.0004096981642,5961.68,score 56 coût 21.8%
 2026-10-26 23:22:53,actuelle,ACHAT,LMAO,0.001804162355,8013.95,score 65 coût 15.9%
+2026-10-26 23:27:53,prudente,VENTE,███,0.001057,6.96,stop-loss (-21%) PnL -1.89$ coût 1.0%
+2026-10-26 23:31:53,prudente,ACHAT,LMAO,0.001569792974,8.81,score 70 coût 1.0%
