@@ -1731,3 +1731,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 10:26:19,hasard,VENTE,CATTLEAXE,0.0008999,4330.44,stop-loss (-31%) PnL -2824.94$ coût 11.7%
 2026-10-26 10:30:21,prudente,VENTE,LAUNCH,0.002296,7.06,stop-loss (-20%) PnL -1.86$ coût 1.0%
 2026-10-26 10:34:18,agressive,VENTE,STM,0.000195,3402.28,stop-loss (-41%) PnL -4039.15$ coût 22.7%
+2026-10-26 10:55:20,actuelle,ACHAT,Hellcat,0.0001681125776,9313.38,score 68 coût 74.7%
+2026-10-26 10:55:20,agressive,ACHAT,Hellcat,0.0001528602879,7310.99,score 68 coût 58.9%
+2026-10-26 10:55:20,hasard,ACHAT,FOMOPAD,0.0002199338489,6421.63,score 48 coût 37.7%
+2026-10-26 10:55:20,hasard,ACHAT,Hellcat,0.0001456216115,6360.66,score 68 coût 51.4%
+2026-10-26 10:56:21,actuelle,VENTE,Hellcat,9.375e-05,2976.16,stop-loss (-44%) PnL -6337.21$ coût 42.7%
+2026-10-26 10:56:21,hasard,VENTE,FOMOPAD,0.0001514,3235.64,stop-loss (-31%) PnL -3185.99$ coût 26.8%
+2026-10-26 10:56:21,hasard,VENTE,Hellcat,9.375e-05,2707.76,stop-loss (-36%) PnL -3652.90$ coût 33.9%
+2026-10-26 10:57:20,actuelle,ACHAT,FOMOPAD,0.000245194339,9190.30,score 63 coût 53.2%
+2026-10-26 10:57:20,agressive,ACHAT,FOMOPAD,0.0002269391094,7183.33,score 63 coût 41.8%
