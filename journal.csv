@@ -1866,3 +1866,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 22:40:52,prudente,VENTE,MFORGE,0.0002269,6.93,stop-loss (-21%) PnL -1.93$ coût 1.0%
 2026-10-26 22:57:53,agressive,VENTE,MFORGE,0.0001921,3025.40,stop-loss (-40%) PnL -3538.55$ coût 22.8%
 2026-10-26 22:57:53,agressive,ACHAT,LAUNCH,0.00233419329,6035.39,score 51 coût 8.9%
+2026-10-26 23:17:53,agressive,VENTE,XD,0.0004379,3365.72,stop-loss (-41%) PnL -3134.26$ coût 12.4%
+2026-10-26 23:17:53,agressive,ACHAT,CATTLEAXE,0.0004096981642,5961.68,score 56 coût 21.8%
