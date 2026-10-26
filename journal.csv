@@ -1819,3 +1819,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 18:28:08,hasard,VENTE,RETIRED,0.0004879,2495.77,palier +50% PnL +640.96$ coût 10.6%
 2026-10-26 18:31:11,prudente,VENTE,pumpcat,0.0006997,5.67,palier +30% PnL +1.27$ coût 1.0%
 2026-10-26 18:31:11,agressive,VENTE,pumpcat,0.0006997,3808.41,palier +100% PnL +1704.13$ coût 13.2%
+2026-10-26 18:36:14,actuelle,VENTE,XD,0.0004616,4401.98,stop-loss (-40%) PnL -4310.13$ coût 15.4%
