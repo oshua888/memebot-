@@ -1704,3 +1704,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 06:42:08,agressive,VENTE,GIGATITS,0.0001755,1229.95,stop-loss (-83%) PnL -6802.53$ coût 8.6%
 2026-10-26 06:45:09,prudente,ACHAT,GTA,0.001611211959,9.00,score 70 coût 1.0%
 2026-10-26 06:52:08,prudente,ACHAT,REMUS,0.001274832228,8.97,score 70 coût 1.0%
+2026-10-26 06:54:10,prudente,VENTE,PMUP,0.0005268,6.56,stop-loss (-27%) PnL -2.46$ coût 1.0%
