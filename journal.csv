@@ -1759,3 +1759,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 13:29:20,hasard,VENTE,Shitcoin,8.65e-05,2709.59,stop-loss (-32%) PnL -3276.12$ coût 33.0%
 2026-10-26 13:34:17,agressive,VENTE,Shitcoin,6.564e-05,2301.23,stop-loss (-51%) PnL -4420.71$ coût 30.7%
 2026-10-26 13:40:20,hasard,ACHAT,LAUNCH,0.002024488077,5895.40,score 46 coût 9.3%
+2026-10-26 13:47:18,prudente,VENTE,RAYPAD,0.0005028,6.55,stop-loss (-26%) PnL -2.36$ coût 1.0%
