@@ -1652,3 +1652,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 02:49:49,hasard,ACHAT,TIT,0.0007720664953,6824.06,score 63 coût 20.4%
 2026-10-26 02:51:49,actuelle,ACHAT,PMUP,0.0004464136194,9650.73,score 63 coût 39.9%
 2026-10-26 02:51:49,hasard,VENTE,GTA,0.00105,3237.02,palier +50% PnL +901.56$ coût 9.1%
+2026-10-26 02:53:48,actuelle,VENTE,GTA,0.001139,4381.88,palier +50% PnL +1171.50$ coût 11.9%
+2026-10-26 02:54:48,prudente,VENTE,GTA,0.001224,6.06,palier +30% PnL +1.61$ coût 1.0%
+2026-10-26 02:54:48,actuelle,VENTE,PMUP,0.0003038,4711.74,stop-loss (-32%) PnL -4938.99$ coût 28.3%
+2026-10-26 02:57:48,actuelle,VENTE,TIT,0.0005504,5122.25,stop-loss (-33%) PnL -4577.52$ coût 20.9%
