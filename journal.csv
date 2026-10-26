@@ -1618,3 +1618,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-25 23:23:46,prudente,ACHAT,Chop,0.0004311011459,8.88,score 77 coût 1.0%
 2026-10-25 23:44:46,actuelle,ACHAT,Bunnett,0.0003689928578,9837.52,score 60 coût 46.1%
 2026-10-25 23:45:46,actuelle,VENTE,Bunnett,0.0002547,4614.01,stop-loss (-31%) PnL -5223.51$ coût 32.1%
+2026-10-26 00:00:46,agressive,ACHAT,Marvin,0.0001255563481,8614.77,score 53 coût 69.2%
+2026-10-26 00:01:45,agressive,VENTE,Marvin,7.031e-05,2880.28,stop-loss (-44%) PnL -5734.50$ coût 40.3%
