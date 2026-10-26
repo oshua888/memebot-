@@ -1753,3 +1753,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 13:16:17,prudente,ACHAT,RAYPAD,0.0006766501465,8.91,score 72 coût 1.0%
 2026-10-26 13:16:17,actuelle,ACHAT,RAYPAD,0.0008286081388,8906.37,score 72 coût 23.7%
 2026-10-26 13:21:17,actuelle,VENTE,RAYPAD,0.0005725,5047.79,stop-loss (-31%) PnL -3858.58$ coût 18.0%
+2026-10-26 13:24:18,agressive,ACHAT,Shitcoin,0.000132964827,6721.93,score 50 coût 53.6%
+2026-10-26 13:24:18,hasard,ACHAT,Shitcoin,0.0001279803916,5985.70,score 50 coût 47.8%
+2026-10-26 13:28:19,hasard,ACHAT,REMUS,0.001133111805,5921.29,score 31 coût 13.3%
