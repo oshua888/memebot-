@@ -1858,3 +1858,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 22:10:53,prudente,VENTE,███,0.001325,4.19,trailing-stop PnL +1.99$ coût 1.0%
 2026-10-26 22:23:53,agressive,VENTE,pumpcat,0.0003436,3153.16,stop-loss (-40%) PnL -3108.79$ coût 16.0%
 2026-10-26 22:23:53,agressive,ACHAT,███,0.001512654702,6094.70,score 68 coût 11.2%
+2026-10-26 22:29:53,prudente,ACHAT,███,0.001330369248,8.85,score 82 coût 1.0%
