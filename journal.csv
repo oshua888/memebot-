@@ -1680,3 +1680,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 03:44:51,agressive,ACHAT,Bow,0.0002372572585,8115.85,score 52 coût 46.9%
 2026-10-26 03:45:50,prudente,VENTE,MAGA2028,0.0003917,6.80,stop-loss (-23%) PnL -2.11$ coût 1.0%
 2026-10-26 03:45:50,hasard,VENTE,MAGA2028,0.0003917,3532.48,stop-loss (-37%) PnL -3209.60$ coût 17.0%
+2026-10-26 03:53:50,prudente,VENTE,CATTLEAXE,0.001533,5.73,palier +30% PnL +1.28$ coût 1.0%
+2026-10-26 03:53:50,agressive,VENTE,MAGA2028,0.000383,3920.26,stop-loss (-41%) PnL -4282.00$ coût 19.6%
