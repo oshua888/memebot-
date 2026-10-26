@@ -1823,3 +1823,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 18:43:15,prudente,VENTE,pumpcat,0.0006033,4.89,trailing-stop PnL +0.49$ coût 1.0%
 2026-10-26 18:43:15,prudente,ACHAT,pumpcat,0.0006094922776,8.81,score 73 coût 1.0%
 2026-10-26 18:45:12,prudente,VENTE,pumpcat,0.0004856,6.95,stop-loss (-20%) PnL -1.86$ coût 1.0%
+2026-10-26 18:46:08,actuelle,VENTE,pumpcat,0.0004698,4639.39,stop-loss (-31%) PnL -3888.92$ coût 21.0%
+2026-10-26 18:47:09,agressive,VENTE,pumpcat,0.0004682,4686.06,trailing-stop PnL +413.74$ coût 21.3%
+2026-10-26 18:47:09,agressive,ACHAT,pumpcat,0.0005730028126,6261.95,score 59 coût 22.4%
+2026-10-26 18:47:09,hasard,VENTE,███,0.0004218,3844.79,stop-loss (-31%) PnL -2666.82$ coût 15.0%
+2026-10-26 18:47:09,hasard,ACHAT,GLITCH,0.002952046593,5676.71,score 45 coût 8.9%
