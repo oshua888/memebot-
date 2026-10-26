@@ -1789,3 +1789,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 17:12:08,prudente,ACHAT,Fartcoin,0.0007728295489,8.79,score 79 coût 1.0%
 2026-10-26 17:12:08,actuelle,ACHAT,Fartcoin,0.0009478301894,8578.93,score 79 coût 23.9%
 2026-10-26 17:12:08,agressive,ACHAT,Fartcoin,0.0009043366689,6448.96,score 79 coût 18.2%
+2026-10-26 17:26:08,actuelle,VENTE,Fartcoin,0.0006242,4649.92,stop-loss (-34%) PnL -3929.01$ coût 17.7%
+2026-10-26 17:27:10,actuelle,ACHAT,pumpcat,0.0003611811338,8505.67,score 60 coût 40.5%
+2026-10-26 17:27:10,agressive,ACHAT,pumpcat,0.0003357465879,6376.60,score 60 coût 30.6%
