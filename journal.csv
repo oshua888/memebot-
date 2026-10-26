@@ -1729,3 +1729,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 08:25:08,actuelle,VENTE,STM,0.0002023,4170.30,stop-loss (-35%) PnL -5169.38$ coût 31.8%
 2026-10-26 08:32:08,actuelle,VENTE,PMUP,0.0004438,4760.40,stop-loss (-39%) PnL -5087.13$ coût 20.7%
 2026-10-26 08:33:07,hasard,VENTE,PRESIDENT,0.0001917,3333.53,stop-loss (-33%) PnL -3134.24$ coût 23.0%
+2026-10-26 08:59:09,agressive,ACHAT,Hellcat,0.0001584223791,7335.94,score 54 coût 56.9%
+2026-10-26 08:59:09,hasard,ACHAT,Hellcat,0.0001510586032,6378.34,score 54 coût 49.6%
+2026-10-26 09:00:09,agressive,VENTE,Hellcat,7.005e-05,2219.00,stop-loss (-56%) PnL -5116.94$ coût 31.6%
+2026-10-26 09:00:09,hasard,VENTE,Hellcat,7.005e-05,2103.15,stop-loss (-54%) PnL -4275.19$ coût 28.9%
