@@ -1777,3 +1777,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 14:48:20,prudente,ACHAT,FART,0.0003519049389,8.86,score 77 coût 1.0%
 2026-10-26 15:06:06,prudente,VENTE,FART,6.526e-05,1.63,stop-loss (-81%) PnL -7.24$ coût 1.0%
 2026-10-26 15:06:06,hasard,VENTE,FART,6.526e-05,843.68,stop-loss (-84%) PnL -4989.35$ coût 10.1%
+2026-10-26 15:30:07,hasard,ACHAT,OPACUS,0.0001442756518,5726.40,score 49 coût 46.8%
