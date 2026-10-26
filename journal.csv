@@ -1720,3 +1720,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 07:58:11,prudente,ACHAT,LAUNCH,0.002043475697,8.94,score 70 coût 1.0%
 2026-10-26 08:00:12,hasard,ACHAT,PRESIDENT,0.0002862148805,6467.77,score 21 coût 31.9%
 2026-10-26 08:12:07,prudente,VENTE,LAUNCH,0.002693,5.83,palier +30% PnL +1.36$ coût 1.0%
+2026-10-26 08:15:07,prudente,VENTE,REMUS,0.001016,7.08,stop-loss (-20%) PnL -1.89$ coût 1.0%
