@@ -1742,3 +1742,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 10:57:20,agressive,ACHAT,FOMOPAD,0.0002269391094,7183.33,score 63 coût 41.8%
 2026-10-26 11:02:22,actuelle,VENTE,FOMOPAD,0.0001694,4069.41,stop-loss (-31%) PnL -5120.90$ coût 35.9%
 2026-10-26 11:04:19,agressive,VENTE,Hellcat,9.171e-05,2778.87,stop-loss (-40%) PnL -4532.12$ coût 36.6%
+2026-10-26 11:19:19,hasard,ACHAT,Marvin,0.0001488388305,6262.38,score 27 coût 37.3%
+2026-10-26 11:23:19,hasard,VENTE,Marvin,4.284e-05,1439.40,stop-loss (-71%) PnL -4822.98$ coût 20.1%
