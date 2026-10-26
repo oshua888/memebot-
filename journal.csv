@@ -1671,3 +1671,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 04:39:09,hasard,ACHAT,PMUP,0.0009433581997,6917.71,score 62 coût 17.9%
 2026-10-26 04:46:10,agressive,ACHAT,RAYPAD,0.000169265263,7952.71,score 50 coût 52.6%
 2026-10-26 04:46:10,hasard,ACHAT,RAYPAD,0.0001615024152,6874.48,score 50 coût 45.6%
+2026-10-26 04:49:10,hasard,VENTE,RAYPAD,0.0001072,3142.39,stop-loss (-34%) PnL -3732.09$ coût 31.1%
+2026-10-26 04:50:12,agressive,VENTE,RAYPAD,0.0001,3142.82,stop-loss (-41%) PnL -4809.90$ coût 33.1%
+2026-10-26 04:51:13,actuelle,ACHAT,TIT,0.0004473264507,9562.72,score 66 coût 39.1%
+2026-10-26 04:53:14,actuelle,VENTE,TIT,0.0003126,4812.39,stop-loss (-30%) PnL -4750.34$ coût 28.0%
