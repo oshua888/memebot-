@@ -1733,3 +1733,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 08:59:09,hasard,ACHAT,Hellcat,0.0001510586032,6378.34,score 54 coût 49.6%
 2026-10-26 09:00:09,agressive,VENTE,Hellcat,7.005e-05,2219.00,stop-loss (-56%) PnL -5116.94$ coût 31.6%
 2026-10-26 09:00:09,hasard,VENTE,Hellcat,7.005e-05,2103.15,stop-loss (-54%) PnL -4275.19$ coût 28.9%
+2026-10-26 09:04:16,actuelle,VENTE,CATTLEAXE,0.0009302,5768.71,stop-loss (-31%) PnL -4128.30$ coût 15.7%
+2026-10-26 09:05:08,hasard,VENTE,CATTLEAXE,0.0009169,4404.83,stop-loss (-30%) PnL -2750.54$ coût 11.8%
+2026-10-26 09:06:07,agressive,VENTE,STM,9.654e-05,2003.89,stop-loss (-67%) PnL -5407.69$ coût 18.4%
+2026-10-26 09:06:07,hasard,VENTE,STM,9.654e-05,1869.14,stop-loss (-65%) PnL -4554.83$ coût 16.9%
