@@ -1799,3 +1799,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 17:54:09,prudente,VENTE,ANT,0.00403,3.59,palier +60% PnL +1.39$ coût 1.0%
 2026-10-26 17:59:09,agressive,VENTE,ANT,0.004789,4094.75,palier +100% PnL +1954.28$ coût 5.4%
 2026-10-26 17:59:09,agressive,ACHAT,MFORGE,0.0003218407471,6563.95,score 59 coût 33.4%
+2026-10-26 18:01:13,actuelle,VENTE,ANT,0.005251,5790.22,palier +100% PnL +2898.28$ coût 7.0%
+2026-10-26 18:01:13,agressive,VENTE,Fartcoin,0.0005115,3176.71,stop-loss (-43%) PnL -3272.25$ coût 12.9%
