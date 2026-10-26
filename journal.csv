@@ -1749,3 +1749,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 11:37:21,hasard,VENTE,GTA,3.788e-06,16.88,stop-loss (-100%) PnL -6511.79$ coût 1.8%
 2026-10-26 12:13:19,agressive,VENTE,FOMOPAD,0.0001178,2775.69,stop-loss (-48%) PnL -4407.64$ coût 25.6%
 2026-10-26 12:53:19,hasard,ACHAT,ILY,0.0001471413323,6059.95,score 30 coût 47.6%
+2026-10-26 12:54:18,hasard,VENTE,ILY,9.119e-05,2581.24,stop-loss (-38%) PnL -3478.71$ coût 31.3%
