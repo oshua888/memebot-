@@ -1669,3 +1669,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 03:23:50,hasard,ACHAT,MAGA2028,0.0006202701899,6742.09,score 78 coût 23.3%
 2026-10-26 03:30:50,agressive,VENTE,PMUP,0.0003832,5679.99,trailing-stop PnL +161.81$ coût 30.8%
 2026-10-26 03:30:50,agressive,ACHAT,PMUP,0.0004996221259,8096.04,score 64 coût 30.4%
+2026-10-26 03:33:50,prudente,VENTE,GTA,0.001354,5.91,palier +30% PnL +1.45$ coût 1.0%
+2026-10-26 03:34:50,hasard,VENTE,GTA,0.001378,4252.16,palier +100% PnL +1881.32$ coût 10.4%
+2026-10-26 03:35:50,actuelle,VENTE,GTA,0.00157,5991.12,palier +100% PnL +2732.10$ coût 13.9%
+2026-10-26 03:35:50,agressive,VENTE,GTA,0.00157,5385.33,palier +100% PnL +2594.27$ coût 12.4%
+2026-10-26 03:36:50,prudente,ACHAT,PMUP,0.0003700851038,8.97,score 79 coût 1.0%
