@@ -1737,3 +1737,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 09:05:08,hasard,VENTE,CATTLEAXE,0.0009169,4404.83,stop-loss (-30%) PnL -2750.54$ coût 11.8%
 2026-10-26 09:06:07,agressive,VENTE,STM,9.654e-05,2003.89,stop-loss (-67%) PnL -5407.69$ coût 18.4%
 2026-10-26 09:06:07,hasard,VENTE,STM,9.654e-05,1869.14,stop-loss (-65%) PnL -4554.83$ coût 16.9%
+2026-10-26 09:15:07,agressive,VENTE,PMUP,0.0004192,4130.15,stop-loss (-41%) PnL -4347.45$ coût 18.1%
