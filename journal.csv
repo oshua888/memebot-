@@ -1700,3 +1700,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 06:18:10,agressive,VENTE,ApeLax,0.0001054,2895.86,stop-loss (-41%) PnL -4741.34$ coût 35.5%
 2026-10-26 06:27:09,prudente,VENTE,GIGATITS,0.001276,5.59,trailing-stop PnL +1.10$ coût 1.0%
 2026-10-26 06:28:09,actuelle,VENTE,GTA,0.001471,5646.05,palier +100% PnL +2387.03$ coût 13.4%
+2026-10-26 06:41:09,actuelle,VENTE,GIGATITS,0.0007548,4814.83,stop-loss (-39%) PnL -4582.42$ coût 16.3%
+2026-10-26 06:42:08,agressive,VENTE,GIGATITS,0.0001755,1229.95,stop-loss (-83%) PnL -6802.53$ coût 8.6%
