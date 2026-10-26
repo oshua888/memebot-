@@ -1657,3 +1657,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 04:16:11,hasard,ACHAT,GIGATITS,0.001076930086,6928.71,score 42 coût 18.0%
 2026-10-26 04:18:09,prudente,ACHAT,PMUP,0.0007588833941,8.99,score 76 coût 1.0%
 2026-10-26 04:18:09,hasard,VENTE,TIT,0.0002648,3747.17,stop-loss (-31%) PnL -3208.28$ coût 22.3%
+2026-10-26 04:20:12,agressive,VENTE,Bow,0.0001602,3464.43,stop-loss (-41%) PnL -4681.54$ coût 28.2%
+2026-10-26 04:21:11,agressive,ACHAT,GIGATITS,0.001047271126,8032.48,score 56 coût 21.2%
