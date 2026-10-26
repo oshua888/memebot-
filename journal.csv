@@ -1688,3 +1688,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 05:52:11,agressive,ACHAT,Shinagami,0.0001878391545,7780.43,score 55 coût 54.1%
 2026-10-26 05:52:11,hasard,ACHAT,Shinagami,0.0001786822849,6679.62,score 55 coût 46.6%
 2026-10-26 05:53:11,hasard,VENTE,Shinagami,0.0001134,2923.65,stop-loss (-37%) PnL -3755.97$ coût 31.0%
+2026-10-26 05:55:14,agressive,VENTE,Shinagami,8.851e-05,2542.79,stop-loss (-53%) PnL -5237.64$ coût 30.6%
+2026-10-26 05:55:14,hasard,ACHAT,ApeLax,0.0001672332224,6608.47,score 47 coût 50.4%
+2026-10-26 05:56:12,agressive,ACHAT,ApeLax,0.0001792245086,7637.21,score 62 coût 57.4%
+2026-10-26 05:56:12,hasard,VENTE,ApeLax,0.0001139,2961.12,stop-loss (-32%) PnL -3647.35$ coût 34.2%
+2026-10-26 05:57:12,hasard,VENTE,GTA,0.001387,4282.47,palier +100% PnL +1911.63$ coût 10.4%
