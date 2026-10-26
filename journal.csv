@@ -1781,3 +1781,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 15:31:07,hasard,VENTE,OPACUS,0.0001005,2691.07,stop-loss (-30%) PnL -3035.33$ coût 32.5%
 2026-10-26 15:59:07,hasard,ACHAT,DESSA,0.0003108656184,5654.92,score 46 coût 28.9%
 2026-10-26 16:02:09,hasard,ACHAT,RETIRED,0.0003242310221,5620.66,score 34 coût 28.1%
+2026-10-26 16:21:08,actuelle,ACHAT,ANT,0.002439069597,8632.64,score 64 coût 14.2%
+2026-10-26 16:21:08,agressive,ACHAT,ANT,0.002368776389,6486.29,score 64 coût 10.9%
