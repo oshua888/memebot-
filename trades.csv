@@ -839,3 +839,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-26 16:21,2026-10-26 18:16,agressive,ANT,boost,trailing-stop,1.92,58.23,64,130381,16.33,2.0,2.365,0.665,3.18,-15.44,3417,1
 2026-10-26 18:16,2026-10-26 18:17,prudente,ANT,boost+tendance,stop-loss (-27%),0.02,-27.48,82,174826,21.01,3.9,8.797,0.663,-42.8,36.96,5968,1
 2026-10-26 18:16,2026-10-26 18:19,agressive,ANT,boost+tendance,stop-loss (-55%),0.05,-57.98,82,174826,21.01,3.9,8.797,0.663,-42.8,36.96,5968,1
+2026-10-26 17:27,2026-10-26 18:21,actuelle,pumpcat,profil,trailing-stop,0.9,16.04,60,43026,5.71,22.8,1.307,0.365,8.62,50.6,292,0
