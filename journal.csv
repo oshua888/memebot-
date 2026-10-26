@@ -1632,3 +1632,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 01:11:46,hasard,VENTE,Chop,0.0003264,3835.86,stop-loss (-32%) PnL -3284.27$ coût 20.5%
 2026-10-26 01:17:46,agressive,VENTE,Chop,0.0002941,3938.55,stop-loss (-42%) PnL -4810.65$ coût 22.7%
 2026-10-26 01:18:46,prudente,VENTE,LAUNCH,0.001483,4.86,trailing-stop PnL +0.43$ coût 1.0%
+2026-10-26 01:27:47,agressive,VENTE,REMUS,0.0009315,9035.40,durée max 24h PnL -1975.08$ coût 28.9%
