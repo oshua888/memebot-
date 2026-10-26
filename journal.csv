@@ -1723,3 +1723,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 08:15:07,prudente,VENTE,REMUS,0.001016,7.08,stop-loss (-20%) PnL -1.89$ coût 1.0%
 2026-10-26 08:21:07,hasard,ACHAT,STM,0.0002756322131,6423.97,score 37 coût 33.2%
 2026-10-26 08:22:07,agressive,ACHAT,STM,0.0002914387089,7411.57,score 52 coût 37.7%
+2026-10-26 08:24:12,prudente,VENTE,LAUNCH,0.002391,5.18,trailing-stop PnL +0.71$ coût 1.0%
+2026-10-26 08:24:12,prudente,ACHAT,LAUNCH,0.00241517785,8.95,score 70 coût 1.0%
+2026-10-26 08:24:12,actuelle,ACHAT,STM,0.0003090648818,9339.69,score 68 coût 47.2%
+2026-10-26 08:25:08,actuelle,VENTE,STM,0.0002023,4170.30,stop-loss (-35%) PnL -5169.38$ coût 31.8%
