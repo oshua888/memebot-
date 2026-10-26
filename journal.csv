@@ -1786,3 +1786,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 16:31:09,prudente,ACHAT,ANT,0.002444506305,8.79,score 72 coût 1.0%
 2026-10-26 16:50:09,agressive,ACHAT,GLITCH,0.002666042757,6463.11,score 50 coût 10.5%
 2026-10-26 16:52:07,actuelle,ACHAT,GLITCH,0.002801774369,8601.80,score 63 coût 13.5%
+2026-10-26 17:12:08,prudente,ACHAT,Fartcoin,0.0007728295489,8.79,score 79 coût 1.0%
+2026-10-26 17:12:08,actuelle,ACHAT,Fartcoin,0.0009478301894,8578.93,score 79 coût 23.9%
+2026-10-26 17:12:08,agressive,ACHAT,Fartcoin,0.0009043366689,6448.96,score 79 coût 18.2%
