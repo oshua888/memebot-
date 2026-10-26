@@ -1752,3 +1752,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 12:54:18,hasard,VENTE,ILY,9.119e-05,2581.24,stop-loss (-38%) PnL -3478.71$ coût 31.3%
 2026-10-26 13:16:17,prudente,ACHAT,RAYPAD,0.0006766501465,8.91,score 72 coût 1.0%
 2026-10-26 13:16:17,actuelle,ACHAT,RAYPAD,0.0008286081388,8906.37,score 72 coût 23.7%
+2026-10-26 13:21:17,actuelle,VENTE,RAYPAD,0.0005725,5047.79,stop-loss (-31%) PnL -3858.58$ coût 18.0%
