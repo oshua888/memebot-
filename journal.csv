@@ -1683,3 +1683,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 05:31:11,hasard,VENTE,neet ,0.0001088,2793.30,stop-loss (-42%) PnL -4008.51$ coût 28.8%
 2026-10-26 05:34:11,apprentie,VENTE,HELL,0.003096,19.46,durée max 12h PnL +2.46$ coût 1.0%
 2026-10-26 05:36:11,hasard,VENTE,GIGATITS,0.0007124,3959.77,stop-loss (-34%) PnL -2968.94$ coût 13.6%
+2026-10-26 05:52:11,prudente,ACHAT,GIGATITS,0.001014248732,8.98,score 71 coût 1.0%
+2026-10-26 05:52:11,actuelle,ACHAT,GIGATITS,0.001232399736,9397.26,score 71 coût 22.7%
+2026-10-26 05:52:11,agressive,ACHAT,Shinagami,0.0001878391545,7780.43,score 55 coût 54.1%
+2026-10-26 05:52:11,hasard,ACHAT,Shinagami,0.0001786822849,6679.62,score 55 coût 46.6%
+2026-10-26 05:53:11,hasard,VENTE,Shinagami,0.0001134,2923.65,stop-loss (-37%) PnL -3755.97$ coût 31.0%
