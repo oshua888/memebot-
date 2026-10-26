@@ -1669,3 +1669,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 04:39:09,prudente,VENTE,GTA,0.001157,4.51,trailing-stop PnL +2.29$ coût 1.0%
 2026-10-26 04:39:09,hasard,VENTE,PMUP,0.0007998,4690.18,trailing-stop PnL +32.32$ coût 14.4%
 2026-10-26 04:39:09,hasard,ACHAT,PMUP,0.0009433581997,6917.71,score 62 coût 17.9%
+2026-10-26 04:46:10,agressive,ACHAT,RAYPAD,0.000169265263,7952.71,score 50 coût 52.6%
+2026-10-26 04:46:10,hasard,ACHAT,RAYPAD,0.0001615024152,6874.48,score 50 coût 45.6%
