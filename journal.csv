@@ -1765,3 +1765,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 14:18:20,hasard,VENTE,SPILL,5.77e-05,2068.64,stop-loss (-52%) PnL -3803.37$ coût 27.1%
 2026-10-26 14:24:18,actuelle,VENTE,Shitcoin,0.0001689,3978.06,stop-loss (-33%) PnL -4851.14$ coût 32.7%
 2026-10-26 14:26:20,prudente,ACHAT,Bow,7.970442747e-05,8.88,score 71 coût 1.1%
+2026-10-26 14:31:18,prudente,VENTE,Bow,6.214e-05,6.85,stop-loss (-22%) PnL -2.03$ coût 1.1%
