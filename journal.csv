@@ -1872,3 +1872,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 23:27:53,prudente,VENTE,███,0.001057,6.96,stop-loss (-21%) PnL -1.89$ coût 1.0%
 2026-10-26 23:31:53,prudente,ACHAT,LMAO,0.001569792974,8.81,score 70 coût 1.0%
 2026-10-26 23:32:54,prudente,VENTE,WizardCat,0.0002479,6.94,stop-loss (-20%) PnL -1.86$ coût 1.0%
+2026-10-26 23:42:52,apprentie,ACHAT,LMAO,0.001620537793,17.11,score 75 coût 1.0%
+2026-10-26 23:42:52,apprentie,ACHAT,CATTLEAXE,0.0002612605886,17.10,score 49 coût 1.1%
+2026-10-26 23:42:52,apprentie,ACHAT,REMUS,0.001895233979,17.09,score 50 coût 1.0%
+2026-10-26 23:42:52,apprentie,ACHAT,1EDGE,0.000123376369,17.08,score 37 coût 1.1%
