@@ -1727,3 +1727,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 09:43:20,hasard,VENTE,PRESIDENT,0.0001723,3304.41,stop-loss (-32%) PnL -3112.00$ coût 24.5%
 2026-10-26 09:45:21,actuelle,ACHAT,STM,0.0004116742692,9419.99,score 62 coût 38.7%
 2026-10-26 09:47:20,actuelle,VENTE,STM,0.0002582,4356.45,stop-loss (-37%) PnL -5063.54$ coût 26.3%
+2026-10-26 10:03:28,hasard,VENTE,STM,0.0002233,3809.23,trailing-stop PnL -532.23$ coût 24.0%
