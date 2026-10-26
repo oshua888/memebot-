@@ -1717,3 +1717,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 07:41:09,actuelle,VENTE,RAYPAD,0.0006905,7347.00,trailing-stop PnL +4172.43$ coût 26.7%
 2026-10-26 07:42:09,actuelle,ACHAT,ApeLax,0.0001861477589,9469.10,score 64 coût 72.4%
 2026-10-26 07:43:11,actuelle,VENTE,ApeLax,0.0001143,3284.31,stop-loss (-39%) PnL -6184.80$ coût 43.5%
+2026-10-26 07:58:11,prudente,ACHAT,LAUNCH,0.002043475697,8.94,score 70 coût 1.0%
