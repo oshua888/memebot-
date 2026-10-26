@@ -1714,3 +1714,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 07:19:07,actuelle,VENTE,RAYPAD,0.0003434,3977.64,palier +50% PnL +850.44$ coût 19.0%
 2026-10-26 07:25:07,actuelle,VENTE,RAYPAD,0.0004482,5085.93,palier +100% PnL +1911.36$ coût 21.8%
 2026-10-26 07:27:09,hasard,ACHAT,███,0.000607099716,6511.60,score 40 coût 19.5%
+2026-10-26 07:41:09,actuelle,VENTE,RAYPAD,0.0006905,7347.00,trailing-stop PnL +4172.43$ coût 26.7%
+2026-10-26 07:42:09,actuelle,ACHAT,ApeLax,0.0001861477589,9469.10,score 64 coût 72.4%
+2026-10-26 07:43:11,actuelle,VENTE,ApeLax,0.0001143,3284.31,stop-loss (-39%) PnL -6184.80$ coût 43.5%
