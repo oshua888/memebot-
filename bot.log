@@ -5315,3 +5315,69 @@ agressive   196969.41$+19596.9%+204363.85$17382934.25$   38/153     5
 hasard      275436.61$+27443.7%+277313.77$12233193.03$   60/185     5
 apprentie      855.28$   -14.5%   -144.72$   43.61$   44/70      0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 176 — 2026-10-26 23:37:44 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  104 tokens trouvés, analyse en cours…
+  10 retenus / 102 ; rejets : liquidité faible ×70, volume faible ×43, trop récent ×42, trop ancien ×20, FDV/liquidité trop élevé ×3, RugCheck: top 10 détient 52% ×1, RugCheck: Top 10 holders high ownership ×1, RugCheck: Single holder ownership ×1, RugCheck: top 10 détient 80% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       881.45$   -11.9%   -119.28$   27.97$  112/105     1
+actuelle    399715.15$+39871.5%+406749.27$12321066.95$   80/161     4
+agressive   197083.25$+19608.3%+204363.85$17382934.25$   38/153     5
+hasard      275459.28$+27445.9%+277313.77$12233193.03$   60/185     5
+apprentie      855.28$   -14.5%   -144.72$   43.61$   44/70      0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 177 — 2026-10-26 23:38:44 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  104 tokens trouvés, analyse en cours…
+  10 retenus / 102 ; rejets : liquidité faible ×70, volume faible ×43, trop récent ×42, trop ancien ×20, FDV/liquidité trop élevé ×3, RugCheck: top 10 détient 52% ×1, RugCheck: Top 10 holders high ownership ×1, RugCheck: Single holder ownership ×1, RugCheck: top 10 détient 80% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       881.33$   -11.9%   -119.28$   27.97$  112/105     1
+actuelle    399508.49$+39850.8%+406749.27$12321066.95$   80/161     4
+agressive   197010.04$+19601.0%+204363.85$17382934.25$   38/153     5
+hasard      275363.23$+27436.3%+277313.77$12233193.03$   60/185     5
+apprentie      855.28$   -14.5%   -144.72$   43.61$   44/70      0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 178 — 2026-10-26 23:39:44 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  104 tokens trouvés, analyse en cours…
+  10 retenus / 102 ; rejets : liquidité faible ×70, volume faible ×43, trop récent ×42, trop ancien ×20, FDV/liquidité trop élevé ×3, RugCheck: top 10 détient 52% ×1, RugCheck: Top 10 holders high ownership ×1, RugCheck: Single holder ownership ×1, RugCheck: top 10 détient 80% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       881.28$   -11.9%   -119.28$   27.97$  112/105     1
+actuelle    399756.42$+39875.6%+406749.27$12321066.95$   80/161     4
+agressive   197770.24$+19677.0%+204363.85$17382934.25$   38/153     5
+hasard      275421.00$+27442.1%+277313.77$12233193.03$   60/185     5
+apprentie      855.28$   -14.5%   -144.72$   43.61$   44/70      0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 179 — 2026-10-26 23:40:44 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  104 tokens trouvés, analyse en cours…
+  10 retenus / 104 ; rejets : liquidité faible ×71, trop récent ×44, volume faible ×43, trop ancien ×20, FDV/liquidité trop élevé ×3, RugCheck: Top 10 holders high ownership ×1, RugCheck: Single holder ownership ×1, RugCheck: top 10 détient 80% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       880.12$   -12.0%   -119.28$   27.97$  112/105     1
+actuelle    399015.29$+39801.5%+406749.27$12321066.95$   80/161     4
+agressive   197889.65$+19689.0%+204363.85$17382934.25$   38/153     5
+hasard      275377.57$+27437.8%+277313.77$12233193.03$   60/185     5
+apprentie      855.28$   -14.5%   -144.72$   43.61$   44/70      0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 180 — 2026-10-26 23:41:44 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  104 tokens trouvés, analyse en cours…
+  10 retenus / 102 ; rejets : liquidité faible ×72, volume faible ×43, trop récent ×42, trop ancien ×20, FDV/liquidité trop élevé ×3, RugCheck: Top 10 holders high ownership ×1, RugCheck: Single holder ownership ×1, RugCheck: top 10 détient 80% ×1
+  [apprentissage] 357 observations — règle sl25_tp25 — top 25 % : +1.3% vs moyenne -2.2% → actif : choisit ses tokens
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       880.50$   -12.0%   -119.28$   27.97$  112/105     1
+actuelle    399235.14$+39823.5%+406749.27$12321066.95$   80/161     4
+agressive   197115.01$+19611.5%+204363.85$17382934.25$   38/153     5
+hasard      275460.69$+27446.1%+277313.77$12233193.03$   60/185     5
+apprentie      855.28$   -14.5%   -144.72$   43.61$   44/70      0
+(argent fictif — valeur nette si tout était revendu maintenant)
