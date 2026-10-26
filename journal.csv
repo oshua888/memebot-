@@ -1740,3 +1740,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 10:56:21,hasard,VENTE,Hellcat,9.375e-05,2707.76,stop-loss (-36%) PnL -3652.90$ coût 33.9%
 2026-10-26 10:57:20,actuelle,ACHAT,FOMOPAD,0.000245194339,9190.30,score 63 coût 53.2%
 2026-10-26 10:57:20,agressive,ACHAT,FOMOPAD,0.0002269391094,7183.33,score 63 coût 41.8%
+2026-10-26 11:02:22,actuelle,VENTE,FOMOPAD,0.0001694,4069.41,stop-loss (-31%) PnL -5120.90$ coût 35.9%
