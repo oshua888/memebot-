@@ -1641,3 +1641,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 01:43:49,hasard,ACHAT,SCS,0.0002299865495,6949.99,score 56 coût 42.1%
 2026-10-26 01:44:50,hasard,VENTE,SCS,0.0001535,3281.88,stop-loss (-33%) PnL -3668.11$ coût 29.2%
 2026-10-26 01:46:47,agressive,VENTE,SCS,0.0001417,3313.52,stop-loss (-42%) PnL -5053.24$ coût 31.9%
+2026-10-26 02:13:48,prudente,VENTE,GTA,0.0006637,5.18,trailing-stop PnL +0.74$ coût 1.0%
