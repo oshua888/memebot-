@@ -1621,3 +1621,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 00:00:46,agressive,ACHAT,Marvin,0.0001255563481,8614.77,score 53 coût 69.2%
 2026-10-26 00:01:45,agressive,VENTE,Marvin,7.031e-05,2880.28,stop-loss (-44%) PnL -5734.50$ coût 40.3%
 2026-10-26 00:27:45,prudente,VENTE,Chop,0.0005849,5.96,palier +30% PnL +1.52$ coût 1.0%
+2026-10-26 00:33:48,prudente,VENTE,Chop,0.0004612,4.70,trailing-stop PnL +0.26$ coût 1.0%
+2026-10-26 00:34:47,prudente,ACHAT,Chop,0.0005036292934,8.89,score 76 coût 1.0%
