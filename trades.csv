@@ -800,3 +800,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-26 05:08,2026-10-26 09:29,actuelle,RAYPAD,profil,trailing-stop,4.35,61.02,61,34772,4.05,2.4,2.426,0.629,17.26,4.65,242,0
 2026-10-26 04:09,2026-10-26 09:29,agressive,PMUP,profil,stop-loss (-40%),5.34,-51.18,62,67320,7.84,22.0,4.592,0.569,22.86,-6.71,352,0
 2026-10-26 06:52,2026-10-26 09:30,prudente,REMUS,boost+tendance,stop-loss (-21%),2.64,-21.5,70,106695,11.66,55.7,1.01,0.59,-0.16,23.67,38.84,1
+2026-10-26 09:29,2026-10-26 09:43,hasard,PRESIDENT,tendance,stop-loss (-32%),0.23,-48.5,29,39051,4.29,12.4,0.488,0.546,1.98,-10.14,-32.3,0
