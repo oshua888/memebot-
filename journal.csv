@@ -1705,3 +1705,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-26 06:45:09,prudente,ACHAT,GTA,0.001611211959,9.00,score 70 coût 1.0%
 2026-10-26 06:52:08,prudente,ACHAT,REMUS,0.001274832228,8.97,score 70 coût 1.0%
 2026-10-26 06:54:10,prudente,VENTE,PMUP,0.0005268,6.56,stop-loss (-27%) PnL -2.46$ coût 1.0%
+2026-10-26 06:59:11,prudente,VENTE,GTA,0.001257,6.95,stop-loss (-22%) PnL -2.05$ coût 1.0%
+2026-10-26 06:59:11,actuelle,VENTE,GTA,0.001257,4877.92,trailing-stop PnL +1618.90$ coût 12.4%
+2026-10-26 06:59:11,actuelle,ACHAT,GTA,0.00150952708,9293.57,score 68 coût 20.1%
+2026-10-26 06:59:11,hasard,VENTE,GTA,0.001257,3901.11,trailing-stop PnL +1530.26$ coût 9.9%
+2026-10-26 06:59:11,hasard,ACHAT,GTA,0.001438138229,6528.67,score 68 coût 14.4%
+2026-10-26 07:01:09,prudente,VENTE,CATTLEAXE,0.001196,7.11,stop-loss (-20%) PnL -1.88$ coût 1.0%
