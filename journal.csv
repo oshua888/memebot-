@@ -2029,3 +2029,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 17:46:36,apprentie,VENTE,DICTATOR,0.0001448,12.04,stop-loss (-27%) PnL -4.63$ coût 1.1%
 2026-10-27 17:46:36,apprentie,ACHAT,N64,9.700430903e-05,16.50,score 63 coût 1.1%
 2026-10-27 17:52:34,actuelle,ACHAT,DICTATOR,0.000319885157,7156.67,score 68 coût 35.0%
+2026-10-27 18:00:36,prudente,ACHAT,DICTATOR,0.0002431045266,8.69,score 71 coût 1.0%
+2026-10-27 18:02:34,actuelle,ACHAT,MOONX,0.0002983381714,7091.65,score 62 coût 38.6%
+2026-10-27 18:03:32,actuelle,VENTE,MOONX,0.0001956,3396.89,stop-loss (-34%) PnL -3694.76$ coût 26.9%
