@@ -1957,3 +1957,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 07:58:34,prudente,VENTE,Wifoween,0.0001695,3.49,trailing-stop PnL +1.32$ coût 1.0%
 2026-10-27 08:16:33,apprentie,VENTE,GTAELON,0.0002981,11.88,stop-loss (-27%) PnL -4.54$ coût 1.1%
 2026-10-27 08:16:33,apprentie,ACHAT,NETWORK,0.0001444811169,16.43,score 48 coût 1.1%
+2026-10-27 08:42:35,prudente,ACHAT,TRUMP2028,0.001088984354,8.78,score 92 coût 1.0%
