@@ -1884,3 +1884,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 00:58:52,hasard,VENTE,pumpcat,0.0007042,2612.10,palier +50% PnL +784.47$ coût 8.9%
 2026-10-27 00:59:53,actuelle,ACHAT,███WIF,0.001491947994,7963.89,score 60 coût 17.8%
 2026-10-27 00:59:53,apprentie,ACHAT,███WIF,0.001280123239,17.00,score 60 coût 1.0%
+2026-10-27 01:17:53,apprentie,VENTE,███WIF,0.001628,21.40,palier +25% PnL +4.40$ coût 1.0%
+2026-10-27 01:17:53,apprentie,ACHAT,███WIF,0.001644795289,17.11,score 68 coût 1.0%
+2026-10-27 01:21:54,actuelle,VENTE,LAUNCH,0.001719,5151.03,stop-loss (-30%) PnL -3011.70$ coût 9.3%
+2026-10-27 01:21:54,hasard,VENTE,LMAO,0.001052,3390.84,stop-loss (-32%) PnL -2132.41$ coût 9.4%
+2026-10-27 01:21:54,hasard,ACHAT,███WIF,0.001418661094,5499.22,score 68 coût 12.6%
