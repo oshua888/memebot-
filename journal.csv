@@ -2065,3 +2065,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 20:48:54,hasard,ACHAT,DOAS,0.0004679242841,5127.87,score 50 coût 20.9%
 2026-10-27 20:59:57,actuelle,VENTE,SI,0.001359,5501.60,trailing-stop PnL +800.27$ coût 13.2%
 2026-10-27 20:59:57,actuelle,ACHAT,SI,0.001551202438,6844.41,score 67 coût 14.1%
+2026-10-27 21:01:55,apprentie,VENTE,XD,0.0003216,12.26,stop-loss (-25%) PnL -4.37$ coût 1.0%
+2026-10-27 21:01:55,apprentie,ACHAT,Frongus,0.0008406336359,16.48,score 50 coût 1.0%
