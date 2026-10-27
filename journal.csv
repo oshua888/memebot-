@@ -2043,3 +2043,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 19:33:53,prudente,ACHAT,SI,0.0009388837182,8.71,score 71 coût 1.0%
 2026-10-27 19:42:53,hasard,VENTE,SI,0.0008008,3126.12,stop-loss (-34%) PnL -2145.32$ coût 9.7%
 2026-10-27 19:42:53,hasard,ACHAT,███WIF,0.0009793292081,5232.32,score 55 coût 14.1%
+2026-10-27 20:05:54,actuelle,ACHAT,DOAS,0.0345422613,6987.14,score 60 coût 1.5%
+2026-10-27 20:05:54,hasard,VENTE,DICTATOR,0.0001855,2712.99,stop-loss (-37%) PnL -2616.25$ coût 19.0%
+2026-10-27 20:05:54,hasard,ACHAT,MOONX,0.0002709055888,5184.91,score 54 coût 28.9%
+2026-10-27 20:06:55,actuelle,VENTE,DOAS,0.000318,63.50,stop-loss (-99%) PnL -6923.64$ coût 1.3%
