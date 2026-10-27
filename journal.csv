@@ -2036,3 +2036,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 18:48:56,agressive,ACHAT,SI,0.0009710155791,5231.45,score 79 coût 13.8%
 2026-10-27 19:01:59,agressive,VENTE,PRESIDENT,0.0001593,3703.43,durée max 24h PnL -2534.63$ coût 30.2%
 2026-10-27 19:01:59,agressive,ACHAT,N64,0.0001344305675,5209.25,score 50 coût 42.6%
+2026-10-27 19:25:11,hasard,VENTE,pumpcat,0.0007758,5140.16,durée max 12h PnL -357.88$ coût 17.1%
+2026-10-27 19:25:11,hasard,ACHAT,SI,0.001218698292,5271.44,score 65 coût 12.4%
