@@ -1909,3 +1909,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 03:06:33,apprentie,VENTE,ELON2028,0.001074,11.51,stop-loss (-30%) PnL -5.19$ coût 1.0%
 2026-10-27 03:06:33,apprentie,ACHAT,CHICO,0.00536802466,16.47,score 56 coût 1.0%
 2026-10-27 03:12:32,prudente,ACHAT,Nothing,0.0007400818103,8.71,score 79 coût 1.0%
+2026-10-27 03:37:33,prudente,VENTE,Nothing,0.0005788,6.75,stop-loss (-22%) PnL -1.97$ coût 1.0%
