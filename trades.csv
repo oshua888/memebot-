@@ -967,3 +967,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-27 19:42,2026-10-27 23:39,hasard,███WIF,boost,stop-loss (-31%),3.94,-39.02,55,79957,10.61,20.7,0.718,0.645,11.22,-11.34,31.75,1
 2026-10-27 23:26,2026-10-27 23:42,prudente,CHICO,boost+tendance,trailing-stop,0.27,26.5,74,183591,23.15,23.6,3.257,0.718,-10.58,-25.03,-34.29,1
 2026-10-27 18:27,2026-10-27 23:42,apprentie,XD,tendance,stop-loss (-26%),5.24,-27.2,28,64390,6.36,26.4,0.068,0.304,0,3.12,-32.32,0
+2026-10-27 23:42,2026-10-27 23:49,prudente,CHICO,boost+tendance,trailing-stop,0.12,49.52,75,195603,24.25,23.8,6.332,0.754,-3.39,-15.85,-26.56,1
