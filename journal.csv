@@ -1891,3 +1891,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 01:21:54,hasard,ACHAT,███WIF,0.001418661094,5499.22,score 68 coût 12.6%
 2026-10-27 01:23:53,apprentie,VENTE,CATTLEAXE,0.0003272,21.18,palier +25% PnL +4.09$ coût 1.1%
 2026-10-27 01:23:53,apprentie,ACHAT,CATTLEAXE,0.0003306673253,17.01,score 64 coût 1.1%
+2026-10-27 01:30:54,agressive,VENTE,CATTLEAXE,0.000241,2966.65,stop-loss (-41%) PnL -2995.02$ coût 15.4%
+2026-10-27 01:30:54,agressive,ACHAT,LMAO,0.001016021842,5885.23,score 52 coût 15.4%
+2026-10-27 01:30:54,apprentie,VENTE,CATTLEAXE,0.000241,12.27,stop-loss (-27%) PnL -4.74$ coût 1.1%
