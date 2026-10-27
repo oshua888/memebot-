@@ -2076,3 +2076,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 21:15:57,prudente,VENTE,SI,0.001445,4.38,trailing-stop PnL +0.02$ coût 1.0%
 2026-10-27 21:15:57,apprentie,VENTE,SI,0.001445,11.20,stop-loss (-32%) PnL -5.38$ coût 1.0%
 2026-10-27 21:15:57,apprentie,ACHAT,DOAS,0.0004115258307,16.47,score 34 coût 1.1%
+2026-10-27 21:27:56,hasard,VENTE,MOONX,0.000188,2823.11,stop-loss (-31%) PnL -2361.79$ coût 21.5%
+2026-10-27 21:27:56,hasard,ACHAT,JOB,0.0007723092412,5107.75,score 39 coût 16.0%
+2026-10-27 21:27:56,apprentie,VENTE,Wifoween,0.0001009,12.45,stop-loss (-25%) PnL -4.38$ coût 1.1%
+2026-10-27 21:27:56,apprentie,ACHAT,N64,0.0001059772508,16.41,score 69 coût 1.1%
