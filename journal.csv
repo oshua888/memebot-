@@ -2009,3 +2009,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 16:09:36,hasard,ACHAT,ELON2028,0.0004042785945,5463.25,score 20 coût 19.1%
 2026-10-27 16:10:35,apprentie,VENTE,ELON2028,0.0003029,11.36,stop-loss (-32%) PnL -5.46$ coût 1.0%
 2026-10-27 16:10:35,apprentie,ACHAT,HACHI,0.0001904467204,16.70,score 35 coût 1.1%
+2026-10-27 16:17:34,hasard,VENTE,ELON2028,0.0001971,2329.02,stop-loss (-51%) PnL -3134.24$ coût 12.6%
+2026-10-27 16:17:34,hasard,ACHAT,Wifoween,0.000165520779,5400.88,score 33 coût 37.5%
