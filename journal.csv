@@ -1935,3 +1935,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 05:16:33,apprentie,VENTE,Nothing,0.0003474,11.96,stop-loss (-26%) PnL -4.46$ coût 1.0%
 2026-10-27 05:40:33,apprentie,VENTE,RAYPAD,0.000114,20.61,palier +25% PnL +4.10$ coût 1.1%
 2026-10-27 05:40:33,apprentie,ACHAT,RAYPAD,0.0001152531755,16.61,score 24 coût 1.1%
+2026-10-27 06:08:32,apprentie,VENTE,RAYPAD,7.836e-05,11.17,stop-loss (-32%) PnL -5.44$ coût 1.1%
