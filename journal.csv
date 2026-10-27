@@ -2079,3 +2079,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 23:26:19,apprentie,ACHAT,JOB,0.001196260845,16.32,score 44 coût 1.0%
 2026-10-27 23:26:19,apprentie,ACHAT,DOAS,0.000478808363,16.32,score 21 coût 1.1%
 2026-10-27 23:28:18,actuelle,VENTE,meat,0.000233,3680.96,stop-loss (-30%) PnL -3102.40$ coût 22.2%
+2026-10-27 23:33:19,actuelle,ACHAT,SI,0.001134122118,6681.21,score 63 coût 16.1%
+2026-10-27 23:34:18,apprentie,VENTE,Wifoween,9.957e-05,12.29,stop-loss (-26%) PnL -4.54$ coût 1.1%
+2026-10-27 23:34:18,apprentie,ACHAT,FRONGUS,0.0004626288222,16.33,score 62 coût 1.1%
