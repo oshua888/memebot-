@@ -1945,3 +1945,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 07:24:33,apprentie,ACHAT,NETWORK,0.0001446843007,16.53,score 47 coût 1.1%
 2026-10-27 07:25:33,actuelle,VENTE,TGC,0.0001221,3253.50,stop-loss (-32%) PnL -4200.00$ coût 36.0%
 2026-10-27 07:40:34,actuelle,ACHAT,GTAELON,0.0006215846038,7368.42,score 65 coût 25.4%
+2026-10-27 07:45:36,prudente,VENTE,CHICO,0.006551,5.73,palier +30% PnL +1.36$ coût 1.0%
+2026-10-27 07:45:36,prudente,ACHAT,GTAELON,0.0005094885182,8.78,score 70 coût 1.0%
+2026-10-27 07:48:36,actuelle,VENTE,GTAELON,0.0004314,4131.90,stop-loss (-31%) PnL -3236.52$ coût 19.2%
