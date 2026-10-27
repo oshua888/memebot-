@@ -900,3 +900,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-27 07:24,2026-10-27 07:49,apprentie,TGC,boost+profil,stop-loss (-27%),0.42,-27.99,60,28277,3.96,3.1,12.564,0.733,-26.42,-50.04,180,1
 2026-10-27 07:24,2026-10-27 07:52,apprentie,NETWORK,boost,palier +25%,0.47,38.53,47,30858,4.41,57.6,0.146,0.53,0.32,30.39,221,1
 2026-10-27 04:28,2026-10-27 07:58,prudente,Wifoween,boost,trailing-stop,3.5,44.55,70,26958,3.73,6.2,0.746,0.691,-6.13,31.73,13.3,1
+2026-10-27 07:49,2026-10-27 08:16,apprentie,GTAELON,profil,stop-loss (-27%),0.45,-27.65,59,54283,7.35,2.2,5.155,0.672,-24.22,-17.32,646,0
