@@ -2052,3 +2052,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 20:29:54,prudente,VENTE,SI,0.001239,5.69,palier +30% PnL +1.33$ coût 1.0%
 2026-10-27 20:34:54,apprentie,VENTE,SI,0.001496,22.32,palier +25% PnL +5.84$ coût 1.0%
 2026-10-27 20:34:54,apprentie,ACHAT,SI,0.001511414965,16.61,score 61 coût 1.0%
+2026-10-27 20:35:55,prudente,VENTE,SI,0.001504,3.45,palier +60% PnL +1.28$ coût 1.0%
+2026-10-27 20:37:03,actuelle,VENTE,SI,0.001558,3312.14,palier +50% PnL +996.56$ coût 7.4%
+2026-10-27 20:37:03,actuelle,ACHAT,Frongus,0.00124565323,6924.18,score 65 coût 14.9%
