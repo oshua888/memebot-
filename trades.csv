@@ -889,3 +889,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-27 02:47,2026-10-27 04:34,prudente,TRUMP2028,profil,trailing-stop,1.78,18.75,78,86608,11.54,2.0,3.712,0.686,6.99,34.77,1887,0
 2026-10-26 16:52,2026-10-27 04:52,actuelle,GLITCH,boost,durée max 12h,12.01,-6.74,63,137870,17.08,241.3,0.02,0.692,2.58,6.3,6.49,1
 2026-10-27 05:03,2026-10-27 05:11,apprentie,RAYPAD,tendance,palier +25%,0.13,25.38,25,26135,2.66,26.3,0.296,0.548,-12.15,-21.58,-53.54,0
+2026-10-27 04:12,2026-10-27 05:16,apprentie,Nothing,nouveau+tendance,stop-loss (-26%),1.07,-27.18,63,65813,6.94,7.0,5.243,0.58,-16.64,-37.52,706,0
