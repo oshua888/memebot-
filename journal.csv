@@ -1977,7 +1977,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 10:21:43,apprentie,ACHAT,Wifoween,0.0001701430606,16.62,score 57 coût 1.1%
 2026-10-27 10:30:42,prudente,ACHAT,LAUNCH,0.00320906009,8.70,score 77 coût 1.0%
 2026-10-27 10:39:41,prudente,ACHAT,CHICO,0.006062511834,8.70,score 71 coût 1.0%
-2026-10-27 11:25:39,agressive,VENTE,ELON2028,9.822e-05,1015.33,stop-loss (-81%) PnL -4731.90$ coût 9.1%
-2026-10-27 11:25:39,agressive,ACHAT,Nothing,0.001102932776,5579.27,score 77 coût 12.3%
-2026-10-27 11:36:38,apprentie,VENTE,RAYPAD,0.0001525,11.94,stop-loss (-27%) PnL -4.61$ coût 1.1%
-2026-10-27 11:43:38,apprentie,VENTE,1EDGE,0.000105,14.38,durée max 12h PnL -2.71$ coût 1.1%
+2026-10-27 12:45:37,agressive,VENTE,ELON2028,9.354e-05,969.88,stop-loss (-81%) PnL -4777.36$ coût 8.8%
+2026-10-27 12:45:37,agressive,ACHAT,Nothing,0.001507256345,5570.08,score 78 coût 10.4%
+2026-10-27 12:45:37,apprentie,VENTE,1EDGE,0.000105,14.38,durée max 12h PnL -2.71$ coût 1.1%
+2026-10-27 12:45:37,apprentie,VENTE,RAYPAD,0.0001547,12.11,stop-loss (-26%) PnL -4.44$ coût 1.1%
+2026-10-27 12:45:37,apprentie,ACHAT,GLITCH,0.002579131743,16.54,score 33 coût 1.0%
+2026-10-27 12:45:37,apprentie,ACHAT,LAUNCH,0.002763858258,16.53,score 40 coût 1.0%
+2026-10-27 12:49:33,actuelle,ACHAT,N64,0.0001643546784,7312.85,score 67 coût 56.5%
