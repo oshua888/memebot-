@@ -1948,3 +1948,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 07:12:32,prudente,VENTE,TGC,0.0002085,6.55,palier +30% PnL +2.18$ coût 1.0%
 2026-10-27 07:13:32,prudente,VENTE,TGC,0.0001637,5.15,trailing-stop PnL +0.77$ coût 1.0%
 2026-10-27 07:13:32,prudente,ACHAT,TGC,0.00016542232,8.79,score 76 coût 1.1%
+2026-10-27 07:21:33,prudente,VENTE,TGC,0.0001246,6.55,stop-loss (-25%) PnL -2.24$ coût 1.0%
+2026-10-27 07:22:33,prudente,VENTE,CHICO,0.007966,6.97,palier +30% PnL +2.60$ coût 1.0%

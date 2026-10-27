@@ -898,3 +898,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-27 04:28,2026-10-27 06:54,prudente,Wifoween,boost,trailing-stop,2.43,20.34,70,26958,3.73,6.2,0.746,0.691,-6.13,31.73,13.3,1
 2026-10-27 02:47,2026-10-27 07:09,actuelle,TRUMP2028,profil,stop-loss (-33%),4.37,-42.47,78,86608,11.54,2.0,3.712,0.686,6.99,34.77,1887,0
 2026-10-27 06:58,2026-10-27 07:13,prudente,TGC,profil,trailing-stop,0.25,33.71,75,30487,4.31,2.7,12.772,0.698,-45.2,47.73,228,0
+2026-10-27 07:13,2026-10-27 07:21,prudente,TGC,boost+profil,stop-loss (-25%),0.13,-25.46,76,33717,4.68,3.0,10.795,0.715,10.95,21.87,294,1
