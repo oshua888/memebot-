@@ -2102,3 +2102,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 22:58:56,hasard,VENTE,JOB,0.001216,2476.10,palier +50% PnL +790.54$ coût 6.7%
 2026-10-27 22:58:56,apprentie,VENTE,JOB,0.001216,21.96,palier +25% PnL +5.27$ coût 1.0%
 2026-10-27 22:58:56,apprentie,ACHAT,JOB,0.001228596614,16.72,score 32 coût 1.0%
+2026-10-27 23:14:03,actuelle,VENTE,CHICO,0.004797,4501.39,stop-loss (-34%) PnL -2746.21$ coût 6.0%
+2026-10-27 23:14:03,actuelle,ACHAT,FRONGUS,0.0006085288911,6692.31,score 63 coût 22.6%
+2026-10-27 23:14:03,agressive,ACHAT,FRONGUS,0.0005800132675,4909.87,score 63 coût 16.8%
+2026-10-27 23:14:03,hasard,VENTE,CHICO,0.004797,3531.39,stop-loss (-33%) PnL -2009.01$ coût 4.8%
+2026-10-27 23:14:03,hasard,ACHAT,meat,0.0003226844323,5111.74,score 50 coût 22.6%
+2026-10-27 23:14:03,apprentie,VENTE,███,0.0008485,12.17,stop-loss (-26%) PnL -4.51$ coût 1.0%
+2026-10-27 23:14:03,apprentie,ACHAT,FRONGUS,0.0005017320735,16.69,score 63 coût 1.1%
