@@ -1896,3 +1896,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 02:16:39,hasard,VENTE,pumpcat,0.0006857,2545.40,palier +50% PnL +717.77$ coût 8.8%
 2026-10-27 02:20:33,prudente,ACHAT,CHICO,0.004947431135,8.75,score 80 coût 1.0%
 2026-10-27 02:22:34,apprentie,ACHAT,HELL,0.003051879219,16.64,score 31 coût 1.0%
+2026-10-27 02:44:33,actuelle,VENTE,███WIF,0.001359,4786.41,stop-loss (-31%) PnL -3114.54$ coût 12.0%
+2026-10-27 02:46:33,actuelle,VENTE,███,0.001001,4977.04,stop-loss (-30%) PnL -3109.31$ coût 12.1%
+2026-10-27 02:47:34,prudente,VENTE,ELON2028,0.001224,6.79,stop-loss (-22%) PnL -1.96$ coût 1.0%
+2026-10-27 02:47:34,prudente,ACHAT,TRUMP2028,0.001013232699,8.75,score 78 coût 1.0%
+2026-10-27 02:47:34,actuelle,VENTE,ELON2028,0.001224,4713.74,stop-loss (-31%) PnL -3074.65$ coût 12.0%
+2026-10-27 02:47:34,actuelle,ACHAT,TRUMP2028,0.001191414833,7701.64,score 78 coût 18.8%
