@@ -2041,3 +2041,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 19:27:54,prudente,VENTE,SI,0.00114,5.69,palier +30% PnL +1.35$ coût 1.0%
 2026-10-27 19:30:53,prudente,VENTE,SI,0.0009552,4.77,trailing-stop PnL +0.42$ coût 1.0%
 2026-10-27 19:33:53,prudente,ACHAT,SI,0.0009388837182,8.71,score 71 coût 1.0%
+2026-10-27 19:42:53,hasard,VENTE,SI,0.0008008,3126.12,stop-loss (-34%) PnL -2145.32$ coût 9.7%
+2026-10-27 19:42:53,hasard,ACHAT,███WIF,0.0009793292081,5232.32,score 55 coût 14.1%
