@@ -2087,3 +2087,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 21:53:56,apprentie,ACHAT,N64,0.0001554916465,16.62,score 37 coût 1.1%
 2026-10-27 21:54:56,apprentie,VENTE,N64,0.0001108,11.71,stop-loss (-29%) PnL -4.90$ coût 1.1%
 2026-10-27 21:54:56,apprentie,ACHAT,DICTATOR,0.0001018292558,16.51,score 39 coût 1.1%
+2026-10-27 21:58:56,apprentie,VENTE,DICTATOR,0.000128,20.52,palier +25% PnL +4.01$ coût 1.1%
+2026-10-27 21:58:56,apprentie,ACHAT,DICTATOR,0.0001294178449,16.56,score 36 coût 1.1%
