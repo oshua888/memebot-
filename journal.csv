@@ -2098,3 +2098,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 22:40:56,prudente,ACHAT,N64,0.0001130897048,8.73,score 71 coût 1.1%
 2026-10-27 22:48:57,actuelle,VENTE,meat,0.000139,2973.74,stop-loss (-42%) PnL -3812.75$ coût 24.3%
 2026-10-27 22:48:57,agressive,VENTE,meat,0.000139,2352.12,stop-loss (-43%) PnL -2644.98$ coût 18.0%
+2026-10-27 22:57:57,agressive,VENTE,LAUNCH,0.001812,4357.00,durée max 24h PnL -1678.39$ coût 7.0%
+2026-10-27 22:58:56,hasard,VENTE,JOB,0.001216,2476.10,palier +50% PnL +790.54$ coût 6.7%
+2026-10-27 22:58:56,apprentie,VENTE,JOB,0.001216,21.96,palier +25% PnL +5.27$ coût 1.0%
+2026-10-27 22:58:56,apprentie,ACHAT,JOB,0.001228596614,16.72,score 32 coût 1.0%
