@@ -2096,3 +2096,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 22:35:56,agressive,VENTE,SI,0.0008719,2748.87,stop-loss (-41%) PnL -2331.11$ coût 8.2%
 2026-10-27 22:35:56,agressive,ACHAT,meat,0.0002421325604,4997.10,score 65 coût 26.0%
 2026-10-27 22:40:56,prudente,ACHAT,N64,0.0001130897048,8.73,score 71 coût 1.1%
+2026-10-27 22:48:57,actuelle,VENTE,meat,0.000139,2973.74,stop-loss (-42%) PnL -3812.75$ coût 24.3%
+2026-10-27 22:48:57,agressive,VENTE,meat,0.000139,2352.12,stop-loss (-43%) PnL -2644.98$ coût 18.0%
