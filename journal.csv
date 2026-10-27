@@ -1970,3 +1970,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 09:54:42,apprentie,VENTE,RAYPAD,0.0002069,20.76,palier +25% PnL +4.20$ coût 1.1%
 2026-10-27 09:54:42,apprentie,ACHAT,RAYPAD,0.0002091227852,16.54,score 36 coût 1.1%
 2026-10-27 10:01:41,prudente,VENTE,CHICO,0.005694,4.98,trailing-stop PnL +0.61$ coût 1.0%
+2026-10-27 10:14:41,agressive,VENTE,███WIF,0.00142,3134.80,stop-loss (-41%) PnL -2624.97$ coût 7.7%
+2026-10-27 10:14:41,agressive,ACHAT,ELON2028,0.0005054630828,5747.24,score 74 coût 20.7%
+2026-10-27 10:16:49,prudente,VENTE,███WIF,0.001374,6.68,stop-loss (-22%) PnL -2.02$ coût 1.0%
