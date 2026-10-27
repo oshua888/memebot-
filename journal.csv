@@ -1933,20 +1933,14 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 05:11:33,apprentie,VENTE,RAYPAD,8.932e-05,20.65,palier +25% PnL +4.18$ coût 1.1%
 2026-10-27 05:11:33,apprentie,ACHAT,RAYPAD,9.031267871e-05,16.51,score 7 coût 1.1%
 2026-10-27 05:16:33,apprentie,VENTE,Nothing,0.0003474,11.96,stop-loss (-26%) PnL -4.46$ coût 1.0%
-2026-10-27 05:40:33,apprentie,VENTE,RAYPAD,0.000114,20.61,palier +25% PnL +4.10$ coût 1.1%
-2026-10-27 05:40:33,apprentie,ACHAT,RAYPAD,0.0001152531755,16.61,score 24 coût 1.1%
-2026-10-27 06:08:32,apprentie,VENTE,RAYPAD,7.836e-05,11.17,stop-loss (-32%) PnL -5.44$ coût 1.1%
-2026-10-27 06:30:32,prudente,VENTE,Wifoween,0.0001363,5.62,palier +30% PnL +1.27$ coût 1.0%
-2026-10-27 06:32:33,actuelle,ACHAT,TGC,0.0002195507088,7463.98,score 60 coût 48.1%
-2026-10-27 06:38:34,actuelle,VENTE,TGC,0.0001505,3427.82,stop-loss (-31%) PnL -4036.16$ coût 33.0%
-2026-10-27 06:46:34,apprentie,VENTE,REMUS,0.001411,12.59,stop-loss (-26%) PnL -4.50$ coût 1.0%
-2026-10-27 06:47:33,hasard,VENTE,GLITCH,0.002812,4954.65,durée max 12h PnL -722.07$ coût 8.4%
-2026-10-27 06:47:33,hasard,ACHAT,RAYPAD,0.000109998779,5484.75,score 28 coût 41.2%
-2026-10-27 06:54:33,prudente,VENTE,Wifoween,0.0001176,4.85,trailing-stop PnL +0.50$ coût 1.0%
-2026-10-27 06:58:34,prudente,ACHAT,TGC,0.0001377412397,8.75,score 75 coût 1.1%
-2026-10-27 07:09:33,actuelle,VENTE,TRUMP2028,0.0007985,4430.38,stop-loss (-33%) PnL -3271.26$ coût 14.2%
-2026-10-27 07:12:32,prudente,VENTE,TGC,0.0002085,6.55,palier +30% PnL +2.18$ coût 1.0%
-2026-10-27 07:13:32,prudente,VENTE,TGC,0.0001637,5.15,trailing-stop PnL +0.77$ coût 1.0%
-2026-10-27 07:13:32,prudente,ACHAT,TGC,0.00016542232,8.79,score 76 coût 1.1%
-2026-10-27 07:21:33,prudente,VENTE,TGC,0.0001246,6.55,stop-loss (-25%) PnL -2.24$ coût 1.0%
-2026-10-27 07:22:33,prudente,VENTE,CHICO,0.007966,6.97,palier +30% PnL +2.60$ coût 1.0%
+2026-10-27 07:24:33,prudente,VENTE,Wifoween,0.0001361,5.61,palier +30% PnL +1.26$ coût 1.0%
+2026-10-27 07:24:33,actuelle,VENTE,TRUMP2028,0.0007855,4364.79,stop-loss (-34%) PnL -3336.86$ coût 14.0%
+2026-10-27 07:24:33,actuelle,ACHAT,TGC,0.0001789279921,7453.50,score 60 coût 53.7%
+2026-10-27 07:24:33,hasard,VENTE,GLITCH,0.002764,4873.05,durée max 12h PnL -803.66$ coût 8.3%
+2026-10-27 07:24:33,hasard,ACHAT,pumpcat,0.0006880455416,5498.04,score 36 coût 17.8%
+2026-10-27 07:24:33,apprentie,VENTE,REMUS,0.001416,12.64,stop-loss (-25%) PnL -4.45$ coût 1.0%
+2026-10-27 07:24:33,apprentie,VENTE,RAYPAD,0.0001205,21.79,palier +25% PnL +5.27$ coût 1.1%
+2026-10-27 07:24:33,apprentie,ACHAT,RAYPAD,0.0001218224561,16.54,score 37 coût 1.1%
+2026-10-27 07:24:33,apprentie,ACHAT,TGC,0.0001177001385,16.54,score 60 coût 1.1%
+2026-10-27 07:24:33,apprentie,ACHAT,NETWORK,0.0001446843007,16.53,score 47 coût 1.1%
+2026-10-27 07:25:33,actuelle,VENTE,TGC,0.0001221,3253.50,stop-loss (-32%) PnL -4200.00$ coût 36.0%
