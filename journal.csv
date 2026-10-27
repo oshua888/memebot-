@@ -1938,3 +1938,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 06:08:32,apprentie,VENTE,RAYPAD,7.836e-05,11.17,stop-loss (-32%) PnL -5.44$ coût 1.1%
 2026-10-27 06:30:32,prudente,VENTE,Wifoween,0.0001363,5.62,palier +30% PnL +1.27$ coût 1.0%
 2026-10-27 06:32:33,actuelle,ACHAT,TGC,0.0002195507088,7463.98,score 60 coût 48.1%
+2026-10-27 06:38:34,actuelle,VENTE,TGC,0.0001505,3427.82,stop-loss (-31%) PnL -4036.16$ coût 33.0%
