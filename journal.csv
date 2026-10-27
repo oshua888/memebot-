@@ -2007,3 +2007,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 16:04:35,hasard,ACHAT,HACHI,0.000236747437,5494.39,score 34 coût 29.9%
 2026-10-27 16:09:36,hasard,VENTE,HELL,0.003247,4772.79,durée max 12h PnL -682.79$ coût 7.5%
 2026-10-27 16:09:36,hasard,ACHAT,ELON2028,0.0004042785945,5463.25,score 20 coût 19.1%
+2026-10-27 16:10:35,apprentie,VENTE,ELON2028,0.0003029,11.36,stop-loss (-32%) PnL -5.46$ coût 1.0%
+2026-10-27 16:10:35,apprentie,ACHAT,HACHI,0.0001904467204,16.70,score 35 coût 1.1%
