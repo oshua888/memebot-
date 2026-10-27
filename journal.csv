@@ -1946,3 +1946,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 06:58:34,prudente,ACHAT,TGC,0.0001377412397,8.75,score 75 coût 1.1%
 2026-10-27 07:09:33,actuelle,VENTE,TRUMP2028,0.0007985,4430.38,stop-loss (-33%) PnL -3271.26$ coût 14.2%
 2026-10-27 07:12:32,prudente,VENTE,TGC,0.0002085,6.55,palier +30% PnL +2.18$ coût 1.0%
+2026-10-27 07:13:32,prudente,VENTE,TGC,0.0001637,5.15,trailing-stop PnL +0.77$ coût 1.0%
+2026-10-27 07:13:32,prudente,ACHAT,TGC,0.00016542232,8.79,score 76 coût 1.1%
