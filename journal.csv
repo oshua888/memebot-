@@ -1879,3 +1879,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 00:21:52,prudente,VENTE,LMAO,0.001222,6.79,stop-loss (-22%) PnL -2.02$ coût 1.0%
 2026-10-27 00:21:52,actuelle,VENTE,LMAO,0.001222,4762.23,stop-loss (-32%) PnL -3251.72$ coût 12.3%
 2026-10-27 00:24:52,apprentie,VENTE,LMAO,0.001119,11.69,stop-loss (-31%) PnL -5.42$ coût 1.0%
+2026-10-27 00:55:52,hasard,VENTE,RETIRED,0.0004288,4021.40,trailing-stop PnL +255.55$ coût 19.3%
+2026-10-27 00:55:52,hasard,ACHAT,LMAO,0.001553046836,5523.25,score 62 coût 11.7%
