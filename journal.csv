@@ -2082,3 +2082,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 23:33:19,actuelle,ACHAT,SI,0.001134122118,6681.21,score 63 coût 16.1%
 2026-10-27 23:34:18,apprentie,VENTE,Wifoween,9.957e-05,12.29,stop-loss (-26%) PnL -4.54$ coût 1.1%
 2026-10-27 23:34:18,apprentie,ACHAT,FRONGUS,0.0004626288222,16.33,score 62 coût 1.1%
+2026-10-27 23:38:20,actuelle,VENTE,FRONGUS,0.0003074,3236.14,stop-loss (-42%) PnL -3491.70$ coût 17.1%
+2026-10-27 23:38:20,hasard,VENTE,FRONGUS,0.0003074,2662.54,stop-loss (-39%) PnL -2410.98$ coût 13.7%
+2026-10-27 23:38:20,hasard,ACHAT,N64,0.0001868866327,5020.85,score 69 coût 33.2%
+2026-10-27 23:38:20,apprentie,VENTE,FRONGUS,0.0003074,10.74,stop-loss (-34%) PnL -5.59$ coût 1.0%
+2026-10-27 23:38:20,apprentie,ACHAT,Frongus,0.0002426632921,16.25,score 47 coût 1.1%
+2026-10-27 23:39:19,prudente,VENTE,CHICO,0.006311,6.24,palier +30% PnL +1.90$ coût 1.0%
+2026-10-27 23:39:19,hasard,VENTE,███WIF,0.0006719,3190.45,stop-loss (-31%) PnL -2041.87$ coût 11.1%
+2026-10-27 23:39:19,hasard,ACHAT,███,0.0008641358279,4974.10,score 32 coût 11.9%
