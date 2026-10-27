@@ -1987,3 +1987,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 12:50:35,actuelle,VENTE,N64,0.0001061,2990.55,stop-loss (-35%) PnL -4322.29$ coût 36.7%
 2026-10-27 13:14:34,prudente,VENTE,LAUNCH,0.002524,6.77,stop-loss (-21%) PnL -1.93$ coût 1.0%
 2026-10-27 13:47:32,apprentie,VENTE,pumpcat,0.0007581,20.95,palier +25% PnL +4.36$ coût 1.1%
+2026-10-27 14:03:35,actuelle,VENTE,CHICO,0.006763,8628.43,durée max 12h PnL +701.94$ coût 9.4%
+2026-10-27 14:03:35,actuelle,ACHAT,CHICO,0.007263594181,7247.60,score 67 coût 7.4%
+2026-10-27 14:03:35,hasard,VENTE,CHICO,0.006763,6308.95,durée max 12h PnL +792.04$ coût 7.0%
+2026-10-27 14:03:35,hasard,ACHAT,CHICO,0.0071616081,5540.40,score 67 coût 5.9%
