@@ -2109,3 +2109,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 23:14:03,hasard,ACHAT,meat,0.0003226844323,5111.74,score 50 coût 22.6%
 2026-10-27 23:14:03,apprentie,VENTE,███,0.0008485,12.17,stop-loss (-26%) PnL -4.51$ coût 1.0%
 2026-10-27 23:14:03,apprentie,ACHAT,FRONGUS,0.0005017320735,16.69,score 63 coût 1.1%
+2026-10-27 23:18:57,prudente,ACHAT,FRONGUS,0.000424328687,8.74,score 77 coût 1.0%
+2026-10-27 23:18:57,actuelle,VENTE,FRONGUS,0.00042,3824.87,stop-loss (-31%) PnL -2867.44$ coût 17.2%
+2026-10-27 23:18:57,hasard,VENTE,meat,0.0002225,2920.41,stop-loss (-31%) PnL -2191.33$ coût 17.1%
+2026-10-27 23:18:57,hasard,ACHAT,Frongus,0.0002866959455,5060.97,score 47 coût 22.3%
