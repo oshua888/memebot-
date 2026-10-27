@@ -2093,3 +2093,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 22:22:57,apprentie,VENTE,JOB,0.0009051,21.85,palier +25% PnL +5.43$ coût 1.1%
 2026-10-27 22:22:57,apprentie,ACHAT,JOB,0.0009145280804,16.69,score 44 coût 1.0%
 2026-10-27 22:34:56,actuelle,ACHAT,meat,0.0002401876501,6786.49,score 65 coût 36.7%
+2026-10-27 22:35:56,agressive,VENTE,SI,0.0008719,2748.87,stop-loss (-41%) PnL -2331.11$ coût 8.2%
+2026-10-27 22:35:56,agressive,ACHAT,meat,0.0002421325604,4997.10,score 65 coût 26.0%
