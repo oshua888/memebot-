@@ -2031,3 +2031,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 18:29:55,hasard,VENTE,ELON2028,8.733e-05,2650.94,stop-loss (-31%) PnL -2722.06$ coût 28.6%
 2026-10-27 18:29:55,hasard,ACHAT,DICTATOR,0.000295111611,5329.24,score 72 coût 26.5%
 2026-10-27 18:39:53,prudente,VENTE,CHICO,0.006869,9.76,durée max 8h PnL +1.06$ coût 1.0%
+2026-10-27 18:48:56,prudente,ACHAT,SI,0.0008616111702,8.70,score 79 coût 1.0%
+2026-10-27 18:48:56,actuelle,ACHAT,SI,0.001008416909,7016.91,score 79 coût 18.2%
+2026-10-27 18:48:56,agressive,ACHAT,SI,0.0009710155791,5231.45,score 79 coût 13.8%
