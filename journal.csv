@@ -1975,3 +1975,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 10:16:49,prudente,VENTE,███WIF,0.001374,6.68,stop-loss (-22%) PnL -2.02$ coût 1.0%
 2026-10-27 10:21:43,apprentie,VENTE,Wifoween,0.0001683,20.67,palier +25% PnL +4.24$ coût 1.1%
 2026-10-27 10:21:43,apprentie,ACHAT,Wifoween,0.0001701430606,16.62,score 57 coût 1.1%
+2026-10-27 10:30:42,prudente,ACHAT,LAUNCH,0.00320906009,8.70,score 77 coût 1.0%
