@@ -1930,3 +1930,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 04:52:33,actuelle,VENTE,GLITCH,0.003009,8022.02,durée max 12h PnL -579.78$ coût 13.2%
 2026-10-27 04:59:32,prudente,ACHAT,███WIF,0.001771811793,8.70,score 73 coût 1.0%
 2026-10-27 05:03:33,apprentie,ACHAT,RAYPAD,7.042417958e-05,16.47,score 25 coût 1.1%
+2026-10-27 05:11:33,apprentie,VENTE,RAYPAD,8.932e-05,20.65,palier +25% PnL +4.18$ coût 1.1%
+2026-10-27 05:11:33,apprentie,ACHAT,RAYPAD,9.031267871e-05,16.51,score 7 coût 1.1%
