@@ -1912,3 +1912,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 03:37:33,prudente,VENTE,Nothing,0.0005788,6.75,stop-loss (-22%) PnL -1.97$ coût 1.0%
 2026-10-27 03:49:33,actuelle,ACHAT,NETWORK,0.0001565270587,7654.97,score 61 coût 62.1%
 2026-10-27 03:50:34,actuelle,VENTE,NETWORK,9.549e-05,2870.39,stop-loss (-39%) PnL -4784.58$ coût 38.5%
+2026-10-27 03:59:31,hasard,VENTE,DESSA,0.0004333,5525.99,durée max 12h PnL -128.93$ coût 29.9%
+2026-10-27 03:59:31,hasard,ACHAT,Nothing,0.000778403074,5565.52,score 63 coût 15.0%
