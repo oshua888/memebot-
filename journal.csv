@@ -1893,3 +1893,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 02:08:32,prudente,ACHAT,ELON2028,0.001561706494,8.76,score 81 coût 1.0%
 2026-10-27 02:08:32,actuelle,VENTE,Nothing,0.0004121,4105.50,stop-loss (-37%) PnL -3756.21$ coût 17.3%
 2026-10-27 02:08:32,actuelle,ACHAT,ELON2028,0.001780667378,7788.39,score 81 coût 15.2%
+2026-10-27 02:16:39,hasard,VENTE,pumpcat,0.0006857,2545.40,palier +50% PnL +717.77$ coût 8.8%
