@@ -1917,3 +1917,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 04:04:31,hasard,VENTE,pumpcat,0.0004626,3279.68,trailing-stop PnL -430.96$ coût 14.2%
 2026-10-27 04:04:31,hasard,ACHAT,XD,0.0004963972043,5510.32,score 44 coût 18.0%
 2026-10-27 04:07:31,apprentie,VENTE,CHICO,0.00398,12.08,stop-loss (-26%) PnL -4.38$ coût 1.0%
+2026-10-27 04:09:32,hasard,VENTE,Nothing,0.0005437,3423.64,stop-loss (-30%) PnL -2141.89$ coût 11.9%
+2026-10-27 04:09:32,hasard,ACHAT,HELL,0.003434305995,5455.59,score 21 coût 8.1%
+2026-10-27 04:12:32,apprentie,ACHAT,Nothing,0.0004721051951,16.42,score 63 coût 1.0%
