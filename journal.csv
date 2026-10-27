@@ -1926,3 +1926,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 04:28:31,hasard,VENTE,RETIRED,0.0006522,3324.88,palier +100% PnL +1441.96$ coût 12.2%
 2026-10-27 04:30:31,prudente,VENTE,TRUMP2028,0.001396,5.97,palier +30% PnL +1.59$ coût 1.0%
 2026-10-27 04:30:31,apprentie,VENTE,TRUMP2028,0.001396,22.58,palier +25% PnL +6.07$ coût 1.0%
+2026-10-27 04:34:31,prudente,VENTE,TRUMP2028,0.001035,4.42,trailing-stop PnL +0.05$ coût 1.0%
