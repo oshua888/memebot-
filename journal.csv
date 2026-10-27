@@ -1980,3 +1980,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 11:25:39,agressive,VENTE,ELON2028,9.822e-05,1015.33,stop-loss (-81%) PnL -4731.90$ coût 9.1%
 2026-10-27 11:25:39,agressive,ACHAT,Nothing,0.001102932776,5579.27,score 77 coût 12.3%
 2026-10-27 11:36:38,apprentie,VENTE,RAYPAD,0.0001525,11.94,stop-loss (-27%) PnL -4.61$ coût 1.1%
+2026-10-27 11:43:38,apprentie,VENTE,1EDGE,0.000105,14.38,durée max 12h PnL -2.71$ coût 1.1%
