@@ -991,3 +991,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-28 04:46,2026-10-28 05:05,agressive,FRONGUS,boost,stop-loss (-41%),0.32,-53.21,69,33089,4.1,7.5,2.952,0.706,-3.95,4.48,-79.54,1
 2026-10-28 05:25,2026-10-28 05:27,prudente,FRONGUS,boost,stop-loss (-21%),0.03,-21.59,78,40051,4.85,8.2,2.655,0.712,9.98,39.03,-51.01,1
 2026-10-28 04:46,2026-10-28 05:49,apprentie,Something,boost+tendance,palier +25%,1.05,24.89,67,98004,11.91,7.4,2.581,0.831,0.06,-19.81,-2.44,1
+2026-10-27 20:05,2026-10-28 05:53,hasard,MOONX,boost,trailing-stop,9.79,0.48,54,37113,5.5,4.5,0.293,0.738,0.64,7.14,407,1

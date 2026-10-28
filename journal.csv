@@ -2143,3 +2143,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 05:27:39,prudente,VENTE,FRONGUS,0.0001562,6.81,stop-loss (-21%) PnL -1.88$ coût 1.0%
 2026-10-28 05:41:37,agressive,ACHAT,JOB,0.00194878611,4497.37,score 54 coût 8.9%
 2026-10-28 05:49:37,apprentie,VENTE,Something,0.001493,19.67,palier +25% PnL +3.92$ coût 1.0%
+2026-10-28 05:52:36,hasard,VENTE,MOONX,0.0005207,2931.94,palier +50% PnL +1220.92$ coût 10.8%
+2026-10-28 05:53:35,hasard,VENTE,MOONX,0.0002098,2277.90,trailing-stop PnL -1195.99$ coût 15.3%
+2026-10-28 05:53:35,hasard,ACHAT,Nothing,0.00112632981,4933.18,score 34 coût 10.2%
+2026-10-28 05:54:37,actuelle,ACHAT,Rapport,0.0005774179729,6485.33,score 62 coût 23.3%
+2026-10-28 05:54:37,apprentie,ACHAT,Rapport,0.0004733380526,15.79,score 62 coût 1.1%
