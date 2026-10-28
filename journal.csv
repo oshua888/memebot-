@@ -2125,3 +2125,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 00:58:15,apprentie,VENTE,Frongus,0.0002213,11.58,stop-loss (-28%) PnL -4.73$ coût 1.1%
 2026-10-28 00:59:16,agressive,VENTE,Frongus,0.0002014,2402.10,stop-loss (-43%) PnL -2473.98$ coût 13.6%
 2026-10-28 00:59:16,agressive,ACHAT,FRONGUS,0.0002915931374,4783.31,score 60 coût 23.3%
+2026-10-28 01:09:15,prudente,VENTE,N64,0.0001034,6.74,stop-loss (-22%) PnL -1.95$ coût 1.1%
+2026-10-28 01:09:15,apprentie,VENTE,N64,0.0001034,11.98,stop-loss (-26%) PnL -4.28$ coût 1.1%
