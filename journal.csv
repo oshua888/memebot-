@@ -2293,3 +2293,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 22:33:10,agressive,VENTE,INVERSE,0.001669,2705.40,palier +100% PnL +1278.90$ coût 5.6%
 2026-10-28 22:34:08,apprentie,VENTE,$CHIMP,0.0002068,23.49,palier +25% PnL +7.11$ coût 1.1%
 2026-10-28 22:37:08,apprentie,ACHAT,$CHIMP,0.0002075341081,16.53,score 28 coût 1.1%
+2026-10-28 22:38:08,apprentie,VENTE,$CHIMP,0.000144,11.34,stop-loss (-31%) PnL -5.18$ coût 1.1%
+2026-10-28 22:39:08,actuelle,ACHAT,$CHIMP,0.0002043898156,6068.20,score 60 coût 40.5%
+2026-10-28 22:40:08,actuelle,VENTE,$CHIMP,0.0001409,2983.57,stop-loss (-31%) PnL -3084.62$ coût 28.7%
