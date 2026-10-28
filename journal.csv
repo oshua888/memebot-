@@ -2206,3 +2206,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 14:37:52,hasard,VENTE,MOONX,0.000395,2615.64,palier +50% PnL +1015.85$ coût 11.1%
 2026-10-28 14:38:52,hasard,VENTE,MOONX,0.0001593,2029.85,trailing-stop PnL -1218.21$ coût 15.7%
 2026-10-28 14:38:52,hasard,ACHAT,Something,0.001572714497,4748.86,score 94 coût 9.4%
+2026-10-28 14:56:53,hasard,VENTE,Frongus,0.0001781,2836.49,stop-loss (-31%) PnL -2109.29$ coût 17.2%
+2026-10-28 14:56:53,hasard,ACHAT,STONKLANA,0.0001962997213,4712.04,score 32 coût 29.4%
+2026-10-28 14:58:54,hasard,VENTE,Something,0.001043,2912.66,stop-loss (-34%) PnL -1836.20$ coût 7.5%
+2026-10-28 14:58:54,hasard,ACHAT,INVERSE,0.0006269960183,4659.42,score 39 coût 14.3%
+2026-10-28 14:59:52,prudente,VENTE,INVERSE,0.0005081,6.69,stop-loss (-22%) PnL -1.96$ coût 1.0%
