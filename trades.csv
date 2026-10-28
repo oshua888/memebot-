@@ -1016,3 +1016,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-28 13:42,2026-10-28 14:01,actuelle,Robotaxi,tendance,stop-loss (-33%),0.32,-44.21,62,58475,5.51,11.1,1.172,0.527,-3.48,57.95,2.2,0
 2026-10-28 14:07,2026-10-28 14:08,actuelle,QUBIT,profil,stop-loss (-31%),0.02,-48.32,69,36163,4.43,2.3,7.502,0.629,23.96,25.26,259,0
 2026-10-26 16:02,2026-10-28 14:15,hasard,RETIRED,profil,trailing-stop,46.23,82.63,34,41552,5.97,3.6,0.876,0.465,7.08,3.7,371,0
+2026-10-28 13:12,2026-10-28 14:23,actuelle,INVERSE,tendance,stop-loss (-33%),1.18,-41.81,60,79036,8.89,15.6,1.06,0.503,12.14,55.62,27.4,0
