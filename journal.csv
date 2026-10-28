@@ -2159,3 +2159,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 06:11:37,actuelle,ACHAT,LAUNCH,0.001814757065,6449.50,score 60 coût 9.8%
 2026-10-28 06:12:35,agressive,VENTE,Rapport,0.0004453,2298.11,stop-loss (-43%) PnL -2181.41$ coût 9.9%
 2026-10-28 06:17:35,actuelle,VENTE,Rapport,0.0003659,3414.19,stop-loss (-37%) PnL -3071.14$ coût 16.9%
+2026-10-28 06:34:39,actuelle,ACHAT,wiener,0.0001241308323,6405.71,score 61 coût 50.8%
+2026-10-28 06:34:39,agressive,ACHAT,wiener,0.000111408462,4417.90,score 61 coût 35.4%
+2026-10-28 06:35:36,actuelle,VENTE,wiener,8.081e-05,2763.66,stop-loss (-35%) PnL -3642.05$ coût 33.7%
