@@ -2198,3 +2198,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 15:28:43,hasard,ACHAT,STONKLANA,0.000201559694,4733.14,score 30 coût 28.8%
 2026-10-28 15:31:44,apprentie,VENTE,ETH,0.000403,20.30,palier +25% PnL +4.53$ coût 1.1%
 2026-10-28 15:31:44,apprentie,ACHAT,RETIRED,0.0007966131039,15.86,score 22 coût 1.0%
+2026-10-28 15:39:44,hasard,VENTE,Something,0.0008061,2943.77,stop-loss (-32%) PnL -1801.43$ coût 8.6%
+2026-10-28 15:39:44,hasard,ACHAT,MOGZ,0.0006990930405,4678.46,score 45 coût 15.2%
+2026-10-28 15:40:50,agressive,VENTE,Something,0.0007485,2480.92,stop-loss (-42%) PnL -2155.80$ coût 7.5%
+2026-10-28 15:40:50,agressive,ACHAT,INVERSE,0.0008310253091,4322.71,score 61 coût 11.6%
