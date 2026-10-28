@@ -2314,3 +2314,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 23:03:08,agressive,VENTE,REMUS,0.001244,2520.74,stop-loss (-41%) PnL -1976.97$ coût 5.7%
 2026-10-28 23:03:08,agressive,ACHAT,DUBBLE,0.003283125017,4343.12,score 77 coût 6.3%
 2026-10-28 23:04:07,hasard,VENTE,DUBBLE,0.003173,2197.17,palier +50% PnL +687.33$ coût 3.7%
+2026-10-28 23:27:07,prudente,ACHAT,CATBOT,0.002181888618,8.67,score 83 coût 1.0%
