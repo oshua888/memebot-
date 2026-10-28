@@ -2119,3 +2119,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 00:43:15,apprentie,VENTE,JOB,0.002146,21.92,palier +25% PnL +5.52$ coût 1.0%
 2026-10-28 00:43:15,apprentie,ACHAT,JOB,0.002168012834,16.05,score 47 coût 1.0%
 2026-10-28 00:45:15,apprentie,VENTE,DICTATOR,0.0001156,11.27,stop-loss (-30%) PnL -5.11$ coût 1.1%
+2026-10-28 00:53:16,prudente,ACHAT,MOONX,0.0002152288045,8.72,score 70 coût 1.0%
