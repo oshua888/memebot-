@@ -2136,3 +2136,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 01:31:14,prudente,ACHAT,Something,0.001680896884,8.68,score 76 coût 1.0%
 2026-10-28 01:51:16,apprentie,VENTE,Something,0.001368,11.68,stop-loss (-26%) PnL -4.28$ coût 1.0%
 2026-10-28 01:56:15,prudente,VENTE,FRONGUS,0.0002049,6.76,stop-loss (-21%) PnL -1.93$ coût 1.0%
+2026-10-28 02:03:16,actuelle,VENTE,JOB,0.001597,4039.98,stop-loss (-32%) PnL -2553.59$ coût 9.3%
+2026-10-28 02:03:16,apprentie,VENTE,JOB,0.001597,11.70,stop-loss (-26%) PnL -4.35$ coût 1.0%
+2026-10-28 02:04:15,agressive,VENTE,CHICO,0.005649,5617.68,durée max 24h PnL -260.55$ coût 6.6%
+2026-10-28 02:04:15,agressive,ACHAT,Something,0.001742671103,4722.67,score 81 coût 9.5%
