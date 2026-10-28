@@ -2158,3 +2158,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 04:28:19,apprentie,ACHAT,STFD,0.0004874860668,15.90,score 62 coût 1.1%
 2026-10-28 04:29:26,prudente,VENTE,STFD,0.0005392,6.17,palier +30% PnL +1.84$ coût 1.0%
 2026-10-28 04:34:17,apprentie,ACHAT,ETH,0.0002630989825,15.91,score 25 coût 1.1%
+2026-10-28 04:37:17,prudente,VENTE,STFD,0.0003747,4.29,trailing-stop PnL -0.04$ coût 1.0%
+2026-10-28 04:37:17,prudente,ACHAT,STFD,0.0003785732292,8.67,score 77 coût 1.0%
+2026-10-28 04:39:18,apprentie,VENTE,STFD,0.000359,11.59,stop-loss (-26%) PnL -4.31$ coût 1.0%
