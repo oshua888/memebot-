@@ -2221,3 +2221,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 17:00:47,actuelle,VENTE,REMUS,0.001497,4113.89,stop-loss (-30%) PnL -2332.36$ coût 8.2%
 2026-10-28 17:00:47,hasard,VENTE,STONKLANA,0.0003353,2332.83,trailing-stop PnL +747.23$ coût 11.6%
 2026-10-28 17:00:47,hasard,ACHAT,jeff,0.0009506041082,4684.60,score 42 coût 15.9%
+2026-10-28 17:02:48,actuelle,ACHAT,DUBBLE,0.001892219409,6206.80,score 64 coût 11.8%
+2026-10-28 17:06:48,prudente,ACHAT,INVERSE,0.001024322998,8.65,score 70 coût 1.0%
