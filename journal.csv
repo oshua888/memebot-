@@ -2288,3 +2288,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 21:54:12,prudente,ACHAT,INVERSE,0.001351584838,8.60,score 70 coût 1.0%
 2026-10-28 21:54:12,actuelle,ACHAT,INVERSE,0.001495980422,6073.76,score 70 coût 11.8%
 2026-10-28 22:25:10,apprentie,ACHAT,Something,7.184857148e-05,16.31,score 42 coût 1.1%
+2026-10-28 22:31:09,apprentie,VENTE,$CHIMP,0.000141,20.18,palier +25% PnL +4.02$ coût 1.1%
+2026-10-28 22:31:09,apprentie,ACHAT,$CHIMP,0.0001425628914,16.38,score 56 coût 1.1%
