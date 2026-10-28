@@ -1072,3 +1072,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-28 12:06,2026-10-28 23:01,apprentie,REMUS,boost+tendance,stop-loss (-26%),10.9,-26.89,55,136043,12.79,108.9,0.53,0.718,0.9,-4.07,2.17,1
 2026-10-28 10:45,2026-10-28 23:03,agressive,REMUS,boost+tendance,stop-loss (-41%),12.29,-43.95,60,143305,13.44,107.6,0.353,0.962,1.9,4,16.07,1
 2026-10-28 23:31,2026-10-28 23:36,actuelle,CATCULUS,profil,stop-loss (-34%),0.08,-48.55,60,40130,5.21,2.0,17.885,0.694,-9.25,-62.54,216,0
+2026-10-28 23:27,2026-10-28 23:40,prudente,CATBOT,boost,trailing-stop,0.22,27.51,83,129758,16.54,2.7,7.02,0.706,-3.05,37.4,4128,1
