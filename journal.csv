@@ -2211,3 +2211,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 14:58:54,hasard,VENTE,Something,0.001043,2912.66,stop-loss (-34%) PnL -1836.20$ coût 7.5%
 2026-10-28 14:58:54,hasard,ACHAT,INVERSE,0.0006269960183,4659.42,score 39 coût 14.3%
 2026-10-28 14:59:52,prudente,VENTE,INVERSE,0.0005081,6.69,stop-loss (-22%) PnL -1.96$ coût 1.0%
+2026-10-28 15:01:52,hasard,VENTE,Robotaxi,0.0002418,2738.36,stop-loss (-34%) PnL -2061.04$ coût 14.0%
+2026-10-28 15:04:54,hasard,VENTE,STONKLANA,0.0001222,2327.60,stop-loss (-38%) PnL -2384.44$ coût 20.6%
