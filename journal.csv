@@ -2186,3 +2186,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 12:24:53,hasard,ACHAT,INVERSE,0.0005456127481,4815.93,score 43 coût 15.9%
 2026-10-28 12:42:52,agressive,ACHAT,Robotaxi,0.000246927141,4373.14,score 57 coût 20.3%
 2026-10-28 12:55:53,actuelle,ACHAT,Stonker,0.0003459254815,6329.74,score 63 coût 28.9%
+2026-10-28 13:02:58,actuelle,ACHAT,ENVAR,0.0002039681867,6281.18,score 60 coût 40.3%
+2026-10-28 13:04:53,actuelle,VENTE,ENVAR,0.0001408,3097.25,stop-loss (-31%) PnL -3183.94$ coût 28.6%
