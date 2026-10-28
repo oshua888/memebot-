@@ -2141,3 +2141,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 02:04:15,agressive,VENTE,CHICO,0.005649,5617.68,durée max 24h PnL -260.55$ coût 6.6%
 2026-10-28 02:04:15,agressive,ACHAT,Something,0.001742671103,4722.67,score 81 coût 9.5%
 2026-10-28 02:08:16,agressive,VENTE,SI,0.0003862,1904.08,stop-loss (-60%) PnL -3327.36$ coût 8.5%
+2026-10-28 02:21:16,prudente,VENTE,Something,0.001333,6.82,stop-loss (-21%) PnL -1.87$ coût 1.0%
