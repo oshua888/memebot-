@@ -2120,3 +2120,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 00:43:15,apprentie,ACHAT,JOB,0.002168012834,16.05,score 47 coût 1.0%
 2026-10-28 00:45:15,apprentie,VENTE,DICTATOR,0.0001156,11.27,stop-loss (-30%) PnL -5.11$ coût 1.1%
 2026-10-28 00:53:16,prudente,ACHAT,MOONX,0.0002152288045,8.72,score 70 coût 1.0%
+2026-10-28 00:58:15,prudente,VENTE,CHICO,0.005488,6.85,stop-loss (-21%) PnL -1.91$ coût 1.0%
+2026-10-28 00:58:15,prudente,VENTE,Frongus,0.0002213,6.64,stop-loss (-23%) PnL -2.09$ coût 1.0%
+2026-10-28 00:58:15,apprentie,VENTE,Frongus,0.0002213,11.58,stop-loss (-28%) PnL -4.73$ coût 1.1%
+2026-10-28 00:59:16,agressive,VENTE,Frongus,0.0002014,2402.10,stop-loss (-43%) PnL -2473.98$ coût 13.6%
+2026-10-28 00:59:16,agressive,ACHAT,FRONGUS,0.0002915931374,4783.31,score 60 coût 23.3%
