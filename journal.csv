@@ -2321,3 +2321,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 23:39:08,prudente,VENTE,CATBOT,0.003122,6.14,palier +30% PnL +1.81$ coût 1.0%
 2026-10-28 23:39:08,actuelle,VENTE,CATBOT,0.003122,3007.80,palier +50% PnL +1016.86$ coût 5.0%
 2026-10-28 23:40:09,prudente,VENTE,CATBOT,0.002499,4.91,trailing-stop PnL +0.58$ coût 1.0%
+2026-10-28 23:43:07,apprentie,VENTE,Something,3.089e-06,0.69,stop-loss (-96%) PnL -15.61$ coût 1.0%
