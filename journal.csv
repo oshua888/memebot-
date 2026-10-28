@@ -2167,3 +2167,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 06:53:35,hasard,ACHAT,ENVAR,0.0001780721292,4896.27,score 28 coût 33.2%
 2026-10-28 07:04:35,prudente,VENTE,Something,0.001364,4.76,trailing-stop PnL +0.42$ coût 1.0%
 2026-10-28 07:04:35,prudente,ACHAT,Something,0.00137786114,8.65,score 71 coût 1.0%
+2026-10-28 07:24:35,apprentie,ACHAT,REMUS,0.001760840745,15.83,score 32 coût 1.0%
+2026-10-28 07:25:35,apprentie,VENTE,JOB,0.001987,20.30,palier +25% PnL +3.89$ coût 1.0%
+2026-10-28 07:25:35,apprentie,ACHAT,JOB,0.002007391392,15.83,score 54 coût 1.0%
