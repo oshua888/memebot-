@@ -2204,3 +2204,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 15:40:50,agressive,ACHAT,INVERSE,0.0008310253091,4322.71,score 61 coût 11.6%
 2026-10-28 15:49:43,hasard,VENTE,Rapport,6.579e-05,1311.29,stop-loss (-68%) PnL -3470.88$ coût 14.7%
 2026-10-28 15:49:43,hasard,ACHAT,Robotaxi,0.0002311357176,4616.45,score 41 coût 22.3%
+2026-10-28 16:22:48,hasard,VENTE,Robotaxi,0.0001508,2511.15,stop-loss (-35%) PnL -2105.30$ coût 16.6%
+2026-10-28 16:22:48,hasard,ACHAT,GLITCH,0.00337798191,4588.93,score 32 coût 6.8%
+2026-10-28 16:25:47,agressive,VENTE,Robotaxi,0.0001481,2236.25,stop-loss (-40%) PnL -2136.90$ coût 14.7%
