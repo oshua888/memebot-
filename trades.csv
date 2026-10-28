@@ -996,3 +996,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-27 20:42,2026-10-28 06:00,agressive,NETWORK,boost,stop-loss (-40%),9.29,-56.15,54,26357,3.77,70.9,0.264,0.584,0.45,11,42.58,1
 2026-10-28 06:02,2026-10-28 06:10,prudente,Rapport,boost+profil,stop-loss (-20%),0.13,-21.05,78,65492,8.63,2.1,6.351,0.702,-1.99,52.44,1230,1
 2026-10-28 05:58,2026-10-28 06:10,apprentie,Rapport,boost+profil,stop-loss (-25%),0.2,-25.87,48,67505,8.91,2.1,5.773,0.705,44.82,86.86,1316,1
+2026-10-28 06:01,2026-10-28 06:12,agressive,Rapport,boost+profil,stop-loss (-43%),0.18,-48.7,63,71052,9.34,2.1,5.693,0.704,20.39,76.75,1461,1
