@@ -2325,3 +2325,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 23:50:07,hasard,VENTE,DUBBLE,0.003341,2346.20,trailing-stop PnL +813.47$ coût 3.8%
 2026-10-28 23:50:07,hasard,ACHAT,CATBOT,0.00266286565,4652.72,score 65 coût 7.7%
 2026-10-28 23:52:07,prudente,ACHAT,CATBOT,0.002422283756,8.69,score 80 coût 1.0%
+2026-10-28 23:53:07,actuelle,VENTE,CATBOT,0.0023,4356.26,trailing-stop PnL +314.04$ coût 8.1%
+2026-10-28 23:53:07,actuelle,ACHAT,CATBOT,0.002528067082,5986.54,score 79 coût 9.9%
+2026-10-28 23:53:07,actuelle,ACHAT,MOONX,0.0001883776878,5965.81,score 67 coût 40.5%
+2026-10-28 23:56:09,actuelle,VENTE,MOONX,0.0001305,2944.39,stop-loss (-31%) PnL -3021.42$ coût 28.8%
+2026-10-28 23:56:09,actuelle,ACHAT,paws,0.0006122949082,5911.02,score 60 coût 19.3%
