@@ -2238,3 +2238,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 17:52:51,actuelle,ACHAT,STONKLANA,0.0005670571296,6229.55,score 60 coût 22.0%
 2026-10-28 17:55:47,apprentie,VENTE,DUBBLE,0.002707,21.15,palier +25% PnL +5.08$ coût 1.0%
 2026-10-28 17:55:47,apprentie,ACHAT,DUBBLE,0.002734664951,16.19,score 63 coût 1.0%
+2026-10-28 17:58:47,actuelle,VENTE,DUBBLE,0.003032,3111.57,palier +50% PnL +1063.32$ coût 5.2%
+2026-10-28 17:59:48,actuelle,ACHAT,Robotaxi,0.0002501304861,6276.38,score 64 coût 29.5%
+2026-10-28 18:00:49,apprentie,VENTE,STONKLANA,0.0006723,20.55,palier +25% PnL +4.48$ coût 1.1%
+2026-10-28 18:00:49,apprentie,ACHAT,STONKLANA,0.0006793295961,16.37,score 29 coût 1.0%
