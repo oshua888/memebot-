@@ -2203,3 +2203,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 14:15:52,hasard,VENTE,RETIRED,0.0008878,4444.55,trailing-stop PnL +2561.63$ coût 13.8%
 2026-10-28 14:15:52,hasard,ACHAT,RETIRED,0.00100105581,4737.68,score 26 coût 12.8%
 2026-10-28 14:23:52,actuelle,VENTE,INVERSE,0.0005478,3611.99,stop-loss (-33%) PnL -2595.48$ coût 12.9%
+2026-10-28 14:37:52,hasard,VENTE,MOONX,0.000395,2615.64,palier +50% PnL +1015.85$ coût 11.1%
+2026-10-28 14:38:52,hasard,VENTE,MOONX,0.0001593,2029.85,trailing-stop PnL -1218.21$ coût 15.7%
+2026-10-28 14:38:52,hasard,ACHAT,Something,0.001572714497,4748.86,score 94 coût 9.4%
