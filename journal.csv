@@ -2225,3 +2225,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 17:06:48,prudente,ACHAT,INVERSE,0.001024322998,8.65,score 70 coût 1.0%
 2026-10-28 17:08:47,actuelle,VENTE,GLITCH,0.002978,5205.23,durée max 12h PnL -1288.47$ coût 8.4%
 2026-10-28 17:13:48,prudente,ACHAT,DUBBLE,0.002070779022,8.65,score 80 coût 1.0%
+2026-10-28 17:27:47,actuelle,VENTE,INVERSE,0.001231,2865.03,palier +50% PnL +816.56$ coût 6.8%
+2026-10-28 17:28:48,prudente,VENTE,DUBBLE,0.001487,6.15,stop-loss (-28%) PnL -2.50$ coût 1.0%
+2026-10-28 17:29:48,apprentie,VENTE,RETIRED,0.0005891,11.61,stop-loss (-26%) PnL -4.25$ coût 1.0%
+2026-10-28 17:29:48,apprentie,ACHAT,DUBBLE,0.001570998302,15.94,score 63 coût 1.0%
