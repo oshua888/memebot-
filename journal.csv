@@ -2165,3 +2165,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 06:41:35,agressive,VENTE,wiener,5.392e-05,1661.39,stop-loss (-52%) PnL -2756.51$ coût 22.3%
 2026-10-28 06:53:35,hasard,VENTE,Nothing,0.0007707,3096.96,stop-loss (-32%) PnL -1836.21$ coût 8.3%
 2026-10-28 06:53:35,hasard,ACHAT,ENVAR,0.0001780721292,4896.27,score 28 coût 33.2%
+2026-10-28 07:04:35,prudente,VENTE,Something,0.001364,4.76,trailing-stop PnL +0.42$ coût 1.0%
+2026-10-28 07:04:35,prudente,ACHAT,Something,0.00137786114,8.65,score 71 coût 1.0%
