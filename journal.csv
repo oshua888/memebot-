@@ -2179,3 +2179,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 11:47:54,actuelle,VENTE,Something,0.001231,4036.53,stop-loss (-30%) PnL -2368.40$ coût 9.5%
 2026-10-28 12:06:54,apprentie,ACHAT,REMUS,0.001783060224,15.81,score 55 coût 1.0%
 2026-10-28 12:06:54,apprentie,ACHAT,GLITCH,0.003427583352,15.80,score 42 coût 1.0%
+2026-10-28 12:15:54,hasard,VENTE,REMUS,0.001711,4780.31,durée max 12h PnL -63.24$ coût 8.8%
+2026-10-28 12:15:54,hasard,ACHAT,MOONX,0.000214768537,4847.86,score 48 coût 29.9%
