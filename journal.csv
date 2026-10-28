@@ -2198,3 +2198,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 13:54:54,hasard,VENTE,Rapport,0.0001927,2665.59,stop-loss (-33%) PnL -2180.79$ coût 17.5%
 2026-10-28 13:54:54,hasard,ACHAT,Robotaxi,0.0003645653489,4799.41,score 50 coût 18.3%
 2026-10-28 14:01:54,actuelle,VENTE,Robotaxi,0.0002762,3449.28,stop-loss (-33%) PnL -2733.77$ coût 16.8%
+2026-10-28 14:07:52,actuelle,ACHAT,QUBIT,0.0002235740507,6119.78,score 69 coût 34.8%
+2026-10-28 14:08:53,actuelle,VENTE,QUBIT,0.0001546,3162.66,stop-loss (-31%) PnL -2957.13$ coût 25.3%
