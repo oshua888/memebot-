@@ -2218,3 +2218,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 16:54:48,apprentie,VENTE,STONKLANA,0.0003841,27.17,palier +25% PnL +11.43$ coût 1.1%
 2026-10-28 16:54:48,apprentie,ACHAT,STONKLANA,0.0003881701005,15.96,score 36 coût 1.1%
 2026-10-28 16:56:56,hasard,VENTE,STONKLANA,0.0004482,3062.65,palier +100% PnL +1477.05$ coût 13.1%
+2026-10-28 17:00:47,actuelle,VENTE,REMUS,0.001497,4113.89,stop-loss (-30%) PnL -2332.36$ coût 8.2%
+2026-10-28 17:00:47,hasard,VENTE,STONKLANA,0.0003353,2332.83,trailing-stop PnL +747.23$ coût 11.6%
+2026-10-28 17:00:47,hasard,ACHAT,jeff,0.0009506041082,4684.60,score 42 coût 15.9%
