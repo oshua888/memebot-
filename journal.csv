@@ -2229,3 +2229,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 17:28:48,prudente,VENTE,DUBBLE,0.001487,6.15,stop-loss (-28%) PnL -2.50$ coût 1.0%
 2026-10-28 17:29:48,apprentie,VENTE,RETIRED,0.0005891,11.61,stop-loss (-26%) PnL -4.25$ coût 1.0%
 2026-10-28 17:29:48,apprentie,ACHAT,DUBBLE,0.001570998302,15.94,score 63 coût 1.0%
+2026-10-28 17:35:48,hasard,VENTE,jeff,0.0006112,2647.70,stop-loss (-36%) PnL -2036.89$ coût 12.1%
+2026-10-28 17:35:48,hasard,ACHAT,STONKLANA,0.000509279908,4648.97,score 47 coût 17.3%
