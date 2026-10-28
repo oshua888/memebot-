@@ -2112,54 +2112,28 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 00:15:21,hasard,ACHAT,REMUS,0.001580251338,4843.54,score 46 coût 9.0%
 2026-10-28 00:20:17,agressive,VENTE,meat,0.000182,2424.11,stop-loss (-42%) PnL -2524.57$ coût 15.5%
 2026-10-28 00:20:17,agressive,ACHAT,Frongus,0.0003532564391,4876.08,score 62 coût 19.1%
-2026-10-28 00:32:18,apprentie,ACHAT,GLITCH,0.003020527402,16.01,score 46 coût 1.0%
-2026-10-28 00:35:15,prudente,ACHAT,Frongus,0.0002879442562,8.73,score 76 coût 1.0%
-2026-10-28 00:42:15,hasard,VENTE,MOONX,0.0001717,2612.39,stop-loss (-37%) PnL -2572.51$ coût 20.5%
-2026-10-28 00:42:15,hasard,ACHAT,NETWORK,0.0001348571387,4850.82,score 32 coût 39.2%
-2026-10-28 00:43:15,apprentie,VENTE,JOB,0.002146,21.92,palier +25% PnL +5.52$ coût 1.0%
-2026-10-28 00:43:15,apprentie,ACHAT,JOB,0.002168012834,16.05,score 47 coût 1.0%
-2026-10-28 00:45:15,apprentie,VENTE,DICTATOR,0.0001156,11.27,stop-loss (-30%) PnL -5.11$ coût 1.1%
-2026-10-28 00:53:16,prudente,ACHAT,MOONX,0.0002152288045,8.72,score 70 coût 1.0%
-2026-10-28 00:58:15,prudente,VENTE,CHICO,0.005488,6.85,stop-loss (-21%) PnL -1.91$ coût 1.0%
-2026-10-28 00:58:15,prudente,VENTE,Frongus,0.0002213,6.64,stop-loss (-23%) PnL -2.09$ coût 1.0%
-2026-10-28 00:58:15,apprentie,VENTE,Frongus,0.0002213,11.58,stop-loss (-28%) PnL -4.73$ coût 1.1%
-2026-10-28 00:59:16,agressive,VENTE,Frongus,0.0002014,2402.10,stop-loss (-43%) PnL -2473.98$ coût 13.6%
-2026-10-28 00:59:16,agressive,ACHAT,FRONGUS,0.0002915931374,4783.31,score 60 coût 23.3%
-2026-10-28 01:09:15,prudente,VENTE,N64,0.0001034,6.74,stop-loss (-22%) PnL -1.95$ coût 1.1%
-2026-10-28 01:09:15,apprentie,VENTE,N64,0.0001034,11.98,stop-loss (-26%) PnL -4.28$ coût 1.1%
-2026-10-28 01:13:15,prudente,ACHAT,FRONGUS,0.0002606800266,8.69,score 75 coût 1.0%
-2026-10-28 01:14:15,actuelle,ACHAT,JOB,0.002364725362,6593.57,score 60 coût 11.6%
-2026-10-28 01:24:16,apprentie,ACHAT,Something,0.001374027515,15.91,score 34 coût 1.0%
-2026-10-28 01:28:15,actuelle,ACHAT,Something,0.001887242285,6545.77,score 64 coût 12.6%
-2026-10-28 01:30:15,apprentie,VENTE,Something,0.001832,20.99,palier +25% PnL +5.08$ coût 1.0%
-2026-10-28 01:30:15,apprentie,ACHAT,Something,0.001850815069,15.96,score 57 coût 1.0%
-2026-10-28 01:31:14,prudente,ACHAT,Something,0.001680896884,8.68,score 76 coût 1.0%
-2026-10-28 01:51:16,apprentie,VENTE,Something,0.001368,11.68,stop-loss (-26%) PnL -4.28$ coût 1.0%
-2026-10-28 01:56:15,prudente,VENTE,FRONGUS,0.0002049,6.76,stop-loss (-21%) PnL -1.93$ coût 1.0%
-2026-10-28 02:03:16,actuelle,VENTE,JOB,0.001597,4039.98,stop-loss (-32%) PnL -2553.59$ coût 9.3%
-2026-10-28 02:03:16,apprentie,VENTE,JOB,0.001597,11.70,stop-loss (-26%) PnL -4.35$ coût 1.0%
-2026-10-28 02:04:15,agressive,VENTE,CHICO,0.005649,5617.68,durée max 24h PnL -260.55$ coût 6.6%
-2026-10-28 02:04:15,agressive,ACHAT,Something,0.001742671103,4722.67,score 81 coût 9.5%
-2026-10-28 02:08:16,agressive,VENTE,SI,0.0003862,1904.08,stop-loss (-60%) PnL -3327.36$ coût 8.5%
-2026-10-28 02:21:16,prudente,VENTE,Something,0.001333,6.82,stop-loss (-21%) PnL -1.87$ coût 1.0%
-2026-10-28 02:27:16,agressive,ACHAT,JOB,0.001959534104,4631.75,score 51 coût 9.1%
-2026-10-28 02:31:15,actuelle,VENTE,Something,0.001279,3999.68,stop-loss (-32%) PnL -2546.09$ coût 9.8%
-2026-10-28 02:38:15,hasard,VENTE,NETWORK,9.369e-05,2427.82,stop-loss (-31%) PnL -2423.01$ coût 28.0%
-2026-10-28 02:38:15,hasard,ACHAT,LAUNCH,0.001759819247,4816.11,score 26 coût 7.6%
-2026-10-28 02:47:16,agressive,VENTE,FRONGUS,0.0001407,1963.33,stop-loss (-52%) PnL -2819.98$ coût 14.9%
-2026-10-28 03:30:18,agressive,ACHAT,INVERSE,0.0005566106297,4578.93,score 55 coût 15.2%
-2026-10-28 03:30:18,apprentie,ACHAT,INVERSE,0.000488269778,15.88,score 55 coût 1.0%
-2026-10-28 03:37:16,actuelle,ACHAT,LAUNCH,0.001893966071,6491.58,score 60 coût 9.5%
-2026-10-28 04:08:18,apprentie,ACHAT,CHICO,0.005293204661,15.86,score 54 coût 1.0%
-2026-10-28 04:22:17,prudente,ACHAT,STFD,0.0003742296007,8.66,score 77 coût 1.0%
-2026-10-28 04:22:17,actuelle,ACHAT,STFD,0.000467939525,6466.52,score 77 coût 26.3%
-2026-10-28 04:22:17,apprentie,ACHAT,STFD,0.0003743333537,15.81,score 77 coût 1.1%
-2026-10-28 04:28:19,apprentie,VENTE,STFD,0.0004824,20.15,palier +25% PnL +4.35$ coût 1.1%
-2026-10-28 04:28:19,apprentie,ACHAT,STFD,0.0004874860668,15.90,score 62 coût 1.1%
-2026-10-28 04:29:26,prudente,VENTE,STFD,0.0005392,6.17,palier +30% PnL +1.84$ coût 1.0%
-2026-10-28 04:34:17,apprentie,ACHAT,ETH,0.0002630989825,15.91,score 25 coût 1.1%
-2026-10-28 04:37:17,prudente,VENTE,STFD,0.0003747,4.29,trailing-stop PnL -0.04$ coût 1.0%
-2026-10-28 04:37:17,prudente,ACHAT,STFD,0.0003785732292,8.67,score 77 coût 1.0%
-2026-10-28 04:39:18,apprentie,VENTE,STFD,0.000359,11.59,stop-loss (-26%) PnL -4.31$ coût 1.0%
-2026-10-28 04:43:18,prudente,VENTE,STFD,0.0002523,5.72,stop-loss (-33%) PnL -2.95$ coût 1.0%
-2026-10-28 04:43:18,actuelle,VENTE,STFD,0.0002523,2872.41,stop-loss (-46%) PnL -3594.11$ coût 17.6%
+2026-10-28 04:46:38,prudente,VENTE,N64,9.492e-05,6.19,stop-loss (-28%) PnL -2.50$ coût 1.0%
+2026-10-28 04:46:38,prudente,VENTE,CHICO,0.005119,6.39,stop-loss (-26%) PnL -2.37$ coût 1.0%
+2026-10-28 04:46:38,actuelle,ACHAT,Something,0.001340275982,6593.57,score 67 coût 14.5%
+2026-10-28 04:46:38,actuelle,ACHAT,STFD,0.0004672466702,6562.22,score 61 coût 26.7%
+2026-10-28 04:46:38,agressive,VENTE,CHICO,0.005119,5106.31,durée max 24h PnL -771.92$ coût 6.3%
+2026-10-28 04:46:38,agressive,VENTE,SI,0.0002647,1323.94,stop-loss (-73%) PnL -3907.50$ coût 7.2%
+2026-10-28 04:46:38,agressive,VENTE,Frongus,0.0001895,2272.97,stop-loss (-46%) PnL -2603.10$ coût 13.1%
+2026-10-28 04:46:38,agressive,ACHAT,FRONGUS,0.0001764603432,4693.64,score 69 coût 29.4%
+2026-10-28 04:46:38,agressive,ACHAT,Something,0.001293513166,4636.71,score 67 coût 10.5%
+2026-10-28 04:46:38,agressive,ACHAT,STFD,0.0004391081614,4611.49,score 61 coût 19.0%
+2026-10-28 04:46:38,apprentie,VENTE,N64,9.492e-05,11.00,stop-loss (-32%) PnL -5.26$ coût 1.1%
+2026-10-28 04:46:38,apprentie,VENTE,Frongus,0.0001895,9.91,stop-loss (-39%) PnL -6.39$ coût 1.0%
+2026-10-28 04:46:38,apprentie,VENTE,DICTATOR,9.382e-05,9.15,stop-loss (-44%) PnL -7.23$ coût 1.1%
+2026-10-28 04:46:38,apprentie,ACHAT,ETH,0.0003096737388,15.77,score 49 coût 1.1%
+2026-10-28 04:46:38,apprentie,ACHAT,STFD,0.000372816408,15.77,score 61 coût 1.1%
+2026-10-28 04:46:38,apprentie,ACHAT,CHICO,0.005170979285,15.76,score 56 coût 1.0%
+2026-10-28 04:46:38,apprentie,ACHAT,Something,0.001183086431,15.75,score 67 coût 1.0%
+2026-10-28 04:48:38,prudente,ACHAT,STFD,0.0003882711008,8.71,score 76 coût 1.0%
+2026-10-28 04:50:37,prudente,VENTE,STFD,0.0002369,5.26,stop-loss (-39%) PnL -3.45$ coût 1.0%
+2026-10-28 04:50:37,prudente,ACHAT,Something,0.001230391323,8.67,score 77 coût 1.0%
+2026-10-28 04:50:37,actuelle,VENTE,STFD,0.0002369,2749.29,stop-loss (-49%) PnL -3812.93$ coût 17.4%
+2026-10-28 04:50:37,agressive,VENTE,STFD,0.0002369,2158.53,stop-loss (-46%) PnL -2452.96$ coût 13.2%
+2026-10-28 04:50:37,agressive,ACHAT,ETH,0.0004047970021,4540.46,score 51 coût 19.7%
+2026-10-28 04:50:37,apprentie,VENTE,STFD,0.0002369,9.91,stop-loss (-36%) PnL -5.85$ coût 1.0%
+2026-10-28 04:50:37,apprentie,ACHAT,ENVAR,0.0001488161906,15.68,score 35 coût 1.1%
