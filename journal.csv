@@ -2296,3 +2296,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 22:38:08,apprentie,VENTE,$CHIMP,0.000144,11.34,stop-loss (-31%) PnL -5.18$ coût 1.1%
 2026-10-28 22:39:08,actuelle,ACHAT,$CHIMP,0.0002043898156,6068.20,score 60 coût 40.5%
 2026-10-28 22:40:08,actuelle,VENTE,$CHIMP,0.0001409,2983.57,stop-loss (-31%) PnL -3084.62$ coût 28.7%
+2026-10-28 22:48:09,prudente,ACHAT,CATBOT,0.001228378757,8.62,score 80 coût 1.0%
+2026-10-28 22:48:09,actuelle,ACHAT,CATBOT,0.001380592409,6005.88,score 80 coût 13.5%
+2026-10-28 22:48:09,apprentie,ACHAT,CATBOT,0.001228576591,16.41,score 80 coût 1.0%
