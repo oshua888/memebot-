@@ -2181,3 +2181,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 12:06:54,apprentie,ACHAT,GLITCH,0.003427583352,15.80,score 42 coût 1.0%
 2026-10-28 12:15:54,hasard,VENTE,REMUS,0.001711,4780.31,durée max 12h PnL -63.24$ coût 8.8%
 2026-10-28 12:15:54,hasard,ACHAT,MOONX,0.000214768537,4847.86,score 48 coût 29.9%
+2026-10-28 12:23:55,agressive,VENTE,N64,7.739e-05,2190.88,stop-loss (-42%) PnL -3018.37$ coût 26.9%
+2026-10-28 12:24:53,hasard,VENTE,LAUNCH,0.001296,3187.06,stop-loss (-31%) PnL -1717.31$ coût 6.1%
+2026-10-28 12:24:53,hasard,ACHAT,INVERSE,0.0005456127481,4815.93,score 43 coût 15.9%
