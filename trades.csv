@@ -994,3 +994,5 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-27 20:05,2026-10-28 05:53,hasard,MOONX,boost,trailing-stop,9.79,0.48,54,37113,5.5,4.5,0.293,0.738,0.64,7.14,407,1
 2026-10-28 05:54,2026-10-28 05:58,apprentie,Rapport,boost+profil,palier +25%,0.07,30.39,62,58231,7.76,2.0,6.524,0.706,18.9,72.77,963,1
 2026-10-27 20:42,2026-10-28 06:00,agressive,NETWORK,boost,stop-loss (-40%),9.29,-56.15,54,26357,3.77,70.9,0.264,0.584,0.45,11,42.58,1
+2026-10-28 06:02,2026-10-28 06:10,prudente,Rapport,boost+profil,stop-loss (-20%),0.13,-21.05,78,65492,8.63,2.1,6.351,0.702,-1.99,52.44,1230,1
+2026-10-28 05:58,2026-10-28 06:10,apprentie,Rapport,boost+profil,stop-loss (-25%),0.2,-25.87,48,67505,8.91,2.1,5.773,0.705,44.82,86.86,1316,1
