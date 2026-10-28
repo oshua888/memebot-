@@ -2101,3 +2101,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-27 23:57:19,actuelle,VENTE,SI,0.0007324,3785.68,stop-loss (-35%) PnL -2895.53$ coût 12.3%
 2026-10-27 23:58:16,apprentie,VENTE,Frongus,0.0003052,20.22,palier +25% PnL +3.97$ coût 1.1%
 2026-10-27 23:58:16,apprentie,ACHAT,Frongus,0.0003084346063,16.31,score 61 coût 1.1%
+2026-10-28 00:06:16,apprentie,VENTE,JOB,0.001573,21.24,palier +25% PnL +4.92$ coût 1.0%
+2026-10-28 00:06:16,apprentie,ACHAT,JOB,0.001589215065,16.40,score 45 coût 1.0%
+2026-10-28 00:07:17,apprentie,VENTE,GLITCH,0.003052,20.88,palier +25% PnL +4.06$ coût 1.0%
+2026-10-28 00:07:17,apprentie,ACHAT,DICTATOR,0.0001661971199,16.38,score 42 coût 1.1%
