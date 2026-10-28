@@ -2105,3 +2105,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 00:06:16,apprentie,ACHAT,JOB,0.001589215065,16.40,score 45 coût 1.0%
 2026-10-28 00:07:17,apprentie,VENTE,GLITCH,0.003052,20.88,palier +25% PnL +4.06$ coût 1.0%
 2026-10-28 00:07:17,apprentie,ACHAT,DICTATOR,0.0001661971199,16.38,score 42 coût 1.1%
+2026-10-28 00:11:15,hasard,VENTE,DOAS,5.271e-05,534.62,stop-loss (-89%) PnL -4593.25$ coût 7.4%
+2026-10-28 00:11:15,hasard,ACHAT,JOB,0.001766662732,4873.18,score 46 coût 10.1%
+2026-10-28 00:11:15,apprentie,VENTE,DOAS,5.271e-05,1.78,stop-loss (-89%) PnL -14.54$ coût 1.0%
+2026-10-28 00:15:21,hasard,VENTE,N64,0.0001285,2617.79,stop-loss (-31%) PnL -2403.07$ coût 24.2%
+2026-10-28 00:15:21,hasard,ACHAT,REMUS,0.001580251338,4843.54,score 46 coût 9.0%
