@@ -2285,3 +2285,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 21:25:08,actuelle,VENTE,jeff,0.0003908,2979.86,stop-loss (-41%) PnL -3157.04$ coût 17.1%
 2026-10-28 21:40:08,apprentie,ACHAT,$CHIMP,0.0001116387326,16.16,score 29 coût 1.1%
 2026-10-28 21:45:09,apprentie,VENTE,ANTS,0.0007933,22.73,palier +25% PnL +6.45$ coût 1.1%
+2026-10-28 21:54:12,prudente,ACHAT,INVERSE,0.001351584838,8.60,score 70 coût 1.0%
+2026-10-28 21:54:12,actuelle,ACHAT,INVERSE,0.001495980422,6073.76,score 70 coût 11.8%
