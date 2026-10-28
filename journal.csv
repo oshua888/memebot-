@@ -2175,3 +2175,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 11:02:52,apprentie,VENTE,CHICO,0.003677,11.09,stop-loss (-29%) PnL -4.67$ coût 1.0%
 2026-10-28 11:34:54,actuelle,VENTE,Something,0.00158,4697.17,trailing-stop PnL +279.48$ coût 9.8%
 2026-10-28 11:34:54,actuelle,ACHAT,Something,0.001766915363,6404.93,score 86 coût 11.8%
+2026-10-28 11:38:54,prudente,VENTE,Something,0.001373,6.82,stop-loss (-21%) PnL -1.86$ coût 1.0%
