@@ -2175,3 +2175,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 08:46:33,actuelle,ACHAT,JOB,0.002512146063,6337.53,score 60 coût 10.8%
 2026-10-28 08:50:33,agressive,ACHAT,ENVAR,0.0001987032002,4270.35,score 51 coût 26.6%
 2026-10-28 09:15:34,agressive,VENTE,INVERSE,0.0003894,2337.25,stop-loss (-40%) PnL -1993.05$ coût 9.8%
+2026-10-28 09:19:33,apprentie,VENTE,JOB,0.00252,19.66,palier +25% PnL +3.84$ coût 1.0%
+2026-10-28 09:19:33,apprentie,ACHAT,JOB,0.002545786542,15.91,score 65 coût 1.0%
