@@ -2209,3 +2209,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 16:25:47,agressive,VENTE,Robotaxi,0.0001481,2236.25,stop-loss (-40%) PnL -2136.90$ coût 14.7%
 2026-10-28 16:27:48,hasard,VENTE,INVERSE,0.0008265,2248.91,palier +50% PnL +659.66$ coût 6.6%
 2026-10-28 16:44:47,agressive,ACHAT,MOGZ,0.0006039921146,4305.04,score 50 coût 15.1%
+2026-10-28 16:49:49,hasard,VENTE,MOGZ,0.0004844,2851.49,stop-loss (-31%) PnL -1826.96$ coût 12.0%
+2026-10-28 16:49:49,hasard,ACHAT,RETIRED,0.0007179352813,4593.10,score 22 coût 14.6%
+2026-10-28 16:50:48,apprentie,VENTE,ENVAR,0.0001362,14.20,durée max 12h PnL -1.49$ coût 1.1%
+2026-10-28 16:50:48,apprentie,ACHAT,STONKLANA,0.000220047535,15.74,score 42 coût 1.1%
+2026-10-28 16:51:48,hasard,VENTE,INVERSE,0.001101,3010.70,palier +100% PnL +1397.36$ coût 7.5%
