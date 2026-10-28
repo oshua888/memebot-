@@ -2130,3 +2130,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 01:13:15,prudente,ACHAT,FRONGUS,0.0002606800266,8.69,score 75 coût 1.0%
 2026-10-28 01:14:15,actuelle,ACHAT,JOB,0.002364725362,6593.57,score 60 coût 11.6%
 2026-10-28 01:24:16,apprentie,ACHAT,Something,0.001374027515,15.91,score 34 coût 1.0%
+2026-10-28 01:28:15,actuelle,ACHAT,Something,0.001887242285,6545.77,score 64 coût 12.6%
+2026-10-28 01:30:15,apprentie,VENTE,Something,0.001832,20.99,palier +25% PnL +5.08$ coût 1.0%
+2026-10-28 01:30:15,apprentie,ACHAT,Something,0.001850815069,15.96,score 57 coût 1.0%
