@@ -2178,3 +2178,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 09:19:33,apprentie,VENTE,JOB,0.00252,19.66,palier +25% PnL +3.84$ coût 1.0%
 2026-10-28 09:19:33,apprentie,ACHAT,JOB,0.002545786542,15.91,score 65 coût 1.0%
 2026-10-28 09:24:31,hasard,VENTE,JOB,0.002653,2307.68,palier +50% PnL +699.53$ coût 4.4%
+2026-10-28 10:03:32,actuelle,ACHAT,REMUS,0.002144521273,6344.81,score 67 coût 9.9%
+2026-10-28 10:03:32,agressive,ACHAT,REMUS,0.002088028688,4272.95,score 67 coût 7.0%
+2026-10-28 10:05:32,hasard,VENTE,███,0.0006,3125.74,stop-loss (-31%) PnL -1848.36$ coût 9.5%
+2026-10-28 10:05:32,hasard,ACHAT,Something,0.001675667923,4899.15,score 84 coût 9.5%
