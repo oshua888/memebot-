@@ -2262,3 +2262,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 19:00:50,prudente,VENTE,STONKLANA,0.0004511,6.84,stop-loss (-20%) PnL -1.81$ coût 1.0%
 2026-10-28 19:01:56,actuelle,VENTE,STONKLANA,0.0003805,3493.33,stop-loss (-33%) PnL -2736.22$ coût 16.4%
 2026-10-28 19:01:57,apprentie,ACHAT,DIOR,0.0009781368943,16.22,score 21 coût 1.1%
+2026-10-28 19:04:50,actuelle,ACHAT,INVERSE,0.00129019267,6153.34,score 61 coût 13.0%
