@@ -2190,3 +2190,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 13:04:53,actuelle,VENTE,ENVAR,0.0001408,3097.25,stop-loss (-31%) PnL -3183.94$ coût 28.6%
 2026-10-28 13:07:54,actuelle,VENTE,Stonker,0.000238,3422.70,stop-loss (-31%) PnL -2907.04$ coût 21.4%
 2026-10-28 13:12:54,actuelle,ACHAT,INVERSE,0.0008202235477,6207.47,score 60 coût 16.7%
+2026-10-28 13:29:52,hasard,VENTE,INVERSE,0.0008461,2300.09,palier +50% PnL +710.83$ coût 6.7%
