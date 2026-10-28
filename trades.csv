@@ -1000,3 +1000,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-28 05:54,2026-10-28 06:17,actuelle,Rapport,boost+profil,stop-loss (-37%),0.38,-47.36,62,58231,7.76,2.0,6.524,0.706,18.9,72.77,963,1
 2026-10-28 06:34,2026-10-28 06:35,actuelle,wiener,tendance,stop-loss (-35%),0.02,-56.86,61,25721,3.1,27.5,3.789,0.593,-52.68,121,205,0
 2026-10-28 06:34,2026-10-28 06:41,agressive,wiener,tendance,stop-loss (-52%),0.12,-62.39,61,25721,3.1,27.5,3.789,0.593,-52.68,121,205,0
+2026-10-28 05:53,2026-10-28 06:53,hasard,Nothing,tendance,stop-loss (-32%),1.0,-37.22,34,107145,9.32,32.7,0.29,0.492,1.54,0.22,-26.44,0
