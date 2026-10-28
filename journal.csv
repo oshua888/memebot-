@@ -2110,3 +2110,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 00:11:15,apprentie,VENTE,DOAS,5.271e-05,1.78,stop-loss (-89%) PnL -14.54$ coût 1.0%
 2026-10-28 00:15:21,hasard,VENTE,N64,0.0001285,2617.79,stop-loss (-31%) PnL -2403.07$ coût 24.2%
 2026-10-28 00:15:21,hasard,ACHAT,REMUS,0.001580251338,4843.54,score 46 coût 9.0%
+2026-10-28 00:20:17,agressive,VENTE,meat,0.000182,2424.11,stop-loss (-42%) PnL -2524.57$ coût 15.5%
+2026-10-28 00:20:17,agressive,ACHAT,Frongus,0.0003532564391,4876.08,score 62 coût 19.1%
