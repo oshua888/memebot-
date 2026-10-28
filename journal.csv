@@ -2141,3 +2141,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 05:08:36,actuelle,ACHAT,GLITCH,0.003401683303,6493.71,score 65 coût 9.3%
 2026-10-28 05:25:37,prudente,ACHAT,FRONGUS,0.0001971356257,8.69,score 78 coût 1.0%
 2026-10-28 05:27:39,prudente,VENTE,FRONGUS,0.0001562,6.81,stop-loss (-21%) PnL -1.88$ coût 1.0%
+2026-10-28 05:41:37,agressive,ACHAT,JOB,0.00194878611,4497.37,score 54 coût 8.9%
