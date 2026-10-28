@@ -2271,3 +2271,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 20:04:47,apprentie,VENTE,ANTS,0.0008244,23.62,palier +25% PnL +7.34$ coût 1.1%
 2026-10-28 20:07:48,agressive,VENTE,MOGZ,0.0003596,2281.21,stop-loss (-40%) PnL -2023.83$ coût 11.0%
 2026-10-28 20:07:48,agressive,ACHAT,DUBBLE,0.002364948927,4219.07,score 62 coût 7.1%
+2026-10-28 20:18:49,actuelle,VENTE,JOB,0.002039,4089.87,stop-loss (-31%) PnL -2379.22$ coût 8.2%
+2026-10-28 20:18:49,hasard,VENTE,JOB,0.002039,3500.11,trailing-stop PnL +235.08$ coût 7.1%
+2026-10-28 20:18:49,hasard,ACHAT,JOB,0.002209117208,4522.95,score 25 coût 8.3%
