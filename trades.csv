@@ -1025,3 +1025,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-28 16:50,2026-10-28 16:54,apprentie,STONKLANA,boost,palier +25%,0.07,72.63,42,40184,5.42,4.2,1.38,0.589,25.8,28.16,365,1
 2026-10-28 10:06,2026-10-28 17:00,actuelle,REMUS,boost+tendance,stop-loss (-30%),6.9,-36.18,60,143523,13.46,106.9,0.315,0.828,0.17,4.64,14.65,1
 2026-10-28 15:28,2026-10-28 17:00,hasard,STONKLANA,boost,trailing-stop,1.53,69.26,30,34061,4.6,2.8,1.127,0.465,-9.92,-6.32,235,1
+2026-10-28 05:08,2026-10-28 17:08,actuelle,GLITCH,boost,durée max 12h,12.0,-19.84,65,156313,18.98,277.6,0.05,0.742,7.26,6.26,19.71,1
