@@ -2256,3 +2256,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 18:32:48,actuelle,VENTE,DUBBLE,0.00217,4035.84,stop-loss (-30%) PnL -2206.66$ coût 7.5%
 2026-10-28 18:35:48,prudente,VENTE,INVERSE,0.001265,5.29,trailing-stop PnL +0.96$ coût 1.0%
 2026-10-28 18:40:48,prudente,ACHAT,STONKLANA,0.0005644348722,8.65,score 76 coût 1.0%
+2026-10-28 18:45:47,actuelle,VENTE,INVERSE,0.001165,5176.31,trailing-stop PnL +1017.31$ coût 12.4%
+2026-10-28 18:45:47,hasard,VENTE,INVERSE,0.001165,3181.90,trailing-stop PnL +1568.57$ coût 7.6%
+2026-10-28 18:45:47,hasard,ACHAT,INVERSE,0.001280459251,4628.23,score 51 coût 9.9%

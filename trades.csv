@@ -1041,3 +1041,5 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-28 18:00,2026-10-28 18:22,apprentie,STONKLANA,boost,stop-loss (-31%),0.37,-32.0,29,71812,9.36,5.3,3.091,0.508,40.77,101,1337,1
 2026-10-28 18:10,2026-10-28 18:32,actuelle,DUBBLE,boost,stop-loss (-30%),0.37,-35.35,83,153061,18.31,3.1,7.498,0.686,-19.09,37.61,6370,1
 2026-10-28 17:06,2026-10-28 18:35,prudente,INVERSE,tendance,trailing-stop,1.48,25.53,70,95900,10.57,19.5,1.832,0.467,-0.08,46.03,133,0
+2026-10-28 13:12,2026-10-28 18:45,actuelle,INVERSE,tendance,trailing-stop,5.55,29.54,60,79036,8.89,15.6,1.06,0.503,12.14,55.62,27.4,0
+2026-10-28 12:24,2026-10-28 18:45,hasard,INVERSE,tendance,trailing-stop,6.35,75.28,43,64578,7.29,14.8,0.388,0.535,2.67,6.03,-13.88,0
