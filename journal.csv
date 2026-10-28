@@ -2214,3 +2214,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 16:50:48,apprentie,VENTE,ENVAR,0.0001362,14.20,durée max 12h PnL -1.49$ coût 1.1%
 2026-10-28 16:50:48,apprentie,ACHAT,STONKLANA,0.000220047535,15.74,score 42 coût 1.1%
 2026-10-28 16:51:48,hasard,VENTE,INVERSE,0.001101,3010.70,palier +100% PnL +1397.36$ coût 7.5%
+2026-10-28 16:54:48,hasard,VENTE,STONKLANA,0.0003841,2615.67,palier +50% PnL +1053.74$ coût 12.1%
+2026-10-28 16:54:48,apprentie,VENTE,STONKLANA,0.0003841,27.17,palier +25% PnL +11.43$ coût 1.1%
+2026-10-28 16:54:48,apprentie,ACHAT,STONKLANA,0.0003881701005,15.96,score 36 coût 1.1%
+2026-10-28 16:56:56,hasard,VENTE,STONKLANA,0.0004482,3062.65,palier +100% PnL +1477.05$ coût 13.1%
