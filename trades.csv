@@ -1003,3 +1003,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-28 04:50,2026-10-28 11:01,prudente,Something,boost+tendance,trailing-stop,6.19,41.52,77,99979,12.14,7.4,2.545,0.83,4.99,-18.85,2.83,1
 2026-10-28 05:54,2026-10-28 11:01,actuelle,Rapport,boost+profil,stop-loss (-50%),5.12,-57.44,62,58231,7.76,2.0,6.524,0.706,18.9,72.77,963,1
 2026-10-28 04:46,2026-10-28 11:02,apprentie,CHICO,tendance,stop-loss (-29%),6.27,-29.61,56,204409,24.72,28.9,0.223,0.666,-0.01,0.75,-12.86,0
+2026-10-28 04:46,2026-10-28 11:34,actuelle,Something,boost+tendance,trailing-stop,6.8,19.87,67,98004,11.91,7.4,2.581,0.831,0.06,-19.81,-2.44,1
