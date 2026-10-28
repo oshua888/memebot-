@@ -2216,3 +2216,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-28 15:08:53,hasard,ACHAT,GLITCH,0.003461059257,4613.11,score 48 coût 6.8%
 2026-10-28 15:08:53,hasard,ACHAT,jeff,0.0005292668068,4601.69,score 51 coût 21.3%
 2026-10-28 15:11:53,actuelle,ACHAT,jeff,0.0005852202564,6046.84,score 67 coût 27.0%
+2026-10-28 15:18:53,actuelle,VENTE,jeff,0.0003903,3234.10,stop-loss (-33%) PnL -2812.74$ coût 19.8%
