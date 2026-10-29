@@ -2378,3 +2378,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 11:05:14,prudente,ACHAT,CATBOT,0.004608031867,8.69,score 99 coût 1.0%
 2026-10-29 11:07:09,actuelle,VENTE,CATBOT,0.004093,3978.87,trailing-stop PnL +1957.76$ coût 5.6%
 2026-10-29 11:07:09,actuelle,ACHAT,CATBOT,0.00439331783,5783.71,score 99 coût 7.3%
+2026-10-29 11:09:09,apprentie,VENTE,Bitcoin,0.0002025,11.54,stop-loss (-27%) PnL -4.37$ coût 1.1%
+2026-10-29 11:13:10,actuelle,ACHAT,HOUSECOIN,0.0006687529107,5798.82,score 61 coût 17.0%
