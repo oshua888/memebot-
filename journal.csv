@@ -2415,3 +2415,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 15:22:35,agressive,ACHAT,DESSA,0.003366859614,3775.99,score 55 coût 5.8%
 2026-10-29 15:28:35,hasard,ACHAT,MOONX,0.0001553752222,4209.93,score 18 coût 30.6%
 2026-10-29 15:33:39,actuelle,VENTE,DESSA,0.004227,3764.27,palier +100% PnL +1857.04$ coût 5.4%
+2026-10-29 15:55:31,agressive,VENTE,HOUSECOIN,0.0002781,1852.31,stop-loss (-49%) PnL -2151.30$ coût 9.0%
+2026-10-29 15:55:31,agressive,ACHAT,JOB,0.003643495389,3789.39,score 57 coût 5.6%
