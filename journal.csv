@@ -2452,3 +2452,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 18:52:14,hasard,VENTE,DESSA,0.008871,7950.00,trailing-stop PnL +6541.52$ coût 7.4%
 2026-10-29 18:52:14,hasard,ACHAT,DESSA,0.00922741727,4026.19,score 58 coût 4.0%
 2026-10-29 18:53:15,actuelle,ACHAT,DESSA,0.009727542875,5641.68,score 72 coût 5.1%
+2026-10-29 19:00:17,prudente,VENTE,HOUSEWORM,0.0008333,5.66,palier +30% PnL +1.37$ coût 1.0%
+2026-10-29 19:01:14,actuelle,ACHAT,SENSE,0.0006418372802,5638.59,score 62 coût 11.4%
+2026-10-29 19:02:14,prudente,VENTE,HOUSEWORM,0.001003,3.41,palier +60% PnL +1.26$ coût 1.0%
+2026-10-29 19:03:13,prudente,VENTE,HOUSEWORM,0.0007512,2.55,trailing-stop PnL +0.41$ coût 1.0%
+2026-10-29 19:03:13,prudente,ACHAT,HOUSEWORM,0.0007588832556,8.60,score 79 coût 1.0%

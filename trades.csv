@@ -1136,3 +1136,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-29 18:23,2026-10-29 18:46,hasard,AgenC,boost,stop-loss (-31%),0.38,-38.59,62,60978,8.11,2.0,2.646,0.691,-4.7,-11.15,784,1
 2026-10-29 15:08,2026-10-29 18:52,actuelle,DESSA,boost,trailing-stop,3.73,152.04,63,117319,15.28,74.1,1.694,0.487,-5.27,59.65,76.46,1
 2026-10-29 14:40,2026-10-29 18:52,hasard,DESSA,boost,trailing-stop,4.2,203.95,51,99363,13.1,73.6,0.841,0.433,-0.79,30.3,38.29,1
+2026-10-29 18:50,2026-10-29 19:03,prudente,HOUSEWORM,boost,trailing-stop,0.22,35.55,70,67898,9.05,3.0,2.258,0.702,3.11,1.32,866,1
