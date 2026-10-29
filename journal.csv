@@ -2384,3 +2384,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 06:24:34,apprentie,VENTE,HERMIT,0.000115,20.15,palier +25% PnL +3.87$ coût 1.1%
 2026-10-29 06:24:34,apprentie,ACHAT,HERMIT,0.0001162743728,16.37,score 44 coût 1.1%
 2026-10-29 06:35:32,prudente,VENTE,Bitcoin,0.0003052,5.73,palier +30% PnL +1.39$ coût 1.0%
+2026-10-29 06:46:33,prudente,VENTE,Bitcoin,0.0002537,4.77,trailing-stop PnL +0.42$ coût 1.0%
+2026-10-29 06:46:33,hasard,VENTE,INVERSE,0.001326,4330.72,durée max 12h PnL -297.51$ coût 9.6%
+2026-10-29 06:46:33,hasard,ACHAT,HERMIT,0.0001388092852,4468.15,score 47 coût 31.9%
