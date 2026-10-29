@@ -2333,3 +2333,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 00:13:09,actuelle,VENTE,paws,0.0004247,3486.81,stop-loss (-31%) PnL -2424.20$ coût 15.0%
 2026-10-29 00:16:09,prudente,ACHAT,FLOAT,0.001354507129,8.68,score 72 coût 1.0%
 2026-10-29 00:16:09,actuelle,ACHAT,FLOAT,0.001419905352,5850.69,score 72 coût 5.9%
+2026-10-29 00:23:07,prudente,VENTE,FLOAT,0.001766,5.60,palier +30% PnL +1.26$ coût 1.0%
