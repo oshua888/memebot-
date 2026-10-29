@@ -2425,3 +2425,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 16:37:40,hasard,VENTE,MOONX,0.0001039,2188.24,stop-loss (-33%) PnL -2021.68$ coût 22.3%
 2026-10-29 16:38:31,hasard,ACHAT,SENSE,0.001331550288,4205.51,score 54 coût 7.0%
 2026-10-29 16:39:30,prudente,ACHAT,VI,0.000330489418,8.64,score 76 coût 1.0%
+2026-10-29 16:49:40,hasard,VENTE,VI,0.000287,2481.38,stop-loss (-32%) PnL -1744.70$ coût 13.9%
+2026-10-29 16:52:30,prudente,ACHAT,DESSA,0.008255280941,8.63,score 79 coût 1.0%
