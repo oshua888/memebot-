@@ -2341,3 +2341,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 03:10:33,apprentie,VENTE,FLOATER,0.0003187,11.78,stop-loss (-28%) PnL -4.69$ coût 1.0%
 2026-10-29 03:10:33,apprentie,ACHAT,Nothing,0.0001561666898,16.35,score 40 coût 1.1%
 2026-10-29 03:34:34,prudente,ACHAT,FLOATER,0.0003394784819,8.67,score 70 coût 1.0%
+2026-10-29 03:38:35,actuelle,ACHAT,MOONX,0.00016854628,5922.28,score 61 coût 43.6%
+2026-10-29 03:39:35,actuelle,VENTE,MOONX,0.0001148,2809.64,stop-loss (-32%) PnL -3112.64$ coût 30.3%
