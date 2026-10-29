@@ -2393,3 +2393,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 14:08:30,hasard,VENTE,FLOAT,0.001321,3024.80,stop-loss (-30%) PnL -1478.76$ coût 3.6%
 2026-10-29 14:08:30,hasard,ACHAT,CPU,0.0002203991172,4240.17,score 36 coût 10.2%
 2026-10-29 14:09:30,hasard,VENTE,NETWORK,0.0001356,3103.39,durée max 12h PnL -1483.18$ coût 29.9%
+2026-10-29 14:33:30,prudente,ACHAT,CATBOT,0.002584893847,8.67,score 70 coût 1.0%
