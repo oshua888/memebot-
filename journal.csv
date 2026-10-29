@@ -2505,3 +2505,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 22:56:11,agressive,ACHAT,jeff,0.001150016009,3422.60,score 55 coût 9.6%
 2026-10-29 23:09:12,prudente,ACHAT,HI,0.0004312869062,8.53,score 75 coût 1.0%
 2026-10-29 23:11:11,actuelle,ACHAT,jeff,0.001419094952,5333.78,score 60 coût 13.3%
+2026-10-29 23:16:11,actuelle,VENTE,jeff,0.0009179,3094.27,stop-loss (-35%) PnL -2239.51$ coût 10.3%
