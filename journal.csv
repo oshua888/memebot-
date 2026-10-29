@@ -2441,3 +2441,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 17:53:31,agressive,VENTE,STONKLANA,0.0002925,2178.91,stop-loss (-42%) PnL -2020.38$ coût 11.2%
 2026-10-29 17:53:31,agressive,ACHAT,HOUSEWORM,0.000743060013,3872.15,score 76 coût 12.0%
 2026-10-29 17:53:31,hasard,ACHAT,HOUSEWORM,0.0007485945751,4165.21,score 76 coût 12.9%
+2026-10-29 17:57:33,actuelle,VENTE,VI,0.000179,2685.04,stop-loss (-42%) PnL -3167.01$ coût 20.3%
+2026-10-29 17:57:33,hasard,ACHAT,OREN,0.0001663840296,4150.85,score 54 coût 27.4%
