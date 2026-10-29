@@ -2354,3 +2354,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 07:30:22,hasard,ACHAT,FLOAT,0.001895833437,4503.56,score 44 coût 4.1%
 2026-10-29 07:31:07,hasard,ACHAT,HERMIT,0.0001446726663,4498.09,score 49 coût 31.4%
 2026-10-29 07:32:08,agressive,ACHAT,STONKLANA,0.0005004345307,4199.29,score 50 coût 16.1%
+2026-10-29 07:34:07,hasard,VENTE,HERMIT,0.0001001,2392.79,stop-loss (-31%) PnL -2105.30$ coût 23.1%
+2026-10-29 07:38:07,hasard,ACHAT,Bitcoin,0.0003111894741,4471.31,score 37 coût 20.6%
