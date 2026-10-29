@@ -2492,3 +2492,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 20:13:12,actuelle,VENTE,HYPERCAT,0.0003234,2973.89,stop-loss (-35%) PnL -2430.31$ coût 15.8%
 2026-10-29 20:13:12,hasard,VENTE,HYPERCAT,0.0003234,2351.07,stop-loss (-32%) PnL -1560.02$ coût 12.2%
 2026-10-29 20:51:10,prudente,ACHAT,STANK,0.0001702681978,8.55,score 77 coût 1.0%
+2026-10-29 20:57:09,prudente,VENTE,STANK,0.0001359,6.75,stop-loss (-20%) PnL -1.80$ coût 1.0%
