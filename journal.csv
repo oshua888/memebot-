@@ -2386,3 +2386,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 13:24:30,agressive,VENTE,CATBOT,0.001365,2401.31,stop-loss (-40%) PnL -1850.33$ coût 5.8%
 2026-10-29 13:29:30,actuelle,VENTE,FLOAT,0.001449,3997.48,stop-loss (-30%) PnL -2007.81$ coût 4.3%
 2026-10-29 13:34:32,agressive,ACHAT,PODCAT,0.0003573977575,3926.02,score 51 coût 16.9%
+2026-10-29 13:42:30,hasard,VENTE,HOUSECOIN,0.0003674,2773.17,stop-loss (-31%) PnL -1768.04$ coût 11.9%
+2026-10-29 13:42:30,hasard,ACHAT,$CHIMP,0.0001761556756,4281.45,score 37 coût 30.2%
