@@ -2370,3 +2370,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 05:05:34,apprentie,ACHAT,HERMIT,9.187935858e-05,16.28,score 47 coût 1.1%
 2026-10-29 05:11:34,prudente,ACHAT,HOUSECOIN,0.0005891711599,8.67,score 71 coût 1.0%
 2026-10-29 05:15:34,prudente,VENTE,FLOAT,0.002452,5.65,palier +30% PnL +1.33$ coût 1.0%
+2026-10-29 05:19:34,agressive,VENTE,PODCAT,9.807e-05,2017.38,stop-loss (-41%) PnL -2251.83$ coût 20.1%
+2026-10-29 05:19:34,agressive,ACHAT,MOONX,0.0001434825257,4206.37,score 50 coût 32.4%
