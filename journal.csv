@@ -2376,3 +2376,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 05:29:35,prudente,ACHAT,FLOAT,0.002114048574,8.68,score 77 coût 1.0%
 2026-10-29 05:36:36,hasard,VENTE,STONKLANA,0.0004973,3817.18,durée max 12h PnL -831.79$ coût 15.9%
 2026-10-29 05:36:36,hasard,ACHAT,ENVAR,0.0001289296588,4495.43,score 17 coût 36.4%
+2026-10-29 05:42:34,agressive,VENTE,JOB,0.002775,5770.31,durée max 24h PnL +1272.94$ coût 9.9%
+2026-10-29 05:42:34,agressive,ACHAT,JOB,0.002961954411,4129.81,score 50 coût 6.7%
