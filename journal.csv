@@ -2475,3 +2475,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 19:15:15,hasard,VENTE,DESSA,0.006141,2587.96,stop-loss (-33%) PnL -1438.23$ coût 3.4%
 2026-10-29 19:19:11,agressive,VENTE,VI,0.0001343,1838.63,stop-loss (-42%) PnL -1905.80$ coût 15.5%
 2026-10-29 19:19:11,agressive,ACHAT,DESSA,0.006818571424,3640.53,score 57 coût 4.2%
+2026-10-29 19:21:14,prudente,VENTE,HEXN,0.0007918,6.42,stop-loss (-24%) PnL -2.15$ coût 1.0%
