@@ -2413,3 +2413,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 15:19:33,agressive,VENTE,FLOAT,0.001227,2446.61,stop-loss (-40%) PnL -1790.74$ coût 3.1%
 2026-10-29 15:21:33,actuelle,VENTE,DESSA,0.003217,2840.00,palier +50% PnL +961.24$ coût 4.8%
 2026-10-29 15:22:35,agressive,ACHAT,DESSA,0.003366859614,3775.99,score 55 coût 5.8%
+2026-10-29 15:28:35,hasard,ACHAT,MOONX,0.0001553752222,4209.93,score 18 coût 30.6%
