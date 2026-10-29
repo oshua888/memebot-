@@ -2420,3 +2420,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 16:05:29,agressive,VENTE,DESSA,0.007016,2513.52,palier +100% PnL +1267.45$ coût 3.2%
 2026-10-29 16:07:42,hasard,ACHAT,STANK,0.0001055712893,4280.61,score 37 coût 35.0%
 2026-10-29 16:16:31,actuelle,ACHAT,VI,0.0003107910333,5852.05,score 64 coût 29.8%
+2026-10-29 16:28:30,hasard,VENTE,STANK,6.878e-05,2097.54,stop-loss (-35%) PnL -2183.06$ coût 24.8%
+2026-10-29 16:28:30,hasard,ACHAT,VI,0.0004208796008,4226.08,score 56 coût 17.9%
