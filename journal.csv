@@ -2378,3 +2378,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 05:36:36,hasard,ACHAT,ENVAR,0.0001289296588,4495.43,score 17 coût 36.4%
 2026-10-29 05:42:34,agressive,VENTE,JOB,0.002775,5770.31,durée max 24h PnL +1272.94$ coût 9.9%
 2026-10-29 05:42:34,agressive,ACHAT,JOB,0.002961954411,4129.81,score 50 coût 6.7%
+2026-10-29 06:04:33,prudente,ACHAT,Bitcoin,0.0002287561051,8.68,score 71 coût 1.0%
+2026-10-29 06:04:33,actuelle,ACHAT,Bitcoin,0.0002897910686,5763.47,score 71 coût 28.0%
