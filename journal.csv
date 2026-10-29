@@ -2372,3 +2372,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 05:15:34,prudente,VENTE,FLOAT,0.002452,5.65,palier +30% PnL +1.33$ coût 1.0%
 2026-10-29 05:19:34,agressive,VENTE,PODCAT,9.807e-05,2017.38,stop-loss (-41%) PnL -2251.83$ coût 20.1%
 2026-10-29 05:19:34,agressive,ACHAT,MOONX,0.0001434825257,4206.37,score 50 coût 32.4%
+2026-10-29 05:29:35,prudente,VENTE,FLOAT,0.002093,4.83,trailing-stop PnL +0.50$ coût 1.0%
+2026-10-29 05:29:35,prudente,ACHAT,FLOAT,0.002114048574,8.68,score 77 coût 1.0%
