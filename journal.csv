@@ -2366,3 +2366,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 05:00:34,hasard,VENTE,DUBBLE,0.001799,2958.17,stop-loss (-31%) PnL -1589.16$ coût 6.0%
 2026-10-29 05:00:34,hasard,ACHAT,HOUSECOIN,0.0006078794835,4521.89,score 48 coût 14.0%
 2026-10-29 05:02:33,actuelle,ACHAT,HOUSECOIN,0.0006268728792,5794.05,score 64 coût 17.7%
+2026-10-29 05:05:34,apprentie,VENTE,Nothing,0.0001156,11.97,stop-loss (-26%) PnL -4.38$ coût 1.1%
+2026-10-29 05:05:34,apprentie,ACHAT,HERMIT,9.187935858e-05,16.28,score 47 coût 1.1%
