@@ -2346,3 +2346,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 01:00:07,hasard,ACHAT,DUBBLE,0.002940503377,4596.92,score 76 coût 6.9%
 2026-10-29 01:03:07,agressive,VENTE,MOGZ,0.0003368,2142.65,stop-loss (-44%) PnL -2162.39$ coût 10.7%
 2026-10-29 01:05:07,agressive,ACHAT,jeff,0.001704395192,4239.79,score 59 coût 10.2%
+2026-10-29 01:48:06,apprentie,ACHAT,NETWORK,0.0001031465317,16.26,score 27 coût 1.1%
+2026-10-29 01:48:06,apprentie,ACHAT,MOONX,0.0001244706477,16.26,score 34 coût 1.1%
+2026-10-29 01:48:06,apprentie,ACHAT,jeff,0.001777171872,16.25,score 39 coût 1.0%
+2026-10-29 01:48:06,apprentie,ACHAT,INVERSE,0.0009976082574,16.24,score 28 coût 1.0%
