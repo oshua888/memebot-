@@ -2435,3 +2435,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 17:35:30,prudente,ACHAT,FLOAT,0.001797910624,8.64,score 70 coût 1.0%
 2026-10-29 17:37:31,agressive,VENTE,DESSA,0.01051,3802.08,palier +200% PnL +2537.12$ coût 3.7%
 2026-10-29 17:38:32,prudente,ACHAT,DUBBLE,9.621879852e-05,8.64,score 77 coût 1.1%
+2026-10-29 17:41:31,prudente,VENTE,FLOAT,0.001407,6.69,stop-loss (-22%) PnL -1.95$ coût 1.0%
