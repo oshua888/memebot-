@@ -2463,3 +2463,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 19:08:17,actuelle,ACHAT,HEXN,0.001669859546,5582.96,score 66 coût 11.5%
 2026-10-29 19:08:17,agressive,VENTE,DESSA,0.007264,2640.17,trailing-stop PnL +1375.21$ coût 3.3%
 2026-10-29 19:08:17,agressive,ACHAT,HEXN,0.001619680083,3808.62,score 66 coût 8.2%
+2026-10-29 19:10:14,hasard,VENTE,HOUSEWORM,0.0004663,2411.13,stop-loss (-35%) PnL -1720.04$ coût 10.1%
+2026-10-29 19:11:15,actuelle,VENTE,DESSA,0.006803,3772.75,stop-loss (-30%) PnL -1868.94$ coût 4.4%
+2026-10-29 19:12:15,prudente,ACHAT,HEXN,0.001046561619,8.57,score 80 coût 1.0%
+2026-10-29 19:12:15,actuelle,VENTE,HEXN,0.001036,3156.71,stop-loss (-38%) PnL -2426.25$ coût 8.9%
+2026-10-29 19:12:15,agressive,VENTE,HOUSEWORM,0.000361,1794.85,stop-loss (-49%) PnL -2087.92$ coût 8.6%
+2026-10-29 19:12:15,agressive,ACHAT,VI,0.0002311456792,3744.43,score 63 coût 21.8%
+2026-10-29 19:12:15,hasard,VENTE,HEXN,0.001036,2506.90,stop-loss (-33%) PnL -1507.78$ coût 7.1%
+2026-10-29 19:13:18,agressive,VENTE,HEXN,0.000922,2033.14,stop-loss (-43%) PnL -1775.48$ coût 6.2%
+2026-10-29 19:13:18,agressive,ACHAT,AgenC,0.0003161792606,3700.80,score 61 coût 17.7%
