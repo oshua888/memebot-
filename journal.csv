@@ -2391,3 +2391,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 11:54:08,agressive,VENTE,INVERSE,0.0009516,2318.51,stop-loss (-41%) PnL -1895.96$ coût 6.2%
 2026-10-29 11:55:10,agressive,ACHAT,PODCAT,0.000280085886,4173.56,score 61 coût 20.6%
 2026-10-29 12:03:09,actuelle,VENTE,CATBOT,0.00301,3722.07,stop-loss (-31%) PnL -2061.64$ coût 6.1%
+2026-10-29 12:34:08,agressive,VENTE,Bitcoin,0.0001907,2149.71,stop-loss (-41%) PnL -2102.53$ coût 13.7%
+2026-10-29 12:34:08,agressive,ACHAT,JOB,0.003237119646,4100.82,score 57 coût 6.4%
