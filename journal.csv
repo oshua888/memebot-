@@ -2350,3 +2350,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 04:23:34,hasard,VENTE,GLITCH,0.003022,3843.98,durée max 12h PnL -744.94$ coût 6.4%
 2026-10-29 04:23:34,hasard,ACHAT,JOB,0.002993279088,4540.43,score 38 coût 7.3%
 2026-10-29 04:37:33,actuelle,ACHAT,PODCAT,0.0001969263878,5796.09,score 65 coût 37.1%
+2026-10-29 04:38:33,actuelle,VENTE,PODCAT,0.0001326,2873.75,stop-loss (-33%) PnL -2922.34$ coût 26.4%
