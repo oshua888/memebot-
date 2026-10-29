@@ -2405,3 +2405,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 14:44:31,hasard,ACHAT,shibana,0.0001279907124,4211.47,score 41 coût 34.6%
 2026-10-29 14:52:31,agressive,VENTE,ENVAR,8.566e-05,1946.50,stop-loss (-40%) PnL -2198.57$ coût 21.4%
 2026-10-29 14:52:31,agressive,ACHAT,GLITCH,0.003179896304,3825.26,score 52 coût 6.0%
+2026-10-29 15:05:30,hasard,VENTE,shibana,8.889e-05,2186.50,stop-loss (-31%) PnL -2024.98$ coût 25.2%
+2026-10-29 15:07:31,hasard,VENTE,REMUS,0.0003389,2566.24,stop-loss (-33%) PnL -1739.96$ coût 10.5%
+2026-10-29 15:08:30,actuelle,ACHAT,DESSA,0.002025911035,5693.23,score 63 coût 10.7%
