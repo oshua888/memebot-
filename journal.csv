@@ -2374,3 +2374,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 12:54:31,actuelle,VENTE,CATBOT,0.003958,3851.27,palier +100% PnL +1830.16$ coût 5.5%
 2026-10-29 12:56:31,apprentie,VENTE,Bitcoin,0.0002059,11.73,stop-loss (-25%) PnL -4.18$ coût 1.1%
 2026-10-29 12:58:31,prudente,VENTE,CATBOT,0.003014,2.96,trailing-stop PnL +0.80$ coût 1.0%
+2026-10-29 12:59:30,actuelle,VENTE,CATBOT,0.002689,2638.43,trailing-stop PnL +617.32$ coût 4.7%
+2026-10-29 12:59:30,actuelle,ACHAT,CATBOT,0.002926723103,5809.60,score 60 coût 8.8%
+2026-10-29 13:01:32,hasard,VENTE,CATBOT,0.002567,2891.79,stop-loss (-30%) PnL -1485.53$ coût 5.2%
+2026-10-29 13:01:32,hasard,ACHAT,PODCAT,0.0002739405558,4342.41,score 43 coût 21.6%
+2026-10-29 13:02:30,agressive,VENTE,Bitcoin,0.0001935,2178.41,stop-loss (-41%) PnL -2073.83$ coût 13.8%
