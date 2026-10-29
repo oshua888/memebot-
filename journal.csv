@@ -2390,3 +2390,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 13:42:30,hasard,ACHAT,$CHIMP,0.0001761556756,4281.45,score 37 coût 30.2%
 2026-10-29 13:55:31,actuelle,ACHAT,OREN,0.0002918302067,5745.75,score 64 coût 29.2%
 2026-10-29 14:03:30,agressive,VENTE,PODCAT,0.0002112,2033.26,stop-loss (-41%) PnL -1892.77$ coût 12.4%
+2026-10-29 14:08:30,hasard,VENTE,FLOAT,0.001321,3024.80,stop-loss (-30%) PnL -1478.76$ coût 3.6%
+2026-10-29 14:08:30,hasard,ACHAT,CPU,0.0002203991172,4240.17,score 36 coût 10.2%
