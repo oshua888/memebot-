@@ -2432,3 +2432,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 17:11:34,actuelle,ACHAT,shibana,0.0001460043244,5818.68,score 67 coût 46.3%
 2026-10-29 17:23:32,hasard,VENTE,$CHIMP,0.0001213,2295.39,stop-loss (-31%) PnL -1986.06$ coût 22.1%
 2026-10-29 17:27:33,actuelle,VENTE,shibana,0.0001014,2741.17,stop-loss (-31%) PnL -3077.51$ coût 32.2%
+2026-10-29 17:35:30,prudente,ACHAT,FLOAT,0.001797910624,8.64,score 70 coût 1.0%
+2026-10-29 17:37:31,agressive,VENTE,DESSA,0.01051,3802.08,palier +200% PnL +2537.12$ coût 3.7%
+2026-10-29 17:38:32,prudente,ACHAT,DUBBLE,9.621879852e-05,8.64,score 77 coût 1.1%
