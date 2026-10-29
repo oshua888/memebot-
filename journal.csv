@@ -2366,3 +2366,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 09:30:10,prudente,VENTE,CATBOT,0.003523,3.46,palier +60% PnL +1.30$ coût 1.0%
 2026-10-29 09:47:10,apprentie,VENTE,INVERSE,0.00113,11.77,stop-loss (-25%) PnL -4.18$ coût 1.0%
 2026-10-29 09:59:12,actuelle,VENTE,PODCAT,0.0002386,3266.54,stop-loss (-30%) PnL -2606.37$ coût 20.0%
+2026-10-29 10:09:09,actuelle,ACHAT,MOONX,0.0002123647866,5813.50,score 61 coût 36.8%
+2026-10-29 10:10:12,actuelle,VENTE,MOONX,0.0001379,2802.46,stop-loss (-35%) PnL -3011.03$ coût 25.8%
