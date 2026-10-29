@@ -2347,3 +2347,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 03:57:34,actuelle,ACHAT,SLEGO,0.0003027259673,5856.44,score 60 coût 30.4%
 2026-10-29 03:58:33,actuelle,VENTE,SLEGO,0.0001985,3002.07,stop-loss (-34%) PnL -2854.37$ coût 21.8%
 2026-10-29 04:16:34,prudente,ACHAT,FLOAT,0.001855482727,8.64,score 71 coût 1.0%
+2026-10-29 04:23:34,hasard,VENTE,GLITCH,0.003022,3843.98,durée max 12h PnL -744.94$ coût 6.4%
+2026-10-29 04:23:34,hasard,ACHAT,JOB,0.002993279088,4540.43,score 38 coût 7.3%
