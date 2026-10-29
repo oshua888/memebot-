@@ -2390,3 +2390,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 11:49:08,hasard,ACHAT,ENVAR,0.0001382871713,4382.28,score 28 coût 33.9%
 2026-10-29 11:54:08,agressive,VENTE,INVERSE,0.0009516,2318.51,stop-loss (-41%) PnL -1895.96$ coût 6.2%
 2026-10-29 11:55:10,agressive,ACHAT,PODCAT,0.000280085886,4173.56,score 61 coût 20.6%
+2026-10-29 12:03:09,actuelle,VENTE,CATBOT,0.00301,3722.07,stop-loss (-31%) PnL -2061.64$ coût 6.1%
