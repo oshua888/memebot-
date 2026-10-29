@@ -2345,3 +2345,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 03:39:35,actuelle,VENTE,MOONX,0.0001148,2809.64,stop-loss (-32%) PnL -3112.64$ coût 30.3%
 2026-10-29 03:57:34,prudente,VENTE,FLOATER,0.0002663,6.73,stop-loss (-22%) PnL -1.94$ coût 1.0%
 2026-10-29 03:57:34,actuelle,ACHAT,SLEGO,0.0003027259673,5856.44,score 60 coût 30.4%
+2026-10-29 03:58:33,actuelle,VENTE,SLEGO,0.0001985,3002.07,stop-loss (-34%) PnL -2854.37$ coût 21.8%
