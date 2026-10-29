@@ -2327,3 +2327,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 02:22:35,agressive,ACHAT,FLOAT,0.002058292783,4237.34,score 61 coût 3.9%
 2026-10-29 02:23:33,hasard,VENTE,DUBBLE,0.002424,3332.60,trailing-stop PnL +267.15$ coût 5.9%
 2026-10-29 02:23:33,hasard,ACHAT,DUBBLE,0.002599784135,4547.33,score 61 coût 7.3%
+2026-10-29 02:35:35,apprentie,ACHAT,FLOATER,0.0002541093623,16.27,score 57 coût 1.1%
+2026-10-29 02:36:36,actuelle,ACHAT,FLOATER,0.000335676418,5980.58,score 65 coût 29.1%
