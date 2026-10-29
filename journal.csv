@@ -2427,3 +2427,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 16:39:30,prudente,ACHAT,VI,0.000330489418,8.64,score 76 coût 1.0%
 2026-10-29 16:49:40,hasard,VENTE,VI,0.000287,2481.38,stop-loss (-32%) PnL -1744.70$ coût 13.9%
 2026-10-29 16:52:30,prudente,ACHAT,DESSA,0.008255280941,8.63,score 79 coût 1.0%
+2026-10-29 16:55:42,hasard,VENTE,SENSE,0.0007821,2341.21,stop-loss (-41%) PnL -1864.31$ coût 5.2%
+2026-10-29 16:56:34,prudente,VENTE,VI,0.000254,6.57,stop-loss (-23%) PnL -2.07$ coût 1.0%
