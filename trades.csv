@@ -1103,3 +1103,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-29 07:29,2026-10-29 11:09,apprentie,Bitcoin,tendance,stop-loss (-27%),3.67,-27.49,63,47058,5.54,29.5,0.611,0.614,-4.49,7.78,57.34,0
 2026-10-29 11:19,2026-10-29 11:21,actuelle,Chameleon,nouveau,stop-loss (-34%),0.03,-43.45,68,62934,6.46,20.7,1.841,0.653,8.35,177,218,0
 2026-10-29 02:08,2026-10-29 11:26,agressive,CATBOT,boost,trailing-stop,9.29,68.43,56,127873,16.43,5.4,1.1,0.706,-10.87,-21.92,4039,1
+2026-10-29 11:05,2026-10-29 11:33,prudente,CATBOT,boost+tendance,stop-loss (-22%),0.46,-23.01,99,192617,23.53,14.3,2.806,0.699,-22,36.56,37.43,1
