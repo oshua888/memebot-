@@ -2438,3 +2438,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 18:10:13,hasard,VENTE,SENSE,0.0002359,724.00,stop-loss (-82%) PnL -3481.52$ coût 2.8%
 2026-10-29 18:10:13,hasard,ACHAT,HOUSEWORM,0.0007185442198,4131.17,score 62 coût 13.0%
 2026-10-29 18:10:13,hasard,ACHAT,OREN,0.0001730504623,4113.17,score 40 coût 26.5%
+2026-10-29 18:23:21,actuelle,ACHAT,AgenC,0.0005967150057,5812.28,score 62 coût 20.1%
+2026-10-29 18:23:21,hasard,ACHAT,AgenC,0.0005691592702,4121.83,score 62 coût 14.5%
