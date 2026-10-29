@@ -2342,3 +2342,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 00:53:07,actuelle,VENTE,FLOAT,0.00227,2995.13,palier +50% PnL +1064.40$ coût 3.0%
 2026-10-29 00:56:07,hasard,VENTE,STONKLANA,0.0003538,2797.90,stop-loss (-31%) PnL -1851.07$ coût 13.4%
 2026-10-29 00:56:07,hasard,ACHAT,JOB,0.002986625056,4599.79,score 58 coût 7.4%
+2026-10-29 01:00:07,hasard,VENTE,RETIRED,0.0005021,2839.79,stop-loss (-30%) PnL -1753.31$ coût 11.6%
+2026-10-29 01:00:07,hasard,ACHAT,DUBBLE,0.002940503377,4596.92,score 76 coût 6.9%
