@@ -2479,3 +2479,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 19:28:13,agressive,VENTE,AgenC,0.0001391,1443.51,stop-loss (-56%) PnL -2257.28$ coût 11.3%
 2026-10-29 19:29:17,hasard,VENTE,JOB,0.003309,4565.35,durée max 12h PnL +46.51$ coût 7.2%
 2026-10-29 19:29:17,apprentie,VENTE,NETWORK,0.000127,14.97,durée max 12h PnL -0.96$ coût 1.1%
+2026-10-29 19:57:13,actuelle,ACHAT,STANK,0.00015602446,5515.44,score 61 coût 38.4%
+2026-10-29 19:57:13,agressive,ACHAT,STANK,0.0001414807616,3614.50,score 61 coût 25.5%
+2026-10-29 19:58:12,actuelle,VENTE,STANK,0.0001033,2670.43,stop-loss (-34%) PnL -2845.02$ coût 26.9%
