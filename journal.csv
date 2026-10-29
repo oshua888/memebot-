@@ -2334,3 +2334,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 00:16:09,prudente,ACHAT,FLOAT,0.001354507129,8.68,score 72 coût 1.0%
 2026-10-29 00:16:09,actuelle,ACHAT,FLOAT,0.001419905352,5850.69,score 72 coût 5.9%
 2026-10-29 00:23:07,prudente,VENTE,FLOAT,0.001766,5.60,palier +30% PnL +1.26$ coût 1.0%
+2026-10-29 00:28:07,prudente,VENTE,INVERSE,0.001048,6.60,stop-loss (-22%) PnL -2.00$ coût 1.0%
+2026-10-29 00:28:07,agressive,VENTE,INVERSE,0.001048,3347.85,trailing-stop PnL +451.64$ coût 8.3%
+2026-10-29 00:28:07,agressive,ACHAT,CATBOT,0.002681907641,4255.12,score 75 coût 7.1%
+2026-10-29 00:29:08,prudente,VENTE,FLOAT,0.001481,4.70,trailing-stop PnL +0.36$ coût 1.0%
