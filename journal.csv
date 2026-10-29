@@ -2355,3 +2355,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 04:51:36,agressive,ACHAT,PODCAT,0.0001657497566,4269.20,score 64 coût 29.2%
 2026-10-29 04:52:35,prudente,VENTE,CATBOT,0.003477,6.84,palier +30% PnL +2.50$ coût 1.0%
 2026-10-29 04:52:35,actuelle,VENTE,CATBOT,0.003477,3341.90,palier +50% PnL +1350.95$ coût 5.3%
+2026-10-29 04:54:35,prudente,VENTE,CATBOT,0.003521,3.46,palier +60% PnL +1.30$ coût 1.0%
+2026-10-29 04:55:35,agressive,VENTE,DUBBLE,0.001897,2387.11,stop-loss (-42%) PnL -1956.01$ coût 4.9%
+2026-10-29 04:55:35,agressive,ACHAT,HOUSECOIN,0.0004707942134,4257.21,score 57 coût 15.1%
+2026-10-29 04:56:35,actuelle,VENTE,CATBOT,0.004204,4080.88,palier +100% PnL +2059.77$ coût 5.8%
