@@ -2381,3 +2381,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 13:02:30,agressive,VENTE,Bitcoin,0.0001935,2178.41,stop-loss (-41%) PnL -2073.83$ coût 13.8%
 2026-10-29 13:11:30,hasard,VENTE,PODCAT,0.0001895,2504.57,stop-loss (-31%) PnL -1837.84$ coût 16.6%
 2026-10-29 13:11:30,hasard,ACHAT,REMUS,0.0005091163962,4306.20,score 33 coût 13.4%
+2026-10-29 13:14:31,actuelle,VENTE,CATBOT,0.001617,2998.16,stop-loss (-45%) PnL -2811.45$ coût 6.6%
+2026-10-29 13:16:30,agressive,ACHAT,HOUSECOIN,0.0005469831844,4003.61,score 52 coût 13.0%

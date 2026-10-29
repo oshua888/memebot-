@@ -1104,3 +1104,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-29 12:49,2026-10-29 13:01,hasard,CATBOT,boost+tendance,stop-loss (-30%),0.2,-33.94,68,168349,20.46,16.0,1.035,0.671,3.51,-4.22,4.06,1
 2026-10-29 07:29,2026-10-29 13:02,agressive,Bitcoin,tendance,stop-loss (-41%),5.56,-48.77,63,47058,5.54,29.5,0.611,0.614,-4.49,7.78,57.34,0
 2026-10-29 13:01,2026-10-29 13:11,hasard,PODCAT,tendance,stop-loss (-31%),0.17,-42.32,43,42071,5.15,10.6,0.882,0.543,-4.53,-7.9,55.45,0
+2026-10-29 12:59,2026-10-29 13:14,actuelle,CATBOT,boost+tendance,stop-loss (-45%),0.25,-48.39,60,148193,18.03,16.2,1.419,0.663,-28.89,-20.6,-15.52,1
