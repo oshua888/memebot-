@@ -1115,3 +1115,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-29 14:33,2026-10-29 14:36,prudente,CATBOT,boost+tendance,trailing-stop,0.05,13.11,70,145982,17.42,17.8,1.893,0.713,90.48,43.53,-17.89,1
 2026-10-29 14:37,2026-10-29 14:39,prudente,CATBOT,boost+tendance,stop-loss (-39%),0.03,-39.38,84,117170,13.87,17.8,3.854,0.714,-16.48,17.34,-47.26,1
 2026-10-29 13:55,2026-10-29 14:41,actuelle,OREN,profil,stop-loss (-31%),0.77,-45.7,64,40688,5.32,2.0,7.099,0.581,4,40.26,427,0
+2026-10-29 12:49,2026-10-29 14:52,agressive,ENVAR,boost,stop-loss (-40%),2.05,-53.04,62,27491,3.82,45.0,0.012,0.857,0,5.78,18.4,1
