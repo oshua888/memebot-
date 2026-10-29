@@ -2382,3 +2382,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 11:13:10,actuelle,ACHAT,HOUSECOIN,0.0006687529107,5798.82,score 61 coût 17.0%
 2026-10-29 11:19:12,actuelle,ACHAT,Chameleon,0.0005067945341,5741.42,score 68 coût 19.2%
 2026-10-29 11:21:11,actuelle,VENTE,Chameleon,0.0003354,3246.55,stop-loss (-34%) PnL -2494.88$ coût 14.6%
+2026-10-29 11:26:09,agressive,VENTE,CATBOT,0.003735,4377.58,trailing-stop PnL +1528.99$ coût 6.4%
+2026-10-29 11:26:09,agressive,ACHAT,CATBOT,0.003953563152,4226.80,score 98 coût 5.9%
