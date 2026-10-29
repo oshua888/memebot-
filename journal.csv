@@ -2487,3 +2487,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 20:02:11,hasard,ACHAT,Hypurr,0.0002056376668,3944.42,score 66 coût 22.8%
 2026-10-29 20:05:13,actuelle,VENTE,Hypurr,0.0001439,2775.61,stop-loss (-34%) PnL -2682.24$ coût 22.4%
 2026-10-29 20:05:13,hasard,VENTE,Hypurr,0.0001439,2277.27,stop-loss (-30%) PnL -1667.15$ coût 17.5%
+2026-10-29 20:10:11,actuelle,ACHAT,HYPERCAT,0.0004949063,5404.20,score 62 coût 21.0%
+2026-10-29 20:10:11,hasard,ACHAT,HYPERCAT,0.0004722734363,3911.08,score 62 coût 15.5%
+2026-10-29 20:13:12,actuelle,VENTE,HYPERCAT,0.0003234,2973.89,stop-loss (-35%) PnL -2430.31$ coût 15.8%
+2026-10-29 20:13:12,hasard,VENTE,HYPERCAT,0.0003234,2351.07,stop-loss (-32%) PnL -1560.02$ coût 12.2%
