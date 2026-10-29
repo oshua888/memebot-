@@ -2371,3 +2371,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 10:21:13,apprentie,VENTE,HERMIT,8.586e-05,11.61,stop-loss (-26%) PnL -4.31$ coût 1.1%
 2026-10-29 10:29:10,actuelle,VENTE,CATBOT,0.004145,4026.53,palier +100% PnL +2005.42$ coût 5.7%
 2026-10-29 10:32:08,agressive,VENTE,CATBOT,0.004702,2783.39,palier +100% PnL +1380.35$ coût 4.0%
+2026-10-29 10:38:08,prudente,VENTE,CATBOT,0.004315,4.24,trailing-stop PnL +2.08$ coût 1.0%
+2026-10-29 10:38:09,prudente,ACHAT,CATBOT,0.004358551179,8.68,score 93 coût 1.0%
