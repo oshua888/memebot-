@@ -2583,3 +2583,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 17:15:41,actuelle,VENTE,███,0.0004698,3095.27,stop-loss (-31%) PnL -1920.48$ coût 10.8%
 2026-10-30 17:25:39,actuelle,VENTE,HYPERCHAN,0.001443,3782.57,durée max 12h PnL -1425.13$ coût 9.0%
 2026-10-30 17:25:39,hasard,VENTE,HYPERCHAN,0.001443,2851.93,durée max 12h PnL -893.03$ coût 6.9%
+2026-10-30 17:27:41,hasard,VENTE,CATPAD,9.107e-05,1879.00,stop-loss (-30%) PnL -1523.55$ coût 21.0%
