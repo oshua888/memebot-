@@ -2511,3 +2511,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 00:14:32,actuelle,VENTE,NIO,0.0007792,3330.39,stop-loss (-30%) PnL -1975.77$ coût 9.8%
 2026-10-30 00:24:31,hasard,VENTE,jeff,0.0007426,2410.40,stop-loss (-32%) PnL -1469.48$ coût 9.0%
 2026-10-30 00:44:33,hasard,VENTE,NIO,0.0007491,2438.15,stop-loss (-31%) PnL -1390.68$ coût 7.4%
+2026-10-30 02:30:30,apprentie,ACHAT,$CHIMP,0.0001057765396,15.63,score 36 coût 1.1%
+2026-10-30 02:30:30,apprentie,ACHAT,DESSA,0.007650722919,15.63,score 33 coût 1.0%
