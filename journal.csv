@@ -2558,3 +2558,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 14:37:17,actuelle,VENTE,Kim,0.0001739,3083.47,trailing-stop PnL -330.55$ coût 24.3%
 2026-10-30 14:37:17,hasard,VENTE,Kim,0.0001739,2535.33,trailing-stop PnL +103.80$ coût 18.9%
 2026-10-30 14:37:17,hasard,ACHAT,Kim,0.0002116841448,3625.40,score 50 coût 21.7%
+2026-10-30 14:53:17,agressive,VENTE,GLITCH,0.002652,3013.60,durée max 24h PnL -811.66$ coût 5.5%
+2026-10-30 14:53:17,agressive,ACHAT,NETWORK,0.0002704285957,3471.99,score 53 coût 18.6%
