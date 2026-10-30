@@ -2539,3 +2539,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 08:06:57,prudente,ACHAT,HYPERCHAN,0.001948565267,8.54,score 77 coût 1.0%
 2026-10-30 08:37:54,prudente,ACHAT,Foxii,0.001503122779,8.54,score 70 coût 1.0%
 2026-10-30 08:42:54,prudente,VENTE,Foxii,0.0009262,5.21,stop-loss (-38%) PnL -3.33$ coût 1.0%
+2026-10-30 09:07:57,hasard,ACHAT,TraderTraitor,0.0001703725054,3711.89,score 57 coût 25.5%
+2026-10-30 09:09:54,hasard,VENTE,TraderTraitor,0.0001139,2010.84,stop-loss (-33%) PnL -1701.05$ coût 19.0%
