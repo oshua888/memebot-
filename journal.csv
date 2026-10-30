@@ -2560,3 +2560,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 14:37:17,hasard,ACHAT,Kim,0.0002116841448,3625.40,score 50 coût 21.7%
 2026-10-30 14:53:17,agressive,VENTE,GLITCH,0.002652,3013.60,durée max 24h PnL -811.66$ coût 5.5%
 2026-10-30 14:53:17,agressive,ACHAT,NETWORK,0.0002704285957,3471.99,score 53 coût 18.6%
+2026-10-30 15:01:18,actuelle,ACHAT,Kim,0.0001885360073,5074.88,score 66 coût 33.2%
+2026-10-30 15:01:18,hasard,VENTE,Kim,0.0001415,2026.05,stop-loss (-33%) PnL -1599.34$ coût 16.4%
+2026-10-30 15:01:18,hasard,ACHAT,SAFU,0.0006111902041,3586.48,score 37 coût 13.0%
+2026-10-30 15:02:17,hasard,VENTE,SAFU,1.986e-06,11.53,stop-loss (-100%) PnL -3574.95$ coût 1.1%
