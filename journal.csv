@@ -2522,3 +2522,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 04:35:30,actuelle,ACHAT,INVERSE,0.0006281628456,5210.05,score 67 coût 15.7%
 2026-10-30 04:35:30,apprentie,VENTE,jeff,0.001313,19.63,palier +25% PnL +3.97$ coût 1.0%
 2026-10-30 04:37:30,apprentie,VENTE,Foxii,0.000746,20.06,palier +25% PnL +4.38$ coût 1.1%
+2026-10-30 04:48:33,actuelle,VENTE,Foxii,0.0004934,3157.79,stop-loss (-30%) PnL -2071.94$ coût 13.5%
