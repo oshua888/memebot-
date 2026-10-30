@@ -2575,3 +2575,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 16:29:42,actuelle,VENTE,SAFU,2.369e-06,34.85,stop-loss (-99%) PnL -4934.02$ coût 4.0%
 2026-10-30 16:29:42,hasard,VENTE,SAFU,2.369e-06,26.29,stop-loss (-99%) PnL -3482.53$ coût 3.2%
 2026-10-30 16:29:42,hasard,ACHAT,STANK,0.0002617906002,3430.43,score 50 coût 18.2%
+2026-10-30 16:58:40,prudente,ACHAT,CATPAD,0.000103694869,8.52,score 70 coût 1.1%
+2026-10-30 16:58:40,actuelle,ACHAT,CATPAD,0.0001428494884,4855.09,score 70 coût 39.2%
+2026-10-30 16:59:40,hasard,VENTE,STANK,0.0001815,2040.88,stop-loss (-31%) PnL -1389.54$ coût 14.2%
+2026-10-30 16:59:40,hasard,ACHAT,CATPAD,0.0001303126683,3402.55,score 69 coût 27.9%
