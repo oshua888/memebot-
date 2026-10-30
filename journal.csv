@@ -2569,3 +2569,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 15:45:41,actuelle,ACHAT,███,0.0006788336474,5015.75,score 60 coût 13.6%
 2026-10-30 15:55:42,agressive,VENTE,JOB,0.002643,2613.29,durée max 24h PnL -1176.11$ coût 4.9%
 2026-10-30 15:55:42,agressive,ACHAT,███,0.00055480524,3425.53,score 57 coût 10.4%
+2026-10-30 15:56:43,actuelle,VENTE,INVERSE,0.0004555,3144.78,stop-loss (-32%) PnL -2090.57$ coût 12.1%
