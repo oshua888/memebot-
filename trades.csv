@@ -1208,3 +1208,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-30 18:19,2026-10-30 18:50,prudente,PODCATWALK,profil,trailing-stop,0.52,30.05,77,55637,7.72,2.2,12.332,0.727,7.42,13.35,366,0
 2026-10-30 18:10,2026-10-30 18:50,actuelle,PODCATWALK,profil,trailing-stop,0.67,1.31,62,52608,7.37,2.0,15.41,0.742,15.67,-9.17,320,0
 2026-10-30 18:10,2026-10-30 18:50,hasard,PODCATWALK,profil,trailing-stop,0.67,6.92,62,52608,7.37,2.0,15.41,0.742,15.67,-9.17,320,0
+2026-10-30 07:05,2026-10-30 19:06,hasard,███,boost,durée max 12h,12.01,-9.18,32,71856,6.4,147.7,0.102,0.39,-4.17,1.06,27.87,1
