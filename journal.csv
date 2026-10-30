@@ -2591,3 +2591,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 18:19:39,prudente,ACHAT,PODCATWALK,0.0004373613643,8.51,score 77 coût 1.0%
 2026-10-30 18:28:41,actuelle,VENTE,jeff,0.001586,4251.54,durée max 12h PnL -925.27$ coût 10.5%
 2026-10-30 18:39:40,prudente,VENTE,PODCATWALK,0.0005773,5.56,palier +30% PnL +1.30$ coût 1.0%
+2026-10-30 18:47:39,hasard,VENTE,PODCATWALK,0.0006836,1608.85,palier +50% PnL +498.15$ coût 5.8%
+2026-10-30 18:48:40,prudente,VENTE,PODCATWALK,0.0007138,3.44,palier +60% PnL +1.31$ coût 1.0%
+2026-10-30 18:48:40,actuelle,VENTE,PODCATWALK,0.0007138,2243.08,palier +50% PnL +656.66$ coût 7.7%
+2026-10-30 18:50:39,prudente,VENTE,PODCATWALK,0.0004301,2.07,trailing-stop PnL -0.06$ coût 1.0%
+2026-10-30 18:50:39,actuelle,VENTE,PODCATWALK,0.0004301,2627.26,trailing-stop PnL -593.66$ coût 11.7%
+2026-10-30 18:50:39,hasard,VENTE,PODCATWALK,0.0004301,1989.97,trailing-stop PnL -265.09$ coût 8.8%
