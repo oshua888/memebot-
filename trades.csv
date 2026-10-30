@@ -1202,3 +1202,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-30 05:24,2026-10-30 17:25,actuelle,HYPERCHAN,boost+profil,durée max 12h,12.01,-27.37,61,109464,14.88,2.0,3.526,0.337,0.48,46.54,3312,1
 2026-10-30 05:24,2026-10-30 17:25,hasard,HYPERCHAN,boost+profil,durée max 12h,12.01,-23.85,61,109464,14.88,2.0,3.526,0.337,0.48,46.54,3312,1
 2026-10-30 16:59,2026-10-30 17:27,hasard,CATPAD,boost,stop-loss (-30%),0.47,-44.78,69,25314,3.82,2.0,4.696,0.646,-5.92,13.43,122,1
+2026-10-30 16:58,2026-10-30 17:32,prudente,CATPAD,boost,stop-loss (-21%),0.57,-22.02,70,25400,3.83,2.0,4.668,0.647,7.32,15.99,124,1
