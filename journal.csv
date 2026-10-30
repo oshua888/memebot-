@@ -2529,3 +2529,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 06:08:55,agressive,VENTE,CPU,4.57e-05,1687.94,stop-loss (-44%) PnL -1700.35$ coût 10.9%
 2026-10-30 06:08:55,agressive,ACHAT,HYPERCHAN,0.001725707035,3510.32,score 65 coût 7.5%
 2026-10-30 06:18:55,prudente,ACHAT,HYPERCHAN,0.001665744588,8.53,score 76 coût 1.0%
+2026-10-30 06:24:54,prudente,VENTE,HI,0.0008933,6.74,stop-loss (-20%) PnL -1.80$ coût 1.0%
