@@ -2509,3 +2509,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-29 23:56:36,hasard,ACHAT,NIO,0.001088849312,3828.83,score 73 coût 9.0%
 2026-10-30 00:14:32,prudente,VENTE,NIO,0.0007792,6.52,stop-loss (-23%) PnL -2.01$ coût 1.0%
 2026-10-30 00:14:32,actuelle,VENTE,NIO,0.0007792,3330.39,stop-loss (-30%) PnL -1975.77$ coût 9.8%
+2026-10-30 00:24:31,hasard,VENTE,jeff,0.0007426,2410.40,stop-loss (-32%) PnL -1469.48$ coût 9.0%
