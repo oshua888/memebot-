@@ -2532,3 +2532,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 06:24:54,prudente,VENTE,HI,0.0008933,6.74,stop-loss (-20%) PnL -1.80$ coût 1.0%
 2026-10-30 06:27:54,actuelle,ACHAT,jeff,0.0017276743,5176.81,score 60 coût 11.5%
 2026-10-30 07:05:55,hasard,ACHAT,███,0.0005261877843,3723.03,score 32 coût 11.4%
+2026-10-30 07:49:55,prudente,VENTE,HYPERCHAN,0.002284,5.79,palier +30% PnL +1.52$ coût 1.0%
