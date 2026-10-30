@@ -2553,3 +2553,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 14:15:17,actuelle,VENTE,FLUKE,0.0001446,2587.51,stop-loss (-37%) PnL -2548.61$ coût 20.2%
 2026-10-30 14:19:21,hasard,VENTE,calm,9.173e-05,1942.81,stop-loss (-32%) PnL -1716.06$ coût 22.4%
 2026-10-30 14:19:21,hasard,ACHAT,NETWORK,0.0002570983962,3600.53,score 24 coût 19.9%
+2026-10-30 14:28:20,actuelle,VENTE,Kim,0.0002353,2324.40,palier +50% PnL +642.87$ coût 14.4%
+2026-10-30 14:28:20,hasard,VENTE,Kim,0.0002353,1848.30,palier +50% PnL +650.68$ coût 11.2%
