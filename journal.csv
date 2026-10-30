@@ -2535,3 +2535,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 07:49:55,prudente,VENTE,HYPERCHAN,0.002284,5.79,palier +30% PnL +1.52$ coût 1.0%
 2026-10-30 07:54:58,agressive,VENTE,HI,0.0007906,2078.78,trailing-stop PnL +917.68$ coût 6.1%
 2026-10-30 07:54:58,agressive,ACHAT,HI,0.0008620476112,3506.02,score 58 coût 9.0%
+2026-10-30 08:06:57,prudente,VENTE,HYPERCHAN,0.001929,4.89,trailing-stop PnL +0.62$ coût 1.0%
+2026-10-30 08:06:57,prudente,ACHAT,HYPERCHAN,0.001948565267,8.54,score 77 coût 1.0%
