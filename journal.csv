@@ -2526,3 +2526,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 05:49:57,prudente,VENTE,HI,0.001112,5.30,trailing-stop PnL +1.04$ coût 1.0%
 2026-10-30 05:59:56,prudente,ACHAT,HI,0.001120273332,8.54,score 79 coût 1.0%
 2026-10-30 06:01:56,hasard,VENTE,BITCAT,0.0001093,1983.50,stop-loss (-35%) PnL -1794.64$ coût 19.6%
+2026-10-30 06:08:55,agressive,VENTE,CPU,4.57e-05,1687.94,stop-loss (-44%) PnL -1700.35$ coût 10.9%
+2026-10-30 06:08:55,agressive,ACHAT,HYPERCHAN,0.001725707035,3510.32,score 65 coût 7.5%
