@@ -2550,3 +2550,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 14:05:19,hasard,ACHAT,calm,0.0001341334955,3658.87,score 47 coût 30.2%
 2026-10-30 14:06:19,hasard,ACHAT,Kim,0.0001353158579,3629.15,score 47 coût 28.4%
 2026-10-30 14:10:18,actuelle,ACHAT,Kim,0.0001457873948,5095.56,score 61 coût 40.0%
+2026-10-30 14:15:17,actuelle,VENTE,FLUKE,0.0001446,2587.51,stop-loss (-37%) PnL -2548.61$ coût 20.2%
