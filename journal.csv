@@ -2511,15 +2511,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 00:14:32,actuelle,VENTE,NIO,0.0007792,3330.39,stop-loss (-30%) PnL -1975.77$ coût 9.8%
 2026-10-30 00:24:31,hasard,VENTE,jeff,0.0007426,2410.40,stop-loss (-32%) PnL -1469.48$ coût 9.0%
 2026-10-30 00:44:33,hasard,VENTE,NIO,0.0007491,2438.15,stop-loss (-31%) PnL -1390.68$ coût 7.4%
-2026-10-30 02:30:30,apprentie,ACHAT,$CHIMP,0.0001057765396,15.63,score 36 coût 1.1%
-2026-10-30 02:30:30,apprentie,ACHAT,DESSA,0.007650722919,15.63,score 33 coût 1.0%
-2026-10-30 04:10:30,apprentie,ACHAT,jeff,0.001036664892,15.66,score 35 coût 1.0%
-2026-10-30 04:28:32,actuelle,ACHAT,FLUKE,0.0002102470902,5266.65,score 66 coût 30.8%
-2026-10-30 04:28:32,hasard,ACHAT,Foxii,0.0006458809634,3791.80,score 46 coût 13.1%
-2026-10-30 04:28:32,hasard,ACHAT,FLUKE,0.0001966707166,3775.16,score 66 coût 22.4%
-2026-10-30 04:28:32,apprentie,ACHAT,Foxii,0.0005769961252,15.68,score 46 coût 1.1%
-2026-10-30 04:30:30,actuelle,ACHAT,Foxii,0.0007064328814,5229.73,score 61 coût 17.3%
-2026-10-30 04:35:30,actuelle,ACHAT,INVERSE,0.0006281628456,5210.05,score 67 coût 15.7%
-2026-10-30 04:35:30,apprentie,VENTE,jeff,0.001313,19.63,palier +25% PnL +3.97$ coût 1.0%
-2026-10-30 04:37:30,apprentie,VENTE,Foxii,0.000746,20.06,palier +25% PnL +4.38$ coût 1.1%
-2026-10-30 04:48:33,actuelle,VENTE,Foxii,0.0004934,3157.79,stop-loss (-30%) PnL -2071.94$ coût 13.5%
+2026-10-30 04:50:56,actuelle,ACHAT,Foxii,0.0005815324233,5266.65,score 61 coût 19.2%
+2026-10-30 04:50:56,actuelle,ACHAT,INVERSE,0.0006664710669,5235.35,score 60 coût 15.3%
+2026-10-30 04:50:56,hasard,ACHAT,Foxii,0.0005567066809,3791.80,score 61 coût 14.1%
