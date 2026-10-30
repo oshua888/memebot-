@@ -2567,3 +2567,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 15:08:17,prudente,VENTE,HYPERCHAN,0.001541,6.69,stop-loss (-21%) PnL -1.86$ coût 1.0%
 2026-10-30 15:13:17,actuelle,VENTE,Kim,0.0001304,2659.19,stop-loss (-31%) PnL -2415.68$ coût 24.2%
 2026-10-30 15:45:41,actuelle,ACHAT,███,0.0006788336474,5015.75,score 60 coût 13.6%
+2026-10-30 15:55:42,agressive,VENTE,JOB,0.002643,2613.29,durée max 24h PnL -1176.11$ coût 4.9%
+2026-10-30 15:55:42,agressive,ACHAT,███,0.00055480524,3425.53,score 57 coût 10.4%
