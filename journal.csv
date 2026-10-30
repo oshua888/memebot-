@@ -2565,3 +2565,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 15:01:18,hasard,ACHAT,SAFU,0.0006111902041,3586.48,score 37 coût 13.0%
 2026-10-30 15:02:17,hasard,VENTE,SAFU,1.986e-06,11.53,stop-loss (-100%) PnL -3574.95$ coût 1.1%
 2026-10-30 15:08:17,prudente,VENTE,HYPERCHAN,0.001541,6.69,stop-loss (-21%) PnL -1.86$ coût 1.0%
+2026-10-30 15:13:17,actuelle,VENTE,Kim,0.0001304,2659.19,stop-loss (-31%) PnL -2415.68$ coût 24.2%
