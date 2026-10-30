@@ -2599,3 +2599,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 18:50:39,hasard,VENTE,PODCATWALK,0.0004301,1989.97,trailing-stop PnL -265.09$ coût 8.8%
 2026-10-30 19:06:39,hasard,VENTE,███,0.0005374,3381.34,durée max 12h PnL -341.69$ coût 11.1%
 2026-10-30 19:15:39,hasard,ACHAT,DESSA,0.009823575638,3375.03,score 44 coût 3.5%
+2026-10-30 19:19:39,agressive,VENTE,DESSA,0.009585,4873.74,durée max 24h PnL +1233.21$ coût 4.8%
+2026-10-30 19:19:39,agressive,ACHAT,NIO,0.001870747874,3460.38,score 58 coût 6.2%
