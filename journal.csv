@@ -2519,3 +2519,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 04:28:32,hasard,ACHAT,FLUKE,0.0001966707166,3775.16,score 66 coût 22.4%
 2026-10-30 04:28:32,apprentie,ACHAT,Foxii,0.0005769961252,15.68,score 46 coût 1.1%
 2026-10-30 04:30:30,actuelle,ACHAT,Foxii,0.0007064328814,5229.73,score 61 coût 17.3%
+2026-10-30 04:35:30,actuelle,ACHAT,INVERSE,0.0006281628456,5210.05,score 67 coût 15.7%
+2026-10-30 04:35:30,apprentie,VENTE,jeff,0.001313,19.63,palier +25% PnL +3.97$ coût 1.0%
+2026-10-30 04:37:30,apprentie,VENTE,Foxii,0.000746,20.06,palier +25% PnL +4.38$ coût 1.1%
