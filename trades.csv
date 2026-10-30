@@ -1173,3 +1173,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-30 04:30,2026-10-30 04:48,actuelle,Foxii,profil,stop-loss (-30%),0.3,-39.62,61,64365,9.01,2.0,3.599,0.532,5.17,56.96,1324,0
 2026-10-30 04:50,2026-10-30 05:34,actuelle,Foxii,boost+profil,stop-loss (-33%),0.73,-42.54,61,57982,8.1,2.4,3.711,0.533,-10.66,28.2,1053,1
 2026-10-30 04:50,2026-10-30 05:35,hasard,Foxii,boost+profil,stop-loss (-33%),0.75,-40.59,61,57982,8.1,2.4,3.711,0.533,-10.66,28.2,1053,1
+2026-10-30 05:31,2026-10-30 05:49,prudente,HI,tendance,trailing-stop,0.3,32.05,70,92769,9.15,12.9,1.358,0.563,-17.44,36.87,120,0

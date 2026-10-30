@@ -2523,3 +2523,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 05:35:58,hasard,VENTE,Foxii,0.0003715,2252.53,stop-loss (-33%) PnL -1539.28$ coût 11.0%
 2026-10-30 05:37:58,prudente,VENTE,HI,0.001246,5.94,palier +30% PnL +1.68$ coût 1.0%
 2026-10-30 05:37:58,agressive,VENTE,HI,0.001246,3235.38,palier +200% PnL +2074.27$ coût 7.2%
+2026-10-30 05:49:57,prudente,VENTE,HI,0.001112,5.30,trailing-stop PnL +1.04$ coût 1.0%
