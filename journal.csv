@@ -2744,3 +2744,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 21:40:58,apprentie,ACHAT,Leverhedge,0.00193871153,16.11,score 53 coût 1.0%
 2026-10-31 21:43:57,actuelle,VENTE,VAMPCAT,1.052e-05,41.64,stop-loss (-99%) PnL -4642.60$ coût 2.2%
 2026-10-31 21:46:58,actuelle,VENTE,Anakin,0.001038,3985.65,trailing-stop PnL +825.60$ coût 10.6%
+2026-10-31 21:54:59,prudente,ACHAT,PAWCAT,0.003200041112,8.67,score 84 coût 1.0%
+2026-10-31 21:54:59,actuelle,ACHAT,PAWCAT,0.003391193493,4596.78,score 84 coût 7.0%
