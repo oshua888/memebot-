@@ -2625,3 +2625,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 02:12:25,hasard,VENTE,BNB,0.001229,1750.70,palier +50% PnL +649.79$ coût 4.8%
 2026-10-31 02:17:31,prudente,VENTE,BNB,0.001398,3.60,palier +60% PnL +1.46$ coût 1.0%
 2026-10-31 02:19:34,hasard,VENTE,NETWORK,0.0002929,3324.37,durée max 12h PnL -276.16$ coût 19.0%
+2026-10-31 02:31:25,hasard,VENTE,BNB,0.001482,2133.60,palier +100% PnL +1016.01$ coût 5.3%
