@@ -1269,3 +1269,5 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-31 20:46,2026-10-31 21:27,prudente,AAPLCAT,profil,trailing-stop,0.67,17.47,77,56849,8.31,2.0,2.295,0.693,2.39,5.61,1002,0
 2026-10-31 20:30,2026-10-31 21:40,prudente,Anakin,nouveau,trailing-stop,1.17,57.23,75,71321,8.59,49.0,2.961,0.55,-7.57,33.04,210,0
 2026-10-31 21:18,2026-10-31 21:40,apprentie,Leverhedge,boost+tendance,palier +25%,0.37,28.57,71,103151,14.03,21.6,0.733,0.638,0.97,36.34,7.18,1
+2026-10-31 21:21,2026-10-31 21:43,actuelle,VAMPCAT,tendance,stop-loss (-99%),0.37,-99.11,60,446006,2.37,10.8,0.006,0.747,11.76,6477,1290,0
+2026-10-31 20:30,2026-10-31 21:46,actuelle,Anakin,nouveau,trailing-stop,1.27,35.36,75,71321,8.59,49.0,2.961,0.55,-7.57,33.04,210,0
