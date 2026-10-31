@@ -2739,3 +2739,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 21:27:02,prudente,VENTE,AAPLCAT,0.0004848,4.29,trailing-stop PnL -0.01$ coût 1.0%
 2026-10-31 21:28:04,actuelle,VENTE,Leverhedge,0.001626,2257.15,palier +50% PnL +674.85$ coût 5.4%
 2026-10-31 21:31:59,prudente,VENTE,Leverhedge,0.001761,3.45,palier +60% PnL +1.30$ coût 1.0%
+2026-10-31 21:40:58,prudente,VENTE,Anakin,0.001161,3.78,trailing-stop PnL +1.64$ coût 1.0%
+2026-10-31 21:40:58,apprentie,VENTE,Leverhedge,0.001919,20.46,palier +25% PnL +4.55$ coût 1.0%
+2026-10-31 21:40:58,apprentie,ACHAT,Leverhedge,0.00193871153,16.11,score 53 coût 1.0%
