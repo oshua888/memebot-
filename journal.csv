@@ -2634,3 +2634,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 01:27:02,hasard,ACHAT,HI,0.0007429579784,3350.67,score 27 coût 9.2%
 2026-10-31 01:48:03,actuelle,VENTE,iCoin,0.0004991,2768.36,stop-loss (-36%) PnL -2028.97$ coût 10.0%
 2026-10-31 01:51:03,prudente,VENTE,AgenC,0.001776,5.52,palier +30% PnL +1.25$ coût 1.0%
+2026-10-31 01:56:04,hasard,VENTE,AgenC,0.001987,1606.65,palier +50% PnL +519.39$ coût 3.6%
