@@ -2784,3 +2784,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 22:37:00,hasard,ACHAT,SIS,0.0007012942041,3039.91,score 63 coût 9.8%
 2026-10-31 22:42:03,prudente,VENTE,ANSEM,0.0003487,3.25,trailing-stop PnL +1.12$ coût 1.0%
 2026-10-31 22:42:03,prudente,ACHAT,ANSEM,0.0003523050827,8.59,score 77 coût 1.0%
+2026-10-31 23:03:00,actuelle,ACHAT,Leverhedge,0.00104439411,4513.75,score 60 coût 12.0%
