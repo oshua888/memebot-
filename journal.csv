@@ -2701,3 +2701,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 19:35:58,agressive,ACHAT,paws,0.0009411529723,3331.76,score 54 coût 8.1%
 2026-10-31 19:48:58,prudente,VENTE,FOCO,0.0005469,6.45,stop-loss (-24%) PnL -2.15$ coût 1.0%
 2026-10-31 19:48:58,actuelle,VENTE,FOCO,0.0005469,2893.49,stop-loss (-32%) PnL -1890.15$ coût 10.4%
+2026-10-31 19:53:57,prudente,ACHAT,SIS,0.000534943848,8.57,score 76 coût 1.0%
+2026-10-31 19:53:57,actuelle,ACHAT,SIS,0.0006170631033,4738.12,score 76 coût 16.5%
