@@ -2656,3 +2656,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 15:35:13,hasard,ACHAT,NIO,0.001134967655,3362.07,score 52 coût 7.5%
 2026-10-31 15:36:14,hasard,ACHAT,iCoin,0.000450967259,3353.77,score 48 coût 11.6%
 2026-10-31 15:47:13,actuelle,ACHAT,LUMI,0.0003275596066,4847.72,score 65 coût 19.5%
+2026-10-31 15:53:13,actuelle,VENTE,LUMI,0.0002212,2785.68,stop-loss (-32%) PnL -2062.04$ coût 14.9%
+2026-10-31 15:55:13,hasard,VENTE,LUMI,0.0002079,2040.67,stop-loss (-32%) PnL -1347.31$ coût 11.1%
+2026-10-31 15:55:13,hasard,ACHAT,HI,0.0005030284436,3319.55,score 26 coût 11.1%
+2026-10-31 15:56:13,agressive,VENTE,███,0.0004294,2418.69,durée max 24h PnL -1006.84$ coût 8.8%
+2026-10-31 15:56:13,agressive,ACHAT,iCoin,0.000453653341,3204.75,score 58 coût 11.1%
