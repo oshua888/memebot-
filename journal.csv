@@ -2635,3 +2635,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 02:59:28,agressive,VENTE,BNB,0.001138,2618.00,trailing-stop PnL +396.65$ coût 7.1%
 2026-10-31 03:06:27,hasard,VENTE,AgenC,0.001956,1582.03,palier +50% PnL +494.77$ coût 3.6%
 2026-10-31 03:12:28,agressive,VENTE,NIO,0.001111,1955.27,stop-loss (-41%) PnL -1505.11$ coût 4.9%
+2026-10-31 03:42:33,hasard,VENTE,DESSA,0.01455,1641.58,trailing-stop PnL +510.94$ coût 2.0%
