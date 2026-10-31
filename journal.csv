@@ -2724,3 +2724,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 20:55:58,prudente,VENTE,Anakin,0.001083,3.53,palier +60% PnL +1.39$ coût 1.0%
 2026-10-31 20:57:58,apprentie,VENTE,Jason,0.0001581,20.58,palier +25% PnL +4.95$ coût 1.1%
 2026-10-31 20:57:58,apprentie,ACHAT,SIS,0.0004062604963,15.92,score 62 coût 1.1%
+2026-10-31 21:03:57,actuelle,VENTE,Anakin,0.001208,2398.75,palier +50% PnL +842.30$ coût 6.1%
