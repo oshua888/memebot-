@@ -2703,3 +2703,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 19:48:58,actuelle,VENTE,FOCO,0.0005469,2893.49,stop-loss (-32%) PnL -1890.15$ coût 10.4%
 2026-10-31 19:53:57,prudente,ACHAT,SIS,0.000534943848,8.57,score 76 coût 1.0%
 2026-10-31 19:53:57,actuelle,ACHAT,SIS,0.0006170631033,4738.12,score 76 coût 16.5%
+2026-10-31 20:30:58,prudente,ACHAT,Anakin,0.0006507968693,8.57,score 75 coût 1.0%
+2026-10-31 20:30:58,actuelle,ACHAT,Anakin,0.0007358450458,4716.49,score 75 coût 14.2%
+2026-10-31 20:32:59,prudente,VENTE,SIS,0.0004109,6.52,stop-loss (-23%) PnL -2.06$ coût 1.0%
+2026-10-31 20:32:59,actuelle,VENTE,SIS,0.0004109,2752.99,stop-loss (-33%) PnL -1985.13$ coût 12.7%
