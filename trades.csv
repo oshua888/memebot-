@@ -1226,3 +1226,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-30 23:39,2026-10-31 02:49,prudente,BNB,boost+profil,trailing-stop,3.17,62.54,74,75936,10.67,2.8,3.368,0.65,-7.84,31.19,1407,1
 2026-10-30 22:51,2026-10-31 02:56,actuelle,BNB,boost+profil,trailing-stop,4.09,67.55,78,67850,9.73,2.0,3.878,0.699,6.76,29.42,1128,1
 2026-10-30 22:51,2026-10-31 02:56,hasard,BNB,boost+profil,trailing-stop,4.09,72.88,78,67850,9.73,2.0,3.878,0.699,6.76,29.42,1128,1
+2026-10-30 23:44,2026-10-31 02:59,agressive,BNB,boost,trailing-stop,3.26,43.04,73,76207,10.68,2.9,3.593,0.645,4.74,36.27,1413,1
