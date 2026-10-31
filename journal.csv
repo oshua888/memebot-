@@ -2793,3 +2793,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 23:15:00,hasard,VENTE,PAWCAT,0.004592,1493.45,palier +50% PnL +477.55$ coût 2.7%
 2026-10-31 23:15:00,apprentie,VENTE,PAWCAT,0.004592,22.48,palier +25% PnL +6.29$ coût 1.0%
 2026-10-31 23:15:00,apprentie,ACHAT,PAWCAT,0.004638737386,16.37,score 55 coût 1.0%
+2026-10-31 23:20:00,hasard,VENTE,PAWCAT,0.003345,2181.00,trailing-stop PnL +118.40$ coût 3.9%
+2026-10-31 23:20:00,hasard,ACHAT,PAWCAT,0.003504607974,2960.51,score 71 coût 4.8%
+2026-10-31 23:20:00,apprentie,VENTE,PAWCAT,0.003345,11.69,stop-loss (-28%) PnL -4.69$ coût 1.0%
+2026-10-31 23:20:00,apprentie,ACHAT,SIS,0.0005925524063,16.29,score 63 coût 1.0%
