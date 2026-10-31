@@ -2625,3 +2625,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 00:33:02,actuelle,ACHAT,STANK,0.0002601517565,4798.39,score 62 coût 25.1%
 2026-10-31 00:34:03,agressive,VENTE,NIO,0.001112,1956.71,stop-loss (-41%) PnL -1503.66$ coût 4.9%
 2026-10-31 00:34:03,agressive,ACHAT,AgenC,0.001599693906,3285.38,score 73 coût 7.1%
+2026-10-31 00:40:03,prudente,VENTE,BNB,0.000604,6.22,stop-loss (-27%) PnL -2.34$ coût 1.0%
+2026-10-31 00:41:05,actuelle,VENTE,STANK,0.00017,2555.66,stop-loss (-35%) PnL -2242.73$ coût 18.5%
