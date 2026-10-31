@@ -2697,3 +2697,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 19:24:58,prudente,ACHAT,FOCO,0.0007216017099,8.60,score 71 coût 1.0%
 2026-10-31 19:24:58,actuelle,ACHAT,FOCO,0.0008096990038,4783.64,score 71 coût 13.4%
 2026-10-31 19:31:57,hasard,VENTE,LumiBot,8.879e-05,1768.04,stop-loss (-31%) PnL -1445.78$ coût 19.9%
+2026-10-31 19:33:58,hasard,ACHAT,paws,0.001015601807,3151.63,score 41 coût 7.5%
+2026-10-31 19:35:58,agressive,ACHAT,paws,0.0009411529723,3331.76,score 54 coût 8.1%
