@@ -2685,3 +2685,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 18:39:57,agressive,ACHAT,CATPAD,0.000175474833,3475.14,score 54 coût 23.7%
 2026-10-31 18:43:57,apprentie,ACHAT,Leverhedge,0.001136642867,15.73,score 77 coût 1.0%
 2026-10-31 18:58:57,agressive,VENTE,LUMI,0.0001781,1732.77,stop-loss (-42%) PnL -1572.86$ coût 10.1%
+2026-10-31 19:03:57,hasard,ACHAT,ANSEM,0.0001346026639,3192.39,score 36 coût 25.1%
+2026-10-31 19:04:57,agressive,VENTE,BNB,0.0002552,1766.82,stop-loss (-41%) PnL -1560.03$ coût 9.2%
+2026-10-31 19:04:57,agressive,ACHAT,ANSEM,0.0001318006518,3417.94,score 51 coût 27.3%
+2026-10-31 19:06:58,agressive,ACHAT,FOCO,0.0005891729697,3371.33,score 57 coût 11.2%
+2026-10-31 19:06:58,hasard,VENTE,ANSEM,8.802e-05,1700.79,stop-loss (-35%) PnL -1491.60$ coût 18.5%
+2026-10-31 19:06:58,hasard,ACHAT,FOCO,0.000585839733,3162.74,score 57 coût 10.5%
