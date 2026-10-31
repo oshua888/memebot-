@@ -2725,3 +2725,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 20:57:58,apprentie,VENTE,Jason,0.0001581,20.58,palier +25% PnL +4.95$ coût 1.1%
 2026-10-31 20:57:58,apprentie,ACHAT,SIS,0.0004062604963,15.92,score 62 coût 1.1%
 2026-10-31 21:03:57,actuelle,VENTE,Anakin,0.001208,2398.75,palier +50% PnL +842.30$ coût 6.1%
+2026-10-31 21:18:59,apprentie,VENTE,LumiBot,0.0001351,20.18,palier +25% PnL +4.57$ coût 1.1%
+2026-10-31 21:18:59,apprentie,ACHAT,Leverhedge,0.00147707102,15.91,score 71 coût 1.0%
+2026-10-31 21:19:58,hasard,VENTE,paws,0.0007023,2041.90,stop-loss (-31%) PnL -1109.74$ coût 6.3%
+2026-10-31 21:19:58,hasard,ACHAT,Jason,0.0001768408998,3080.16,score 46 coût 19.9%
+2026-10-31 21:21:59,actuelle,ACHAT,ANSEM,0.0003861855862,4713.84,score 67 coût 20.6%
+2026-10-31 21:21:59,actuelle,ACHAT,VAMPCAT,0.001157818926,4684.24,score 60 coût 3.1%
+2026-10-31 21:23:01,prudente,VENTE,AAPLCAT,0.0006571,5.82,palier +30% PnL +1.51$ coût 1.0%
+2026-10-31 21:23:01,apprentie,VENTE,AAPLCAT,0.0006571,22.02,palier +25% PnL +6.17$ coût 1.1%
+2026-10-31 21:23:01,apprentie,ACHAT,Jason,0.0001497261601,16.02,score 46 coût 1.1%
