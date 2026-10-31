@@ -2636,3 +2636,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 01:51:03,prudente,VENTE,AgenC,0.001776,5.52,palier +30% PnL +1.25$ coût 1.0%
 2026-10-31 01:56:04,hasard,VENTE,AgenC,0.001987,1606.65,palier +50% PnL +519.39$ coût 3.6%
 2026-10-31 01:58:04,actuelle,VENTE,BNB,0.001209,2353.14,palier +50% PnL +765.66$ coût 6.3%
+2026-10-31 02:03:06,prudente,VENTE,AgenC,0.001657,5.15,trailing-stop PnL +0.88$ coût 1.0%
