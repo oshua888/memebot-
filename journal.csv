@@ -2665,25 +2665,15 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 16:11:16,prudente,VENTE,BNB,0.0003045,6.63,stop-loss (-22%) PnL -1.98$ coût 1.0%
 2026-10-31 16:11:16,hasard,VENTE,BNB,0.0003045,2117.15,stop-loss (-31%) PnL -1284.69$ coût 10.3%
 2026-10-31 16:11:16,hasard,ACHAT,OREN,0.000154550677,3283.36,score 48 coût 22.1%
-2026-10-31 16:14:12,agressive,VENTE,AgenC,3.344e-06,69.32,stop-loss (-98%) PnL -3198.23$ coût 4.8%
-2026-10-31 16:14:12,agressive,ACHAT,CATPAD,0.0001710402876,3102.23,score 51 coût 21.4%
-2026-10-31 16:15:13,apprentie,VENTE,Leverhedge,0.0007252,11.30,stop-loss (-27%) PnL -4.32$ coût 1.0%
-2026-10-31 16:16:16,hasard,VENTE,iCoin,0.0002874,1943.87,stop-loss (-36%) PnL -1409.90$ coût 9.1%
-2026-10-31 16:17:13,agressive,VENTE,iCoin,0.0002688,1739.43,stop-loss (-41%) PnL -1465.32$ coût 8.4%
-2026-10-31 16:17:13,hasard,VENTE,Leverhedge,0.0006831,2133.85,stop-loss (-32%) PnL -1243.76$ coût 7.7%
-2026-10-31 16:23:12,agressive,VENTE,Leverhedge,0.0006355,1818.22,stop-loss (-41%) PnL -1464.80$ coût 6.8%
-2026-10-31 16:24:12,agressive,VENTE,LUMI,0.0001822,1769.69,stop-loss (-40%) PnL -1535.94$ coût 10.3%
-2026-10-31 16:25:12,hasard,VENTE,HI,0.000323,1946.03,stop-loss (-36%) PnL -1373.52$ coût 8.7%
-2026-10-31 16:26:12,agressive,ACHAT,Jason,0.0001587415817,3030.46,score 50 coût 20.8%
-2026-10-31 16:30:12,agressive,ACHAT,JOB,0.004025064202,3006.47,score 51 coût 4.5%
-2026-10-31 16:34:12,actuelle,ACHAT,Leverhedge,0.001169392079,4794.84,score 61 coût 12.1%
-2026-10-31 16:37:12,prudente,ACHAT,Leverhedge,0.001093031519,8.59,score 77 coût 1.0%
-2026-10-31 16:48:12,hasard,VENTE,OREN,0.0001059,1870.24,stop-loss (-31%) PnL -1413.13$ coût 16.9%
-2026-10-31 16:55:12,apprentie,ACHAT,CATPAD,0.000146697191,15.57,score 34 coût 1.1%
-2026-10-31 17:00:21,prudente,VENTE,Leverhedge,0.000868,6.75,stop-loss (-21%) PnL -1.84$ coût 1.0%
-2026-10-31 17:03:12,apprentie,ACHAT,Jason,0.0001327466934,15.57,score 38 coût 1.1%
-2026-10-31 17:06:12,actuelle,VENTE,Leverhedge,0.0007564,2807.74,stop-loss (-35%) PnL -1987.10$ coût 9.5%
-2026-10-31 17:22:13,actuelle,ACHAT,iCoin,0.0002663397305,4755.10,score 62 coût 21.6%
-2026-10-31 17:28:13,hasard,ACHAT,CATPAD,0.0001706412304,3226.75,score 19 coût 22.3%
-2026-10-31 17:40:13,actuelle,VENTE,iCoin,0.0001833,2731.69,stop-loss (-31%) PnL -2023.41$ coût 16.5%
-2026-10-31 18:01:20,agressive,ACHAT,OREN,0.0001294652231,3016.23,score 51 coût 22.3%
+2026-10-31 18:13:58,prudente,ACHAT,Leverhedge,0.0009678795152,8.59,score 79 coût 1.0%
+2026-10-31 18:13:58,actuelle,ACHAT,Leverhedge,0.001078529523,4794.84,score 79 coût 12.6%
+2026-10-31 18:13:58,agressive,VENTE,AgenC,0.001009,7063.00,palier +100% PnL +5984.71$ coût 2.6%
+2026-10-31 18:13:58,agressive,VENTE,iCoin,0.0001547,1020.11,stop-loss (-66%) PnL -2184.64$ coût 6.7%
+2026-10-31 18:13:58,hasard,VENTE,iCoin,0.0001547,1070.47,stop-loss (-66%) PnL -2283.30$ coût 7.0%
+2026-10-31 18:13:58,hasard,VENTE,OREN,0.0001052,1859.34,stop-loss (-32%) PnL -1424.02$ coût 16.8%
+2026-10-31 18:13:58,hasard,ACHAT,CATPAD,0.000162582859,3235.85,score 20 coût 23.0%
+2026-10-31 18:13:58,hasard,ACHAT,LumiBot,0.0001293412667,3213.82,score 40 coût 26.6%
+2026-10-31 18:13:58,apprentie,ACHAT,Jason,0.0001187011405,15.63,score 29 coût 1.1%
+2026-10-31 18:13:58,apprentie,ACHAT,LumiBot,0.0001033489367,15.62,score 40 coût 1.1%
+2026-10-31 18:14:58,agressive,VENTE,AgenC,0.001009,7168.22,palier +200% PnL +6073.60$ coût 2.6%
+2026-10-31 18:18:00,agressive,ACHAT,LumiBot,0.0001385982329,3748.24,score 52 coût 30.1%
