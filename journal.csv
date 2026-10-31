@@ -2772,3 +2772,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 22:17:07,hasard,ACHAT,NNN,0.0001644742865,3082.70,score 34 coût 22.0%
 2026-10-31 22:18:03,prudente,VENTE,HALLOWCHAN,0.000123,6.73,stop-loss (-21%) PnL -1.91$ coût 1.0%
 2026-10-31 22:18:03,prudente,VENTE,VAMPCAT,1.138e-05,0.09,stop-loss (-99%) PnL -8.55$ coût 1.0%
+2026-10-31 22:24:00,hasard,VENTE,SIS,0.0006048,2562.22,trailing-stop PnL +479.08$ coût 9.5%
+2026-10-31 22:24:00,hasard,ACHAT,Leverhedge,0.001123539258,3059.55,score 50 coût 8.0%

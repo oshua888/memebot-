@@ -1285,3 +1285,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-31 22:13,2026-10-31 22:17,hasard,HALLOWCHAN,profil,stop-loss (-34%),0.07,-43.16,61,34190,5.14,2.0,5.508,0.843,13.69,162,276,0
 2026-10-31 22:16,2026-10-31 22:18,prudente,HALLOWCHAN,profil,stop-loss (-21%),0.03,-22.15,75,31765,4.81,2.1,5.71,0.839,-12.53,57.19,226,0
 2026-10-31 22:17,2026-10-31 22:18,prudente,VAMPCAT,tendance,stop-loss (-99%),0.02,-99.01,75,470969,2.26,11.7,0.008,0.88,0,12.27,2295,0
+2026-10-31 20:42,2026-10-31 22:24,hasard,SIS,boost,trailing-stop,1.68,29.86,62,52627,7.45,2.8,4.87,0.722,-4.17,-27.87,800,1
