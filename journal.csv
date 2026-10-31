@@ -2721,3 +2721,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 20:50:58,apprentie,ACHAT,AAPLCAT,0.0004678918549,15.85,score 68 coût 1.1%
 2026-10-31 20:51:58,agressive,VENTE,FOCO,0.0003524,1849.85,stop-loss (-40%) PnL -1521.48$ coût 8.3%
 2026-10-31 20:51:58,agressive,ACHAT,AAPLCAT,0.0005436369339,3315.61,score 77 coût 12.6%
+2026-10-31 20:55:58,prudente,VENTE,Anakin,0.001083,3.53,palier +60% PnL +1.39$ coût 1.0%
+2026-10-31 20:57:58,apprentie,VENTE,Jason,0.0001581,20.58,palier +25% PnL +4.95$ coût 1.1%
+2026-10-31 20:57:58,apprentie,ACHAT,SIS,0.0004062604963,15.92,score 62 coût 1.1%
