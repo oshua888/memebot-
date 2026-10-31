@@ -2762,3 +2762,13 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 22:13:00,apprentie,VENTE,Leverhedge,0.001433,11.79,stop-loss (-26%) PnL -4.32$ coût 1.0%
 2026-10-31 22:13:00,apprentie,ACHAT,NNN,0.0001387215523,16.13,score 33 coût 1.1%
 2026-10-31 22:13:00,apprentie,ACHAT,PAWCAT,0.002564990701,16.12,score 68 coût 1.0%
+2026-10-31 22:15:01,apprentie,VENTE,PAWCAT,0.00324,20.16,palier +25% PnL +4.03$ coût 1.0%
+2026-10-31 22:15:01,apprentie,ACHAT,PAWCAT,0.003273080333,16.19,score 85 coût 1.0%
+2026-10-31 22:16:03,prudente,ACHAT,HALLOWCHAN,0.0001563311692,8.64,score 75 coût 1.1%
+2026-10-31 22:16:03,hasard,VENTE,SIS,0.0006768,1475.22,palier +50% PnL +449.20$ coût 5.4%
+2026-10-31 22:17:07,prudente,ACHAT,VAMPCAT,0.001139321349,8.63,score 75 coût 1.0%
+2026-10-31 22:17:07,actuelle,VENTE,HALLOWCHAN,0.0001409,2324.56,stop-loss (-36%) PnL -2234.27$ coût 20.3%
+2026-10-31 22:17:07,hasard,VENTE,HALLOWCHAN,0.0001409,1743.79,stop-loss (-34%) PnL -1324.35$ coût 14.5%
+2026-10-31 22:17:07,hasard,ACHAT,NNN,0.0001644742865,3082.70,score 34 coût 22.0%
+2026-10-31 22:18:03,prudente,VENTE,HALLOWCHAN,0.000123,6.73,stop-loss (-21%) PnL -1.91$ coût 1.0%
+2026-10-31 22:18:03,prudente,VENTE,VAMPCAT,1.138e-05,0.09,stop-loss (-99%) PnL -8.55$ coût 1.0%
