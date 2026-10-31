@@ -2746,3 +2746,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 21:46:58,actuelle,VENTE,Anakin,0.001038,3985.65,trailing-stop PnL +825.60$ coût 10.6%
 2026-10-31 21:54:59,prudente,ACHAT,PAWCAT,0.003200041112,8.67,score 84 coût 1.0%
 2026-10-31 21:54:59,actuelle,ACHAT,PAWCAT,0.003391193493,4596.78,score 84 coût 7.0%
+2026-10-31 21:58:59,agressive,VENTE,LumiBot,4.053e-06,102.07,stop-loss (-97%) PnL -3646.17$ coût 6.9%
+2026-10-31 21:58:59,agressive,ACHAT,PAWCAT,0.002989131568,3242.13,score 84 coût 5.5%
+2026-10-31 21:59:59,hasard,VENTE,Leverhedge,0.002001,2160.08,palier +100% PnL +1028.58$ coût 4.7%
+2026-10-31 22:02:00,actuelle,VENTE,AAPLCAT,0.0003608,2690.46,stop-loss (-34%) PnL -1987.34$ coût 13.5%
+2026-10-31 22:02:00,hasard,VENTE,AAPLCAT,0.0003608,1851.19,stop-loss (-34%) PnL -1250.29$ coût 9.2%
+2026-10-31 22:02:00,hasard,ACHAT,PAWCAT,0.003040322491,3078.51,score 84 coût 5.2%
