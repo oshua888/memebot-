@@ -1229,3 +1229,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-30 23:44,2026-10-31 02:59,agressive,BNB,boost,trailing-stop,3.26,43.04,73,76207,10.68,2.9,3.593,0.645,4.74,36.27,1413,1
 2026-10-30 19:19,2026-10-31 03:12,agressive,NIO,tendance,stop-loss (-41%),7.88,-43.5,58,132274,12.69,219.4,1.171,0.439,-0.85,19.74,71.14,0
 2026-10-30 19:15,2026-10-31 03:42,hasard,DESSA,boost+tendance,trailing-stop,8.45,66.75,44,270737,34.33,102.2,0.105,0.53,1.68,2.39,3.93,1
+2026-10-30 23:49,2026-10-31 03:54,hasard,AgenC,boost,trailing-stop,4.09,24.9,34,95829,12.46,5.5,2.024,0.542,45.91,131,2221,1
