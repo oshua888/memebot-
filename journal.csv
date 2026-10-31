@@ -2681,3 +2681,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 16:48:12,hasard,VENTE,OREN,0.0001059,1870.24,stop-loss (-31%) PnL -1413.13$ coût 16.9%
 2026-10-31 16:55:12,apprentie,ACHAT,CATPAD,0.000146697191,15.57,score 34 coût 1.1%
 2026-10-31 17:00:21,prudente,VENTE,Leverhedge,0.000868,6.75,stop-loss (-21%) PnL -1.84$ coût 1.0%
+2026-10-31 17:03:12,apprentie,ACHAT,Jason,0.0001327466934,15.57,score 38 coût 1.1%
+2026-10-31 17:06:12,actuelle,VENTE,Leverhedge,0.0007564,2807.74,stop-loss (-35%) PnL -1987.10$ coût 9.5%
