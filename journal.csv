@@ -2789,3 +2789,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 23:10:00,hasard,ACHAT,VAMPCAT,0.01132598402,3020.49,score 45 coût 1.1%
 2026-10-31 23:10:59,hasard,VENTE,VAMPCAT,1.212e-05,3.20,stop-loss (-100%) PnL -3017.29$ coût 1.1%
 2026-10-31 23:10:59,hasard,ACHAT,KIM,0.0003908867003,2961.12,score 49 coût 11.7%
+2026-10-31 23:14:00,actuelle,ACHAT,HI,0.0003801685647,4508.88,score 61 coût 17.1%
+2026-10-31 23:15:00,hasard,VENTE,PAWCAT,0.004592,1493.45,palier +50% PnL +477.55$ coût 2.7%
+2026-10-31 23:15:00,apprentie,VENTE,PAWCAT,0.004592,22.48,palier +25% PnL +6.29$ coût 1.0%
+2026-10-31 23:15:00,apprentie,ACHAT,PAWCAT,0.004638737386,16.37,score 55 coût 1.0%
