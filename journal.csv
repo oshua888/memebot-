@@ -2725,3 +2725,15 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 23:43:24,prudente,ACHAT,ANSEM,0.0003322024491,8.57,score 71 coût 1.0%
 2026-10-31 23:43:24,apprentie,VENTE,PAWCAT,0.003773,19.10,palier +25% PnL +3.81$ coût 1.0%
 2026-10-31 23:43:24,apprentie,ACHAT,PAWCAT,0.003811422429,15.32,score 84 coût 1.0%
+2026-10-31 23:51:26,prudente,VENTE,PAWCAT,0.004853,5.72,palier +30% PnL +1.44$ coût 1.0%
+2026-10-31 23:51:26,actuelle,ACHAT,KIM,0.000560653515,4613.25,score 65 coût 14.9%
+2026-10-31 23:51:26,hasard,VENTE,Jason,0.0001114,1727.57,stop-loss (-34%) PnL -1355.97$ coût 15.5%
+2026-10-31 23:51:26,hasard,ACHAT,Bitcoin,0.0003120992171,3065.16,score 35 coût 13.6%
+2026-10-31 23:51:26,apprentie,VENTE,PAWCAT,0.004853,19.31,palier +25% PnL +3.99$ coût 1.0%
+2026-10-31 23:51:26,apprentie,ACHAT,PAWCAT,0.004902317259,15.39,score 72 coût 1.0%
+2026-10-31 23:53:26,prudente,VENTE,PAWCAT,0.003899,4.59,trailing-stop PnL +0.31$ coût 1.0%
+2026-10-31 23:53:26,prudente,ACHAT,PAWCAT,0.003938383323,8.57,score 86 coût 1.0%
+2026-10-31 23:53:26,hasard,VENTE,FOCO,0.0006638,2228.68,trailing-stop PnL +109.64$ coût 7.2%
+2026-10-31 23:53:26,hasard,ACHAT,FOCO,0.0007225020899,3048.18,score 61 coût 8.8%
+2026-10-31 23:53:26,apprentie,VENTE,NNN,0.0001774,19.57,palier +25% PnL +4.26$ coût 1.1%
+2026-10-31 23:53:26,apprentie,ACHAT,NNN,0.0001793348117,15.36,score 34 coût 1.1%
