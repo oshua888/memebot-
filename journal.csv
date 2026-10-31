@@ -2665,3 +2665,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 16:11:16,prudente,VENTE,BNB,0.0003045,6.63,stop-loss (-22%) PnL -1.98$ coût 1.0%
 2026-10-31 16:11:16,hasard,VENTE,BNB,0.0003045,2117.15,stop-loss (-31%) PnL -1284.69$ coût 10.3%
 2026-10-31 16:11:16,hasard,ACHAT,OREN,0.000154550677,3283.36,score 48 coût 22.1%
+2026-10-31 16:14:12,agressive,VENTE,AgenC,3.344e-06,69.32,stop-loss (-98%) PnL -3198.23$ coût 4.8%
+2026-10-31 16:14:12,agressive,ACHAT,CATPAD,0.0001710402876,3102.23,score 51 coût 21.4%
+2026-10-31 16:15:13,apprentie,VENTE,Leverhedge,0.0007252,11.30,stop-loss (-27%) PnL -4.32$ coût 1.0%
+2026-10-31 16:16:16,hasard,VENTE,iCoin,0.0002874,1943.87,stop-loss (-36%) PnL -1409.90$ coût 9.1%
+2026-10-31 16:17:13,agressive,VENTE,iCoin,0.0002688,1739.43,stop-loss (-41%) PnL -1465.32$ coût 8.4%
+2026-10-31 16:17:13,hasard,VENTE,Leverhedge,0.0006831,2133.85,stop-loss (-32%) PnL -1243.76$ coût 7.7%
