@@ -2677,3 +2677,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 18:13:58,apprentie,ACHAT,LumiBot,0.0001033489367,15.62,score 40 coût 1.1%
 2026-10-31 18:14:58,agressive,VENTE,AgenC,0.001009,7168.22,palier +200% PnL +6073.60$ coût 2.6%
 2026-10-31 18:18:00,agressive,ACHAT,LumiBot,0.0001385982329,3748.24,score 52 coût 30.1%
+2026-10-31 18:31:57,hasard,VENTE,NIO,0.0007471,2078.96,stop-loss (-34%) PnL -1283.11$ coût 6.1%
+2026-10-31 18:31:57,apprentie,ACHAT,OREN,0.0001040438332,15.61,score 36 coût 1.1%
+2026-10-31 18:32:56,agressive,VENTE,AgenC,2.858e-06,20.39,stop-loss (-98%) PnL -1074.24$ coût 2.2%
