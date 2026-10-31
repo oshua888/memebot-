@@ -2709,3 +2709,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 20:32:59,actuelle,VENTE,SIS,0.0004109,2752.99,stop-loss (-33%) PnL -1985.13$ coût 12.7%
 2026-10-31 20:33:58,actuelle,ACHAT,CATPAD,0.0001797661102,4690.89,score 62 coût 32.5%
 2026-10-31 20:38:02,prudente,VENTE,Anakin,0.0009454,6.16,palier +30% PnL +1.88$ coût 1.0%
+2026-10-31 20:42:57,hasard,VENTE,HI,0.0003364,2024.43,stop-loss (-33%) PnL -1295.12$ coût 8.8%
+2026-10-31 20:42:57,hasard,ACHAT,SIS,0.0004451709371,3109.16,score 62 coût 12.8%
