@@ -2619,21 +2619,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-30 23:44:03,agressive,VENTE,FLUKE,6.363e-05,1622.63,stop-loss (-41%) PnL -1772.83$ coût 18.4%
 2026-10-30 23:44:03,agressive,ACHAT,BNB,0.0008973551742,3315.45,score 73 coût 9.7%
 2026-10-30 23:49:02,hasard,ACHAT,AgenC,0.001295594397,3294.73,score 34 coût 7.9%
-2026-10-31 00:02:05,actuelle,ACHAT,iCoin,0.0007786193389,4797.33,score 69 coût 13.1%
-2026-10-31 00:21:02,actuelle,ACHAT,AgenC,0.001371121327,4791.30,score 69 coût 10.8%
-2026-10-31 00:23:02,prudente,ACHAT,AgenC,0.001361704554,8.55,score 70 coût 1.0%
-2026-10-31 00:33:02,actuelle,ACHAT,STANK,0.0002601517565,4798.39,score 62 coût 25.1%
-2026-10-31 00:34:03,agressive,VENTE,NIO,0.001112,1956.71,stop-loss (-41%) PnL -1503.66$ coût 4.9%
-2026-10-31 00:34:03,agressive,ACHAT,AgenC,0.001599693906,3285.38,score 73 coût 7.1%
-2026-10-31 00:40:03,prudente,VENTE,BNB,0.000604,6.22,stop-loss (-27%) PnL -2.34$ coût 1.0%
-2026-10-31 00:41:05,actuelle,VENTE,STANK,0.00017,2555.66,stop-loss (-35%) PnL -2242.73$ coût 18.5%
-2026-10-31 00:53:03,actuelle,ACHAT,DESSA,0.01380067728,4754.17,score 63 coût 3.9%
-2026-10-31 01:05:02,hasard,VENTE,DESSA,0.01527,1696.80,palier +50% PnL +583.04$ coût 2.0%
-2026-10-31 01:17:02,hasard,VENTE,BNB,0.001117,1593.57,palier +50% PnL +492.66$ coût 4.7%
-2026-10-31 01:27:02,hasard,VENTE,BNB,0.0007682,2165.55,trailing-stop PnL -69.63$ coût 7.3%
-2026-10-31 01:27:02,hasard,ACHAT,HI,0.0007429579784,3350.67,score 27 coût 9.2%
-2026-10-31 01:48:03,actuelle,VENTE,iCoin,0.0004991,2768.36,stop-loss (-36%) PnL -2028.97$ coût 10.0%
-2026-10-31 01:51:03,prudente,VENTE,AgenC,0.001776,5.52,palier +30% PnL +1.25$ coût 1.0%
-2026-10-31 01:56:04,hasard,VENTE,AgenC,0.001987,1606.65,palier +50% PnL +519.39$ coût 3.6%
-2026-10-31 01:58:04,actuelle,VENTE,BNB,0.001209,2353.14,palier +50% PnL +765.66$ coût 6.3%
-2026-10-31 02:03:06,prudente,VENTE,AgenC,0.001657,5.15,trailing-stop PnL +0.88$ coût 1.0%
+2026-10-31 02:12:25,prudente,VENTE,BNB,0.001229,6.32,palier +30% PnL +2.05$ coût 1.0%
+2026-10-31 02:12:25,actuelle,VENTE,BNB,0.001229,2391.13,palier +50% PnL +803.65$ coût 6.3%
+2026-10-31 02:12:25,hasard,VENTE,DESSA,0.01539,1710.12,palier +50% PnL +596.36$ coût 2.0%
+2026-10-31 02:12:25,hasard,VENTE,BNB,0.001229,1750.70,palier +50% PnL +649.79$ coût 4.8%
