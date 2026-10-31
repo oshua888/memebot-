@@ -2778,3 +2778,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 22:32:00,prudente,ACHAT,ANSEM,0.0002264361366,8.54,score 70 coût 1.0%
 2026-10-31 22:32:00,agressive,VENTE,AAPLCAT,0.0006789,2525.41,trailing-stop PnL +303.95$ coût 9.0%
 2026-10-31 22:32:00,agressive,ACHAT,SIS,0.0009101767119,3253.16,score 64 coût 9.2%
+2026-10-31 22:34:00,prudente,VENTE,ANSEM,0.0003688,6.88,palier +30% PnL +2.61$ coût 1.0%
+2026-10-31 22:36:01,prudente,VENTE,ANSEM,0.0004271,3.98,palier +60% PnL +1.85$ coût 1.0%
+2026-10-31 22:37:00,hasard,VENTE,Leverhedge,0.0007545,1919.78,stop-loss (-33%) PnL -1139.77$ coût 6.6%
+2026-10-31 22:37:00,hasard,ACHAT,SIS,0.0007012942041,3039.91,score 63 coût 9.8%
