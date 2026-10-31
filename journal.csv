@@ -2629,3 +2629,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 00:41:05,actuelle,VENTE,STANK,0.00017,2555.66,stop-loss (-35%) PnL -2242.73$ coût 18.5%
 2026-10-31 00:53:03,actuelle,ACHAT,DESSA,0.01380067728,4754.17,score 63 coût 3.9%
 2026-10-31 01:05:02,hasard,VENTE,DESSA,0.01527,1696.80,palier +50% PnL +583.04$ coût 2.0%
+2026-10-31 01:17:02,hasard,VENTE,BNB,0.001117,1593.57,palier +50% PnL +492.66$ coût 4.7%
