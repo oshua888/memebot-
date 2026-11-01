@@ -2869,3 +2869,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 12:04:12,hasard,ACHAT,白いヤク,0.0001702255292,2870.55,score 35 coût 20.0%
 2026-11-01 12:11:12,actuelle,ACHAT,白いヤク,0.0001583990583,4365.04,score 64 coût 32.9%
 2026-11-01 12:13:12,hasard,VENTE,白いヤク,0.0001178,1676.99,stop-loss (-31%) PnL -1193.56$ coût 15.6%
+2026-11-01 12:20:12,actuelle,VENTE,白いヤク,0.0001041,2197.51,stop-loss (-34%) PnL -2167.53$ coût 23.4%
