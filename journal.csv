@@ -2924,3 +2924,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 21:11:03,prudente,ACHAT,RAM,0.0001393523586,8.51,score 76 coût 1.1%
 2026-11-01 21:34:01,hasard,VENTE,Anakin,0.002912,2123.97,trailing-stop PnL +239.59$ coût 3.7%
 2026-11-01 21:34:01,hasard,ACHAT,RAM,0.0001478070722,2737.68,score 58 coût 19.0%
+2026-11-01 21:54:02,agressive,VENTE,ANSEM,0.0004129,1648.19,stop-loss (-40%) PnL -1314.84$ coût 7.1%
+2026-11-01 21:54:02,agressive,ACHAT,RAM,0.0001778210751,2955.59,score 55 coût 18.6%
