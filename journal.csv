@@ -2874,3 +2874,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 13:11:12,apprentie,VENTE,WASTED,0.0001023,11.48,stop-loss (-26%) PnL -4.23$ coût 1.1%
 2026-11-01 13:58:12,hasard,ACHAT,CREDIT,0.001150272302,2842.01,score 31 coût 3.3%
 2026-11-01 14:01:12,hasard,VENTE,CREDIT,4.154e-05,100.36,stop-loss (-96%) PnL -2741.65$ coût 2.2%
+2026-11-01 14:06:12,agressive,VENTE,PAWCAT,0.002811,1823.21,stop-loss (-41%) PnL -1362.13$ coût 3.5%
+2026-11-01 14:06:12,agressive,ACHAT,WASTED,0.0001641988381,3148.87,score 58 coût 20.4%
