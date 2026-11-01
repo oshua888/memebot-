@@ -2797,3 +2797,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 03:20:30,apprentie,ACHAT,ANTS,0.001199284303,15.76,score 33 coût 1.0%
 2026-11-01 03:22:25,apprentie,VENTE,ANTS,0.0008026,10.44,stop-loss (-33%) PnL -5.32$ coût 1.0%
 2026-11-01 03:22:25,apprentie,ACHAT,FOCO,0.0005760485149,15.65,score 31 coût 1.0%
+2026-11-01 03:29:25,apprentie,VENTE,JOB,0.002994,14.08,durée max 12h PnL -1.56$ coût 1.0%
+2026-11-01 03:33:25,hasard,VENTE,Leverhedge,0.0009579,2958.37,durée max 12h PnL -419.24$ coût 8.7%
+2026-11-01 03:33:25,hasard,ACHAT,SIS,0.0006850889813,2991.94,score 83 coût 9.6%
