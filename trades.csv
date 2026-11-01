@@ -1335,3 +1335,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-01 11:15,2026-11-01 15:35,agressive,PAWCAT,boost+tendance,stop-loss (-63%),4.34,-64.57,88,187873,24.02,15.3,4.152,0.587,-26.91,11.93,41.68,1
 2026-11-01 04:54,2026-11-01 15:35,apprentie,ANTS,profil,palier +50%,10.68,66.03,54,95028,13.59,13.3,0.466,0.662,-12.83,-9.67,385,0
 2026-11-01 10:15,2026-11-01 15:55,apprentie,FOCO,tendance,stop-loss (-35%),5.67,-36.1,42,80514,8.54,206.4,0.262,0.431,4.16,14.49,12.69,0
+2026-11-01 10:58,2026-11-01 16:08,agressive,AAPLCAT,boost+tendance,stop-loss (-40%),5.17,-44.21,57,83263,10.41,16.2,3.762,0.607,0.02,-2.71,-8.23,1
