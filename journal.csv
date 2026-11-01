@@ -2937,3 +2937,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 22:47:01,apprentie,VENTE,Anakin,0.00365,20.06,palier +25% PnL +4.05$ coût 1.0%
 2026-11-01 22:51:02,actuelle,VENTE,ARNOLD,8.429e-05,2120.25,stop-loss (-32%) PnL -1989.94$ coût 24.4%
 2026-11-01 23:06:01,actuelle,ACHAT,ANSEM,0.0004335992026,4071.91,score 60 coût 15.6%
+2026-11-01 23:28:02,actuelle,ACHAT,VETOTRUMP,0.0001983889367,4049.45,score 68 coût 26.9%
+2026-11-01 23:28:02,apprentie,ACHAT,VETOTRUMP,0.0001580235831,16.05,score 68 coût 1.1%
