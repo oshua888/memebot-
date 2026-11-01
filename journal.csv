@@ -2871,28 +2871,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 12:13:12,hasard,VENTE,白いヤク,0.0001178,1676.99,stop-loss (-31%) PnL -1193.56$ coût 15.6%
 2026-11-01 12:20:12,actuelle,VENTE,白いヤク,0.0001041,2197.51,stop-loss (-34%) PnL -2167.53$ coût 23.4%
 2026-11-01 12:38:12,hasard,VENTE,Bitcoin,0.0002752,1828.94,stop-loss (-31%) PnL -1070.77$ coût 9.2%
-2026-11-01 13:11:12,apprentie,VENTE,WASTED,0.0001023,11.48,stop-loss (-26%) PnL -4.23$ coût 1.1%
-2026-11-01 13:58:12,hasard,ACHAT,CREDIT,0.001150272302,2842.01,score 31 coût 3.3%
-2026-11-01 14:01:12,hasard,VENTE,CREDIT,4.154e-05,100.36,stop-loss (-96%) PnL -2741.65$ coût 2.2%
-2026-11-01 14:06:12,agressive,VENTE,PAWCAT,0.002811,1823.21,stop-loss (-41%) PnL -1362.13$ coût 3.5%
-2026-11-01 14:06:12,agressive,ACHAT,WASTED,0.0001641988381,3148.87,score 58 coût 20.4%
-2026-11-01 14:13:12,actuelle,ACHAT,CREDIT,0.01130149229,4321.26,score 60 coût 1.4%
-2026-11-01 14:19:12,actuelle,VENTE,CREDIT,4.238e-05,16.01,stop-loss (-100%) PnL -4305.25$ coût 1.2%
-2026-11-01 14:30:12,apprentie,VENTE,FOCO,0.000488,10.71,stop-loss (-31%) PnL -4.91$ coût 1.0%
-2026-11-01 14:34:12,actuelle,ACHAT,Jason,0.0001410053488,4247.99,score 62 coût 31.7%
-2026-11-01 14:41:13,prudente,ACHAT,SA,0.0005597949834,8.53,score 70 coût 1.0%
-2026-11-01 14:41:13,actuelle,ACHAT,SA,0.0006356630896,4213.71,score 70 coût 14.7%
-2026-11-01 14:41:13,hasard,ACHAT,SA,0.0006100373701,2793.34,score 70 coût 10.1%
-2026-11-01 14:42:13,actuelle,VENTE,Jason,9.849e-05,2272.62,stop-loss (-30%) PnL -1975.37$ coût 23.4%
-2026-11-01 14:52:13,actuelle,ACHAT,KIM,0.0003127982852,4210.05,score 61 coût 17.4%
-2026-11-01 14:54:13,apprentie,VENTE,ANTS,0.002209,26.38,palier +50% PnL +10.42$ coût 1.0%
-2026-11-01 14:58:13,agressive,VENTE,CATPAD,6.722e-05,1159.79,stop-loss (-62%) PnL -2315.35$ coût 12.9%
-2026-11-01 14:58:13,agressive,ACHAT,SA,0.0006967993028,3074.62,score 71 coût 10.4%
-2026-11-01 15:05:13,prudente,VENTE,SA,0.0001093,1.65,stop-loss (-80%) PnL -6.89$ coût 1.0%
-2026-11-01 15:05:13,actuelle,VENTE,SA,0.0001093,677.54,stop-loss (-83%) PnL -3536.17$ coût 6.5%
-2026-11-01 15:05:13,agressive,VENTE,SA,0.0001093,459.85,stop-loss (-84%) PnL -2614.77$ coût 4.7%
-2026-11-01 15:05:13,agressive,ACHAT,KIM,0.0003124904024,2996.60,score 68 coût 12.4%
-2026-11-01 15:05:13,hasard,VENTE,SA,0.0001093,476.51,stop-loss (-82%) PnL -2316.83$ coût 4.8%
-2026-11-01 15:08:13,prudente,ACHAT,KIM,0.0003030932034,8.47,score 70 coût 1.0%
-2026-11-01 15:23:12,prudente,VENTE,KIM,0.0004028,5.57,palier +30% PnL +1.34$ coût 1.0%
-2026-11-01 15:30:13,agressive,VENTE,Leverhedge,0.0009584,2708.90,durée max 24h PnL -574.13$ coût 8.0%
+2026-11-01 15:35:37,actuelle,ACHAT,KIM,0.0004260997118,4350.93,score 64 coût 15.3%
+2026-11-01 15:35:37,agressive,VENTE,Leverhedge,0.0009211,2607.41,durée max 24h PnL -675.61$ coût 7.8%
+2026-11-01 15:35:37,agressive,VENTE,PAWCAT,0.00173,1128.57,stop-loss (-63%) PnL -2056.78$ coût 3.0%
+2026-11-01 15:35:37,agressive,ACHAT,KIM,0.0004110741683,3112.85,score 64 coût 11.2%
+2026-11-01 15:35:37,apprentie,VENTE,ANTS,0.002219,26.50,palier +50% PnL +10.54$ coût 1.0%
+2026-11-01 15:39:37,prudente,ACHAT,KIM,0.0003886529378,8.53,score 79 coût 1.0%
