@@ -2889,3 +2889,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 16:39:38,actuelle,ACHAT,Anakin,0.002535410892,4269.67,score 66 coût 6.9%
 2026-11-01 16:39:38,agressive,ACHAT,Anakin,0.002494966274,3033.47,score 66 coût 5.2%
 2026-11-01 16:39:38,hasard,ACHAT,Anakin,0.002487737104,2812.51,score 66 coût 4.9%
+2026-11-01 16:40:37,prudente,VENTE,KIM,0.0002959,6.43,stop-loss (-24%) PnL -2.10$ coût 1.0%
+2026-11-01 16:40:37,actuelle,VENTE,KIM,0.0002959,2655.54,stop-loss (-31%) PnL -1695.39$ coût 12.1%
+2026-11-01 16:43:37,agressive,VENTE,KIM,0.0002423,1679.90,stop-loss (-41%) PnL -1432.95$ coût 8.4%
