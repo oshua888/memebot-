@@ -2925,3 +2925,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 18:42:41,hasard,VENTE,CHOO,0.002427,2040.41,trailing-stop PnL +209.69$ coût 3.8%
 2026-11-01 18:42:41,hasard,ACHAT,CHOO,0.002540559484,2751.03,score 71 coût 4.7%
 2026-11-01 18:44:41,agressive,ACHAT,tipr,0.001134364356,2903.84,score 50 coût 2.2%
+2026-11-01 18:47:41,actuelle,VENTE,REGRETAMINE,9.354e-05,2250.47,stop-loss (-30%) PnL -1976.78$ coût 23.8%
