@@ -2929,3 +2929,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 18:50:41,agressive,VENTE,tipr,1.047e-05,26.34,stop-loss (-99%) PnL -2877.50$ coût 1.7%
 2026-11-01 18:50:41,agressive,ACHAT,REGRETAMINE,0.00013836201,2815.25,score 50 coût 20.4%
 2026-11-01 18:59:41,actuelle,ACHAT,tipr,0.001137038935,4196.46,score 60 coût 2.7%
+2026-11-01 19:04:40,actuelle,VENTE,tipr,1.141e-05,41.23,stop-loss (-99%) PnL -4155.22$ coût 2.1%

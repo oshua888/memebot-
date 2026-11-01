@@ -1357,3 +1357,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-01 18:09,2026-11-01 18:42,hasard,CHOO,nouveau,trailing-stop,0.55,28.95,71,134328,14.67,263.3,2.51,0.679,12.71,110,96.52,0
 2026-11-01 17:52,2026-11-01 18:47,actuelle,REGRETAMINE,profil,stop-loss (-30%),0.92,-46.76,61,27056,3.67,5.0,2.053,0.563,-12.44,34.99,169,0
 2026-11-01 18:44,2026-11-01 18:50,agressive,tipr,boost+tendance,stop-loss (-99%),0.1,-99.09,50,486003,2.21,15.1,0.01,0.595,0,6578,1637,1
+2026-11-01 18:59,2026-11-01 19:04,actuelle,tipr,boost+tendance,stop-loss (-99%),0.08,-99.02,60,489799,2.19,15.4,0.01,0.703,-0.19,6786,1579,1
