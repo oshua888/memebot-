@@ -2886,3 +2886,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 14:42:13,actuelle,VENTE,Jason,9.849e-05,2272.62,stop-loss (-30%) PnL -1975.37$ coût 23.4%
 2026-11-01 14:52:13,actuelle,ACHAT,KIM,0.0003127982852,4210.05,score 61 coût 17.4%
 2026-11-01 14:54:13,apprentie,VENTE,ANTS,0.002209,26.38,palier +50% PnL +10.42$ coût 1.0%
+2026-11-01 14:58:13,agressive,VENTE,CATPAD,6.722e-05,1159.79,stop-loss (-62%) PnL -2315.35$ coût 12.9%
+2026-11-01 14:58:13,agressive,ACHAT,SA,0.0006967993028,3074.62,score 71 coût 10.4%
