@@ -2864,3 +2864,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 11:31:12,hasard,VENTE,PAWCAT,0.003829,1925.19,stop-loss (-32%) PnL -1018.58$ coût 3.3%
 2026-11-01 11:31:12,hasard,ACHAT,Bitcoin,0.0003961546402,2899.71,score 48 coût 11.3%
 2026-11-01 11:38:12,hasard,VENTE,WASTED,0.0001218,1764.82,stop-loss (-31%) PnL -1205.97$ coût 14.5%
+2026-11-01 11:42:12,actuelle,VENTE,BLUE,0.0002934,2620.43,stop-loss (-32%) PnL -1815.65$ coût 13.5%
+2026-11-01 11:43:12,hasard,VENTE,BLUE,0.0002615,1816.33,stop-loss (-31%) PnL -1103.84$ coût 9.8%
