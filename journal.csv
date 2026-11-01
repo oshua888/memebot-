@@ -2838,3 +2838,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 09:50:57,prudente,VENTE,niketyson,0.0002137,3.47,palier +60% PnL +1.33$ coût 1.0%
 2026-11-01 09:52:55,prudente,VENTE,niketyson,0.0001643,2.67,trailing-stop PnL +0.53$ coût 1.0%
 2026-11-01 09:52:55,prudente,ACHAT,niketyson,0.0001660232421,8.58,score 72 coût 1.0%
+2026-11-01 09:55:58,actuelle,VENTE,PAWCAT,0.002832,3599.50,durée max 12h PnL -997.28$ coût 6.2%
+2026-11-01 09:55:58,actuelle,ACHAT,niketyson,0.0002582563705,4397.04,score 70 coût 22.9%
+2026-11-01 09:56:55,actuelle,VENTE,niketyson,0.0001587,2251.71,stop-loss (-39%) PnL -2145.33$ coût 16.7%
+2026-11-01 09:57:55,actuelle,VENTE,tipr,0.000149,2391.45,stop-loss (-33%) PnL -2029.92$ coût 19.4%
