@@ -2741,3 +2741,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-10-31 23:55:26,actuelle,VENTE,KIM,0.0003822,2774.37,stop-loss (-32%) PnL -1838.89$ coût 11.8%
 2026-10-31 23:56:26,prudente,VENTE,PAWCAT,0.005156,5.56,palier +30% PnL +1.27$ coût 1.0%
 2026-10-31 23:58:26,prudente,VENTE,ANSEM,0.0002611,6.67,stop-loss (-21%) PnL -1.90$ coût 1.0%
+2026-10-31 23:59:26,prudente,VENTE,PAWCAT,0.004555,4.91,trailing-stop PnL +0.62$ coût 1.0%
+2026-10-31 23:59:26,prudente,ACHAT,PAWCAT,0.004600974392,8.58,score 87 coût 1.0%
+2026-11-01 00:00:39,actuelle,VENTE,PAWCAT,0.003849,3387.22,trailing-stop PnL +221.67$ coût 5.2%
+2026-11-01 00:00:39,actuelle,ACHAT,PAWCAT,0.004094619902,4551.44,score 86 coût 6.4%
