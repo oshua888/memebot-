@@ -2929,3 +2929,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 22:00:01,prudente,VENTE,RAM,0.0001081,6.53,stop-loss (-22%) PnL -1.98$ coût 1.0%
 2026-11-01 22:13:01,apprentie,ACHAT,Leverhedge,0.0008289380665,16.00,score 63 coût 1.0%
 2026-11-01 22:14:01,actuelle,ACHAT,Peekhole,0.0004533672253,4132.57,score 60 coût 15.3%
+2026-11-01 22:16:01,hasard,VENTE,NETWORK,0.0002558,2093.55,durée max 12h PnL -860.06$ coût 12.1%
+2026-11-01 22:16:01,hasard,ACHAT,Anakin,0.003275906588,2732.96,score 56 coût 4.2%
