@@ -1361,3 +1361,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-01 10:15,2026-11-01 22:16,hasard,NETWORK,boost,durée max 12h,12.01,-29.12,28,44728,5.9,180.4,0.15,0.544,-0.24,-8.26,2.99,1
 2026-11-01 22:27,2026-11-01 22:47,apprentie,Anakin,nouveau+tendance,palier +25%,0.33,25.31,46,160418,16.92,75.0,1.08,0.529,-3.53,-8.36,45.36,0
 2026-11-01 22:38,2026-11-01 22:51,actuelle,ARNOLD,boost,stop-loss (-32%),0.22,-48.41,65,25094,3.6,48.5,1.808,0.5,4.77,11.57,32.37,1
+2026-11-01 23:28,2026-11-01 23:38,actuelle,VETOTRUMP,profil,stop-loss (-31%),0.17,-44.77,68,31236,4.92,2.0,3.232,0.622,-5.89,8.86,280,0

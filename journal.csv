@@ -2939,3 +2939,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 23:06:01,actuelle,ACHAT,ANSEM,0.0004335992026,4071.91,score 60 coût 15.6%
 2026-11-01 23:28:02,actuelle,ACHAT,VETOTRUMP,0.0001983889367,4049.45,score 68 coût 26.9%
 2026-11-01 23:28:02,apprentie,ACHAT,VETOTRUMP,0.0001580235831,16.05,score 68 coût 1.1%
+2026-11-01 23:38:03,actuelle,VENTE,VETOTRUMP,0.0001373,2236.43,stop-loss (-31%) PnL -1813.02$ coût 20.2%
