@@ -2901,3 +2901,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 17:06:40,actuelle,VENTE,BLOB,0.001375,3748.51,durée max 12h PnL -690.35$ coût 9.4%
 2026-11-01 17:09:39,hasard,VENTE,BLOB,0.001427,2718.19,durée max 12h PnL -226.86$ coût 6.8%
 2026-11-01 17:14:42,agressive,ACHAT,HI,0.0004421074725,2962.35,score 52 coût 10.4%
+2026-11-01 17:27:39,hasard,ACHAT,REGRETAMINE,0.0001246330913,2747.32,score 51 coût 21.2%
