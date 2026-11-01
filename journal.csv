@@ -2905,3 +2905,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 17:51:39,prudente,VENTE,Anakin,0.001762,6.63,stop-loss (-21%) PnL -1.89$ coût 1.0%
 2026-11-01 17:51:39,actuelle,VENTE,Anakin,0.001762,2796.68,stop-loss (-31%) PnL -1472.99$ coût 5.7%
 2026-11-01 17:52:39,actuelle,ACHAT,REGRETAMINE,0.0001339674696,4227.24,score 61 coût 32.2%
+2026-11-01 18:09:41,prudente,ACHAT,CHOO,0.002013182078,8.50,score 71 coût 1.0%
+2026-11-01 18:09:41,actuelle,ACHAT,CHOO,0.002137375108,4193.80,score 71 coût 7.2%
+2026-11-01 18:09:41,hasard,ACHAT,CHOO,0.002094010415,2732.41,score 71 coût 5.1%
