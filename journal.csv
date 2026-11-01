@@ -2801,3 +2801,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 03:33:25,hasard,VENTE,Leverhedge,0.0009579,2958.37,durée max 12h PnL -419.24$ coût 8.7%
 2026-11-01 03:33:25,hasard,ACHAT,SIS,0.0006850889813,2991.94,score 83 coût 9.6%
 2026-11-01 03:42:34,prudente,VENTE,KIM,0.0002701,6.75,stop-loss (-21%) PnL -1.85$ coût 1.0%
+2026-11-01 03:45:28,apprentie,ACHAT,BLUE,0.0003577542014,15.74,score 49 coût 1.1%
