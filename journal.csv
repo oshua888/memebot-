@@ -2831,3 +2831,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 07:48:55,apprentie,ACHAT,BLUE,0.0004924253601,16.13,score 70 coût 1.1%
 2026-11-01 08:45:54,apprentie,VENTE,BLUE,0.0003691,11.97,stop-loss (-25%) PnL -4.17$ coût 1.0%
 2026-11-01 08:45:54,apprentie,ACHAT,WASTED,0.0001213268794,16.09,score 34 coût 1.1%
+2026-11-01 08:59:54,apprentie,VENTE,iTech,2.072e-06,0.12,stop-loss (-99%) PnL -15.84$ coût 1.0%
