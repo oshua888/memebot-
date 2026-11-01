@@ -2831,3 +2831,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 10:16:13,actuelle,VENTE,BLUE,0.000597,2076.73,palier +50% PnL +604.72$ coût 7.5%
 2026-11-01 10:16:13,hasard,VENTE,BLUE,0.000597,1472.79,palier +50% PnL +502.73$ coût 5.5%
 2026-11-01 10:19:13,prudente,ACHAT,BLUE,0.0005672573463,8.55,score 70 coût 1.0%
+2026-11-01 10:23:13,apprentie,VENTE,AAPLCAT,0.001302,23.70,palier +25% PnL +8.07$ coût 1.0%
+2026-11-01 10:23:13,apprentie,ACHAT,AAPLCAT,0.001315423166,15.76,score 52 coût 1.0%
