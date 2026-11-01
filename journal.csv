@@ -2813,37 +2813,21 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 05:08:58,hasard,VENTE,SIS,0.0008183,2213.10,trailing-stop PnL +176.36$ coût 6.9%
 2026-11-01 05:08:58,hasard,ACHAT,BLOB,0.00144056822,2945.04,score 63 coût 7.1%
 2026-11-01 05:37:57,actuelle,VENTE,HI,0.0002646,2717.44,stop-loss (-30%) PnL -1791.44$ coût 13.4%
-2026-11-01 05:40:58,agressive,VENTE,SIS,0.0005226,1740.87,stop-loss (-43%) PnL -1512.29$ coût 6.8%
-2026-11-01 05:40:58,agressive,ACHAT,AAPLCAT,0.001198911149,3208.02,score 72 coût 7.9%
-2026-11-01 05:43:58,actuelle,ACHAT,tipr,0.0002220584707,4421.37,score 66 coût 26.5%
-2026-11-01 06:14:56,hasard,VENTE,CATPAD,0.0001369,2202.06,durée max 12h PnL -1033.79$ coût 19.2%
-2026-11-01 06:14:56,hasard,ACHAT,Bitcoin,0.0003757742834,2934.86,score 50 coût 11.8%
-2026-11-01 06:19:56,prudente,VENTE,AAPLCAT,0.000817,6.37,stop-loss (-25%) PnL -2.21$ coût 1.0%
-2026-11-01 06:32:56,apprentie,VENTE,OREN,9.318e-05,13.82,durée max 12h PnL -1.78$ coût 1.1%
-2026-11-01 06:32:56,apprentie,ACHAT,AAPLCAT,0.0008955050327,16.00,score 63 coût 1.0%
-2026-11-01 07:07:55,apprentie,VENTE,BLOB,0.001955,22.67,palier +25% PnL +6.70$ coût 1.0%
-2026-11-01 07:07:55,apprentie,ACHAT,CATPAD,0.0001341725547,16.15,score 27 coût 1.1%
-2026-11-01 07:12:55,prudente,ACHAT,Leverhedge,0.0009459558615,8.55,score 71 coût 1.0%
-2026-11-01 07:46:56,prudente,ACHAT,BLUE,0.0004548309467,8.55,score 70 coût 1.0%
-2026-11-01 07:48:55,hasard,VENTE,Jason,0.000106,1579.52,stop-loss (-40%) PnL -1500.64$ coût 14.4%
-2026-11-01 07:48:55,hasard,ACHAT,NETWORK,0.0003185739929,2935.60,score 27 coût 14.1%
-2026-11-01 07:48:55,apprentie,VENTE,Jason,0.000106,11.22,stop-loss (-29%) PnL -4.80$ coût 1.1%
-2026-11-01 07:48:55,apprentie,ACHAT,BLUE,0.0004924253601,16.13,score 70 coût 1.1%
-2026-11-01 08:45:54,apprentie,VENTE,BLUE,0.0003691,11.97,stop-loss (-25%) PnL -4.17$ coût 1.0%
-2026-11-01 08:45:54,apprentie,ACHAT,WASTED,0.0001213268794,16.09,score 34 coût 1.1%
-2026-11-01 08:59:54,apprentie,VENTE,iTech,2.072e-06,0.12,stop-loss (-99%) PnL -15.84$ coût 1.0%
-2026-11-01 09:04:55,prudente,VENTE,BLUE,0.0003561,6.63,stop-loss (-22%) PnL -1.93$ coût 1.0%
-2026-11-01 09:21:55,prudente,ACHAT,niketyson,0.0001302603524,8.54,score 71 coût 1.1%
-2026-11-01 09:29:55,prudente,VENTE,niketyson,0.0001694,5.50,palier +30% PnL +1.23$ coût 1.0%
-2026-11-01 09:50:57,prudente,VENTE,niketyson,0.0002137,3.47,palier +60% PnL +1.33$ coût 1.0%
-2026-11-01 09:52:55,prudente,VENTE,niketyson,0.0001643,2.67,trailing-stop PnL +0.53$ coût 1.0%
-2026-11-01 09:52:55,prudente,ACHAT,niketyson,0.0001660232421,8.58,score 72 coût 1.0%
-2026-11-01 09:55:58,actuelle,VENTE,PAWCAT,0.002832,3599.50,durée max 12h PnL -997.28$ coût 6.2%
-2026-11-01 09:55:58,actuelle,ACHAT,niketyson,0.0002582563705,4397.04,score 70 coût 22.9%
-2026-11-01 09:56:55,actuelle,VENTE,niketyson,0.0001587,2251.71,stop-loss (-39%) PnL -2145.33$ coût 16.7%
-2026-11-01 09:57:55,actuelle,VENTE,tipr,0.000149,2391.45,stop-loss (-33%) PnL -2029.92$ coût 19.4%
-2026-11-01 10:00:57,actuelle,ACHAT,WASTED,0.0001761471241,4349.18,score 63 coût 27.6%
-2026-11-01 10:04:02,hasard,VENTE,BLUE,0.0005576,1377.68,palier +50% PnL +407.62$ coût 5.3%
-2026-11-01 10:09:54,hasard,VENTE,PAWCAT,0.005257,1429.42,palier +50% PnL +452.45$ coût 2.5%
-2026-11-01 10:12:55,hasard,VENTE,PAWCAT,0.003716,2029.71,trailing-stop PnL +46.17$ coût 3.5%
-2026-11-01 10:12:55,hasard,ACHAT,SIS,0.0003362019778,2953.09,score 63 coût 13.0%
+2026-11-01 10:15:14,prudente,VENTE,AAPLCAT,0.0008411,6.55,stop-loss (-23%) PnL -2.02$ coût 1.0%
+2026-11-01 10:15:14,actuelle,VENTE,PAWCAT,0.003976,5002.90,durée max 12h PnL +406.12$ coût 7.2%
+2026-11-01 10:15:14,actuelle,ACHAT,PAWCAT,0.004219460008,4472.94,score 83 coût 6.1%
+2026-11-01 10:15:14,actuelle,ACHAT,WASTED,0.0001883598073,4462.86,score 61 coût 27.3%
+2026-11-01 10:15:14,agressive,VENTE,SIS,0.0003025,1023.13,stop-loss (-67%) PnL -2230.03$ coût 5.4%
+2026-11-01 10:15:14,agressive,ACHAT,BLUE,0.0005991301839,3220.90,score 68 coût 10.7%
+2026-11-01 10:15:14,hasard,VENTE,CATPAD,0.0001528,2427.87,durée max 12h PnL -807.98$ coût 20.2%
+2026-11-01 10:15:14,hasard,VENTE,Jason,9.485e-05,1424.90,stop-loss (-46%) PnL -1655.26$ coût 13.8%
+2026-11-01 10:15:14,hasard,ACHAT,WASTED,0.0001753610883,2970.79,score 61 coût 18.5%
+2026-11-01 10:15:14,hasard,ACHAT,NETWORK,0.0003170389984,2953.62,score 28 coût 14.2%
+2026-11-01 10:15:14,apprentie,VENTE,OREN,0.0001029,15.26,durée max 12h PnL -0.34$ coût 1.1%
+2026-11-01 10:15:14,apprentie,VENTE,Jason,9.485e-05,10.04,stop-loss (-37%) PnL -5.98$ coût 1.1%
+2026-11-01 10:15:14,apprentie,VENTE,iTech,1.854e-06,0.11,stop-loss (-99%) PnL -15.85$ coût 1.0%
+2026-11-01 10:15:14,apprentie,ACHAT,AAPLCAT,0.0008498348968,15.63,score 44 coût 1.0%
+2026-11-01 10:15:14,apprentie,ACHAT,FOCO,0.0007045436494,15.63,score 42 coût 1.0%
+2026-11-01 10:16:13,actuelle,VENTE,BLUE,0.000597,2076.73,palier +50% PnL +604.72$ coût 7.5%
+2026-11-01 10:16:13,hasard,VENTE,BLUE,0.000597,1472.79,palier +50% PnL +502.73$ coût 5.5%
+2026-11-01 10:19:13,prudente,ACHAT,BLUE,0.0005672573463,8.55,score 70 coût 1.0%
