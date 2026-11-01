@@ -2847,3 +2847,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 11:00:13,actuelle,ACHAT,BLUE,0.0004295009624,4436.08,score 61 coût 17.3%
 2026-11-01 11:03:13,actuelle,VENTE,Leverhedge,0.0009432,3639.32,durée max 12h PnL -874.43$ coût 10.7%
 2026-11-01 11:04:13,agressive,VENTE,PAWCAT,0.006221,2159.29,palier +100% PnL +1089.38$ coût 3.0%
+2026-11-01 11:05:13,actuelle,VENTE,PAWCAT,0.006513,2209.45,palier +50% PnL +733.38$ coût 3.0%
+2026-11-01 11:06:13,hasard,VENTE,PAWCAT,0.007158,1970.64,palier +100% PnL +978.87$ coût 2.7%
