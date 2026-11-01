@@ -2754,3 +2754,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 00:19:27,actuelle,VENTE,AAPLCAT,0.0008597,3982.70,trailing-stop PnL +933.81$ coût 12.5%
 2026-11-01 00:19:27,actuelle,ACHAT,AAPLCAT,0.0009679941783,4598.50,score 64 coût 12.6%
 2026-11-01 00:45:29,prudente,ACHAT,AAPLCAT,0.0009370688626,8.61,score 76 coût 1.0%
+2026-11-01 00:49:29,prudente,VENTE,AAPLCAT,0.0007118,6.47,stop-loss (-24%) PnL -2.14$ coût 1.0%
