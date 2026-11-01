@@ -2877,3 +2877,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 15:35:37,agressive,ACHAT,KIM,0.0004110741683,3112.85,score 64 coût 11.2%
 2026-11-01 15:35:37,apprentie,VENTE,ANTS,0.002219,26.50,palier +50% PnL +10.54$ coût 1.0%
 2026-11-01 15:39:37,prudente,ACHAT,KIM,0.0003886529378,8.53,score 79 coût 1.0%
+2026-11-01 15:41:37,agressive,ACHAT,BOUNCER,0.0003420889972,3099.09,score 59 coût 15.1%
+2026-11-01 15:41:37,hasard,ACHAT,BOUNCER,0.0003388229172,2858.19,score 59 coût 14.0%
