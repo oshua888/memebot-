@@ -2937,3 +2937,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 20:08:40,agressive,ACHAT,ANSEM,0.0007583268781,2800.52,score 60 coût 8.3%
 2026-11-01 20:08:40,hasard,VENTE,REGRETAMINE,8.021e-05,1489.19,stop-loss (-36%) PnL -1258.13$ coût 15.8%
 2026-11-01 20:08:40,hasard,ACHAT,PEAK,0.0008042909098,2744.79,score 34 coût 7.9%
+2026-11-01 20:16:39,actuelle,VENTE,Kim,0.0002326,2476.73,stop-loss (-30%) PnL -1635.05$ coût 13.4%
+2026-11-01 20:19:40,prudente,VENTE,CHOO,0.001367,4.71,stop-loss (-44%) PnL -3.82$ coût 1.0%
+2026-11-01 20:19:40,actuelle,VENTE,CHOO,0.001367,2120.21,stop-loss (-47%) PnL -2097.34$ coût 4.8%
+2026-11-01 20:19:40,agressive,VENTE,CHOO,0.001367,1299.03,stop-loss (-54%) PnL -1634.45$ coût 3.3%
+2026-11-01 20:19:40,hasard,VENTE,CHOO,0.001367,1427.86,stop-loss (-46%) PnL -1323.17$ coût 3.5%
+2026-11-01 20:19:40,hasard,ACHAT,ANSEM,0.0007209623221,2720.09,score 57 coût 8.3%
+2026-11-01 20:19:40,apprentie,VENTE,CHOO,0.001367,9.42,stop-loss (-41%) PnL -6.61$ coût 1.0%
