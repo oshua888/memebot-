@@ -1316,3 +1316,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-01 04:54,2026-11-01 10:58,actuelle,BLUE,boost,trailing-stop,6.05,0.63,60,50264,6.36,3.2,4.086,0.608,8.63,0.62,709,1
 2026-11-01 10:15,2026-11-01 10:58,agressive,BLUE,boost+tendance,stop-loss (-41%),0.72,-45.46,68,66104,7.93,8.5,1.428,0.554,2.88,24.88,74.89,1
 2026-11-01 04:54,2026-11-01 10:58,hasard,BLUE,boost,trailing-stop,6.05,9.07,60,50264,6.36,3.2,4.086,0.608,8.63,0.62,709,1
+2026-10-31 23:03,2026-11-01 11:03,actuelle,Leverhedge,boost+tendance,durée max 12h,12.0,-19.37,60,82252,11.22,23.4,1.363,0.614,2.45,-52.92,11.66,1
