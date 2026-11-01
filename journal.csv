@@ -2842,3 +2842,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 09:55:58,actuelle,ACHAT,niketyson,0.0002582563705,4397.04,score 70 coût 22.9%
 2026-11-01 09:56:55,actuelle,VENTE,niketyson,0.0001587,2251.71,stop-loss (-39%) PnL -2145.33$ coût 16.7%
 2026-11-01 09:57:55,actuelle,VENTE,tipr,0.000149,2391.45,stop-loss (-33%) PnL -2029.92$ coût 19.4%
+2026-11-01 10:00:57,actuelle,ACHAT,WASTED,0.0001761471241,4349.18,score 63 coût 27.6%
+2026-11-01 10:04:02,hasard,VENTE,BLUE,0.0005576,1377.68,palier +50% PnL +407.62$ coût 5.3%
