@@ -1354,3 +1354,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-10-31 18:39,2026-11-01 20:56,agressive,CATPAD,tendance,durée max 24h,26.27,-17.27,54,30553,4.4,27.7,0.107,0.717,0.46,5.27,-3.48,0
 2026-11-01 17:52,2026-11-01 20:59,actuelle,REGRETAMINE,profil,stop-loss (-43%),3.11,-55.02,61,27056,3.67,5.0,2.053,0.563,-12.44,34.99,169,0
 2026-11-01 17:27,2026-11-01 20:59,hasard,REGRETAMINE,profil,stop-loss (-39%),3.52,-47.88,51,27150,3.71,4.6,1.547,0.512,0.17,48.55,173,0
+2026-11-01 21:04,2026-11-01 21:07,actuelle,RAM,tendance,stop-loss (-31%),0.05,-44.14,62,34202,4.4,41.1,15.632,0.589,-0.57,122,103,0
