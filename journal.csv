@@ -2895,3 +2895,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 16:49:37,apprentie,VENTE,WASTED,0.0002441,27.39,palier +50% PnL +11.67$ coût 1.1%
 2026-11-01 16:55:37,apprentie,VENTE,BLOB,0.001553,18.01,durée max 12h PnL +2.04$ coût 1.0%
 2026-11-01 16:56:38,agressive,ACHAT,WASTED,0.0002043070059,2998.63,score 50 coût 17.2%
+2026-11-01 17:03:40,hasard,ACHAT,pairless,0.01126058227,2822.54,score 24 coût 1.2%
+2026-11-01 17:04:39,hasard,VENTE,pairless,2.233e-05,5.54,stop-loss (-100%) PnL -2817.00$ coût 1.1%
