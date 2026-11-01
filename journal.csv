@@ -2816,3 +2816,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 05:40:58,agressive,VENTE,SIS,0.0005226,1740.87,stop-loss (-43%) PnL -1512.29$ coût 6.8%
 2026-11-01 05:40:58,agressive,ACHAT,AAPLCAT,0.001198911149,3208.02,score 72 coût 7.9%
 2026-11-01 05:43:58,actuelle,ACHAT,tipr,0.0002220584707,4421.37,score 66 coût 26.5%
+2026-11-01 06:14:56,hasard,VENTE,CATPAD,0.0001369,2202.06,durée max 12h PnL -1033.79$ coût 19.2%
+2026-11-01 06:14:56,hasard,ACHAT,Bitcoin,0.0003757742834,2934.86,score 50 coût 11.8%
