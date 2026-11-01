@@ -2835,3 +2835,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 09:04:55,prudente,VENTE,BLUE,0.0003561,6.63,stop-loss (-22%) PnL -1.93$ coût 1.0%
 2026-11-01 09:21:55,prudente,ACHAT,niketyson,0.0001302603524,8.54,score 71 coût 1.1%
 2026-11-01 09:29:55,prudente,VENTE,niketyson,0.0001694,5.50,palier +30% PnL +1.23$ coût 1.0%
+2026-11-01 09:50:57,prudente,VENTE,niketyson,0.0002137,3.47,palier +60% PnL +1.33$ coût 1.0%
+2026-11-01 09:52:55,prudente,VENTE,niketyson,0.0001643,2.67,trailing-stop PnL +0.53$ coût 1.0%
+2026-11-01 09:52:55,prudente,ACHAT,niketyson,0.0001660232421,8.58,score 72 coût 1.0%
