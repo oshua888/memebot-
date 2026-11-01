@@ -2926,3 +2926,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 21:34:01,hasard,ACHAT,RAM,0.0001478070722,2737.68,score 58 coût 19.0%
 2026-11-01 21:54:02,agressive,VENTE,ANSEM,0.0004129,1648.19,stop-loss (-40%) PnL -1314.84$ coût 7.1%
 2026-11-01 21:54:02,agressive,ACHAT,RAM,0.0001778210751,2955.59,score 55 coût 18.6%
+2026-11-01 22:00:01,prudente,VENTE,RAM,0.0001081,6.53,stop-loss (-22%) PnL -1.98$ coût 1.0%
