@@ -2806,3 +2806,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 03:50:27,apprentie,ACHAT,FOCO,0.0007306104851,15.77,score 47 coût 1.0%
 2026-11-01 03:51:29,prudente,ACHAT,BLOB,0.001385962099,8.60,score 78 coût 1.0%
 2026-11-01 04:07:25,prudente,ACHAT,ANTS,0.001416265063,8.59,score 78 coût 1.0%
+2026-11-01 04:34:26,apprentie,VENTE,BLUE,0.0002661,11.58,stop-loss (-26%) PnL -4.16$ coût 1.1%
+2026-11-01 04:38:25,apprentie,ACHAT,iTech,0.0002390543401,15.65,score 63 coût 1.1%
