@@ -2784,3 +2784,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 02:46:26,apprentie,VENTE,BLOB,0.0008354,20.56,palier +25% PnL +5.23$ coût 1.1%
 2026-11-01 02:46:26,apprentie,ACHAT,BLOB,0.0008440988987,15.51,score 40 coût 1.0%
 2026-11-01 02:49:26,apprentie,VENTE,LUMI,9.538e-05,19.03,palier +25% PnL +3.75$ coût 1.1%
+2026-11-01 02:56:25,apprentie,VENTE,ANTS,0.0008814,19.79,palier +25% PnL +4.46$ coût 1.1%
+2026-11-01 02:56:25,apprentie,ACHAT,ANTS,0.0008905690937,15.58,score 45 coût 1.0%
