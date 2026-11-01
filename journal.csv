@@ -2833,3 +2833,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 10:19:13,prudente,ACHAT,BLUE,0.0005672573463,8.55,score 70 coût 1.0%
 2026-11-01 10:23:13,apprentie,VENTE,AAPLCAT,0.001302,23.70,palier +25% PnL +8.07$ coût 1.0%
 2026-11-01 10:23:13,apprentie,ACHAT,AAPLCAT,0.001315423166,15.76,score 52 coût 1.0%
+2026-11-01 10:25:14,apprentie,VENTE,AAPLCAT,0.0017,20.16,palier +25% PnL +4.40$ coût 1.0%
+2026-11-01 10:25:14,apprentie,ACHAT,AAPLCAT,0.001717461702,15.85,score 67 coût 1.0%
+2026-11-01 10:28:13,apprentie,VENTE,AAPLCAT,0.001213,11.08,stop-loss (-29%) PnL -4.77$ coût 1.0%
+2026-11-01 10:28:13,apprentie,ACHAT,SIS,0.0003241049166,15.74,score 62 coût 1.1%
