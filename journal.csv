@@ -2813,3 +2813,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 05:08:58,hasard,VENTE,SIS,0.0008183,2213.10,trailing-stop PnL +176.36$ coût 6.9%
 2026-11-01 05:08:58,hasard,ACHAT,BLOB,0.00144056822,2945.04,score 63 coût 7.1%
 2026-11-01 05:37:57,actuelle,VENTE,HI,0.0002646,2717.44,stop-loss (-30%) PnL -1791.44$ coût 13.4%
+2026-11-01 05:40:58,agressive,VENTE,SIS,0.0005226,1740.87,stop-loss (-43%) PnL -1512.29$ coût 6.8%
+2026-11-01 05:40:58,agressive,ACHAT,AAPLCAT,0.001198911149,3208.02,score 72 coût 7.9%
+2026-11-01 05:43:58,actuelle,ACHAT,tipr,0.0002220584707,4421.37,score 66 coût 26.5%
