@@ -2892,3 +2892,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 16:40:37,prudente,VENTE,KIM,0.0002959,6.43,stop-loss (-24%) PnL -2.10$ coût 1.0%
 2026-11-01 16:40:37,actuelle,VENTE,KIM,0.0002959,2655.54,stop-loss (-31%) PnL -1695.39$ coût 12.1%
 2026-11-01 16:43:37,agressive,VENTE,KIM,0.0002423,1679.90,stop-loss (-41%) PnL -1432.95$ coût 8.4%
+2026-11-01 16:49:37,apprentie,VENTE,WASTED,0.0002441,27.39,palier +50% PnL +11.67$ coût 1.1%
