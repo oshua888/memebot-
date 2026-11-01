@@ -2911,3 +2911,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 18:23:40,prudente,VENTE,CHOO,0.002655,5.55,palier +30% PnL +1.30$ coût 1.0%
 2026-11-01 18:25:41,agressive,VENTE,paws,0.0005549,1840.02,stop-loss (-41%) PnL -1491.74$ coût 6.3%
 2026-11-01 18:25:41,agressive,ACHAT,CHOO,0.002984975865,2933.48,score 72 coût 4.6%
+2026-11-01 18:30:41,prudente,VENTE,CHOO,0.002424,5.06,trailing-stop PnL +0.82$ coût 1.0%
+2026-11-01 18:30:41,prudente,ACHAT,CHOO,0.002448514717,8.52,score 71 coût 1.0%
