@@ -2747,3 +2747,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 00:00:39,actuelle,ACHAT,PAWCAT,0.004094619902,4551.44,score 86 coût 6.4%
 2026-11-01 00:05:25,actuelle,ACHAT,AAPLCAT,0.000576024939,4550.58,score 62 coût 16.3%
 2026-11-01 00:06:25,prudente,ACHAT,AAPLCAT,0.0005634278158,8.56,score 78 coût 1.0%
+2026-11-01 00:12:25,prudente,VENTE,AAPLCAT,0.0007611,5.73,palier +30% PnL +1.44$ coût 1.0%
