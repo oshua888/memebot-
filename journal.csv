@@ -2839,3 +2839,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 10:28:13,apprentie,ACHAT,SIS,0.0003241049166,15.74,score 62 coût 1.1%
 2026-11-01 10:42:13,hasard,VENTE,PAWCAT,0.005443,1479.66,palier +50% PnL +502.69$ coût 2.5%
 2026-11-01 10:54:13,prudente,VENTE,BLUE,0.0004489,6.70,stop-loss (-21%) PnL -1.85$ coût 1.0%
+2026-11-01 10:58:13,actuelle,VENTE,BLUE,0.0003558,2412.12,trailing-stop PnL -576.51$ coût 11.2%
+2026-11-01 10:58:13,agressive,VENTE,BLUE,0.0003558,1756.71,stop-loss (-41%) PnL -1464.19$ coût 8.2%
+2026-11-01 10:58:13,agressive,ACHAT,AAPLCAT,0.0009507385776,3213.09,score 57 coût 8.7%
+2026-11-01 10:58:13,hasard,VENTE,BLUE,0.0003558,1733.52,trailing-stop PnL -236.01$ coût 8.1%
+2026-11-01 10:58:13,hasard,ACHAT,SIS,0.0003701525311,2950.91,score 56 coût 12.4%
