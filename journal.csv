@@ -2788,3 +2788,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 02:56:25,apprentie,ACHAT,ANTS,0.0008905690937,15.58,score 45 coût 1.0%
 2026-11-01 03:06:25,prudente,VENTE,SIS,0.0007054,5.59,palier +30% PnL +1.31$ coût 1.0%
 2026-11-01 03:07:25,apprentie,ACHAT,CATPAD,0.0001292161349,15.58,score 37 coût 1.1%
+2026-11-01 03:15:26,prudente,VENTE,SIS,0.000655,5.20,trailing-stop PnL +0.91$ coût 1.0%
+2026-11-01 03:15:26,prudente,ACHAT,SIS,0.0006617086423,8.61,score 76 coût 1.0%
+2026-11-01 03:15:26,prudente,ACHAT,KIM,0.0003406743566,8.61,score 70 coût 1.0%
+2026-11-01 03:17:25,apprentie,VENTE,BLOB,0.001119,20.34,palier +25% PnL +4.84$ coût 1.0%
+2026-11-01 03:17:25,apprentie,ACHAT,BLOB,0.001130590233,15.68,score 57 coût 1.0%
