@@ -2771,3 +2771,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-01 02:13:26,actuelle,ACHAT,AAPLCAT,0.001194021424,4627.82,score 79 coût 11.3%
 2026-11-01 02:13:26,apprentie,VENTE,ANTS,0.0005163,21.34,palier +25% PnL +6.21$ coût 1.1%
 2026-11-01 02:13:26,apprentie,ACHAT,ANTS,0.0005217305007,15.21,score 30 coût 1.1%
+2026-11-01 02:19:25,actuelle,VENTE,ANSEM,0.0002229,2520.65,stop-loss (-37%) PnL -2191.78$ coût 15.7%
+2026-11-01 02:19:25,apprentie,VENTE,ANTS,0.0006684,19.28,palier +25% PnL +4.07$ coût 1.1%
+2026-11-01 02:19:25,apprentie,ACHAT,ANTS,0.0006753892688,15.32,score 48 coût 1.0%
+2026-11-01 02:23:25,apprentie,VENTE,AAPLCAT,0.001018,11.43,stop-loss (-25%) PnL -3.97$ coût 1.0%
+2026-11-01 02:23:25,apprentie,ACHAT,LUMI,7.574407322e-05,15.28,score 25 coût 1.1%
