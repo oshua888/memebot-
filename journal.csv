@@ -3071,3 +3071,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 20:34:35,actuelle,VENTE,FLOAT,0.003233,2611.99,palier +100% PnL +1313.58$ coût 2.5%
 2026-11-02 20:38:36,agressive,ACHAT,RICO,0.0003977528759,2897.07,score 51 coût 13.3%
 2026-11-02 20:41:37,hasard,VENTE,FLOAT,0.003301,1252.45,palier +50% PnL +406.13$ coût 1.7%
+2026-11-02 21:08:33,prudente,ACHAT,FLOAT,0.003721004234,8.53,score 82 coût 1.0%
