@@ -3005,26 +3005,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 09:37:52,apprentie,VENTE,MANDO,0.0001825,11.60,stop-loss (-27%) PnL -4.49$ coût 1.1%
 2026-11-02 09:37:52,apprentie,ACHAT,PEACE,0.0003391673631,16.00,score 43 coût 1.1%
 2026-11-02 09:47:53,hasard,ACHAT,KIM,0.0001005969439,2730.72,score 19 coût 20.1%
-2026-11-02 10:04:53,actuelle,VENTE,STEALTH,0.0003495,2456.46,palier +100% PnL +1148.05$ coût 11.5%
-2026-11-02 10:16:52,hasard,VENTE,Anakin,0.003271,2615.52,durée max 12h PnL -117.44$ coût 4.2%
-2026-11-02 10:16:52,hasard,ACHAT,MANDO,0.0002526226962,2706.33,score 52 coût 15.6%
-2026-11-02 10:19:52,hasard,VENTE,MANDO,0.0001646,1551.09,stop-loss (-35%) PnL -1155.24$ coût 12.0%
-2026-11-02 10:19:52,hasard,ACHAT,PEAK,0.000905095227,2683.21,score 20 coût 7.3%
-2026-11-02 10:21:52,actuelle,VENTE,STEALTH,0.0002932,2080.92,trailing-stop PnL +772.51$ coût 10.6%
-2026-11-02 10:31:52,actuelle,ACHAT,STEALTH,0.0003810812363,3970.85,score 65 coût 16.5%
-2026-11-02 10:36:52,actuelle,VENTE,STEALTH,0.0002636,2389.89,stop-loss (-31%) PnL -1580.96$ coût 13.0%
-2026-11-02 11:01:52,actuelle,ACHAT,FLOAT,0.001544889679,3946.24,score 61 coût 4.2%
-2026-11-02 11:01:52,apprentie,VENTE,PEACE,0.0004385,20.47,palier +25% PnL +4.46$ coût 1.1%
-2026-11-02 11:05:52,prudente,ACHAT,PEACE,0.0004906902304,8.50,score 72 coût 1.0%
-2026-11-02 11:09:53,apprentie,VENTE,Peekhole,0.0004345,20.11,palier +25% PnL +4.06$ coût 1.1%
-2026-11-02 11:10:53,hasard,VENTE,Leverhedge,0.0006701,1699.23,stop-loss (-34%) PnL -1032.00$ coût 6.0%
-2026-11-02 11:10:53,hasard,ACHAT,ANSEM,0.0003435803714,2679.48,score 39 coût 11.5%
-2026-11-02 11:18:53,prudente,VENTE,PEACE,0.000382,6.55,stop-loss (-22%) PnL -1.95$ coût 1.0%
-2026-11-02 11:42:53,actuelle,VENTE,1993,0.0001348,2072.77,stop-loss (-37%) PnL -1864.90$ coût 17.0%
-2026-11-02 11:42:53,agressive,VENTE,1993,0.0001348,1575.69,stop-loss (-41%) PnL -1455.82$ coût 12.5%
-2026-11-02 11:42:53,agressive,ACHAT,PEACE,0.0003857734854,2995.62,score 63 coût 12.6%
-2026-11-02 11:42:53,apprentie,VENTE,1993,0.0001348,10.88,stop-loss (-32%) PnL -5.18$ coût 1.1%
-2026-11-02 11:43:52,apprentie,VENTE,Anakin,0.00281,11.89,stop-loss (-25%) PnL -4.17$ coût 1.0%
-2026-11-02 11:48:52,hasard,VENTE,KIM,6.894e-05,1581.57,stop-loss (-31%) PnL -1149.15$ coût 15.5%
-2026-11-02 11:48:52,hasard,ACHAT,uni,0.009237732666,2647.05,score 30 coût 3.1%
-2026-11-02 12:38:50,actuelle,VENTE,PEACE,0.0002565,2358.79,stop-loss (-31%) PnL -1568.30$ coût 13.2%
+2026-11-02 12:57:24,hasard,VENTE,Anakin,0.002451,1968.33,durée max 12h PnL -764.63$ coût 3.7%
+2026-11-02 12:57:24,hasard,VENTE,KIM,6.284e-05,1452.36,stop-loss (-38%) PnL -1278.36$ coût 14.9%
+2026-11-02 12:57:24,hasard,ACHAT,MANDO,0.0002379856657,2670.56,score 50 coût 15.9%
+2026-11-02 12:57:24,hasard,ACHAT,uni,0.009184073501,2656.87,score 30 coût 3.2%
+2026-11-02 12:57:24,apprentie,VENTE,Anakin,0.002451,10.37,stop-loss (-35%) PnL -5.69$ coût 1.0%
+2026-11-02 13:00:25,actuelle,ACHAT,MANDO,0.0002461472652,3929.93,score 60 coût 23.2%
