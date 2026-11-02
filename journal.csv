@@ -2944,3 +2944,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 02:19:23,apprentie,VENTE,ARNOLD,6.969e-05,11.82,stop-loss (-25%) PnL -4.19$ coût 1.1%
 2026-11-02 02:19:23,apprentie,ACHAT,Peekhole,0.0003584523553,15.79,score 30 coût 1.1%
 2026-11-02 02:20:24,actuelle,ACHAT,tipr,0.01128169321,4044.01,score 60 coût 1.2%
+2026-11-02 02:22:24,hasard,VENTE,PEAK,0.001267,1339.66,palier +50% PnL +426.92$ coût 3.7%
+2026-11-02 02:25:23,actuelle,VENTE,tipr,1.233e-05,4.37,stop-loss (-100%) PnL -4039.64$ coût 1.1%
