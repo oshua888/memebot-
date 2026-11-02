@@ -3074,3 +3074,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 21:08:33,prudente,ACHAT,FLOAT,0.003721004234,8.53,score 82 coût 1.0%
 2026-11-02 21:11:34,apprentie,ACHAT,DESSA,0.01315146782,15.96,score 42 coût 1.0%
 2026-11-02 21:11:34,apprentie,ACHAT,RICO,0.0005052810183,15.95,score 54 coût 1.1%
+2026-11-02 21:18:34,actuelle,ACHAT,RICO,0.0004298148894,3907.94,score 68 coût 17.1%
+2026-11-02 21:18:34,apprentie,VENTE,RICO,0.000367,11.47,stop-loss (-27%) PnL -4.49$ coût 1.0%
