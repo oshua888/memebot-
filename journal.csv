@@ -2996,3 +2996,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 07:36:54,apprentie,ACHAT,1993,0.0001968153255,16.06,score 44 coût 1.1%
 2026-11-02 07:40:53,apprentie,ACHAT,Anakin,0.003755825862,16.06,score 58 coût 1.0%
 2026-11-02 08:32:51,actuelle,VENTE,Peekhole,0.0003079,2468.58,stop-loss (-32%) PnL -1663.99$ coût 12.0%
+2026-11-02 08:56:52,apprentie,VENTE,CHOO,0.00217,15.47,durée max 12h PnL -0.57$ coût 1.0%
+2026-11-02 09:00:53,apprentie,ACHAT,MANDO,0.000196826208,16.04,score 53 coût 1.1%
