@@ -3011,3 +3011,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 12:57:24,hasard,ACHAT,uni,0.009184073501,2656.87,score 30 coût 3.2%
 2026-11-02 12:57:24,apprentie,VENTE,Anakin,0.002451,10.37,stop-loss (-35%) PnL -5.69$ coût 1.0%
 2026-11-02 13:00:25,actuelle,ACHAT,MANDO,0.0002461472652,3929.93,score 60 coût 23.2%
+2026-11-02 13:05:25,actuelle,VENTE,PEACE,0.0002506,2308.38,stop-loss (-32%) PnL -1618.71$ coût 13.0%
+2026-11-02 13:05:25,apprentie,VENTE,PEACE,0.0002506,11.70,stop-loss (-26%) PnL -4.30$ coût 1.1%
