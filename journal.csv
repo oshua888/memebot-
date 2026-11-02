@@ -3065,3 +3065,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 20:11:35,hasard,ACHAT,FLOAT,0.002192303287,2564.62,score 65 coût 2.7%
 2026-11-02 20:13:36,actuelle,VENTE,FLOAT,0.002487,1983.28,palier +50% PnL +704.25$ coût 2.3%
 2026-11-02 20:27:35,actuelle,ACHAT,CHAD,0.000270449686,3947.78,score 61 coût 9.1%
+2026-11-02 20:32:35,agressive,VENTE,FLOAT,0.003108,1946.94,palier +100% PnL +972.69$ coût 2.1%
+2026-11-02 20:32:35,hasard,VENTE,MAMESUKE,0.001136,2087.71,trailing-stop PnL +388.36$ coût 5.9%
+2026-11-02 20:32:35,hasard,ACHAT,CHAD,0.000253176764,2571.82,score 61 coût 6.4%
+2026-11-02 20:34:35,actuelle,VENTE,FLOAT,0.003233,2611.99,palier +100% PnL +1313.58$ coût 2.5%
