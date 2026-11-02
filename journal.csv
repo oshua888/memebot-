@@ -2999,3 +2999,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 08:56:52,apprentie,VENTE,CHOO,0.00217,15.47,durée max 12h PnL -0.57$ coût 1.0%
 2026-11-02 09:00:53,apprentie,ACHAT,MANDO,0.000196826208,16.04,score 53 coût 1.1%
 2026-11-02 09:34:53,hasard,VENTE,RAM,0.0001272,1975.18,durée max 12h PnL -762.50$ coût 16.2%
+2026-11-02 09:36:52,actuelle,VENTE,STEALTH,0.0003112,2172.77,palier +50% PnL +883.89$ coût 10.8%
+2026-11-02 09:36:52,apprentie,VENTE,MANDO,0.0002478,19.97,palier +25% PnL +3.93$ coût 1.1%
+2026-11-02 09:36:52,apprentie,ACHAT,MANDO,0.0002504791453,16.09,score 37 coût 1.1%
+2026-11-02 09:37:52,apprentie,VENTE,MANDO,0.0001825,11.60,stop-loss (-27%) PnL -4.49$ coût 1.1%
+2026-11-02 09:37:52,apprentie,ACHAT,PEACE,0.0003391673631,16.00,score 43 coût 1.1%
