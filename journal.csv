@@ -3016,3 +3016,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 13:10:25,actuelle,VENTE,STEALTH,0.0002409,3120.39,trailing-stop PnL +503.56$ coût 18.5%
 2026-11-02 13:11:25,hasard,VENTE,PEACE,0.0002398,1677.86,stop-loss (-33%) PnL -1073.82$ coût 9.6%
 2026-11-02 13:11:25,hasard,ACHAT,ANSEM,0.0003277675131,2658.78,score 45 coût 11.7%
+2026-11-02 13:15:26,apprentie,VENTE,Peekhole,0.0004407,20.40,palier +25% PnL +4.35$ coût 1.1%
