@@ -3049,3 +3049,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 17:09:24,actuelle,ACHAT,WASTED,0.001101907163,3887.14,score 60 coût 9.3%
 2026-11-02 17:15:26,agressive,VENTE,HI,0.0004153,2512.00,durée max 24h PnL -450.35$ coût 9.7%
 2026-11-02 17:15:26,agressive,ACHAT,WASTED,0.001045228595,2874.34,score 63 coût 7.3%
+2026-11-02 17:19:26,agressive,VENTE,PEACE,0.000116,1441.65,stop-loss (-44%) PnL -1460.10$ coût 12.0%
+2026-11-02 17:19:26,agressive,ACHAT,Learjet,0.0001193902035,2870.88,score 50 coût 23.1%
