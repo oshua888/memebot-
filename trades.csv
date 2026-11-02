@@ -1409,3 +1409,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-02 13:35,2026-11-02 14:46,apprentie,MAMESUKE,boost+profil,palier +50%,1.18,52.7,67,72912,10.2,2.0,6.525,0.589,7.83,13.07,1796,1
 2026-11-02 12:57,2026-11-02 14:55,hasard,MANDO,boost,stop-loss (-31%),1.97,-39.6,50,35932,5.54,6.0,0.579,0.616,-0.91,15.92,400,1
 2026-11-02 13:11,2026-11-02 14:56,hasard,ANSEM,tendance,stop-loss (-30%),1.75,-36.95,45,49811,5.72,45.2,1.172,0.546,-9.46,1.13,-3.14,0
+2026-11-02 13:35,2026-11-02 15:17,actuelle,MAMESUKE,boost+profil,trailing-stop,1.7,32.42,67,72912,10.2,2.0,6.525,0.589,7.83,13.07,1796,1
