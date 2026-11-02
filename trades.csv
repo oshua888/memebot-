@@ -1417,3 +1417,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-02 14:35,2026-11-02 17:24,hasard,STEALTH,tendance,stop-loss (-32%),2.82,-40.13,49,37270,4.51,14.5,1.045,0.58,-3.09,-11.89,2.77,0
 2026-11-02 17:24,2026-11-02 17:56,hasard,Learjet,tendance,stop-loss (-31%),0.53,-42.06,48,26086,3.56,21.0,0.576,0.59,3.36,35.45,-15.31,0
 2026-11-02 16:11,2026-11-02 18:07,prudente,FLOAT,tendance,trailing-stop,1.93,25.56,70,237757,5.91,113.9,0.124,0.738,6.66,6.42,7.62,0
+2026-11-02 17:19,2026-11-02 18:09,agressive,Learjet,tendance,stop-loss (-41%),0.83,-50.46,50,25927,3.53,20.9,0.551,0.611,2.16,42.27,-4.78,0
