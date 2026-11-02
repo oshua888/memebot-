@@ -2952,3 +2952,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 03:20:25,agressive,VENTE,CHOO,0.001752,1658.24,stop-loss (-41%) PnL -1275.24$ coût 3.7%
 2026-11-02 03:20:25,agressive,ACHAT,STEALTH,0.0004350462925,3069.14,score 66 coût 12.4%
 2026-11-02 03:27:24,actuelle,VENTE,STEALTH,0.0004988,2413.81,palier +100% PnL +1087.05$ coût 9.7%
+2026-11-02 03:45:24,actuelle,VENTE,STEALTH,0.0004158,2031.18,trailing-stop PnL +704.42$ coût 8.9%
