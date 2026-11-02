@@ -3045,3 +3045,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 16:11:25,prudente,ACHAT,FLOAT,0.001419150503,8.50,score 70 coût 1.0%
 2026-11-02 16:40:24,agressive,VENTE,Anakin,0.002236,2587.89,durée max 24h PnL -445.59$ coût 4.8%
 2026-11-02 16:40:24,agressive,ACHAT,PEACE,0.0002055066676,2901.75,score 56 coût 16.6%
+2026-11-02 17:09:24,prudente,VENTE,FLOAT,0.001878,5.57,palier +30% PnL +1.32$ coût 1.0%
+2026-11-02 17:09:24,actuelle,ACHAT,WASTED,0.001101907163,3887.14,score 60 coût 9.3%
