@@ -3088,3 +3088,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 21:56:33,actuelle,VENTE,MAMESUKE,0.0007575,2471.20,stop-loss (-31%) PnL -1409.95$ coût 8.3%
 2026-11-02 22:05:34,hasard,VENTE,FLOAT,0.004426,1703.00,palier +100% PnL +843.85$ coût 1.8%
 2026-11-02 22:06:32,agressive,VENTE,FLOAT,0.004637,2940.46,palier +200% PnL +1951.45$ coût 2.4%
+2026-11-02 22:21:33,actuelle,ACHAT,FEAR,0.01095697191,3857.71,score 60 coût 1.4%
+2026-11-02 22:25:33,actuelle,VENTE,FEAR,4.584e-05,15.95,stop-loss (-100%) PnL -3841.77$ coût 1.2%
+2026-11-02 22:25:34,actuelle,ACHAT,HEDGE,0.000252339261,3788.95,score 67 coût 8.6%
