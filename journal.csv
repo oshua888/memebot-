@@ -2953,3 +2953,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 03:20:25,agressive,ACHAT,STEALTH,0.0004350462925,3069.14,score 66 coût 12.4%
 2026-11-02 03:27:24,actuelle,VENTE,STEALTH,0.0004988,2413.81,palier +100% PnL +1087.05$ coût 9.7%
 2026-11-02 03:45:24,actuelle,VENTE,STEALTH,0.0004158,2031.18,trailing-stop PnL +704.42$ coût 8.9%
+2026-11-02 03:52:23,hasard,VENTE,Peekhole,0.0003706,2887.28,durée max 12h PnL +45.53$ coût 12.9%
+2026-11-02 03:52:23,hasard,ACHAT,HI,0.0004801232339,2746.41,score 18 coût 9.2%
+2026-11-02 03:53:23,agressive,VENTE,RAM,9.224e-05,1339.00,stop-loss (-48%) PnL -1616.60$ coût 12.7%
+2026-11-02 03:53:23,agressive,ACHAT,ANAKIN,0.003179657275,3031.45,score 64 coût 5.0%
+2026-11-02 03:53:23,hasard,VENTE,RAM,9.224e-05,1469.34,stop-loss (-38%) PnL -1268.34$ coût 14.0%
+2026-11-02 03:53:23,hasard,ACHAT,tipr,0.00114491015,2731.59,score 60 coût 2.0%
+2026-11-02 03:55:23,hasard,VENTE,tipr,8.903e-06,20.89,stop-loss (-99%) PnL -2710.69$ coût 1.6%
+2026-11-02 03:55:23,hasard,ACHAT,Leverhedge,0.001142284824,2677.48,score 57 coût 6.9%
