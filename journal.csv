@@ -3039,3 +3039,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 15:15:25,hasard,ACHAT,SARP,0.0002537403023,2582.21,score 42 coût 15.0%
 2026-11-02 15:17:26,actuelle,VENTE,MAMESUKE,0.001062,3049.73,trailing-stop PnL +445.38$ coût 8.4%
 2026-11-02 15:17:26,hasard,ACHAT,DESSA,0.01358515288,2566.90,score 42 coût 2.5%
+2026-11-02 15:42:26,actuelle,ACHAT,FLOAT,0.001567425066,3875.85,score 65 coût 4.1%
+2026-11-02 15:45:26,agressive,VENTE,ANAKIN,0.001895,1687.55,stop-loss (-43%) PnL -1393.26$ coût 3.9%
+2026-11-02 15:45:26,agressive,ACHAT,FLOAT,0.001522412987,2952.27,score 56 coût 3.4%
