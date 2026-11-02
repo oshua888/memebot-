@@ -3020,3 +3020,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 13:19:25,apprentie,VENTE,uni,0.008812,12.62,durée max 12h PnL -3.41$ coût 1.0%
 2026-11-02 13:35:25,actuelle,ACHAT,MAMESUKE,0.000830657017,3887.09,score 67 coût 11.7%
 2026-11-02 13:35:25,apprentie,ACHAT,MAMESUKE,0.0007516624157,15.85,score 67 coût 1.0%
+2026-11-02 13:37:25,hasard,VENTE,Leverhedge,0.0006851,1736.87,stop-loss (-32%) PnL -994.36$ coût 6.0%
+2026-11-02 13:37:25,hasard,ACHAT,ANAKIN,0.004873609398,2635.19,score 80 coût 3.7%
+2026-11-02 13:40:25,actuelle,VENTE,1993,0.0001711,2568.31,durée max 12h PnL -1369.36$ coût 18.9%
