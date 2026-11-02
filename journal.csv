@@ -3016,3 +3016,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 11:01:52,actuelle,ACHAT,FLOAT,0.001544889679,3946.24,score 61 coût 4.2%
 2026-11-02 11:01:52,apprentie,VENTE,PEACE,0.0004385,20.47,palier +25% PnL +4.46$ coût 1.1%
 2026-11-02 11:05:52,prudente,ACHAT,PEACE,0.0004906902304,8.50,score 72 coût 1.0%
+2026-11-02 11:09:53,apprentie,VENTE,Peekhole,0.0004345,20.11,palier +25% PnL +4.06$ coût 1.1%
+2026-11-02 11:10:53,hasard,VENTE,Leverhedge,0.0006701,1699.23,stop-loss (-34%) PnL -1032.00$ coût 6.0%
+2026-11-02 11:10:53,hasard,ACHAT,ANSEM,0.0003435803714,2679.48,score 39 coût 11.5%
