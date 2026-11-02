@@ -1374,3 +1374,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-01 22:13,2026-11-02 01:14,apprentie,Leverhedge,tendance,stop-loss (-26%),3.02,-26.33,63,78594,10.33,46.5,0.707,0.583,-1.53,13.09,6.03,0
 2026-11-02 00:29,2026-11-02 01:17,prudente,ANAKIN,boost+profil,trailing-stop,0.8,25.0,82,125912,17.54,2.0,2.272,0.701,2.42,59.73,4224,1
 2026-11-02 01:10,2026-11-02 01:22,apprentie,ANAKIN,boost,palier +25%,0.2,24.39,84,147389,20.21,2.7,2.604,0.696,17.57,50.59,5729,1
+2026-11-02 01:22,2026-11-02 01:35,apprentie,ANAKIN,boost,palier +25%,0.22,25.0,55,167632,22.55,2.9,3.931,0.696,36.98,73.58,7300,1
