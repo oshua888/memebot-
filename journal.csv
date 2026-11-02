@@ -3097,3 +3097,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 22:41:33,actuelle,VENTE,RICO,0.0002457,1961.53,stop-loss (-43%) PnL -1946.41$ coût 12.2%
 2026-11-02 22:42:33,agressive,VENTE,RICO,0.0001468,983.57,stop-loss (-63%) PnL -1913.50$ coût 8.0%
 2026-11-02 22:59:33,actuelle,VENTE,HEDGE,0.0001713,2392.31,stop-loss (-32%) PnL -1396.64$ coût 7.0%
+2026-11-02 23:04:33,agressive,ACHAT,HEDGE,0.0001893880984,2742.28,score 50 coût 7.2%
