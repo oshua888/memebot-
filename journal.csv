@@ -2947,3 +2947,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 02:22:24,hasard,VENTE,PEAK,0.001267,1339.66,palier +50% PnL +426.92$ coût 3.7%
 2026-11-02 02:25:23,actuelle,VENTE,tipr,1.233e-05,4.37,stop-loss (-100%) PnL -4039.64$ coût 1.1%
 2026-11-02 02:26:24,agressive,VENTE,WASTED,0.00062,2762.33,palier +200% PnL +1757.79$ coût 9.4%
+2026-11-02 02:45:24,actuelle,ACHAT,STEALTH,0.0002474982992,3960.48,score 65 coût 21.6%
