@@ -3087,3 +3087,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 21:41:33,actuelle,VENTE,豆助,0.0001912,2223.29,stop-loss (-32%) PnL -1660.56$ coût 15.7%
 2026-11-02 21:56:33,actuelle,VENTE,MAMESUKE,0.0007575,2471.20,stop-loss (-31%) PnL -1409.95$ coût 8.3%
 2026-11-02 22:05:34,hasard,VENTE,FLOAT,0.004426,1703.00,palier +100% PnL +843.85$ coût 1.8%
+2026-11-02 22:06:32,agressive,VENTE,FLOAT,0.004637,2940.46,palier +200% PnL +1951.45$ coût 2.4%
