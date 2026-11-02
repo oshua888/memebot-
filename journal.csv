@@ -2947,3 +2947,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 00:29:04,actuelle,ACHAT,ANAKIN,0.002381035146,3998.06,score 82 coût 7.4%
 2026-11-02 00:29:04,apprentie,ACHAT,ANAKIN,0.00224074104,15.92,score 82 coût 1.0%
 2026-11-02 00:30:04,agressive,VENTE,WASTED,0.000681,3016.62,palier +200% PnL +2012.08$ coût 9.9%
+2026-11-02 00:35:03,apprentie,VENTE,ARNOLD,6.662e-05,11.29,stop-loss (-29%) PnL -4.71$ coût 1.1%
