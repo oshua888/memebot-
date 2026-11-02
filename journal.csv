@@ -2959,3 +2959,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 01:10:03,prudente,VENTE,ANAKIN,0.00299,5.61,palier +30% PnL +1.36$ coût 1.0%
 2026-11-02 01:10:03,apprentie,VENTE,ANAKIN,0.00299,21.03,palier +25% PnL +5.11$ coût 1.0%
 2026-11-02 01:10:03,apprentie,ACHAT,ANAKIN,0.003020549324,16.00,score 84 coût 1.0%
+2026-11-02 01:13:04,agressive,VENTE,RAM,0.0001058,1521.25,stop-loss (-41%) PnL -1434.34$ coût 13.5%
+2026-11-02 01:13:04,agressive,ACHAT,ANAKIN,0.003325693876,3080.81,score 84 coût 5.0%
+2026-11-02 01:14:03,apprentie,VENTE,Leverhedge,0.0006171,11.79,stop-loss (-26%) PnL -4.21$ coût 1.0%
