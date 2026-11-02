@@ -2977,3 +2977,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 01:36:04,prudente,VENTE,ANAKIN,0.00411,3.20,trailing-stop PnL +1.08$ coût 1.0%
 2026-11-02 01:36:04,prudente,ACHAT,ANAKIN,0.004151496231,8.53,score 71 coût 1.0%
 2026-11-02 01:40:03,actuelle,ACHAT,1993,0.0002126201818,3937.67,score 64 coût 23.0%
+2026-11-02 01:42:04,actuelle,VENTE,ANAKIN,0.003338,1814.78,trailing-stop PnL +475.43$ coût 3.3%
+2026-11-02 01:42:04,actuelle,ACHAT,ANAKIN,0.003534471652,3906.41,score 70 coût 5.9%
+2026-11-02 01:42:04,apprentie,VENTE,ANAKIN,0.003338,10.91,stop-loss (-32%) PnL -5.24$ coût 1.0%
+2026-11-02 01:43:04,apprentie,ACHAT,Peekhole,0.000342998102,16.04,score 25 coût 1.1%
