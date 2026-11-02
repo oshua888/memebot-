@@ -3076,3 +3076,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 21:11:34,apprentie,ACHAT,RICO,0.0005052810183,15.95,score 54 coût 1.1%
 2026-11-02 21:18:34,actuelle,ACHAT,RICO,0.0004298148894,3907.94,score 68 coût 17.1%
 2026-11-02 21:18:34,apprentie,VENTE,RICO,0.000367,11.47,stop-loss (-27%) PnL -4.49$ coût 1.0%
+2026-11-02 21:32:33,apprentie,ACHAT,豆助,0.0003866627631,15.86,score 62 coût 1.1%
+2026-11-02 21:34:33,prudente,ACHAT,豆助,0.0003974629255,8.52,score 77 coût 1.0%
+2026-11-02 21:35:33,prudente,VENTE,豆助,0.0002417,5.13,stop-loss (-39%) PnL -3.39$ coût 1.0%
+2026-11-02 21:35:33,apprentie,VENTE,豆助,0.0002417,9.81,stop-loss (-37%) PnL -6.05$ coût 1.0%
