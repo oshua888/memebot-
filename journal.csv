@@ -3058,3 +3058,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 17:56:15,hasard,ACHAT,MAMESUKE,0.0008697078795,2536.34,score 61 coût 7.5%
 2026-11-02 18:07:09,prudente,VENTE,FLOAT,0.001722,5.11,trailing-stop PnL +0.86$ coût 1.0%
 2026-11-02 18:09:23,agressive,VENTE,Learjet,7.09e-05,1422.11,stop-loss (-41%) PnL -1448.77$ coût 16.6%
+2026-11-02 20:11:35,agressive,VENTE,CHOO,0.001765,1670.12,stop-loss (-41%) PnL -1263.36$ coût 3.7%
+2026-11-02 20:11:35,agressive,ACHAT,CHAD,0.0002087386894,2898.18,score 50 coût 7.7%
+2026-11-02 20:11:35,hasard,VENTE,HI,0.0003503,1839.58,durée max 12h PnL -900.66$ coût 7.9%
+2026-11-02 20:11:35,hasard,VENTE,MAMESUKE,0.00155,1434.50,palier +50% PnL +597.51$ coût 3.8%
+2026-11-02 20:11:35,hasard,ACHAT,FLOAT,0.002192303287,2564.62,score 65 coût 2.7%
+2026-11-02 20:13:36,actuelle,VENTE,FLOAT,0.002487,1983.28,palier +50% PnL +704.25$ coût 2.3%
