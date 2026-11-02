@@ -3042,3 +3042,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 15:42:26,actuelle,ACHAT,FLOAT,0.001567425066,3875.85,score 65 coût 4.1%
 2026-11-02 15:45:26,agressive,VENTE,ANAKIN,0.001895,1687.55,stop-loss (-43%) PnL -1393.26$ coût 3.9%
 2026-11-02 15:45:26,agressive,ACHAT,FLOAT,0.001522412987,2952.27,score 56 coût 3.4%
+2026-11-02 16:11:25,prudente,ACHAT,FLOAT,0.001419150503,8.50,score 70 coût 1.0%
