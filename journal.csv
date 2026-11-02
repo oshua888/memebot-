@@ -2948,3 +2948,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 00:29:04,apprentie,ACHAT,ANAKIN,0.00224074104,15.92,score 82 coût 1.0%
 2026-11-02 00:30:04,agressive,VENTE,WASTED,0.000681,3016.62,palier +200% PnL +2012.08$ coût 9.9%
 2026-11-02 00:35:03,apprentie,VENTE,ARNOLD,6.662e-05,11.29,stop-loss (-29%) PnL -4.71$ coût 1.1%
+2026-11-02 00:51:02,actuelle,VENTE,tipr,1.386e-05,47.90,stop-loss (-99%) PnL -3953.65$ coût 2.1%
+2026-11-02 00:55:04,prudente,ACHAT,Anakinius,0.0003677655139,8.48,score 77 coût 1.0%
+2026-11-02 00:55:04,actuelle,ACHAT,Anakinius,0.0004253818994,3903.43,score 77 coût 16.9%
+2026-11-02 00:55:04,apprentie,ACHAT,Anakinius,0.0003678755195,15.92,score 77 coût 1.1%
