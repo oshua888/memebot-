@@ -2982,3 +2982,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 07:29:21,actuelle,VENTE,ANAKIN,0.005547,2084.79,palier +50% PnL +745.70$ coût 3.1%
 2026-11-02 07:29:21,apprentie,VENTE,ANAKIN,0.005547,20.88,palier +25% PnL +4.92$ coût 1.0%
 2026-11-02 07:29:21,apprentie,ACHAT,ANAKIN,0.005603328378,16.05,score 53 coût 1.0%
+2026-11-02 07:35:22,actuelle,VENTE,ANAKIN,0.003668,2760.07,trailing-stop PnL +41.31$ coût 4.4%
+2026-11-02 07:35:22,actuelle,ACHAT,ANAKIN,0.003878266757,3995.23,score 70 coût 5.7%
+2026-11-02 07:35:22,hasard,VENTE,ANAKIN,0.003668,2197.70,trailing-stop PnL +408.66$ coût 3.7%
+2026-11-02 07:35:22,hasard,ACHAT,STEALTH,0.0001553876576,2687.15,score 50 coût 18.0%
+2026-11-02 07:35:22,apprentie,VENTE,ANAKIN,0.003668,10.40,stop-loss (-35%) PnL -5.65$ coût 1.0%
+2026-11-02 07:35:22,apprentie,ACHAT,1993,0.000196814141,15.95,score 34 coût 1.1%
