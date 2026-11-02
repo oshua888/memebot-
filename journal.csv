@@ -3023,3 +3023,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 13:37:25,hasard,VENTE,Leverhedge,0.0006851,1736.87,stop-loss (-32%) PnL -994.36$ coût 6.0%
 2026-11-02 13:37:25,hasard,ACHAT,ANAKIN,0.004873609398,2635.19,score 80 coût 3.7%
 2026-11-02 13:40:25,actuelle,VENTE,1993,0.0001711,2568.31,durée max 12h PnL -1369.36$ coût 18.9%
+2026-11-02 13:42:24,actuelle,VENTE,ANAKIN,0.004344,4503.86,durée max 12h PnL +597.46$ coût 6.2%
+2026-11-02 13:42:24,actuelle,ACHAT,ANAKIN,0.004569266565,3870.98,score 80 coût 5.2%
