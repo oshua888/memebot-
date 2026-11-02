@@ -3069,3 +3069,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 20:32:35,hasard,VENTE,MAMESUKE,0.001136,2087.71,trailing-stop PnL +388.36$ coût 5.9%
 2026-11-02 20:32:35,hasard,ACHAT,CHAD,0.000253176764,2571.82,score 61 coût 6.4%
 2026-11-02 20:34:35,actuelle,VENTE,FLOAT,0.003233,2611.99,palier +100% PnL +1313.58$ coût 2.5%
+2026-11-02 20:38:36,agressive,ACHAT,RICO,0.0003977528759,2897.07,score 51 coût 13.3%
