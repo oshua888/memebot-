@@ -2956,3 +2956,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 01:05:03,actuelle,VENTE,Anakinius,0.0002758,2205.12,stop-loss (-35%) PnL -1698.31$ coût 12.9%
 2026-11-02 01:05:03,apprentie,VENTE,VETOTRUMP,0.0001998,20.06,palier +25% PnL +4.02$ coût 1.1%
 2026-11-02 01:05:03,apprentie,VENTE,Anakinius,0.0002758,11.81,stop-loss (-25%) PnL -4.11$ coût 1.1%
+2026-11-02 01:10:03,prudente,VENTE,ANAKIN,0.00299,5.61,palier +30% PnL +1.36$ coût 1.0%
+2026-11-02 01:10:03,apprentie,VENTE,ANAKIN,0.00299,21.03,palier +25% PnL +5.11$ coût 1.0%
+2026-11-02 01:10:03,apprentie,ACHAT,ANAKIN,0.003020549324,16.00,score 84 coût 1.0%
