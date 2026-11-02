@@ -3018,3 +3018,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 13:11:25,hasard,ACHAT,ANSEM,0.0003277675131,2658.78,score 45 coût 11.7%
 2026-11-02 13:15:26,apprentie,VENTE,Peekhole,0.0004407,20.40,palier +25% PnL +4.35$ coût 1.1%
 2026-11-02 13:19:25,apprentie,VENTE,uni,0.008812,12.62,durée max 12h PnL -3.41$ coût 1.0%
+2026-11-02 13:35:25,actuelle,ACHAT,MAMESUKE,0.000830657017,3887.09,score 67 coût 11.7%
+2026-11-02 13:35:25,apprentie,ACHAT,MAMESUKE,0.0007516624157,15.85,score 67 coût 1.0%
