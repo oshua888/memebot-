@@ -3025,3 +3025,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 13:40:25,actuelle,VENTE,1993,0.0001711,2568.31,durée max 12h PnL -1369.36$ coût 18.9%
 2026-11-02 13:42:24,actuelle,VENTE,ANAKIN,0.004344,4503.86,durée max 12h PnL +597.46$ coût 6.2%
 2026-11-02 13:42:24,actuelle,ACHAT,ANAKIN,0.004569266565,3870.98,score 80 coût 5.2%
+2026-11-02 14:04:24,agressive,VENTE,1993,0.0001358,1589.33,stop-loss (-40%) PnL -1442.17$ coût 12.4%
+2026-11-02 14:04:24,agressive,ACHAT,MAMESUKE,0.001044434779,2989.65,score 65 coût 8.1%
+2026-11-02 14:04:24,apprentie,VENTE,1993,0.0001358,10.96,stop-loss (-31%) PnL -5.10$ coût 1.1%
