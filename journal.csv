@@ -2976,3 +2976,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 06:10:22,hasard,ACHAT,ANSEM,0.0003240564014,2671.31,score 21 coût 11.8%
 2026-11-02 06:27:21,actuelle,ACHAT,PEACE,0.0002391990994,3961.20,score 65 coût 22.1%
 2026-11-02 06:50:20,prudente,VENTE,WASTED,0.0008632,5.60,palier +30% PnL +1.36$ coût 1.0%
+2026-11-02 07:22:21,apprentie,VENTE,ANAKIN,0.004154,19.82,palier +25% PnL +3.98$ coût 1.0%
+2026-11-02 07:22:21,apprentie,ACHAT,ANAKIN,0.004196280838,15.96,score 74 coût 1.0%
+2026-11-02 07:24:21,hasard,VENTE,ANAKIN,0.004493,1342.78,palier +50% PnL +461.61$ coût 2.5%
