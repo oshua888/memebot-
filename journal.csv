@@ -3011,3 +3011,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 10:19:52,hasard,VENTE,MANDO,0.0001646,1551.09,stop-loss (-35%) PnL -1155.24$ coût 12.0%
 2026-11-02 10:19:52,hasard,ACHAT,PEAK,0.000905095227,2683.21,score 20 coût 7.3%
 2026-11-02 10:21:52,actuelle,VENTE,STEALTH,0.0002932,2080.92,trailing-stop PnL +772.51$ coût 10.6%
+2026-11-02 10:31:52,actuelle,ACHAT,STEALTH,0.0003810812363,3970.85,score 65 coût 16.5%
