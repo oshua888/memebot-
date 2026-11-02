@@ -1391,3 +1391,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-02 09:36,2026-11-02 09:37,apprentie,MANDO,boost+profil,stop-loss (-27%),0.02,-27.92,37,39651,6.06,2.6,1.053,0.576,38.5,49.26,504,1
 2026-11-01 22:16,2026-11-02 10:16,hasard,Anakin,tendance,durée max 12h,12.01,-4.3,56,169294,17.66,74.8,1.221,0.535,1.06,1.17,94.43,0
 2026-11-02 10:16,2026-11-02 10:19,hasard,MANDO,boost+profil,stop-loss (-35%),0.05,-42.69,52,37030,5.72,3.3,1.276,0.548,3.05,7.84,432,1
+2026-11-02 07:36,2026-11-02 10:21,actuelle,STEALTH,tendance,trailing-stop,2.75,71.8,60,31551,4.01,7.6,2.187,0.577,-5.45,-18.27,5.79,0
