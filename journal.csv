@@ -2963,3 +2963,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-02 03:55:23,hasard,ACHAT,Leverhedge,0.001142284824,2677.48,score 57 coût 6.9%
 2026-11-02 04:02:23,actuelle,ACHAT,ANUKOON,0.0001546223613,4012.31,score 60 coût 30.4%
 2026-11-02 04:03:23,actuelle,VENTE,ANUKOON,9.952e-05,2022.97,stop-loss (-36%) PnL -1989.34$ coût 21.7%
+2026-11-02 04:28:22,prudente,ACHAT,WASTED,0.0006468493147,8.48,score 70 coût 1.0%
