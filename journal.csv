@@ -3116,3 +3116,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 00:40:34,prudente,VENTE,MOVEMBER,0.0004068,3.31,trailing-stop PnL +1.19$ coût 1.0%
 2026-11-03 00:45:34,actuelle,VENTE,MOVEMBER,0.0003658,2633.37,trailing-stop PnL +128.41$ coût 12.8%
 2026-11-03 00:45:34,actuelle,ACHAT,MOVEMBER,0.0004215413801,3655.21,score 69 coût 15.2%
+2026-11-03 00:50:35,prudente,ACHAT,ANSEM,0.0001209611881,8.53,score 78 coût 1.1%
