@@ -3281,3 +3281,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 21:14:27,hasard,VENTE,ANONVOYAGE,0.002806,1239.22,palier +50% PnL +417.24$ coût 2.8%
 2026-11-03 21:20:26,prudente,VENTE,ANONVOYAGE,0.002328,2.81,trailing-stop PnL +0.71$ coût 1.0%
 2026-11-03 21:20:26,actuelle,ACHAT,Mag,0.0004920566963,3205.96,score 65 coût 11.5%
+2026-11-03 21:22:26,prudente,ACHAT,ANONVOYAGE,0.002454606179,8.43,score 70 coût 1.0%
