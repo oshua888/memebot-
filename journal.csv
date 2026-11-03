@@ -3269,3 +3269,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 18:51:26,hasard,VENTE,MOGMAS,7.848e-05,1347.55,stop-loss (-33%) PnL -1037.19$ coût 15.1%
 2026-11-03 18:51:26,hasard,ACHAT,MEOWNERO,0.0002747713817,2344.97,score 45 coût 12.7%
 2026-11-03 18:55:26,actuelle,ACHAT,MEOWNERO,0.0002694183236,3208.55,score 60 coût 17.5%
+2026-11-03 19:26:27,hasard,VENTE,MEOWNERO,0.0001914,1468.09,stop-loss (-30%) PnL -876.88$ coût 10.1%
+2026-11-03 19:26:27,hasard,ACHAT,BINGUS,5.821810519e-05,2333.20,score 14 coût 10.8%
