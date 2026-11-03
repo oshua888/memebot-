@@ -3295,3 +3295,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 22:05:26,agressive,VENTE,MEOWNERO,0.0003007,1753.40,trailing-stop PnL +283.02$ coût 9.6%
 2026-11-03 22:06:26,agressive,ACHAT,MEOWNERO,0.0003447960776,2196.30,score 56 coût 10.5%
 2026-11-03 22:08:27,actuelle,ACHAT,ANONVOYAGE,0.002152243517,3164.39,score 60 coût 6.2%
+2026-11-03 22:11:26,prudente,VENTE,ANONVOYAGE,0.001848,6.28,stop-loss (-25%) PnL -2.15$ coût 1.0%
+2026-11-03 22:11:26,hasard,VENTE,MAMESUKE,0.001475,1669.97,stop-loss (-31%) PnL -848.21$ coût 4.0%
