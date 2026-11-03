@@ -3189,3 +3189,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 07:29:00,prudente,VENTE,CAPY,0.000405,5.46,palier +30% PnL +1.24$ coût 1.0%
 2026-11-03 07:33:00,prudente,VENTE,CAPY,0.0003432,4.62,trailing-stop PnL +0.41$ coût 1.0%
 2026-11-03 07:33:00,prudente,ACHAT,CAPY,0.0003467313154,8.44,score 77 coût 1.0%
+2026-11-03 10:42:43,actuelle,ACHAT,OMBRO,0.0003113672926,3375.04,score 64 coût 15.5%
+2026-11-03 10:42:43,apprentie,VENTE,DESSA,0.0152,18.26,durée max 12h PnL +2.30$ coût 1.0%
+2026-11-03 10:44:43,actuelle,VENTE,FLOAT,0.003474,2803.92,trailing-stop PnL +1505.51$ coût 2.6%
+2026-11-03 10:44:43,hasard,VENTE,FLOAT,0.003474,1337.74,trailing-stop PnL +478.59$ coût 1.7%
+2026-11-03 10:44:43,hasard,ACHAT,RICO,0.0006287265426,2540.08,score 49 coût 9.1%
