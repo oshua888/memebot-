@@ -3170,3 +3170,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 04:49:00,agressive,VENTE,WIF,0.0002249,2250.19,trailing-stop PnL +532.38$ coût 14.9%
 2026-11-03 04:49:00,agressive,ACHAT,CAPY,0.0007988415635,2496.00,score 63 coût 3.9%
 2026-11-03 05:09:01,prudente,VENTE,FLOAT,0.00359,8.14,durée max 8h PnL -0.38$ coût 1.0%
+2026-11-03 05:34:00,agressive,VENTE,STEALTH,0.0001157,1301.75,stop-loss (-40%) PnL -1135.16$ coût 10.6%
