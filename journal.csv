@@ -3234,3 +3234,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 14:33:44,actuelle,VENTE,Slingoor,0.0001175,1925.21,stop-loss (-30%) PnL -1391.28$ coût 16.9%
 2026-11-03 14:36:44,hasard,VENTE,SPHERE,0.0002168,638.77,stop-loss (-74%) PnL -1927.18$ coût 4.5%
 2026-11-03 14:36:44,hasard,ACHAT,Slingoor,0.0001581029387,2532.78,score 71 coût 17.1%
+2026-11-03 14:41:44,apprentie,VENTE,FOBET,0.0003475,18.77,durée max 12h PnL +2.95$ coût 1.1%
