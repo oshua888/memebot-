@@ -3154,3 +3154,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 03:34:59,prudente,VENTE,WIF,0.0001448,5.54,trailing-stop PnL +1.32$ coût 1.0%
 2026-11-03 03:34:59,prudente,ACHAT,WIF,0.0001463302916,8.37,score 75 coût 1.1%
 2026-11-03 03:42:59,prudente,VENTE,WIF,0.0002216,6.27,palier +30% PnL +2.09$ coût 1.0%
+2026-11-03 03:51:58,prudente,VENTE,WIF,0.0002763,3.91,palier +60% PnL +1.82$ coût 1.0%
+2026-11-03 03:51:58,hasard,VENTE,WIF,0.0002763,1255.70,palier +50% PnL +429.26$ coût 7.5%
+2026-11-03 03:51:58,apprentie,VENTE,WIF,0.0002763,25.52,palier +50% PnL +9.68$ coût 1.1%
+2026-11-03 03:53:58,actuelle,ACHAT,STEALTH,0.0001622891933,3512.51,score 61 coût 22.7%
