@@ -3285,3 +3285,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 21:35:27,actuelle,VENTE,Mag,0.0003272,1938.24,stop-loss (-34%) PnL -1267.73$ coût 9.1%
 2026-11-03 21:35:27,hasard,VENTE,Mag,0.0003272,1500.89,stop-loss (-31%) PnL -826.39$ coût 7.1%
 2026-11-03 21:35:27,hasard,ACHAT,SA,0.000624361631,2314.93,score 43 coût 8.5%
+2026-11-03 21:46:26,agressive,VENTE,MEOWNERO,0.0004665,1389.24,palier +100% PnL +665.02$ coût 6.3%
+2026-11-03 21:50:26,agressive,VENTE,FLOAT,0.001882,1297.18,stop-loss (-40%) PnL -910.69$ coût 2.0%
+2026-11-03 21:50:26,agressive,ACHAT,WOOP,0.0001716184082,2237.09,score 53 coût 15.3%
