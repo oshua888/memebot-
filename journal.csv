@@ -3231,3 +3231,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 14:15:44,actuelle,ACHAT,MOGMAS,0.0001592528694,3293.34,score 66 coût 24.2%
 2026-11-03 14:15:44,agressive,ACHAT,MOGMAS,0.000150330331,2306.30,score 66 coût 17.3%
 2026-11-03 14:31:46,actuelle,ACHAT,Ahsoka,0.001224218258,3282.49,score 60 coût 8.2%
+2026-11-03 14:33:44,actuelle,VENTE,Slingoor,0.0001175,1925.21,stop-loss (-30%) PnL -1391.28$ coût 16.9%
+2026-11-03 14:36:44,hasard,VENTE,SPHERE,0.0002168,638.77,stop-loss (-74%) PnL -1927.18$ coût 4.5%
+2026-11-03 14:36:44,hasard,ACHAT,Slingoor,0.0001581029387,2532.78,score 71 coût 17.1%
