@@ -3288,3 +3288,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 21:46:26,agressive,VENTE,MEOWNERO,0.0004665,1389.24,palier +100% PnL +665.02$ coût 6.3%
 2026-11-03 21:50:26,agressive,VENTE,FLOAT,0.001882,1297.18,stop-loss (-40%) PnL -910.69$ coût 2.0%
 2026-11-03 21:50:26,agressive,ACHAT,WOOP,0.0001716184082,2237.09,score 53 coût 15.3%
+2026-11-03 21:57:28,hasard,VENTE,BINGUS,3.792e-05,1390.62,stop-loss (-35%) PnL -942.57$ coût 8.5%
