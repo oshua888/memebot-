@@ -3183,3 +3183,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 07:14:00,prudente,VENTE,CAPY,0.0006735,6.51,stop-loss (-22%) PnL -1.92$ coût 1.0%
 2026-11-03 07:19:00,actuelle,ACHAT,CAPY,0.0003262873085,3409.75,score 65 coût 14.0%
 2026-11-03 07:22:01,prudente,ACHAT,CAPY,0.0003094573921,8.42,score 71 coût 1.0%
+2026-11-03 07:28:00,actuelle,VENTE,SPHERE,0.0005795,2069.90,stop-loss (-34%) PnL -1356.92$ coût 8.2%
+2026-11-03 07:28:00,agressive,VENTE,SPHERE,0.0005795,1306.77,stop-loss (-43%) PnL -1120.21$ coût 5.4%
+2026-11-03 07:28:00,agressive,ACHAT,CAPY,0.0004028423504,2369.92,score 77 coût 8.9%
+2026-11-03 07:29:00,prudente,VENTE,CAPY,0.000405,5.46,palier +30% PnL +1.24$ coût 1.0%
