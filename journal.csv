@@ -3117,3 +3117,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 00:45:34,actuelle,VENTE,MOVEMBER,0.0003658,2633.37,trailing-stop PnL +128.41$ coût 12.8%
 2026-11-03 00:45:34,actuelle,ACHAT,MOVEMBER,0.0004215413801,3655.21,score 69 coût 15.2%
 2026-11-03 00:50:35,prudente,ACHAT,ANSEM,0.0001209611881,8.53,score 78 coût 1.1%
+2026-11-03 00:56:34,prudente,ACHAT,FEAR,0.01433193783,8.52,score 75 coût 1.0%
+2026-11-03 00:57:34,prudente,VENTE,FEAR,9.93e-06,0.01,stop-loss (-100%) PnL -8.52$ coût 1.0%
+2026-11-03 00:57:34,hasard,VENTE,uni,0.008203,2301.25,durée max 12h PnL -355.63$ coût 3.0%
+2026-11-03 00:57:34,hasard,ACHAT,MOVEMBER,0.0003849831741,2539.25,score 69 coût 11.2%
+2026-11-03 00:58:35,actuelle,VENTE,ANSEM,0.0001021,2061.31,stop-loss (-32%) PnL -1644.28$ coût 18.3%
+2026-11-03 00:59:34,agressive,VENTE,MOVEMBER,0.0003097,1419.11,stop-loss (-42%) PnL -1207.10$ coût 7.5%
