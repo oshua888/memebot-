@@ -3222,3 +3222,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 13:04:43,actuelle,ACHAT,Slingoor,0.0001683029003,3316.49,score 63 coût 22.0%
 2026-11-03 13:04:43,agressive,ACHAT,Slingoor,0.0001596993219,2333.38,score 63 coût 15.8%
 2026-11-03 13:06:43,actuelle,VENTE,CAPY,0.0002268,2110.05,stop-loss (-30%) PnL -1299.70$ coût 11.0%
+2026-11-03 13:16:43,prudente,VENTE,RICO,0.0005163,6.08,stop-loss (-27%) PnL -2.35$ coût 1.0%
