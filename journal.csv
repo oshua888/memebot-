@@ -3218,3 +3218,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 12:28:41,hasard,ACHAT,SPHERE,0.0008320252451,2565.94,score 50 coût 7.9%
 2026-11-03 12:33:42,actuelle,VENTE,CAPY,0.0004656,2269.14,stop-loss (-31%) PnL -1196.16$ coût 4.5%
 2026-11-03 12:33:42,agressive,VENTE,CAPY,0.0004656,1409.00,stop-loss (-42%) PnL -1087.01$ coût 3.1%
+2026-11-03 13:04:43,prudente,VENTE,MAMESUKE,0.002434,3.49,palier +60% PnL +1.39$ coût 1.0%
+2026-11-03 13:04:43,actuelle,ACHAT,Slingoor,0.0001683029003,3316.49,score 63 coût 22.0%
+2026-11-03 13:04:43,agressive,ACHAT,Slingoor,0.0001596993219,2333.38,score 63 coût 15.8%
+2026-11-03 13:06:43,actuelle,VENTE,CAPY,0.0002268,2110.05,stop-loss (-30%) PnL -1299.70$ coût 11.0%
