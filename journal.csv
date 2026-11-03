@@ -3166,3 +3166,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 04:33:01,actuelle,ACHAT,CAPY,0.0006789889345,3465.30,score 61 coût 5.4%
 2026-11-03 04:40:00,hasard,VENTE,WIF,0.0002419,1120.19,trailing-stop PnL +281.23$ coût 7.1%
 2026-11-03 04:40:00,hasard,ACHAT,CAPY,0.0007416087131,2539.18,score 63 coût 4.0%
+2026-11-03 04:46:00,actuelle,ACHAT,TrumpWars,0.0001783085083,3478.91,score 67 coût 24.0%
+2026-11-03 04:49:00,agressive,VENTE,WIF,0.0002249,2250.19,trailing-stop PnL +532.38$ coût 14.9%
+2026-11-03 04:49:00,agressive,ACHAT,CAPY,0.0007988415635,2496.00,score 63 coût 3.9%
