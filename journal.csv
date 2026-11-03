@@ -3274,3 +3274,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 19:39:26,actuelle,VENTE,MEOWNERO,0.0001872,1927.12,stop-loss (-31%) PnL -1281.42$ coût 13.6%
 2026-11-03 20:13:26,actuelle,ACHAT,CHOO,0.004485889337,3192.86,score 60 coût 4.1%
 2026-11-03 20:15:26,prudente,VENTE,ANONVOYAGE,0.002284,5.51,palier +30% PnL +1.30$ coût 1.0%
+2026-11-03 20:24:27,hasard,VENTE,RICO,0.0003275,1373.88,stop-loss (-37%) PnL -984.41$ coût 7.2%
