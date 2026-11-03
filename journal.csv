@@ -3236,3 +3236,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 14:36:44,hasard,ACHAT,Slingoor,0.0001581029387,2532.78,score 71 coût 17.1%
 2026-11-03 14:41:44,apprentie,VENTE,FOBET,0.0003475,18.77,durée max 12h PnL +2.95$ coût 1.1%
 2026-11-03 15:07:45,actuelle,VENTE,MOGMAS,0.0001001,1709.76,stop-loss (-37%) PnL -1583.58$ coût 17.4%
+2026-11-03 15:16:43,hasard,VENTE,FOBET,0.0003491,2376.42,durée max 12h PnL -138.16$ coût 12.4%
+2026-11-03 15:16:43,hasard,ACHAT,MAMESUKE,0.002134888962,2518.18,score 56 coût 4.9%
