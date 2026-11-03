@@ -3175,3 +3175,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 05:37:00,actuelle,VENTE,STEALTH,0.0001131,2021.76,stop-loss (-30%) PnL -1490.75$ coût 17.4%
 2026-11-03 05:50:00,prudente,ACHAT,CAPY,0.0008636290045,8.43,score 70 coût 1.0%
 2026-11-03 06:08:03,actuelle,VENTE,TrumpWars,0.0001218,1943.92,stop-loss (-32%) PnL -1534.99$ coût 18.2%
+2026-11-03 06:31:00,agressive,VENTE,TrumpWars,0.0001022,1259.80,stop-loss (-42%) PnL -1205.47$ coût 12.4%
+2026-11-03 06:31:00,agressive,ACHAT,SPHERE,0.001018097028,2426.98,score 50 coût 7.0%
