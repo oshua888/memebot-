@@ -3203,3 +3203,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 11:16:43,hasard,ACHAT,FLOAT,0.003638388089,2560.28,score 46 coût 2.4%
 2026-11-03 11:16:43,apprentie,VENTE,NETWORK,0.0001457,11.36,stop-loss (-27%) PnL -4.41$ coût 1.1%
 2026-11-03 11:19:43,prudente,VENTE,RICO,0.0008305,3.41,palier +60% PnL +1.30$ coût 1.0%
+2026-11-03 11:23:43,prudente,ACHAT,SPHERE,0.000873029575,8.45,score 70 coût 1.0%
+2026-11-03 11:23:43,hasard,VENTE,RICO,0.0009477,1211.48,palier +50% PnL +373.25$ coût 4.1%
