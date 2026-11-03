@@ -3127,3 +3127,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 01:05:34,hasard,VENTE,MOVEMBER,0.000267,1601.40,stop-loss (-31%) PnL -937.85$ coût 9.1%
 2026-11-03 01:05:34,hasard,ACHAT,MAMESUKE,0.0008878839293,2521.19,score 43 coût 7.5%
 2026-11-03 01:14:34,prudente,VENTE,ANSEM,9.632e-05,6.72,stop-loss (-20%) PnL -1.81$ coût 1.0%
+2026-11-03 01:26:34,apprentie,VENTE,MAMESUKE,0.0009795,19.74,palier +25% PnL +3.99$ coût 1.0%
