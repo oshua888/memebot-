@@ -3258,3 +3258,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 18:26:27,hasard,ACHAT,HAMSTER,9.59882189e-05,2409.69,score 42 coût 9.1%
 2026-11-03 18:27:27,agressive,VENTE,Slingoor,8.975e-05,1163.79,stop-loss (-44%) PnL -1169.59$ coût 11.3%
 2026-11-03 18:29:26,actuelle,VENTE,FLOAT,0.00273,2249.48,stop-loss (-31%) PnL -1090.73$ coût 2.3%
+2026-11-03 18:33:27,hasard,VENTE,FLOAT,0.002504,1725.72,stop-loss (-31%) PnL -834.56$ coût 2.1%
+2026-11-03 18:33:27,hasard,VENTE,HAMSTER,6.719e-05,1559.64,stop-loss (-30%) PnL -850.05$ coût 7.5%
+2026-11-03 18:33:27,hasard,ACHAT,MOGMAS,0.0001178755579,2384.74,score 47 coût 19.8%
+2026-11-03 18:33:27,hasard,ACHAT,CHOO,0.004690758554,2370.19,score 46 coût 3.2%
