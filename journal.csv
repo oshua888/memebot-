@@ -3301,3 +3301,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 22:53:26,agressive,VENTE,Ahsoka,0.0005308,1246.66,stop-loss (-40%) PnL -960.92$ coût 5.2%
 2026-11-03 23:08:25,agressive,VENTE,NETWORK,0.0001312,1621.77,durée max 24h PnL -1116.73$ coût 13.2%
 2026-11-03 23:23:25,prudente,ACHAT,Ahsoka,0.0009940325503,8.41,score 70 coût 1.0%
+2026-11-03 23:29:25,prudente,VENTE,Ahsoka,0.0007601,6.36,stop-loss (-24%) PnL -2.04$ coût 1.0%
