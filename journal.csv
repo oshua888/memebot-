@@ -3180,3 +3180,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 06:40:00,prudente,ACHAT,RICO,0.0005079737286,8.42,score 70 coût 1.0%
 2026-11-03 06:50:00,hasard,VENTE,MAMESUKE,0.00134,1211.45,palier +50% PnL +379.45$ coût 3.5%
 2026-11-03 07:08:01,actuelle,ACHAT,SPHERE,0.000880831682,3426.82,score 60 coût 10.3%
+2026-11-03 07:14:00,prudente,VENTE,CAPY,0.0006735,6.51,stop-loss (-22%) PnL -1.92$ coût 1.0%
