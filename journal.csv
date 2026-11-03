@@ -3248,3 +3248,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 15:45:45,hasard,VENTE,Anakin,0.001086,1702.11,stop-loss (-30%) PnL -854.18$ coût 4.4%
 2026-11-03 15:45:45,hasard,ACHAT,ANONVOYAGE,0.001809605693,2490.84,score 65 coût 5.5%
 2026-11-03 15:47:46,prudente,ACHAT,ANONVOYAGE,0.001726351386,8.42,score 79 coût 1.0%
+2026-11-03 18:21:31,agressive,VENTE,FLOAT,0.003072,1953.75,trailing-stop PnL +964.74$ coût 2.1%
+2026-11-03 18:21:31,agressive,VENTE,CHAD,0.0001109,1451.24,stop-loss (-47%) PnL -1446.94$ coût 5.7%
+2026-11-03 18:21:31,agressive,ACHAT,FLOAT,0.003140120898,2207.87,score 60 coût 2.2%
+2026-11-03 18:21:31,hasard,VENTE,Slingoor,0.0001022,1425.37,stop-loss (-35%) PnL -1107.40$ coût 12.9%
+2026-11-03 18:21:31,hasard,ACHAT,WOOP,0.0002179752522,2430.02,score 33 coût 14.7%
+2026-11-03 18:22:29,agressive,ACHAT,Ahsoka,0.0008909331647,2207.59,score 54 coût 6.6%
