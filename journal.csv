@@ -3289,3 +3289,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 21:50:26,agressive,VENTE,FLOAT,0.001882,1297.18,stop-loss (-40%) PnL -910.69$ coût 2.0%
 2026-11-03 21:50:26,agressive,ACHAT,WOOP,0.0001716184082,2237.09,score 53 coût 15.3%
 2026-11-03 21:57:28,hasard,VENTE,BINGUS,3.792e-05,1390.62,stop-loss (-35%) PnL -942.57$ coût 8.5%
+2026-11-03 22:04:26,actuelle,VENTE,ANONVOYAGE,0.002057,2339.83,trailing-stop PnL +164.41$ coût 5.0%
+2026-11-03 22:04:26,hasard,VENTE,ANONVOYAGE,0.002057,1819.54,trailing-stop PnL +150.67$ coût 4.1%
+2026-11-03 22:04:26,hasard,ACHAT,ANONVOYAGE,0.002153994445,2285.15,score 54 coût 4.7%
+2026-11-03 22:05:26,agressive,VENTE,MEOWNERO,0.0003007,1753.40,trailing-stop PnL +283.02$ coût 9.6%
