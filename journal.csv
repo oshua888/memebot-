@@ -3111,3 +3111,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 00:29:33,actuelle,VENTE,WASTED,0.0004718,1561.73,stop-loss (-57%) PnL -2325.41$ coût 6.2%
 2026-11-03 00:29:33,agressive,VENTE,WASTED,0.0004718,1232.21,stop-loss (-55%) PnL -1642.13$ coût 5.0%
 2026-11-03 00:29:33,agressive,ACHAT,ANSEM,0.000148461954,2657.32,score 51 coût 17.3%
+2026-11-03 00:34:34,agressive,VENTE,HEDGE,0.0001078,1474.00,stop-loss (-43%) PnL -1268.29$ coût 5.6%
+2026-11-03 00:34:34,agressive,ACHAT,MOVEMBER,0.0005300705705,2626.21,score 54 coût 9.9%
