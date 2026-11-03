@@ -3194,3 +3194,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 10:44:43,actuelle,VENTE,FLOAT,0.003474,2803.92,trailing-stop PnL +1505.51$ coût 2.6%
 2026-11-03 10:44:43,hasard,VENTE,FLOAT,0.003474,1337.74,trailing-stop PnL +478.59$ coût 1.7%
 2026-11-03 10:44:43,hasard,ACHAT,RICO,0.0006287265426,2540.08,score 49 coût 9.1%
+2026-11-03 10:57:42,apprentie,VENTE,MAMESUKE,0.00156,23.95,palier +50% PnL +8.10$ coût 1.0%
+2026-11-03 10:58:42,actuelle,VENTE,OMBRO,0.0002132,2027.73,stop-loss (-32%) PnL -1347.32$ coût 12.3%
+2026-11-03 11:00:48,prudente,VENTE,RICO,0.0006614,5.43,palier +30% PnL +1.22$ coût 1.0%
