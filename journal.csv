@@ -3137,3 +3137,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 02:43:58,apprentie,ACHAT,NETWORK,0.0002000453,15.76,score 50 coût 1.1%
 2026-11-03 02:45:59,prudente,ACHAT,WIF,0.0001090512344,8.43,score 76 coût 1.1%
 2026-11-03 02:45:59,actuelle,VENTE,WIF,0.0001079,1985.10,stop-loss (-31%) PnL -1636.97$ coût 20.9%
+2026-11-03 02:50:59,prudente,ACHAT,Wanted,0.0003588778879,8.44,score 74 coût 1.0%
+2026-11-03 02:50:59,actuelle,ACHAT,Wanted,0.0004122819273,3588.24,score 74 coût 16.1%
+2026-11-03 02:50:59,agressive,ACHAT,Wanted,0.0003963027582,2517.12,score 74 coût 11.6%
