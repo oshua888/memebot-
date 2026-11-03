@@ -3227,3 +3227,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 13:44:44,hasard,VENTE,MAMESUKE,0.001986,1814.74,trailing-stop PnL +970.15$ coût 3.9%
 2026-11-03 13:44:44,hasard,ACHAT,Anakin,0.001558571994,2556.29,score 49 coût 5.2%
 2026-11-03 13:53:45,prudente,ACHAT,Slingoor,0.0002108763324,8.43,score 77 coût 1.0%
+2026-11-03 13:59:43,prudente,VENTE,Slingoor,0.0001682,6.66,stop-loss (-20%) PnL -1.78$ coût 1.0%

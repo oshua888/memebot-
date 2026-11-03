@@ -1490,3 +1490,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-03 11:28,2026-11-03 13:16,prudente,RICO,boost,stop-loss (-27%),1.8,-27.89,71,69805,9.23,19.0,1.006,0.633,-25.25,10.46,112,1
 2026-11-03 11:55,2026-11-03 13:43,prudente,MAMESUKE,tendance,trailing-stop,1.8,46.06,71,106037,13.58,24.3,1.407,0.55,3.38,6.93,30.7,0
 2026-11-03 01:05,2026-11-03 13:44,hasard,MAMESUKE,boost+tendance,trailing-stop,12.65,84.99,43,77983,10.6,13.5,0.442,0.518,-4.58,8.16,-43.81,1
+2026-11-03 13:53,2026-11-03 13:59,prudente,Slingoor,tendance,stop-loss (-20%),0.1,-21.07,77,39400,5.22,22.7,1.485,0.655,-14.2,59.09,1074,0
