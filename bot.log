@@ -5507,3 +5507,71 @@ agressive    73821.82$ +7282.2% +74001.52$17457874.06$   65/244     5
 hasard      115857.56$+11485.8%+116476.64$12368402.04$  123/326     5
 apprentie      815.19$   -18.5%   -184.81$   87.07$  106/136     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 191 — 2026-11-03 21:31:13 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  92 tokens trouvés, analyse en cours…
+  16 retenus / 91 ; rejets : liquidité faible ×58, trop récent ×45, volume faible ×39, trop ancien ×13, FDV/liquidité trop élevé ×2, RugCheck: Creator history of rugged tokens ×1, RugCheck: liquidité non verrouillée ×1, RugCheck: top 10 détient 43% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       842.71$   -15.7%   -157.16$   43.71$  196/165     1
+actuelle    159361.19$+15836.1%+158911.46$12512072.47$  124/284     3
+agressive    73855.13$ +7285.5% +74001.52$17457874.06$   65/244     5
+hasard      115986.29$+11498.6%+116476.64$12368402.04$  123/326     5
+apprentie      815.19$   -18.5%   -184.81$   87.07$  106/136     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 192 — 2026-11-03 21:32:13 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  92 tokens trouvés, analyse en cours…
+  16 retenus / 91 ; rejets : liquidité faible ×58, trop récent ×44, volume faible ×39, trop ancien ×13, FDV/liquidité trop élevé ×2, RugCheck: Creator history of rugged tokens ×1, RugCheck: liquidité non verrouillée ×1, RugCheck: top 10 détient 43% ×1, aucune vente ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       842.52$   -15.7%   -157.16$   43.71$  196/165     1
+actuelle    159219.90$+15822.0%+158911.46$12512072.47$  124/284     3
+agressive    73829.14$ +7282.9% +74001.52$17457874.06$   65/244     5
+hasard      115949.01$+11494.9%+116476.64$12368402.04$  123/326     5
+apprentie      815.19$   -18.5%   -184.81$   87.07$  106/136     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 193 — 2026-11-03 21:33:13 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  91 tokens trouvés, analyse en cours…
+  16 retenus / 90 ; rejets : liquidité faible ×57, trop récent ×43, volume faible ×36, trop ancien ×13, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1, RugCheck: liquidité non verrouillée ×1, RugCheck: top 10 détient 43% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       842.71$   -15.7%   -157.16$   43.71$  196/165     1
+actuelle    159182.54$+15818.3%+158911.46$12512072.47$  124/284     3
+agressive    73769.24$ +7276.9% +74001.52$17457874.06$   65/244     5
+hasard      115942.84$+11494.3%+116476.64$12368402.04$  123/326     5
+apprentie      815.19$   -18.5%   -184.81$   87.07$  106/136     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 194 — 2026-11-03 21:34:13 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  92 tokens trouvés, analyse en cours…
+  16 retenus / 91 ; rejets : liquidité faible ×58, trop récent ×44, volume faible ×39, trop ancien ×13, FDV/liquidité trop élevé ×2, RugCheck: Creator history of rugged tokens ×1, RugCheck: liquidité non verrouillée ×1, RugCheck: top 10 détient 43% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       842.69$   -15.7%   -157.16$   43.71$  196/165     1
+actuelle    159097.36$+15809.7%+158911.46$12512072.47$  124/284     3
+agressive    73693.02$ +7269.3% +74001.52$17457874.06$   65/244     5
+hasard      115873.45$+11487.3%+116476.64$12368402.04$  123/326     5
+apprentie      815.19$   -18.5%   -184.81$   87.07$  106/136     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 195 — 2026-11-03 21:35:13 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  90 tokens trouvés, analyse en cours…
+  16 retenus / 89 ; rejets : liquidité faible ×55, trop récent ×40, volume faible ×36, trop ancien ×15, FDV/liquidité trop élevé ×2, RugCheck: Creator history of rugged tokens ×1, RugCheck: liquidité non verrouillée ×1, RugCheck: top 10 détient 43% ×1
+  [actuelle] VENTE Mag @ 0.0003272$ — 1938.24$ stop-loss (-34%) PnL -1267.73$ coût 9.1%
+  [hasard] VENTE Mag @ 0.0003272$ — 1500.89$ stop-loss (-31%) PnL -826.39$ coût 7.1%
+  [hasard] ACHAT SA @ 0.00062436163$ — 2314.93$ score 43 coût 8.5%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       842.55$   -15.7%   -157.16$   43.71$  196/165     1
+actuelle    158941.24$+15794.1%+157643.73$12512266.09$  124/285     2
+agressive    73477.28$ +7247.7% +74001.52$17457874.06$   65/244     5
+hasard      115397.32$+11439.7%+115650.25$12368698.00$  123/327     5
+apprentie      815.19$   -18.5%   -184.81$   87.07$  106/136     0
+(argent fictif — valeur nette si tout était revendu maintenant)
