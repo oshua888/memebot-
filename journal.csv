@@ -3238,3 +3238,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 15:07:45,actuelle,VENTE,MOGMAS,0.0001001,1709.76,stop-loss (-37%) PnL -1583.58$ coût 17.4%
 2026-11-03 15:16:43,hasard,VENTE,FOBET,0.0003491,2376.42,durée max 12h PnL -138.16$ coût 12.4%
 2026-11-03 15:16:43,hasard,ACHAT,MAMESUKE,0.002134888962,2518.18,score 56 coût 4.9%
+2026-11-03 15:25:45,prudente,ACHAT,MAMESUKE,0.002102079634,8.41,score 70 coût 1.0%
