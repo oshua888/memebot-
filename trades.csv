@@ -1524,3 +1524,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-03 18:42,2026-11-03 22:05,agressive,MEOWNERO,profil,trailing-stop,3.38,43.2,53,36505,5.53,2.1,0.857,0.614,23.45,57.51,411,0
 2026-11-03 21:22,2026-11-03 22:11,prudente,ANONVOYAGE,boost,stop-loss (-25%),0.82,-25.47,70,133784,18.08,7.7,0.824,0.598,-0.85,7.95,38.8,1
 2026-11-03 15:16,2026-11-03 22:11,hasard,MAMESUKE,tendance,stop-loss (-31%),6.91,-33.68,56,128855,15.8,27.7,0.571,0.641,0.32,-1.47,89.9,0
+2026-11-03 21:50,2026-11-03 22:25,agressive,WOOP,boost,stop-loss (-44%),0.58,-50.37,53,31381,4.53,33.9,0.594,0.629,-4.18,15.09,-32.47,1
