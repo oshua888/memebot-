@@ -3302,3 +3302,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 23:08:25,agressive,VENTE,NETWORK,0.0001312,1621.77,durée max 24h PnL -1116.73$ coût 13.2%
 2026-11-03 23:23:25,prudente,ACHAT,Ahsoka,0.0009940325503,8.41,score 70 coût 1.0%
 2026-11-03 23:29:25,prudente,VENTE,Ahsoka,0.0007601,6.36,stop-loss (-24%) PnL -2.04$ coût 1.0%
+2026-11-03 23:33:26,actuelle,ACHAT,AMD,0.003182406355,3149.57,score 68 coût 4.5%
+2026-11-03 23:33:26,agressive,ACHAT,AMD,0.00314837475,2137.88,score 68 coût 3.4%
+2026-11-03 23:33:26,hasard,ACHAT,AMD,0.00315301823,2275.92,score 68 coût 3.5%
