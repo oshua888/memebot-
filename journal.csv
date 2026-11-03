@@ -3178,3 +3178,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 06:31:00,agressive,VENTE,TrumpWars,0.0001022,1259.80,stop-loss (-42%) PnL -1205.47$ coût 12.4%
 2026-11-03 06:31:00,agressive,ACHAT,SPHERE,0.001018097028,2426.98,score 50 coût 7.0%
 2026-11-03 06:40:00,prudente,ACHAT,RICO,0.0005079737286,8.42,score 70 coût 1.0%
+2026-11-03 06:50:00,hasard,VENTE,MAMESUKE,0.00134,1211.45,palier +50% PnL +379.45$ coût 3.5%
