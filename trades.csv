@@ -1462,3 +1462,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-03 03:34,2026-11-03 04:16,prudente,WIF,profil,trailing-stop,0.68,69.64,75,29465,4.64,49.0,1.858,0.597,-13.43,15.15,2731,0
 2026-11-03 03:17,2026-11-03 04:40,hasard,WIF,profil,trailing-stop,1.37,57.2,71,29193,4.61,48.7,1.617,0.59,17.24,20.66,2684,0
 2026-11-03 02:36,2026-11-03 04:49,agressive,WIF,profil,trailing-stop,2.2,57.58,60,26802,4.29,48.1,2.315,0.581,24.28,99.56,2277,0
+2026-11-02 21:08,2026-11-03 05:09,prudente,FLOAT,tendance,durée max 8h,8.01,-4.49,82,382474,9.62,118.9,2.02,0.587,-5.25,48.76,177,0
