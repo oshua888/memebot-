@@ -3114,3 +3114,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 00:34:34,agressive,VENTE,HEDGE,0.0001078,1474.00,stop-loss (-43%) PnL -1268.29$ coût 5.6%
 2026-11-03 00:34:34,agressive,ACHAT,MOVEMBER,0.0005300705705,2626.21,score 54 coût 9.9%
 2026-11-03 00:40:34,prudente,VENTE,MOVEMBER,0.0004068,3.31,trailing-stop PnL +1.19$ coût 1.0%
+2026-11-03 00:45:34,actuelle,VENTE,MOVEMBER,0.0003658,2633.37,trailing-stop PnL +128.41$ coût 12.8%
+2026-11-03 00:45:34,actuelle,ACHAT,MOVEMBER,0.0004215413801,3655.21,score 69 coût 15.2%
