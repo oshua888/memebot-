@@ -3159,3 +3159,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 03:51:58,apprentie,VENTE,WIF,0.0002763,25.52,palier +50% PnL +9.68$ coût 1.1%
 2026-11-03 03:53:58,actuelle,ACHAT,STEALTH,0.0001622891933,3512.51,score 61 coût 22.7%
 2026-11-03 04:00:58,actuelle,ACHAT,SMUGLY,0.0005400922169,3488.39,score 63 coût 13.5%
+2026-11-03 04:04:59,agressive,VENTE,WIF,0.0003413,1789.97,palier +100% PnL +943.88$ coût 9.5%
+2026-11-03 04:04:59,hasard,VENTE,WIF,0.0003413,1560.98,palier +100% PnL +722.02$ coût 8.3%
+2026-11-03 04:06:59,actuelle,VENTE,SMUGLY,0.0003776,2173.78,stop-loss (-30%) PnL -1314.61$ coût 10.9%
