@@ -3462,3 +3462,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 20:55:00,actuelle,VENTE,TrumpWars,0.0002167,1830.70,stop-loss (-32%) PnL -1229.71$ coût 11.7%
 2026-11-04 20:55:00,agressive,VENTE,ARNOLD,8.53e-05,1049.60,stop-loss (-44%) PnL -1012.00$ coût 9.7%
 2026-11-04 20:55:00,apprentie,ACHAT,GHOST,0.0001913635113,16.21,score 27 coût 1.1%
+2026-11-04 21:10:59,agressive,VENTE,Mag,6.962e-05,1020.95,stop-loss (-43%) PnL -954.57$ coût 9.9%
+2026-11-04 21:14:01,actuelle,ACHAT,HIGH,0.001044892531,2981.47,score 65 coût 9.0%
+2026-11-04 21:14:01,agressive,ACHAT,HIGH,0.001017504749,1921.14,score 65 coût 6.2%
