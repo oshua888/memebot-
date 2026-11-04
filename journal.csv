@@ -3331,3 +3331,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 05:56:49,actuelle,VENTE,VETO,0.0002456,1408.82,stop-loss (-50%) PnL -1661.72$ coût 7.5%
 2026-11-04 06:05:48,prudente,ACHAT,Link,0.0001187487065,8.36,score 70 coût 1.1%
 2026-11-04 06:05:48,actuelle,ACHAT,Link,0.0001455303245,3047.78,score 70 coût 23.9%
+2026-11-04 06:14:48,prudente,VENTE,Link,0.0001631,5.69,palier +30% PnL +1.50$ coût 1.0%
