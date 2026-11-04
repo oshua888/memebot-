@@ -3500,3 +3500,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 23:15:02,apprentie,VENTE,GTA,0.002886,20.28,palier +25% PnL +3.92$ coût 1.0%
 2026-11-04 23:21:03,actuelle,VENTE,GTA,0.003224,1423.37,palier +50% PnL +448.87$ coût 2.9%
 2026-11-04 23:24:03,prudente,VENTE,GTA,0.003389,3.34,palier +60% PnL +1.23$ coût 1.0%
+2026-11-04 23:30:02,prudente,VENTE,GTA,0.002856,2.81,trailing-stop PnL +0.71$ coût 1.0%
+2026-11-04 23:32:02,prudente,ACHAT,Impeach,0.0006920076614,8.42,score 75 coût 1.0%
+2026-11-04 23:33:02,prudente,ACHAT,GTA,0.003764655233,8.42,score 70 coût 1.0%
