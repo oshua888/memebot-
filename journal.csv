@@ -3332,3 +3332,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 06:05:48,prudente,ACHAT,Link,0.0001187487065,8.36,score 70 coût 1.1%
 2026-11-04 06:05:48,actuelle,ACHAT,Link,0.0001455303245,3047.78,score 70 coût 23.9%
 2026-11-04 06:14:48,prudente,VENTE,Link,0.0001631,5.69,palier +30% PnL +1.50$ coût 1.0%
+2026-11-04 06:18:48,prudente,ACHAT,VETO,0.0003234011327,8.40,score 77 coût 1.0%
+2026-11-04 06:19:48,prudente,VENTE,Link,0.0001549,5.40,trailing-stop PnL +1.22$ coût 1.0%
+2026-11-04 06:19:48,prudente,ACHAT,Link,0.0001565330548,8.39,score 75 coût 1.1%
+2026-11-04 06:20:49,actuelle,ACHAT,CHICKPOT,0.001124405317,3030.83,score 67 coût 8.3%
