@@ -3329,3 +3329,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 04:17:53,actuelle,VENTE,STONKS,0.0006642,2072.57,stop-loss (-31%) PnL -1044.32$ coût 3.4%
 2026-11-04 04:46:53,actuelle,ACHAT,VETO,0.0004950372948,3070.53,score 60 coût 10.7%
 2026-11-04 05:56:49,actuelle,VENTE,VETO,0.0002456,1408.82,stop-loss (-50%) PnL -1661.72$ coût 7.5%
+2026-11-04 06:05:48,prudente,ACHAT,Link,0.0001187487065,8.36,score 70 coût 1.1%
+2026-11-04 06:05:48,actuelle,ACHAT,Link,0.0001455303245,3047.78,score 70 coût 23.9%
