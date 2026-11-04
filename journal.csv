@@ -3424,3 +3424,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 17:39:00,hasard,ACHAT,TrumpWars,0.0003669049045,2167.10,score 63 coût 9.9%
 2026-11-04 17:42:00,prudente,VENTE,AMD,0.0007425,4.70,trailing-stop PnL +0.49$ coût 1.0%
 2026-11-04 17:44:00,actuelle,ACHAT,CAPY,0.000481628654,3003.50,score 60 coût 5.4%
+2026-11-04 18:16:00,hasard,VENTE,TrumpWars,0.0002538,1377.47,stop-loss (-31%) PnL -789.63$ coût 8.1%
+2026-11-04 18:16:00,hasard,ACHAT,JOB,0.003358886578,2150.15,score 35 coût 3.5%
