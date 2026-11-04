@@ -3312,3 +3312,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 00:06:51,hasard,ACHAT,STONKS,0.0007492719593,2248.92,score 56 coût 3.4%
 2026-11-04 00:17:51,agressive,ACHAT,MAMESUKE,0.001465067292,2116.29,score 50 coût 4.8%
 2026-11-04 00:25:51,agressive,VENTE,AMD,0.00187,1234.25,stop-loss (-41%) PnL -903.63$ coût 2.8%
+2026-11-04 00:31:51,actuelle,VENTE,ANONVOYAGE,0.001502,2093.04,stop-loss (-30%) PnL -1071.36$ coût 5.2%
+2026-11-04 00:31:51,hasard,VENTE,ANONVOYAGE,0.001502,1528.98,stop-loss (-30%) PnL -756.17$ coût 4.0%
+2026-11-04 00:31:51,hasard,ACHAT,WASTED,0.0009381423998,2249.84,score 23 coût 6.0%
