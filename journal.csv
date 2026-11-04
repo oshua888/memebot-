@@ -3413,3 +3413,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 16:04:01,actuelle,VENTE,BINGUS,2.804e-05,1745.95,stop-loss (-33%) PnL -1218.77$ coût 12.1%
 2026-11-04 16:06:06,hasard,VENTE,CAPY,0.0003216,1425.49,stop-loss (-32%) PnL -760.31$ coût 3.6%
 2026-11-04 16:06:06,hasard,ACHAT,AMD,0.0006726224779,2167.11,score 71 coût 7.6%
+2026-11-04 16:09:01,prudente,VENTE,STONKS,0.0008206,5.89,stop-loss (-29%) PnL -2.48$ coût 1.0%
