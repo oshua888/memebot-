@@ -3496,3 +3496,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 22:42:01,prudente,VENTE,AMD,0.0006349,6.50,stop-loss (-22%) PnL -1.90$ coût 1.0%
 2026-11-04 22:55:01,apprentie,VENTE,DESSA,0.02079,22.58,palier +25% PnL +6.43$ coût 1.0%
 2026-11-04 23:01:01,prudente,VENTE,GTA,0.00275,5.41,palier +30% PnL +1.21$ coût 1.0%
+2026-11-04 23:08:02,actuelle,ACHAT,5STAR,0.0001472024166,2954.84,score 67 coût 22.3%
