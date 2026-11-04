@@ -3354,3 +3354,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 09:35:47,hasard,ACHAT,CHILLCATS,0.000169171907,2222.40,score 58 coût 14.8%
 2026-11-04 09:40:47,hasard,VENTE,CHILLCATS,0.0001111,1291.09,stop-loss (-34%) PnL -931.31$ coût 11.5%
 2026-11-04 09:40:47,hasard,ACHAT,VI,0.0008228250591,2202.05,score 80 coût 7.1%
+2026-11-04 09:46:47,agressive,VENTE,MEOWNERO,0.0002031,1191.51,stop-loss (-41%) PnL -1004.79$ coût 7.9%
+2026-11-04 09:46:47,agressive,ACHAT,VI,0.0009658236523,2043.88,score 79 coût 6.2%
