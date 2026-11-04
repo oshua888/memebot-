@@ -3380,3 +3380,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 14:54:01,actuelle,VENTE,RAMBO,0.00161,1481.27,palier +50% PnL +489.30$ coût 3.9%
 2026-11-04 14:57:01,prudente,ACHAT,STONKS,0.001154507113,8.37,score 70 coût 1.0%
 2026-11-04 15:06:00,prudente,VENTE,RAMBO,0.001843,3.51,palier +60% PnL +1.42$ coût 1.0%
+2026-11-04 15:09:01,actuelle,VENTE,RICO,0.0006641,1473.42,palier +50% PnL +481.26$ coût 5.3%
+2026-11-04 15:09:01,actuelle,VENTE,RAMBO,0.002244,2084.61,palier +100% PnL +1077.61$ coût 4.4%
