@@ -3373,3 +3373,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 14:25:01,prudente,ACHAT,VI,0.0008946449656,8.35,score 70 coût 1.0%
 2026-11-04 14:39:01,actuelle,ACHAT,RAMBO,0.001036292581,3005.98,score 65 coût 8.4%
 2026-11-04 14:43:02,prudente,ACHAT,RAMBO,0.001085958801,8.35,score 70 coût 1.0%
+2026-11-04 14:47:02,prudente,VENTE,RAMBO,0.001437,5.47,palier +30% PnL +1.29$ coût 1.0%
