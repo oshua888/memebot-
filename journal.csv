@@ -3307,3 +3307,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-03 23:33:26,hasard,ACHAT,AMD,0.00315301823,2275.92,score 68 coût 3.5%
 2026-11-03 23:45:51,hasard,ACHAT,MEMECOIN,0.0002056844075,2271.51,score 32 coût 14.5%
 2026-11-04 00:04:51,agressive,ACHAT,STONKS,0.0008571815702,2139.70,score 53 coût 3.1%
+2026-11-04 00:06:51,actuelle,VENTE,AMD,0.002178,2073.57,stop-loss (-32%) PnL -1076.00$ coût 3.8%
+2026-11-04 00:06:51,hasard,VENTE,AMD,0.002178,1524.28,stop-loss (-31%) PnL -751.64$ coût 3.0%
+2026-11-04 00:06:51,hasard,ACHAT,STONKS,0.0007492719593,2248.92,score 56 coût 3.4%
