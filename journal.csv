@@ -3426,3 +3426,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 17:44:00,actuelle,ACHAT,CAPY,0.000481628654,3003.50,score 60 coût 5.4%
 2026-11-04 18:16:00,hasard,VENTE,TrumpWars,0.0002538,1377.47,stop-loss (-31%) PnL -789.63$ coût 8.1%
 2026-11-04 18:16:00,hasard,ACHAT,JOB,0.003358886578,2150.15,score 35 coût 3.5%
+2026-11-04 18:20:00,actuelle,VENTE,RICO,0.0004231,1882.74,stop-loss (-32%) PnL -1154.85$ coût 8.2%

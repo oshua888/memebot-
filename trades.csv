@@ -1577,3 +1577,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-04 15:36,2026-11-04 17:39,hasard,RAMBO,profil,trailing-stop,2.05,84.31,74,148654,19.91,24.8,3.755,0.627,6.04,248,248,0
 2026-11-04 15:57,2026-11-04 17:42,prudente,AMD,profil,trailing-stop,1.75,20.49,70,66550,9.71,3.7,1.347,0.969,6.19,32.31,1233,0
 2026-11-04 17:39,2026-11-04 18:16,hasard,TrumpWars,boost,stop-loss (-31%),0.62,-36.44,63,48603,6.7,63.3,0.691,0.604,-0.57,20.84,255,1
+2026-11-04 15:45,2026-11-04 18:20,actuelle,RICO,boost+tendance,stop-loss (-32%),2.58,-38.02,69,66073,7.67,47.3,1.352,0.571,14.05,5,66.86,1
