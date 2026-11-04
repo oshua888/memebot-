@@ -3445,3 +3445,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 19:13:00,prudente,ACHAT,AMD,0.0008124245172,8.41,score 87 coût 1.0%
 2026-11-04 19:13:00,actuelle,ACHAT,AMD,0.0008769214567,2979.10,score 87 coût 9.0%
 2026-11-04 19:13:00,hasard,ACHAT,AMD,0.0008583697921,2124.62,score 87 coût 6.7%
+2026-11-04 19:14:01,agressive,VENTE,MAMESUKE,0.0008592,1195.08,stop-loss (-41%) PnL -921.22$ coût 3.7%
+2026-11-04 19:14:01,agressive,ACHAT,AMD,0.0008768531111,1948.46,score 87 coût 6.2%
