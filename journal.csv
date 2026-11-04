@@ -3435,3 +3435,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 18:37:59,actuelle,ACHAT,FLOAT,0.004162100694,2997.26,score 71 coût 2.4%
 2026-11-04 18:44:59,prudente,VENTE,FLOAT,0.00317,6.44,stop-loss (-23%) PnL -1.98$ coût 1.0%
 2026-11-04 18:46:59,hasard,VENTE,CATPAD,0.0001295,1320.77,stop-loss (-31%) PnL -841.15$ coût 11.1%
+2026-11-04 18:49:59,hasard,ACHAT,HIGH/ER,0.0002697998996,2134.61,score 58 coût 11.3%
+2026-11-04 18:51:00,actuelle,VENTE,AMD,0.001067,1524.61,palier +50% PnL +522.82$ coût 4.7%
+2026-11-04 18:51:00,hasard,VENTE,AMD,0.001067,1093.05,palier +50% PnL +377.91$ coût 3.6%
