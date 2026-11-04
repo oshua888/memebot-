@@ -3403,3 +3403,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 15:47:03,hasard,ACHAT,LEOMAN,0.0001547853395,2147.43,score 46 coût 15.6%
 2026-11-04 15:50:02,prudente,VENTE,RAMBO,0.004207,3.34,palier +60% PnL +1.24$ coût 1.0%
 2026-11-04 15:52:03,actuelle,ACHAT,AMD,0.0006678831588,3035.72,score 68 coût 10.5%
+2026-11-04 15:57:03,prudente,VENTE,RAMBO,0.003828,3.04,trailing-stop PnL +0.94$ coût 1.0%
+2026-11-04 15:57:03,prudente,ACHAT,AMD,0.0006588873197,8.43,score 70 coût 1.0%
+2026-11-04 15:57:03,hasard,VENTE,LEOMAN,0.0003077,1307.23,palier +50% PnL +598.58$ coût 7.2%
