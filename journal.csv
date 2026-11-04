@@ -3371,3 +3371,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 14:20:00,hasard,ACHAT,RAM,0.0004714331252,2183.47,score 42 coût 7.5%
 2026-11-04 14:22:00,actuelle,ACHAT,VI,0.0009693938929,3008.86,score 69 coût 8.7%
 2026-11-04 14:25:01,prudente,ACHAT,VI,0.0008946449656,8.35,score 70 coût 1.0%
+2026-11-04 14:39:01,actuelle,ACHAT,RAMBO,0.001036292581,3005.98,score 65 coût 8.4%
+2026-11-04 14:43:02,prudente,ACHAT,RAMBO,0.001085958801,8.35,score 70 coût 1.0%
