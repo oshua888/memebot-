@@ -3456,3 +3456,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 19:24:01,hasard,ACHAT,DESSA,0.01470581702,2125.73,score 34 coût 2.2%
 2026-11-04 19:28:02,agressive,VENTE,RICO,0.0002641,1156.83,stop-loss (-41%) PnL -959.84$ coût 6.6%
 2026-11-04 19:28:02,agressive,ACHAT,JOB,0.004170087994,1927.80,score 60 coût 3.0%
+2026-11-04 19:33:03,apprentie,VENTE,VI,0.0004763,12.04,stop-loss (-25%) PnL -4.24$ coût 1.0%
+2026-11-04 19:33:03,apprentie,ACHAT,DESSA,0.01471701312,16.15,score 34 coût 1.0%
