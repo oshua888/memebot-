@@ -3376,3 +3376,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 14:47:02,prudente,VENTE,RAMBO,0.001437,5.47,palier +30% PnL +1.29$ coût 1.0%
 2026-11-04 14:50:01,hasard,VENTE,VETO,0.0002406,1338.38,stop-loss (-34%) PnL -866.84$ coût 8.4%
 2026-11-04 14:50:01,hasard,ACHAT,CAPY,0.0004755156981,2185.80,score 27 coût 4.2%
+2026-11-04 14:54:01,actuelle,VENTE,MAMESUKE,0.001275,2045.30,stop-loss (-31%) PnL -1062.33$ coût 4.9%
+2026-11-04 14:54:01,actuelle,VENTE,RAMBO,0.00161,1481.27,palier +50% PnL +489.30$ coût 3.9%
+2026-11-04 14:57:01,prudente,ACHAT,STONKS,0.001154507113,8.37,score 70 coût 1.0%
