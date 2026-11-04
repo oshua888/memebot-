@@ -3493,3 +3493,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 22:26:02,prudente,ACHAT,GTA,0.002113210039,8.41,score 82 coût 1.0%
 2026-11-04 22:37:01,apprentie,VENTE,GHOST,0.0002952,24.74,palier +50% PnL +8.52$ coût 1.1%
 2026-11-04 22:37:01,apprentie,ACHAT,GTA,0.002304398452,16.36,score 83 coût 1.0%
+2026-11-04 22:42:01,prudente,VENTE,AMD,0.0006349,6.50,stop-loss (-22%) PnL -1.90$ coût 1.0%
