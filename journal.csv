@@ -3477,3 +3477,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 21:47:59,hasard,VENTE,STONKS,0.0006213,1463.42,stop-loss (-31%) PnL -722.64$ coût 2.7%
 2026-11-04 21:57:00,hasard,VENTE,JOB,0.003398,1418.90,trailing-stop PnL -21.70$ coût 2.6%
 2026-11-04 21:58:59,hasard,ACHAT,GHOST,0.0002557883692,2119.73,score 39 coût 11.6%
+2026-11-04 22:00:59,hasard,ACHAT,JOB,0.003754858153,2108.21,score 39 coût 3.3%
+2026-11-04 22:03:02,actuelle,ACHAT,HIGH,0.00398650716,3002.96,score 68 coût 4.8%
+2026-11-04 22:03:02,actuelle,ACHAT,higher,0.0002793126939,2997.53,score 60 coût 15.3%
+2026-11-04 22:03:02,agressive,ACHAT,HIGH,0.003933889664,1916.82,score 68 coût 3.4%
+2026-11-04 22:03:02,hasard,VENTE,RICO,0.0002537,1350.20,stop-loss (-32%) PnL -797.72$ coût 7.7%
+2026-11-04 22:03:02,hasard,ACHAT,higher,0.0002689837993,2102.43,score 60 coût 11.0%
