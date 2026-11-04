@@ -3472,3 +3472,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 21:22:59,actuelle,VENTE,HIGH,0.002173,1980.31,palier +100% PnL +981.51$ coût 4.7%
 2026-11-04 21:22:59,agressive,VENTE,HIGH,0.002173,1308.08,palier +100% PnL +674.10$ coût 3.4%
 2026-11-04 21:22:59,hasard,VENTE,JOB,0.005081,1052.00,palier +50% PnL +342.45$ coût 2.0%
+2026-11-04 21:33:00,actuelle,VENTE,HIGH,0.001722,1576.66,trailing-stop PnL +577.87$ coût 4.2%
+2026-11-04 21:34:01,agressive,VENTE,HIGH,0.001611,1933.83,trailing-stop PnL +646.67$ coût 5.1%
