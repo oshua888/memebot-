@@ -3345,3 +3345,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 07:07:48,actuelle,VENTE,CHILLCATS,0.0003135,2190.13,trailing-stop PnL +180.32$ coût 11.8%
 2026-11-04 07:07:48,actuelle,ACHAT,CHILLCATS,0.0003575487837,2992.86,score 61 coût 14.1%
 2026-11-04 07:21:48,prudente,ACHAT,CHILLCATS,0.000316647846,8.35,score 76 coût 1.0%
+2026-11-04 07:40:48,prudente,VENTE,CHILLCATS,0.0002387,6.23,stop-loss (-25%) PnL -2.12$ coût 1.0%
+2026-11-04 07:40:48,actuelle,VENTE,CHILLCATS,0.0002387,1779.63,stop-loss (-33%) PnL -1213.23$ coût 10.9%
