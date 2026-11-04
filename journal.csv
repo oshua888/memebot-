@@ -3318,3 +3318,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 00:52:52,agressive,ACHAT,RICO,0.0004514471759,2116.67,score 53 coût 8.8%
 2026-11-04 00:59:52,actuelle,ACHAT,STONKS,0.00096485518,3116.89,score 67 coût 3.9%
 2026-11-04 01:12:52,hasard,VENTE,CHOO,0.00322,1581.15,stop-loss (-31%) PnL -789.04$ coût 2.8%
+2026-11-04 01:33:51,actuelle,VENTE,CHOO,0.003128,2147.85,stop-loss (-30%) PnL -1045.01$ coût 3.5%
