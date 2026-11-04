@@ -3395,3 +3395,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 15:38:01,actuelle,VENTE,RICO,0.000513,2226.63,trailing-stop PnL +212.23$ coût 8.8%
 2026-11-04 15:38:01,actuelle,VENTE,VI,0.0006696,1933.01,stop-loss (-31%) PnL -1075.85$ coût 7.0%
 2026-11-04 15:38:01,actuelle,ACHAT,LEOMAN,0.0001955937808,3040.41,score 60 coût 19.6%
+2026-11-04 15:39:03,actuelle,VENTE,LEOMAN,0.0001223,1624.05,stop-loss (-37%) PnL -1416.36$ coût 14.6%
+2026-11-04 15:42:01,prudente,VENTE,RAMBO,0.003501,5.56,palier +30% PnL +1.36$ coût 1.0%
+2026-11-04 15:42:01,actuelle,VENTE,RAMBO,0.003501,1475.46,palier +50% PnL +469.92$ coût 2.9%
