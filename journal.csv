@@ -3401,3 +3401,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 15:45:01,actuelle,ACHAT,RICO,0.0006263465437,3037.59,score 69 coût 10.2%
 2026-11-04 15:47:03,hasard,VENTE,RAM,0.0002477,1085.00,stop-loss (-47%) PnL -1098.47$ coût 5.4%
 2026-11-04 15:47:03,hasard,ACHAT,LEOMAN,0.0001547853395,2147.43,score 46 coût 15.6%
+2026-11-04 15:50:02,prudente,VENTE,RAMBO,0.004207,3.34,palier +60% PnL +1.24$ coût 1.0%
+2026-11-04 15:52:03,actuelle,ACHAT,AMD,0.0006678831588,3035.72,score 68 coût 10.5%
