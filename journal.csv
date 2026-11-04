@@ -3483,3 +3483,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 22:03:02,agressive,ACHAT,HIGH,0.003933889664,1916.82,score 68 coût 3.4%
 2026-11-04 22:03:02,hasard,VENTE,RICO,0.0002537,1350.20,stop-loss (-32%) PnL -797.72$ coût 7.7%
 2026-11-04 22:03:02,hasard,ACHAT,higher,0.0002689837993,2102.43,score 60 coût 11.0%
+2026-11-04 22:05:00,actuelle,VENTE,higher,0.0001904,1799.14,stop-loss (-32%) PnL -1198.40$ coût 12.0%
+2026-11-04 22:06:00,hasard,VENTE,higher,0.0001819,1296.68,stop-loss (-32%) PnL -805.76$ coût 8.8%
