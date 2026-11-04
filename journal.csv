@@ -3322,3 +3322,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 01:56:51,prudente,ACHAT,AMD,0.001936394841,8.39,score 70 coût 1.0%
 2026-11-04 02:08:51,hasard,ACHAT,ARNOLD,0.0001423107218,2248.27,score 57 coût 15.4%
 2026-11-04 02:36:50,prudente,VENTE,AMD,0.001452,6.23,stop-loss (-25%) PnL -2.16$ coût 1.0%
+2026-11-04 02:41:50,agressive,VENTE,ANONVOYAGE,0.0009004,1122.99,stop-loss (-50%) PnL -1197.36$ coût 3.9%
+2026-11-04 02:41:50,agressive,ACHAT,ARNOLD,0.0001512536246,2061.60,score 58 coût 13.7%
