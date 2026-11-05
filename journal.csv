@@ -3598,3 +3598,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 13:07:15,apprentie,VENTE,CATPAD,0.0002014,21.06,palier +25% PnL +4.51$ coût 1.1%
 2026-11-05 13:19:15,hasard,VENTE,AI,0.0001098,1240.99,stop-loss (-32%) PnL -774.24$ coût 9.7%
 2026-11-05 13:19:15,hasard,ACHAT,Impeach,0.0005224459144,1980.74,score 23 coût 7.4%
+2026-11-05 13:39:16,apprentie,VENTE,AMC,0.0004315,20.64,palier +25% PnL +4.06$ coût 1.1%
+2026-11-05 13:41:16,actuelle,ACHAT,george,0.0002029492531,2832.32,score 67 coût 15.8%
