@@ -3633,3 +3633,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 22:38:43,agressive,ACHAT,COGE,0.003170328805,1646.56,score 50 coût 3.3%
 2026-11-05 22:40:43,actuelle,VENTE,AI,0.0001526,1675.66,stop-loss (-32%) PnL -1109.11$ coût 11.1%
 2026-11-05 22:50:42,actuelle,ACHAT,COGE,0.002979446498,2758.89,score 63 coût 5.0%
+2026-11-05 22:53:42,agressive,VENTE,PHILCOIN,7.918e-05,892.84,stop-loss (-42%) PnL -794.69$ coût 9.2%
+2026-11-05 22:53:42,hasard,VENTE,PHILCOIN,7.918e-05,1135.72,stop-loss (-32%) PnL -756.91$ coût 11.7%
+2026-11-05 22:53:42,hasard,ACHAT,COGE,0.002813913752,1849.62,score 63 coût 3.8%
