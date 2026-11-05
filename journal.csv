@@ -3568,3 +3568,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 09:59:17,hasard,ACHAT,AMD,0.0009824292231,2047.49,score 67 coût 5.0%
 2026-11-05 10:01:17,hasard,VENTE,JOB,0.003538,1923.72,durée max 12h PnL -184.49$ coût 3.2%
 2026-11-05 10:01:17,hasard,ACHAT,HIGH,0.003371133664,2042.36,score 63 coût 3.7%
+2026-11-05 10:05:18,actuelle,VENTE,GTA,0.002106,1970.58,stop-loss (-30%) PnL -975.50$ coût 4.3%
+2026-11-05 10:05:18,hasard,VENTE,GTA,0.002106,1366.35,stop-loss (-31%) PnL -687.48$ coût 3.3%
+2026-11-05 10:05:18,hasard,ACHAT,GAVELDROP,0.0009996681326,2033.44,score 91 coût 5.8%
+2026-11-05 10:06:17,actuelle,VENTE,GAVELDROP,0.001019,1419.14,palier +50% PnL +469.20$ coût 4.3%
