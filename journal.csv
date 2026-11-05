@@ -3614,3 +3614,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 19:07:15,hasard,VENTE,PIRATE,0.0002353,1337.24,stop-loss (-30%) PnL -658.76$ coût 3.9%
 2026-11-05 19:07:15,hasard,ACHAT,Rocco,0.0003493086325,1899.62,score 48 coût 8.4%
 2026-11-05 19:17:14,actuelle,ACHAT,UHI,0.001810571353,2825.64,score 60 coût 6.4%
+2026-11-05 19:22:14,actuelle,VENTE,VETO,0.0006931,2306.19,durée max 12h PnL -520.81$ coût 8.5%
