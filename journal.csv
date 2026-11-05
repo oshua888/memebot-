@@ -3563,3 +3563,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 08:26:18,actuelle,VENTE,Democat,0.0007169,1860.80,stop-loss (-31%) PnL -1010.73$ coût 6.5%
 2026-11-05 09:13:17,actuelle,VENTE,AMD,0.001013,1377.48,palier +50% PnL +442.80$ coût 3.7%
 2026-11-05 09:36:17,actuelle,VENTE,AMD,0.0007826,2112.98,trailing-stop PnL +215.29$ coût 5.8%
+2026-11-05 09:39:17,actuelle,ACHAT,AMD,0.0009061706917,2847.07,score 66 coût 6.9%
