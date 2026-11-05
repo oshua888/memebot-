@@ -3551,3 +3551,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 06:59:33,actuelle,ACHAT,AMD,0.000662002042,2832.36,score 63 coût 7.9%
 2026-11-05 07:00:33,agressive,VENTE,Impeach,0.0004784,1045.91,stop-loss (-41%) PnL -799.10$ coût 4.6%
 2026-11-05 07:00:33,agressive,ACHAT,AMD,0.0006316681795,1794.92,score 62 coût 5.4%
+2026-11-05 07:19:32,apprentie,VENTE,CATPAD,0.0001548,19.22,durée max 12h PnL +2.92$ coût 1.1%
+2026-11-05 07:19:32,apprentie,VENTE,JOB,0.003977,16.07,durée max 12h PnL -0.20$ coût 1.0%
+2026-11-05 07:19:32,apprentie,ACHAT,CATPAD,0.0001565054071,16.55,score 56 coût 1.1%
