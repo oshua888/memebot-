@@ -3564,3 +3564,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 09:13:17,actuelle,VENTE,AMD,0.001013,1377.48,palier +50% PnL +442.80$ coût 3.7%
 2026-11-05 09:36:17,actuelle,VENTE,AMD,0.0007826,2112.98,trailing-stop PnL +215.29$ coût 5.8%
 2026-11-05 09:39:17,actuelle,ACHAT,AMD,0.0009061706917,2847.07,score 66 coût 6.9%
+2026-11-05 09:59:17,hasard,VENTE,GHOST,0.0002561,1892.21,durée max 12h PnL -227.52$ coût 10.8%
+2026-11-05 09:59:17,hasard,ACHAT,AMD,0.0009824292231,2047.49,score 67 coût 5.0%
+2026-11-05 10:01:17,hasard,VENTE,JOB,0.003538,1923.72,durée max 12h PnL -184.49$ coût 3.2%
+2026-11-05 10:01:17,hasard,ACHAT,HIGH,0.003371133664,2042.36,score 63 coût 3.7%
