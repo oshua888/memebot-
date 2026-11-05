@@ -3575,3 +3575,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 10:14:17,hasard,VENTE,MAMESUKE,0.0008728,2071.42,durée max 12h PnL -11.50$ coût 5.8%
 2026-11-05 10:14:17,hasard,ACHAT,Democat,0.0008517289656,2034.83,score 69 coût 6.3%
 2026-11-05 10:17:18,actuelle,VENTE,GAVELDROP,0.00132,1856.64,palier +100% PnL +892.31$ coût 4.8%
+2026-11-05 10:23:17,actuelle,VENTE,GAVELDROP,0.0009553,1351.70,trailing-stop PnL +387.36$ coût 4.3%
+2026-11-05 10:23:17,actuelle,ACHAT,GAVELDROP,0.001028125856,2865.81,score 91 coût 7.6%
