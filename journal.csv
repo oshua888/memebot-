@@ -3521,3 +3521,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 00:43:03,hasard,VENTE,AMD,0.0002151,512.17,stop-loss (-75%) PnL -1612.45$ coût 3.8%
 2026-11-05 00:43:03,hasard,ACHAT,GTA,0.00306264944,2053.82,score 59 coût 3.8%
 2026-11-05 00:59:03,prudente,ACHAT,GAVELDROP,0.0006164575619,8.39,score 70 coût 1.0%
+2026-11-05 01:17:02,actuelle,VENTE,5STAR,9.845e-05,1645.32,stop-loss (-33%) PnL -1309.52$ coût 16.7%
+2026-11-05 01:17:02,actuelle,ACHAT,GAVELDROP,0.000652480219,2878.61,score 72 coût 9.9%
+2026-11-05 01:19:01,prudente,VENTE,Impeach,0.0006679,6.57,stop-loss (-21%) PnL -1.84$ coût 1.0%
