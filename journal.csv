@@ -3581,3 +3581,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 10:28:16,agressive,ACHAT,Democat,0.0009109298931,1819.17,score 71 coût 5.6%
 2026-11-05 10:29:17,apprentie,VENTE,RICO,0.0002744,11.98,stop-loss (-27%) PnL -4.56$ coût 1.1%
 2026-11-05 10:32:16,apprentie,ACHAT,GHOST,0.0002945242389,16.68,score 46 coût 1.1%
+2026-11-05 11:17:16,agressive,VENTE,Democat,0.0005414,1033.17,stop-loss (-41%) PnL -785.99$ coût 4.4%
+2026-11-05 11:17:16,hasard,VENTE,Democat,0.0005414,1227.24,stop-loss (-36%) PnL -807.58$ coût 5.1%
+2026-11-05 11:17:16,hasard,ACHAT,AI,0.0001610180386,2015.23,score 32 coût 12.1%
