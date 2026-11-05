@@ -3577,3 +3577,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 10:17:18,actuelle,VENTE,GAVELDROP,0.00132,1856.64,palier +100% PnL +892.31$ coût 4.8%
 2026-11-05 10:23:17,actuelle,VENTE,GAVELDROP,0.0009553,1351.70,trailing-stop PnL +387.36$ coût 4.3%
 2026-11-05 10:23:17,actuelle,ACHAT,GAVELDROP,0.001028125856,2865.81,score 91 coût 7.6%
+2026-11-05 10:28:16,agressive,VENTE,GTA,0.001963,1047.74,stop-loss (-42%) PnL -825.69$ coût 2.8%
+2026-11-05 10:28:16,agressive,ACHAT,Democat,0.0009109298931,1819.17,score 71 coût 5.6%
