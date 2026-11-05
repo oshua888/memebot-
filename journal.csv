@@ -3533,3 +3533,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 03:51:31,prudente,ACHAT,Democat,0.0008826221725,8.35,score 71 coût 1.0%
 2026-11-05 04:03:32,actuelle,VENTE,CAPY,0.0003367,2003.52,stop-loss (-30%) PnL -999.98$ coût 4.6%
 2026-11-05 04:03:32,actuelle,ACHAT,Democat,0.001033947236,2871.53,score 72 coût 8.0%
+2026-11-05 04:55:31,prudente,VENTE,Democat,0.001178,5.52,palier +30% PnL +1.34$ coût 1.0%
+2026-11-05 04:56:31,prudente,VENTE,PIRATE,0.0003387,6.48,stop-loss (-22%) PnL -1.89$ coût 1.0%
