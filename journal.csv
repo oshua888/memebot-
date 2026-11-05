@@ -3621,3 +3621,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 19:36:12,agressive,VENTE,GAVELDROP,0.0003387,882.01,stop-loss (-49%) PnL -934.22$ coût 4.6%
 2026-11-05 19:38:12,prudente,VENTE,Rocco,0.0002521,6.37,stop-loss (-23%) PnL -1.99$ coût 1.0%
 2026-11-05 19:38:12,actuelle,VENTE,Rocco,0.0002521,1765.97,stop-loss (-31%) PnL -1080.87$ coût 9.7%
+2026-11-05 19:47:12,actuelle,ACHAT,PHILCOIN,0.0001451314241,2813.36,score 60 coût 20.0%
+2026-11-05 19:47:12,agressive,ACHAT,PHILCOIN,0.0001359184292,1687.52,score 60 coût 12.4%
