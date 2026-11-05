@@ -3549,3 +3549,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 06:56:33,prudente,VENTE,LEEROY,0.0002907,4.92,trailing-stop PnL +0.74$ coût 1.0%
 2026-11-05 06:59:33,actuelle,VENTE,PIRATE,0.0003026,1849.24,stop-loss (-33%) PnL -1039.42$ coût 4.5%
 2026-11-05 06:59:33,actuelle,ACHAT,AMD,0.000662002042,2832.36,score 63 coût 7.9%
+2026-11-05 07:00:33,agressive,VENTE,Impeach,0.0004784,1045.91,stop-loss (-41%) PnL -799.10$ coût 4.6%
+2026-11-05 07:00:33,agressive,ACHAT,AMD,0.0006316681795,1794.92,score 62 coût 5.4%
