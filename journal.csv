@@ -3545,3 +3545,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 05:26:32,prudente,ACHAT,LEEROY,0.0002445057223,8.35,score 74 coût 1.0%
 2026-11-05 05:57:33,apprentie,VENTE,CI,0.0001134,12.11,stop-loss (-26%) PnL -4.45$ coût 1.1%
 2026-11-05 06:01:33,apprentie,ACHAT,RICO,0.0003749403722,16.55,score 34 coût 1.1%
+2026-11-05 06:43:33,prudente,VENTE,LEEROY,0.0003438,5.81,palier +30% PnL +1.64$ coût 1.0%
