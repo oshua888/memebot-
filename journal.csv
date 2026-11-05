@@ -3507,3 +3507,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-04 23:56:04,prudente,VENTE,GTA,0.002867,6.35,stop-loss (-24%) PnL -2.07$ coût 1.0%
 2026-11-04 23:56:04,actuelle,VENTE,GTA,0.002867,2523.28,trailing-stop PnL +544.74$ coût 4.7%
 2026-11-04 23:56:04,actuelle,ACHAT,GTA,0.003013633368,2946.08,score 82 coût 5.1%
+2026-11-05 00:05:03,agressive,VENTE,STONKS,0.0005916,1437.41,durée max 24h PnL -702.29$ coût 2.7%
+2026-11-05 00:05:03,agressive,ACHAT,GTA,0.003412412213,1873.43,score 83 coût 3.4%
+2026-11-05 00:06:03,prudente,VENTE,Impeach,0.0009231,5.56,palier +30% PnL +1.35$ coût 1.0%
+2026-11-05 00:06:03,apprentie,VENTE,TrumpWars,0.0002993,20.22,palier +25% PnL +3.93$ coût 1.1%
