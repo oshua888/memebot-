@@ -3540,3 +3540,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 05:15:32,apprentie,ACHAT,MINTED,0.0001567052667,16.57,score 27 coût 1.1%
 2026-11-05 05:19:32,agressive,VENTE,5STAR,8.115e-05,1007.01,stop-loss (-42%) PnL -926.96$ coût 11.0%
 2026-11-05 05:19:32,agressive,ACHAT,GAVELDROP,0.0006651684415,1816.23,score 90 coût 6.4%
+2026-11-05 05:23:32,apprentie,ACHAT,CI,0.0001533709604,16.55,score 47 coût 1.1%
+2026-11-05 05:24:32,prudente,ACHAT,Democat,0.0009705016295,8.36,score 72 coût 1.0%
