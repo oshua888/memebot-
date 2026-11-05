@@ -3606,3 +3606,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 16:50:18,hasard,VENTE,Impeach,0.0003167,1129.57,stop-loss (-39%) PnL -851.18$ coût 5.9%
 2026-11-05 16:50:18,hasard,ACHAT,RAM,8.297401739e-05,1927.12,score 26 coût 15.4%
 2026-11-05 17:16:16,apprentie,VENTE,MINTED,0.0001545,16.16,durée max 12h PnL -0.41$ coût 1.1%
+2026-11-05 17:54:16,actuelle,VENTE,george,0.0002888,2379.99,trailing-stop PnL +482.34$ coût 11.9%
+2026-11-05 17:55:16,actuelle,ACHAT,Rocco,0.0003671252164,2846.84,score 60 coût 12.1%
