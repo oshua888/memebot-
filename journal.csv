@@ -3511,3 +3511,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 00:05:03,agressive,ACHAT,GTA,0.003412412213,1873.43,score 83 coût 3.4%
 2026-11-05 00:06:03,prudente,VENTE,Impeach,0.0009231,5.56,palier +30% PnL +1.35$ coût 1.0%
 2026-11-05 00:06:03,apprentie,VENTE,TrumpWars,0.0002993,20.22,palier +25% PnL +3.93$ coût 1.1%
+2026-11-05 00:35:03,prudente,VENTE,Impeach,0.0008375,5.04,trailing-stop PnL +0.83$ coût 1.0%
+2026-11-05 00:35:03,prudente,ACHAT,Impeach,0.0008460476996,8.41,score 73 coût 1.0%
+2026-11-05 00:39:04,prudente,VENTE,HIGH,0.001977,6.16,stop-loss (-26%) PnL -2.26$ coût 1.0%
