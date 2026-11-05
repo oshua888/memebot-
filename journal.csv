@@ -3637,3 +3637,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 22:53:42,hasard,VENTE,PHILCOIN,7.918e-05,1135.72,stop-loss (-32%) PnL -756.91$ coût 11.7%
 2026-11-05 22:53:42,hasard,ACHAT,COGE,0.002813913752,1849.62,score 63 coût 3.8%
 2026-11-05 23:35:43,agressive,ACHAT,ZELDA,0.0001071542653,1642.22,score 51 coût 14.0%
+2026-11-05 23:43:42,agressive,VENTE,PIRATE,0.000214,991.63,stop-loss (-41%) PnL -742.06$ coût 3.3%
