@@ -3596,3 +3596,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 12:39:15,agressive,VENTE,MOSQUE,6.397e-05,719.30,stop-loss (-56%) PnL -1067.98$ coût 8.6%
 2026-11-05 12:39:15,agressive,ACHAT,PIRATE,0.0003618675783,1733.69,score 51 coût 3.9%
 2026-11-05 13:07:15,apprentie,VENTE,CATPAD,0.0002014,21.06,palier +25% PnL +4.51$ coût 1.1%
+2026-11-05 13:19:15,hasard,VENTE,AI,0.0001098,1240.99,stop-loss (-32%) PnL -774.24$ coût 9.7%
+2026-11-05 13:19:15,hasard,ACHAT,Impeach,0.0005224459144,1980.74,score 23 coût 7.4%
