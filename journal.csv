@@ -3603,3 +3603,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 16:43:16,actuelle,VENTE,george,0.0003723,1593.96,palier +50% PnL +659.30$ coût 7.0%
 2026-11-05 16:43:16,hasard,VENTE,HIGH,0.002279,1336.35,stop-loss (-32%) PnL -706.01$ coût 3.2%
 2026-11-05 16:43:16,hasard,ACHAT,george,0.000401507112,1944.54,score 68 coût 7.8%
+2026-11-05 16:50:18,hasard,VENTE,Impeach,0.0003167,1129.57,stop-loss (-39%) PnL -851.18$ coût 5.9%
+2026-11-05 16:50:18,hasard,ACHAT,RAM,8.297401739e-05,1927.12,score 26 coût 15.4%
