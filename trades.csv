@@ -1730,3 +1730,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-06 11:26,2026-11-06 12:54,hasard,Diamond,tendance,trailing-stop,1.47,19.82,33,51724,5.27,10.9,0.311,0.5,2.8,-21.69,14.75,0
 2026-11-06 06:04,2026-11-06 13:17,apprentie,AMD,boost,palier +25%,7.21,38.66,34,120202,17.53,3.6,5.185,0.519,27.03,155,5290,1
 2026-11-06 12:23,2026-11-06 13:18,prudente,AMD,boost,trailing-stop,0.92,33.46,70,119466,16.84,9.9,0.885,0.603,6.33,14.28,0.42,1
+2026-11-06 12:55,2026-11-06 13:40,prudente,Diamond,tendance,trailing-stop,0.75,27.51,70,57240,5.69,12.4,0.72,0.671,-11.99,21.31,9.93,0
