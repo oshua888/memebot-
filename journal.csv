@@ -3702,3 +3702,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 06:16:44,actuelle,VENTE,RETIRE,0.0002953,1835.91,trailing-stop PnL +43.11$ coût 10.6%
 2026-11-06 06:20:45,actuelle,ACHAT,RETIRE,0.000344248271,2675.81,score 70 coût 13.4%
 2026-11-06 06:22:45,actuelle,ACHAT,Bill,0.0001281440799,2664.20,score 64 coût 21.8%
+2026-11-06 06:27:44,agressive,VENTE,RETIRE,0.0002452,1408.00,trailing-stop PnL +276.79$ coût 9.0%
+2026-11-06 06:27:44,agressive,ACHAT,RETIRE,0.0002691307424,1701.90,score 70 coût 9.8%
