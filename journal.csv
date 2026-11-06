@@ -3778,3 +3778,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 14:33:29,actuelle,ACHAT,NIG,0.0001399296903,2548.91,score 64 coût 19.9%
 2026-11-06 14:35:29,actuelle,VENTE,AMD,0.002254,1900.72,trailing-stop PnL +179.74$ coût 4.1%
 2026-11-06 14:35:29,actuelle,ACHAT,AMD,0.002366786124,2529.55,score 60 coût 5.0%
+2026-11-06 14:40:28,actuelle,VENTE,NIG,9.507e-05,1466.52,stop-loss (-32%) PnL -1082.40$ coût 15.3%
