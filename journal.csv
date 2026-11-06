@@ -3798,3 +3798,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 16:44:28,prudente,VENTE,Diamond,0.000933,4.86,trailing-stop PnL +0.62$ coût 1.0%
 2026-11-06 16:44:28,prudente,ACHAT,Diamond,0.0009424913125,8.50,score 81 coût 1.0%
 2026-11-06 16:44:28,actuelle,VENTE,WEALTH,0.000266,1816.30,trailing-stop PnL +116.63$ coût 10.5%
+2026-11-06 18:19:15,actuelle,ACHAT,ROCCO,0.0006676892366,2539.37,score 61 coût 9.2%
+2026-11-06 18:19:15,hasard,VENTE,AMD,0.00247,1447.94,trailing-stop PnL +224.68$ coût 3.2%
+2026-11-06 18:19:15,hasard,ACHAT,PODCAT,0.0002986828601,1827.84,score 27 coût 8.4%
+2026-11-06 18:19:15,apprentie,ACHAT,ROCCO,0.0006179611633,17.55,score 61 coût 1.1%
+2026-11-06 18:21:15,agressive,VENTE,HIGH,0.0008782,712.33,stop-loss (-54%) PnL -890.53$ coût 2.9%
+2026-11-06 18:21:15,agressive,ACHAT,ROCCO,0.0006896500164,1652.31,score 60 coût 6.2%
