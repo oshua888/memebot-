@@ -3817,3 +3817,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 18:58:16,prudente,VENTE,Diamond,0.00108,4.82,trailing-stop PnL +0.57$ coût 1.0%
 2026-11-06 19:01:15,apprentie,ACHAT,PODCAT,0.0002713786952,17.58,score 23 coût 1.1%
 2026-11-06 19:22:15,actuelle,ACHAT,0DAY,0.0006397461624,2521.25,score 60 coût 9.3%
+2026-11-06 19:44:15,hasard,VENTE,COGE,0.005259,866.61,palier +50% PnL +284.17$ coût 1.9%
+2026-11-06 19:44:15,apprentie,VENTE,COGE,0.005259,21.45,palier +25% PnL +4.32$ coût 1.0%
+2026-11-06 19:45:16,apprentie,ACHAT,COGE,0.00531558597,17.58,score 73 coût 1.0%
