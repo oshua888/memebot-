@@ -4991,3 +4991,69 @@ agressive    53013.73$ +5201.4% +52549.04$17466340.88$   76/276     5
 hasard       88701.21$ +8770.1% +88310.66$12384664.78$  140/376     5
 apprentie      857.48$   -14.3%   -138.00$   95.88$  119/145     3
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 151 — 2026-11-06 13:56:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  82 tokens trouvés, analyse en cours…
+  9 retenus / 79 ; rejets : liquidité faible ×54, volume faible ×39, trop récent ×34, trop ancien ×20, FDV/liquidité trop élevé ×9
+  [prudente] VENTE WEALTH @ 0.0002502$ — 5.31$ trailing-stop PnL +1.12$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       844.75$   -15.5%   -155.00$   49.63$  230/183     2
+actuelle    127164.31$+12616.4%+126006.90$12542635.83$  161/331     3
+agressive    53086.37$ +5208.6% +52549.04$17466340.88$   76/276     5
+hasard       88804.26$ +8780.4% +88310.66$12384664.78$  140/376     5
+apprentie      858.55$   -14.1%   -138.00$   95.88$  119/145     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 152 — 2026-11-06 13:57:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  9 retenus / 80 ; rejets : liquidité faible ×54, volume faible ×40, trop récent ×36, trop ancien ×19, FDV/liquidité trop élevé ×7
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       844.50$   -15.5%   -155.00$   49.63$  230/183     2
+actuelle    127150.26$+12615.0%+126006.90$12542635.83$  161/331     3
+agressive    53578.32$ +5257.8% +52549.04$17466340.88$   76/276     5
+hasard       89156.62$ +8815.7% +88310.66$12384664.78$  140/376     5
+apprentie      858.09$   -14.2%   -138.00$   95.88$  119/145     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 153 — 2026-11-06 13:58:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  9 retenus / 82 ; rejets : liquidité faible ×57, volume faible ×42, trop récent ×37, trop ancien ×20, FDV/liquidité trop élevé ×6
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       844.01$   -15.6%   -155.00$   49.63$  230/183     2
+actuelle    126961.42$+12596.1%+126006.90$12542635.83$  161/331     3
+agressive    53401.50$ +5240.1% +52549.04$17466340.88$   76/276     5
+hasard       88985.65$ +8798.6% +88310.66$12384664.78$  140/376     5
+apprentie      857.09$   -14.3%   -138.00$   95.88$  119/145     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 154 — 2026-11-06 13:59:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  84 tokens trouvés, analyse en cours…
+  9 retenus / 79 ; rejets : liquidité faible ×54, volume faible ×39, trop récent ×35, trop ancien ×19, FDV/liquidité trop élevé ×6
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       844.35$   -15.6%   -155.00$   49.63$  230/183     2
+actuelle    127000.21$+12600.0%+126006.90$12542635.83$  161/331     3
+agressive    53557.34$ +5255.7% +52549.04$17466340.88$   76/276     5
+hasard       89293.17$ +8829.3% +88310.66$12384664.78$  140/376     5
+apprentie      857.80$   -14.2%   -138.00$   95.88$  119/145     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 155 — 2026-11-06 14:00:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  82 tokens trouvés, analyse en cours…
+  9 retenus / 80 ; rejets : liquidité faible ×55, volume faible ×40, trop récent ×37, trop ancien ×19, FDV/liquidité trop élevé ×6
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       844.42$   -15.6%   -155.00$   49.63$  230/183     2
+actuelle    127063.57$+12606.4%+126006.90$12542635.83$  161/331     3
+agressive    53593.92$ +5259.4% +52549.04$17466340.88$   76/276     5
+hasard       89346.50$ +8834.6% +88310.66$12384664.78$  140/376     5
+apprentie      857.96$   -14.2%   -138.00$   95.88$  119/145     3
+(argent fictif — valeur nette si tout était revendu maintenant)
