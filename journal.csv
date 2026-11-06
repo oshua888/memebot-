@@ -3717,3 +3717,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 07:17:43,actuelle,VENTE,UHI,0.001506,2214.20,durée max 12h PnL -611.44$ coût 5.8%
 2026-11-06 07:27:43,hasard,VENTE,Bill,8.221e-05,1086.88,stop-loss (-32%) PnL -725.18$ coût 11.9%
 2026-11-06 07:34:43,hasard,VENTE,ZELDA,8.074e-05,1135.09,stop-loss (-31%) PnL -727.34$ coût 12.0%
+2026-11-06 07:39:43,actuelle,ACHAT,fun,0.0002385966495,2600.63,score 60 coût 13.9%
+2026-11-06 07:39:43,agressive,ACHAT,fun,0.0002287472589,1652.00,score 60 coût 9.2%
+2026-11-06 07:39:43,hasard,ACHAT,fun,0.0002302804956,1799.67,score 60 coût 9.9%
