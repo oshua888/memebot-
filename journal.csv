@@ -3807,3 +3807,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 18:25:15,apprentie,VENTE,ROCCO,0.0007915,22.25,palier +25% PnL +4.69$ coût 1.1%
 2026-11-06 18:25:15,apprentie,ACHAT,ROCCO,0.0007998094705,17.66,score 60 coût 1.0%
 2026-11-06 18:26:16,prudente,VENTE,COGE,0.004671,5.41,palier +30% PnL +1.22$ coût 1.0%
+2026-11-06 18:29:16,apprentie,VENTE,AMD,0.002388,12.83,stop-loss (-25%) PnL -4.53$ coût 1.0%
+2026-11-06 18:33:15,apprentie,VENTE,ROCCO,0.0005599,12.23,stop-loss (-30%) PnL -5.43$ coût 1.0%
