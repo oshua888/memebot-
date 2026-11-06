@@ -3769,3 +3769,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 13:17:30,apprentie,VENTE,AMD,0.003022,23.56,palier +25% PnL +6.57$ coût 1.0%
 2026-11-06 13:18:29,prudente,VENTE,AMD,0.002529,5.10,trailing-stop PnL +0.91$ coût 1.0%
 2026-11-06 13:19:29,prudente,ACHAT,AMD,0.002570771171,8.46,score 84 coût 1.0%
+2026-11-06 13:21:30,apprentie,ACHAT,AMD,0.002502413453,17.18,score 84 coût 1.0%
