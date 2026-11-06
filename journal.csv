@@ -3816,3 +3816,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 18:54:16,actuelle,VENTE,ROCCO,0.0004648,1634.32,stop-loss (-30%) PnL -905.05$ coût 7.5%
 2026-11-06 18:58:16,prudente,VENTE,Diamond,0.00108,4.82,trailing-stop PnL +0.57$ coût 1.0%
 2026-11-06 19:01:15,apprentie,ACHAT,PODCAT,0.0002713786952,17.58,score 23 coût 1.1%
+2026-11-06 19:22:15,actuelle,ACHAT,0DAY,0.0006397461624,2521.25,score 60 coût 9.3%
