@@ -3757,3 +3757,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 12:33:29,hasard,VENTE,Diamond,0.0004642,851.05,palier +50% PnL +265.39$ coût 3.6%
 2026-11-06 12:47:30,actuelle,ACHAT,APPLEPAID,0.0002149998741,2563.95,score 64 coût 14.2%
 2026-11-06 12:50:30,actuelle,VENTE,APPLEPAID,0.0001308,1391.78,stop-loss (-39%) PnL -1172.18$ coût 10.8%
+2026-11-06 12:54:32,hasard,VENTE,Diamond,0.00035,1275.38,trailing-stop PnL +86.32$ coût 5.7%
+2026-11-06 12:54:32,hasard,ACHAT,Diamond,0.0003749289093,1775.86,score 69 coût 7.1%
+2026-11-06 12:55:30,prudente,ACHAT,Diamond,0.0003445098708,8.38,score 70 coût 1.0%
