@@ -3840,7 +3840,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 23:00:14,hasard,VENTE,COGE,0.006994,1168.16,palier +100% PnL +576.89$ coût 2.1%
 2026-11-06 23:00:14,apprentie,VENTE,COGE,0.006994,22.90,palier +25% PnL +5.32$ coût 1.0%
 2026-11-06 23:19:13,actuelle,VENTE,COGE,0.007531,1728.16,palier +100% PnL +865.57$ coût 2.5%
-2026-11-06 23:24:14,prudente,VENTE,COGE,0.008135,3.46,palier +60% PnL +1.32$ coût 1.0%
-2026-11-06 23:28:14,hasard,VENTE,NETWORK,0.0002349,1795.61,durée max 12h PnL +27.09$ coût 10.6%
-2026-11-06 23:28:14,hasard,ACHAT,WEALTH,0.0003127790317,1829.62,score 29 coût 9.2%
-2026-11-06 23:35:16,actuelle,ACHAT,FLOAT,0.006864328259,2515.03,score 64 coût 2.0%
+2026-11-06 23:39:35,prudente,VENTE,COGE,0.008213,3.49,palier +60% PnL +1.36$ coût 1.0%
+2026-11-06 23:39:35,hasard,VENTE,NETWORK,0.0002415,1843.79,durée max 12h PnL +75.27$ coût 10.7%
+2026-11-06 23:39:35,hasard,ACHAT,WEALTH,0.0002859754606,1831.07,score 22 coût 9.6%
