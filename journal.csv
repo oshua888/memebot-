@@ -3786,3 +3786,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 15:26:29,agressive,VENTE,Diamond,0.0008134,1044.58,palier +100% PnL +514.05$ coût 3.4%
 2026-11-06 15:45:29,prudente,VENTE,Diamond,0.0008804,3.45,palier +60% PnL +1.34$ coût 1.0%
 2026-11-06 16:04:27,apprentie,ACHAT,BAGEL,0.0006099685621,17.19,score 54 coût 1.1%
+2026-11-06 16:12:28,prudente,VENTE,Diamond,0.0007976,3.13,trailing-stop PnL +1.02$ coût 1.0%
+2026-11-06 16:12:28,prudente,ACHAT,Diamond,0.0008057271585,8.48,score 81 coût 1.0%
