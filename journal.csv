@@ -3824,3 +3824,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 19:52:15,apprentie,VENTE,0DAY,0.0004177,12.67,stop-loss (-27%) PnL -4.89$ coût 1.1%
 2026-11-06 19:58:14,agressive,VENTE,ROCCO,0.0004004,912.89,stop-loss (-42%) PnL -739.41$ coût 4.8%
 2026-11-06 19:58:14,agressive,ACHAT,WEALTH,0.0003973018718,1646.46,score 65 coût 7.5%
+2026-11-06 20:32:13,hasard,VENTE,Diamond,0.0009741,1482.25,trailing-stop PnL +887.33$ coût 4.1%
+2026-11-06 20:32:13,hasard,ACHAT,Diamond,0.00101944802,1821.71,score 38 coût 4.7%
