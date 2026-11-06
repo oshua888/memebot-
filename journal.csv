@@ -3712,3 +3712,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 07:03:44,agressive,VENTE,Bill,7.93e-05,894.78,stop-loss (-41%) PnL -799.70$ coût 10.0%
 2026-11-06 07:04:44,actuelle,VENTE,bracket,0.0001194,1478.25,stop-loss (-36%) PnL -1162.27$ coût 12.0%
 2026-11-06 07:07:44,hasard,VENTE,COGE,8.526e-05,1125.27,stop-loss (-31%) PnL -708.35$ coût 10.4%
+2026-11-06 07:12:45,actuelle,VENTE,AMD,0.001848,2141.78,trailing-stop PnL +1265.94$ coût 5.0%
+2026-11-06 07:13:44,hasard,ACHAT,Bill,0.0001206974642,1812.06,score 67 coût 15.1%
