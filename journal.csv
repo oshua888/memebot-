@@ -3689,3 +3689,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 05:39:45,actuelle,VENTE,WABI,0.0001409,1832.51,trailing-stop PnL +82.85$ coût 14.2%
 2026-11-06 05:39:45,actuelle,ACHAT,RETIRE,0.0002577123502,2675.83,score 68 coût 15.6%
 2026-11-06 05:49:45,apprentie,ACHAT,Bubbles,0.0001805553329,16.89,score 37 coût 1.1%
+2026-11-06 06:03:44,actuelle,VENTE,RETIRE,0.0004014,1285.98,palier +50% PnL +402.96$ coût 6.5%
+2026-11-06 06:03:44,agressive,VENTE,RETIRE,0.0004014,1172.37,palier +100% PnL +615.21$ coût 6.0%
+2026-11-06 06:03:44,apprentie,VENTE,AMD,0.002491,27.15,palier +50% PnL +10.23$ coût 1.0%
