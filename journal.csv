@@ -3651,3 +3651,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 00:47:43,agressive,ACHAT,Bubbles,0.0001858851189,1594.14,score 52 coût 10.3%
 2026-11-06 01:22:43,agressive,ACHAT,sssdfg,0.000203641653,1588.91,score 50 coût 9.8%
 2026-11-06 01:23:43,actuelle,ACHAT,sssdfg,0.0001986630755,2693.91,score 65 coût 16.5%
+2026-11-06 01:33:43,actuelle,VENTE,sssdfg,0.0001373,1618.32,stop-loss (-31%) PnL -1075.58$ coût 13.1%
+2026-11-06 01:35:43,hasard,VENTE,Bubbles,0.000237,890.92,palier +50% PnL +278.94$ coût 5.6%
