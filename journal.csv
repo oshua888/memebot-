@@ -3673,3 +3673,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 04:34:45,actuelle,ACHAT,Bubbles,0.0002123486981,2598.53,score 61 coût 15.4%
 2026-11-06 04:35:46,prudente,VENTE,AMD,0.0008926,5.55,palier +30% PnL +1.37$ coût 1.0%
 2026-11-06 04:43:45,prudente,ACHAT,RETIRE,0.0002098759991,8.39,score 71 coût 1.0%
+2026-11-06 04:50:45,hasard,VENTE,RAM,6.711e-05,1354.14,durée max 12h PnL -572.99$ coût 13.1%
+2026-11-06 04:50:45,hasard,ACHAT,RETIRE,0.0002520148006,1862.41,score 57 coût 11.1%
+2026-11-06 04:53:45,prudente,VENTE,RETIRE,0.0001461,5.78,stop-loss (-30%) PnL -2.61$ coût 1.0%
+2026-11-06 04:53:45,hasard,VENTE,RETIRE,0.0001461,989.42,stop-loss (-42%) PnL -872.98$ coût 8.4%
+2026-11-06 04:53:45,hasard,ACHAT,Bubbles,0.0001942074172,1846.03,score 35 coût 11.5%
