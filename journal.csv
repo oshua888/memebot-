@@ -3665,3 +3665,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 03:07:45,prudente,ACHAT,COGE,0.002942476757,8.36,score 76 coût 1.0%
 2026-11-06 03:59:46,agressive,VENTE,coin,0.000675,2064.88,palier +100% PnL +1546.79$ coût 7.2%
 2026-11-06 04:00:45,agressive,VENTE,coin,0.0007401,2288.91,palier +200% PnL +1762.98$ coût 7.6%
+2026-11-06 04:30:45,agressive,VENTE,coin,0.0005293,1655.35,trailing-stop PnL +1129.42$ coût 6.5%
+2026-11-06 04:30:45,agressive,ACHAT,RETIRE,0.0001793464531,1688.38,score 56 coût 12.0%
+2026-11-06 04:31:46,prudente,ACHAT,AMD,0.0006648506198,8.36,score 70 coût 1.0%
+2026-11-06 04:31:46,actuelle,ACHAT,AMD,0.0007177497436,2614.46,score 70 coût 9.1%
+2026-11-06 04:32:46,actuelle,ACHAT,WABI,0.0001153751665,2611.43,score 62 coût 21.7%
