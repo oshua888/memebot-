@@ -3692,3 +3692,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 06:03:44,actuelle,VENTE,RETIRE,0.0004014,1285.98,palier +50% PnL +402.96$ coût 6.5%
 2026-11-06 06:03:44,agressive,VENTE,RETIRE,0.0004014,1172.37,palier +100% PnL +615.21$ coût 6.0%
 2026-11-06 06:03:44,apprentie,VENTE,AMD,0.002491,27.15,palier +50% PnL +10.23$ coût 1.0%
+2026-11-06 06:04:44,actuelle,VENTE,Bubbles,0.000132,1427.60,stop-loss (-38%) PnL -1170.93$ coût 11.6%
+2026-11-06 06:04:44,hasard,VENTE,Bubbles,0.000132,1138.67,stop-loss (-32%) PnL -707.36$ coût 9.2%
+2026-11-06 06:04:44,hasard,ACHAT,COGE,0.0001244497974,1833.62,score 29 coût 13.0%
+2026-11-06 06:04:44,apprentie,VENTE,Bubbles,0.000132,12.22,stop-loss (-27%) PnL -4.68$ coût 1.1%
+2026-11-06 06:04:44,apprentie,ACHAT,AMD,0.002156953623,16.99,score 34 coût 1.0%
