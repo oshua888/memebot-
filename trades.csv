@@ -1744,3 +1744,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-06 13:03,2026-11-06 16:44,actuelle,WEALTH,tendance,trailing-stop,3.68,18.85,70,35935,5.35,22.0,1.019,0.649,-0.33,11.82,69.22,0
 2026-11-06 06:12,2026-11-06 18:19,hasard,AMD,boost,trailing-stop,12.11,29.87,47,114524,16.71,3.7,5.639,0.486,-1.59,107,4793,1
 2026-11-06 12:30,2026-11-06 18:21,agressive,HIGH,tendance,stop-loss (-54%),5.85,-55.56,53,108714,16.98,67.3,0.418,0.444,7.35,27.98,3.7,0
+2026-11-06 18:19,2026-11-06 18:25,apprentie,ROCCO,profil,palier +25%,0.1,26.72,61,62021,9.72,4.7,1.841,0.715,-4.1,350,466,0
