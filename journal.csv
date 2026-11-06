@@ -3663,5 +3663,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 02:51:45,actuelle,ACHAT,Diamond,0.000495214791,2631.79,score 66 coût 9.2%
 2026-11-06 03:05:45,actuelle,VENTE,Diamond,0.0003438,1688.29,stop-loss (-31%) PnL -943.50$ coût 7.6%
 2026-11-06 03:07:45,prudente,ACHAT,COGE,0.002942476757,8.36,score 76 coût 1.0%
-2026-11-06 03:38:44,agressive,VENTE,coin,0.000317,988.59,palier +100% PnL +470.51$ coût 5.4%
-2026-11-06 03:49:44,agressive,VENTE,coin,0.0005627,1753.87,palier +200% PnL +1227.94$ coût 6.8%
+2026-11-06 03:59:46,agressive,VENTE,coin,0.000675,2064.88,palier +100% PnL +1546.79$ coût 7.2%
+2026-11-06 04:00:45,agressive,VENTE,coin,0.0007401,2288.91,palier +200% PnL +1762.98$ coût 7.6%
