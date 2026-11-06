@@ -4063,3 +4063,70 @@ agressive    53291.48$ +5229.1% +52549.04$17466340.88$   76/276     5
 hasard       88956.77$ +8795.7% +88224.33$12384470.18$  139/376     5
 apprentie      853.35$   -14.7%   -144.57$   95.45$  118/145     3
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 81 — 2026-11-06 12:46:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  10 retenus / 88 ; rejets : liquidité faible ×59, volume faible ×35, trop récent ×29, trop ancien ×21, FDV/liquidité trop élevé ×6
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       838.79$   -16.1%   -162.52$   49.04$  224/183     2
+actuelle    128246.89$+12724.7%+127745.44$12541559.93$  160/329     3
+agressive    53274.66$ +5227.5% +52549.04$17466340.88$   76/276     5
+hasard       89037.08$ +8803.7% +88224.33$12384470.18$  139/376     5
+apprentie      853.84$   -14.6%   -144.57$   95.45$  118/145     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 82 — 2026-11-06 12:47:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  90 tokens trouvés, analyse en cours…
+  10 retenus / 88 ; rejets : liquidité faible ×58, volume faible ×36, trop récent ×29, trop ancien ×21, FDV/liquidité trop élevé ×6
+  [actuelle] ACHAT APPLEPAID @ 0.00021499987$ — 2563.95$ score 64 coût 14.2%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       838.62$   -16.1%   -162.52$   49.04$  224/183     2
+actuelle    127595.44$+12659.5%+127745.44$12541879.53$  160/329     4
+agressive    53249.80$ +5225.0% +52549.04$17466340.88$   76/276     5
+hasard       88957.35$ +8795.7% +88224.33$12384470.18$  139/376     5
+apprentie      853.16$   -14.7%   -144.57$   95.45$  118/145     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 83 — 2026-11-06 12:48:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  90 tokens trouvés, analyse en cours…
+  10 retenus / 89 ; rejets : liquidité faible ×60, volume faible ×37, trop récent ×30, trop ancien ×21, FDV/liquidité trop élevé ×6
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       838.66$   -16.1%   -162.52$   49.04$  224/183     2
+actuelle    127608.92$+12660.9%+127745.44$12541879.53$  160/329     4
+agressive    53180.44$ +5218.0% +52549.04$17466340.88$   76/276     5
+hasard       89011.07$ +8801.1% +88224.33$12384470.18$  139/376     5
+apprentie      853.26$   -14.7%   -144.57$   95.45$  118/145     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 84 — 2026-11-06 12:49:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  10 retenus / 86 ; rejets : liquidité faible ×58, volume faible ×35, trop récent ×28, trop ancien ×21, FDV/liquidité trop élevé ×6
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       838.69$   -16.1%   -162.52$   49.04$  224/183     2
+actuelle    127460.16$+12646.0%+127745.44$12541879.53$  160/329     4
+agressive    53171.99$ +5217.2% +52549.04$17466340.88$   76/276     5
+hasard       88950.66$ +8795.1% +88224.33$12384470.18$  139/376     5
+apprentie      853.34$   -14.7%   -144.57$   95.45$  118/145     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 85 — 2026-11-06 12:50:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  10 retenus / 87 ; rejets : liquidité faible ×57, volume faible ×36, trop récent ×29, trop ancien ×21, FDV/liquidité trop élevé ×6
+  [actuelle] VENTE APPLEPAID @ 0.0001308$ — 1391.78$ stop-loss (-39%) PnL -1172.18$ coût 10.8%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       838.43$   -16.2%   -162.52$   49.04$  224/183     2
+actuelle    127133.35$+12613.3%+126573.27$12542047.59$  160/330     3
+agressive    53048.80$ +5204.9% +52549.04$17466340.88$   76/276     5
+hasard       88830.00$ +8783.0% +88224.33$12384470.18$  139/376     5
+apprentie      852.86$   -14.7%   -144.57$   95.45$  118/145     3
+(argent fictif — valeur nette si tout était revendu maintenant)
