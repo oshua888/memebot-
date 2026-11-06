@@ -3710,3 +3710,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 07:00:45,agressive,ACHAT,Bill,0.0001351891568,1694.48,score 68 coût 13.3%
 2026-11-06 07:02:44,actuelle,VENTE,Bill,8.877e-05,1537.01,stop-loss (-31%) PnL -1127.18$ coût 16.7%
 2026-11-06 07:03:44,agressive,VENTE,Bill,7.93e-05,894.78,stop-loss (-41%) PnL -799.70$ coût 10.0%
+2026-11-06 07:04:44,actuelle,VENTE,bracket,0.0001194,1478.25,stop-loss (-36%) PnL -1162.27$ coût 12.0%
+2026-11-06 07:07:44,hasard,VENTE,COGE,8.526e-05,1125.27,stop-loss (-31%) PnL -708.35$ coût 10.4%
