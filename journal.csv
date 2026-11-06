@@ -3775,3 +3775,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 13:56:29,prudente,VENTE,WEALTH,0.0002502,5.31,trailing-stop PnL +1.12$ coût 1.0%
 2026-11-06 14:01:29,hasard,VENTE,Diamond,0.0005687,859.03,palier +50% PnL +273.00$ coût 3.4%
 2026-11-06 14:02:28,prudente,ACHAT,Diamond,0.0005331001079,8.44,score 71 coût 1.0%
+2026-11-06 14:33:29,actuelle,ACHAT,NIG,0.0001399296903,2548.91,score 64 coût 19.9%
+2026-11-06 14:35:29,actuelle,VENTE,AMD,0.002254,1900.72,trailing-stop PnL +179.74$ coût 4.1%
+2026-11-06 14:35:29,actuelle,ACHAT,AMD,0.002366786124,2529.55,score 60 coût 5.0%
