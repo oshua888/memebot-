@@ -3843,3 +3843,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 23:39:35,prudente,VENTE,COGE,0.008213,3.49,palier +60% PnL +1.36$ coût 1.0%
 2026-11-06 23:39:35,hasard,VENTE,NETWORK,0.0002415,1843.79,durée max 12h PnL +75.27$ coût 10.7%
 2026-11-06 23:39:35,hasard,ACHAT,WEALTH,0.0002859754606,1831.07,score 22 coût 9.6%
+2026-11-06 23:52:36,apprentie,ACHAT,VETO,0.000132667,17.54,score 47 coût 1.1%
