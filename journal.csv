@@ -3720,3 +3720,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 07:39:43,actuelle,ACHAT,fun,0.0002385966495,2600.63,score 60 coût 13.9%
 2026-11-06 07:39:43,agressive,ACHAT,fun,0.0002287472589,1652.00,score 60 coût 9.2%
 2026-11-06 07:39:43,hasard,ACHAT,fun,0.0002302804956,1799.67,score 60 coût 9.9%
+2026-11-06 07:49:43,actuelle,VENTE,fun,0.0001659,1607.21,stop-loss (-30%) PnL -993.42$ coût 11.1%
+2026-11-06 07:50:43,hasard,VENTE,fun,0.000158,1134.95,stop-loss (-31%) PnL -664.72$ coût 8.1%
+2026-11-06 07:53:42,agressive,VENTE,ZELDA,5.953e-05,820.06,stop-loss (-44%) PnL -822.16$ coût 10.1%
+2026-11-06 07:53:42,hasard,VENTE,paws,0.0002567,2142.45,durée max 12h PnL +256.35$ coût 10.5%
