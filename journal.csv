@@ -3745,3 +3745,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 11:28:30,actuelle,ACHAT,AMD,0.001956399779,2568.64,score 65 coût 5.5%
 2026-11-06 11:28:30,hasard,ACHAT,COGE,0.003466550002,1764.96,score 64 coût 3.3%
 2026-11-06 11:28:30,apprentie,ACHAT,RM,0.0001322544095,17.11,score 57 coût 1.1%
+2026-11-06 11:41:30,prudente,ACHAT,COGE,0.003579820002,8.37,score 71 coût 1.0%
+2026-11-06 11:45:31,apprentie,VENTE,COGE,0.003744,21.37,palier +25% PnL +4.27$ coût 1.0%
