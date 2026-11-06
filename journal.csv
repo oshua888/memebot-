@@ -3699,3 +3699,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 06:04:44,apprentie,ACHAT,AMD,0.002156953623,16.99,score 34 coût 1.0%
 2026-11-06 06:12:44,hasard,VENTE,UHI,0.001563,1480.70,durée max 12h PnL -428.48$ coût 4.1%
 2026-11-06 06:12:44,hasard,ACHAT,AMD,0.002019171707,1825.76,score 47 coût 4.2%
+2026-11-06 06:16:44,actuelle,VENTE,RETIRE,0.0002953,1835.91,trailing-stop PnL +43.11$ coût 10.6%
