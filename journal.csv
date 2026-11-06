@@ -3643,3 +3643,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-05 23:58:42,prudente,ACHAT,COGE,0.0005327238507,8.34,score 74 coût 1.0%
 2026-11-06 00:03:42,hasard,VENTE,███,0.0006643,1552.09,durée max 12h PnL -439.85$ coût 4.8%
 2026-11-06 00:03:42,hasard,ACHAT,Bubbles,0.0001537005377,1854.47,score 34 coût 13.1%
+2026-11-06 00:35:43,prudente,VENTE,COGE,0.0007014,5.44,palier +30% PnL +1.27$ coût 1.0%
