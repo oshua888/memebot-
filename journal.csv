@@ -3697,3 +3697,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 06:04:44,hasard,ACHAT,COGE,0.0001244497974,1833.62,score 29 coût 13.0%
 2026-11-06 06:04:44,apprentie,VENTE,Bubbles,0.000132,12.22,stop-loss (-27%) PnL -4.68$ coût 1.1%
 2026-11-06 06:04:44,apprentie,ACHAT,AMD,0.002156953623,16.99,score 34 coût 1.0%
+2026-11-06 06:12:44,hasard,VENTE,UHI,0.001563,1480.70,durée max 12h PnL -428.48$ coût 4.1%
+2026-11-06 06:12:44,hasard,ACHAT,AMD,0.002019171707,1825.76,score 47 coût 4.2%
