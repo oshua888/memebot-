@@ -3646,3 +3646,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 00:35:43,prudente,VENTE,COGE,0.0007014,5.44,palier +30% PnL +1.27$ coût 1.0%
 2026-11-06 00:40:43,prudente,VENTE,COGE,0.000584,4.53,trailing-stop PnL +0.36$ coût 1.0%
 2026-11-06 00:42:43,actuelle,ACHAT,ZELDA,0.0001280755711,2739.99,score 60 coût 21.3%
+2026-11-06 00:43:43,actuelle,VENTE,COGE,1.999e-06,8.77,stop-loss (-100%) PnL -2741.27$ coût 1.8%
+2026-11-06 00:43:43,agressive,VENTE,COGE,1.999e-06,5.39,stop-loss (-100%) PnL -1622.48$ coût 1.5%
+2026-11-06 00:47:43,agressive,ACHAT,Bubbles,0.0001858851189,1594.14,score 52 coût 10.3%
