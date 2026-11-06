@@ -3813,3 +3813,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 18:44:21,actuelle,ACHAT,WEALTH,0.0003446865387,2532.00,score 60 coût 12.0%
 2026-11-06 18:49:16,prudente,VENTE,Diamond,0.00128,5.71,palier +30% PnL +1.46$ coût 1.0%
 2026-11-06 18:49:16,agressive,VENTE,Diamond,0.00128,1657.91,palier +200% PnL +1119.34$ coût 4.0%
+2026-11-06 18:54:16,actuelle,VENTE,ROCCO,0.0004648,1634.32,stop-loss (-30%) PnL -905.05$ coût 7.5%
+2026-11-06 18:58:16,prudente,VENTE,Diamond,0.00108,4.82,trailing-stop PnL +0.57$ coût 1.0%
