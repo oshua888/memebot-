@@ -1701,3 +1701,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-05 18:12,2026-11-06 06:12,hasard,UHI,profil,durée max 12h,12.01,-22.44,45,108085,16.74,19.0,0.051,0.615,0.68,-3.08,60.5,0
 2026-11-06 05:39,2026-11-06 06:16,actuelle,RETIRE,boost,trailing-stop,0.62,16.67,68,36741,5.78,3.2,3.497,0.623,-4.4,28,408,1
 2026-11-06 04:30,2026-11-06 06:27,agressive,RETIRE,boost,trailing-stop,1.95,52.83,56,30638,4.97,2.0,3.668,0.66,-5.37,110,265,1
+2026-11-06 06:20,2026-11-06 06:36,actuelle,RETIRE,boost,stop-loss (-32%),0.27,-38.88,70,43328,6.67,3.9,2.466,0.636,3.17,23.81,592,1
