@@ -3827,3 +3827,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 20:32:13,hasard,VENTE,Diamond,0.0009741,1482.25,trailing-stop PnL +887.33$ coût 4.1%
 2026-11-06 20:32:13,hasard,ACHAT,Diamond,0.00101944802,1821.71,score 38 coût 4.7%
 2026-11-06 21:33:13,actuelle,VENTE,COGE,0.005514,1249.46,palier +50% PnL +399.74$ coût 2.3%
+2026-11-06 21:52:13,agressive,VENTE,Diamond,0.000847,1103.27,trailing-stop PnL +564.70$ coût 3.5%
