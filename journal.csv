@@ -3830,3 +3830,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 21:52:13,agressive,VENTE,Diamond,0.000847,1103.27,trailing-stop PnL +564.70$ coût 3.5%
 2026-11-06 21:54:13,prudente,VENTE,COGE,0.004779,5.53,trailing-stop PnL +1.35$ coût 1.0%
 2026-11-06 21:58:13,prudente,ACHAT,COGE,0.00497167254,8.53,score 71 coût 1.0%
+2026-11-06 21:59:12,hasard,VENTE,Diamond,0.0006191,1064.64,stop-loss (-39%) PnL -757.07$ coût 3.8%
+2026-11-06 21:59:12,hasard,ACHAT,AMD,0.002298063617,1808.79,score 52 coût 3.8%
+2026-11-06 22:03:14,agressive,ACHAT,Leonida,0.0001892266424,1621.46,score 59 coût 11.2%

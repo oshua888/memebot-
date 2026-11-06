@@ -1756,3 +1756,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-06 12:54,2026-11-06 20:32,hasard,Diamond,tendance,trailing-stop,7.63,98.0,69,58011,5.77,12.4,0.693,0.659,-10.57,27.09,7.51,0
 2026-11-06 12:24,2026-11-06 21:52,agressive,Diamond,tendance,trailing-stop,9.46,136.73,52,60232,5.96,11.9,0.302,0.54,10.86,31.53,14.25,0
 2026-11-06 11:41,2026-11-06 21:54,prudente,COGE,boost+tendance,trailing-stop,10.21,30.66,71,156211,22.59,15.9,0.583,0.705,3.55,1.4,5.25,1
+2026-11-06 20:32,2026-11-06 21:59,hasard,Diamond,tendance,stop-loss (-39%),1.45,-41.56,38,99673,9.34,20.0,0.444,0.441,-4.04,-20.14,98.55,0
