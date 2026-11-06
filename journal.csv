@@ -3732,3 +3732,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-06 09:00:42,actuelle,ACHAT,RM,0.0002501512956,2584.24,score 63 coût 14.2%
 2026-11-06 09:00:42,agressive,ACHAT,RM,0.0002391419813,1601.87,score 63 coût 9.2%
 2026-11-06 09:00:42,hasard,ACHAT,RM,0.0002411958624,1785.14,score 63 coût 10.1%
+2026-11-06 09:10:42,actuelle,VENTE,RM,0.0001721,1579.42,stop-loss (-31%) PnL -1004.83$ coût 11.2%
