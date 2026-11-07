@@ -1842,3 +1842,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-07 12:20,2026-11-07 19:58,actuelle,FLOAT,tendance,trailing-stop,7.63,73.15,60,483341,12.45,230.1,0.028,0.704,0.28,1.82,1.89,0
 2026-11-07 01:50,2026-11-07 19:58,agressive,HODL,boost,stop-loss (-40%),18.12,-42.09,79,142613,21.12,2.7,1.664,0.779,-0.19,35.98,6003,1
 2026-11-07 19:05,2026-11-07 19:58,hasard,FLOAT,tendance,trailing-stop,0.88,29.0,52,565678,14.41,236.8,0.282,0.491,14.57,31.66,19.52,0
+2026-11-07 15:31,2026-11-07 20:05,prudente,ANTS,profil,trailing-stop,4.56,24.82,73,63690,9.82,24.5,1.049,0.654,5.14,21.36,44.86,0
