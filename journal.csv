@@ -3990,3 +3990,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 19:11:05,hasard,ACHAT,WEALTH,0.001047783612,1831.38,score 53 coût 5.3%
 2026-11-07 19:12:05,actuelle,VENTE,STANK,0.002191,1507.49,stop-loss (-32%) PnL -788.83$ coût 3.8%
 2026-11-07 19:12:05,actuelle,ACHAT,José,0.001303082685,2274.83,score 62 coût 5.3%
+2026-11-07 19:14:05,hasard,VENTE,MAMESUKE,0.0005994,1225.64,stop-loss (-30%) PnL -616.38$ coût 4.9%
+2026-11-07 19:14:05,hasard,ACHAT,COGE,0.009827984329,1825.42,score 68 coût 2.4%
+2026-11-07 19:15:05,actuelle,VENTE,FLOAT,0.009358,1141.52,palier +50% PnL +382.24$ coût 1.4%
+2026-11-07 19:16:05,hasard,VENTE,WEALTH,0.000693,1158.32,stop-loss (-34%) PnL -673.06$ coût 4.4%
+2026-11-07 19:16:05,hasard,ACHAT,STANK,0.001915842244,1816.07,score 30 coût 4.6%
