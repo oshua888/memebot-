@@ -3997,3 +3997,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 19:16:05,hasard,ACHAT,STANK,0.001915842244,1816.07,score 30 coût 4.6%
 2026-11-07 19:18:05,agressive,VENTE,STANK,0.001789,861.38,stop-loss (-40%) PnL -618.06$ coût 2.8%
 2026-11-07 19:19:05,agressive,ACHAT,José,0.001215701518,1503.82,score 62 coût 4.0%
+2026-11-07 19:23:05,actuelle,VENTE,FLOAT,0.01334,1650.62,palier +100% PnL +879.84$ coût 1.5%
+2026-11-07 19:23:05,actuelle,VENTE,HODL,0.002952,1505.65,stop-loss (-31%) PnL -753.49$ coût 3.2%
+2026-11-07 19:23:05,actuelle,ACHAT,Jose,0.0009147531859,2273.24,score 69 coût 3.4%
+2026-11-07 19:23:05,agressive,VENTE,FLOAT,0.01334,1079.21,palier +100% PnL +572.39$ coût 1.3%
+2026-11-07 19:23:05,hasard,VENTE,FLOAT,0.01334,962.83,palier +50% PnL +356.40$ coût 1.3%
+2026-11-07 19:23:05,apprentie,ACHAT,HOPE,0.0001114608038,18.09,score 38 coût 1.1%
+2026-11-07 19:26:05,hasard,VENTE,Leonida,0.0002541,1193.85,stop-loss (-30%) PnL -661.65$ coût 7.5%
+2026-11-07 19:26:05,hasard,ACHAT,FUSE,0.0001576767819,1823.31,score 30 coût 5.8%
+2026-11-07 19:26:05,apprentie,VENTE,sexcoin,7.019e-05,12.78,stop-loss (-29%) PnL -5.40$ coût 1.1%
