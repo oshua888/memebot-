@@ -3894,3 +3894,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 05:47:03,hasard,VENTE,WEALTH,0.0004756,960.18,palier +50% PnL +355.92$ coût 4.5%
 2026-11-07 05:48:04,agressive,VENTE,BTC,2.142e-06,20.00,stop-loss (-99%) PnL -1602.32$ coût 2.9%
 2026-11-07 05:48:04,agressive,ACHAT,Alice,0.0001435450617,1570.49,score 66 coût 10.7%
+2026-11-07 06:05:04,agressive,VENTE,AMD,0.001206,899.40,stop-loss (-43%) PnL -713.14$ coût 2.9%
+2026-11-07 06:08:03,hasard,VENTE,VETO,0.0002309,873.19,palier +50% PnL +268.46$ coût 5.6%
