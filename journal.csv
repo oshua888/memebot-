@@ -3957,3 +3957,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 14:38:35,actuelle,VENTE,FUSE,0.0002876,1449.48,stop-loss (-34%) PnL -846.25$ coût 3.9%
 2026-11-07 14:39:35,actuelle,ACHAT,duge,0.0001981816811,2276.53,score 61 coût 14.2%
 2026-11-07 14:40:35,apprentie,ACHAT,duge,0.000181680482,17.90,score 60 coût 1.1%
+2026-11-07 15:10:35,actuelle,VENTE,duge,0.0001348,1374.11,stop-loss (-32%) PnL -902.42$ coût 11.3%
+2026-11-07 15:10:35,apprentie,VENTE,duge,0.0001348,13.14,stop-loss (-26%) PnL -4.76$ coût 1.1%
