@@ -4050,3 +4050,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 21:47:06,agressive,VENTE,COGE,0.01522,964.88,palier +100% PnL +475.83$ coût 1.6%
 2026-11-07 21:47:06,hasard,VENTE,COGE,0.01522,918.31,palier +50% PnL +315.92$ coût 1.6%
 2026-11-07 21:50:05,apprentie,ACHAT,Leonida,0.0003172918488,17.97,score 60 coût 1.1%
+2026-11-07 21:54:05,prudente,VENTE,COGE,0.01207,2.87,trailing-stop PnL +0.74$ coût 1.0%
+2026-11-07 21:54:05,actuelle,VENTE,COGE,0.01207,1840.51,trailing-stop PnL +321.28$ coût 2.3%
+2026-11-07 21:54:05,hasard,VENTE,COGE,0.01207,1471.83,trailing-stop PnL +248.80$ coût 2.0%
+2026-11-07 21:54:05,hasard,ACHAT,Jose,0.0004444702677,1831.37,score 59 coût 3.8%
+2026-11-07 21:55:06,actuelle,ACHAT,COGE,0.005282747294,2265.83,score 68 coût 3.4%
+2026-11-07 21:55:06,agressive,VENTE,COGE,0.005111,657.14,trailing-stop PnL -335.77$ coût 1.7%
+2026-11-07 21:55:06,agressive,ACHAT,COGE,0.005239955656,1462.11,score 68 coût 2.5%
+2026-11-07 21:56:07,actuelle,ACHAT,HOPE,0.0001307389884,2253.76,score 68 coût 19.0%

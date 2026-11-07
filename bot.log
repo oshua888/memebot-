@@ -7056,3 +7056,76 @@ agressive    49765.88$ +4876.6% +47464.90$17468871.10$   86/289     5
 hasard       91959.75$ +9096.0% +90216.68$12388847.86$  162/388     5
 apprentie      898.04$   -10.2%    -96.97$  109.27$  140/158     3
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 306 — 2026-11-07 21:52:57 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  93 tokens trouvés, analyse en cours…
+  12 retenus / 89 ; rejets : liquidité faible ×58, trop récent ×37, volume faible ×32, trop ancien ×14, FDV/liquidité trop élevé ×5
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       849.58$   -15.0%   -153.46$   53.05$  252/193     2
+actuelle    114091.54$+11309.2%+111559.16$12550946.50$  178/351     3
+agressive    50137.48$ +4913.7% +47464.90$17468871.10$   86/289     5
+hasard       92312.65$ +9131.3% +90216.68$12388847.86$  162/388     5
+apprentie      897.50$   -10.2%    -96.97$  109.27$  140/158     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 307 — 2026-11-07 21:53:57 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  93 tokens trouvés, analyse en cours…
+  11 retenus / 90 ; rejets : liquidité faible ×59, trop récent ×38, volume faible ×33, trop ancien ×14, FDV/liquidité trop élevé ×5
+  [prudente] VENTE COGE @ 0.01207$ — 2.87$ trailing-stop PnL +0.74$ coût 1.0%
+  [actuelle] VENTE COGE @ 0.01207$ — 1840.51$ trailing-stop PnL +321.28$ coût 2.3%
+  [hasard] VENTE COGE @ 0.01207$ — 1471.83$ trailing-stop PnL +248.80$ coût 2.0%
+  [hasard] ACHAT Jose @ 0.00044447027$ — 1831.37$ score 59 coût 3.8%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       848.20$   -15.2%   -152.72$   53.08$  253/193     1
+actuelle    113249.31$+11224.9%+111880.43$12550989.20$  179/351     2
+agressive    49330.55$ +4833.1% +47464.90$17468871.10$   86/289     5
+hasard       91435.31$ +9043.5% +90465.48$12388945.52$  163/388     5
+apprentie      897.98$   -10.2%    -96.97$  109.27$  140/158     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 308 — 2026-11-07 21:54:57 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  93 tokens trouvés, analyse en cours…
+  12 retenus / 90 ; rejets : liquidité faible ×59, trop récent ×38, volume faible ×33, trop ancien ×14, FDV/liquidité trop élevé ×4
+  [actuelle] ACHAT COGE @ 0.0052827473$ — 2265.83$ score 68 coût 3.4%
+  [agressive] VENTE COGE @ 0.005111$ — 657.14$ trailing-stop PnL -335.77$ coût 1.7%
+  [agressive] ACHAT COGE @ 0.0052399557$ — 1462.11$ score 68 coût 2.5%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       848.30$   -15.2%   -152.72$   53.08$  253/193     1
+actuelle    113145.93$+11214.6%+111880.43$12551062.87$  179/351     3
+agressive    48665.61$ +4766.6% +47129.14$17468918.42$   86/290     5
+hasard       91726.34$ +9072.6% +90465.48$12388945.52$  163/388     5
+apprentie      897.56$   -10.2%    -96.97$  109.27$  140/158     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 309 — 2026-11-07 21:55:57 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  93 tokens trouvés, analyse en cours…
+  13 retenus / 90 ; rejets : liquidité faible ×58, trop récent ×38, volume faible ×33, trop ancien ×14, FDV/liquidité trop élevé ×4
+  [actuelle] ACHAT HOPE @ 0.00013073899$ — 2253.76$ score 68 coût 19.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       848.15$   -15.2%   -152.72$   53.08$  253/193     1
+actuelle    112023.71$+11102.4%+111880.43$12551422.10$  179/351     4
+agressive    48353.63$ +4735.4% +47129.14$17468918.42$   86/290     5
+hasard       91682.83$ +9068.3% +90465.48$12388945.52$  163/388     5
+apprentie      896.79$   -10.3%    -96.97$  109.27$  140/158     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 310 — 2026-11-07 21:56:57 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  91 tokens trouvés, analyse en cours…
+  11 retenus / 85 ; rejets : liquidité faible ×56, trop récent ×34, volume faible ×29, trop ancien ×14, FDV/liquidité trop élevé ×4
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       848.25$   -15.2%   -152.72$   53.08$  253/193     1
+actuelle    112015.19$+11101.5%+111880.43$12551422.10$  179/351     4
+agressive    48352.24$ +4735.2% +47129.14$17468918.42$   86/290     5
+hasard       91630.78$ +9063.1% +90465.48$12388945.52$  163/388     5
+apprentie      896.33$   -10.4%    -96.97$  109.27$  140/158     3
+(argent fictif — valeur nette si tout était revendu maintenant)
