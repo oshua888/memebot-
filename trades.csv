@@ -1821,3 +1821,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-07 13:50,2026-11-07 18:29,actuelle,HODL,boost+tendance,trailing-stop,4.64,23.35,72,156553,22.46,14.7,0.849,0.801,2.7,23.59,-10.01,1
 2026-11-07 16:48,2026-11-07 18:36,apprentie,BTC,profil,palier +25%,1.8,32.6,42,37554,6.09,3.5,0.786,0.668,24.89,72.07,492,0
 2026-11-07 17:28,2026-11-07 18:51,prudente,Leonida,boost+tendance,stop-loss (-22%),1.38,-22.74,70,49681,7.69,45.8,1.032,0.629,9.36,52.03,40.19,1
+2026-11-07 15:31,2026-11-07 18:59,apprentie,ANTS,profil,palier +25%,3.46,23.78,73,63690,9.82,24.5,1.049,0.654,5.14,21.36,44.86,0

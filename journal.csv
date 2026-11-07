@@ -3980,3 +3980,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 18:29:05,actuelle,ACHAT,HODL,0.004289704494,2259.14,score 77 coût 3.6%
 2026-11-07 18:36:06,apprentie,VENTE,BTC,0.0003145,23.82,palier +25% PnL +5.86$ coût 1.1%
 2026-11-07 18:51:05,prudente,VENTE,Leonida,0.0003103,6.57,stop-loss (-22%) PnL -1.93$ coût 1.0%
+2026-11-07 18:59:06,apprentie,VENTE,ANTS,0.0008009,22.06,palier +25% PnL +4.24$ coût 1.1%
+2026-11-07 19:00:06,prudente,VENTE,ANTS,0.000861,5.66,palier +30% PnL +1.41$ coût 1.0%
