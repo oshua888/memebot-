@@ -3880,3 +3880,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 05:13:03,agressive,VENTE,DCAT,2.346e-06,10.49,stop-loss (-99%) PnL -1667.99$ coût 1.9%
 2026-11-07 05:13:03,agressive,ACHAT,NETWORK,0.0003662313087,1671.90,score 59 coût 7.6%
 2026-11-07 05:14:04,actuelle,ACHAT,STM,0.0001195104492,2490.39,score 60 coût 20.8%
+2026-11-07 05:15:03,actuelle,VENTE,Leonida,5.975e-05,721.33,stop-loss (-69%) PnL -1772.39$ coût 7.5%
+2026-11-07 05:15:03,agressive,VENTE,Leonida,5.975e-05,485.05,stop-loss (-68%) PnL -1136.41$ coût 5.3%
+2026-11-07 05:15:03,agressive,ACHAT,BTC,0.0001687221214,1622.32,score 51 coût 11.9%
+2026-11-07 05:19:04,hasard,VENTE,AMD,0.001574,1198.24,stop-loss (-32%) PnL -610.55$ coût 3.3%
+2026-11-07 05:19:04,hasard,ACHAT,NETWORK,0.0003762062542,1853.90,score 59 coût 8.2%
