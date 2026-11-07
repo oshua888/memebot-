@@ -4060,3 +4060,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 23:18:26,agressive,ACHAT,GIGAHUG,0.001227961709,1388.22,score 52 coût 4.2%
 2026-11-07 23:19:26,prudente,VENTE,TAOLF,0.0007634,3.88,palier +60% PnL +1.78$ coût 1.0%
 2026-11-07 23:22:26,prudente,VENTE,TAOLF,0.0006182,3.14,trailing-stop PnL +1.04$ coût 1.0%
+2026-11-07 23:24:26,hasard,VENTE,FUSE,0.0001111,950.56,stop-loss (-44%) PnL -823.96$ coût 4.0%
+2026-11-07 23:24:26,hasard,ACHAT,WASTED,0.0008171746619,1762.61,score 45 coût 5.1%
