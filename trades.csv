@@ -1771,3 +1771,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-06 22:37,2026-11-07 02:47,prudente,Leonida,boost,trailing-stop,4.17,20.26,70,33250,5.38,26.9,1.461,0.588,-8.96,16.58,91.53,1
 2026-11-06 21:58,2026-11-07 03:01,prudente,COGE,tendance,trailing-stop,5.06,83.76,71,185651,26.4,26.2,0.445,0.617,-0.36,5.23,20.92,0
 2026-11-07 02:45,2026-11-07 03:18,prudente,coin,tendance,stop-loss (-22%),0.55,-22.4,70,76283,8.26,26.9,1.903,0.503,1.38,40.7,68.38,0
+2026-11-06 16:23,2026-11-07 03:34,apprentie,BAGEL,profil,palier +25%,11.19,23.71,56,71624,10.97,8.8,0.354,0.564,8.7,39.55,39.49,0
