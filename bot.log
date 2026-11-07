@@ -5237,3 +5237,68 @@ agressive    49081.89$ +4808.2% +48382.12$17468499.87$   84/286     5
 hasard       92582.03$ +9158.2% +90493.27$12386599.22$  152/381     5
 apprentie      899.22$   -10.1%    -94.75$  104.57$  134/152     3
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 171 — 2026-11-07 13:27:23 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  75 tokens trouvés, analyse en cours…
+  11 retenus / 74 ; rejets : liquidité faible ×45, volume faible ×33, trop récent ×32, trop ancien ×13, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 54% ×1, RugCheck: Low Liquidity ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       851.27$   -14.9%   -148.73$   51.78$  247/188     0
+actuelle    114624.43$+11362.4%+115087.82$12549054.68$  170/343     5
+agressive    49127.92$ +4812.8% +48382.12$17468499.87$   84/286     5
+hasard       92613.24$ +9161.3% +90493.27$12386599.22$  152/381     5
+apprentie      899.20$   -10.1%    -94.75$  104.57$  134/152     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 172 — 2026-11-07 13:28:23 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  75 tokens trouvés, analyse en cours…
+  11 retenus / 74 ; rejets : liquidité faible ×45, volume faible ×33, trop récent ×32, trop ancien ×13, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 54% ×1, RugCheck: Low Liquidity ×1, aucune vente ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       851.27$   -14.9%   -148.73$   51.78$  247/188     0
+actuelle    114466.73$+11346.7%+115087.82$12549054.68$  170/343     5
+agressive    49054.18$ +4805.4% +48382.12$17468499.87$   84/286     5
+hasard       92680.69$ +9168.1% +90493.27$12386599.22$  152/381     5
+apprentie      899.63$   -10.0%    -94.75$  104.57$  134/152     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 173 — 2026-11-07 13:29:23 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  76 tokens trouvés, analyse en cours…
+  11 retenus / 75 ; rejets : liquidité faible ×46, trop récent ×33, volume faible ×33, trop ancien ×13, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 54% ×1, RugCheck: Low Liquidity ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       851.27$   -14.9%   -148.73$   51.78$  247/188     0
+actuelle    114328.98$+11332.9%+115087.82$12549054.68$  170/343     5
+agressive    48939.74$ +4794.0% +48382.12$17468499.87$   84/286     5
+hasard       92784.85$ +9178.5% +90493.27$12386599.22$  152/381     5
+apprentie      900.17$   -10.0%    -94.75$  104.57$  134/152     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 174 — 2026-11-07 13:30:23 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  76 tokens trouvés, analyse en cours…
+  11 retenus / 74 ; rejets : liquidité faible ×44, volume faible ×33, trop récent ×32, trop ancien ×13, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 54% ×1, RugCheck: Low Liquidity ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       851.27$   -14.9%   -148.73$   51.78$  247/188     0
+actuelle    114404.33$+11340.4%+115087.82$12549054.68$  170/343     5
+agressive    48999.53$ +4800.0% +48382.12$17468499.87$   84/286     5
+hasard       92737.82$ +9173.8% +90493.27$12386599.22$  152/381     5
+apprentie      900.36$   -10.0%    -94.75$  104.57$  134/152     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 175 — 2026-11-07 13:31:23 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  74 tokens trouvés, analyse en cours…
+  11 retenus / 72 ; rejets : liquidité faible ×43, volume faible ×31, trop récent ×28, trop ancien ×14, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 54% ×1, RugCheck: Low Liquidity ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       851.27$   -14.9%   -148.73$   51.78$  247/188     0
+actuelle    114433.73$+11343.4%+115087.82$12549054.68$  170/343     5
+agressive    49000.27$ +4800.0% +48382.12$17468499.87$   84/286     5
+hasard       92729.35$ +9172.9% +90493.27$12386599.22$  152/381     5
+apprentie      900.07$   -10.0%    -94.75$  104.57$  134/152     3
+(argent fictif — valeur nette si tout était revendu maintenant)
