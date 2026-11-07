@@ -3910,3 +3910,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 06:54:03,agressive,VENTE,Alice,0.0002977,1018.66,palier +100% PnL +500.40$ coût 5.2%
 2026-11-07 07:02:03,apprentie,VENTE,PODCAT,0.0002451,15.70,durée max 12h PnL -1.87$ coût 1.1%
 2026-11-07 07:35:02,actuelle,VENTE,Alice,0.000276,1423.80,trailing-stop PnL +609.82$ coût 7.3%
+2026-11-07 07:43:03,actuelle,ACHAT,Alice,0.0003398049573,2408.14,score 67 coût 10.3%
