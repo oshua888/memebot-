@@ -4037,3 +4037,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 20:52:06,agressive,VENTE,José,0.0007248,867.48,stop-loss (-40%) PnL -636.34$ coût 3.2%
 2026-11-07 20:52:06,agressive,ACHAT,Alice,9.087803232e-05,1464.30,score 50 coût 12.0%
 2026-11-07 20:57:06,hasard,VENTE,VETO,0.0003041,1158.73,palier +100% PnL +544.84$ coût 6.3%
+2026-11-07 21:01:06,hasard,VENTE,Jose,0.0005147,1455.69,trailing-stop PnL +244.46$ coût 3.1%
+2026-11-07 21:01:06,hasard,ACHAT,FUSE,0.0002365430279,1816.72,score 26 coût 4.9%
