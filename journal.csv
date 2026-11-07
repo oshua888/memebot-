@@ -4068,3 +4068,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 23:37:25,actuelle,ACHAT,TAOLF,0.0005492023824,2196.12,score 73 coût 4.1%
 2026-11-07 23:38:25,prudente,VENTE,TAOLF,0.0004698,6.24,stop-loss (-25%) PnL -2.19$ coût 1.0%
 2026-11-07 23:46:25,actuelle,VENTE,TAOLF,0.0003808,1469.75,stop-loss (-31%) PnL -726.37$ coût 3.5%
+2026-11-07 23:48:25,apprentie,VENTE,José,0.0009621,22.50,palier +25% PnL +4.51$ coût 1.0%
+2026-11-07 23:48:25,apprentie,ACHAT,José,0.0009720950522,18.16,score 62 coût 1.0%
