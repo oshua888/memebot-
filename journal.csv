@@ -3849,3 +3849,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 00:03:37,apprentie,ACHAT,NETWORK,0.0002753356259,17.54,score 41 coût 1.1%
 2026-11-07 00:12:38,apprentie,VENTE,VETO,0.0001904,24.89,palier +25% PnL +7.35$ coût 1.1%
 2026-11-07 00:14:38,apprentie,ACHAT,VETO,0.0001573251587,17.68,score 55 coût 1.1%
+2026-11-07 00:42:37,agressive,VENTE,COGE,0.009669,1643.85,palier +200% PnL +1092.25$ coût 2.3%
