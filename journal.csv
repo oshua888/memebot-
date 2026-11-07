@@ -4040,3 +4040,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 21:01:06,hasard,VENTE,Jose,0.0005147,1455.69,trailing-stop PnL +244.46$ coût 3.1%
 2026-11-07 21:01:06,hasard,ACHAT,FUSE,0.0002365430279,1816.72,score 26 coût 4.9%
 2026-11-07 21:15:06,prudente,VENTE,PI,0.000521,6.58,stop-loss (-21%) PnL -1.87$ coût 1.0%
+2026-11-07 21:40:06,prudente,VENTE,COGE,0.01178,5.60,palier +30% PnL +1.35$ coût 1.0%
+2026-11-07 21:41:05,actuelle,VENTE,FLOAT,0.01476,1104.22,palier +50% PnL +361.79$ coût 1.3%
+2026-11-07 21:41:05,apprentie,ACHAT,José,0.0007940950461,17.86,score 78 coût 1.0%
