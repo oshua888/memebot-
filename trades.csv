@@ -1813,3 +1813,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-07 14:31,2026-11-07 14:38,actuelle,FUSE,tendance,stop-loss (-34%),0.12,-36.86,73,126530,3.31,18.1,0.965,0.616,-20.31,17.6,75.43,0
 2026-11-07 14:39,2026-11-07 15:10,actuelle,duge,profil+tendance,stop-loss (-32%),0.52,-39.64,61,34426,4.85,3.7,3.88,0.552,-0.24,24,354,0
 2026-11-07 14:40,2026-11-07 15:10,apprentie,duge,profil+tendance,stop-loss (-26%),0.5,-26.61,60,35071,4.93,3.7,3.705,0.547,-6.91,26.59,370,0
+2026-11-07 15:37,2026-11-07 15:47,apprentie,sexcoin,boost,palier +25%,0.17,25.01,47,25639,3.52,19.0,0.445,0.489,0.26,5.12,22.58,1
