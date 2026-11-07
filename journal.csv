@@ -3967,3 +3967,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 16:48:09,apprentie,ACHAT,BTC,0.0002345419093,17.96,score 42 coût 1.1%
 2026-11-07 16:50:08,apprentie,VENTE,Leonida,0.0003697,23.00,palier +25% PnL +4.95$ coût 1.1%
 2026-11-07 17:01:07,apprentie,ACHAT,Leonida,0.00032790354,17.97,score 59 coût 1.1%
+2026-11-07 17:19:06,hasard,VENTE,NETWORK,0.0003013,1377.52,durée max 12h PnL -476.38$ coût 7.2%
+2026-11-07 17:19:06,hasard,ACHAT,Leonida,0.0003653937731,1855.49,score 67 coût 9.1%
