@@ -1803,3 +1803,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-06 11:28,2026-11-07 11:32,hasard,COGE,boost+tendance,trailing-stop,24.07,85.51,64,151832,22.0,15.7,0.619,0.695,-0.7,-4.81,3.73,1
 2026-11-07 07:43,2026-11-07 12:01,actuelle,Alice,tendance,stop-loss (-35%),4.31,-39.88,67,52041,5.69,4.6,4.528,0.606,6.22,12.04,585,0
 2026-11-07 12:00,2026-11-07 12:16,prudente,HODL,boost+tendance,stop-loss (-25%),0.27,-25.72,76,168737,24.36,12.8,0.913,0.75,12.19,0.97,5.19,1
+2026-11-07 11:28,2026-11-07 12:24,apprentie,STANK,tendance,palier +25%,0.93,28.26,46,124283,20.64,213.5,0.258,0.357,10.36,34.46,64.73,0
