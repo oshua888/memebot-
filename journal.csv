@@ -3904,3 +3904,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 06:36:04,actuelle,ACHAT,Twizter,0.0001516370414,2426.95,score 63 coût 18.7%
 2026-11-07 06:48:03,actuelle,VENTE,Twizter,2.09e-06,32.06,stop-loss (-99%) PnL -2394.89$ coût 4.1%
 2026-11-07 06:48:03,agressive,VENTE,Twizter,2.09e-06,19.53,stop-loss (-99%) PnL -1546.45$ coût 2.9%
+2026-11-07 06:51:03,actuelle,ACHAT,MUTTAPE,0.001092929046,2381.17,score 60 coût 6.8%
+2026-11-07 06:51:03,agressive,ACHAT,MUTTAPE,0.001071723295,1535.35,score 60 coût 4.8%
+2026-11-07 06:54:03,actuelle,VENTE,Alice,0.0002977,1531.62,palier +100% PnL +717.64$ coût 7.5%
+2026-11-07 06:54:03,agressive,VENTE,Alice,0.0002977,1018.66,palier +100% PnL +500.40$ coût 5.2%
