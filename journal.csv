@@ -4034,3 +4034,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 20:43:06,hasard,VENTE,STANK,0.001279,1161.07,stop-loss (-33%) PnL -655.01$ coût 4.2%
 2026-11-07 20:43:06,hasard,ACHAT,FLOAT,0.0117391565,1818.27,score 52 coût 1.5%
 2026-11-07 20:47:06,apprentie,ACHAT,Leonida,0.0002206944466,17.88,score 56 coût 1.1%
+2026-11-07 20:52:06,agressive,VENTE,José,0.0007248,867.48,stop-loss (-40%) PnL -636.34$ coût 3.2%
+2026-11-07 20:52:06,agressive,ACHAT,Alice,9.087803232e-05,1464.30,score 50 coût 12.0%
