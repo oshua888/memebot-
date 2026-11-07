@@ -3872,10 +3872,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 02:45:37,prudente,ACHAT,coin,0.0006562436528,8.67,score 70 coût 1.0%
 2026-11-07 02:47:37,prudente,VENTE,Leonida,0.0002077,4.72,trailing-stop PnL +0.45$ coût 1.0%
 2026-11-07 03:01:37,prudente,VENTE,COGE,0.01549,6.58,trailing-stop PnL +4.45$ coût 1.0%
-2026-11-07 03:13:38,apprentie,ACHAT,STANK,0.002017612519,17.91,score 56 coût 1.0%
-2026-11-07 03:15:38,hasard,VENTE,VETO,0.0002383,900.47,palier +50% PnL +295.74$ coût 5.7%
-2026-11-07 03:18:38,prudente,VENTE,coin,0.0005145,6.73,stop-loss (-22%) PnL -1.94$ coût 1.0%
-2026-11-07 03:34:38,apprentie,VENTE,BAGEL,0.001007,21.44,palier +25% PnL +4.11$ coût 1.1%
-2026-11-07 04:33:38,hasard,VENTE,WEALTH,0.0004313,872.12,palier +50% PnL +267.87$ coût 4.3%
-2026-11-07 04:53:38,hasard,VENTE,VETO,0.000211,1545.37,trailing-stop PnL +317.59$ coût 10.0%
-2026-11-07 04:55:38,hasard,ACHAT,NETWORK,0.0003463228835,1871.66,score 58 coût 8.6%
+2026-11-07 05:00:06,prudente,VENTE,coin,0.0005166,6.76,stop-loss (-21%) PnL -1.91$ coût 1.0%
+2026-11-07 05:00:06,apprentie,VENTE,BAGEL,0.0009994,21.28,durée max 12h PnL +3.95$ coût 1.1%
