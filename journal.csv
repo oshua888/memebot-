@@ -3902,3 +3902,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 06:35:05,actuelle,VENTE,Alice,0.0002303,1177.32,palier +50% PnL +375.49$ coût 6.7%
 2026-11-07 06:36:04,actuelle,VENTE,coin,0.0004217,1632.49,stop-loss (-31%) PnL -902.36$ coût 6.7%
 2026-11-07 06:36:04,actuelle,ACHAT,Twizter,0.0001516370414,2426.95,score 63 coût 18.7%
+2026-11-07 06:48:03,actuelle,VENTE,Twizter,2.09e-06,32.06,stop-loss (-99%) PnL -2394.89$ coût 4.1%
+2026-11-07 06:48:03,agressive,VENTE,Twizter,2.09e-06,19.53,stop-loss (-99%) PnL -1546.45$ coût 2.9%
