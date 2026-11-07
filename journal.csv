@@ -3914,3 +3914,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 07:50:03,actuelle,VENTE,MUTTAPE,0.0006388,1317.76,stop-loss (-42%) PnL -1063.40$ coût 5.3%
 2026-11-07 07:50:03,agressive,VENTE,MUTTAPE,0.0006388,880.02,stop-loss (-40%) PnL -655.33$ coût 3.8%
 2026-11-07 07:50:03,agressive,ACHAT,FLOAT,0.006183337546,1535.80,score 54 coût 1.6%
+2026-11-07 08:31:03,hasard,VENTE,WEALTH,0.0006024,1228.52,palier +100% PnL +615.11$ coût 4.9%
