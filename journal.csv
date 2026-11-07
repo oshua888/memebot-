@@ -3899,3 +3899,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 06:19:03,agressive,ACHAT,Twizter,0.0001627417376,1565.98,score 64 coût 11.7%
 2026-11-07 06:20:03,hasard,VENTE,PODCAT,0.000246,1400.35,durée max 12h PnL -427.49$ coût 7.0%
 2026-11-07 06:20:03,hasard,ACHAT,FLOAT,0.005999222505,1875.81,score 31 coût 1.8%
+2026-11-07 06:35:05,actuelle,VENTE,Alice,0.0002303,1177.32,palier +50% PnL +375.49$ coût 6.7%
+2026-11-07 06:36:04,actuelle,VENTE,coin,0.0004217,1632.49,stop-loss (-31%) PnL -902.36$ coût 6.7%
+2026-11-07 06:36:04,actuelle,ACHAT,Twizter,0.0001516370414,2426.95,score 63 coût 18.7%
