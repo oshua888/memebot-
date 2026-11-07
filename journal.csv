@@ -3889,3 +3889,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 05:25:03,actuelle,VENTE,STM,7.841e-05,1380.57,stop-loss (-34%) PnL -1109.82$ coût 15.5%
 2026-11-07 05:31:03,actuelle,ACHAT,NETWORK,0.0004204729361,2424.52,score 60 coût 10.0%
 2026-11-07 05:39:04,apprentie,ACHAT,MUTTAPE,0.0009361984097,18.04,score 63 coût 1.0%
+2026-11-07 05:43:04,apprentie,VENTE,MUTTAPE,0.0006228,11.87,stop-loss (-33%) PnL -6.16$ coût 1.0%
+2026-11-07 05:43:04,apprentie,ACHAT,Rocco,0.0007714620472,17.91,score 61 coût 1.0%
