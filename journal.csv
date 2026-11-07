@@ -3867,3 +3867,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 02:10:37,apprentie,ACHAT,HODL,0.004028747469,17.86,score 72 coût 1.0%
 2026-11-07 02:30:39,prudente,VENTE,HODL,0.003536,4.93,trailing-stop PnL +0.62$ coût 1.0%
 2026-11-07 02:30:39,prudente,ACHAT,HODL,0.003571755447,8.66,score 81 coût 1.0%
+2026-11-07 02:35:37,actuelle,VENTE,AMD,0.001737,1777.37,durée max 12h PnL -752.18$ coût 4.3%
+2026-11-07 02:35:37,actuelle,ACHAT,coin,0.0006108254787,2534.85,score 66 coût 8.1%
