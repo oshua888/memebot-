@@ -3947,3 +3947,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 12:38:34,apprentie,VENTE,HODL,0.002904,12.74,stop-loss (-28%) PnL -5.12$ coût 1.0%
 2026-11-07 12:42:33,actuelle,ACHAT,STANK,0.003210086933,2296.32,score 60 coût 4.4%
 2026-11-07 13:43:35,apprentie,ACHAT,DACITY,0.0002053402978,18.03,score 57 coût 1.1%
+2026-11-07 13:50:36,actuelle,VENTE,HODL,0.003531,2560.36,durée max 12h PnL +38.15$ coût 4.4%
+2026-11-07 13:50:36,actuelle,ACHAT,HODL,0.003670040212,2299.53,score 72 coût 3.9%
