@@ -1860,3 +1860,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-07 22:25,2026-11-07 23:24,hasard,FUSE,tendance,stop-loss (-44%),0.98,-46.43,30,84806,2.23,26.0,0.387,0.536,0.13,-8.34,-22.3,0
 2026-11-07 22:17,2026-11-07 23:30,actuelle,HOPE,boost,stop-loss (-30%),1.22,-40.33,68,25087,4.27,8.5,0.523,0.787,1.31,17.45,18.84,1
 2026-11-07 23:01,2026-11-07 23:37,actuelle,TAOLF,profil+tendance,trailing-stop,0.6,29.48,73,125840,3.21,2.0,3.525,0.601,2.29,49.41,208,0
+2026-11-07 23:35,2026-11-07 23:38,prudente,TAOLF,profil+tendance,stop-loss (-25%),0.05,-25.94,74,153598,4.05,2.6,4.623,0.597,-11.6,52.25,373,0
