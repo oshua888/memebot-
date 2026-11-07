@@ -3939,3 +3939,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 12:00:35,prudente,ACHAT,HODL,0.004169697583,8.53,score 76 coût 1.0%
 2026-11-07 12:01:35,actuelle,VENTE,Alice,0.0002223,1447.76,stop-loss (-35%) PnL -960.38$ coût 8.1%
 2026-11-07 12:16:34,prudente,VENTE,HODL,0.003129,6.34,stop-loss (-25%) PnL -2.19$ coût 1.0%
+2026-11-07 12:20:34,actuelle,ACHAT,FLOAT,0.006138533604,2300.85,score 60 coût 2.0%
