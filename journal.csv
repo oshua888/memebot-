@@ -3873,3 +3873,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 02:47:37,prudente,VENTE,Leonida,0.0002077,4.72,trailing-stop PnL +0.45$ coût 1.0%
 2026-11-07 03:01:37,prudente,VENTE,COGE,0.01549,6.58,trailing-stop PnL +4.45$ coût 1.0%
 2026-11-07 03:13:38,apprentie,ACHAT,STANK,0.002017612519,17.91,score 56 coût 1.0%
+2026-11-07 03:15:38,hasard,VENTE,VETO,0.0002383,900.47,palier +50% PnL +295.74$ coût 5.7%
+2026-11-07 03:18:38,prudente,VENTE,coin,0.0005145,6.73,stop-loss (-22%) PnL -1.94$ coût 1.0%
