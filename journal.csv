@@ -3973,3 +3973,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 17:29:06,apprentie,VENTE,Leonida,0.000429,23.25,palier +25% PnL +5.28$ coût 1.1%
 2026-11-07 17:29:06,apprentie,ACHAT,sexcoin,9.874452938e-05,18.18,score 44 coût 1.1%
 2026-11-07 17:40:06,prudente,ACHAT,COGE,0.008859302651,8.51,score 70 coût 1.0%
+2026-11-07 18:20:06,hasard,VENTE,FLOAT,0.006374,1957.16,durée max 12h PnL +81.35$ coût 1.8%
+2026-11-07 18:20:06,hasard,ACHAT,sexcoin,0.000130562211,1871.99,score 45 coût 14.1%
+2026-11-07 18:21:05,actuelle,VENTE,HODL,0.005693,1151.56,palier +50% PnL +392.71$ coût 2.2%
