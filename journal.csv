@@ -3886,3 +3886,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 05:19:04,hasard,VENTE,AMD,0.001574,1198.24,stop-loss (-32%) PnL -610.55$ coût 3.3%
 2026-11-07 05:19:04,hasard,ACHAT,NETWORK,0.0003762062542,1853.90,score 59 coût 8.2%
 2026-11-07 05:22:03,actuelle,ACHAT,Alice,0.0001463283523,2429.78,score 66 coût 16.2%
+2026-11-07 05:25:03,actuelle,VENTE,STM,7.841e-05,1380.57,stop-loss (-34%) PnL -1109.82$ coût 15.5%
