@@ -3986,3 +3986,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 19:05:05,hasard,VENTE,sexcoin,8.795e-05,1118.25,stop-loss (-33%) PnL -753.74$ coût 11.3%
 2026-11-07 19:05:05,hasard,ACHAT,FLOAT,0.008295633512,1837.66,score 52 coût 1.6%
 2026-11-07 19:05:05,apprentie,VENTE,STANK,0.002288,13.08,stop-loss (-27%) PnL -5.04$ coût 1.0%
+2026-11-07 19:11:05,hasard,VENTE,WEALTH,0.0009954,2007.64,trailing-stop PnL +1394.24$ coût 6.0%
+2026-11-07 19:11:05,hasard,ACHAT,WEALTH,0.001047783612,1831.38,score 53 coût 5.3%
+2026-11-07 19:12:05,actuelle,VENTE,STANK,0.002191,1507.49,stop-loss (-32%) PnL -788.83$ coût 3.8%
+2026-11-07 19:12:05,actuelle,ACHAT,José,0.001303082685,2274.83,score 62 coût 5.3%
