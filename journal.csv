@@ -4062,3 +4062,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 23:22:26,prudente,VENTE,TAOLF,0.0006182,3.14,trailing-stop PnL +1.04$ coût 1.0%
 2026-11-07 23:24:26,hasard,VENTE,FUSE,0.0001111,950.56,stop-loss (-44%) PnL -823.96$ coût 4.0%
 2026-11-07 23:24:26,hasard,ACHAT,WASTED,0.0008171746619,1762.61,score 45 coût 5.1%
+2026-11-07 23:30:26,actuelle,VENTE,HOPE,9.087e-05,1317.74,stop-loss (-30%) PnL -890.65$ coût 14.6%
