@@ -4046,3 +4046,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 22:17:25,agressive,ACHAT,HOPE,0.0001231465168,1412.09,score 68 coût 12.3%
 2026-11-07 22:25:25,hasard,VENTE,Alice,7.259e-05,1130.56,stop-loss (-31%) PnL -702.11$ coût 11.2%
 2026-11-07 22:25:25,hasard,ACHAT,FUSE,0.0001990098831,1774.53,score 30 coût 5.2%
+2026-11-07 22:33:24,prudente,VENTE,PI,0.0005043,6.37,stop-loss (-24%) PnL -2.08$ coût 1.0%
+2026-11-07 22:35:25,actuelle,ACHAT,GIGAHUG,0.001276402102,2190.32,score 64 coût 5.9%
+2026-11-07 22:35:25,apprentie,ACHAT,GIGAHUG,0.00121753502,17.90,score 64 coût 1.0%
