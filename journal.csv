@@ -4062,3 +4062,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 21:59:05,prudente,VENTE,FLOAT,0.01203,4.41,trailing-stop PnL +0.16$ coût 1.0%
 2026-11-07 22:00:06,prudente,ACHAT,COGE,0.004198976781,8.47,score 70 coût 1.0%
 2026-11-07 22:01:06,prudente,ACHAT,FLOAT,0.01318080912,8.47,score 71 coût 1.0%
+2026-11-07 22:03:06,actuelle,VENTE,COGE,0.003653,1520.89,stop-loss (-31%) PnL -744.94$ coût 2.9%
