@@ -1798,3 +1798,6 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-07 05:48,2026-11-07 11:12,agressive,Alice,profil,trailing-stop,5.41,71.27,66,32466,3.84,2.7,2.699,0.608,-3.98,14.81,188,0
 2026-11-07 08:58,2026-11-07 11:12,apprentie,Alice,nouveau+tendance,stop-loss (-25%),2.24,-26.22,54,54420,5.85,5.9,1.684,0.591,-2.38,0.5,637,0
 2026-11-07 10:48,2026-11-07 11:28,apprentie,STANK,tendance,palier +25%,0.67,29.66,42,107932,17.95,212.9,0.087,0.5,-3.19,5.9,7.73,0
+2026-11-06 11:26,2026-11-07 11:32,actuelle,COGE,boost+tendance,trailing-stop,24.1,81.8,63,155355,22.5,15.6,0.593,0.694,1.11,-0.41,13.81,1
+2026-11-05 22:38,2026-11-07 11:32,agressive,COGE,boost,trailing-stop,36.9,141.93,50,143074,21.36,2.8,1.013,0.635,6.02,155,6093,1
+2026-11-06 11:28,2026-11-07 11:32,hasard,COGE,boost+tendance,trailing-stop,24.07,85.51,64,151832,22.0,15.7,0.619,0.695,-0.7,-4.81,3.73,1
