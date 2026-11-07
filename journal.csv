@@ -3982,3 +3982,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 18:51:05,prudente,VENTE,Leonida,0.0003103,6.57,stop-loss (-22%) PnL -1.93$ coût 1.0%
 2026-11-07 18:59:06,apprentie,VENTE,ANTS,0.0008009,22.06,palier +25% PnL +4.24$ coût 1.1%
 2026-11-07 19:00:06,prudente,VENTE,ANTS,0.000861,5.66,palier +30% PnL +1.41$ coût 1.0%
+2026-11-07 19:04:05,apprentie,VENTE,MAMESUKE,0.0006378,13.17,stop-loss (-26%) PnL -4.89$ coût 1.0%
+2026-11-07 19:05:05,hasard,VENTE,sexcoin,8.795e-05,1118.25,stop-loss (-33%) PnL -753.74$ coût 11.3%
+2026-11-07 19:05:05,hasard,ACHAT,FLOAT,0.008295633512,1837.66,score 52 coût 1.6%
+2026-11-07 19:05:05,apprentie,VENTE,STANK,0.002288,13.08,stop-loss (-27%) PnL -5.04$ coût 1.0%
