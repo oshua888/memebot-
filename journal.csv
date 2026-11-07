@@ -3928,3 +3928,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 11:12:36,agressive,VENTE,Alice,0.0002499,1671.06,trailing-stop PnL +618.83$ coût 8.8%
 2026-11-07 11:12:36,apprentie,VENTE,Alice,0.0002499,13.20,stop-loss (-25%) PnL -4.69$ coût 1.1%
 2026-11-07 11:14:35,apprentie,ACHAT,Leonida,0.0002868829966,18.05,score 39 coût 1.1%
+2026-11-07 11:28:35,apprentie,VENTE,STANK,0.002564,23.37,palier +25% PnL +5.35$ coût 1.0%
+2026-11-07 11:28:35,apprentie,ACHAT,STANK,0.002590385998,18.08,score 46 coût 1.0%
