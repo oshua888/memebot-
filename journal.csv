@@ -3874,3 +3874,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 03:01:37,prudente,VENTE,COGE,0.01549,6.58,trailing-stop PnL +4.45$ coût 1.0%
 2026-11-07 05:00:06,prudente,VENTE,coin,0.0005166,6.76,stop-loss (-21%) PnL -1.91$ coût 1.0%
 2026-11-07 05:00:06,apprentie,VENTE,BAGEL,0.0009994,21.28,durée max 12h PnL +3.95$ coût 1.1%
+2026-11-07 05:12:05,apprentie,VENTE,NETWORK,0.0003451,21.74,palier +25% PnL +4.20$ coût 1.1%
+2026-11-07 05:13:03,prudente,VENTE,DCAT,2.346e-06,0.06,stop-loss (-99%) PnL -8.51$ coût 1.0%
+2026-11-07 05:13:03,actuelle,VENTE,DCAT,2.346e-06,15.17,stop-loss (-99%) PnL -2502.67$ coût 2.3%
+2026-11-07 05:13:03,agressive,VENTE,DCAT,2.346e-06,10.49,stop-loss (-99%) PnL -1667.99$ coût 1.9%
+2026-11-07 05:13:03,agressive,ACHAT,NETWORK,0.0003662313087,1671.90,score 59 coût 7.6%
+2026-11-07 05:14:04,actuelle,ACHAT,STM,0.0001195104492,2490.39,score 60 coût 20.8%
