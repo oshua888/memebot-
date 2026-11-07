@@ -3861,3 +3861,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 01:49:37,actuelle,ACHAT,HODL,0.003324560207,2522.20,score 79 coût 4.4%
 2026-11-07 01:50:37,agressive,VENTE,WEALTH,0.0002365,922.83,stop-loss (-40%) PnL -723.63$ coût 5.8%
 2026-11-07 01:50:37,agressive,ACHAT,HODL,0.003126911142,1689.23,score 79 coût 3.4%
+2026-11-07 02:09:36,prudente,VENTE,Leonida,0.0002444,5.56,palier +30% PnL +1.28$ coût 1.0%
+2026-11-07 02:10:37,prudente,VENTE,HODL,0.003988,5.55,palier +30% PnL +1.25$ coût 1.0%
+2026-11-07 02:10:37,apprentie,VENTE,HODL,0.003988,22.73,palier +25% PnL +5.05$ coût 1.0%
+2026-11-07 02:10:37,apprentie,ACHAT,HODL,0.004028747469,17.86,score 72 coût 1.0%
