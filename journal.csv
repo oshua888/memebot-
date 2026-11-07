@@ -3978,3 +3978,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-07 18:21:05,actuelle,VENTE,HODL,0.005693,1151.56,palier +50% PnL +392.71$ coût 2.2%
 2026-11-07 18:29:05,actuelle,VENTE,HODL,0.004139,1684.88,trailing-stop PnL +144.20$ coût 3.0%
 2026-11-07 18:29:05,actuelle,ACHAT,HODL,0.004289704494,2259.14,score 77 coût 3.6%
+2026-11-07 18:36:06,apprentie,VENTE,BTC,0.0003145,23.82,palier +25% PnL +5.86$ coût 1.1%
