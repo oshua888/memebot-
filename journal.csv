@@ -4125,3 +4125,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 09:32:07,apprentie,ACHAT,GIGAHUG,0.001548877929,18.28,score 70 coût 1.0%
 2026-11-08 09:41:07,apprentie,VENTE,BTC,0.0006613,22.24,palier +25% PnL +4.35$ coût 1.1%
 2026-11-08 09:41:07,apprentie,ACHAT,BTC,0.0006682814046,18.26,score 54 coût 1.1%
+2026-11-08 09:44:07,prudente,VENTE,HEREWEGO,0.001412,5.07,trailing-stop PnL +0.87$ coût 1.0%
