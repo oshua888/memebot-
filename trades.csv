@@ -1882,3 +1882,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-08 04:37,2026-11-08 04:57,hasard,HABIBI,profil,stop-loss (-98%),0.33,-98.52,60,25648,4.33,2.3,3.795,0.777,-13.37,-49.41,155,0
 2026-11-08 03:28,2026-11-08 05:07,actuelle,Respect,boost+profil,stop-loss (-30%),1.65,-35.16,75,57802,9.07,2.8,1.808,0.81,12.01,30.6,1193,1
 2026-11-08 03:28,2026-11-08 05:07,apprentie,Respect,boost+profil,stop-loss (-25%),1.65,-25.89,75,57802,9.07,2.8,1.808,0.81,12.01,30.6,1193,1
+2026-11-08 03:28,2026-11-08 05:47,apprentie,BTC,tendance,palier +25%,2.32,28.63,50,50163,7.79,14.2,0.305,0.52,0.16,19.7,49.12,0
