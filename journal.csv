@@ -4141,3 +4141,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 10:51:08,agressive,ACHAT,yarl,0.0002793449077,1379.24,score 51 coût 7.7%
 2026-11-08 11:04:08,actuelle,VENTE,HEREWEGO,0.001853,1061.35,palier +50% PnL +345.43$ coût 2.9%
 2026-11-08 11:04:08,apprentie,VENTE,HEREWEGO,0.001853,22.44,palier +25% PnL +4.49$ coût 1.0%
+2026-11-08 11:25:08,hasard,VENTE,WASTED,0.0008779,1796.08,durée max 12h PnL +33.47$ coût 5.1%
+2026-11-08 11:25:08,hasard,ACHAT,FLOAT,0.01390866786,1697.21,score 53 coût 1.4%
