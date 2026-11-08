@@ -4224,3 +4224,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 17:45:34,apprentie,VENTE,ELYSION,0.003755,12.52,stop-loss (-31%) PnL -5.92$ coût 1.0%
 2026-11-08 17:46:33,actuelle,VENTE,MAGGIE,0.0003773,1327.15,stop-loss (-34%) PnL -792.65$ coût 5.7%
 2026-11-08 17:46:33,hasard,VENTE,MAGGIE,0.0003773,1099.55,stop-loss (-33%) PnL -622.63$ coût 4.9%
+2026-11-08 17:48:33,agressive,ACHAT,FLOAT,0.01306065902,1403.60,score 51 coût 1.4%
+2026-11-08 17:50:33,actuelle,VENTE,ELYSION,0.003244,1408.70,stop-loss (-31%) PnL -698.72$ coût 2.9%
