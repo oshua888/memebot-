@@ -4251,3 +4251,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 20:37:58,hasard,VENTE,Elysion Pad,9.142e-05,732.40,stop-loss (-53%) PnL -927.07$ coût 6.7%
 2026-11-08 20:37:58,hasard,ACHAT,WEALTH,0.0004992150438,1638.05,score 16 coût 6.5%
 2026-11-08 20:48:58,apprentie,ACHAT,STANK,0.002045162021,18.33,score 55 coût 1.0%
+2026-11-08 20:53:58,actuelle,ACHAT,Alice,0.0001670893752,2053.76,score 60 coût 11.8%
+2026-11-08 20:55:58,actuelle,VENTE,FLOAT,0.01409,2334.88,durée max 12h PnL +203.85$ coût 1.6%
