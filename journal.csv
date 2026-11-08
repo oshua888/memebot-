@@ -4128,3 +4128,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 09:44:07,prudente,VENTE,HEREWEGO,0.001412,5.07,trailing-stop PnL +0.87$ coût 1.0%
 2026-11-08 09:50:07,actuelle,VENTE,CALYPSO,0.0002429,1185.61,stop-loss (-40%) PnL -954.26$ coût 7.7%
 2026-11-08 09:50:07,apprentie,VENTE,CALYPSO,0.0002429,11.74,stop-loss (-35%) PnL -6.44$ coût 1.1%
+2026-11-08 09:58:07,apprentie,VENTE,GIGAHUG,0.001144,13.36,stop-loss (-26%) PnL -4.92$ coût 1.0%
