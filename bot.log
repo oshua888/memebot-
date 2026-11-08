@@ -7039,3 +7039,71 @@ agressive    44593.23$ +4359.3% +45013.58$17470416.24$   93/298     5
 hasard       84552.39$ +8355.2% +83502.92$12392525.84$  174/402     4
 apprentie      913.82$    -8.6%    -83.11$  117.56$  153/167     2
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 306 — 2026-11-08 19:18:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  82 tokens trouvés, analyse en cours…
+  14 retenus / 79 ; rejets : liquidité faible ×49, trop récent ×40, volume faible ×27, trop ancien ×10, FDV/liquidité trop élevé ×5, RugCheck: Creator history of rugged tokens ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       827.91$   -17.2%   -173.50$   55.08$  258/203     1
+actuelle    104358.97$+10335.9%+102694.43$12555721.10$  186/366     2
+agressive    44558.45$ +4355.8% +45013.58$17470416.24$   93/298     5
+hasard       84678.27$ +8367.8% +83502.92$12392525.84$  174/402     4
+apprentie      913.66$    -8.6%    -83.11$  117.56$  153/167     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 307 — 2026-11-08 19:19:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  81 tokens trouvés, analyse en cours…
+  15 retenus / 79 ; rejets : liquidité faible ×48, trop récent ×39, volume faible ×27, trop ancien ×10, FDV/liquidité trop élevé ×5, RugCheck: Creator history of rugged tokens ×1
+  [hasard] ACHAT SLINGOOR @ 0.0002703831$ — 1691.84$ score 46 coût 8.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       827.83$   -17.2%   -173.50$   55.08$  258/203     1
+actuelle    104307.70$+10330.8%+102694.43$12555721.10$  186/366     2
+agressive    44494.64$ +4349.5% +45013.58$17470416.24$   93/298     5
+hasard       84347.84$ +8334.8% +83502.92$12392652.13$  174/402     5
+apprentie      913.47$    -8.7%    -83.11$  117.56$  153/167     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 308 — 2026-11-08 19:20:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  15 retenus / 77 ; rejets : liquidité faible ×46, trop récent ×37, volume faible ×25, trop ancien ×10, FDV/liquidité trop élevé ×4, RugCheck: Creator history of rugged tokens ×1
+  [prudente] VENTE BTC @ 0.0006924$ — 5.09$ trailing-stop PnL +0.96$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       827.46$   -17.3%   -172.54$   55.13$  259/203     0
+actuelle    104143.43$+10314.3%+102694.43$12555721.10$  186/366     2
+agressive    44604.34$ +4360.4% +45013.58$17470416.24$   93/298     5
+hasard       84305.60$ +8330.6% +83502.92$12392652.13$  174/402     5
+apprentie      913.56$    -8.6%    -83.11$  117.56$  153/167     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 309 — 2026-11-08 19:21:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  79 tokens trouvés, analyse en cours…
+  15 retenus / 77 ; rejets : liquidité faible ×46, trop récent ×37, volume faible ×26, trop ancien ×10, FDV/liquidité trop élevé ×4, RugCheck: Creator history of rugged tokens ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       827.46$   -17.3%   -172.54$   55.13$  259/203     0
+actuelle    104170.47$+10317.0%+102694.43$12555721.10$  186/366     2
+agressive    44617.91$ +4361.8% +45013.58$17470416.24$   93/298     5
+hasard       84197.48$ +8319.7% +83502.92$12392652.13$  174/402     5
+apprentie      913.96$    -8.6%    -83.11$  117.56$  153/167     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 310 — 2026-11-08 19:22:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  79 tokens trouvés, analyse en cours…
+  15 retenus / 77 ; rejets : liquidité faible ×46, trop récent ×37, volume faible ×26, trop ancien ×10, FDV/liquidité trop élevé ×4, RugCheck: Creator history of rugged tokens ×1
+  [actuelle] ACHAT SLINGOOR @ 0.00028620188$ — 2085.84$ score 61 coût 9.4%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       827.46$   -17.3%   -172.54$   55.13$  259/203     0
+actuelle    103946.07$+10294.6%+102694.43$12555901.13$  186/366     3
+agressive    44598.74$ +4359.9% +45013.58$17470416.24$   93/298     5
+hasard       84418.62$ +8341.9% +83502.92$12392652.13$  174/402     5
+apprentie      914.24$    -8.6%    -83.11$  117.56$  153/167     2
+(argent fictif — valeur nette si tout était revendu maintenant)
