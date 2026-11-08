@@ -4107,3 +4107,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 04:56:46,actuelle,VENTE,HABIBI,0.0001451,1309.00,stop-loss (-32%) PnL -838.84$ coût 10.1%
 2026-11-08 04:57:46,hasard,VENTE,HABIBI,1.972e-06,25.64,stop-loss (-98%) PnL -1706.71$ coût 3.6%
 2026-11-08 04:58:46,hasard,ACHAT,TAOLF,1.999823511e-05,1700.00,score 6 coût 12.0%
+2026-11-08 05:05:46,apprentie,ACHAT,BRUH,0.0006907021938,17.77,score 50 coût 1.1%
+2026-11-08 05:07:46,actuelle,VENTE,Respect,0.0004003,1412.46,stop-loss (-30%) PnL -765.88$ coût 7.0%
+2026-11-08 05:07:46,apprentie,VENTE,Respect,0.0004003,13.32,stop-loss (-25%) PnL -4.65$ coût 1.1%
