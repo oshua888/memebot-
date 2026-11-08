@@ -4243,3 +4243,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 19:48:56,apprentie,VENTE,STANK,0.002496,24.06,palier +25% PnL +5.77$ coût 1.1%
 2026-11-08 19:52:57,hasard,ACHAT,Elysion Pad,0.0001933444979,1659.47,score 42 coût 9.5%
 2026-11-08 19:53:58,apprentie,ACHAT,timmy,0.0002563750585,18.41,score 26 coût 1.1%
+2026-11-08 19:58:58,actuelle,ACHAT,timmy,0.000331052502,2072.51,score 64 coût 15.2%
+2026-11-08 20:00:57,actuelle,VENTE,timmy,0.0002174,1201.76,stop-loss (-34%) PnL -870.75$ coût 11.7%
