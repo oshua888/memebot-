@@ -1910,3 +1910,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-08 13:16,2026-11-08 13:29,prudente,BTC,tendance,trailing-stop,0.22,33.52,71,74504,11.11,24.0,0.64,0.671,11.66,19.09,72.64,0
 2026-11-08 12:18,2026-11-08 13:40,hasard,yarl,tendance,trailing-stop,1.37,26.99,51,29094,4.33,4.1,4.089,0.608,-4.39,-34.05,257,0
 2026-11-08 13:40,2026-11-08 14:08,hasard,yarl,tendance,stop-loss (-31%),0.47,-36.63,68,34868,5.03,5.5,2.699,0.62,-3.88,59.01,397,0
+2026-11-08 14:15,2026-11-08 14:41,prudente,MAGGIE,tendance,stop-loss (-20%),0.43,-20.93,78,53606,5.99,14.2,2.295,0.592,3.22,42.03,6.69,0
