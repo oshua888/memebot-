@@ -4182,3 +4182,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 14:46:31,hasard,ACHAT,BTC,0.0009960778856,1694.26,score 37 coût 5.3%
 2026-11-08 15:10:32,actuelle,ACHAT,BTC,0.001003959743,2118.45,score 63 coût 6.3%
 2026-11-08 15:12:31,hasard,VENTE,TAOLF,3.075e-05,822.03,palier +50% PnL +261.03$ coût 4.7%
+2026-11-08 15:17:30,prudente,VENTE,BTC,0.0007907,6.30,stop-loss (-23%) PnL -2.02$ coût 1.0%
+2026-11-08 15:17:30,agressive,VENTE,BTC,0.0007907,1052.38,trailing-stop PnL +574.81$ coût 4.0%
+2026-11-08 15:17:30,agressive,ACHAT,BTC,0.0008295115399,1428.89,score 65 coût 4.9%
+2026-11-08 15:17:30,apprentie,VENTE,BTC,0.0007907,13.26,stop-loss (-27%) PnL -5.10$ coût 1.0%
