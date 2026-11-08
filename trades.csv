@@ -1923,3 +1923,5 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-07 07:50,2026-11-08 17:00,agressive,FLOAT,tendance,trailing-stop,33.18,83.12,54,485423,12.52,225.6,0.017,0.634,0.1,2.2,3.1,0
 2026-11-08 14:13,2026-11-08 17:02,actuelle,MAGGIE,tendance,trailing-stop,2.82,77.39,68,52115,5.84,14.2,2.357,0.595,-4.57,29.65,-2.56,0
 2026-11-08 14:13,2026-11-08 17:02,hasard,MAGGIE,tendance,trailing-stop,2.82,77.34,68,52115,5.84,14.2,2.357,0.595,-4.57,29.65,-2.56,0
+2026-11-08 14:44,2026-11-08 17:04,agressive,MAGGIE,tendance,trailing-stop,2.34,73.19,67,49002,5.49,14.7,2.408,0.58,1.08,6.11,-14.61,0
+2026-11-08 16:58,2026-11-08 17:06,apprentie,ELYSION,boost,palier +25%,0.14,27.68,47,146605,21.82,2.0,0.999,0.603,7.83,89.48,6138,1

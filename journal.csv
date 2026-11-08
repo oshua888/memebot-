@@ -4207,3 +4207,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 17:02:33,actuelle,ACHAT,MAGGIE,0.0005680161136,2119.80,score 62 coût 7.0%
 2026-11-08 17:02:33,hasard,VENTE,MAGGIE,0.0005307,869.64,trailing-stop PnL +298.57$ coût 3.6%
 2026-11-08 17:02:33,hasard,ACHAT,MAGGIE,0.0005620121348,1722.18,score 62 coût 5.9%
+2026-11-08 17:04:42,agressive,VENTE,MAGGIE,0.0004799,1457.64,trailing-stop PnL +507.59$ coût 5.6%
+2026-11-08 17:04:42,agressive,ACHAT,MAGGIE,0.0005050482421,1413.22,score 62 coût 5.2%
+2026-11-08 17:06:58,apprentie,VENTE,ELYSION,0.004186,23.28,palier +25% PnL +5.05$ coût 1.0%
+2026-11-08 17:06:58,apprentie,ACHAT,ELYSION,0.00422877328,18.34,score 56 coût 1.0%
