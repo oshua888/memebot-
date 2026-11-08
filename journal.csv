@@ -4266,3 +4266,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 23:25:57,hasard,ACHAT,Alice,0.0002369125529,1617.58,score 53 coût 8.0%
 2026-11-08 23:43:56,prudente,VENTE,GPU,2.475e-06,0.16,stop-loss (-98%) PnL -8.04$ coût 1.0%
 2026-11-08 23:43:56,actuelle,VENTE,GPU,2.475e-06,34.61,stop-loss (-98%) PnL -1998.05$ coût 2.9%
+2026-11-08 23:49:56,apprentie,ACHAT,george,0.000179942228,18.16,score 37 coût 1.1%
