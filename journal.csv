@@ -4158,3 +4158,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 13:16:07,prudente,ACHAT,BTC,0.0008477787872,8.29,score 71 coût 1.0%
 2026-11-08 13:16:07,apprentie,VENTE,BTC,0.0008392,22.69,palier +25% PnL +4.43$ coût 1.1%
 2026-11-08 13:16:07,apprentie,ACHAT,BTC,0.0008480035133,18.27,score 71 coût 1.0%
+2026-11-08 13:20:06,agressive,VENTE,BTC,0.001036,1372.28,palier +200% PnL +894.71$ coût 4.5%
+2026-11-08 13:21:08,apprentie,VENTE,BTC,0.001072,22.85,palier +25% PnL +4.58$ coût 1.1%
+2026-11-08 13:21:08,apprentie,ACHAT,BTC,0.001083185215,18.36,score 85 coût 1.0%
