@@ -4092,3 +4092,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 03:55:46,prudente,VENTE,SINK,0.0001414,6.43,stop-loss (-23%) PnL -1.97$ coût 1.0%
 2026-11-08 03:55:46,actuelle,VENTE,SINK,0.0001414,1339.47,stop-loss (-31%) PnL -830.14$ coût 10.6%
 2026-11-08 03:59:47,actuelle,ACHAT,HABIBI,0.0002139401539,2147.84,score 64 coût 12.8%
+2026-11-08 04:04:48,prudente,ACHAT,FLOATCAT,0.0003384735379,8.37,score 75 coût 1.0%
+2026-11-08 04:07:46,prudente,VENTE,FLOATCAT,1.774e-06,0.04,stop-loss (-99%) PnL -8.33$ coût 1.0%
