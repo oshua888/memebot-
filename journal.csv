@@ -4081,3 +4081,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 03:28:45,apprentie,ACHAT,BTC,0.0004003447678,17.97,score 50 coût 1.1%
 2026-11-08 03:28:45,apprentie,ACHAT,COGE,0.003478211188,17.96,score 52 coût 1.0%
 2026-11-08 03:31:45,prudente,ACHAT,GIGAHUG,0.001249599133,8.40,score 74 coût 1.0%
+2026-11-08 03:36:45,hasard,VENTE,TAOLF,0.0001154,1046.95,stop-loss (-38%) PnL -714.24$ coût 4.3%
+2026-11-08 03:36:45,hasard,ACHAT,Respect,0.0005098080627,1748.45,score 76 coût 7.4%
