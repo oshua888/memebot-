@@ -4234,3 +4234,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 18:11:33,prudente,VENTE,ELYSION,0.002938,6.36,stop-loss (-23%) PnL -1.93$ coût 1.0%
 2026-11-08 18:43:33,agressive,VENTE,HEREWEGO,0.001081,766.15,stop-loss (-43%) PnL -608.74$ coût 2.8%
 2026-11-08 18:46:33,agressive,ACHAT,FUSE,4.37989763e-05,1359.74,score 50 coût 7.9%
+2026-11-08 19:05:33,hasard,ACHAT,BTC,0.0005706968383,1683.72,score 58 coût 3.2%
+2026-11-08 19:05:33,apprentie,ACHAT,STANK,0.001150047996,18.30,score 17 coût 1.1%
+2026-11-08 19:06:33,prudente,ACHAT,BTC,0.0005556615628,8.24,score 73 coût 1.0%
+2026-11-08 19:06:33,actuelle,ACHAT,BTC,0.0005708476035,2075.55,score 73 coût 3.8%
