@@ -4145,3 +4145,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 11:25:08,hasard,ACHAT,FLOAT,0.01390866786,1697.21,score 53 coût 1.4%
 2026-11-08 11:32:07,prudente,VENTE,GIGAHUG,0.001087,7.23,durée max 8h PnL -1.17$ coût 1.0%
 2026-11-08 11:37:08,actuelle,VENTE,yarl,0.0001743,1309.02,stop-loss (-32%) PnL -808.85$ coût 9.6%
+2026-11-08 11:47:08,agressive,VENTE,yarl,0.0001521,707.44,stop-loss (-46%) PnL -671.80$ coût 5.8%
