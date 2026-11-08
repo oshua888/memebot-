@@ -4174,3 +4174,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 14:13:30,hasard,ACHAT,MAGGIE,0.0003360685718,1704.67,score 68 coût 7.5%
 2026-11-08 14:15:30,prudente,ACHAT,MAGGIE,0.0003332004722,8.33,score 78 coût 1.0%
 2026-11-08 14:41:31,prudente,VENTE,MAGGIE,0.0002662,6.59,stop-loss (-20%) PnL -1.74$ coût 1.0%
+2026-11-08 14:44:31,agressive,VENTE,GIGAHUG,0.0007259,793.41,stop-loss (-41%) PnL -594.81$ coût 3.3%
+2026-11-08 14:44:31,agressive,ACHAT,MAGGIE,0.0002951604166,1417.98,score 67 coût 6.8%
+2026-11-08 14:46:31,actuelle,VENTE,BTC,0.0009463,1513.45,trailing-stop PnL +97.39$ coût 5.0%
+2026-11-08 14:46:31,actuelle,ACHAT,invest,0.0001856325433,2115.64,score 61 coût 6.2%
+2026-11-08 14:46:31,hasard,VENTE,BTC,0.0009463,1540.13,trailing-stop PnL +940.52$ coût 5.1%
+2026-11-08 14:46:31,hasard,ACHAT,BTC,0.0009960778856,1694.26,score 37 coût 5.3%

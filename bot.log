@@ -3394,3 +3394,74 @@ agressive    47352.26$ +4635.2% +43736.32$17469643.65$   87/295     5
 hasard       84667.70$ +8366.8% +82888.73$12391460.51$  167/397     5
 apprentie      916.79$    -8.3%    -82.07$  116.07$  151/165     2
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 31 — 2026-11-08 14:43:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  72 tokens trouvés, analyse en cours…
+  13 retenus / 70 ; rejets : liquidité faible ×42, volume faible ×31, trop récent ×30, trop ancien ×8, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       829.93$   -17.0%   -169.82$   54.57$  257/200     1
+actuelle    105700.64$+10470.1%+104769.81$12554529.25$  182/361     3
+agressive    47412.28$ +4641.2% +43736.32$17469643.65$   87/295     5
+hasard       84634.39$ +8363.4% +82888.73$12391460.51$  167/397     5
+apprentie      916.08$    -8.4%    -82.07$  116.07$  151/165     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 32 — 2026-11-08 14:44:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  70 tokens trouvés, analyse en cours…
+  13 retenus / 69 ; rejets : liquidité faible ×44, volume faible ×31, trop récent ×29, trop ancien ×9, FDV/liquidité trop élevé ×3
+  [agressive] VENTE GIGAHUG @ 0.0007259$ — 793.41$ stop-loss (-41%) PnL -594.81$ coût 3.3%
+  [agressive] ACHAT MAGGIE @ 0.00029516042$ — 1417.98$ score 67 coût 6.8%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       829.93$   -17.0%   -169.82$   54.57$  257/200     1
+actuelle    105744.82$+10474.5%+104769.81$12554529.25$  182/361     3
+agressive    47090.72$ +4609.1% +43141.51$17469761.00$   87/296     5
+hasard       84667.00$ +8366.7% +82888.73$12391460.51$  167/397     5
+apprentie      916.07$    -8.4%    -82.07$  116.07$  151/165     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 33 — 2026-11-08 14:45:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  70 tokens trouvés, analyse en cours…
+  13 retenus / 69 ; rejets : liquidité faible ×44, volume faible ×31, trop récent ×30, trop ancien ×8, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       829.89$   -17.0%   -169.82$   54.57$  257/200     1
+actuelle    105811.39$+10481.1%+104769.81$12554529.25$  182/361     3
+agressive    47039.43$ +4603.9% +43141.51$17469761.00$   87/296     5
+hasard       84753.88$ +8375.4% +82888.73$12391460.51$  167/397     5
+apprentie      916.35$    -8.4%    -82.07$  116.07$  151/165     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 34 — 2026-11-08 14:46:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  72 tokens trouvés, analyse en cours…
+  13 retenus / 70 ; rejets : liquidité faible ×45, volume faible ×32, trop récent ×31, trop ancien ×8, FDV/liquidité trop élevé ×3
+  [actuelle] VENTE BTC @ 0.0009463$ — 1513.45$ trailing-stop PnL +97.39$ coût 5.0%
+  [actuelle] ACHAT invest @ 0.00018563254$ — 2115.64$ score 61 coût 6.2%
+  [hasard] VENTE BTC @ 0.0009463$ — 1540.13$ trailing-stop PnL +940.52$ coût 5.1%
+  [hasard] ACHAT BTC @ 0.00099607789$ — 1694.26$ score 37 coût 5.3%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       829.40$   -17.1%   -169.82$   54.57$  257/200     1
+actuelle    105541.06$+10454.1%+104867.20$12554732.47$  183/361     3
+agressive    47007.83$ +4600.8% +43141.51$17469761.00$   87/296     5
+hasard       84546.86$ +8354.7% +83829.26$12391627.60$  168/397     5
+apprentie      915.34$    -8.5%    -82.07$  116.07$  151/165     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 35 — 2026-11-08 14:47:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  72 tokens trouvés, analyse en cours…
+  13 retenus / 71 ; rejets : liquidité faible ×45, volume faible ×33, trop récent ×32, trop ancien ×8, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       829.57$   -17.0%   -169.82$   54.57$  257/200     1
+actuelle    105615.05$+10461.5%+104867.20$12554732.47$  183/361     3
+agressive    47117.07$ +4611.7% +43141.51$17469761.00$   87/296     5
+hasard       84631.59$ +8363.2% +83829.26$12391627.60$  168/397     5
+apprentie      915.69$    -8.4%    -82.07$  116.07$  151/165     2
+(argent fictif — valeur nette si tout était revendu maintenant)
