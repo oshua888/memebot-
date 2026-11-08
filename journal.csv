@@ -4152,3 +4152,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 12:18:08,hasard,ACHAT,yarl,0.0001483305248,1703.93,score 51 coût 12.7%
 2026-11-08 12:34:07,hasard,VENTE,GIGAHUG,0.0008104,1047.45,stop-loss (-36%) PnL -654.75$ coût 3.9%
 2026-11-08 12:41:08,hasard,ACHAT,WASTED,0.0008928085605,1688.26,score 19 coût 4.8%
+2026-11-08 12:45:08,actuelle,VENTE,HEREWEGO,0.00167,1907.06,trailing-stop PnL +453.53$ coût 4.7%
+2026-11-08 12:47:08,agressive,ACHAT,WEALTH,0.0005676129541,1379.26,score 52 coût 5.3%
