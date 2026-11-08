@@ -4097,3 +4097,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 04:14:47,apprentie,VENTE,COGE,0.004524,23.12,palier +25% PnL +5.16$ coût 1.0%
 2026-11-08 04:14:47,apprentie,ACHAT,COGE,0.00457013559,18.00,score 51 coût 1.0%
 2026-11-08 04:20:46,apprentie,VENTE,COGE,0.002857,11.14,stop-loss (-37%) PnL -6.86$ coût 1.0%
+2026-11-08 04:37:47,agressive,VENTE,NETWORK,0.0002106,905.21,stop-loss (-42%) PnL -766.69$ coût 5.8%
+2026-11-08 04:37:47,agressive,ACHAT,HEREWEGO,0.001299156028,1377.79,score 72 coût 4.0%
+2026-11-08 04:37:47,hasard,VENTE,STANK,0.001297,1177.43,stop-loss (-32%) PnL -638.64$ coût 4.2%
+2026-11-08 04:37:47,hasard,ACHAT,HABIBI,0.0001284786874,1732.34,score 60 coût 14.5%
