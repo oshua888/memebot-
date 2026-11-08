@@ -4119,3 +4119,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 06:48:45,prudente,VENTE,HEREWEGO,0.001335,4.79,trailing-stop PnL +0.60$ coût 1.0%
 2026-11-08 07:18:47,hasard,VENTE,Respect,0.0003402,1096.61,stop-loss (-33%) PnL -651.83$ coût 6.0%
 2026-11-08 07:18:47,hasard,ACHAT,GIGAHUG,0.001108207944,1699.91,score 49 coût 5.0%
+2026-11-08 07:24:47,apprentie,VENTE,BRUH,0.0008747,22.26,palier +25% PnL +4.49$ coût 1.1%
+2026-11-08 07:24:47,apprentie,ACHAT,BRUH,0.0008838648405,17.93,score 49 coût 1.0%
