@@ -4238,3 +4238,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 19:05:33,apprentie,ACHAT,STANK,0.001150047996,18.30,score 17 coût 1.1%
 2026-11-08 19:06:33,prudente,ACHAT,BTC,0.0005556615628,8.24,score 73 coût 1.0%
 2026-11-08 19:06:33,actuelle,ACHAT,BTC,0.0005708476035,2075.55,score 73 coût 3.8%
+2026-11-08 19:13:33,prudente,VENTE,BTC,0.0008401,6.17,palier +30% PnL +2.05$ coût 1.0%
