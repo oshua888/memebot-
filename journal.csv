@@ -4255,3 +4255,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 20:55:58,actuelle,VENTE,FLOAT,0.01409,2334.88,durée max 12h PnL +203.85$ coût 1.6%
 2026-11-08 20:58:58,actuelle,VENTE,Alice,0.0001137,1265.35,stop-loss (-32%) PnL -788.41$ coût 9.5%
 2026-11-08 21:04:58,prudente,ACHAT,Alice,0.0001418673821,8.24,score 75 coût 1.0%
+2026-11-08 21:19:57,hasard,VENTE,Leonida,0.0001603,1052.06,stop-loss (-32%) PnL -628.12$ coût 8.2%
+2026-11-08 21:19:57,hasard,ACHAT,george,0.0002253019226,1641.95,score 59 coût 8.5%
