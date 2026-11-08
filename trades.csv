@@ -1884,3 +1884,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-08 03:28,2026-11-08 05:07,apprentie,Respect,boost+profil,stop-loss (-25%),1.65,-25.89,75,57802,9.07,2.8,1.808,0.81,12.01,30.6,1193,1
 2026-11-08 03:28,2026-11-08 05:47,apprentie,BTC,tendance,palier +25%,2.32,28.63,50,50163,7.79,14.2,0.305,0.52,0.16,19.7,49.12,0
 2026-11-08 03:44,2026-11-08 06:07,apprentie,HEREWEGO,profil,palier +25%,2.38,24.19,80,87019,13.1,2.0,3.034,0.783,8.48,31.82,2427,0
+2026-11-08 03:44,2026-11-08 06:48,prudente,HEREWEGO,profil,trailing-stop,3.07,22.17,80,87019,13.1,2.0,3.034,0.783,8.48,31.82,2427,0
