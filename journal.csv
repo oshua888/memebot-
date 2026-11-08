@@ -4126,3 +4126,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 07:51:46,apprentie,ACHAT,BRUH,0.001121571186,18.02,score 62 coût 1.0%
 2026-11-08 07:58:46,actuelle,VENTE,FLOAT,0.01241,2799.24,durée max 12h PnL +549.44$ coût 1.8%
 2026-11-08 08:04:45,actuelle,ACHAT,FLOAT,0.01288146508,2137.56,score 61 coût 1.6%
+2026-11-08 08:38:46,actuelle,ACHAT,CALYPSO,0.0005856763134,2135.56,score 62 coût 8.4%
+2026-11-08 08:38:46,apprentie,ACHAT,CALYPSO,0.0005462425397,18.12,score 62 coût 1.1%
+2026-11-08 08:39:46,prudente,ACHAT,CALYPSO,0.0004675712913,8.30,score 78 coût 1.0%
+2026-11-08 08:41:45,prudente,VENTE,CALYPSO,0.000333,5.85,stop-loss (-29%) PnL -2.45$ coût 1.0%
+2026-11-08 08:41:45,actuelle,VENTE,CALYPSO,0.000333,1137.30,stop-loss (-43%) PnL -998.26$ coût 6.3%
+2026-11-08 08:41:45,apprentie,VENTE,CALYPSO,0.000333,10.93,stop-loss (-39%) PnL -7.19$ coût 1.0%
