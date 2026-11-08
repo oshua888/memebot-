@@ -4170,3 +4170,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 13:40:07,hasard,ACHAT,yarl,0.0002030322641,1712.95,score 68 coût 10.8%
 2026-11-08 13:49:06,apprentie,ACHAT,WASTED,0.0009184496679,18.37,score 41 coût 1.0%
 2026-11-08 14:08:07,hasard,VENTE,yarl,0.0001411,1085.54,stop-loss (-31%) PnL -627.42$ coût 8.8%
+2026-11-08 14:13:30,actuelle,ACHAT,MAGGIE,0.0003411310598,2126.80,score 68 coût 9.2%
+2026-11-08 14:13:30,hasard,ACHAT,MAGGIE,0.0003360685718,1704.67,score 68 coût 7.5%
+2026-11-08 14:15:30,prudente,ACHAT,MAGGIE,0.0003332004722,8.33,score 78 coût 1.0%
