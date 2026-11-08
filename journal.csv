@@ -4212,3 +4212,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 17:06:58,apprentie,VENTE,ELYSION,0.004186,23.28,palier +25% PnL +5.05$ coût 1.0%
 2026-11-08 17:06:58,apprentie,ACHAT,ELYSION,0.00422877328,18.34,score 56 coût 1.0%
 2026-11-08 17:09:50,actuelle,ACHAT,ELYSION,0.004709914217,2107.41,score 60 coût 3.4%
+2026-11-08 17:18:33,agressive,VENTE,BTC,0.000496,820.47,stop-loss (-40%) PnL -608.42$ coût 4.0%
+2026-11-08 17:18:33,hasard,VENTE,invest,0.0001352,1108.42,stop-loss (-32%) PnL -589.00$ coût 4.2%
+2026-11-08 17:18:33,hasard,ACHAT,ELYSION,0.005569996318,1713.36,score 63 coût 2.8%
+2026-11-08 17:18:33,apprentie,VENTE,ELYSION,0.005419,23.26,palier +25% PnL +4.92$ coût 1.0%
+2026-11-08 17:18:33,apprentie,ACHAT,ELYSION,0.005474231621,18.44,score 63 coût 1.0%
+2026-11-08 17:19:34,actuelle,VENTE,invest,0.0001289,1392.43,stop-loss (-31%) PnL -723.21$ coût 5.2%
