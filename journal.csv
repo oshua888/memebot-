@@ -4218,3 +4218,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 17:18:33,apprentie,VENTE,ELYSION,0.005419,23.26,palier +25% PnL +4.92$ coût 1.0%
 2026-11-08 17:18:33,apprentie,ACHAT,ELYSION,0.005474231621,18.44,score 63 coût 1.0%
 2026-11-08 17:19:34,actuelle,VENTE,invest,0.0001289,1392.43,stop-loss (-31%) PnL -723.21$ coût 5.2%
+2026-11-08 17:45:34,prudente,ACHAT,ELYSION,0.003792938425,8.29,score 76 coût 1.0%
+2026-11-08 17:45:34,hasard,VENTE,ELYSION,0.003755,1126.87,stop-loss (-33%) PnL -586.50$ coût 2.4%
+2026-11-08 17:45:34,hasard,ACHAT,PIRATE,0.0005146074942,1701.65,score 34 coût 3.5%
+2026-11-08 17:45:34,apprentie,VENTE,ELYSION,0.003755,12.52,stop-loss (-31%) PnL -5.92$ coût 1.0%
+2026-11-08 17:46:33,actuelle,VENTE,MAGGIE,0.0003773,1327.15,stop-loss (-34%) PnL -792.65$ coût 5.7%
+2026-11-08 17:46:33,hasard,VENTE,MAGGIE,0.0003773,1099.55,stop-loss (-33%) PnL -622.63$ coût 4.9%
