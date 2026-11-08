@@ -5177,3 +5177,75 @@ agressive    47884.19$ +4688.4% +44687.21$17469930.65$   90/296     5
 hasard       86408.82$ +8540.9% +85560.01$12392069.04$  173/398     5
 apprentie      911.59$    -8.8%    -87.16$  116.21$  151/166     1
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 166 — 2026-11-08 16:58:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  75 tokens trouvés, analyse en cours…
+  14 retenus / 71 ; rejets : liquidité faible ×44, trop récent ×34, volume faible ×30, trop ancien ×8, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1
+  [apprentie] ACHAT ELYSION @ 0.0032449189$ — 18.23$ score 47 coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       828.42$   -17.2%   -171.84$   54.72$  257/201     1
+actuelle    106317.71$+10531.8%+105375.98$12555144.45$  185/362     4
+agressive    47896.88$ +4689.7% +44687.21$17469930.65$   90/296     5
+hasard       86372.33$ +8537.2% +85560.01$12392069.04$  173/398     5
+apprentie      911.22$    -8.9%    -87.16$  116.39$  151/166     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 167 — 2026-11-08 16:59:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  74 tokens trouvés, analyse en cours…
+  14 retenus / 70 ; rejets : liquidité faible ×43, trop récent ×32, volume faible ×29, trop ancien ×9, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       828.02$   -17.2%   -171.84$   54.72$  257/201     1
+actuelle    106448.59$+10544.9%+105375.98$12555144.45$  185/362     4
+agressive    47732.90$ +4673.3% +44687.21$17469930.65$   90/296     5
+hasard       86427.08$ +8542.7% +85560.01$12392069.04$  173/398     5
+apprentie      911.58$    -8.8%    -87.16$  116.39$  151/166     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 168 — 2026-11-08 17:00:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  72 tokens trouvés, analyse en cours…
+  14 retenus / 69 ; rejets : liquidité faible ×43, trop récent ×32, volume faible ×29, trop ancien ×8, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1
+  [agressive] VENTE FLOAT @ 0.01058$ — 1733.17$ trailing-stop PnL +704.18$ coût 1.6%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       828.35$   -17.2%   -171.84$   54.72$  257/201     1
+actuelle    106258.72$+10525.9%+105375.98$12555144.45$  185/362     4
+agressive    47681.80$ +4668.2% +45391.39$17469958.12$   91/296     4
+hasard       86295.49$ +8529.5% +85560.01$12392069.04$  173/398     5
+apprentie      912.86$    -8.7%    -87.16$  116.39$  151/166     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 169 — 2026-11-08 17:01:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  74 tokens trouvés, analyse en cours…
+  14 retenus / 73 ; rejets : liquidité faible ×45, trop récent ×35, volume faible ×33, trop ancien ×9, FDV/liquidité trop élevé ×4, RugCheck: Creator history of rugged tokens ×1
+  [agressive] ACHAT ELYSION @ 0.0037733631$ — 1426.49$ score 51 coût 2.8%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       828.25$   -17.2%   -171.84$   54.72$  257/201     1
+actuelle    106245.83$+10524.6%+105375.98$12555144.45$  185/362     4
+agressive    47472.30$ +4647.2% +45391.39$17469997.20$   91/296     5
+hasard       86313.48$ +8531.3% +85560.01$12392069.04$  173/398     5
+apprentie      913.75$    -8.6%    -87.16$  116.39$  151/166     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 170 — 2026-11-08 17:02:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  74 tokens trouvés, analyse en cours…
+  15 retenus / 70 ; rejets : liquidité faible ×41, trop récent ×33, volume faible ×29, trop ancien ×8, FDV/liquidité trop élevé ×4, RugCheck: Creator history of rugged tokens ×1
+  [actuelle] VENTE MAGGIE @ 0.0005307$ — 1062.37$ trailing-stop PnL +349.89$ coût 4.2%
+  [actuelle] ACHAT MAGGIE @ 0.00056801611$ — 2119.80$ score 62 coût 7.0%
+  [hasard] VENTE MAGGIE @ 0.0005307$ — 869.64$ trailing-stop PnL +298.57$ coût 3.6%
+  [hasard] ACHAT MAGGIE @ 0.00056201213$ — 1722.18$ score 62 coût 5.9%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       828.14$   -17.2%   -171.84$   54.72$  257/201     1
+actuelle    105719.09$+10471.9%+105725.87$12555329.76$  186/362     4
+agressive    47236.69$ +4623.7% +45391.39$17469997.20$   91/296     5
+hasard       85921.70$ +8492.2% +85858.58$12392197.15$  174/398     5
+apprentie      913.54$    -8.6%    -87.16$  116.39$  151/166     2
+(argent fictif — valeur nette si tout était revendu maintenant)
