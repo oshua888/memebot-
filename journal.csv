@@ -4073,3 +4073,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 00:18:26,hasard,VENTE,VETO,0.0002145,1570.61,trailing-stop PnL +342.83$ coût 10.0%
 2026-11-08 00:18:26,hasard,ACHAT,TAOLF,0.0003386301928,1761.45,score 53 coût 4.2%
 2026-11-08 00:29:26,apprentie,VENTE,José,0.0007288,13.47,stop-loss (-25%) PnL -4.69$ coût 1.0%
+2026-11-08 00:34:25,hasard,VENTE,TAOLF,0.000186,935.86,stop-loss (-45%) PnL -825.59$ coût 3.3%
+2026-11-08 00:34:25,hasard,ACHAT,GIGAHUG,0.001234122891,1739.14,score 52 coût 4.9%
+2026-11-08 00:34:25,apprentie,ACHAT,WASTED,0.0009148045877,17.94,score 42 coût 1.0%
