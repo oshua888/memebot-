@@ -1943,3 +1943,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-08 19:06,2026-11-08 19:20,prudente,BTC,profil,trailing-stop,0.23,36.51,73,149773,3.67,2.0,2.8,0.585,6.39,51.73,288,0
 2026-11-08 19:33,2026-11-08 19:41,hasard,SLINGOOR,profil,stop-loss (-39%),0.13,-41.9,48,86339,8.09,2.2,6.15,0.536,10.18,318,1422,0
 2026-11-08 17:04,2026-11-08 19:42,agressive,MAGGIE,tendance,stop-loss (-42%),2.64,-43.97,62,66656,7.01,17.1,6.387,0.57,-22.46,-29.5,146,0
+2026-11-08 19:37,2026-11-08 19:48,apprentie,STANK,tendance,palier +25%,0.18,31.55,52,77562,23.96,245.7,1.101,0.593,22.35,54.98,-3.5,0
