@@ -4232,3 +4232,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 18:08:33,actuelle,VENTE,HEREWEGO,0.001571,1286.57,stop-loss (-37%) PnL -816.87$ coût 3.5%
 2026-11-08 18:08:33,hasard,VENTE,HEREWEGO,0.001571,1159.46,stop-loss (-30%) PnL -557.52$ coût 3.2%
 2026-11-08 18:11:33,prudente,VENTE,ELYSION,0.002938,6.36,stop-loss (-23%) PnL -1.93$ coût 1.0%
+2026-11-08 18:43:33,agressive,VENTE,HEREWEGO,0.001081,766.15,stop-loss (-43%) PnL -608.74$ coût 2.8%
+2026-11-08 18:46:33,agressive,ACHAT,FUSE,4.37989763e-05,1359.74,score 50 coût 7.9%
