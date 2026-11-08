@@ -4081,3 +4081,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 02:25:26,actuelle,ACHAT,ORBIT,0.0007633345527,2159.09,score 65 coût 7.3%
 2026-11-08 02:25:26,apprentie,ACHAT,ORBIT,0.0007187866828,17.96,score 65 coût 1.1%
 2026-11-08 02:31:26,apprentie,VENTE,Leonida,0.0001958,13.20,stop-loss (-26%) PnL -4.75$ coût 1.1%
+2026-11-08 02:43:26,actuelle,ACHAT,Respect,0.0004907430506,2151.01,score 62 coût 9.1%
+2026-11-08 02:43:26,apprentie,ACHAT,Respect,0.0004545019238,17.95,score 62 coût 1.1%
+2026-11-08 02:46:26,prudente,ACHAT,Respect,0.0004185801898,8.40,score 77 coût 1.0%
