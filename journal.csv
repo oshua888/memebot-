@@ -4242,3 +4242,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 19:19:33,hasard,ACHAT,SLINGOOR,0.0002703831038,1691.84,score 46 coût 8.1%
 2026-11-08 19:20:34,prudente,VENTE,BTC,0.0006924,5.09,trailing-stop PnL +0.96$ coût 1.0%
 2026-11-08 19:22:33,actuelle,ACHAT,SLINGOOR,0.000286201879,2085.84,score 61 coût 9.4%
+2026-11-08 19:23:33,actuelle,VENTE,SLINGOOR,0.0007983,1818.47,palier +50% PnL +1130.14$ coût 5.3%
+2026-11-08 19:23:33,hasard,VENTE,SLINGOOR,0.0007983,1571.26,palier +50% PnL +1012.95$ coût 4.7%
+2026-11-08 19:24:33,actuelle,VENTE,SLINGOOR,0.000709,1643.83,palier +100% PnL +945.07$ coût 5.0%
+2026-11-08 19:24:33,hasard,VENTE,SLINGOOR,0.000709,1419.81,palier +100% PnL +853.04$ coût 4.5%
