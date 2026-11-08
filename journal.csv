@@ -4112,3 +4112,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 05:07:46,apprentie,VENTE,Respect,0.0004003,13.32,stop-loss (-25%) PnL -4.65$ coût 1.1%
 2026-11-08 05:47:46,apprentie,VENTE,BTC,0.0005206,23.11,palier +25% PnL +5.14$ coût 1.1%
 2026-11-08 05:47:46,apprentie,ACHAT,BTC,0.0005261280572,17.88,score 53 coût 1.1%
+2026-11-08 05:48:46,hasard,VENTE,BTC,0.0005377,871.05,palier +50% PnL +280.39$ coût 4.1%
