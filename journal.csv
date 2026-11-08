@@ -4094,3 +4094,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 03:59:47,actuelle,ACHAT,HABIBI,0.0002139401539,2147.84,score 64 coût 12.8%
 2026-11-08 04:04:48,prudente,ACHAT,FLOATCAT,0.0003384735379,8.37,score 75 coût 1.0%
 2026-11-08 04:07:46,prudente,VENTE,FLOATCAT,1.774e-06,0.04,stop-loss (-99%) PnL -8.33$ coût 1.0%
+2026-11-08 04:14:47,apprentie,VENTE,COGE,0.004524,23.12,palier +25% PnL +5.16$ coût 1.0%
+2026-11-08 04:14:47,apprentie,ACHAT,COGE,0.00457013559,18.00,score 51 coût 1.0%
