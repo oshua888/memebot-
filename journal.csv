@@ -4164,3 +4164,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 13:24:07,prudente,VENTE,BTC,0.001264,6.12,palier +30% PnL +1.97$ coût 1.0%
 2026-11-08 13:24:07,actuelle,VENTE,BTC,0.001264,1013.84,palier +50% PnL +316.37$ coût 3.3%
 2026-11-08 13:27:07,hasard,VENTE,yarl,0.0002464,881.97,palier +50% PnL +319.68$ coût 5.6%
+2026-11-08 13:29:07,prudente,VENTE,BTC,0.001023,4.95,trailing-stop PnL +0.81$ coût 1.0%
+2026-11-08 13:29:07,prudente,ACHAT,BTC,0.001033435559,8.32,score 91 coût 1.0%
