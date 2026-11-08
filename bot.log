@@ -4388,3 +4388,74 @@ agressive    47518.09$ +4651.8% +44156.99$17469892.93$   89/296     5
 hasard       84799.14$ +8379.9% +83478.24$12391798.74$  169/398     5
 apprentie      911.67$    -8.8%    -87.16$  116.21$  151/166     1
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 106 — 2026-11-08 15:58:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  72 tokens trouvés, analyse en cours…
+  14 retenus / 69 ; rejets : liquidité faible ×40, trop récent ×32, volume faible ×26, trop ancien ×8, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       827.29$   -17.3%   -171.84$   54.72$  257/201     1
+actuelle    105490.85$+10449.1%+104079.88$12555015.36$  183/362     4
+agressive    47823.59$ +4682.4% +44156.99$17469892.93$   89/296     5
+hasard       85574.37$ +8457.4% +83478.24$12391798.74$  169/398     5
+apprentie      911.67$    -8.8%    -87.16$  116.21$  151/166     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 107 — 2026-11-08 15:59:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  71 tokens trouvés, analyse en cours…
+  14 retenus / 70 ; rejets : liquidité faible ×40, trop récent ×34, volume faible ×27, trop ancien ×8, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1
+  [hasard] VENTE TAOLF @ 4.757e-05$ — 1278.90$ palier +100% PnL +709.41$ coût 5.6%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       827.34$   -17.3%   -171.84$   54.72$  257/201     1
+actuelle    105397.07$+10439.7%+104079.88$12555015.36$  183/362     4
+agressive    47769.83$ +4677.0% +44156.99$17469892.93$   89/296     5
+hasard       86060.30$ +8506.0% +84187.65$12391874.50$  170/398     5
+apprentie      911.36$    -8.9%    -87.16$  116.21$  151/166     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 108 — 2026-11-08 16:00:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  74 tokens trouvés, analyse en cours…
+  14 retenus / 74 ; rejets : liquidité faible ×45, trop récent ×38, volume faible ×30, trop ancien ×8, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1
+  [hasard] VENTE TAOLF @ 3.403e-05$ — 921.95$ trailing-stop PnL +352.45$ coût 4.9%
+  [hasard] ACHAT HEREWEGO @ 0.0022515006$ — 1716.97$ score 68 coût 3.7%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       827.28$   -17.3%   -171.84$   54.72$  257/201     1
+actuelle    105520.83$+10452.1%+104079.88$12555015.36$  183/362     4
+agressive    47691.70$ +4669.2% +44156.99$17469892.93$   89/296     5
+hasard       85727.53$ +8472.8% +84540.10$12391983.03$  171/398     5
+apprentie      911.75$    -8.8%    -87.16$  116.21$  151/166     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 109 — 2026-11-08 16:01:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  72 tokens trouvés, analyse en cours…
+  14 retenus / 72 ; rejets : liquidité faible ×44, trop récent ×36, volume faible ×29, trop ancien ×8, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1
+  [actuelle] VENTE MAGGIE @ 0.0006534$ — 1284.79$ palier +50% PnL +582.94$ coût 4.4%
+  [agressive] VENTE MAGGIE @ 0.0006534$ — 998.15$ palier +100% PnL +530.22$ coût 3.6%
+  [hasard] VENTE MAGGIE @ 0.0006534$ — 1052.28$ palier +50% PnL +489.74$ coût 3.8%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       827.02$   -17.3%   -171.84$   54.72$  257/201     1
+actuelle    106495.99$+10549.6%+104662.82$12555074.88$  184/362     4
+agressive    48523.93$ +4752.4% +44687.21$17469930.65$   90/296     5
+hasard       86507.68$ +8550.8% +85029.84$12392024.47$  172/398     5
+apprentie      911.62$    -8.8%    -87.16$  116.21$  151/166     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 110 — 2026-11-08 16:02:21 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  72 tokens trouvés, analyse en cours…
+  14 retenus / 72 ; rejets : liquidité faible ×43, trop récent ×36, volume faible ×29, trop ancien ×8, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       827.13$   -17.3%   -171.84$   54.72$  257/201     1
+actuelle    106431.95$+10543.2%+104662.82$12555074.88$  184/362     4
+agressive    48453.71$ +4745.4% +44687.21$17469930.65$   90/296     5
+hasard       86437.00$ +8543.7% +85029.84$12392024.47$  172/398     5
+apprentie      911.41$    -8.9%    -87.16$  116.21$  151/166     1
+(argent fictif — valeur nette si tout était revendu maintenant)

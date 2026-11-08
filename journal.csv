@@ -4192,3 +4192,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 15:19:31,prudente,ACHAT,HEREWEGO,0.002404097443,8.28,score 70 coût 1.0%
 2026-11-08 15:19:31,actuelle,ACHAT,HEREWEGO,0.002479346992,2103.44,score 70 coût 4.2%
 2026-11-08 15:24:31,agressive,VENTE,HEREWEGO,0.002619,895.34,palier +100% PnL +440.67$ coût 2.3%
+2026-11-08 15:59:32,hasard,VENTE,TAOLF,4.757e-05,1278.90,palier +100% PnL +709.41$ coût 5.6%
+2026-11-08 16:00:35,hasard,VENTE,TAOLF,3.403e-05,921.95,trailing-stop PnL +352.45$ coût 4.9%
+2026-11-08 16:00:35,hasard,ACHAT,HEREWEGO,0.0022515006,1716.97,score 68 coût 3.7%
+2026-11-08 16:01:32,actuelle,VENTE,MAGGIE,0.0006534,1284.79,palier +50% PnL +582.94$ coût 4.4%
+2026-11-08 16:01:32,agressive,VENTE,MAGGIE,0.0006534,998.15,palier +100% PnL +530.22$ coût 3.6%
+2026-11-08 16:01:32,hasard,VENTE,MAGGIE,0.0006534,1052.28,palier +50% PnL +489.74$ coût 3.8%
