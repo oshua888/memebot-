@@ -4237,3 +4237,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 19:33:57,hasard,ACHAT,Leonida,0.0002350591715,1680.18,score 52 coût 10.0%
 2026-11-08 19:33:57,hasard,ACHAT,SLINGOOR,0.0007484124109,1674.29,score 48 coût 4.9%
 2026-11-08 19:37:57,apprentie,ACHAT,STANK,0.001877456321,18.29,score 52 coût 1.0%
+2026-11-08 19:41:57,hasard,VENTE,SLINGOOR,0.0004532,972.81,stop-loss (-39%) PnL -701.49$ coût 4.0%
+2026-11-08 19:42:56,agressive,VENTE,MAGGIE,0.0002952,791.81,stop-loss (-42%) PnL -621.41$ coût 4.1%
+2026-11-08 19:42:56,agressive,ACHAT,STANK,0.00221029791,1338.04,score 54 coût 4.2%
