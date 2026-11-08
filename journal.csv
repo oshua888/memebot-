@@ -4148,3 +4148,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 11:47:08,agressive,VENTE,yarl,0.0001521,707.44,stop-loss (-46%) PnL -671.80$ coût 5.8%
 2026-11-08 12:12:08,agressive,VENTE,BTC,0.0007047,925.55,palier +100% PnL +455.11$ coût 3.8%
 2026-11-08 12:12:08,hasard,VENTE,BTC,0.0007047,1153.29,palier +100% PnL +553.69$ coût 4.6%
+2026-11-08 12:18:08,hasard,VENTE,nuLL,0.0001779,1077.95,stop-loss (-32%) PnL -629.89$ coût 7.5%
+2026-11-08 12:18:08,hasard,ACHAT,yarl,0.0001483305248,1703.93,score 51 coût 12.7%
