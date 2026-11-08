@@ -4080,3 +4080,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 02:22:25,actuelle,VENTE,MAGGIE,0.0001589,1294.18,stop-loss (-34%) PnL -883.55$ coût 9.6%
 2026-11-08 02:25:26,actuelle,ACHAT,ORBIT,0.0007633345527,2159.09,score 65 coût 7.3%
 2026-11-08 02:25:26,apprentie,ACHAT,ORBIT,0.0007187866828,17.96,score 65 coût 1.1%
+2026-11-08 02:31:26,apprentie,VENTE,Leonida,0.0001958,13.20,stop-loss (-26%) PnL -4.75$ coût 1.1%
