@@ -4186,3 +4186,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 15:17:30,agressive,VENTE,BTC,0.0007907,1052.38,trailing-stop PnL +574.81$ coût 4.0%
 2026-11-08 15:17:30,agressive,ACHAT,BTC,0.0008295115399,1428.89,score 65 coût 4.9%
 2026-11-08 15:17:30,apprentie,VENTE,BTC,0.0007907,13.26,stop-loss (-27%) PnL -5.10$ coût 1.0%
+2026-11-08 15:18:30,actuelle,VENTE,BTC,0.0006654,1331.12,stop-loss (-34%) PnL -787.33$ coût 5.2%
+2026-11-08 15:18:30,hasard,VENTE,BTC,0.0006654,1082.21,stop-loss (-33%) PnL -612.04$ coût 4.4%
+2026-11-08 15:18:30,hasard,ACHAT,invest,0.0001982572002,1697.42,score 61 coût 5.0%
+2026-11-08 15:19:31,prudente,ACHAT,HEREWEGO,0.002404097443,8.28,score 70 coût 1.0%
+2026-11-08 15:19:31,actuelle,ACHAT,HEREWEGO,0.002479346992,2103.44,score 70 coût 4.2%
