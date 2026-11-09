@@ -4339,3 +4339,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 15:26:07,hasard,ACHAT,forg,0.0001221888689,1562.74,score 49 coût 13.5%
 2026-11-09 15:26:07,apprentie,ACHAT,forg,0.0001089343377,18.33,score 49 coût 1.1%
 2026-11-09 16:09:08,hasard,ACHAT,WEALTH,0.0007549425116,1546.04,score 29 coût 5.1%
+2026-11-09 21:37:09,actuelle,VENTE,FLOAT,0.01142,1647.97,durée max 12h PnL -378.27$ coût 1.5%
+2026-11-09 21:37:09,agressive,VENTE,FLOAT,0.01142,1210.59,durée max 24h PnL -193.00$ coût 1.4%
+2026-11-09 21:37:09,agressive,VENTE,FUSE,2.729e-05,793.32,durée max 24h PnL -566.42$ coût 6.4%
+2026-11-09 21:37:09,agressive,VENTE,STANK,0.002975,1719.78,durée max 24h PnL +381.73$ coût 4.5%
+2026-11-09 21:37:09,agressive,VENTE,PUSSY,0.001334,636.95,stop-loss (-51%) PnL -671.20$ coût 1.6%
+2026-11-09 21:37:09,agressive,ACHAT,THUG,0.0001852877587,1292.66,score 50 coût 7.5%
+2026-11-09 21:37:09,hasard,VENTE,timmy,0.000313,1302.58,durée max 12h PnL -276.18$ coût 10.7%
+2026-11-09 21:37:09,apprentie,ACHAT,timmy,0.0003165130336,18.38,score 45 coût 1.1%
+2026-11-09 21:37:09,apprentie,ACHAT,MAMESUKE,0.0002438812795,18.37,score 11 coût 1.1%
