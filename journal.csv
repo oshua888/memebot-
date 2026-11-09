@@ -4303,3 +4303,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 08:44:38,prudente,VENTE,BAWSAQ,0.001059,4.49,trailing-stop PnL +0.39$ coût 1.0%
 2026-11-09 08:45:38,prudente,ACHAT,BAWSAQ,0.001085964534,8.22,score 75 coût 1.0%
 2026-11-09 09:13:38,prudente,ACHAT,PUSSY,0.002266571305,8.22,score 73 coût 1.0%
+2026-11-09 09:49:38,actuelle,ACHAT,STOKE,0.0001106411724,2022.98,score 60 coût 13.6%
+2026-11-09 09:50:38,actuelle,ACHAT,STANK,0.00275141989,2013.66,score 60 coût 5.3%
