@@ -4289,3 +4289,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 03:01:19,prudente,VENTE,TITTYVERSE,0.0001577,6.30,stop-loss (-22%) PnL -1.90$ coût 1.0%
 2026-11-09 03:01:19,actuelle,VENTE,TITTYVERSE,0.0001577,1268.15,stop-loss (-30%) PnL -762.06$ coût 10.2%
 2026-11-09 03:02:19,apprentie,VENTE,TITTYVERSE,0.000148,12.92,stop-loss (-28%) PnL -5.17$ coût 1.1%
+2026-11-09 03:09:18,agressive,VENTE,ELYSION,0.001798,664.61,stop-loss (-52%) PnL -761.88$ coût 2.2%
+2026-11-09 03:09:18,agressive,ACHAT,BAWSAQ,0.0008113050393,1321.01,score 65 coût 4.8%
