@@ -1966,3 +1966,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-09 02:49,2026-11-09 03:01,actuelle,TITTYVERSE,profil,stop-loss (-30%),0.2,-37.54,76,34718,5.72,2.0,4.278,0.719,-16.58,20.53,367,0
 2026-11-09 02:52,2026-11-09 03:02,apprentie,TITTYVERSE,profil,stop-loss (-28%),0.17,-28.57,76,34844,5.75,2.1,4.092,0.7,-5.4,22.45,371,0
 2026-11-08 17:01,2026-11-09 03:09,agressive,ELYSION,boost,stop-loss (-52%),10.13,-53.41,51,157065,23.27,2.1,1.294,0.602,15.73,103,7027,1
+2026-11-09 02:45,2026-11-09 03:26,apprentie,NVIDIH,profil,palier +25%,0.68,25.66,55,61097,9.71,2.0,3.915,0.625,-3.27,70.38,1271,0
