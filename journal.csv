@@ -4316,3 +4316,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 12:40:04,hasard,ACHAT,STOKE,0.0001748127321,1602.23,score 66 coût 8.6%
 2026-11-09 12:48:04,agressive,VENTE,WEALTH,0.0005833,1342.86,durée max 24h PnL -36.40$ coût 5.3%
 2026-11-09 12:48:04,agressive,ACHAT,STOKE,0.0002018962649,1331.24,score 53 coût 6.9%
+2026-11-09 12:55:04,hasard,VENTE,José,0.0002428,1336.92,durée max 12h PnL -276.82$ coût 7.1%
+2026-11-09 12:55:04,hasard,ACHAT,STANK,0.003007810352,1602.34,score 36 coût 4.1%
+2026-11-09 12:56:04,hasard,VENTE,FLOAT,0.01366,1446.94,durée max 12h PnL -162.43$ coût 1.4%
+2026-11-09 12:56:04,hasard,ACHAT,BAWSAQ,0.001020324133,1600.57,score 49 coût 5.1%
