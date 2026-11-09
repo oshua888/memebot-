@@ -4293,3 +4293,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 07:17:40,actuelle,ACHAT,BUIDL,0.0001408617384,2038.35,score 65 coût 13.2%
 2026-11-09 07:19:40,actuelle,VENTE,BUIDL,8.94e-05,1163.97,stop-loss (-37%) PnL -874.38$ coût 10.0%
 2026-11-09 08:13:38,apprentie,VENTE,george,0.0001656,22.74,palier +25% PnL +4.64$ coût 1.1%
+2026-11-09 08:24:38,apprentie,VENTE,BAWSAQ,0.001199,23.11,palier +25% PnL +4.99$ coût 1.1%
+2026-11-09 08:24:38,apprentie,ACHAT,BAWSAQ,0.001211495476,18.31,score 75 coût 1.0%
+2026-11-09 08:25:38,actuelle,ACHAT,FLOAT,0.01383203638,2026.24,score 60 coût 1.6%
+2026-11-09 08:26:38,prudente,VENTE,BAWSAQ,0.001247,5.29,palier +30% PnL +1.18$ coût 1.0%
