@@ -4274,3 +4274,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 01:33:18,hasard,ACHAT,STOKE,7.183034359e-05,1575.27,score 28 coût 13.2%
 2026-11-09 01:40:17,apprentie,VENTE,HEREWEGO,0.0006574,4.35,stop-loss (-76%) PnL -13.83$ coût 1.0%
 2026-11-09 01:49:18,apprentie,VENTE,WASTED,0.0007951,15.74,durée max 12h PnL -2.63$ coût 1.0%
+2026-11-09 02:11:19,apprentie,ACHAT,BAWSAQ,0.0007322317789,17.91,score 56 coût 1.1%
+2026-11-09 02:12:18,apprentie,VENTE,0DAY,0.0007908,23.66,palier +25% PnL +5.46$ coût 1.1%
+2026-11-09 02:12:18,apprentie,ACHAT,0DAY,0.0007991007767,18.02,score 34 coût 1.0%
