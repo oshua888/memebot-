@@ -1,73 +1,3 @@
-actuelle    105668.74$+10466.9%+104867.20$12554858.14$  183/361     4
-agressive    47827.39$ +4682.7% +43141.51$17469761.00$   87/296     5
-hasard       84929.10$ +8392.9% +83829.26$12391627.60$  168/397     5
-apprentie      915.07$    -8.5%    -82.07$  116.07$  151/165     2
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 60 — 2026-11-08 15:12:21 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  73 tokens trouvés, analyse en cours…
-  13 retenus / 72 ; rejets : liquidité faible ×47, trop récent ×31, volume faible ×31, trop ancien ×8, FDV/liquidité trop élevé ×3, RugCheck: liquidité non verrouillée ×1
-  [hasard] VENTE TAOLF @ 3.075e-05$ — 822.03$ palier +50% PnL +261.03$ coût 4.7%
-  [apprentissage] 889 observations — règle sl25_tp25 — top 25 % : +4.5% vs moyenne -2.8% → actif : choisit ses tokens
-
-STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
-prudente       828.80$   -17.1%   -169.82$   54.57$  257/200     1
-actuelle    105623.64$+10462.4%+104867.20$12554858.14$  183/361     4
-agressive    47834.96$ +4683.5% +43141.51$17469761.00$   87/296     5
-hasard       85268.72$ +8426.9% +84090.29$12391668.18$  169/397     5
-apprentie      914.04$    -8.6%    -82.07$  116.07$  151/165     2
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 61 — 2026-11-08 15:13:21 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  72 tokens trouvés, analyse en cours…
-  12 retenus / 69 ; rejets : liquidité faible ×44, trop récent ×28, volume faible ×28, trop ancien ×8, FDV/liquidité trop élevé ×3, RugCheck: liquidité non verrouillée ×1
-
-STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
-prudente       828.58$   -17.1%   -169.82$   54.57$  257/200     1
-actuelle    105453.72$+10445.4%+104867.20$12554858.14$  183/361     4
-agressive    47699.64$ +4670.0% +43141.51$17469761.00$   87/296     5
-hasard       85101.78$ +8410.2% +84090.29$12391668.18$  169/397     5
-apprentie      913.24$    -8.7%    -82.07$  116.07$  151/165     2
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 62 — 2026-11-08 15:14:21 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  72 tokens trouvés, analyse en cours…
-  12 retenus / 70 ; rejets : liquidité faible ×46, trop récent ×30, volume faible ×28, trop ancien ×8, FDV/liquidité trop élevé ×3
-
-STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
-prudente       829.30$   -17.1%   -169.82$   54.57$  257/200     1
-actuelle    105620.45$+10462.0%+104867.20$12554858.14$  183/361     4
-agressive    47862.25$ +4686.2% +43141.51$17469761.00$   87/296     5
-hasard       85251.33$ +8425.1% +84090.29$12391668.18$  169/397     5
-apprentie      914.77$    -8.5%    -82.07$  116.07$  151/165     2
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 63 — 2026-11-08 15:15:21 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  74 tokens trouvés, analyse en cours…
-  12 retenus / 71 ; rejets : liquidité faible ×47, trop récent ×30, volume faible ×30, trop ancien ×9, FDV/liquidité trop élevé ×3
-
-STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
-prudente       829.35$   -17.1%   -169.82$   54.57$  257/200     1
-actuelle    105688.56$+10468.9%+104867.20$12554858.14$  183/361     4
-agressive    47865.73$ +4686.6% +43141.51$17469761.00$   87/296     5
-hasard       85347.33$ +8434.7% +84090.29$12391668.18$  169/397     5
-apprentie      915.21$    -8.5%    -82.07$  116.07$  151/165     2
-(argent fictif — valeur nette si tout était revendu maintenant)
-
---- cycle 64 — 2026-11-08 15:16:21 ---
-Récupération des candidats (DexScreener + GeckoTerminal)…
-  72 tokens trouvés, analyse en cours…
-  12 retenus / 70 ; rejets : liquidité faible ×44, trop récent ×30, volume faible ×26, trop ancien ×8, FDV/liquidité trop élevé ×4
-
-STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
-prudente       828.68$   -17.1%   -169.82$   54.57$  257/200     1
-actuelle    105452.27$+10445.2%+104867.20$12554858.14$  183/361     4
-agressive    47657.93$ +4665.8% +43141.51$17469761.00$   87/296     5
-hasard       85135.28$ +8413.5% +84090.29$12391668.18$  169/397     5
 apprentie      913.81$    -8.6%    -82.07$  116.07$  151/165     2
 (argent fictif — valeur nette si tout était revendu maintenant)
 
@@ -3067,4 +2997,77 @@ actuelle    103724.78$+10272.5%+102694.43$12555645.66$  186/366     1
 agressive    44556.13$ +4355.6% +45013.58$17470416.24$   93/298     5
 hasard       83226.66$ +8222.7% +83502.92$12392704.61$  174/402     5
 apprentie      914.17$    -8.6%    -83.11$  117.56$  153/167     2
+(argent fictif — valeur nette si tout était revendu maintenant)
+=== BOT EN MODE SIMULATION (argent fictif) — Ctrl+C pour arrêter ===
+  [apprentissage] 908 observations — règle sl25_tp25 — top 25 % : +5.5% vs moyenne -2.4% → actif : choisit ses tokens
+
+--- cycle 1 — 2026-11-09 00:54:07 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  80 tokens trouvés, analyse en cours…
+  12 retenus / 77 ; rejets : liquidité faible ×49, volume faible ×35, trop récent ×34, trop ancien ×11, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 37% ×1
+  [hasard] VENTE FLOAT @ 0.01477$ — 1775.70$ durée max 12h PnL +78.48$ coût 1.5%
+  [hasard] VENTE WASTED @ 0.0007132$ — 1290.38$ durée max 12h PnL -397.88$ coût 4.3%
+  [hasard] VENTE george @ 0.0001545$ — 1046.33$ stop-loss (-31%) PnL -595.61$ coût 7.1%
+  [hasard] ACHAT José @ 0.0002722783$ — 1613.74$ score 33 coût 7.7%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       820.45$   -18.0%   -179.55$   55.23$  257/205     0
+actuelle    102018.69$+10101.9%+101239.12$12556584.54$  187/368     1
+agressive    44314.33$ +4331.4% +44392.18$17470504.51$   93/299     5
+hasard       80463.19$ +7946.3% +80331.24$12393544.66$  175/407     3
+apprentie      908.29$    -9.2%    -87.46$  118.50$  154/169     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 2 — 2026-11-09 00:55:07 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  80 tokens trouvés, analyse en cours…
+  12 retenus / 77 ; rejets : liquidité faible ×48, trop récent ×34, volume faible ×33, trop ancien ×11, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 37% ×1
+  [hasard] ACHAT FLOAT @ 0.014980624$ — 1609.37$ score 33 coût 1.4%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       820.45$   -18.0%   -179.55$   55.23$  257/205     0
+actuelle    102008.89$+10100.9%+101239.12$12556584.54$  187/368     1
+agressive    44161.89$ +4316.2% +44392.18$17470504.51$   93/299     5
+hasard       80423.45$ +7942.3% +80331.24$12393567.29$  175/407     4
+apprentie      908.50$    -9.2%    -87.46$  118.50$  154/169     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 3 — 2026-11-09 00:56:07 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  79 tokens trouvés, analyse en cours…
+  12 retenus / 76 ; rejets : liquidité faible ×50, volume faible ×34, trop récent ×33, trop ancien ×11, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 37% ×1
+  [hasard] ACHAT S&P500 @ 0.00010296772$ — 1609.01$ score 50 coût 13.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       820.45$   -18.0%   -179.55$   55.23$  257/205     0
+actuelle    102033.92$+10103.4%+101239.12$12556584.54$  187/368     1
+agressive    44218.42$ +4321.8% +44392.18$17470504.51$   93/299     5
+hasard       80099.76$ +7910.0% +80331.24$12393752.42$  175/407     5
+apprentie      908.35$    -9.2%    -87.46$  118.50$  154/169     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 4 — 2026-11-09 00:57:07 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  80 tokens trouvés, analyse en cours…
+  12 retenus / 79 ; rejets : liquidité faible ×53, trop récent ×36, volume faible ×36, trop ancien ×11, FDV/liquidité trop élevé ×6, RugCheck: top 10 détient 37% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       820.45$   -18.0%   -179.55$   55.23$  257/205     0
+actuelle    102040.22$+10104.0%+101239.12$12556584.54$  187/368     1
+agressive    44206.58$ +4320.7% +44392.18$17470504.51$   93/299     5
+hasard       80223.01$ +7922.3% +80331.24$12393752.42$  175/407     5
+apprentie      908.68$    -9.1%    -87.46$  118.50$  154/169     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 5 — 2026-11-09 00:58:07 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  80 tokens trouvés, analyse en cours…
+  12 retenus / 79 ; rejets : liquidité faible ×52, trop récent ×36, volume faible ×36, trop ancien ×11, FDV/liquidité trop élevé ×6, RugCheck: top 10 détient 37% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       820.45$   -18.0%   -179.55$   55.23$  257/205     0
+actuelle    102007.30$+10100.7%+101239.12$12556584.54$  187/368     1
+agressive    44057.95$ +4305.8% +44392.18$17470504.51$   93/299     5
+hasard       80069.96$ +7907.0% +80331.24$12393752.42$  175/407     5
+apprentie      908.68$    -9.1%    -87.46$  118.50$  154/169     1
 (argent fictif — valeur nette si tout était revendu maintenant)

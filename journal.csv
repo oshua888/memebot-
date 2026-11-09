@@ -4260,19 +4260,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 21:23:57,prudente,VENTE,Alice,0.0001047,6.02,stop-loss (-26%) PnL -2.22$ coût 1.0%
 2026-11-08 22:01:58,prudente,VENTE,STANK,0.001608,6.47,stop-loss (-21%) PnL -1.78$ coût 1.0%
 2026-11-08 22:11:57,apprentie,VENTE,STANK,0.001529,13.56,stop-loss (-25%) PnL -4.77$ coût 1.0%
-2026-11-08 23:15:57,prudente,ACHAT,GPU,0.0001225879553,8.20,score 75 coût 1.1%
-2026-11-08 23:15:57,actuelle,ACHAT,GPU,0.0001410830765,2032.66,score 75 coût 16.3%
-2026-11-08 23:25:57,hasard,VENTE,FLOAT,0.0147,1767.33,durée max 12h PnL +70.12$ coût 1.5%
-2026-11-08 23:25:57,hasard,ACHAT,Alice,0.0002369125529,1617.58,score 53 coût 8.0%
-2026-11-08 23:43:56,prudente,VENTE,GPU,2.475e-06,0.16,stop-loss (-98%) PnL -8.04$ coût 1.0%
-2026-11-08 23:43:56,actuelle,VENTE,GPU,2.475e-06,34.61,stop-loss (-98%) PnL -1998.05$ coût 2.9%
-2026-11-08 23:49:56,apprentie,ACHAT,george,0.000179942228,18.16,score 37 coût 1.1%
-2026-11-08 23:59:55,apprentie,ACHAT,HEREWEGO,0.002036753044,18.15,score 91 coût 1.0%
-2026-11-09 00:02:55,apprentie,VENTE,WASTED,0.0006831,13.52,stop-loss (-26%) PnL -4.85$ coût 1.0%
-2026-11-09 00:07:55,hasard,VENTE,Alice,0.0001599,1019.82,stop-loss (-33%) PnL -597.76$ coût 6.6%
-2026-11-09 00:07:55,hasard,ACHAT,FLOAT,0.01484936711,1607.78,score 49 coût 1.4%
-2026-11-09 00:11:56,actuelle,ACHAT,WEALTH,0.000542791915,1994.30,score 61 coût 7.5%
-2026-11-09 00:21:55,hasard,VENTE,george,0.0001572,1063.88,stop-loss (-30%) PnL -578.06$ coût 7.1%
-2026-11-09 00:21:55,hasard,ACHAT,José,0.0002939689809,1602.17,score 23 coût 7.4%
-2026-11-09 00:41:56,hasard,VENTE,WASTED,0.0006899,1248.81,durée max 12h PnL -439.46$ coût 4.3%
-2026-11-09 00:41:56,hasard,ACHAT,STOKE,7.077248121e-05,1593.73,score 50 coût 13.5%
+2026-11-09 00:54:17,hasard,VENTE,FLOAT,0.01477,1775.70,durée max 12h PnL +78.48$ coût 1.5%
+2026-11-09 00:54:17,hasard,VENTE,WASTED,0.0007132,1290.38,durée max 12h PnL -397.88$ coût 4.3%
+2026-11-09 00:54:17,hasard,VENTE,george,0.0001545,1046.33,stop-loss (-31%) PnL -595.61$ coût 7.1%
+2026-11-09 00:54:17,hasard,ACHAT,José,0.0002722783015,1613.74,score 33 coût 7.7%
+2026-11-09 00:55:17,hasard,ACHAT,FLOAT,0.01498062432,1609.37,score 33 coût 1.4%
+2026-11-09 00:56:17,hasard,ACHAT,S&P500,0.0001029677209,1609.01,score 50 coût 13.0%
