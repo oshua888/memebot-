@@ -4336,3 +4336,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 15:21:06,actuelle,VENTE,BTC,0.0002431,1111.54,stop-loss (-41%) PnL -904.21$ coût 6.9%
 2026-11-09 15:21:06,hasard,VENTE,BTC,0.0002431,892.93,stop-loss (-40%) PnL -679.56$ coût 5.7%
 2026-11-09 15:22:06,actuelle,ACHAT,MYWAY,0.0008473228372,1997.58,score 60 coût 6.6%
+2026-11-09 15:26:07,hasard,ACHAT,forg,0.0001221888689,1562.74,score 49 coût 13.5%
+2026-11-09 15:26:07,apprentie,ACHAT,forg,0.0001089343377,18.33,score 49 coût 1.1%
