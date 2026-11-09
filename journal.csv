@@ -4268,3 +4268,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 00:56:17,hasard,ACHAT,S&P500,0.0001029677209,1609.01,score 50 coût 13.0%
 2026-11-09 01:23:16,hasard,VENTE,S&P500,7.022e-05,982.67,stop-loss (-32%) PnL -626.34$ coût 10.4%
 2026-11-09 01:23:16,hasard,ACHAT,COGE,0.0003879511505,1591.24,score 40 coût 7.1%
+2026-11-09 01:26:18,apprentie,ACHAT,0DAY,0.0006017010313,18.19,score 28 coût 1.1%
