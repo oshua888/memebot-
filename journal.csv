@@ -4352,3 +4352,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 21:51:10,actuelle,VENTE,STANK,0.003178,2200.60,durée max 12h PnL +186.94$ coût 5.4%
 2026-11-09 22:12:08,apprentie,ACHAT,STANK,0.003307855578,18.45,score 43 coût 1.0%
 2026-11-09 22:22:08,agressive,ACHAT,forg,0.0001677556051,1284.39,score 50 coût 9.5%
+2026-11-09 22:32:08,actuelle,ACHAT,THUG,0.0002541293866,1981.58,score 60 coût 9.6%
+2026-11-09 22:32:08,agressive,ACHAT,WASTED,0.00109901677,1282.84,score 51 coût 3.6%
+2026-11-09 22:32:08,hasard,ACHAT,THUG,0.0002499122254,1563.98,score 60 coût 7.8%
