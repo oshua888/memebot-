@@ -4292,3 +4292,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 03:09:18,agressive,VENTE,ELYSION,0.001798,664.61,stop-loss (-52%) PnL -761.88$ coût 2.2%
 2026-11-09 03:09:18,agressive,ACHAT,BAWSAQ,0.0008113050393,1321.01,score 65 coût 4.8%
 2026-11-09 03:26:21,apprentie,VENTE,NVIDIH,0.0007671,22.78,palier +25% PnL +4.65$ coût 1.1%
+2026-11-09 03:47:21,actuelle,ACHAT,0DAY,0.001005240743,1999.82,score 61 coût 6.0%
+2026-11-09 03:48:21,apprentie,VENTE,BAWSAQ,0.000927,22.43,palier +25% PnL +4.52$ coût 1.1%
+2026-11-09 03:48:21,apprentie,ACHAT,BAWSAQ,0.0009367107186,18.17,score 65 coût 1.0%
