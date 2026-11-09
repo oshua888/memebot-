@@ -4305,3 +4305,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 09:13:38,prudente,ACHAT,PUSSY,0.002266571305,8.22,score 73 coût 1.0%
 2026-11-09 09:49:38,actuelle,ACHAT,STOKE,0.0001106411724,2022.98,score 60 coût 13.6%
 2026-11-09 09:50:38,actuelle,ACHAT,STANK,0.00275141989,2013.66,score 60 coût 5.3%
+2026-11-09 10:03:38,prudente,VENTE,BAWSAQ,0.0007968,5.97,stop-loss (-27%) PnL -2.25$ coût 1.0%
+2026-11-09 10:03:38,apprentie,VENTE,BAWSAQ,0.0007968,11.92,stop-loss (-34%) PnL -6.39$ coût 1.0%
