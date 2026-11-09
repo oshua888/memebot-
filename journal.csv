@@ -4355,3 +4355,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 22:32:08,actuelle,ACHAT,THUG,0.0002541293866,1981.58,score 60 coût 9.6%
 2026-11-09 22:32:08,agressive,ACHAT,WASTED,0.00109901677,1282.84,score 51 coût 3.6%
 2026-11-09 22:32:08,hasard,ACHAT,THUG,0.0002499122254,1563.98,score 60 coût 7.8%
+2026-11-09 22:52:10,actuelle,ACHAT,HWAN,0.0001430207166,1983.44,score 60 coût 14.2%
+2026-11-09 22:53:09,apprentie,VENTE,forg,0.0001642,27.31,palier +50% PnL +8.98$ coût 1.2%
+2026-11-09 22:53:09,apprentie,ACHAT,forg,0.0001660370436,18.67,score 48 coût 1.1%
