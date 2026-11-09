@@ -4269,3 +4269,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-08 23:49:56,apprentie,ACHAT,george,0.000179942228,18.16,score 37 coût 1.1%
 2026-11-08 23:59:55,apprentie,ACHAT,HEREWEGO,0.002036753044,18.15,score 91 coût 1.0%
 2026-11-09 00:02:55,apprentie,VENTE,WASTED,0.0006831,13.52,stop-loss (-26%) PnL -4.85$ coût 1.0%
+2026-11-09 00:07:55,hasard,VENTE,Alice,0.0001599,1019.82,stop-loss (-33%) PnL -597.76$ coût 6.6%
+2026-11-09 00:07:55,hasard,ACHAT,FLOAT,0.01484936711,1607.78,score 49 coût 1.4%
