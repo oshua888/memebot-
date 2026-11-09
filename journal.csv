@@ -4298,3 +4298,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 08:25:38,actuelle,ACHAT,FLOAT,0.01383203638,2026.24,score 60 coût 1.6%
 2026-11-09 08:26:38,prudente,VENTE,BAWSAQ,0.001247,5.29,palier +30% PnL +1.18$ coût 1.0%
 2026-11-09 08:32:38,actuelle,VENTE,STANK,0.002321,2102.67,durée max 12h PnL +46.18$ coût 6.1%
+2026-11-09 08:38:38,hasard,VENTE,WEALTH,0.0005525,1692.93,durée max 12h PnL +54.87$ coût 6.6%
+2026-11-09 08:38:38,hasard,ACHAT,timmy,0.0003387155692,1578.76,score 57 coût 11.7%
