@@ -4286,3 +4286,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 02:49:19,prudente,ACHAT,TITTYVERSE,0.0002032060479,8.20,score 76 coût 1.0%
 2026-11-09 02:49:19,actuelle,ACHAT,TITTYVERSE,0.0002266305116,2030.21,score 76 coût 12.7%
 2026-11-09 02:52:19,apprentie,ACHAT,TITTYVERSE,0.0002049374695,18.09,score 76 coût 1.1%
+2026-11-09 03:01:19,prudente,VENTE,TITTYVERSE,0.0001577,6.30,stop-loss (-22%) PnL -1.90$ coût 1.0%
+2026-11-09 03:01:19,actuelle,VENTE,TITTYVERSE,0.0001577,1268.15,stop-loss (-30%) PnL -762.06$ coût 10.2%
+2026-11-09 03:02:19,apprentie,VENTE,TITTYVERSE,0.000148,12.92,stop-loss (-28%) PnL -5.17$ coût 1.1%
