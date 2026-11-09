@@ -4302,3 +4302,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-09 04:54:20,actuelle,ACHAT,JENSEN,0.0001007415126,2000.41,score 60 coût 16.6%
 2026-11-09 05:08:20,apprentie,ACHAT,george,0.0001115304942,18.00,score 13 coût 1.1%
 2026-11-09 05:15:20,apprentie,VENTE,0DAY,0.0007683,13.39,stop-loss (-25%) PnL -4.73$ coût 1.0%
+2026-11-09 05:23:19,actuelle,VENTE,JENSEN,6.888e-05,1189.03,stop-loss (-32%) PnL -811.37$ coût 13.1%
