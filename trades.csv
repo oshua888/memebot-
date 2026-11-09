@@ -1976,3 +1976,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-09 08:24,2026-11-09 10:03,apprentie,BAWSAQ,boost,stop-loss (-34%),1.65,-34.91,75,86849,13.68,8.2,0.664,0.727,11.57,32.27,58.46,1
 2026-11-09 09:49,2026-11-09 12:40,actuelle,STOKE,tendance,trailing-stop,2.84,45.44,60,32125,3.03,15.5,0.127,0.662,-1.09,26.11,23.1,0
 2026-11-09 01:33,2026-11-09 12:40,hasard,STOKE,tendance,trailing-stop,11.11,83.78,28,25770,2.46,7.2,0.236,0.579,2.55,-2.45,-34,0
+2026-11-08 12:47,2026-11-09 12:48,agressive,WEALTH,tendance,durée max 24h,24.02,-2.64,52,64025,8.36,69.7,0.68,0.584,5.32,6.58,-27.64,0
