@@ -4382,3 +4382,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 01:52:07,apprentie,VENTE,GPU,0.0001154,7.48,stop-loss (-59%) PnL -11.12$ coût 1.1%
 2026-11-10 01:54:07,prudente,VENTE,BORLY,0.001028,6.15,stop-loss (-24%) PnL -2.02$ coût 1.0%
 2026-11-10 01:55:07,actuelle,VENTE,BORLY,0.0007871,1017.76,stop-loss (-45%) PnL -913.74$ coût 4.0%
+2026-11-10 02:00:07,apprentie,VENTE,BORLY,0.001569,29.58,palier +50% PnL +10.55$ coût 1.1%
+2026-11-10 02:00:07,apprentie,ACHAT,BORLY,0.001585286112,19.09,score 66 coût 1.0%
