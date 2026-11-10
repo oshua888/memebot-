@@ -4367,3 +4367,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 00:31:08,apprentie,ACHAT,GPU,0.0002838633986,18.60,score 61 coût 1.1%
 2026-11-10 00:41:09,prudente,ACHAT,GPU,0.0003428158137,8.16,score 76 coût 1.0%
 2026-11-10 00:55:06,hasard,VENTE,STANK,0.003726,1896.30,durée max 12h PnL +293.96$ coût 4.5%
+2026-11-10 01:08:07,actuelle,ACHAT,WEALTH,0.001115155545,1960.97,score 60 coût 5.3%
+2026-11-10 01:08:07,hasard,ACHAT,STANK,0.003203166471,1583.11,score 31 coût 4.0%
