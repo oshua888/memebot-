@@ -4490,3 +4490,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 22:05:09,prudente,VENTE,DACITY,0.001445,4.45,trailing-stop PnL +0.47$ coût 1.0%
 2026-11-10 22:05:09,prudente,ACHAT,DACITY,0.001459695863,7.97,score 77 coût 1.0%
 2026-11-10 22:27:09,apprentie,ACHAT,STANK,0.005660574791,19.46,score 52 coût 1.0%
+2026-11-10 22:30:10,apprentie,ACHAT,BULLHARIS,0.0004651520075,19.45,score 37 coût 1.1%
+2026-11-10 22:32:10,agressive,VENTE,WASTED,0.001441,1615.68,durée max 24h PnL +332.85$ coût 3.9%
+2026-11-10 22:32:10,agressive,ACHAT,WEALTH,0.0009694452348,1296.68,score 53 coût 4.1%
+2026-11-10 22:33:10,apprentie,ACHAT,Leonida,0.0004474494521,19.46,score 47 coût 1.1%
