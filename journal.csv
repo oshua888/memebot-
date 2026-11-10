@@ -4438,3 +4438,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 13:55:34,apprentie,VENTE,Leonida,0.000296,23.58,palier +25% PnL +4.56$ coût 1.1%
 2026-11-10 13:56:34,actuelle,VENTE,Steve,9.474e-05,1131.07,stop-loss (-32%) PnL -762.69$ coût 11.9%
 2026-11-10 14:37:34,prudente,ACHAT,GTA,0.0001583513457,8.01,score 70 coût 1.1%
+2026-11-10 14:45:35,prudente,VENTE,GTA,0.0001218,6.10,stop-loss (-23%) PnL -1.91$ coût 1.0%
