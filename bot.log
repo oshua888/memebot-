@@ -6357,3 +6357,73 @@ agressive    42985.98$ +4198.6% +42009.98$17471261.30$   94/305     5
 hasard       79169.57$ +7817.0% +77374.35$12396244.64$  181/417     5
 apprentie      958.68$    -4.1%    -43.85$  125.32$  163/174     5
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 256 — 2026-11-10 01:51:56 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  11 retenus / 85 ; rejets : liquidité faible ×54, volume faible ×38, trop récent ×35, trop ancien ×17, FDV/liquidité trop élevé ×4, RugCheck: top 10 détient 40% ×1
+  [actuelle] VENTE GPU @ 0.0001154$ — 679.06$ stop-loss (-63%) PnL -1277.48$ coût 6.6%
+  [actuelle] ACHAT BORLY @ 0.001434017$ — 1931.50$ score 79 coût 5.1%
+  [apprentie] VENTE GPU @ 0.0001154$ — 7.48$ stop-loss (-59%) PnL -11.12$ coût 1.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       814.70$   -18.5%   -183.95$   56.01$  259/208     2
+actuelle     96390.03$ +9539.0% +96542.88$12559909.36$  191/376     5
+agressive    42909.66$ +4191.0% +42009.98$17471261.30$   94/305     5
+hasard       79058.44$ +7805.8% +77374.35$12396244.64$  181/417     5
+apprentie      950.49$    -5.0%    -54.97$  125.40$  163/175     4
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 257 — 2026-11-10 01:52:56 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  11 retenus / 84 ; rejets : liquidité faible ×53, volume faible ×37, trop récent ×33, trop ancien ×17, FDV/liquidité trop élevé ×4, RugCheck: top 10 détient 40% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       814.67$   -18.5%   -183.95$   56.01$  259/208     2
+actuelle     96423.48$ +9542.3% +96542.88$12559909.36$  191/376     5
+agressive    42933.32$ +4193.3% +42009.98$17471261.30$   94/305     5
+hasard       79090.11$ +7809.0% +77374.35$12396244.64$  181/417     5
+apprentie      950.12$    -5.0%    -54.97$  125.40$  163/175     4
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 258 — 2026-11-10 01:53:56 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  11 retenus / 86 ; rejets : liquidité faible ×53, volume faible ×37, trop récent ×36, trop ancien ×17, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 40% ×1
+  [prudente] VENTE BORLY @ 0.001028$ — 6.15$ stop-loss (-24%) PnL -2.02$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       812.47$   -18.8%   -185.96$   56.08$  259/209     1
+actuelle     95946.58$ +9494.7% +96542.88$12559909.36$  191/376     5
+agressive    42873.63$ +4187.4% +42009.98$17471261.30$   94/305     5
+hasard       79046.54$ +7804.7% +77374.35$12396244.64$  181/417     5
+apprentie      943.72$    -5.6%    -54.97$  125.40$  163/175     4
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 259 — 2026-11-10 01:54:56 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  11 retenus / 86 ; rejets : liquidité faible ×54, volume faible ×36, trop récent ×36, trop ancien ×17, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 40% ×1
+  [actuelle] VENTE BORLY @ 0.0007871$ — 1017.76$ stop-loss (-45%) PnL -913.74$ coût 4.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       812.47$   -18.8%   -185.96$   56.08$  259/209     1
+actuelle     95613.44$ +9461.3% +95629.14$12559951.76$  191/377     4
+agressive    42858.20$ +4185.8% +42009.98$17471261.30$   94/305     5
+hasard       79017.47$ +7801.7% +77374.35$12396244.64$  181/417     5
+apprentie      939.27$    -6.1%    -54.97$  125.40$  163/175     4
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 260 — 2026-11-10 01:55:56 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  11 retenus / 86 ; rejets : liquidité faible ×54, volume faible ×37, trop récent ×36, trop ancien ×17, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 40% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       812.55$   -18.7%   -185.96$   56.08$  259/209     1
+actuelle     95639.29$ +9463.9% +95629.14$12559951.76$  191/377     4
+agressive    42898.72$ +4189.9% +42009.98$17471261.30$   94/305     5
+hasard       79039.02$ +7803.9% +77374.35$12396244.64$  181/417     5
+apprentie      943.15$    -5.7%    -54.97$  125.40$  163/175     4
+(argent fictif — valeur nette si tout était revendu maintenant)
