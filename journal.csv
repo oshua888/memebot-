@@ -4428,3 +4428,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 13:08:34,actuelle,VENTE,WEALTH,0.001025,1711.50,durée max 12h PnL -249.48$ coût 5.0%
 2026-11-10 13:08:34,hasard,VENTE,STANK,0.003873,1831.43,durée max 12h PnL +248.32$ coût 4.3%
 2026-11-10 13:15:34,hasard,VENTE,HODLER,0.01274,1083.80,stop-loss (-30%) PnL -498.27$ coût 1.5%
+2026-11-10 13:20:34,actuelle,ACHAT,Steve,0.0001397734257,1893.76,score 63 coût 15.0%
+2026-11-10 13:20:34,hasard,ACHAT,HWAN,0.0001167209557,1539.09,score 52 coût 12.7%
+2026-11-10 13:21:34,hasard,ACHAT,FLOAT,0.00934867766,1532.22,score 29 coût 1.5%
