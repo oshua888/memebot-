@@ -4487,3 +4487,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 21:51:09,apprentie,ACHAT,DACITY,0.001734823996,19.47,score 76 coût 1.0%
 2026-11-10 21:57:09,actuelle,ACHAT,FLOAT,0.01186761081,1802.88,score 61 coût 1.5%
 2026-11-10 22:03:09,apprentie,VENTE,STANK,0.005956,24.07,palier +25% PnL +4.97$ coût 1.0%
+2026-11-10 22:05:09,prudente,VENTE,DACITY,0.001445,4.45,trailing-stop PnL +0.47$ coût 1.0%
+2026-11-10 22:05:09,prudente,ACHAT,DACITY,0.001459695863,7.97,score 77 coût 1.0%
