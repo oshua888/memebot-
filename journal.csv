@@ -4406,3 +4406,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 06:06:39,prudente,ACHAT,OnlyCats,0.001336464492,8.08,score 76 coût 1.0%
 2026-11-10 06:40:39,apprentie,VENTE,MAMESUKE,0.0001818,13.54,stop-loss (-25%) PnL -4.83$ coût 1.1%
 2026-11-10 06:57:38,actuelle,VENTE,FAIR,0.0002203,924.58,palier +50% PnL +295.33$ coût 6.3%
+2026-11-10 07:20:38,actuelle,VENTE,FAIR,0.0002832,1196.61,palier +100% PnL +557.82$ coût 7.1%
