@@ -4431,3 +4431,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 13:20:34,actuelle,ACHAT,Steve,0.0001397734257,1893.76,score 63 coût 15.0%
 2026-11-10 13:20:34,hasard,ACHAT,HWAN,0.0001167209557,1539.09,score 52 coût 12.7%
 2026-11-10 13:21:34,hasard,ACHAT,FLOAT,0.00934867766,1532.22,score 29 coût 1.5%
+2026-11-10 13:31:32,agressive,VENTE,MYWAY,0.001172,1376.26,trailing-stop PnL +490.67$ coût 4.3%
+2026-11-10 13:33:33,agressive,ACHAT,HWAN,0.0001041301859,1326.92,score 54 coût 11.6%
