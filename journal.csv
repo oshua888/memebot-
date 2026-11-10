@@ -4476,3 +4476,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 21:04:08,prudente,ACHAT,DACITY,0.001277880749,7.95,score 80 coût 1.0%
 2026-11-10 21:04:08,actuelle,ACHAT,DACITY,0.001330090858,1807.11,score 80 coût 5.1%
 2026-11-10 21:04:08,apprentie,ACHAT,DACITY,0.0012782106,19.32,score 80 coût 1.0%
+2026-11-10 21:09:09,actuelle,VENTE,forg,9e-05,1131.26,stop-loss (-30%) PnL -724.35$ coût 12.3%
