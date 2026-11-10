@@ -4448,3 +4448,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 15:39:34,agressive,VENTE,FAIR,0.0001589,726.82,stop-loss (-41%) PnL -573.35$ coût 6.0%
 2026-11-10 15:39:34,agressive,ACHAT,X,0.0003019353447,1315.72,score 59 coût 6.8%
 2026-11-10 16:15:35,hasard,VENTE,WEALTH,0.0008399,1291.13,durée max 12h PnL -274.60$ coût 4.4%
+2026-11-10 16:19:35,actuelle,VENTE,GTA,9.292e-05,1089.17,stop-loss (-34%) PnL -791.14$ coût 12.0%
+2026-11-10 16:22:34,actuelle,ACHAT,X,0.000366520774,1862.68,score 66 coût 8.6%
+2026-11-10 16:22:34,hasard,ACHAT,FAIR,0.0001550148882,1538.37,score 48 coût 11.6%
+2026-11-10 16:23:34,prudente,ACHAT,X,0.000360884526,7.99,score 74 coût 1.0%
