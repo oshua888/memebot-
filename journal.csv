@@ -4392,3 +4392,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 02:43:08,prudente,VENTE,OnlyCats,0.001682,5.39,palier +30% PnL +1.32$ coût 1.0%
 2026-11-10 02:52:08,prudente,VENTE,OnlyCats,0.001422,4.56,trailing-stop PnL +0.48$ coût 1.0%
 2026-11-10 02:56:09,prudente,ACHAT,HABIBI,0.0001101610823,8.16,score 72 coût 1.1%
+2026-11-10 04:02:40,actuelle,VENTE,MYWAY,0.0007257,1607.89,durée max 12h PnL -389.68$ coût 6.0%
+2026-11-10 04:02:40,hasard,VENTE,forg,0.0001267,1412.36,durée max 12h PnL -150.38$ coût 12.8%
+2026-11-10 04:02:40,hasard,ACHAT,OnlyCats,0.001400586098,1571.05,score 60 coût 4.4%
+2026-11-10 04:02:40,apprentie,VENTE,timmy,0.0003566,13.77,stop-loss (-28%) PnL -5.58$ coût 1.1%
