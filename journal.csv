@@ -4440,3 +4440,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 14:37:34,prudente,ACHAT,GTA,0.0001583513457,8.01,score 70 coût 1.1%
 2026-11-10 14:45:35,prudente,VENTE,GTA,0.0001218,6.10,stop-loss (-23%) PnL -1.91$ coût 1.0%
 2026-11-10 15:23:34,hasard,VENTE,HWAN,0.0001998,819.68,palier +50% PnL +311.78$ coût 5.7%
+2026-11-10 15:24:34,hasard,VENTE,HWAN,0.0001344,1083.22,trailing-stop PnL +52.03$ coût 8.8%
+2026-11-10 15:24:34,hasard,ACHAT,HWAN,0.0001493248463,1543.70,score 57 coût 11.1%
