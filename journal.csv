@@ -4482,3 +4482,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 21:40:09,actuelle,VENTE,If,9.324e-05,1111.51,stop-loss (-31%) PnL -725.64$ coût 12.2%
 2026-11-10 21:44:09,agressive,VENTE,STANK,0.005409,2118.52,durée max 24h PnL +831.71$ coût 4.2%
 2026-11-10 21:44:09,agressive,ACHAT,STANK,0.005563855409,1290.51,score 59 coût 2.9%
+2026-11-10 21:51:09,prudente,VENTE,DACITY,0.001717,5.29,palier +30% PnL +1.31$ coût 1.0%
+2026-11-10 21:51:09,apprentie,VENTE,DACITY,0.001717,25.68,palier +25% PnL +6.36$ coût 1.1%
+2026-11-10 21:51:09,apprentie,ACHAT,DACITY,0.001734823996,19.47,score 76 coût 1.0%
