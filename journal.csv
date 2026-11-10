@@ -4396,3 +4396,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 04:02:40,hasard,VENTE,forg,0.0001267,1412.36,durée max 12h PnL -150.38$ coût 12.8%
 2026-11-10 04:02:40,hasard,ACHAT,OnlyCats,0.001400586098,1571.05,score 60 coût 4.4%
 2026-11-10 04:02:40,apprentie,VENTE,timmy,0.0003566,13.77,stop-loss (-28%) PnL -5.58$ coût 1.1%
+2026-11-10 04:08:40,apprentie,ACHAT,BIG,0.0007245398206,18.95,score 57 coût 1.1%
