@@ -4390,3 +4390,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 02:37:08,hasard,VENTE,MYWAY,0.0007711,1908.98,durée max 12h PnL +328.68$ coût 6.8%
 2026-11-10 02:37:08,hasard,ACHAT,HODLER,0.01832575843,1582.07,score 58 coût 1.5%
 2026-11-10 02:43:08,prudente,VENTE,OnlyCats,0.001682,5.39,palier +30% PnL +1.32$ coût 1.0%
+2026-11-10 02:52:08,prudente,VENTE,OnlyCats,0.001422,4.56,trailing-stop PnL +0.48$ coût 1.0%
+2026-11-10 02:56:09,prudente,ACHAT,HABIBI,0.0001101610823,8.16,score 72 coût 1.1%
