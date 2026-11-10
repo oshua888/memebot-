@@ -4460,3 +4460,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 17:10:36,hasard,ACHAT,STANK,0.004896941122,1533.30,score 48 coût 3.4%
 2026-11-10 17:11:35,actuelle,VENTE,X,0.0002554,1206.25,stop-loss (-30%) PnL -656.44$ coût 7.1%
 2026-11-10 17:26:36,agressive,ACHAT,HWAN,0.0001369533907,1318.67,score 50 coût 9.7%
+2026-11-10 20:25:07,agressive,VENTE,X,0.0001544,639.08,stop-loss (-49%) PnL -676.65$ coût 5.0%
+2026-11-10 20:25:07,agressive,VENTE,HWAN,8.143e-05,722.74,stop-loss (-41%) PnL -595.92$ coût 7.8%
+2026-11-10 20:25:07,agressive,ACHAT,Leonida,0.0004575752106,1304.67,score 54 coût 5.9%
+2026-11-10 20:25:07,hasard,VENTE,Leonida,0.0004319,816.98,palier +50% PnL +309.31$ coût 4.2%
+2026-11-10 20:25:07,apprentie,VENTE,Leonida,0.0004319,28.09,palier +25% PnL +9.00$ coût 1.1%
+2026-11-10 20:29:07,actuelle,ACHAT,If,0.0001352326097,1837.16,score 60 coût 15.5%
+2026-11-10 20:29:07,agressive,ACHAT,If,0.0001302734641,1300.02,score 60 coût 11.2%
