@@ -4452,3 +4452,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 16:22:34,actuelle,ACHAT,X,0.000366520774,1862.68,score 66 coût 8.6%
 2026-11-10 16:22:34,hasard,ACHAT,FAIR,0.0001550148882,1538.37,score 48 coût 11.6%
 2026-11-10 16:23:34,prudente,ACHAT,X,0.000360884526,7.99,score 74 coût 1.0%
+2026-11-10 16:26:35,agressive,VENTE,HWAN,0.0002142,849.56,palier +100% PnL +411.67$ coût 5.7%
