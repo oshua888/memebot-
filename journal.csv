@@ -4384,3 +4384,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 01:55:07,actuelle,VENTE,BORLY,0.0007871,1017.76,stop-loss (-45%) PnL -913.74$ coût 4.0%
 2026-11-10 02:00:07,apprentie,VENTE,BORLY,0.001569,29.58,palier +50% PnL +10.55$ coût 1.1%
 2026-11-10 02:00:07,apprentie,ACHAT,BORLY,0.001585286112,19.09,score 66 coût 1.0%
+2026-11-10 02:07:08,prudente,ACHAT,OnlyCats,0.001258691677,8.15,score 74 coût 1.0%
+2026-11-10 02:07:08,actuelle,ACHAT,OnlyCats,0.001313085698,1921.98,score 74 coût 5.4%
+2026-11-10 02:07:08,apprentie,ACHAT,OnlyCats,0.001259003015,19.11,score 74 coût 1.0%
