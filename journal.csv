@@ -4471,3 +4471,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 20:40:08,actuelle,ACHAT,PUSSY,0.001111473519,1823.88,score 68 coût 2.9%
 2026-11-10 20:49:08,actuelle,ACHAT,Catcity,0.0001957917097,1819.73,score 60 coût 12.7%
 2026-11-10 20:50:08,prudente,ACHAT,Catcity,0.0001728990358,7.97,score 75 coût 1.1%
+2026-11-10 21:03:09,prudente,VENTE,Catcity,0.0001366,6.23,stop-loss (-21%) PnL -1.74$ coût 1.0%
+2026-11-10 21:03:09,actuelle,VENTE,Catcity,0.0001366,1139.94,stop-loss (-30%) PnL -679.79$ coût 10.2%
+2026-11-10 21:04:08,prudente,ACHAT,DACITY,0.001277880749,7.95,score 80 coût 1.0%
+2026-11-10 21:04:08,actuelle,ACHAT,DACITY,0.001330090858,1807.11,score 80 coût 5.1%
+2026-11-10 21:04:08,apprentie,ACHAT,DACITY,0.0012782106,19.32,score 80 coût 1.0%
