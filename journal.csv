@@ -4408,3 +4408,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 06:57:38,actuelle,VENTE,FAIR,0.0002203,924.58,palier +50% PnL +295.33$ coût 6.3%
 2026-11-10 07:20:38,actuelle,VENTE,FAIR,0.0002832,1196.61,palier +100% PnL +557.82$ coût 7.1%
 2026-11-10 08:03:36,prudente,VENTE,HODLER,0.01627,7.83,durée max 8h PnL -0.35$ coût 1.0%
+2026-11-10 08:09:35,agressive,VENTE,forg,0.0001,709.67,stop-loss (-40%) PnL -574.72$ coût 7.3%
+2026-11-10 08:09:35,agressive,ACHAT,FAIR,0.0002672797275,1300.17,score 59 coût 7.6%
