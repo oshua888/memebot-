@@ -4495,3 +4495,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-10 22:32:10,agressive,ACHAT,WEALTH,0.0009694452348,1296.68,score 53 coût 4.1%
 2026-11-10 22:33:10,apprentie,ACHAT,Leonida,0.0004474494521,19.46,score 47 coût 1.1%
 2026-11-10 22:36:10,prudente,VENTE,DACITY,0.001931,5.22,palier +30% PnL +1.23$ coût 1.0%
+2026-11-10 22:48:10,hasard,VENTE,FAIR,0.0001056,950.80,stop-loss (-32%) PnL -587.57$ coût 9.3%
+2026-11-10 22:48:10,hasard,ACHAT,X,0.0003171745894,1548.90,score 50 coût 7.4%
+2026-11-10 22:49:09,prudente,VENTE,DACITY,0.001557,4.21,trailing-stop PnL +0.22$ coût 1.0%
