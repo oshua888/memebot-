@@ -4635,3 +4635,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 10:21:22,hasard,ACHAT,forg,0.0001221872449,1534.33,score 23 coût 13.0%
 2026-11-11 10:42:22,actuelle,ACHAT,DIGS,0.0001394622131,1774.02,score 62 coût 12.9%
 2026-11-11 10:49:22,actuelle,VENTE,NIHAO,0.007974,877.46,palier +50% PnL +296.70$ coût 1.8%
+2026-11-11 11:28:23,actuelle,VENTE,DACITY,0.002364,1046.54,trailing-stop PnL +441.16$ coût 2.7%
+2026-11-11 11:28:23,actuelle,ACHAT,DACITY,0.002455356282,1777.11,score 65 coût 3.9%
+2026-11-11 11:28:23,hasard,VENTE,DACITY,0.002364,1304.62,trailing-stop PnL +278.89$ coût 3.2%
+2026-11-11 11:28:23,hasard,ACHAT,DACITY,0.002445724396,1524.34,score 65 coût 3.5%
+2026-11-11 11:29:23,prudente,VENTE,DACITY,0.002049,6.10,stop-loss (-24%) PnL -1.98$ coût 1.0%
+2026-11-11 11:29:23,agressive,VENTE,DACITY,0.002049,1214.87,trailing-stop PnL +348.77$ coût 3.2%
+2026-11-11 11:29:23,agressive,ACHAT,NIHAO,0.008648398701,1347.18,score 96 coût 2.1%
+2026-11-11 11:29:23,apprentie,VENTE,DACITY,0.002049,13.88,stop-loss (-28%) PnL -5.55$ coût 1.0%

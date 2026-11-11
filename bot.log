@@ -5951,3 +5951,76 @@ agressive    45086.25$ +4408.6% +43343.21$17473369.51$  105/312     5
 hasard       76560.75$ +7556.1% +75480.03$12400405.86$  199/430     5
 apprentie      972.93$    -2.7%    -30.90$  136.44$  178/186     5
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 226 — 2026-11-11 11:25:08 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  16 retenus / 88 ; rejets : liquidité faible ×51, volume faible ×33, trop récent ×31, trop ancien ×20, FDV/liquidité trop élevé ×3, aucune vente ×1, RugCheck: top 10 détient 37% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       809.92$   -19.0%   -191.75$   59.96$  286/221     1
+actuelle     89172.23$ +8817.2% +86766.40$12565743.18$  201/396     5
+agressive    45438.01$ +4443.8% +43343.21$17473369.51$  105/312     5
+hasard       76746.23$ +7574.6% +75480.03$12400405.86$  199/430     5
+apprentie      974.86$    -2.5%    -30.90$  136.44$  178/186     5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 227 — 2026-11-11 11:26:08 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  15 retenus / 88 ; rejets : liquidité faible ×50, volume faible ×34, trop récent ×31, trop ancien ×20, FDV/liquidité trop élevé ×4, aucune vente ×1, RugCheck: top 10 détient 37% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       809.46$   -19.1%   -191.75$   59.96$  286/221     1
+actuelle     89133.26$ +8813.3% +86766.40$12565743.18$  201/396     5
+agressive    45455.22$ +4445.5% +43343.21$17473369.51$  105/312     5
+hasard       76567.25$ +7556.7% +75480.03$12400405.86$  199/430     5
+apprentie      974.59$    -2.5%    -30.90$  136.44$  178/186     5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 228 — 2026-11-11 11:27:08 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  15 retenus / 87 ; rejets : liquidité faible ×51, volume faible ×32, trop récent ×30, trop ancien ×20, FDV/liquidité trop élevé ×3, aucune vente ×1, RugCheck: top 10 détient 37% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       810.14$   -19.0%   -191.75$   59.96$  286/221     1
+actuelle     89158.85$ +8815.9% +86766.40$12565743.18$  201/396     5
+agressive    45590.80$ +4459.1% +43343.21$17473369.51$  105/312     5
+hasard       76712.59$ +7571.3% +75480.03$12400405.86$  199/430     5
+apprentie      975.15$    -2.5%    -30.90$  136.44$  178/186     5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 229 — 2026-11-11 11:28:08 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  16 retenus / 86 ; rejets : liquidité faible ×50, volume faible ×32, trop récent ×29, trop ancien ×20, FDV/liquidité trop élevé ×2, aucune vente ×1, RugCheck: top 10 détient 37% ×1
+  [actuelle] VENTE DACITY @ 0.002364$ — 1046.54$ trailing-stop PnL +441.16$ coût 2.7%
+  [actuelle] ACHAT DACITY @ 0.0024553563$ — 1777.11$ score 65 coût 3.9%
+  [hasard] VENTE DACITY @ 0.002364$ — 1304.62$ trailing-stop PnL +278.89$ coût 3.2%
+  [hasard] ACHAT DACITY @ 0.0024457244$ — 1524.34$ score 65 coût 3.5%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       807.20$   -19.3%   -191.75$   59.96$  286/221     1
+actuelle     88725.29$ +8772.5% +87207.56$12565838.73$  202/396     5
+agressive    45005.58$ +4400.6% +43343.21$17473369.51$  105/312     5
+hasard       76116.31$ +7511.6% +75758.92$12400499.53$  200/430     5
+apprentie      969.93$    -3.0%    -30.90$  136.44$  178/186     5
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 230 — 2026-11-11 11:29:08 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  14 retenus / 88 ; rejets : liquidité faible ×51, volume faible ×34, trop récent ×31, trop ancien ×20, FDV/liquidité trop élevé ×2, aucune vente ×1, RugCheck: top 10 détient 38% ×1, RugCheck: top 10 détient 37% ×1
+  [prudente] VENTE DACITY @ 0.002049$ — 6.10$ stop-loss (-24%) PnL -1.98$ coût 1.0%
+  [agressive] VENTE DACITY @ 0.002049$ — 1214.87$ trailing-stop PnL +348.77$ coût 3.2%
+  [agressive] ACHAT NIHAO @ 0.0086483987$ — 1347.18$ score 96 coût 2.1%
+  [apprentie] VENTE DACITY @ 0.002049$ — 13.88$ stop-loss (-28%) PnL -5.55$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       806.27$   -19.4%   -193.73$   60.02$  286/222     0
+actuelle     88393.87$ +8739.4% +87207.56$12565838.73$  202/396     5
+agressive    44850.58$ +4385.1% +43691.98$17473437.30$  106/312     5
+hasard       75842.64$ +7484.3% +75758.92$12400499.53$  200/430     5
+apprentie      967.50$    -3.3%    -36.45$  136.59$  178/187     4
+(argent fictif — valeur nette si tout était revendu maintenant)
