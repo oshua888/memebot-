@@ -4531,3 +4531,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 02:43:33,actuelle,VENTE,咪好,0.0003545,1159.73,stop-loss (-30%) PnL -615.30$ coût 6.5%
 2026-11-11 02:52:34,hasard,VENTE,BIG,0.0009145,1149.90,trailing-stop PnL +112.55$ coût 3.8%
 2026-11-11 02:52:34,hasard,ACHAT,咪好,0.0003875200922,1534.77,score 59 coût 7.7%
+2026-11-11 02:58:34,agressive,VENTE,If,0.0002707,842.40,palier +100% PnL +413.39$ coût 5.5%
+2026-11-11 02:58:34,hasard,VENTE,If,0.0002707,750.12,palier +50% PnL +244.54$ coût 5.0%
