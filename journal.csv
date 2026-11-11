@@ -4680,3 +4680,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 18:36:21,hasard,ACHAT,BOXCAT,0.0001311880687,1476.51,score 42 coût 11.5%
 2026-11-11 18:52:21,apprentie,VENTE,timmy,0.001002,24.65,palier +25% PnL +5.56$ coût 1.1%
 2026-11-11 18:52:21,apprentie,ACHAT,timmy,0.001012679024,19.24,score 44 coût 1.1%
+2026-11-11 19:01:20,hasard,VENTE,BOXCAT,7.941e-05,815.51,stop-loss (-39%) PnL -661.01$ coût 8.8%
+2026-11-11 19:01:20,hasard,ACHAT,THUG,0.0002686454121,1455.95,score 19 coût 7.2%
