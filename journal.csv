@@ -4562,3 +4562,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 04:03:33,actuelle,ACHAT,NIHAO,0.005184300056,1759.89,score 67 coût 2.9%
 2026-11-11 04:03:33,hasard,VENTE,NIHAO,0.005036,1142.64,trailing-stop PnL +119.81$ coût 2.3%
 2026-11-11 04:03:33,hasard,ACHAT,If,0.0004034715007,1562.07,score 79 coût 7.6%
+2026-11-11 04:06:33,prudente,VENTE,If,0.0003297,6.28,stop-loss (-21%) PnL -1.78$ coût 1.0%
