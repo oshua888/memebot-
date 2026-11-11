@@ -4529,3 +4529,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 02:31:32,prudente,ACHAT,DACITY,0.001929380865,8.00,score 72 coût 1.0%
 2026-11-11 02:42:32,prudente,VENTE,咪好,0.0003583,5.97,stop-loss (-25%) PnL -2.04$ coût 1.0%
 2026-11-11 02:43:33,actuelle,VENTE,咪好,0.0003545,1159.73,stop-loss (-30%) PnL -615.30$ coût 6.5%
+2026-11-11 02:52:34,hasard,VENTE,BIG,0.0009145,1149.90,trailing-stop PnL +112.55$ coût 3.8%
+2026-11-11 02:52:34,hasard,ACHAT,咪好,0.0003875200922,1534.77,score 59 coût 7.7%
