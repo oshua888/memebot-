@@ -4599,3 +4599,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 06:24:34,prudente,ACHAT,PAYDAY,0.0006355536937,8.08,score 81 coût 1.0%
 2026-11-11 06:28:33,apprentie,VENTE,咪好,0.0003895,14.35,stop-loss (-26%) PnL -5.23$ coût 1.1%
 2026-11-11 06:28:33,apprentie,ACHAT,ORVIX,0.000252650391,19.45,score 46 coût 1.1%
+2026-11-11 06:34:32,agressive,VENTE,If,0.0002385,746.49,stop-loss (-41%) PnL -579.30$ coût 5.2%
+2026-11-11 06:34:32,agressive,ACHAT,HOLD,0.0007252791796,1309.72,score 63 coût 4.6%
+2026-11-11 06:34:32,hasard,VENTE,HOLD,0.0006933,1035.55,stop-loss (-31%) PnL -517.79$ coût 4.0%
+2026-11-11 06:34:32,hasard,ACHAT,DIGS,0.0001331593654,1529.65,score 58 coût 11.6%
