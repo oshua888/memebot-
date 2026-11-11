@@ -4517,3 +4517,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 01:59:32,prudente,ACHAT,NIHAO,0.004369674976,8.01,score 79 coût 1.0%
 2026-11-11 01:59:32,actuelle,ACHAT,NIHAO,0.004461425249,1777.98,score 79 coût 3.1%
 2026-11-11 01:59:32,apprentie,ACHAT,NIHAO,0.004370265902,19.41,score 79 coût 1.0%
+2026-11-11 02:20:32,agressive,VENTE,WEALTH,0.0005806,750.72,stop-loss (-40%) PnL -545.96$ coût 3.3%
+2026-11-11 02:20:32,agressive,ACHAT,THUG,0.0003426040016,1294.10,score 60 coût 5.9%
+2026-11-11 02:23:34,hasard,VENTE,STANK,0.00342,1039.34,stop-loss (-30%) PnL -493.96$ coût 2.9%
+2026-11-11 02:23:34,hasard,ACHAT,NIHAO,0.004404620056,1526.61,score 49 coût 2.8%
