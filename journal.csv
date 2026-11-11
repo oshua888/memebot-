@@ -4715,3 +4715,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 23:05:04,hasard,ACHAT,WEALTH,0.000560668883,1404.90,score 34 coût 5.4%
 2026-11-11 23:20:01,hasard,VENTE,GOODTIME,0.0001142,874.55,stop-loss (-32%) PnL -543.32$ coût 8.7%
 2026-11-11 23:20:01,apprentie,VENTE,GOODTIME,0.0001142,13.92,stop-loss (-26%) PnL -5.12$ coût 1.1%
+2026-11-11 23:23:01,actuelle,VENTE,Max,0.0045,1163.38,stop-loss (-30%) PnL -543.02$ coût 2.0%
+2026-11-11 23:23:01,hasard,VENTE,Max,0.0045,963.35,stop-loss (-30%) PnL -444.45$ coût 1.8%
