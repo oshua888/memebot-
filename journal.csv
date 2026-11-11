@@ -4593,3 +4593,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 05:58:34,hasard,ACHAT,HOLD,0.0009986255592,1553.34,score 75 coût 4.6%
 2026-11-11 06:06:33,prudente,VENTE,VEYL,0.0006185,5.44,palier +30% PnL +1.41$ coût 1.0%
 2026-11-11 06:11:33,prudente,VENTE,VEYL,0.000751,3.31,palier +60% PnL +1.29$ coût 1.0%
+2026-11-11 06:18:33,prudente,VENTE,VEYL,0.0007631,3.36,trailing-stop PnL +1.34$ coût 1.0%
