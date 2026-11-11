@@ -4631,3 +4631,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 09:57:21,actuelle,VENTE,FLOAT,0.009776,1463.47,durée max 12h PnL -339.42$ coût 1.5%
 2026-11-11 10:18:21,hasard,VENTE,咪好,0.0005725,1425.77,trailing-stop PnL +397.48$ coût 6.1%
 2026-11-11 10:18:21,hasard,ACHAT,VEYL,0.0002409948013,1543.99,score 63 coût 9.2%
+2026-11-11 10:21:22,hasard,VENTE,VEYL,0.0001682,995.89,stop-loss (-30%) PnL -548.11$ coût 7.6%
+2026-11-11 10:21:22,hasard,ACHAT,forg,0.0001221872449,1534.33,score 23 coût 13.0%
