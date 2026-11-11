@@ -4508,3 +4508,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 00:07:11,hasard,VENTE,X,0.0002205,1010.25,stop-loss (-30%) PnL -538.65$ coût 6.2%
 2026-11-11 00:07:11,hasard,ACHAT,DACITY,0.001799688087,1530.93,score 54 coût 4.0%
 2026-11-11 00:35:10,actuelle,VENTE,DACITY,0.002026,884.53,palier +50% PnL +288.18$ coût 2.6%
+2026-11-11 01:09:09,actuelle,VENTE,DACITY,0.001498,1311.20,trailing-stop PnL +100.44$ coût 3.8%
+2026-11-11 01:09:09,actuelle,ACHAT,DACITY,0.001568194503,1767.68,score 72 coût 4.7%
