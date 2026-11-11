@@ -4719,3 +4719,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 23:23:01,hasard,VENTE,Max,0.0045,963.35,stop-loss (-30%) PnL -444.45$ coût 1.8%
 2026-11-11 23:30:01,prudente,ACHAT,Max,0.003850390608,8.10,score 76 coût 1.0%
 2026-11-11 23:30:01,agressive,VENTE,Max,0.003812,698.75,stop-loss (-41%) PnL -502.93$ coût 1.6%
+2026-11-11 23:32:02,apprentie,VENTE,THUG,0.0001741,13.56,stop-loss (-28%) PnL -5.58$ coût 1.1%
