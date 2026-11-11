@@ -4683,3 +4683,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 19:01:20,hasard,VENTE,BOXCAT,7.941e-05,815.51,stop-loss (-39%) PnL -661.01$ coût 8.8%
 2026-11-11 19:01:20,hasard,ACHAT,THUG,0.0002686454121,1455.95,score 19 coût 7.2%
 2026-11-11 19:09:21,agressive,VENTE,HOLD,0.0004164,724.99,stop-loss (-43%) PnL -584.73$ coût 3.6%
+2026-11-11 19:51:23,actuelle,ACHAT,GOODTIME,0.0001310864842,1740.73,score 61 coût 14.9%
+2026-11-11 19:51:23,agressive,ACHAT,GOODTIME,0.0001264696496,1233.54,score 61 coût 10.8%
+2026-11-11 19:51:23,apprentie,ACHAT,GOODTIME,0.0001154154935,19.17,score 61 coût 1.2%
