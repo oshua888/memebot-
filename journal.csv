@@ -4567,3 +4567,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 04:14:33,hasard,ACHAT,NIHAO,0.006237694019,1553.81,score 79 coût 2.6%
 2026-11-11 04:16:33,apprentie,VENTE,咪好,0.0005203,24.48,palier +25% PnL +4.98$ coût 1.1%
 2026-11-11 04:16:33,apprentie,ACHAT,咪好,0.0005258704199,19.58,score 63 coût 1.1%
+2026-11-11 04:24:33,apprentie,VENTE,BULLHARIS,0.0003433,14.20,stop-loss (-26%) PnL -5.25$ coût 1.1%
+2026-11-11 04:24:33,apprentie,ACHAT,NIHAO,0.005727853796,19.51,score 79 coût 1.0%
