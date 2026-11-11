@@ -6024,3 +6024,71 @@ agressive    44850.58$ +4385.1% +43691.98$17473437.30$  106/312     5
 hasard       75842.64$ +7484.3% +75758.92$12400499.53$  200/430     5
 apprentie      967.50$    -3.3%    -36.45$  136.59$  178/187     4
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 231 — 2026-11-11 11:30:08 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  14 retenus / 87 ; rejets : liquidité faible ×52, volume faible ×33, trop récent ×30, trop ancien ×20, FDV/liquidité trop élevé ×2, aucune vente ×1, RugCheck: top 10 détient 38% ×1, RugCheck: top 10 détient 37% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       806.27$   -19.4%   -193.73$   60.02$  286/222     0
+actuelle     88460.24$ +8746.0% +87207.56$12565838.73$  202/396     5
+agressive    44971.46$ +4397.1% +43691.98$17473437.30$  106/312     5
+hasard       75999.69$ +7500.0% +75758.92$12400499.53$  200/430     5
+apprentie      967.29$    -3.3%    -36.45$  136.59$  178/187     4
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 232 — 2026-11-11 11:31:08 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  14 retenus / 87 ; rejets : liquidité faible ×52, volume faible ×33, trop récent ×28, trop ancien ×20, FDV/liquidité trop élevé ×2, RugCheck: top 10 détient 38% ×1, RugCheck: top 10 détient 37% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       806.27$   -19.4%   -193.73$   60.02$  286/222     0
+actuelle     88346.95$ +8734.7% +87207.56$12565838.73$  202/396     5
+agressive    45110.04$ +4411.0% +43691.98$17473437.30$  106/312     5
+hasard       75863.53$ +7486.4% +75758.92$12400499.53$  200/430     5
+apprentie      967.14$    -3.3%    -36.45$  136.59$  178/187     4
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 233 — 2026-11-11 11:32:08 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  14 retenus / 87 ; rejets : liquidité faible ×52, volume faible ×32, trop récent ×28, trop ancien ×20, FDV/liquidité trop élevé ×2, RugCheck: top 10 détient 38% ×1, RugCheck: top 10 détient 37% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       806.27$   -19.4%   -193.73$   60.02$  286/222     0
+actuelle     88357.31$ +8735.7% +87207.56$12565838.73$  202/396     5
+agressive    44963.04$ +4396.3% +43691.98$17473437.30$  106/312     5
+hasard       75778.95$ +7477.9% +75758.92$12400499.53$  200/430     5
+apprentie      967.82$    -3.2%    -36.45$  136.59$  178/187     4
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 234 — 2026-11-11 11:33:08 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  14 retenus / 87 ; rejets : liquidité faible ×52, volume faible ×32, trop récent ×28, trop ancien ×20, FDV/liquidité trop élevé ×2, RugCheck: top 10 détient 38% ×1, RugCheck: top 10 détient 37% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       806.27$   -19.4%   -193.73$   60.02$  286/222     0
+actuelle     88144.89$ +8714.5% +87207.56$12565838.73$  202/396     5
+agressive    45080.68$ +4408.1% +43691.98$17473437.30$  106/312     5
+hasard       75702.18$ +7470.2% +75758.92$12400499.53$  200/430     5
+apprentie      966.82$    -3.3%    -36.45$  136.59$  178/187     4
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 235 — 2026-11-11 11:34:08 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  14 retenus / 85 ; rejets : liquidité faible ×49, volume faible ×31, trop récent ×26, trop ancien ×20, FDV/liquidité trop élevé ×3, RugCheck: top 10 détient 38% ×1, RugCheck: top 10 détient 37% ×1
+  [actuelle] VENTE DACITY @ 0.001664$ — 1164.34$ stop-loss (-32%) PnL -612.77$ coût 3.3%
+  [hasard] VENTE DACITY @ 0.001664$ — 1006.00$ stop-loss (-32%) PnL -518.34$ coût 3.0%
+  [hasard] ACHAT Impeach @ 0.00024150172$ — 1510.80$ score 29 coût 8.2%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       806.27$   -19.4%   -193.73$   60.02$  286/222     0
+actuelle     87987.91$ +8698.8% +86594.79$12565878.74$  202/397     4
+agressive    44926.92$ +4392.7% +43691.98$17473437.30$  106/312     5
+hasard       75317.26$ +7431.7% +75240.58$12400645.76$  200/431     5
+apprentie      966.69$    -3.3%    -36.45$  136.59$  178/187     4
+(argent fictif — valeur nette si tout était revendu maintenant)
