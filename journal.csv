@@ -4594,3 +4594,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 06:06:33,prudente,VENTE,VEYL,0.0006185,5.44,palier +30% PnL +1.41$ coût 1.0%
 2026-11-11 06:11:33,prudente,VENTE,VEYL,0.000751,3.31,palier +60% PnL +1.29$ coût 1.0%
 2026-11-11 06:18:33,prudente,VENTE,VEYL,0.0007631,3.36,trailing-stop PnL +1.34$ coût 1.0%
+2026-11-11 06:21:34,prudente,ACHAT,VEYL,0.0007313153913,8.11,score 78 coût 1.0%
+2026-11-11 06:23:33,prudente,VENTE,VEYL,0.000502,5.51,stop-loss (-31%) PnL -2.60$ coût 1.0%
+2026-11-11 06:24:34,prudente,ACHAT,PAYDAY,0.0006355536937,8.08,score 81 coût 1.0%
