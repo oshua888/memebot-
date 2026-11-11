@@ -4579,3 +4579,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 05:11:34,actuelle,ACHAT,Bublublu,0.0001571376917,1753.98,score 63 coût 13.9%
 2026-11-11 05:21:34,prudente,VENTE,VEYL,0.0004676,5.26,palier +30% PnL +1.25$ coût 1.0%
 2026-11-11 05:30:34,prudente,VENTE,VEYL,0.0005702,3.21,palier +60% PnL +1.20$ coût 1.0%
+2026-11-11 05:36:34,prudente,VENTE,VEYL,0.0004242,2.39,trailing-stop PnL +0.38$ coût 1.0%
+2026-11-11 05:36:34,prudente,ACHAT,VEYL,0.0004285782999,8.05,score 77 coût 1.0%
