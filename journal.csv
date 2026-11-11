@@ -4514,3 +4514,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 01:47:31,prudente,VENTE,DACITY,0.002246,5.24,palier +30% PnL +1.25$ coût 1.0%
 2026-11-11 01:47:31,apprentie,VENTE,DACITY,0.002246,24.94,palier +25% PnL +5.47$ coût 1.0%
 2026-11-11 01:47:31,apprentie,ACHAT,DACITY,0.002269196566,19.43,score 76 coût 1.0%
+2026-11-11 01:59:32,prudente,ACHAT,NIHAO,0.004369674976,8.01,score 79 coût 1.0%
+2026-11-11 01:59:32,actuelle,ACHAT,NIHAO,0.004461425249,1777.98,score 79 coût 3.1%
+2026-11-11 01:59:32,apprentie,ACHAT,NIHAO,0.004370265902,19.41,score 79 coût 1.0%
