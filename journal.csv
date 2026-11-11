@@ -4550,3 +4550,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 03:23:32,hasard,VENTE,If,0.0004185,1165.56,trailing-stop PnL +652.31$ coût 5.9%
 2026-11-11 03:23:32,hasard,ACHAT,BIG,0.0009862414634,1557.71,score 23 coût 4.6%
 2026-11-11 03:42:33,actuelle,ACHAT,NOBUSHIBA,0.0002239254122,1763.59,score 66 coût 11.5%
+2026-11-11 03:48:33,prudente,ACHAT,HOLD,0.001037459592,8.07,score 78 coût 1.0%
+2026-11-11 03:48:33,actuelle,VENTE,NIHAO,0.006769,873.76,palier +50% PnL +287.02$ coût 1.8%
+2026-11-11 03:48:33,hasard,VENTE,NIHAO,0.006769,760.76,palier +50% PnL +256.98$ coût 1.7%
