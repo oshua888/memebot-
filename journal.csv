@@ -4674,3 +4674,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 17:51:20,actuelle,VENTE,AIRDROP,0.0003387,1175.21,palier +100% PnL +601.27$ coût 3.2%
 2026-11-11 17:54:20,prudente,VENTE,AIRDROP,0.0003205,3.18,trailing-stop PnL +1.16$ coût 1.0%
 2026-11-11 18:04:22,actuelle,VENTE,AIRDROP,0.0002665,926.81,trailing-stop PnL +352.88$ coût 2.9%
+2026-11-11 18:35:21,hasard,VENTE,DIGS,0.0001625,1649.06,durée max 12h PnL +119.40$ coût 11.7%
+2026-11-11 18:35:21,hasard,ACHAT,咪好,0.0005507053716,1479.25,score 66 coût 6.1%
+2026-11-11 18:36:21,hasard,VENTE,Leonida,0.0003571,1350.61,durée max 12h PnL -170.74$ coût 6.9%
+2026-11-11 18:36:21,hasard,ACHAT,BOXCAT,0.0001311880687,1476.51,score 42 coût 11.5%
