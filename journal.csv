@@ -4616,3 +4616,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 08:52:23,prudente,VENTE,NIHAO,0.007046,5.24,palier +30% PnL +1.21$ coût 1.0%
 2026-11-11 08:56:23,apprentie,VENTE,NIHAO,0.007344,24.76,palier +25% PnL +5.25$ coût 1.0%
 2026-11-11 08:56:23,apprentie,ACHAT,NIHAO,0.007418734355,19.37,score 78 coût 1.0%
+2026-11-11 09:05:22,prudente,VENTE,NIHAO,0.006306,4.69,trailing-stop PnL +0.66$ coût 1.0%
+2026-11-11 09:05:22,prudente,ACHAT,NIHAO,0.006369559355,8.08,score 94 coût 1.0%
