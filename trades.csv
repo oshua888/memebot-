@@ -2109,3 +2109,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-11 04:24,2026-11-11 08:56,apprentie,NIHAO,boost,palier +25%,4.53,26.9,79,191798,29.41,4.4,1.432,0.688,-0.37,6.04,12267,1
 2026-11-11 04:01,2026-11-11 09:05,prudente,NIHAO,boost,trailing-stop,5.06,23.31,73,185864,28.4,4.0,1.431,0.636,-11.17,9.07,11474,1
 2026-11-11 08:56,2026-11-11 09:18,apprentie,NIHAO,boost+tendance,stop-loss (-27%),0.37,-27.6,78,219814,33.23,8.9,0.924,0.615,7.72,41.42,52.29,1
+2026-11-11 05:11,2026-11-11 09:28,actuelle,Bublublu,profil,stop-loss (-32%),4.28,-39.4,63,27261,4.88,2.0,3.049,0.584,7.48,8.57,300,0
