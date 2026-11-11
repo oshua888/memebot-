@@ -4571,3 +4571,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 04:24:33,apprentie,ACHAT,NIHAO,0.005727853796,19.51,score 79 coût 1.0%
 2026-11-11 04:34:33,actuelle,VENTE,NOBUSHIBA,0.0005056,1237.63,palier +50% PnL +655.65$ coût 5.8%
 2026-11-11 04:36:33,prudente,VENTE,HOLD,0.0008258,6.36,stop-loss (-20%) PnL -1.71$ coût 1.0%
+2026-11-11 04:42:34,actuelle,ACHAT,BOXCAT,0.0002234173324,1787.22,score 61 coût 10.9%
+2026-11-11 04:44:34,actuelle,VENTE,NOBUSHIBA,0.0003067,1478.00,trailing-stop PnL +296.40$ coût 8.7%
