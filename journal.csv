@@ -4541,3 +4541,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 03:11:32,apprentie,ACHAT,咪好,0.0004099803973,19.50,score 63 coût 1.1%
 2026-11-11 03:12:32,prudente,VENTE,NIHAO,0.005829,5.29,palier +30% PnL +1.28$ coût 1.0%
 2026-11-11 03:14:32,hasard,VENTE,If,0.0003764,1050.66,palier +100% PnL +537.41$ coût 5.7%
+2026-11-11 03:15:32,prudente,VENTE,If,0.0003916,5.18,palier +30% PnL +1.17$ coût 1.0%
+2026-11-11 03:15:32,agressive,VENTE,If,0.0003916,1224.96,palier +200% PnL +789.45$ coût 6.4%
+2026-11-11 03:16:32,prudente,VENTE,DACITY,0.002201,4.52,trailing-stop PnL +0.52$ coût 1.0%
+2026-11-11 03:16:32,prudente,VENTE,If,0.0004868,3.22,palier +60% PnL +1.22$ coût 1.0%
+2026-11-11 03:16:32,prudente,ACHAT,DACITY,0.002223311865,8.06,score 82 coût 1.0%
