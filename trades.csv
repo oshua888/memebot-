@@ -2091,3 +2091,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-10 22:30,2026-11-11 04:24,apprentie,BULLHARIS,boost,stop-loss (-26%),5.91,-26.98,37,51155,8.95,4.3,0.048,0.622,-0.26,0.03,1228,1
 2026-11-11 03:48,2026-11-11 04:36,prudente,HOLD,tendance,stop-loss (-20%),0.8,-21.21,78,87442,11.06,6.6,9.356,0.569,-15.09,25.1,977,0
 2026-11-11 03:42,2026-11-11 04:44,actuelle,NOBUSHIBA,profil,trailing-stop,1.03,53.98,66,33717,5.88,2.3,2.32,0.604,2.32,5.97,455,0
+2026-11-11 04:49,2026-11-11 04:57,actuelle,VEYL,boost+profil,stop-loss (-36%),0.13,-39.91,62,52374,8.64,2.0,4.394,0.708,-0.57,129,1126,1
