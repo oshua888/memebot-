@@ -4649,3 +4649,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 12:14:22,hasard,VENTE,forg,2.708e-06,32.87,stop-loss (-98%) PnL -1501.46$ coût 3.3%
 2026-11-11 12:14:22,hasard,ACHAT,FLOAT,0.009951733769,1480.19,score 23 coût 1.5%
 2026-11-11 12:14:22,apprentie,VENTE,forg,2.708e-06,0.48,stop-loss (-98%) PnL -18.91$ coût 1.0%
+2026-11-11 12:20:22,apprentie,VENTE,DIGS,0.0001381,24.20,palier +25% PnL +4.64$ coût 1.2%
+2026-11-11 12:20:22,apprentie,ACHAT,DIGS,0.0001396467261,18.96,score 66 coût 1.1%
