@@ -4695,3 +4695,20 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 21:14:21,hasard,ACHAT,BERNIE,0.0001372647583,1451.64,score 51 coût 10.2%
 2026-11-11 21:15:21,actuelle,ACHAT,BERNIE,0.0001481161165,1729.32,score 66 coût 11.5%
 2026-11-11 21:21:21,hasard,VENTE,Impeach,0.0003413,1338.25,trailing-stop PnL +326.02$ coût 6.5%
+2026-11-11 22:57:02,actuelle,VENTE,BULLHARIS,0.0004151,1446.52,durée max 12h PnL -310.14$ coût 7.4%
+2026-11-11 22:57:02,actuelle,VENTE,DIGS,0.0001482,1652.73,durée max 12h PnL -121.29$ coût 12.3%
+2026-11-11 22:57:02,actuelle,VENTE,BERNIE,4.361e-05,475.12,stop-loss (-71%) PnL -1254.20$ coût 6.7%
+2026-11-11 22:57:02,agressive,VENTE,FLOAT,0.00409,460.91,stop-loss (-63%) PnL -787.08$ coût 1.2%
+2026-11-11 22:57:02,hasard,VENTE,PAYDAY,0.0001693,932.41,stop-loss (-31%) PnL -516.71$ coût 7.1%
+2026-11-11 22:57:02,hasard,VENTE,BERNIE,4.361e-05,432.83,stop-loss (-68%) PnL -1018.81$ coût 6.2%
+2026-11-11 22:57:02,hasard,ACHAT,Impeach,0.0003834310753,1421.15,score 33 coût 6.3%
+2026-11-11 22:57:02,hasard,ACHAT,GOODTIME,0.0001690638497,1417.87,score 66 coût 10.7%
+2026-11-11 22:57:02,apprentie,VENTE,timmy,0.0005238,9.85,stop-loss (-48%) PnL -9.39$ coût 1.0%
+2026-11-11 22:57:02,apprentie,VENTE,GOODTIME,0.0001527,25.06,palier +25% PnL +5.89$ coût 1.2%
+2026-11-11 22:57:02,apprentie,ACHAT,GOODTIME,0.0001544262179,19.04,score 66 coût 1.1%
+2026-11-11 22:59:01,apprentie,ACHAT,Impeach,0.0003649672906,19.03,score 41 coût 1.1%
+2026-11-11 23:01:03,actuelle,ACHAT,Max,0.006471188409,1706.40,score 60 coût 2.2%
+2026-11-11 23:01:03,agressive,VENTE,THUG,0.0001831,660.81,stop-loss (-47%) PnL -633.29$ coût 4.5%
+2026-11-11 23:01:03,agressive,ACHAT,Max,0.006449345245,1201.67,score 60 coût 1.8%
+2026-11-11 23:01:03,hasard,VENTE,THUG,0.0001831,933.22,stop-loss (-32%) PnL -522.73$ coût 6.0%
+2026-11-11 23:01:03,hasard,ACHAT,Max,0.006458265734,1407.80,score 60 coût 2.0%
