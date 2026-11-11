@@ -4694,3 +4694,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 21:04:22,hasard,VENTE,FLOAT,0.006957,1020.72,stop-loss (-30%) PnL -459.47$ coût 1.4%
 2026-11-11 21:14:21,hasard,ACHAT,BERNIE,0.0001372647583,1451.64,score 51 coût 10.2%
 2026-11-11 21:15:21,actuelle,ACHAT,BERNIE,0.0001481161165,1729.32,score 66 coût 11.5%
+2026-11-11 21:21:21,hasard,VENTE,Impeach,0.0003413,1338.25,trailing-stop PnL +326.02$ coût 6.5%
