@@ -4565,3 +4565,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 04:06:33,prudente,VENTE,If,0.0003297,6.28,stop-loss (-21%) PnL -1.78$ coût 1.0%
 2026-11-11 04:14:33,hasard,VENTE,If,0.0002811,1019.47,stop-loss (-30%) PnL -542.59$ coût 6.3%
 2026-11-11 04:14:33,hasard,ACHAT,NIHAO,0.006237694019,1553.81,score 79 coût 2.6%
+2026-11-11 04:16:33,apprentie,VENTE,咪好,0.0005203,24.48,palier +25% PnL +4.98$ coût 1.1%
+2026-11-11 04:16:33,apprentie,ACHAT,咪好,0.0005258704199,19.58,score 63 coût 1.1%
