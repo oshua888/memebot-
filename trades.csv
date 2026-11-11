@@ -2093,3 +2093,5 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-11 03:42,2026-11-11 04:44,actuelle,NOBUSHIBA,profil,trailing-stop,1.03,53.98,66,33717,5.88,2.3,2.32,0.604,2.32,5.97,455,0
 2026-11-11 04:49,2026-11-11 04:57,actuelle,VEYL,boost+profil,stop-loss (-36%),0.13,-39.91,62,52374,8.64,2.0,4.394,0.708,-0.57,129,1126,1
 2026-11-11 05:08,2026-11-11 05:36,prudente,VEYL,boost+profil,trailing-stop,0.47,35.3,76,45110,7.47,2.3,5.695,0.776,-1.18,58.09,814,1
+2026-11-11 05:36,2026-11-11 05:47,prudente,VEYL,boost,trailing-stop,0.18,18.65,77,50115,8.17,2.8,4.869,0.778,-26.51,22.26,1010,1
+2026-11-11 01:47,2026-11-11 05:48,apprentie,DACITY,boost,palier +25%,4.02,25.12,76,118487,18.85,6.7,0.918,0.658,17.38,21.09,351,1

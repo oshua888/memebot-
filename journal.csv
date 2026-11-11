@@ -4582,3 +4582,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 05:36:34,prudente,VENTE,VEYL,0.0004242,2.39,trailing-stop PnL +0.38$ coût 1.0%
 2026-11-11 05:36:34,prudente,ACHAT,VEYL,0.0004285782999,8.05,score 77 coût 1.0%
 2026-11-11 05:41:34,prudente,VENTE,VEYL,0.0005782,5.38,palier +30% PnL +1.35$ coût 1.0%
+2026-11-11 05:45:34,actuelle,VENTE,DACITY,0.002683,1186.02,palier +100% PnL +580.63$ coût 2.9%
+2026-11-11 05:46:34,hasard,VENTE,DACITY,0.002745,753.85,palier +50% PnL +248.65$ coût 2.2%
+2026-11-11 05:47:34,prudente,VENTE,VEYL,0.0004493,4.18,trailing-stop PnL +0.15$ coût 1.0%
+2026-11-11 05:48:35,agressive,VENTE,DACITY,0.002869,845.55,palier +100% PnL +418.96$ coût 2.3%
+2026-11-11 05:48:35,apprentie,VENTE,DACITY,0.002869,24.31,palier +25% PnL +4.88$ coût 1.0%
+2026-11-11 05:48:35,apprentie,ACHAT,DIGS,0.0001103464809,19.56,score 53 coût 1.1%
