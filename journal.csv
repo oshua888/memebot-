@@ -4603,3 +4603,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 06:34:32,agressive,ACHAT,HOLD,0.0007252791796,1309.72,score 63 coût 4.6%
 2026-11-11 06:34:32,hasard,VENTE,HOLD,0.0006933,1035.55,stop-loss (-31%) PnL -517.79$ coût 4.0%
 2026-11-11 06:34:32,hasard,ACHAT,DIGS,0.0001331593654,1529.65,score 58 coût 11.6%
+2026-11-11 06:35:33,hasard,VENTE,Leonida,0.0003484,1300.68,trailing-stop PnL +269.95$ coût 6.9%
+2026-11-11 06:35:33,hasard,ACHAT,Leonida,0.0003742925696,1521.35,score 14 coût 7.4%
+2026-11-11 06:35:33,apprentie,VENTE,ORVIX,0.0001825,13.90,stop-loss (-28%) PnL -5.55$ coût 1.1%
+2026-11-11 06:35:33,apprentie,ACHAT,DACITY,0.002362123966,19.34,score 55 coût 1.0%
+2026-11-11 06:39:32,apprentie,VENTE,Leonida,0.0003326,14.31,stop-loss (-26%) PnL -5.15$ coût 1.1%
+2026-11-11 06:39:32,apprentie,ACHAT,VEYL,0.000560412984,19.33,score 77 coût 1.1%
