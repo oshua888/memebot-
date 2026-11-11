@@ -4634,3 +4634,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 10:21:22,hasard,VENTE,VEYL,0.0001682,995.89,stop-loss (-30%) PnL -548.11$ coût 7.6%
 2026-11-11 10:21:22,hasard,ACHAT,forg,0.0001221872449,1534.33,score 23 coût 13.0%
 2026-11-11 10:42:22,actuelle,ACHAT,DIGS,0.0001394622131,1774.02,score 62 coût 12.9%
+2026-11-11 10:49:22,actuelle,VENTE,NIHAO,0.007974,877.46,palier +50% PnL +296.70$ coût 1.8%
