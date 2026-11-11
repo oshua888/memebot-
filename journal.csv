@@ -4672,3 +4672,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-11 17:46:20,prudente,VENTE,AIRDROP,0.0002815,5.58,palier +30% PnL +1.55$ coût 1.0%
 2026-11-11 17:51:20,prudente,VENTE,AIRDROP,0.0003387,3.36,palier +60% PnL +1.34$ coût 1.0%
 2026-11-11 17:51:20,actuelle,VENTE,AIRDROP,0.0003387,1175.21,palier +100% PnL +601.27$ coût 3.2%
+2026-11-11 17:54:20,prudente,VENTE,AIRDROP,0.0003205,3.18,trailing-stop PnL +1.16$ coût 1.0%
