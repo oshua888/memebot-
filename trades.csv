@@ -2213,3 +2213,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-12 05:31,2026-11-12 12:29,hasard,NOBUSHIBA,boost,trailing-stop,6.97,48.24,71,80499,12.38,28.1,2.567,0.651,-39.44,-33.7,449,1
 2026-11-12 09:12,2026-11-12 12:31,hasard,HOLD,tendance,stop-loss (-31%),3.32,-34.93,36,44900,5.11,36.0,0.622,0.379,19.34,74.11,37.71,0
 2026-11-12 07:53,2026-11-12 12:49,agressive,AIB,boost,stop-loss (-44%),4.93,-46.25,58,55514,8.8,6.6,1.104,0.679,-1.24,0.16,-8.78,1
+2026-11-12 12:51,2026-11-12 13:04,apprentie,Shitcoin,boost+nouveau+profil,palier +25%,0.22,25.68,31,25550,4.5,3.8,2.146,0.559,28.59,149,258,1
