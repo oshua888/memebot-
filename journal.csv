@@ -4827,3 +4827,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 12:29:29,hasard,ACHAT,NOBUSHIBA,0.001101181581,1317.78,score 50 coût 4.2%
 2026-11-12 12:30:29,hasard,ACHAT,FLC,0.0001984478067,1315.65,score 56 coût 8.3%
 2026-11-12 12:31:29,hasard,VENTE,HOLD,0.0001804,874.53,stop-loss (-31%) PnL -469.48$ coût 5.8%
+2026-11-12 12:46:29,actuelle,ACHAT,FLC,0.0002620700713,1628.87,score 63 coût 8.9%
+2026-11-12 12:48:28,prudente,ACHAT,FLC,0.0002670417276,8.07,score 71 coût 1.0%
