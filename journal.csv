@@ -4774,3 +4774,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 04:06:02,prudente,VENTE,AIB,0.0004579,6.05,stop-loss (-24%) PnL -2.03$ coût 1.0%
 2026-11-12 04:11:03,prudente,ACHAT,MAX,0.0001739097064,8.06,score 71 coût 1.1%
 2026-11-12 04:11:03,apprentie,ACHAT,FORKYU,0.0002354633291,18.30,score 43 coût 1.1%
+2026-11-12 04:12:02,actuelle,VENTE,AIB,0.0004353,1067.36,stop-loss (-32%) PnL -585.85$ coût 5.4%
+2026-11-12 04:12:02,apprentie,VENTE,AIB,0.0004353,13.11,stop-loss (-28%) PnL -5.33$ coût 1.1%
+2026-11-12 04:13:03,apprentie,VENTE,FORKYU,0.0002983,22.92,palier +25% PnL +4.62$ coût 1.1%
+2026-11-12 04:13:03,apprentie,ACHAT,FORKYU,0.000301548496,18.39,score 44 coût 1.1%
