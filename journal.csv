@@ -4862,3 +4862,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 14:58:29,prudente,VENTE,RAMBO,0.01142,5.29,palier +30% PnL +1.25$ coût 1.0%
 2026-11-12 15:22:31,prudente,VENTE,RAMBO,0.01032,4.78,trailing-stop PnL +0.74$ coût 1.0%
 2026-11-12 15:22:31,prudente,ACHAT,RAMBO,0.01042381003,8.09,score 73 coût 1.0%
+2026-11-12 15:27:30,actuelle,ACHAT,PUSSY,0.000749395393,1614.78,score 64 coût 2.9%
+2026-11-12 15:27:30,agressive,ACHAT,PUSSY,0.0007450017581,1112.16,score 64 coût 2.3%
+2026-11-12 15:27:30,hasard,ACHAT,PUSSY,0.0007467710342,1314.56,score 64 coût 2.6%
