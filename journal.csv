@@ -4743,3 +4743,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 00:38:01,apprentie,VENTE,TILLY,0.0001109,12.96,stop-loss (-30%) PnL -5.76$ coût 1.1%
 2026-11-12 01:00:02,prudente,VENTE,Max,0.004797,6.36,stop-loss (-21%) PnL -1.74$ coût 1.0%
 2026-11-12 01:13:03,apprentie,ACHAT,Max,0.005610262452,18.61,score 60 coût 1.0%
+2026-11-12 01:24:02,actuelle,ACHAT,PAYDAY,0.000204025063,1672.85,score 61 coût 10.7%
+2026-11-12 01:24:02,agressive,ACHAT,PAYDAY,0.0001985924399,1164.63,score 61 coût 7.8%
