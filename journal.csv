@@ -4819,3 +4819,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 08:55:22,hasard,VENTE,AIB,0.0003454,880.50,stop-loss (-32%) PnL -473.21$ coût 5.0%
 2026-11-12 09:12:21,hasard,ACHAT,HOLD,0.000261047514,1344.01,score 36 coût 7.0%
 2026-11-12 09:25:21,hasard,VENTE,Impeach,0.0002623,920.83,stop-loss (-32%) PnL -500.33$ coût 5.3%
+2026-11-12 12:29:29,agressive,VENTE,NOBUSHIBA,0.001057,766.05,trailing-stop PnL +5.15$ coût 2.9%
+2026-11-12 12:29:29,agressive,ACHAT,FLC,0.0001880258734,1119.96,score 56 coût 7.4%
+2026-11-12 12:29:29,hasard,VENTE,WEALTH,0.0004861,1157.43,durée max 12h PnL -247.46$ coût 5.0%
+2026-11-12 12:29:29,hasard,VENTE,X,5.234e-05,636.83,stop-loss (-50%) PnL -746.30$ coût 7.8%
+2026-11-12 12:29:29,hasard,VENTE,NOBUSHIBA,0.001057,442.31,trailing-stop PnL -7.63$ coût 2.1%
+2026-11-12 12:29:29,hasard,ACHAT,NOBUSHIBA,0.001101181581,1317.78,score 50 coût 4.2%
+2026-11-12 12:30:29,hasard,ACHAT,FLC,0.0001984478067,1315.65,score 56 coût 8.3%
+2026-11-12 12:31:29,hasard,VENTE,HOLD,0.0001804,874.53,stop-loss (-31%) PnL -469.48$ coût 5.8%
