@@ -2245,3 +2245,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-12 20:23,2026-11-12 20:43,agressive,Huang,boost+tendance,stop-loss (-42%),0.33,-44.85,60,51274,6.74,5.8,3.876,0.535,-0.73,14.31,1024,1
 2026-11-12 20:23,2026-11-12 21:07,apprentie,DOGGLE,boost,palier +25%,0.73,55.72,45,46472,8.42,3.5,0.664,0.749,6.39,-1.48,1039,1
 2026-11-12 21:08,2026-11-12 21:22,apprentie,DOGGLE,boost,palier +25%,0.23,51.86,56,49316,8.93,4.2,0.351,0.726,3.67,8.53,1182,1
+2026-11-12 20:23,2026-11-12 21:23,hasard,DOGGLE,boost,trailing-stop,1.0,26.4,45,46472,8.42,3.5,0.664,0.749,6.39,-1.48,1039,1

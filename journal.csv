@@ -4906,3 +4906,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 21:08:08,apprentie,ACHAT,DOGGLE,0.0004483712662,18.64,score 56 coût 1.1%
 2026-11-12 21:22:08,hasard,VENTE,DOGGLE,0.0006884,673.27,palier +50% PnL +249.02$ coût 3.2%
 2026-11-12 21:22:08,apprentie,VENTE,DOGGLE,0.0006884,28.30,palier +25% PnL +9.66$ coût 1.1%
+2026-11-12 21:23:08,hasard,VENTE,DOGGLE,0.0004876,951.75,trailing-stop PnL +90.40$ coût 4.9%
+2026-11-12 21:23:08,hasard,ACHAT,DOGGLE,0.0005166199755,1283.58,score 55 coût 6.0%
+2026-11-12 21:23:08,apprentie,ACHAT,DOGGLE,0.0004928299203,18.82,score 55 coût 1.1%
