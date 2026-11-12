@@ -4791,3 +4791,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 04:58:23,actuelle,VENTE,AIB,0.0004379,1073.76,stop-loss (-31%) PnL -579.44$ coût 5.4%
 2026-11-12 05:05:23,actuelle,VENTE,FORKYU,0.0002664,1041.69,stop-loss (-32%) PnL -596.40$ coût 6.7%
 2026-11-12 05:05:23,apprentie,VENTE,FORKYU,0.0002664,10.41,stop-loss (-43%) PnL -7.95$ coût 1.1%
+2026-11-12 05:27:22,prudente,VENTE,NOBUSHIBA,0.0009815,4.02,stop-loss (-50%) PnL -4.09$ coût 1.0%
+2026-11-12 05:27:22,actuelle,VENTE,NOBUSHIBA,0.0009815,884.68,stop-loss (-45%) PnL -773.65$ coût 3.3%
+2026-11-12 05:27:22,agressive,VENTE,NOBUSHIBA,0.0009815,698.27,trailing-stop PnL -68.84$ coût 2.8%
+2026-11-12 05:27:22,agressive,ACHAT,NOBUSHIBA,0.001019411089,1135.68,score 72 coût 3.9%
+2026-11-12 05:31:22,hasard,VENTE,WASTED,0.0009968,1070.63,durée max 12h PnL -412.13$ coût 3.3%
+2026-11-12 05:31:22,hasard,ACHAT,NOBUSHIBA,0.001052760207,1343.11,score 71 coût 4.3%
