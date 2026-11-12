@@ -4880,3 +4880,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 16:33:30,apprentie,ACHAT,Huang,0.0003451792814,18.53,score 62 coût 1.1%
 2026-11-12 16:38:29,apprentie,VENTE,inuhao,0.0007021,13.63,stop-loss (-26%) PnL -4.92$ coût 1.0%
 2026-11-12 16:43:29,actuelle,VENTE,inuhao,0.000689,1082.54,stop-loss (-30%) PnL -537.99$ coût 4.5%
+2026-11-12 16:44:29,hasard,VENTE,inuhao,0.0006819,879.51,stop-loss (-30%) PnL -431.42$ coût 3.8%
+2026-11-12 16:45:29,apprentie,VENTE,Leonida,0.0004256,22.73,palier +25% PnL +4.42$ coût 1.1%
+2026-11-12 16:47:30,actuelle,VENTE,RAMBO,0.01218,1493.46,trailing-stop PnL +418.91$ coût 2.0%
+2026-11-12 16:47:30,hasard,VENTE,RAMBO,0.01218,1218.30,trailing-stop PnL +345.52$ coût 1.8%
+2026-11-12 16:47:30,hasard,ACHAT,RAMBO,0.01240695762,1299.08,score 58 coût 1.9%
+2026-11-12 16:47:30,apprentie,VENTE,Huang,0.0004411,23.42,palier +25% PnL +4.89$ coût 1.1%
+2026-11-12 16:47:30,apprentie,ACHAT,RAMBO,0.01230330533,18.60,score 58 coût 1.0%
