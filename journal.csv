@@ -4756,3 +4756,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 02:51:01,actuelle,VENTE,Rex,0.0004997,1099.35,stop-loss (-30%) PnL -562.27$ coût 5.3%
 2026-11-12 02:52:02,apprentie,VENTE,Rex,0.0004627,13.00,stop-loss (-29%) PnL -5.40$ coût 1.1%
 2026-11-12 02:55:03,apprentie,ACHAT,NOBUSHIBA,0.0005122999762,18.29,score 55 coût 1.1%
+2026-11-12 02:58:02,apprentie,VENTE,NOBUSHIBA,0.0007289,25.74,palier +25% PnL +7.45$ coût 1.1%
+2026-11-12 03:00:02,apprentie,ACHAT,NOBUSHIBA,0.0009252010907,18.45,score 41 coût 1.0%
