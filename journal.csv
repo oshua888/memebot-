@@ -4888,3 +4888,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 16:47:30,apprentie,VENTE,Huang,0.0004411,23.42,palier +25% PnL +4.89$ coût 1.1%
 2026-11-12 16:47:30,apprentie,ACHAT,RAMBO,0.01230330533,18.60,score 58 coût 1.0%
 2026-11-12 16:56:28,apprentie,ACHAT,Huang,0.0003822589008,18.66,score 50 coût 1.1%
+2026-11-12 17:05:29,actuelle,VENTE,Huang,0.0002396,986.48,stop-loss (-35%) PnL -629.35$ coût 6.2%
+2026-11-12 17:05:29,hasard,VENTE,Huang,0.0002396,816.06,stop-loss (-34%) PnL -491.41$ coût 5.3%
+2026-11-12 17:05:29,apprentie,VENTE,Huang,0.0002396,11.57,stop-loss (-37%) PnL -7.09$ coût 1.1%
