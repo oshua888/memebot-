@@ -4871,3 +4871,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 15:39:28,apprentie,VENTE,RAMBO,0.01428,23.92,palier +25% PnL +5.58$ coût 1.0%
 2026-11-12 15:59:28,prudente,VENTE,RAMBO,0.01259,4.84,trailing-stop PnL +0.79$ coût 1.0%
 2026-11-12 16:17:28,hasard,VENTE,NOBUSHIBA,0.0007058,815.21,stop-loss (-36%) PnL -502.57$ coût 3.5%
+2026-11-12 16:23:29,actuelle,ACHAT,inuhao,0.0009850050155,1620.52,score 63 coût 5.3%
+2026-11-12 16:23:29,agressive,ACHAT,inuhao,0.0009725304919,1114.48,score 63 coût 3.9%
+2026-11-12 16:23:29,hasard,ACHAT,inuhao,0.0009773731929,1310.93,score 63 coût 4.5%
+2026-11-12 16:23:29,apprentie,ACHAT,inuhao,0.000945514357,18.55,score 63 coût 1.0%
