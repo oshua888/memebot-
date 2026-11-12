@@ -2216,3 +2216,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-12 12:51,2026-11-12 13:04,apprentie,Shitcoin,boost+nouveau+profil,palier +25%,0.22,25.68,31,25550,4.5,3.8,2.146,0.559,28.59,149,258,1
 2026-11-12 13:05,2026-11-12 13:09,apprentie,Shitcoin,boost+profil,stop-loss (-33%),0.07,-34.22,49,28240,4.91,4.0,2.941,0.591,10.56,168,332,1
 2026-11-12 12:50,2026-11-12 13:10,hasard,Shitcoin,boost+profil,stop-loss (-32%),0.33,-38.49,30,25464,4.5,3.8,2.062,0.553,42.01,206,257,1
+2026-11-12 13:25,2026-11-12 13:33,actuelle,Shitcoin,boost,stop-loss (-33%),0.13,-40.36,62,25248,4.4,4.3,4.714,0.569,22,37.35,246,1

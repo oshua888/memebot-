@@ -4841,3 +4841,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 13:17:29,apprentie,ACHAT,Leonida,0.0003390178326,18.30,score 39 coût 1.1%
 2026-11-12 13:25:30,actuelle,ACHAT,Shitcoin,0.0001358210342,1634.06,score 62 coût 13.9%
 2026-11-12 13:26:29,prudente,VENTE,FLC,0.0003486,5.22,palier +30% PnL +1.18$ coût 1.0%
+2026-11-12 13:33:29,actuelle,VENTE,Shitcoin,9.109e-05,974.50,stop-loss (-33%) PnL -659.55$ coût 11.1%
