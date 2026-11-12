@@ -4763,3 +4763,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 03:05:02,prudente,ACHAT,NOBUSHIBA,0.0009942436266,8.08,score 72 coût 1.0%
 2026-11-12 03:05:02,actuelle,ACHAT,NOBUSHIBA,0.001035288577,1653.87,score 72 coût 5.2%
 2026-11-12 03:07:01,apprentie,VENTE,NOBUSHIBA,0.0009535,13.56,stop-loss (-26%) PnL -5.00$ coût 1.0%
+2026-11-12 03:19:01,agressive,VENTE,Rex,0.0003923,651.37,stop-loss (-42%) PnL -508.40$ coût 3.8%
+2026-11-12 03:19:01,agressive,ACHAT,NOBUSHIBA,0.001047959704,1144.94,score 72 coût 3.9%
+2026-11-12 03:20:02,prudente,ACHAT,AIB,0.0006054530058,8.09,score 71 coût 1.0%
+2026-11-12 03:20:02,actuelle,ACHAT,AIB,0.0006380021631,1653.20,score 71 coût 6.5%
+2026-11-12 03:20:02,apprentie,ACHAT,AIB,0.0006056577845,18.44,score 71 coût 1.1%
