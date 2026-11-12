@@ -2218,3 +2218,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-12 12:50,2026-11-12 13:10,hasard,Shitcoin,boost+profil,stop-loss (-32%),0.33,-38.49,30,25464,4.5,3.8,2.062,0.553,42.01,206,257,1
 2026-11-12 13:25,2026-11-12 13:33,actuelle,Shitcoin,boost,stop-loss (-33%),0.13,-40.36,62,25248,4.4,4.3,4.714,0.569,22,37.35,246,1
 2026-11-12 12:48,2026-11-12 13:40,prudente,FLC,tendance,trailing-stop,0.87,20.2,71,43221,5.95,7.3,2.727,0.528,15.97,7.85,236,0
+2026-11-12 12:30,2026-11-12 13:45,hasard,FLC,tendance,trailing-stop,1.25,34.59,56,35932,4.96,7.0,3.72,0.531,1.21,-33.69,82.79,0
