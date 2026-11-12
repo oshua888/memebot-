@@ -4784,3 +4784,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 04:33:24,actuelle,VENTE,NOBUSHIBA,0.001771,907.98,palier +50% PnL +362.21$ coût 2.7%
 2026-11-12 04:36:24,actuelle,VENTE,NOBUSHIBA,0.002104,1093.01,palier +100% PnL +538.96$ coût 2.9%
 2026-11-12 04:36:24,agressive,VENTE,NOBUSHIBA,0.002104,741.14,palier +100% PnL +363.30$ coût 2.3%
+2026-11-12 04:40:23,prudente,VENTE,NOBUSHIBA,0.001939,3.90,trailing-stop PnL +1.88$ coût 1.0%
+2026-11-12 04:40:23,prudente,ACHAT,NOBUSHIBA,0.001958670923,8.11,score 72 coût 1.0%
+2026-11-12 04:41:44,actuelle,VENTE,NOBUSHIBA,0.001708,889.01,trailing-stop PnL +334.96$ coût 2.7%
+2026-11-12 04:41:44,actuelle,ACHAT,NOBUSHIBA,0.001778997242,1658.33,score 86 coût 4.2%
