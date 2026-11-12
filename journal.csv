@@ -4851,3 +4851,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 14:03:29,hasard,VENTE,FLC,0.0001989,840.30,stop-loss (-32%) PnL -469.65$ coût 5.8%
 2026-11-12 14:21:29,actuelle,VENTE,FLC,0.0001797,1035.65,stop-loss (-31%) PnL -593.21$ coût 7.3%
 2026-11-12 14:21:29,agressive,VENTE,WASTED,0.0008772,743.15,stop-loss (-40%) PnL -533.40$ coût 2.7%
+2026-11-12 14:28:30,actuelle,ACHAT,RAMBO,0.008587157834,1603.81,score 61 coût 2.3%
+2026-11-12 14:28:30,agressive,ACHAT,RAMBO,0.008553126079,1108.65,score 61 coût 1.9%
+2026-11-12 14:28:30,hasard,ACHAT,RAMBO,0.008566460532,1302.67,score 61 coût 2.1%
+2026-11-12 14:28:30,apprentie,ACHAT,RAMBO,0.008478187286,18.29,score 61 coût 1.0%
