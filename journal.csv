@@ -4776,3 +4776,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 04:20:24,apprentie,VENTE,AIB,0.0004522,13.62,stop-loss (-25%) PnL -4.82$ coût 1.1%
 2026-11-12 04:25:24,apprentie,VENTE,MAX,0.0002376,23.78,palier +25% PnL +5.45$ coût 1.1%
 2026-11-12 04:25:24,apprentie,ACHAT,MAX,0.000240213463,18.49,score 38 coût 1.1%
+2026-11-12 04:28:24,prudente,VENTE,NOBUSHIBA,0.001382,5.56,palier +30% PnL +1.52$ coût 1.0%
+2026-11-12 04:28:24,apprentie,VENTE,MAX,0.0001371,10.44,stop-loss (-43%) PnL -8.05$ coût 1.1%
