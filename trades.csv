@@ -2188,3 +2188,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-12 04:17,2026-11-12 04:32,apprentie,FORKYU,profil,palier +25%,0.25,27.66,59,45061,7.51,2.1,2.748,0.529,13.57,36.62,921,0
 2026-11-12 03:05,2026-11-12 04:40,prudente,NOBUSHIBA,boost,trailing-stop,1.59,61.14,72,78927,12.31,25.6,2.185,0.66,2.24,133,314,1
 2026-11-12 03:05,2026-11-12 04:41,actuelle,NOBUSHIBA,boost,trailing-stop,1.61,74.74,72,78927,12.31,25.6,2.185,0.66,2.24,133,314,1
+2026-11-12 03:20,2026-11-12 04:58,actuelle,AIB,boost+profil,stop-loss (-31%),1.64,-35.05,71,60580,9.84,2.0,4.032,0.633,2.72,34.73,982,1

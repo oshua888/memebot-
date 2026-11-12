@@ -4788,3 +4788,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 04:40:23,prudente,ACHAT,NOBUSHIBA,0.001958670923,8.11,score 72 coût 1.0%
 2026-11-12 04:41:44,actuelle,VENTE,NOBUSHIBA,0.001708,889.01,trailing-stop PnL +334.96$ coût 2.7%
 2026-11-12 04:41:44,actuelle,ACHAT,NOBUSHIBA,0.001778997242,1658.33,score 86 coût 4.2%
+2026-11-12 04:58:23,actuelle,VENTE,AIB,0.0004379,1073.76,stop-loss (-31%) PnL -579.44$ coût 5.4%
