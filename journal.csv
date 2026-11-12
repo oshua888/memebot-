@@ -4814,3 +4814,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 08:31:26,hasard,VENTE,NOBUSHIBA,0.002109,878.53,palier +100% PnL +428.58$ coût 2.5%
 2026-11-12 08:38:22,apprentie,VENTE,FLC,0.0005369,24.36,palier +25% PnL +6.02$ coût 1.1%
 2026-11-12 08:42:22,apprentie,ACHAT,FLC,0.0005774519854,18.44,score 46 coût 1.1%
+2026-11-12 08:50:22,apprentie,VENTE,Impeach,0.0002718,14.02,stop-loss (-26%) PnL -5.01$ coût 1.1%
+2026-11-12 08:50:22,apprentie,VENTE,FLC,0.0004242,13.40,stop-loss (-27%) PnL -5.04$ coût 1.1%
