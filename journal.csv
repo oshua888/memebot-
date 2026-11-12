@@ -4739,3 +4739,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 00:15:01,hasard,ACHAT,TILLY,0.0001726761568,1374.43,score 41 coût 10.4%
 2026-11-12 00:19:02,agressive,VENTE,HUNG,0.000529,641.01,stop-loss (-44%) PnL -532.78$ coût 2.9%
 2026-11-12 00:21:02,apprentie,VENTE,DIGS,0.0001444,19.38,durée max 12h PnL +0.43$ coût 1.1%
+2026-11-12 00:38:01,hasard,VENTE,TILLY,0.0001109,810.07,stop-loss (-36%) PnL -564.36$ coût 8.2%
+2026-11-12 00:38:01,apprentie,VENTE,TILLY,0.0001109,12.96,stop-loss (-30%) PnL -5.76$ coût 1.1%
