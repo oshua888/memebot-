@@ -4774,3 +4774,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 04:17:24,apprentie,ACHAT,FORKYU,0.0003564127559,18.32,score 59 coût 1.1%
 2026-11-12 04:18:24,actuelle,ACHAT,FORKYU,0.0003908522293,1638.09,score 60 coût 8.2%
 2026-11-12 04:20:24,apprentie,VENTE,AIB,0.0004522,13.62,stop-loss (-25%) PnL -4.82$ coût 1.1%
+2026-11-12 04:25:24,apprentie,VENTE,MAX,0.0002376,23.78,palier +25% PnL +5.45$ coût 1.1%
+2026-11-12 04:25:24,apprentie,ACHAT,MAX,0.000240213463,18.49,score 38 coût 1.1%

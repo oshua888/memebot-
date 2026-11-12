@@ -2183,3 +2183,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-12 03:20,2026-11-12 04:17,prudente,AIB,boost+profil,stop-loss (-25%),0.96,-25.55,71,60580,9.84,2.0,4.032,0.633,2.72,34.73,982,1
 2026-11-11 16:02,2026-11-12 04:17,apprentie,WASTED,boost+tendance,durée max 12h,12.25,-22.75,41,110676,11.66,285.9,0.186,0.621,-2.85,-4.89,7.56,1
 2026-11-12 03:20,2026-11-12 04:20,apprentie,AIB,boost+profil,stop-loss (-25%),1.01,-26.12,71,60580,9.84,2.0,4.032,0.633,2.72,34.73,982,1
+2026-11-12 04:17,2026-11-12 04:25,apprentie,MAX,profil,palier +25%,0.13,29.72,57,31920,5.54,2.2,2.144,0.511,-0.74,36.1,349,0
