@@ -4778,3 +4778,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 04:25:24,apprentie,ACHAT,MAX,0.000240213463,18.49,score 38 coût 1.1%
 2026-11-12 04:28:24,prudente,VENTE,NOBUSHIBA,0.001382,5.56,palier +30% PnL +1.52$ coût 1.0%
 2026-11-12 04:28:24,apprentie,VENTE,MAX,0.0001371,10.44,stop-loss (-43%) PnL -8.05$ coût 1.1%
+2026-11-12 04:32:25,apprentie,VENTE,FORKYU,0.00046,23.39,palier +25% PnL +5.07$ coût 1.1%
+2026-11-12 04:32:25,apprentie,ACHAT,FORKYU,0.000464926517,18.36,score 46 coût 1.1%
+2026-11-12 04:33:24,prudente,VENTE,NOBUSHIBA,0.001771,3.56,palier +60% PnL +1.54$ coût 1.0%
+2026-11-12 04:33:24,actuelle,VENTE,NOBUSHIBA,0.001771,907.98,palier +50% PnL +362.21$ coût 2.7%
+2026-11-12 04:36:24,actuelle,VENTE,NOBUSHIBA,0.002104,1093.01,palier +100% PnL +538.96$ coût 2.9%
+2026-11-12 04:36:24,agressive,VENTE,NOBUSHIBA,0.002104,741.14,palier +100% PnL +363.30$ coût 2.3%
