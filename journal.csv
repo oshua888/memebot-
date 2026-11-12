@@ -4728,3 +4728,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 00:03:02,agressive,ACHAT,HUNG,0.0009407905678,1173.79,score 78 coût 3.5%
 2026-11-12 00:03:02,hasard,ACHAT,HUNG,0.000944991635,1388.16,score 78 coût 4.0%
 2026-11-12 00:03:02,apprentie,ACHAT,HUNG,0.0009181561337,18.84,score 78 coût 1.0%
+2026-11-12 00:07:04,actuelle,ACHAT,HOLD,0.0002285637566,1683.89,score 60 coût 9.2%
+2026-11-12 00:08:02,hasard,ACHAT,X,0.000104846098,1383.13,score 23 coût 10.9%
+2026-11-12 00:09:02,prudente,VENTE,HUNG,0.0007122,6.24,stop-loss (-22%) PnL -1.88$ coût 1.0%
