@@ -4804,3 +4804,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 06:43:24,actuelle,VENTE,PAYDAY,0.0001428,1068.63,stop-loss (-30%) PnL -604.22$ coût 8.7%
 2026-11-12 07:48:23,agressive,VENTE,NOBUSHIBA,0.002044,734.16,palier +100% PnL +359.38$ coût 2.3%
 2026-11-12 07:51:23,actuelle,VENTE,GOODTIME,0.0001262,1448.00,durée max 12h PnL -292.73$ coût 13.6%
+2026-11-12 07:53:23,agressive,VENTE,PAYDAY,0.0001168,643.74,stop-loss (-41%) PnL -520.90$ coût 6.0%
+2026-11-12 07:53:23,agressive,ACHAT,AIB,0.0005163226572,1159.90,score 58 coût 5.2%
