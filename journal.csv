@@ -4849,3 +4849,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 13:55:32,agressive,VENTE,Impeach,0.0002303,684.91,stop-loss (-41%) PnL -533.18$ coût 4.4%
 2026-11-12 13:56:28,prudente,VENTE,FLC,0.0002312,6.11,stop-loss (-24%) PnL -1.98$ coût 1.0%
 2026-11-12 14:03:29,hasard,VENTE,FLC,0.0001989,840.30,stop-loss (-32%) PnL -469.65$ coût 5.8%
+2026-11-12 14:21:29,actuelle,VENTE,FLC,0.0001797,1035.65,stop-loss (-31%) PnL -593.21$ coût 7.3%
+2026-11-12 14:21:29,agressive,VENTE,WASTED,0.0008772,743.15,stop-loss (-40%) PnL -533.40$ coût 2.7%
