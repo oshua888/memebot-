@@ -4912,3 +4912,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 21:47:08,actuelle,VENTE,PUSSY,0.0004576,960.39,stop-loss (-39%) PnL -654.39$ coût 2.6%
 2026-11-12 21:47:08,hasard,VENTE,PUSSY,0.0004576,786.94,stop-loss (-39%) PnL -527.62$ coût 2.3%
 2026-11-12 21:48:08,agressive,VENTE,PUSSY,0.0003949,577.56,stop-loss (-47%) PnL -534.60$ coût 2.0%
+2026-11-12 22:15:08,hasard,VENTE,DOGGLE,0.0003616,853.14,stop-loss (-30%) PnL -430.44$ coût 5.0%
+2026-11-12 22:15:08,apprentie,VENTE,WEALTH,0.0006379,23.09,palier +25% PnL +4.62$ coût 1.1%
+2026-11-12 22:15:08,apprentie,VENTE,DOGGLE,0.0003616,13.66,stop-loss (-27%) PnL -5.16$ coût 1.1%
