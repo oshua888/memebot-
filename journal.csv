@@ -4798,3 +4798,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-12 05:31:22,hasard,VENTE,WASTED,0.0009968,1070.63,durée max 12h PnL -412.13$ coût 3.3%
 2026-11-12 05:31:22,hasard,ACHAT,NOBUSHIBA,0.001052760207,1343.11,score 71 coût 4.3%
 2026-11-12 05:43:22,hasard,VENTE,NOBUSHIBA,0.00163,670.24,palier +50% PnL +227.02$ coût 2.3%
+2026-11-12 05:49:22,apprentie,VENTE,STANK,0.001591,13.88,stop-loss (-25%) PnL -4.93$ coût 1.0%
