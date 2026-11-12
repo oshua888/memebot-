@@ -2196,3 +2196,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-12 03:19,2026-11-12 05:27,agressive,NOBUSHIBA,boost,trailing-stop,2.14,25.72,72,80032,12.45,25.9,3.385,0.662,-1.76,122,384,1
 2026-11-11 17:31,2026-11-12 05:31,hasard,WASTED,boost+tendance,durée max 12h,12.0,-27.79,27,109931,11.49,287.4,0.092,0.386,-2.54,-12.63,2.07,1
 2026-11-11 23:44,2026-11-12 05:49,apprentie,STANK,tendance,stop-loss (-25%),6.09,-26.22,25,82741,25.53,321.8,0.802,0.511,0.61,-3.2,-43.73,0
+2026-11-12 02:26,2026-11-12 05:58,hasard,STANK,tendance,stop-loss (-31%),3.54,-33.16,22,84255,24.96,324.5,0.133,0.556,3.19,-2.79,-32.16,0
