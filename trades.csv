@@ -2297,3 +2297,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-13 13:21,2026-11-13 17:06,apprentie,FASTMOON,boost+profil,stop-loss (-89%),3.76,-89.52,48,43357,7.7,2.0,4.031,0.566,3.33,-1.62,838,1
 2026-11-13 05:22,2026-11-13 17:22,hasard,TrumpWars,boost,durée max 12h,12.0,-16.3,34,36177,5.7,267.0,0.536,0.562,2.5,-17.68,39.93,1
 2026-11-13 09:34,2026-11-13 17:34,prudente,FOOD,tendance,trailing-stop,8.01,85.12,74,84310,9.63,10.3,1.451,0.596,5.89,6.03,15.1,0
+2026-11-13 17:09,2026-11-13 17:44,prudente,WANTED,boost,stop-loss (-21%),0.58,-21.48,70,65306,11.33,4.0,1.334,0.761,2.17,11.65,1904,1
