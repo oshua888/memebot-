@@ -5000,3 +5000,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 12:33:02,actuelle,VENTE,Max,0.001577,1181.62,durée max 12h PnL -393.95$ coût 2.5%
 2026-11-13 12:54:03,hasard,VENTE,Sakura,0.0004608,823.95,stop-loss (-31%) PnL -415.70$ coût 4.0%
 2026-11-13 13:15:03,apprentie,ACHAT,Leonida,0.0006571735005,18.68,score 41 coût 1.1%
+2026-11-13 13:19:03,actuelle,VENTE,AI,0.000151,997.73,stop-loss (-30%) PnL -535.88$ coût 6.6%
