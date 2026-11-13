@@ -4993,3 +4993,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 11:24:02,hasard,ACHAT,Sakura,0.0006656410399,1239.65,score 48 coût 4.7%
 2026-11-13 11:32:01,agressive,VENTE,inuhao,0.002273,851.74,trailing-stop PnL +478.39$ coût 2.4%
 2026-11-13 11:41:01,agressive,ACHAT,FOOD,0.0009826129431,1094.64,score 63 coût 3.4%
+2026-11-13 12:02:02,actuelle,ACHAT,AI,0.0002167714714,1533.60,score 60 coût 7.9%
+2026-11-13 12:02:02,apprentie,VENTE,WEALTH,0.0005427,17.52,durée max 12h PnL -1.30$ coût 1.1%
+2026-11-13 12:04:02,apprentie,VENTE,Sakura,0.0008241,24.38,palier +25% PnL +5.80$ coût 1.1%
