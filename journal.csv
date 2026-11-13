@@ -5032,3 +5032,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 17:39:36,hasard,VENTE,MEVS,0.001267,822.56,palier +100% PnL +406.10$ coût 2.9%
 2026-11-13 17:44:37,prudente,VENTE,WANTED,0.0005992,6.41,stop-loss (-21%) PnL -1.75$ coût 1.0%
 2026-11-13 17:46:38,actuelle,ACHAT,Sakura,0.0004869003818,1461.70,score 64 coût 6.0%
+2026-11-13 17:53:36,hasard,VENTE,FOOD,0.001234,596.34,trailing-stop PnL +181.33$ coût 2.1%
+2026-11-13 17:53:36,hasard,ACHAT,WANTED,0.0006350105156,1242.19,score 53 coût 5.2%
