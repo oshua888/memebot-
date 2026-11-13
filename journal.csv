@@ -4958,3 +4958,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 04:48:33,agressive,VENTE,inuhao,0.002983,1114.84,palier +200% PnL +741.49$ coût 2.6%
 2026-11-13 04:57:33,apprentie,VENTE,TrumpWars,0.0002019,13.88,stop-loss (-25%) PnL -4.87$ coût 1.1%
 2026-11-13 04:58:33,prudente,VENTE,ODDME,0.0001098,6.32,stop-loss (-21%) PnL -1.79$ coût 1.1%
+2026-11-13 05:04:32,prudente,VENTE,SHARKBUX,0.0004943,4.09,trailing-stop PnL +0.05$ coût 1.0%

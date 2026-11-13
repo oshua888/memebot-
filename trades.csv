@@ -2266,3 +2266,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-12 16:47,2026-11-13 04:47,apprentie,RAMBO,boost,durée max 12h,12.0,6.44,58,300935,39.92,218.0,3.129,0.452,-22.84,-18.2,49.7,1
 2026-11-13 02:53,2026-11-13 04:57,apprentie,TrumpWars,boost,stop-loss (-25%),2.07,-25.95,44,41136,6.33,264.6,0.466,0.523,20.43,12.99,68.21,1
 2026-11-13 04:48,2026-11-13 04:58,prudente,ODDME,boost+profil,stop-loss (-21%),0.17,-22.1,79,27140,4.71,23.4,6.204,0.623,11.81,50.4,7648,1
+2026-11-13 01:43,2026-11-13 05:04,prudente,SHARKBUX,boost+profil,trailing-stop,3.35,15.12,71,54816,8.66,2.2,6.091,0.641,-0.07,5.28,550,1
