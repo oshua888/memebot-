@@ -5077,3 +5077,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 21:41:38,actuelle,ACHAT,plumber,0.0001164370718,1411.34,score 60 coût 10.2%
 2026-11-13 21:48:38,agressive,VENTE,RAMBO,0.01253,1069.50,trailing-stop PnL +326.70$ coût 1.7%
 2026-11-13 21:48:38,agressive,ACHAT,inuhao,0.000591542024,1091.79,score 80 coût 4.4%
+2026-11-13 22:11:36,apprentie,VENTE,Nigghao,2.474e-06,0.33,stop-loss (-98%) PnL -17.68$ coût 1.0%
