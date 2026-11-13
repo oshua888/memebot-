@@ -4956,3 +4956,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 04:48:33,prudente,ACHAT,ODDME,0.0001394624624,8.11,score 79 coût 1.1%
 2026-11-13 04:48:33,actuelle,ACHAT,ODDME,0.0001552655009,1562.10,score 79 coût 12.5%
 2026-11-13 04:48:33,agressive,VENTE,inuhao,0.002983,1114.84,palier +200% PnL +741.49$ coût 2.6%
+2026-11-13 04:57:33,apprentie,VENTE,TrumpWars,0.0002019,13.88,stop-loss (-25%) PnL -4.87$ coût 1.1%
