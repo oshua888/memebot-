@@ -4947,3 +4947,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 03:56:32,actuelle,VENTE,jjaemu,8.773e-05,908.20,stop-loss (-35%) PnL -655.42$ coût 10.7%
 2026-11-13 04:17:32,prudente,VENTE,SHARKBUX,0.0006304,5.22,palier +30% PnL +1.18$ coût 1.0%
 2026-11-13 04:25:34,actuelle,ACHAT,CHARITY,0.0001397690862,1555.39,score 61 coût 13.1%
+2026-11-13 04:38:32,actuelle,VENTE,CHARITY,0.0002146,744.35,palier +50% PnL +231.08$ coût 5.5%
+2026-11-13 04:42:32,actuelle,VENTE,CHARITY,0.0001556,1056.83,trailing-stop PnL +14.72$ coût 8.9%
