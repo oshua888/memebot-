@@ -5085,3 +5085,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 23:23:48,apprentie,VENTE,PEACEFROG,0.0003152,22.59,palier +25% PnL +4.70$ coût 1.1%
 2026-11-13 23:23:48,apprentie,ACHAT,PEACEFROG,0.0003186301178,18.02,score 51 coût 1.1%
 2026-11-13 23:32:49,actuelle,ACHAT,AURA,0.0001290065408,1401.46,score 60 coût 12.1%
+2026-11-13 23:37:47,actuelle,VENTE,AURA,9.009e-05,882.38,stop-loss (-30%) PnL -519.07$ coût 9.8%
