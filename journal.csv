@@ -5058,3 +5058,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 19:12:37,prudente,ACHAT,Max,0.002391868803,8.11,score 70 coût 1.0%
 2026-11-13 19:13:37,actuelle,ACHAT,Sakura,0.000144036678,1429.78,score 63 coût 11.8%
 2026-11-13 19:13:37,apprentie,ACHAT,Sakura,0.0001302654464,18.19,score 63 coût 1.1%
+2026-11-13 19:16:36,actuelle,VENTE,Sakura,7.444e-05,676.97,stop-loss (-48%) PnL -752.81$ coût 8.4%
+2026-11-13 19:16:36,apprentie,VENTE,Sakura,7.444e-05,10.28,stop-loss (-43%) PnL -7.91$ coût 1.1%
