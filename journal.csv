@@ -4980,3 +4980,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 10:03:02,actuelle,ACHAT,WRENCHP,0.0001355907592,1537.39,score 69 coût 13.3%
 2026-11-13 10:33:03,actuelle,ACHAT,Sakura,0.0002814596302,1532.95,score 62 coût 8.5%
 2026-11-13 10:33:03,apprentie,ACHAT,WRENCHP,0.0001363368294,18.74,score 65 coût 1.1%
+2026-11-13 10:40:02,actuelle,VENTE,WRENCHP,2.53e-06,27.75,stop-loss (-98%) PnL -1509.64$ coût 3.3%
+2026-11-13 10:40:02,apprentie,VENTE,WRENCHP,2.53e-06,0.34,stop-loss (-98%) PnL -18.40$ coût 1.0%
