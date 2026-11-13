@@ -5048,3 +5048,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 18:51:36,hasard,ACHAT,WEALTH,0.0006049475288,1228.93,score 14 coût 4.7%
 2026-11-13 18:51:36,apprentie,VENTE,Sakura,0.0003245,13.38,stop-loss (-27%) PnL -5.25$ coût 1.1%
 2026-11-13 18:55:36,hasard,VENTE,SHARKBUX,0.0009329,623.10,palier +50% PnL +215.57$ coût 2.6%
+2026-11-13 18:56:36,hasard,VENTE,SHARKBUX,0.0006525,874.02,trailing-stop PnL +46.61$ coût 3.8%
+2026-11-13 18:56:36,hasard,ACHAT,SHARKBUX,0.0006839462442,1232.51,score 49 coût 4.8%
+2026-11-13 18:57:35,prudente,ACHAT,FOOD,0.001282890483,8.13,score 71 coût 1.0%
+2026-11-13 19:00:36,prudente,VENTE,inuhao,0.002701,6.03,stop-loss (-25%) PnL -2.13$ coût 1.0%
