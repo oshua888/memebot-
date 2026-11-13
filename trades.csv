@@ -2258,3 +2258,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-13 00:33,2026-11-13 00:48,agressive,Christmax,boost,stop-loss (-42%),0.25,-45.58,50,29827,5.28,2.1,1.732,0.635,-7.34,85.43,348,1
 2026-11-13 01:04,2026-11-13 01:17,apprentie,Christmax,boost,stop-loss (-26%),0.22,-26.79,47,25727,4.65,2.6,2.778,0.225,7.16,3.38,240,1
 2026-11-13 02:20,2026-11-13 02:53,apprentie,TrumpWars,boost,palier +25%,0.55,26.67,46,36061,5.57,264.0,0.723,0.516,-2.32,9.94,43.94,1
+2026-11-13 01:43,2026-11-13 03:09,apprentie,SHARKBUX,boost+profil,palier +25%,1.43,24.1,71,54816,8.66,2.2,6.091,0.641,-0.07,5.28,550,1
