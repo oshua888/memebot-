@@ -5026,3 +5026,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 17:07:37,actuelle,ACHAT,WANTED,0.0007696476277,1470.24,score 62 coût 5.6%
 2026-11-13 17:09:36,prudente,ACHAT,WANTED,0.0007553638194,8.16,score 70 coût 1.0%
 2026-11-13 17:10:38,hasard,VENTE,FOOD,0.001709,824.13,palier +100% PnL +409.12$ coût 2.4%
+2026-11-13 17:22:36,hasard,VENTE,TrumpWars,0.0002058,1041.50,durée max 12h PnL -202.85$ coût 7.2%
+2026-11-13 17:22:36,hasard,ACHAT,Huang,0.0002039036656,1249.68,score 60 coût 7.5%
