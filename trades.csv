@@ -2284,3 +2284,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-12 16:23,2026-11-13 11:32,agressive,inuhao,profil,trailing-stop,19.14,141.23,63,75915,12.28,6.1,1.35,0.499,-6.54,19.56,133,0
 2026-11-13 00:01,2026-11-13 12:02,apprentie,WEALTH,boost,durée max 12h,12.01,-6.93,31,66550,8.52,176.9,0.061,0.333,-1.62,2.53,6.11,1
 2026-11-13 11:17,2026-11-13 12:04,apprentie,Sakura,nouveau+profil,palier +25%,0.78,31.23,48,65781,8.95,3.1,6.702,0.554,15.28,174,1760,0
+2026-11-13 10:33,2026-11-13 12:22,actuelle,Sakura,profil,trailing-stop,1.82,87.89,62,40856,6.08,2.4,6.529,0.56,9.15,32.48,685,0
