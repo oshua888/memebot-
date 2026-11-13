@@ -4961,3 +4961,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 05:04:32,prudente,VENTE,SHARKBUX,0.0004943,4.09,trailing-stop PnL +0.05$ coût 1.0%
 2026-11-13 05:12:49,actuelle,ACHAT,CHARITY,0.0001451826645,1555.62,score 63 coût 12.6%
 2026-11-13 05:13:33,apprentie,ACHAT,MEVS,0.0006117409384,18.68,score 48 coût 1.1%
+2026-11-13 05:21:32,actuelle,VENTE,ODDME,0.0001036,939.90,stop-loss (-33%) PnL -622.20$ coût 9.8%
+2026-11-13 05:21:32,hasard,VENTE,ODDME,0.0001036,769.63,stop-loss (-33%) PnL -486.39$ coût 8.1%
+2026-11-13 05:21:32,apprentie,VENTE,ODDME,0.0001036,13.47,stop-loss (-27%) PnL -5.29$ coût 1.1%
+2026-11-13 05:22:32,hasard,ACHAT,TrumpWars,0.0002280567949,1244.34,score 34 coût 7.9%
