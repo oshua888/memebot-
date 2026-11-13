@@ -4953,3 +4953,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 04:47:33,hasard,ACHAT,ODDME,0.0001553962797,1256.02,score 49 coût 10.1%
 2026-11-13 04:47:33,apprentie,VENTE,RAMBO,0.01323,19.79,durée max 12h PnL +1.20$ coût 1.0%
 2026-11-13 04:47:33,apprentie,ACHAT,ODDME,0.0001427034905,18.76,score 49 coût 1.1%
+2026-11-13 04:48:33,prudente,ACHAT,ODDME,0.0001394624624,8.11,score 79 coût 1.1%
+2026-11-13 04:48:33,actuelle,ACHAT,ODDME,0.0001552655009,1562.10,score 79 coût 12.5%
+2026-11-13 04:48:33,agressive,VENTE,inuhao,0.002983,1114.84,palier +200% PnL +741.49$ coût 2.6%
