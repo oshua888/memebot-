@@ -5081,3 +5081,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 22:56:50,prudente,VENTE,Speed,0.0003694,5.32,palier +30% PnL +1.28$ coût 1.0%
 2026-11-13 22:58:48,apprentie,ACHAT,PEACEFROG,0.0002468859739,17.89,score 58 coût 1.1%
 2026-11-13 23:07:48,prudente,VENTE,Speed,0.0002113,3.04,stop-loss (-24%) PnL -1.00$ coût 1.0%
+2026-11-13 23:13:47,actuelle,VENTE,Speed,0.00017,885.71,stop-loss (-33%) PnL -526.40$ coût 6.5%
