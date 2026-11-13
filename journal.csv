@@ -4972,3 +4972,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 05:52:32,apprentie,VENTE,Leonida,0.0005622,23.06,palier +25% PnL +4.61$ coût 1.1%
 2026-11-13 06:02:33,actuelle,ACHAT,FOOD,0.001434182975,1541.33,score 66 coût 3.9%
 2026-11-13 06:42:33,actuelle,VENTE,FOOD,0.0009546,992.13,stop-loss (-33%) PnL -549.19$ coût 3.3%
+2026-11-13 06:59:32,apprentie,VENTE,MEVS,0.0004574,13.82,stop-loss (-25%) PnL -4.86$ coût 1.1%
