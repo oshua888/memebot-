@@ -6710,3 +6710,70 @@ agressive    36385.77$ +3538.6% +34952.97$17475322.07$  114/333     5
 hasard       60689.98$ +5969.0% +59705.54$12407425.86$  221/472     5
 apprentie      910.77$    -8.9%    -84.31$  160.72$  208/219     3
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 281 — 2026-11-13 21:46:25 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  99 tokens trouvés, analyse en cours…
+  15 retenus / 97 ; rejets : liquidité faible ×62, volume faible ×43, trop récent ×36, trop ancien ×22, FDV/liquidité trop élevé ×4, RugCheck: top 10 détient 37% ×1, RugCheck: Mint Authority still enabled ×1, RugCheck: Single holder ownership ×1, RugCheck: Low Liquidity ×1, RugCheck: top 10 détient 71% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       808.82$   -19.1%   -191.93$   63.34$  305/233     2
+actuelle     70444.89$ +6944.5% +69605.51$12573286.68$  217/432     3
+agressive    36398.16$ +3539.8% +34952.97$17475322.07$  114/333     5
+hasard       60636.96$ +5963.7% +59705.54$12407425.86$  221/472     5
+apprentie      911.44$    -8.9%    -84.31$  160.72$  208/219     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 282 — 2026-11-13 21:47:25 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  101 tokens trouvés, analyse en cours…
+  15 retenus / 100 ; rejets : liquidité faible ×65, volume faible ×46, trop récent ×39, trop ancien ×22, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 37% ×1, RugCheck: Mint Authority still enabled ×1, RugCheck: Single holder ownership ×1, RugCheck: Low Liquidity ×1, RugCheck: top 10 détient 71% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       809.00$   -19.1%   -191.93$   63.34$  305/233     2
+actuelle     70500.14$ +6950.0% +69605.51$12573286.68$  217/432     3
+agressive    36398.07$ +3539.8% +34952.97$17475322.07$  114/333     5
+hasard       60625.81$ +5962.6% +59705.54$12407425.86$  221/472     5
+apprentie      910.78$    -8.9%    -84.31$  160.72$  208/219     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 283 — 2026-11-13 21:48:25 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  101 tokens trouvés, analyse en cours…
+  14 retenus / 99 ; rejets : liquidité faible ×64, volume faible ×45, trop récent ×38, trop ancien ×22, FDV/liquidité trop élevé ×5, RugCheck: top 10 détient 37% ×1, RugCheck: Mint Authority still enabled ×1, RugCheck: Single holder ownership ×1, RugCheck: Low Liquidity ×1, RugCheck: top 10 détient 71% ×1
+  [agressive] VENTE RAMBO @ 0.01253$ — 1069.50$ trailing-stop PnL +326.70$ coût 1.7%
+  [agressive] ACHAT inuhao @ 0.00059154202$ — 1091.79$ score 80 coût 4.4%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       808.26$   -19.2%   -191.93$   63.34$  305/233     2
+actuelle     70380.91$ +6938.1% +69605.51$12573286.68$  217/432     3
+agressive    36303.05$ +3530.3% +35279.67$17475386.40$  115/333     5
+hasard       60689.82$ +5969.0% +59705.54$12407425.86$  221/472     5
+apprentie      909.94$    -9.0%    -84.31$  160.72$  208/219     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 284 — 2026-11-13 21:49:25 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  102 tokens trouvés, analyse en cours…
+  13 retenus / 102 ; rejets : liquidité faible ×69, volume faible ×48, trop récent ×40, trop ancien ×22, FDV/liquidité trop élevé ×4, RugCheck: top 10 détient 37% ×1, RugCheck: Mint Authority still enabled ×1, RugCheck: Single holder ownership ×1, RugCheck: Low Liquidity ×1, RugCheck: top 10 détient 71% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       808.49$   -19.2%   -191.93$   63.34$  305/233     2
+actuelle     70340.16$ +6934.0% +69605.51$12573286.68$  217/432     3
+agressive    36344.25$ +3534.4% +35279.67$17475386.40$  115/333     5
+hasard       60644.04$ +5964.4% +59705.54$12407425.86$  221/472     5
+apprentie      911.08$    -8.9%    -84.31$  160.72$  208/219     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 285 — 2026-11-13 21:50:25 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  103 tokens trouvés, analyse en cours…
+  14 retenus / 102 ; rejets : liquidité faible ×67, volume faible ×46, trop récent ×41, trop ancien ×22, FDV/liquidité trop élevé ×6, RugCheck: top 10 détient 37% ×1, RugCheck: Mint Authority still enabled ×1, RugCheck: Single holder ownership ×1, RugCheck: Low Liquidity ×1, RugCheck: top 10 détient 71% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       808.78$   -19.1%   -191.93$   63.34$  305/233     2
+actuelle     70395.54$ +6939.6% +69605.51$12573286.68$  217/432     3
+agressive    36390.63$ +3539.1% +35279.67$17475386.40$  115/333     5
+hasard       60647.49$ +5964.7% +59705.54$12407425.86$  221/472     5
+apprentie      910.71$    -8.9%    -84.31$  160.72$  208/219     3
+(argent fictif — valeur nette si tout était revendu maintenant)

@@ -5075,3 +5075,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 21:28:38,prudente,ACHAT,AMC,0.004520199283,8.07,score 70 coût 1.0%
 2026-11-13 21:28:38,actuelle,ACHAT,AMC,0.004598221249,1410.10,score 70 coût 2.8%
 2026-11-13 21:41:38,actuelle,ACHAT,plumber,0.0001164370718,1411.34,score 60 coût 10.2%
+2026-11-13 21:48:38,agressive,VENTE,RAMBO,0.01253,1069.50,trailing-stop PnL +326.70$ coût 1.7%
+2026-11-13 21:48:38,agressive,ACHAT,inuhao,0.000591542024,1091.79,score 80 coût 4.4%
