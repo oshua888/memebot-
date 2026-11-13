@@ -4992,3 +4992,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 11:24:02,hasard,VENTE,Max,0.001814,1067.04,durée max 12h PnL -203.37$ coût 2.2%
 2026-11-13 11:24:02,hasard,ACHAT,Sakura,0.0006656410399,1239.65,score 48 coût 4.7%
 2026-11-13 11:32:01,agressive,VENTE,inuhao,0.002273,851.74,trailing-stop PnL +478.39$ coût 2.4%
+2026-11-13 11:41:01,agressive,ACHAT,FOOD,0.0009826129431,1094.64,score 63 coût 3.4%
