@@ -2286,3 +2286,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-13 11:17,2026-11-13 12:04,apprentie,Sakura,nouveau+profil,palier +25%,0.78,31.23,48,65781,8.95,3.1,6.702,0.554,15.28,174,1760,0
 2026-11-13 10:33,2026-11-13 12:22,actuelle,Sakura,profil,trailing-stop,1.82,87.89,62,40856,6.08,2.4,6.529,0.56,9.15,32.48,685,0
 2026-11-13 00:32,2026-11-13 12:33,actuelle,Max,tendance,durée max 12h,12.01,-25.0,60,185385,10.75,27.5,0.576,0.566,4.53,2.6,13.08,0
+2026-11-13 11:24,2026-11-13 12:54,hasard,Sakura,profil,stop-loss (-31%),1.5,-33.53,48,66240,9.19,3.2,7.418,0.554,5.04,150,1822,0
