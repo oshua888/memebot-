@@ -5009,3 +5009,20 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 13:44:04,actuelle,VENTE,SHARKBUX,0.0005654,1622.29,durée max 12h PnL +50.47$ coût 6.7%
 2026-11-13 13:44:04,hasard,VENTE,SHARKBUX,0.0005654,1325.99,durée max 12h PnL +70.01$ coût 5.6%
 2026-11-13 13:44:04,hasard,ACHAT,SHARKBUX,0.0005941309533,1234.94,score 24 coût 5.1%
+2026-11-13 17:06:37,prudente,VENTE,FOOD,0.001635,7.74,palier +30% PnL +3.70$ coût 1.0%
+2026-11-13 17:06:37,prudente,ACHAT,inuhao,0.003620204124,8.16,score 76 coût 1.0%
+2026-11-13 17:06:37,actuelle,VENTE,RAMBO,0.01277,1055.93,trailing-stop PnL -3.21$ coût 1.7%
+2026-11-13 17:06:37,actuelle,VENTE,FASTMOON,3.601e-05,142.11,stop-loss (-90%) PnL -1374.65$ coût 3.2%
+2026-11-13 17:06:37,actuelle,ACHAT,inuhao,0.003685651579,1474.82,score 76 coût 2.8%
+2026-11-13 17:06:37,actuelle,ACHAT,Huang,0.0002198740536,1473.20,score 68 coût 8.5%
+2026-11-13 17:06:37,hasard,VENTE,MEVS,0.001139,729.31,palier +50% PnL +319.07$ coût 2.8%
+2026-11-13 17:06:37,hasard,VENTE,FOOD,0.001635,777.05,palier +50% PnL +368.24$ coût 2.3%
+2026-11-13 17:06:37,hasard,VENTE,FASTMOON,3.601e-05,118.07,stop-loss (-90%) PnL -1122.65$ coût 2.8%
+2026-11-13 17:06:37,hasard,ACHAT,AI,0.0002194768455,1251.25,score 51 coût 6.7%
+2026-11-13 17:06:37,apprentie,VENTE,SHARKBUX,0.0005606,16.98,durée max 12h PnL -1.79$ coût 1.1%
+2026-11-13 17:06:37,apprentie,VENTE,FASTMOON,3.601e-05,1.96,stop-loss (-89%) PnL -16.72$ coût 1.0%
+2026-11-13 17:06:37,apprentie,ACHAT,WANTED,0.0007356936314,18.29,score 55 coût 1.1%
+2026-11-13 17:07:37,prudente,VENTE,FOOD,0.001635,3.87,palier +60% PnL +1.85$ coût 1.0%
+2026-11-13 17:07:37,actuelle,ACHAT,WANTED,0.0007696476277,1470.24,score 62 coût 5.6%
+2026-11-13 17:09:36,prudente,ACHAT,WANTED,0.0007553638194,8.16,score 70 coût 1.0%
+2026-11-13 17:10:38,hasard,VENTE,FOOD,0.001709,824.13,palier +100% PnL +409.12$ coût 2.4%
