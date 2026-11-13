@@ -5043,3 +5043,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 18:31:36,hasard,VENTE,AI,0.0001483,798.67,stop-loss (-32%) PnL -452.57$ coût 5.5%
 2026-11-13 18:31:36,hasard,ACHAT,FOOD,0.00108587845,1236.37,score 63 coût 3.5%
 2026-11-13 18:39:36,agressive,VENTE,Leonida,0.0008599,682.40,palier +100% PnL +332.39$ coût 2.9%
+2026-11-13 18:42:36,actuelle,VENTE,Sakura,0.0003378,963.16,stop-loss (-31%) PnL -498.53$ coût 5.0%
