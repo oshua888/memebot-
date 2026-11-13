@@ -4966,3 +4966,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 05:21:32,apprentie,VENTE,ODDME,0.0001036,13.47,stop-loss (-27%) PnL -5.29$ coût 1.1%
 2026-11-13 05:22:32,hasard,ACHAT,TrumpWars,0.0002280567949,1244.34,score 34 coût 7.9%
 2026-11-13 05:24:33,agressive,VENTE,RAMBO,0.01711,721.52,palier +100% PnL +355.66$ coût 1.4%
+2026-11-13 05:30:34,hasard,VENTE,HUNG,0.0002361,842.40,stop-loss (-31%) PnL -426.60$ coût 4.3%
+2026-11-13 05:30:34,hasard,ACHAT,MEVS,0.0006226455218,1243.17,score 41 coût 5.3%
