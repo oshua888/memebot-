@@ -5090,3 +5090,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 23:40:48,agressive,ACHAT,Speed,0.0002297386585,1090.13,score 62 coût 6.7%
 2026-11-13 23:41:47,hasard,VENTE,WEALTH,0.0004231,824.61,stop-loss (-30%) PnL -404.32$ coût 4.1%
 2026-11-13 23:41:47,hasard,ACHAT,Speed,0.0002320444428,1212.96,score 62 coût 7.3%
+2026-11-13 23:43:47,hasard,VENTE,SHARKBUX,0.0004461,771.27,stop-loss (-35%) PnL -461.24$ coût 4.1%
+2026-11-13 23:43:47,hasard,ACHAT,AMC,0.005044018239,1207.89,score 49 coût 2.4%
