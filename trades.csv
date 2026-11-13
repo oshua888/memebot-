@@ -2256,3 +2256,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-12 12:49,2026-11-12 23:00,agressive,NOBUSHIBA,boost,stop-loss (-83%),10.18,-83.1,66,81348,12.33,35.4,2.012,0.706,-16,-10.06,-36.79,1
 2026-11-13 00:30,2026-11-13 00:34,hasard,Christmax,boost,stop-loss (-30%),0.07,-35.37,48,32488,5.73,2.0,1.446,0.642,13.39,121,429,1
 2026-11-13 00:33,2026-11-13 00:48,agressive,Christmax,boost,stop-loss (-42%),0.25,-45.58,50,29827,5.28,2.1,1.732,0.635,-7.34,85.43,348,1
+2026-11-13 01:04,2026-11-13 01:17,apprentie,Christmax,boost,stop-loss (-26%),0.22,-26.79,47,25727,4.65,2.6,2.778,0.225,7.16,3.38,240,1

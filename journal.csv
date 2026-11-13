@@ -4931,3 +4931,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 00:34:10,hasard,VENTE,Christmax,0.0001476,818.55,stop-loss (-30%) PnL -448.03$ coût 7.3%
 2026-11-13 00:48:09,agressive,VENTE,Christmax,0.0001036,579.79,stop-loss (-42%) PnL -485.62$ coût 6.3%
 2026-11-13 01:04:09,apprentie,ACHAT,Christmax,0.0001265336969,18.79,score 47 coût 1.1%
+2026-11-13 01:17:10,apprentie,VENTE,Christmax,9.369e-05,13.75,stop-loss (-26%) PnL -5.03$ coût 1.1%
