@@ -4997,3 +4997,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 12:02:02,apprentie,VENTE,WEALTH,0.0005427,17.52,durée max 12h PnL -1.30$ coût 1.1%
 2026-11-13 12:04:02,apprentie,VENTE,Sakura,0.0008241,24.38,palier +25% PnL +5.80$ coût 1.1%
 2026-11-13 12:22:02,actuelle,VENTE,Sakura,0.0006433,1121.43,trailing-stop PnL +607.89$ coût 4.5%
+2026-11-13 12:33:02,actuelle,VENTE,Max,0.001577,1181.62,durée max 12h PnL -393.95$ coût 2.5%
