@@ -4927,3 +4927,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 00:15:10,hasard,ACHAT,HUNG,0.0003404453596,1269.00,score 25 coût 5.0%
 2026-11-13 00:30:10,hasard,ACHAT,Christmax,0.0002117193083,1266.58,score 48 coût 8.8%
 2026-11-13 00:32:10,actuelle,ACHAT,Max,0.002050914539,1575.57,score 60 coût 2.7%
+2026-11-13 00:33:10,agressive,ACHAT,Christmax,0.0001783292229,1065.41,score 50 coût 8.1%
+2026-11-13 00:34:10,hasard,VENTE,Christmax,0.0001476,818.55,stop-loss (-30%) PnL -448.03$ coût 7.3%
