@@ -4949,3 +4949,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 04:25:34,actuelle,ACHAT,CHARITY,0.0001397690862,1555.39,score 61 coût 13.1%
 2026-11-13 04:38:32,actuelle,VENTE,CHARITY,0.0002146,744.35,palier +50% PnL +231.08$ coût 5.5%
 2026-11-13 04:42:32,actuelle,VENTE,CHARITY,0.0001556,1056.83,trailing-stop PnL +14.72$ coût 8.9%
+2026-11-13 04:47:33,hasard,VENTE,RAMBO,0.01323,1359.00,durée max 12h PnL +59.92$ coût 1.9%
+2026-11-13 04:47:33,hasard,ACHAT,ODDME,0.0001553962797,1256.02,score 49 coût 10.1%
+2026-11-13 04:47:33,apprentie,VENTE,RAMBO,0.01323,19.79,durée max 12h PnL +1.20$ coût 1.0%
+2026-11-13 04:47:33,apprentie,ACHAT,ODDME,0.0001427034905,18.76,score 49 coût 1.1%
