@@ -4989,3 +4989,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 11:05:02,actuelle,VENTE,Sakura,0.000567,989.62,palier +100% PnL +476.09$ coût 4.3%
 2026-11-13 11:15:02,apprentie,VENTE,Sakura,0.0006224,23.70,palier +25% PnL +5.27$ coût 1.1%
 2026-11-13 11:17:02,apprentie,ACHAT,Sakura,0.0006212952383,18.58,score 48 coût 1.1%
+2026-11-13 11:24:02,hasard,VENTE,Max,0.001814,1067.04,durée max 12h PnL -203.37$ coût 2.2%
+2026-11-13 11:24:02,hasard,ACHAT,Sakura,0.0006656410399,1239.65,score 48 coût 4.7%
