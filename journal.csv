@@ -5040,3 +5040,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 18:17:36,hasard,ACHAT,inuhao,0.003715642073,1243.75,score 76 coût 2.5%
 2026-11-13 18:19:36,apprentie,VENTE,WANTED,0.0005501,13.53,stop-loss (-25%) PnL -4.76$ coût 1.0%
 2026-11-13 18:21:36,actuelle,VENTE,WANTED,0.000535,974.06,stop-loss (-30%) PnL -496.18$ coût 4.7%
+2026-11-13 18:31:36,hasard,VENTE,AI,0.0001483,798.67,stop-loss (-32%) PnL -452.57$ coût 5.5%
+2026-11-13 18:31:36,hasard,ACHAT,FOOD,0.00108587845,1236.37,score 63 coût 3.5%
