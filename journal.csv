@@ -5121,3 +5121,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 01:45:47,agressive,ACHAT,AMC,0.004696458496,1015.58,score 55 coût 2.3%
 2026-11-14 01:46:47,actuelle,VENTE,CSI,0.001139,829.14,stop-loss (-38%) PnL -545.78$ coût 3.1%
 2026-11-14 02:14:47,apprentie,VENTE,BLACKOUT,0.0001034,12.69,stop-loss (-28%) PnL -5.05$ coût 1.1%
+2026-11-14 02:54:49,actuelle,ACHAT,JENSEN,0.00121350234,1359.53,score 64 coût 4.3%
+2026-11-14 02:54:49,apprentie,ACHAT,JENSEN,0.001175135823,17.69,score 64 coût 1.0%
