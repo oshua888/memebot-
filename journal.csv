@@ -5144,3 +5144,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 07:02:08,hasard,ACHAT,WISHMAS,0.0001630454846,1166.53,score 71 coût 8.7%
 2026-11-14 07:20:07,apprentie,ACHAT,ASTRALIS,0.0002693056836,17.50,score 56 coût 1.1%
 2026-11-14 07:25:07,apprentie,VENTE,ASTRALIS,0.0002012,12.93,stop-loss (-25%) PnL -4.57$ coût 1.1%
+2026-11-14 07:36:08,apprentie,VENTE,AMC,0.005808,22.51,palier +25% PnL +4.46$ coût 1.0%
