@@ -5227,13 +5227,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 20:37:01,hasard,VENTE,Christmax,0.0002104,845.82,durée max 12h PnL -312.95$ coût 6.6%
 2026-11-14 20:38:03,actuelle,VENTE,Christmax,0.0002066,851.15,stop-loss (-30%) PnL -458.72$ coût 6.7%
 2026-11-14 20:55:02,hasard,VENTE,GTA$,0.0002097,539.72,palier +50% PnL +169.48$ coût 3.5%
-2026-11-14 21:26:01,actuelle,ACHAT,FOOD,0.000438255871,1259.24,score 61 coût 5.1%
-2026-11-14 21:42:01,agressive,VENTE,WISHMAS,6.425e-05,498.98,stop-loss (-44%) PnL -451.53$ coût 6.6%
-2026-11-14 21:43:01,hasard,VENTE,greg,0.0001479,726.46,stop-loss (-32%) PnL -409.99$ coût 6.6%
-2026-11-14 21:50:02,agressive,ACHAT,bill,0.0002195875873,872.94,score 52 coût 4.8%
-2026-11-14 21:51:02,hasard,VENTE,GTA$,0.0002915,758.00,palier +100% PnL +382.14$ coût 3.9%
-2026-11-14 22:01:02,hasard,VENTE,GTA$,0.0002102,549.05,trailing-stop PnL +173.20$ coût 3.5%
-2026-11-14 22:08:02,apprentie,VENTE,CJ,0.0002762,12.91,stop-loss (-26%) PnL -4.74$ coût 1.1%
-2026-11-14 22:11:01,actuelle,ACHAT,bill,0.000269518759,1252.49,score 67 coût 5.9%
-2026-11-14 22:11:01,hasard,ACHAT,GTA$,0.0002097668403,1114.03,score 38 coût 6.0%
-2026-11-14 22:12:01,hasard,ACHAT,bill,0.0002618174541,1109.68,score 67 coût 5.4%
+2026-11-14 22:17:24,actuelle,ACHAT,bill,0.0002913133614,1256.64,score 66 coût 5.7%
+2026-11-14 22:17:24,agressive,VENTE,WISHMAS,4.641e-05,363.36,stop-loss (-59%) PnL -587.15$ coût 5.8%
+2026-11-14 22:17:24,agressive,ACHAT,bill,0.0002871871978,853.33,score 66 coût 4.2%
+2026-11-14 22:17:24,hasard,VENTE,greg,0.000147,721.71,stop-loss (-32%) PnL -414.74$ coût 6.7%
+2026-11-14 22:17:24,hasard,ACHAT,bill,0.0002897564867,1104.47,score 66 coût 5.1%
+2026-11-14 22:17:24,apprentie,VENTE,CJ,0.0002674,12.50,stop-loss (-28%) PnL -5.16$ coût 1.1%
+2026-11-14 22:19:24,hasard,VENTE,GTA$,0.0001726,882.42,trailing-stop PnL +130.72$ coût 5.6%
+2026-11-14 22:21:24,hasard,ACHAT,GTA$,0.0001872183178,1102.76,score 36 coût 6.3%
