@@ -5149,3 +5149,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 08:00:07,prudente,ACHAT,JENSEN,0.001218293733,8.10,score 70 coût 1.0%
 2026-11-14 08:01:08,prudente,VENTE,WISHMAS,0.0002024,5.21,palier +30% PnL +1.17$ coût 1.0%
 2026-11-14 08:01:08,apprentie,VENTE,Chunkee,0.0005381,21.79,palier +25% PnL +4.26$ coût 1.1%
+2026-11-14 08:11:07,prudente,VENTE,WISHMAS,0.0001761,4.53,trailing-stop PnL +0.49$ coût 1.0%
+2026-11-14 08:11:07,prudente,ACHAT,WISHMAS,0.000177947536,8.10,score 73 coût 1.0%
