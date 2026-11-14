@@ -5187,3 +5187,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 13:36:15,agressive,VENTE,SWJ,0.0001573,547.75,stop-loss (-44%) PnL -462.31$ coût 4.0%
 2026-11-14 13:38:18,agressive,ACHAT,BLACKOUT,0.0001556199569,949.00,score 50 coût 8.0%
 2026-11-14 13:57:16,actuelle,ACHAT,GTA$,0.0003660602636,1293.48,score 67 coût 5.5%
+2026-11-14 14:01:15,agressive,VENTE,JENSEN,0.0005718,559.37,stop-loss (-41%) PnL -414.56$ coût 3.0%
+2026-11-14 14:01:15,agressive,ACHAT,GTA$,0.0003522011496,932.81,score 52 coût 4.2%
+2026-11-14 14:03:15,agressive,VENTE,AMC,0.002746,582.22,stop-loss (-42%) PnL -433.36$ coût 2.0%
+2026-11-14 14:03:15,agressive,ACHAT,CJ,0.000283261756,930.21,score 52 coût 6.0%
