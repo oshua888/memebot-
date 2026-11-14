@@ -5198,3 +5198,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 15:29:15,apprentie,ACHAT,Christmax,0.0003469198683,17.70,score 46 coût 1.1%
 2026-11-14 15:51:17,hasard,VENTE,LGND,2.515e-06,833.00,trailing-stop PnL +72.37$ coût 5.2%
 2026-11-14 15:52:16,hasard,ACHAT,GTAFY,0.0001385352882,1147.26,score 49 coût 7.9%
+2026-11-14 16:57:02,actuelle,VENTE,GTA$,0.0002296,775.42,stop-loss (-37%) PnL -518.05$ coût 4.4%
+2026-11-14 16:59:01,hasard,VENTE,BLACKOUT,9.499e-05,729.60,stop-loss (-31%) PnL -416.69$ coût 8.4%
+2026-11-14 17:01:01,agressive,VENTE,BLACKOUT,9.26e-05,528.95,stop-loss (-40%) PnL -420.04$ coût 6.3%
