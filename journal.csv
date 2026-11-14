@@ -5146,3 +5146,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 07:25:07,apprentie,VENTE,ASTRALIS,0.0002012,12.93,stop-loss (-25%) PnL -4.57$ coût 1.1%
 2026-11-14 07:36:08,apprentie,VENTE,AMC,0.005808,22.51,palier +25% PnL +4.46$ coût 1.0%
 2026-11-14 07:40:07,apprentie,ACHAT,AMC,0.005436902406,17.55,score 61 coût 1.0%
+2026-11-14 08:00:07,prudente,ACHAT,JENSEN,0.001218293733,8.10,score 70 coût 1.0%
+2026-11-14 08:01:08,prudente,VENTE,WISHMAS,0.0002024,5.21,palier +30% PnL +1.17$ coût 1.0%
+2026-11-14 08:01:08,apprentie,VENTE,Chunkee,0.0005381,21.79,palier +25% PnL +4.26$ coût 1.1%
