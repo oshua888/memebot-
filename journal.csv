@@ -5101,3 +5101,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 00:12:48,apprentie,ACHAT,PIRATE,0.0002897665459,17.96,score 40 coût 1.1%
 2026-11-14 00:19:48,agressive,VENTE,WANTED,1.607e-06,9.66,stop-loss (-99%) PnL -1054.07$ coût 2.1%
 2026-11-14 00:19:48,agressive,ACHAT,AURA,0.0001375756018,1031.79,score 62 coût 8.8%
+2026-11-14 00:36:47,actuelle,VENTE,plumber,7.96e-05,884.57,stop-loss (-32%) PnL -526.77$ coût 8.3%
+2026-11-14 00:37:48,actuelle,ACHAT,CSI,0.001829782911,1374.91,score 66 coût 3.7%
+2026-11-14 00:37:48,apprentie,ACHAT,CSI,0.001782267195,17.91,score 66 coût 1.0%
