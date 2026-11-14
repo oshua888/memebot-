@@ -5140,3 +5140,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 06:34:07,actuelle,VENTE,UP,9.521e-05,809.20,stop-loss (-33%) PnL -516.29$ coût 8.7%
 2026-11-14 06:44:07,apprentie,VENTE,PIRATE,0.0002153,13.20,stop-loss (-26%) PnL -4.76$ coût 1.1%
 2026-11-14 06:52:06,prudente,ACHAT,WISHMAS,0.0001554191603,8.08,score 71 coût 1.1%
+2026-11-14 07:02:08,hasard,VENTE,PIRATE,0.0002231,1047.62,durée max 12h PnL -173.68$ coût 6.0%
+2026-11-14 07:02:08,hasard,ACHAT,WISHMAS,0.0001630454846,1166.53,score 71 coût 8.7%
