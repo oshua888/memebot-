@@ -5235,3 +5235,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 22:17:24,apprentie,VENTE,CJ,0.0002674,12.50,stop-loss (-28%) PnL -5.16$ coût 1.1%
 2026-11-14 22:19:24,hasard,VENTE,GTA$,0.0001726,882.42,trailing-stop PnL +130.72$ coût 5.6%
 2026-11-14 22:21:24,hasard,ACHAT,GTA$,0.0001872183178,1102.76,score 36 coût 6.3%
+2026-11-14 22:50:24,actuelle,VENTE,bill,0.0004914,679.16,palier +50% PnL +264.47$ coût 2.9%
+2026-11-14 22:50:24,hasard,VENTE,bill,0.0004914,601.50,palier +50% PnL +237.02$ coût 2.7%
