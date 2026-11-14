@@ -5238,3 +5238,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 22:50:24,actuelle,VENTE,bill,0.0004914,679.16,palier +50% PnL +264.47$ coût 2.9%
 2026-11-14 22:50:24,hasard,VENTE,bill,0.0004914,601.50,palier +50% PnL +237.02$ coût 2.7%
 2026-11-14 23:09:22,actuelle,VENTE,SLIDES,7.514e-05,792.92,stop-loss (-31%) PnL -471.52$ coût 8.7%
+2026-11-14 23:18:22,actuelle,ACHAT,FOOD,0.0003770187888,1271.78,score 63 coût 5.5%
+2026-11-14 23:20:22,actuelle,VENTE,bill,0.0005827,816.09,palier +100% PnL +395.12$ coût 3.1%
+2026-11-14 23:20:22,agressive,VENTE,bill,0.0005827,557.57,palier +100% PnL +275.97$ coût 2.4%
+2026-11-14 23:20:22,hasard,VENTE,bill,0.0005827,722.92,palier +100% PnL +352.93$ coût 2.8%
