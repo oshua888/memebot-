@@ -5099,3 +5099,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 00:04:49,agressive,VENTE,Speed,0.0001238,558.49,stop-loss (-46%) PnL -531.64$ coût 4.9%
 2026-11-14 00:04:49,agressive,ACHAT,WANTED,0.0001731267865,1063.74,score 62 coût 8.1%
 2026-11-14 00:12:48,apprentie,ACHAT,PIRATE,0.0002897665459,17.96,score 40 coût 1.1%
+2026-11-14 00:19:48,agressive,VENTE,WANTED,1.607e-06,9.66,stop-loss (-99%) PnL -1054.07$ coût 2.1%
+2026-11-14 00:19:48,agressive,ACHAT,AURA,0.0001375756018,1031.79,score 62 coût 8.8%
