@@ -5096,3 +5096,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-13 23:52:49,actuelle,ACHAT,PEACEFROG,0.0002598596993,1386.21,score 61 coût 8.8%
 2026-11-14 00:02:49,hasard,VENTE,Speed,0.0001604,788.40,stop-loss (-31%) PnL -424.56$ coût 6.0%
 2026-11-14 00:02:49,hasard,ACHAT,PEACEFROG,0.0002812994654,1196.04,score 45 coût 7.4%
+2026-11-14 00:04:49,agressive,VENTE,Speed,0.0001238,558.49,stop-loss (-46%) PnL -531.64$ coût 4.9%
+2026-11-14 00:04:49,agressive,ACHAT,WANTED,0.0001731267865,1063.74,score 62 coût 8.1%
