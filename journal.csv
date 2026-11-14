@@ -5165,3 +5165,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 11:00:14,prudente,VENTE,WISHMAS,0.0001333,6.01,stop-loss (-25%) PnL -2.10$ coût 1.0%
 2026-11-14 11:06:14,agressive,VENTE,Leonida,0.0005561,884.42,trailing-stop PnL +173.81$ coût 4.1%
 2026-11-14 11:06:14,agressive,ACHAT,Christmax,0.0003031814621,954.14,score 64 coût 5.9%
+2026-11-14 11:20:18,hasard,ACHAT,BLACKOUT,0.0001366787178,1146.29,score 47 coût 10.1%
