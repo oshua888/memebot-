@@ -5162,3 +5162,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 10:50:14,actuelle,VENTE,AMC,0.003482,1040.92,durée max 12h PnL -369.19$ coût 2.5%
 2026-11-14 10:50:14,actuelle,ACHAT,Christmax,0.0002967352884,1309.87,score 62 coût 7.9%
 2026-11-14 10:50:14,hasard,VENTE,AMC,0.003482,815.62,stop-loss (-31%) PnL -392.28$ coût 2.2%
+2026-11-14 11:00:14,prudente,VENTE,WISHMAS,0.0001333,6.01,stop-loss (-25%) PnL -2.10$ coût 1.0%
