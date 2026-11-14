@@ -5110,3 +5110,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 00:58:48,agressive,VENTE,AURA,7.964e-05,557.06,stop-loss (-42%) PnL -474.72$ coût 6.7%
 2026-11-14 00:58:48,agressive,ACHAT,CSI,0.001742800541,1016.74,score 65 coût 3.1%
 2026-11-14 00:59:48,actuelle,VENTE,PEACEFROG,0.0001677,831.51,stop-loss (-35%) PnL -554.69$ coût 7.1%
+2026-11-14 01:17:48,prudente,ACHAT,CSI,0.001425363942,8.08,score 80 coût 1.0%
+2026-11-14 01:17:48,apprentie,ACHAT,Christmax,0.0002506206762,17.78,score 37 coût 1.1%
