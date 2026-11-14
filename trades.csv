@@ -2342,3 +2342,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-13 01:43,2026-11-14 01:43,agressive,SHARKBUX,boost+profil,durée max 24h,24.0,0.47,71,54816,8.66,2.2,6.091,0.641,-0.07,5.28,550,1
 2026-11-14 00:37,2026-11-14 01:46,actuelle,CSI,profil,stop-loss (-38%),1.15,-39.7,66,100756,17.45,2.0,3.135,0.831,13.53,76.38,3990,0
 2026-11-14 01:22,2026-11-14 02:14,apprentie,BLACKOUT,boost+profil,stop-loss (-28%),0.87,-28.45,41,26841,5.2,2.0,0.871,0.496,-0.4,32.55,57.27,1
+2026-11-13 21:28,2026-11-14 03:14,prudente,AMC,boost,stop-loss (-21%),5.77,-22.1,70,160829,27.66,2.8,1.817,0.574,-3.08,55.79,11066,1
