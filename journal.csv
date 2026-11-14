@@ -5184,3 +5184,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 13:07:16,apprentie,VENTE,GTAFY,7.271e-05,12.28,stop-loss (-30%) PnL -5.35$ coût 1.1%
 2026-11-14 13:29:14,hasard,VENTE,Leonida,0.0005994,1014.23,durée max 12h PnL -166.86$ coût 4.5%
 2026-11-14 13:29:14,hasard,ACHAT,CJ,0.0002869610223,1142.90,score 42 coût 7.1%
+2026-11-14 13:36:15,agressive,VENTE,SWJ,0.0001573,547.75,stop-loss (-44%) PnL -462.31$ coût 4.0%
+2026-11-14 13:38:18,agressive,ACHAT,BLACKOUT,0.0001556199569,949.00,score 50 coût 8.0%
