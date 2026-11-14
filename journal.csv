@@ -5135,3 +5135,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 05:57:08,actuelle,ACHAT,ASTRALIS,0.0002549485727,1334.79,score 60 coût 8.5%
 2026-11-14 06:18:08,actuelle,ACHAT,UP,0.0001424447639,1325.50,score 61 coût 10.9%
 2026-11-14 06:22:08,actuelle,VENTE,ASTRALIS,0.000159,776.52,stop-loss (-38%) PnL -558.26$ coût 6.7%
+2026-11-14 06:32:11,hasard,VENTE,FOOD,0.0008894,979.82,durée max 12h PnL -256.55$ coût 3.2%
+2026-11-14 06:32:11,hasard,ACHAT,JENSEN,0.001234435822,1170.34,score 55 coût 3.8%
