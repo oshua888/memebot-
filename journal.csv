@@ -5242,3 +5242,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 23:20:22,actuelle,VENTE,bill,0.0005827,816.09,palier +100% PnL +395.12$ coût 3.1%
 2026-11-14 23:20:22,agressive,VENTE,bill,0.0005827,557.57,palier +100% PnL +275.97$ coût 2.4%
 2026-11-14 23:20:22,hasard,VENTE,bill,0.0005827,722.92,palier +100% PnL +352.93$ coût 2.8%
+2026-11-14 23:30:22,hasard,VENTE,SLIDES,7.028e-05,701.76,stop-loss (-31%) PnL -405.47$ coût 8.0%
