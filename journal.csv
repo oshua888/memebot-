@@ -5201,3 +5201,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 16:57:02,actuelle,VENTE,GTA$,0.0002296,775.42,stop-loss (-37%) PnL -518.05$ coût 4.4%
 2026-11-14 16:59:01,hasard,VENTE,BLACKOUT,9.499e-05,729.60,stop-loss (-31%) PnL -416.69$ coût 8.4%
 2026-11-14 17:01:01,agressive,VENTE,BLACKOUT,9.26e-05,528.95,stop-loss (-40%) PnL -420.04$ coût 6.3%
+2026-11-14 17:04:02,agressive,ACHAT,Leonida,0.0006351958028,921.80,score 50 coût 4.0%
+2026-11-14 17:06:02,agressive,VENTE,GTA$,0.0001658,425.05,stop-loss (-53%) PnL -507.77$ coût 3.2%
