@@ -4839,3 +4839,69 @@ agressive    29898.80$ +2889.9% +29377.01$17476467.34$  117/345     5
 hasard       56016.84$ +5501.7% +55344.17$12409204.94$  224/486     5
 apprentie      878.08$   -12.2%   -118.01$  167.67$  215/231     3
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 141 — 2026-11-14 19:16:54 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  14 retenus / 88 ; rejets : liquidité faible ×59, volume faible ×38, trop récent ×36, trop ancien ×16, FDV/liquidité trop élevé ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       806.27$   -19.4%   -194.02$   64.23$  310/237     1
+actuelle     63896.84$ +6289.7% +63115.23$12575119.18$  217/445     2
+agressive    29880.29$ +2888.0% +29377.01$17476467.34$  117/345     5
+hasard       55938.40$ +5493.8% +55344.17$12409204.94$  224/486     5
+apprentie      877.71$   -12.2%   -118.01$  167.67$  215/231     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 142 — 2026-11-14 19:17:54 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  13 retenus / 88 ; rejets : liquidité faible ×59, volume faible ×38, trop récent ×36, trop ancien ×16, RugCheck: Large Amount of LP Unlocked ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       805.11$   -19.5%   -194.02$   64.23$  310/237     1
+actuelle     63638.02$ +6263.8% +63115.23$12575119.18$  217/445     2
+agressive    29843.94$ +2884.4% +29377.01$17476467.34$  117/345     5
+hasard       55762.86$ +5476.3% +55344.17$12409204.94$  224/486     5
+apprentie      876.48$   -12.4%   -118.01$  167.67$  215/231     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 143 — 2026-11-14 19:18:54 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  14 retenus / 87 ; rejets : liquidité faible ×59, volume faible ×37, trop récent ×35, trop ancien ×16
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       805.25$   -19.5%   -194.02$   64.23$  310/237     1
+actuelle     63653.34$ +6265.3% +63115.23$12575119.18$  217/445     2
+agressive    29823.57$ +2882.4% +29377.01$17476467.34$  117/345     5
+hasard       55743.41$ +5474.3% +55344.17$12409204.94$  224/486     5
+apprentie      876.81$   -12.3%   -118.01$  167.67$  215/231     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 144 — 2026-11-14 19:19:54 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  14 retenus / 88 ; rejets : liquidité faible ×59, volume faible ×38, trop récent ×36, trop ancien ×16
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       804.76$   -19.5%   -194.02$   64.23$  310/237     1
+actuelle     63552.15$ +6255.2% +63115.23$12575119.18$  217/445     2
+agressive    29654.63$ +2865.5% +29377.01$17476467.34$  117/345     5
+hasard       55631.79$ +5463.2% +55344.17$12409204.94$  224/486     5
+apprentie      874.64$   -12.5%   -118.01$  167.67$  215/231     3
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 145 — 2026-11-14 19:20:54 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  14 retenus / 88 ; rejets : liquidité faible ×58, volume faible ×37, trop récent ×37, trop ancien ×16
+  [apprentie] VENTE SHIT @ 8.666e-05$ — 13.02$ stop-loss (-25%) PnL -4.60$ coût 1.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       804.68$   -19.5%   -194.02$   64.23$  310/237     1
+actuelle     63555.87$ +6255.6% +63115.23$12575119.18$  217/445     2
+agressive    29705.24$ +2870.5% +29377.01$17476467.34$  117/345     5
+hasard       55588.69$ +5458.9% +55344.17$12409204.94$  224/486     5
+apprentie      871.02$   -12.9%   -122.61$  167.81$  215/232     2
+(argent fictif — valeur nette si tout était revendu maintenant)
