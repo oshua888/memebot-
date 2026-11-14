@@ -5207,3 +5207,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 18:05:02,agressive,ACHAT,GTAFY,0.0001173524592,914.93,score 51 coût 7.0%
 2026-11-14 18:21:02,actuelle,ACHAT,SHIT,9.368938594e-05,1281.75,score 60 coût 10.6%
 2026-11-14 18:23:04,actuelle,VENTE,Max,0.00138,850.47,stop-loss (-33%) PnL -446.23$ coût 2.2%
+2026-11-14 18:34:02,hasard,VENTE,GTAFY,9.65e-05,746.46,stop-loss (-30%) PnL -400.80$ coût 6.6%
+2026-11-14 18:34:02,hasard,ACHAT,SHIT,0.0001106489699,1123.81,score 60 coût 8.6%
+2026-11-14 18:34:02,apprentie,VENTE,Christmax,0.0002576,13.00,stop-loss (-26%) PnL -4.70$ coût 1.1%
