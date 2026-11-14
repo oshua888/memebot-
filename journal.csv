@@ -5130,3 +5130,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 04:33:09,apprentie,VENTE,JENSEN,0.0008324,12.40,stop-loss (-29%) PnL -5.29$ coût 1.0%
 2026-11-14 04:33:09,apprentie,ACHAT,Chunkee,0.0004281482753,17.52,score 50 coût 1.1%
 2026-11-14 05:03:09,prudente,VENTE,AMC,0.0036,6.37,stop-loss (-20%) PnL -1.71$ coût 1.0%
+2026-11-14 05:22:08,actuelle,ACHAT,WISHMAS,0.0001523547797,1337.55,score 60 coût 10.2%
+2026-11-14 05:23:08,actuelle,VENTE,SWJ,0.0001974,895.46,stop-loss (-30%) PnL -459.13$ coût 5.5%
