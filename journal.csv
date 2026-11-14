@@ -5211,3 +5211,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 18:34:02,hasard,ACHAT,SHIT,0.0001106489699,1123.81,score 60 coût 8.6%
 2026-11-14 18:34:02,apprentie,VENTE,Christmax,0.0002576,13.00,stop-loss (-26%) PnL -4.70$ coût 1.1%
 2026-11-14 18:37:02,prudente,ACHAT,SHIT,0.0001022672145,8.06,score 73 coût 1.1%
+2026-11-14 18:43:02,hasard,VENTE,Max,0.001317,770.71,stop-loss (-31%) PnL -366.28$ coût 2.1%
+2026-11-14 18:43:02,hasard,ACHAT,GTA$,0.0001388708492,1121.95,score 61 coût 7.4%
+2026-11-14 18:44:02,apprentie,ACHAT,SHIT,0.0001159749096,17.62,score 57 coût 1.1%
