@@ -5179,3 +5179,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 12:41:15,apprentie,ACHAT,CJ,0.0002557754615,17.64,score 23 coût 1.1%
 2026-11-14 12:43:15,apprentie,VENTE,GTA6,9.952e-05,12.94,stop-loss (-25%) PnL -4.59$ coût 1.1%
 2026-11-14 12:54:15,actuelle,ACHAT,Max,0.002058502537,1296.70,score 60 coût 2.4%
+2026-11-14 12:55:21,hasard,VENTE,BIG,0.001193,946.08,durée max 12h PnL -238.75$ coût 3.0%
+2026-11-14 12:55:21,hasard,ACHAT,LGND,2.178133456e-06,1135.27,score 17 coût 6.8%
