@@ -5154,3 +5154,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 08:28:07,prudente,VENTE,JENSEN,0.0009318,6.13,stop-loss (-24%) PnL -1.97$ coût 1.0%
 2026-11-14 08:28:07,agressive,VENTE,inuhao,8.057e-05,145.39,stop-loss (-86%) PnL -946.39$ coût 2.2%
 2026-11-14 08:28:07,agressive,ACHAT,JENSEN,0.0009658370878,973.92,score 53 coût 3.7%
+2026-11-14 08:36:08,hasard,VENTE,JENSEN,0.0008249,756.51,stop-loss (-33%) PnL -413.82$ coût 3.3%
+2026-11-14 08:36:08,hasard,ACHAT,Christmax,0.0002693176716,1158.77,score 29 coût 7.4%
+2026-11-14 08:37:07,apprentie,VENTE,AMC,0.004012,12.82,stop-loss (-26%) PnL -4.73$ coût 1.0%
