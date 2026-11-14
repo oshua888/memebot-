@@ -5138,3 +5138,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 06:32:11,hasard,VENTE,FOOD,0.0008894,979.82,durée max 12h PnL -256.55$ coût 3.2%
 2026-11-14 06:32:11,hasard,ACHAT,JENSEN,0.001234435822,1170.34,score 55 coût 3.8%
 2026-11-14 06:34:07,actuelle,VENTE,UP,9.521e-05,809.20,stop-loss (-33%) PnL -516.29$ coût 8.7%
+2026-11-14 06:44:07,apprentie,VENTE,PIRATE,0.0002153,13.20,stop-loss (-26%) PnL -4.76$ coût 1.1%
