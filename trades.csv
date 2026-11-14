@@ -2337,3 +2337,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-14 00:02,2026-11-14 00:54,hasard,PEACEFROG,boost+profil,stop-loss (-31%),0.87,-34.93,45,37334,4.97,3.4,1.613,0.59,6.35,-4.27,690,1
 2026-11-14 00:19,2026-11-14 00:58,agressive,AURA,profil,stop-loss (-42%),0.65,-46.01,62,26608,4.62,3.1,2.15,0.574,8.04,36.39,284,0
 2026-11-13 23:52,2026-11-14 00:59,actuelle,PEACEFROG,boost+profil,stop-loss (-35%),1.12,-40.02,61,35457,4.77,3.3,1.745,0.583,1.68,10.18,620,1
+2026-11-13 05:30,2026-11-14 01:28,hasard,MEVS,profil,trailing-stop,19.97,88.13,41,57807,10.12,25.2,0.327,0.507,-1.33,4.13,18.5,0
