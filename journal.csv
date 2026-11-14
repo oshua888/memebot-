@@ -5243,3 +5243,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 23:20:22,agressive,VENTE,bill,0.0005827,557.57,palier +100% PnL +275.97$ coût 2.4%
 2026-11-14 23:20:22,hasard,VENTE,bill,0.0005827,722.92,palier +100% PnL +352.93$ coût 2.8%
 2026-11-14 23:30:22,hasard,VENTE,SLIDES,7.028e-05,701.76,stop-loss (-31%) PnL -405.47$ coût 8.0%
+2026-11-14 23:32:22,actuelle,VENTE,bill,0.0004679,656.92,trailing-stop PnL +235.95$ coût 2.8%
+2026-11-14 23:32:22,hasard,VENTE,bill,0.0004679,581.76,trailing-stop PnL +211.76$ coût 2.6%
+2026-11-14 23:35:22,agressive,VENTE,Christmax,0.0001712,513.20,stop-loss (-44%) PnL -440.94$ coût 4.7%
+2026-11-14 23:36:22,agressive,VENTE,bill,0.0004004,770.60,trailing-stop PnL +198.87$ coût 3.3%
