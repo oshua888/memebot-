@@ -5151,3 +5151,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 08:01:08,apprentie,VENTE,Chunkee,0.0005381,21.79,palier +25% PnL +4.26$ coût 1.1%
 2026-11-14 08:11:07,prudente,VENTE,WISHMAS,0.0001761,4.53,trailing-stop PnL +0.49$ coût 1.0%
 2026-11-14 08:11:07,prudente,ACHAT,WISHMAS,0.000177947536,8.10,score 73 coût 1.0%
+2026-11-14 08:28:07,prudente,VENTE,JENSEN,0.0009318,6.13,stop-loss (-24%) PnL -1.97$ coût 1.0%
+2026-11-14 08:28:07,agressive,VENTE,inuhao,8.057e-05,145.39,stop-loss (-86%) PnL -946.39$ coût 2.2%
+2026-11-14 08:28:07,agressive,ACHAT,JENSEN,0.0009658370878,973.92,score 53 coût 3.7%
