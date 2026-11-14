@@ -5129,3 +5129,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 03:37:50,agressive,VENTE,CSI,0.0009053,515.03,stop-loss (-48%) PnL -501.71$ coût 2.5%
 2026-11-14 03:37:50,agressive,ACHAT,JENSEN,0.001278551574,1022.16,score 53 coût 3.4%
 2026-11-14 03:38:53,actuelle,VENTE,WOHAIHAO,0.0004592,660.86,palier +50% PnL +213.70$ coût 3.8%
+2026-11-14 04:06:49,actuelle,VENTE,WOHAIHAO,0.0003401,972.04,trailing-stop PnL +64.17$ coût 5.9%
+2026-11-14 04:07:50,actuelle,ACHAT,SWJ,0.0002821908034,1360.35,score 62 coût 6.6%
