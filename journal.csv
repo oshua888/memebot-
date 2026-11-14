@@ -5227,3 +5227,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 20:37:01,hasard,VENTE,Christmax,0.0002104,845.82,durée max 12h PnL -312.95$ coût 6.6%
 2026-11-14 20:38:03,actuelle,VENTE,Christmax,0.0002066,851.15,stop-loss (-30%) PnL -458.72$ coût 6.7%
 2026-11-14 20:55:02,hasard,VENTE,GTA$,0.0002097,539.72,palier +50% PnL +169.48$ coût 3.5%
+2026-11-14 21:26:01,actuelle,ACHAT,FOOD,0.000438255871,1259.24,score 61 coût 5.1%
