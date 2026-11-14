@@ -5104,3 +5104,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 00:36:47,actuelle,VENTE,plumber,7.96e-05,884.57,stop-loss (-32%) PnL -526.77$ coût 8.3%
 2026-11-14 00:37:48,actuelle,ACHAT,CSI,0.001829782911,1374.91,score 66 coût 3.7%
 2026-11-14 00:37:48,apprentie,ACHAT,CSI,0.001782267195,17.91,score 66 coût 1.0%
+2026-11-14 00:42:49,apprentie,VENTE,CSI,0.001334,13.27,stop-loss (-25%) PnL -4.64$ coût 1.0%
