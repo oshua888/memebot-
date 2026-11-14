@@ -5216,3 +5216,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 18:44:02,apprentie,ACHAT,SHIT,0.0001159749096,17.62,score 57 coût 1.1%
 2026-11-14 19:05:03,apprentie,ACHAT,gtacoin,0.0002449617554,17.60,score 47 coût 1.1%
 2026-11-14 19:21:03,apprentie,VENTE,SHIT,8.666e-05,13.02,stop-loss (-25%) PnL -4.60$ coût 1.1%
+2026-11-14 19:22:03,prudente,VENTE,SHIT,7.886e-05,6.15,stop-loss (-23%) PnL -1.91$ coût 1.0%
+2026-11-14 19:23:03,hasard,VENTE,SHIT,7.419e-05,700.64,stop-loss (-33%) PnL -423.17$ coût 7.0%
+2026-11-14 19:23:03,apprentie,VENTE,gtacoin,0.0001664,11.83,stop-loss (-32%) PnL -5.77$ coût 1.1%
