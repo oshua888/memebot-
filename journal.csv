@@ -5120,3 +5120,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 01:43:47,agressive,VENTE,SHARKBUX,0.0005298,1052.54,durée max 24h PnL +4.91$ coût 4.9%
 2026-11-14 01:45:47,agressive,ACHAT,AMC,0.004696458496,1015.58,score 55 coût 2.3%
 2026-11-14 01:46:47,actuelle,VENTE,CSI,0.001139,829.14,stop-loss (-38%) PnL -545.78$ coût 3.1%
+2026-11-14 02:14:47,apprentie,VENTE,BLACKOUT,0.0001034,12.69,stop-loss (-28%) PnL -5.05$ coût 1.1%
