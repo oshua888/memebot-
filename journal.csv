@@ -5360,3 +5360,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 18:04:55,hasard,VENTE,Busted,7.938e-05,107.66,stop-loss (-89%) PnL -904.50$ coût 2.1%
 2026-11-15 18:10:52,hasard,ACHAT,SWJ,0.0006829817805,990.69,score 46 coût 4.4%
 2026-11-15 18:11:51,agressive,ACHAT,SWJ,0.0007434057058,773.17,score 54 coût 3.6%
+2026-11-15 18:21:57,prudente,ACHAT,SWJ,0.0008144603774,7.90,score 71 coût 1.0%
+2026-11-15 18:21:57,actuelle,ACHAT,SWJ,0.0008438563223,1177.92,score 71 coût 4.7%
