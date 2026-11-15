@@ -5291,3 +5291,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 08:12:43,hasard,ACHAT,CLOCKED,0.0006203197493,1070.92,score 41 coût 4.9%
 2026-11-15 09:09:11,hasard,ACHAT,HOGE,8.795710105e-05,1066.72,score 48 coût 8.8%
 2026-11-15 09:27:10,actuelle,ACHAT,HOGE,0.0001166534326,1237.66,score 63 coût 8.7%
+2026-11-15 09:38:10,actuelle,VENTE,HOGE,7.862e-05,774.35,stop-loss (-33%) PnL -463.31$ coût 7.2%
