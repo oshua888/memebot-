@@ -5276,3 +5276,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 05:16:44,hasard,ACHAT,ニャジラ,0.000322035732,1091.61,score 61 coût 6.4%
 2026-11-15 05:16:44,apprentie,ACHAT,ニャジラ,0.0003060839283,17.24,score 61 coût 1.1%
 2026-11-15 06:01:43,apprentie,VENTE,ニャジラ,0.0002273,12.66,stop-loss (-26%) PnL -4.57$ coût 1.1%
+2026-11-15 06:05:43,prudente,VENTE,bill,0.0008224,5.26,palier +30% PnL +1.24$ coût 1.0%
+2026-11-15 06:06:44,hasard,ACHAT,penny,7.921932397e-05,1086.26,score 24 coût 9.7%
