@@ -5256,3 +5256,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 01:28:23,hasard,ACHAT,DOJE,0.0001995714943,1108.03,score 75 coût 8.6%
 2026-11-15 01:28:23,apprentie,ACHAT,DOJE,0.0001858559155,17.33,score 75 coût 1.1%
 2026-11-15 01:29:23,hasard,VENTE,CJ,0.0002805,1038.51,durée max 12h PnL -104.40$ coût 7.0%
+2026-11-15 01:39:25,actuelle,ACHAT,bill,0.0006839733046,1265.68,score 67 coût 3.9%
+2026-11-15 01:39:25,agressive,ACHAT,bill,0.000677746974,852.88,score 67 coût 3.0%
+2026-11-15 01:39:25,hasard,ACHAT,bill,0.0006815141656,1102.64,score 67 coût 3.5%
