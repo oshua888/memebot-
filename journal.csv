@@ -5336,3 +5336,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 16:49:52,agressive,VENTE,rockstar,0.0002219,538.54,palier +100% PnL +272.90$ coût 3.7%
 2026-11-15 16:49:52,hasard,VENTE,rockstar,0.0002219,683.75,palier +100% PnL +338.50$ coût 4.4%
 2026-11-15 16:52:51,prudente,ACHAT,gtacoin,0.0004157504848,8.02,score 71 coût 1.0%
+2026-11-15 17:04:52,agressive,VENTE,Leonida,0.0004668,653.42,durée max 24h PnL -268.38$ coût 3.5%
+2026-11-15 17:04:52,agressive,ACHAT,JENSEN,0.000138676874,823.76,score 62 coût 7.0%
