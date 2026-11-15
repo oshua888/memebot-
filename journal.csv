@@ -5261,3 +5261,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 01:39:25,hasard,ACHAT,bill,0.0006815141656,1102.64,score 67 coût 3.5%
 2026-11-15 01:49:23,hasard,ACHAT,nilf,0.0001094755976,1112.66,score 18 coût 9.8%
 2026-11-15 01:52:22,prudente,ACHAT,bill,0.0007756077826,8.05,score 81 coût 1.0%
+2026-11-15 01:57:23,hasard,ACHAT,UM,0.0001575197399,1107.74,score 20 coût 9.5%
+2026-11-15 01:57:23,apprentie,ACHAT,UM,0.0001454303178,17.35,score 20 coût 1.1%
+2026-11-15 01:58:23,hasard,VENTE,UM,9.79e-05,635.95,stop-loss (-38%) PnL -471.79$ coût 7.6%
+2026-11-15 01:58:23,apprentie,VENTE,UM,9.79e-05,11.55,stop-loss (-33%) PnL -5.80$ coût 1.1%
