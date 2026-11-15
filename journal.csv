@@ -5367,3 +5367,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 19:27:00,hasard,ACHAT,BEAR,0.0001230121565,985.45,score 23 coût 7.2%
 2026-11-15 19:30:57,hasard,VENTE,GTA,9.716e-05,951.80,durée max 12h PnL -120.98$ coût 8.1%
 2026-11-15 19:33:00,agressive,VENTE,gtacoin,0.0002223,445.28,stop-loss (-42%) PnL -356.41$ coût 3.6%
+2026-11-15 19:35:53,agressive,VENTE,Max,0.0008903,504.03,stop-loss (-40%) PnL -354.89$ coût 1.8%
