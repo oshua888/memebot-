@@ -5249,3 +5249,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 23:36:22,agressive,VENTE,bill,0.0004004,770.60,trailing-stop PnL +198.87$ coût 3.3%
 2026-11-14 23:41:22,agressive,ACHAT,Max,0.00148912646,858.92,score 55 coût 2.1%
 2026-11-15 00:12:22,agressive,VENTE,SLIDES,6.516e-05,490.04,stop-loss (-41%) PnL -392.53$ coût 6.0%
+2026-11-15 00:53:22,hasard,VENTE,GTA$,0.0001289,718.97,stop-loss (-31%) PnL -383.79$ coût 5.3%
