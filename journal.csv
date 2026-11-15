@@ -5269,3 +5269,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 02:13:22,apprentie,VENTE,DOJE,0.0002342,21.59,palier +25% PnL +4.26$ coût 1.1%
 2026-11-15 02:14:22,prudente,VENTE,DOJE,0.0002442,5.23,palier +30% PnL +1.21$ coût 1.0%
 2026-11-15 02:15:22,hasard,VENTE,nilf,7.381e-05,691.48,stop-loss (-33%) PnL -421.17$ coût 7.8%
+2026-11-15 02:18:22,actuelle,ACHAT,USDC,0.0002047801249,1279.73,score 60 coût 6.9%
+2026-11-15 02:18:22,apprentie,ACHAT,BIG,0.001297268253,17.30,score 42 coût 1.0%
+2026-11-15 02:20:23,hasard,ACHAT,HYGG,0.0004215615601,1092.42,score 31 coût 5.9%
+2026-11-15 02:20:23,apprentie,ACHAT,HYGG,0.0004021907752,17.30,score 31 coût 1.1%
