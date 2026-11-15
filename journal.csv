@@ -5317,3 +5317,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 13:07:11,actuelle,ACHAT,rockstar,0.0001083422498,1201.22,score 66 coût 10.1%
 2026-11-15 13:07:11,hasard,ACHAT,rockstar,0.0001070742365,1030.62,score 66 coût 8.8%
 2026-11-15 13:12:14,actuelle,ACHAT,gtacoin,0.0003975012458,1204.25,score 61 coût 6.3%
+2026-11-15 13:14:11,actuelle,VENTE,JENSEN,8.445e-05,763.79,stop-loss (-31%) PnL -442.19$ coût 8.6%
+2026-11-15 13:16:13,hasard,VENTE,JENSEN,8.363e-05,662.73,stop-loss (-31%) PnL -368.91$ coût 7.6%
+2026-11-15 13:16:13,hasard,ACHAT,gtacoin,0.0004041105333,1020.59,score 61 coût 5.4%
