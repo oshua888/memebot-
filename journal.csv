@@ -5324,3 +5324,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 14:04:12,agressive,VENTE,CJ,0.0002898,895.24,durée max 24h PnL -34.97$ coût 5.9%
 2026-11-15 14:04:12,agressive,ACHAT,rockstar,0.0001054176132,804.96,score 65 coût 7.1%
 2026-11-15 14:08:12,actuelle,ACHAT,DOUG,0.0001173013804,1185.30,score 67 coût 9.6%
+2026-11-15 15:49:53,hasard,VENTE,AURA,0.0002832,648.99,stop-loss (-35%) PnL -397.83$ coût 4.3%
+2026-11-15 15:49:53,hasard,ACHAT,DOUG,0.0001432859062,1015.89,score 45 coût 7.6%
+2026-11-15 15:53:52,agressive,VENTE,AURA,0.0002666,469.42,stop-loss (-40%) PnL -343.21$ coût 3.4%
+2026-11-15 15:53:52,agressive,ACHAT,gtacoin,0.0003859544403,801.69,score 67 coût 4.5%
