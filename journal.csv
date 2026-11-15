@@ -5283,3 +5283,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 06:23:43,hasard,VENTE,penny,5.367e-05,677.56,stop-loss (-32%) PnL -408.71$ coût 7.9%
 2026-11-15 06:32:43,hasard,ACHAT,FOOD,0.0003915339904,1077.18,score 32 coût 4.7%
 2026-11-15 06:39:43,agressive,VENTE,ニャジラ,0.0001624,407.75,stop-loss (-49%) PnL -422.83$ coût 3.8%
+2026-11-15 06:50:43,prudente,VENTE,bill,0.0007806,4.99,trailing-stop PnL +0.97$ coût 1.0%
+2026-11-15 06:50:43,prudente,ACHAT,bill,0.000788534507,8.07,score 77 coût 1.0%
