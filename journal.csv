@@ -5329,3 +5329,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 15:53:52,agressive,VENTE,AURA,0.0002666,469.42,stop-loss (-40%) PnL -343.21$ coût 3.4%
 2026-11-15 15:53:52,agressive,ACHAT,gtacoin,0.0003859544403,801.69,score 67 coût 4.5%
 2026-11-15 16:16:51,hasard,VENTE,DOUG,9.824e-05,652.64,stop-loss (-31%) PnL -363.25$ coût 6.3%
+2026-11-15 16:19:50,actuelle,VENTE,rockstar,0.0001634,571.64,palier +50% PnL +175.23$ coût 4.4%
+2026-11-15 16:19:50,hasard,VENTE,rockstar,0.0001634,498.57,palier +50% PnL +158.47$ coût 3.9%
