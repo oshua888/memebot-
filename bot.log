@@ -4648,3 +4648,74 @@ agressive    26824.14$ +2582.4% +26392.29$17477380.76$  121/356     5
 hasard       50570.09$ +4957.0% +49719.71$12411650.74$  232/506     3
 apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 126 — 2026-11-15 17:54:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  7 retenus / 75 ; rejets : liquidité faible ×51, volume faible ×30, trop récent ×26, trop ancien ×19, FDV/liquidité trop élevé ×3, RugCheck: Low Liquidity ×1
+  [prudente] VENTE JENSEN @ 8.584e-05$ — 4.91$ stop-loss (-38%) PnL -3.10$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       797.39$   -20.3%   -201.44$   64.98$  312/241     1
+actuelle     59975.05$ +5897.5% +59340.16$12577090.10$  223/457     2
+agressive    26709.03$ +2570.9% +26392.29$17477380.76$  121/356     5
+hasard       50613.40$ +4961.3% +49719.71$12411650.74$  232/506     3
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 127 — 2026-11-15 17:55:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  7 retenus / 87 ; rejets : liquidité faible ×63, volume faible ×42, trop récent ×38, trop ancien ×19, FDV/liquidité trop élevé ×3, RugCheck: Low Liquidity ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       797.44$   -20.3%   -201.44$   64.98$  312/241     1
+actuelle     59964.54$ +5896.5% +59340.16$12577090.10$  223/457     2
+agressive    26716.81$ +2571.7% +26392.29$17477380.76$  121/356     5
+hasard       50646.79$ +4964.7% +49719.71$12411650.74$  232/506     3
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 128 — 2026-11-15 17:56:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  7 retenus / 87 ; rejets : liquidité faible ×62, volume faible ×43, trop récent ×38, trop ancien ×19, FDV/liquidité trop élevé ×3, RugCheck: top 10 détient 35% ×1, RugCheck: Low Liquidity ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       797.45$   -20.3%   -201.44$   64.98$  312/241     1
+actuelle     59973.09$ +5897.3% +59340.16$12577090.10$  223/457     2
+agressive    26745.84$ +2574.6% +26392.29$17477380.76$  121/356     5
+hasard       50612.54$ +4961.3% +49719.71$12411650.74$  232/506     3
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 129 — 2026-11-15 17:57:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  8 retenus / 88 ; rejets : liquidité faible ×63, volume faible ×43, trop récent ×38, trop ancien ×19, FDV/liquidité trop élevé ×3, RugCheck: Low Liquidity ×1
+  [prudente] ACHAT Busted @ 0.00070768692$ — 7.97$ score 82 coût 1.0%
+  [actuelle] ACHAT Busted @ 0.00073486736$ — 1199.33$ score 82 coût 4.9%
+  [agressive] VENTE JENSEN @ 8.012e-05$ — 449.95$ stop-loss (-42%) PnL -373.81$ coût 5.5%
+  [agressive] ACHAT Busted @ 0.00072580757$ — 802.23$ score 82 coût 3.6%
+  [hasard] ACHAT Busted @ 0.00073059699$ — 1012.16$ score 82 coût 4.3%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       797.24$   -20.3%   -201.44$   65.06$  312/241     2
+actuelle     59856.60$ +5885.7% +59340.16$12577146.19$  223/457     3
+agressive    26685.74$ +2568.6% +26018.47$17477434.71$  121/357     5
+hasard       50525.79$ +4952.6% +49719.71$12411692.44$  232/506     4
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 130 — 2026-11-15 17:58:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  8 retenus / 88 ; rejets : liquidité faible ×64, volume faible ×43, trop récent ×39, trop ancien ×18, FDV/liquidité trop élevé ×3, RugCheck: Low Liquidity ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       797.07$   -20.3%   -201.44$   65.06$  312/241     2
+actuelle     59830.14$ +5883.0% +59340.16$12577146.19$  223/457     3
+agressive    26657.25$ +2565.7% +26018.47$17477434.71$  121/357     5
+hasard       50547.09$ +4954.7% +49719.71$12411692.44$  232/506     4
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)

@@ -5345,3 +5345,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 17:42:56,prudente,ACHAT,JENSEN,0.00013844777,8.01,score 70 coût 1.1%
 2026-11-15 17:50:03,hasard,ACHAT,Nyajira,0.000160170728,1021.71,score 32 coût 8.4%
 2026-11-15 17:50:56,hasard,VENTE,Nyajira,0.000103,612.16,stop-loss (-36%) PnL -409.55$ coût 6.8%
+2026-11-15 17:54:59,prudente,VENTE,JENSEN,8.584e-05,4.91,stop-loss (-38%) PnL -3.10$ coût 1.0%
+2026-11-15 17:58:01,prudente,ACHAT,Busted,0.0007076869245,7.97,score 82 coût 1.0%
+2026-11-15 17:58:01,actuelle,ACHAT,Busted,0.0007348673551,1199.33,score 82 coût 4.9%
+2026-11-15 17:58:01,agressive,VENTE,JENSEN,8.012e-05,449.95,stop-loss (-42%) PnL -373.81$ coût 5.5%
+2026-11-15 17:58:01,agressive,ACHAT,Busted,0.0007258075679,802.23,score 82 coût 3.6%
+2026-11-15 17:58:01,hasard,ACHAT,Busted,0.0007305969901,1012.16,score 82 coût 4.3%
