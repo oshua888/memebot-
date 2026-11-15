@@ -5332,3 +5332,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 16:19:50,actuelle,VENTE,rockstar,0.0001634,571.64,palier +50% PnL +175.23$ coût 4.4%
 2026-11-15 16:19:50,hasard,VENTE,rockstar,0.0001634,498.57,palier +50% PnL +158.47$ coût 3.9%
 2026-11-15 16:37:54,apprentie,VENTE,BIG,0.00144,18.59,durée max 12h PnL +1.31$ coût 1.0%
+2026-11-15 16:49:52,actuelle,VENTE,rockstar,0.0002219,783.31,palier +100% PnL +380.90$ coût 5.0%
+2026-11-15 16:49:52,agressive,VENTE,rockstar,0.0002219,538.54,palier +100% PnL +272.90$ coût 3.7%
+2026-11-15 16:49:52,hasard,VENTE,rockstar,0.0002219,683.75,palier +100% PnL +338.50$ coût 4.4%
+2026-11-15 16:52:51,prudente,ACHAT,gtacoin,0.0004157504848,8.02,score 71 coût 1.0%
