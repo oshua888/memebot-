@@ -5351,3 +5351,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 17:58:01,agressive,VENTE,JENSEN,8.012e-05,449.95,stop-loss (-42%) PnL -373.81$ coût 5.5%
 2026-11-15 17:58:01,agressive,ACHAT,Busted,0.0007258075679,802.23,score 82 coût 3.6%
 2026-11-15 17:58:01,hasard,ACHAT,Busted,0.0007305969901,1012.16,score 82 coût 4.3%
+2026-11-15 18:00:55,prudente,VENTE,gtacoin,0.0003212,6.13,stop-loss (-23%) PnL -1.89$ coût 1.0%
+2026-11-15 18:02:00,hasard,VENTE,gtacoin,0.0002814,678.57,stop-loss (-30%) PnL -342.02$ coût 4.5%
+2026-11-15 18:03:54,actuelle,VENTE,gtacoin,0.0002779,798.12,stop-loss (-30%) PnL -406.13$ coût 5.2%

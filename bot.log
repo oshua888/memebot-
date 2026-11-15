@@ -4719,3 +4719,71 @@ agressive    26657.25$ +2565.7% +26018.47$17477434.71$  121/357     5
 hasard       50547.09$ +4954.7% +49719.71$12411692.44$  232/506     4
 apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 131 — 2026-11-15 17:59:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  8 retenus / 86 ; rejets : liquidité faible ×61, volume faible ×41, trop récent ×35, trop ancien ×18, FDV/liquidité trop élevé ×4, RugCheck: Low Liquidity ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       796.75$   -20.3%   -201.44$   65.06$  312/241     2
+actuelle     59785.98$ +5878.6% +59340.16$12577146.19$  223/457     3
+agressive    26585.79$ +2558.6% +26018.47$17477434.71$  121/357     5
+hasard       50462.48$ +4946.2% +49719.71$12411692.44$  232/506     4
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 132 — 2026-11-15 18:00:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  8 retenus / 86 ; rejets : liquidité faible ×61, volume faible ×42, trop récent ×35, trop ancien ×18, FDV/liquidité trop élevé ×3, RugCheck: Low Liquidity ×1
+  [prudente] VENTE gtacoin @ 0.0003212$ — 6.13$ stop-loss (-23%) PnL -1.89$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       797.08$   -20.3%   -203.33$   65.12$  312/242     1
+actuelle     59829.47$ +5882.9% +59340.16$12577146.19$  223/457     3
+agressive    26579.44$ +2557.9% +26018.47$17477434.71$  121/357     5
+hasard       50530.64$ +4953.1% +49719.71$12411692.44$  232/506     4
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 133 — 2026-11-15 18:01:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  7 retenus / 85 ; rejets : liquidité faible ×60, volume faible ×40, trop récent ×34, trop ancien ×19, FDV/liquidité trop élevé ×4, RugCheck: Low Liquidity ×1
+  [hasard] VENTE gtacoin @ 0.0002814$ — 678.57$ stop-loss (-30%) PnL -342.02$ coût 4.5%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       796.97$   -20.3%   -203.33$   65.12$  312/242     1
+actuelle     59676.98$ +5867.7% +59340.16$12577146.19$  223/457     3
+agressive    26449.13$ +2544.9% +26018.47$17477434.71$  121/357     5
+hasard       50373.72$ +4937.4% +49377.69$12411724.55$  232/507     3
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 134 — 2026-11-15 18:02:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  7 retenus / 88 ; rejets : liquidité faible ×62, volume faible ×44, trop récent ×37, trop ancien ×19, FDV/liquidité trop élevé ×3, RugCheck: Low Liquidity ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       797.75$   -20.2%   -203.33$   65.12$  312/242     1
+actuelle     59832.41$ +5883.2% +59340.16$12577146.19$  223/457     3
+agressive    26497.08$ +2549.7% +26018.47$17477434.71$  121/357     5
+hasard       50449.87$ +4945.0% +49377.69$12411724.55$  232/507     3
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 135 — 2026-11-15 18:03:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  7 retenus / 85 ; rejets : liquidité faible ×61, volume faible ×41, trop récent ×34, trop ancien ×19, FDV/liquidité trop élevé ×3, RugCheck: Low Liquidity ×1
+  [actuelle] VENTE gtacoin @ 0.0002779$ — 798.12$ stop-loss (-30%) PnL -406.13$ coût 5.2%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       798.17$   -20.2%   -203.33$   65.12$  312/242     1
+actuelle     59817.60$ +5881.8% +58934.04$12577189.98$  223/458     2
+agressive    26528.32$ +2552.8% +26018.47$17477434.71$  121/357     5
+hasard       50573.13$ +4957.3% +49377.69$12411724.55$  232/507     3
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
