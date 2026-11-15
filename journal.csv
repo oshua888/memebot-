@@ -5338,3 +5338,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 16:52:51,prudente,ACHAT,gtacoin,0.0004157504848,8.02,score 71 coût 1.0%
 2026-11-15 17:04:52,agressive,VENTE,Leonida,0.0004668,653.42,durée max 24h PnL -268.38$ coût 3.5%
 2026-11-15 17:04:52,agressive,ACHAT,JENSEN,0.000138676874,823.76,score 62 coût 7.0%
+2026-11-15 17:13:51,actuelle,VENTE,rockstar,0.0001997,706.44,trailing-stop PnL +304.03$ coût 4.8%
+2026-11-15 17:13:51,hasard,VENTE,rockstar,0.0001997,616.47,trailing-stop PnL +271.22$ coût 4.3%
