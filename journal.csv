@@ -5299,3 +5299,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 11:09:10,actuelle,ACHAT,GETAJOB,0.0006076798421,1222.90,score 63 coût 5.5%
 2026-11-15 11:09:10,hasard,ACHAT,GETAJOB,0.0006040681418,1051.16,score 63 coût 4.8%
 2026-11-15 11:18:13,hasard,ACHAT,AURA,0.0004373401928,1046.82,score 45 coût 5.1%
+2026-11-15 11:24:10,actuelle,VENTE,GETAJOB,0.0004058,779.47,stop-loss (-33%) PnL -443.43$ coût 4.6%
+2026-11-15 11:24:10,hasard,VENTE,GETAJOB,0.0004058,677.40,stop-loss (-33%) PnL -373.76$ coût 4.1%
+2026-11-15 11:25:10,prudente,VENTE,WANTED,0.0008742,5.19,stop-loss (-35%) PnL -2.85$ coût 1.0%
+2026-11-15 11:25:10,actuelle,VENTE,WANTED,0.0008742,743.50,stop-loss (-39%) PnL -516.92$ coût 3.3%
+2026-11-15 11:25:10,agressive,VENTE,WANTED,0.0008742,478.21,stop-loss (-42%) PnL -366.75$ coût 2.4%
+2026-11-15 11:25:10,hasard,VENTE,WANTED,0.0008742,652.53,stop-loss (-39%) PnL -446.42$ coût 3.0%
+2026-11-15 11:25:10,apprentie,VENTE,WANTED,0.0008742,10.73,stop-loss (-37%) PnL -6.55$ coût 1.0%
