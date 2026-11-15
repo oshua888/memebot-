@@ -5314,3 +5314,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 12:56:11,hasard,ACHAT,BIG,0.001367072583,1029.73,score 42 coût 2.9%
 2026-11-15 12:58:12,actuelle,VENTE,Socks,0.000242,732.71,stop-loss (-36%) PnL -475.24$ coût 5.2%
 2026-11-15 12:58:12,hasard,VENTE,Socks,0.000242,635.11,stop-loss (-36%) PnL -398.04$ coût 4.6%
+2026-11-15 13:07:11,actuelle,ACHAT,rockstar,0.0001083422498,1201.22,score 66 coût 10.1%
+2026-11-15 13:07:11,hasard,ACHAT,rockstar,0.0001070742365,1030.62,score 66 coût 8.8%
