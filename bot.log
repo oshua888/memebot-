@@ -4856,3 +4856,70 @@ agressive    25791.04$ +2479.1% +25302.33$17477436.36$  121/358     4
 hasard       49567.10$ +4856.7% +48473.19$12411726.86$  232/508     2
 apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 141 — 2026-11-15 18:09:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  6 retenus / 85 ; rejets : liquidité faible ×63, volume faible ×41, trop récent ×34, trop ancien ×20, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       789.58$   -21.0%   -210.42$   65.13$  312/243     0
+actuelle     58621.62$ +5762.2% +57861.27$12577192.96$  223/459     1
+agressive    25808.99$ +2480.9% +25302.33$17477436.36$  121/358     4
+hasard       49572.88$ +4857.3% +48473.19$12411726.86$  232/508     2
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 142 — 2026-11-15 18:10:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  7 retenus / 87 ; rejets : liquidité faible ×64, volume faible ×42, trop récent ×35, trop ancien ×20, FDV/liquidité trop élevé ×3
+  [hasard] ACHAT SWJ @ 0.00068298178$ — 990.69$ score 46 coût 4.4%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       789.58$   -21.0%   -210.42$   65.13$  312/243     0
+actuelle     58617.19$ +5761.7% +57861.27$12577192.96$  223/459     1
+agressive    25829.70$ +2483.0% +25302.33$17477436.36$  121/358     4
+hasard       49451.86$ +4845.2% +48473.19$12411768.90$  232/508     3
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 143 — 2026-11-15 18:11:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  7 retenus / 86 ; rejets : liquidité faible ×63, volume faible ×41, trop récent ×34, trop ancien ×20, FDV/liquidité trop élevé ×3
+  [agressive] ACHAT SWJ @ 0.00074340571$ — 773.17$ score 54 coût 3.6%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       789.58$   -21.0%   -210.42$   65.13$  312/243     0
+actuelle     58612.76$ +5761.3% +57861.27$12577192.96$  223/459     1
+agressive    25719.87$ +2472.0% +25302.33$17477462.89$  121/358     5
+hasard       49516.57$ +4851.7% +48473.19$12411768.90$  232/508     3
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 144 — 2026-11-15 18:12:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  86 tokens trouvés, analyse en cours…
+  7 retenus / 86 ; rejets : liquidité faible ×63, volume faible ×41, trop récent ×33, trop ancien ×20, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       789.58$   -21.0%   -210.42$   65.13$  312/243     0
+actuelle     58623.42$ +5762.3% +57861.27$12577192.96$  223/459     1
+agressive    25761.27$ +2476.1% +25302.33$17477462.89$  121/358     5
+hasard       49565.82$ +4856.6% +48473.19$12411768.90$  232/508     3
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 145 — 2026-11-15 18:13:46 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  7 retenus / 84 ; rejets : liquidité faible ×61, volume faible ×39, trop récent ×32, trop ancien ×20, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       789.58$   -21.0%   -210.42$   65.13$  312/243     0
+actuelle     58623.42$ +5762.3% +57861.27$12577192.96$  223/459     1
+agressive    25813.76$ +2481.4% +25302.33$17477462.89$  121/358     5
+hasard       49623.98$ +4862.4% +48473.19$12411768.90$  232/508     3
+apprentie      852.17$   -14.8%   -147.83$  169.39$  216/237     0
+(argent fictif — valeur nette si tout était revendu maintenant)
