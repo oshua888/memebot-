@@ -5343,3 +5343,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 17:38:52,agressive,VENTE,rockstar,0.000176,847.51,trailing-stop PnL +308.18$ coût 5.9%
 2026-11-15 17:38:52,agressive,ACHAT,Socks,0.000166626766,814.86,score 60 coût 6.4%
 2026-11-15 17:42:56,prudente,ACHAT,JENSEN,0.00013844777,8.01,score 70 coût 1.1%
+2026-11-15 17:50:03,hasard,ACHAT,Nyajira,0.000160170728,1021.71,score 32 coût 8.4%
+2026-11-15 17:50:56,hasard,VENTE,Nyajira,0.000103,612.16,stop-loss (-36%) PnL -409.55$ coût 6.8%
