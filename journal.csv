@@ -5276,3 +5276,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 02:23:25,actuelle,VENTE,USDC,0.0001212,716.46,stop-loss (-41%) PnL -563.27$ coût 5.4%
 2026-11-15 02:23:25,hasard,VENTE,USDC,0.0001212,637.08,stop-loss (-39%) PnL -464.92$ coût 4.9%
 2026-11-15 02:29:23,prudente,VENTE,DOJE,0.0002387,5.11,trailing-stop PnL +1.09$ coût 1.0%
+2026-11-15 02:51:23,actuelle,VENTE,DOJE,0.0001367,795.82,stop-loss (-32%) PnL -476.50$ coût 7.7%
+2026-11-15 02:51:23,hasard,VENTE,DOJE,0.0001367,706.38,stop-loss (-32%) PnL -401.65$ coût 6.9%
