@@ -5386,3 +5386,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 21:30:19,actuelle,ACHAT,WISHMAS,0.0002318010285,1175.51,score 61 coût 7.0%
 2026-11-15 21:34:19,prudente,ACHAT,WISHMAS,0.0002192581354,7.88,score 76 coût 1.0%
 2026-11-15 21:36:19,prudente,ACHAT,BUTTHOLE,0.0005228190107,7.87,score 76 coût 1.0%
+2026-11-15 21:58:19,hasard,VENTE,BUTTHOLE,0.0004251,906.21,trailing-stop PnL +257.01$ coût 2.1%
+2026-11-15 21:58:19,hasard,ACHAT,WISHMAS,0.0002512446472,970.28,score 60 coût 5.7%
