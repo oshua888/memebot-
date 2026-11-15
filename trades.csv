@@ -2406,3 +2406,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-14 22:17,2026-11-14 23:32,hasard,bill,profil,trailing-stop,1.25,72.59,66,53897,4.95,2.5,3.765,0.594,14.98,35.43,365,0
 2026-11-14 11:06,2026-11-14 23:35,agressive,Christmax,boost,stop-loss (-44%),12.49,-46.21,64,38973,7.02,36.6,0.095,0.713,0.21,14.82,27.71,1
 2026-11-14 22:17,2026-11-14 23:36,agressive,bill,profil,trailing-stop,1.32,55.65,66,53897,4.95,2.5,3.765,0.594,14.98,35.43,365,0
+2026-11-14 19:54,2026-11-15 00:12,agressive,SLIDES,boost,stop-loss (-41%),4.31,-44.48,50,26577,3.69,6.2,0.415,0.532,17.22,6.14,137,1
