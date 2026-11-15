@@ -5370,3 +5370,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 19:35:53,agressive,VENTE,Max,0.0008903,504.03,stop-loss (-40%) PnL -354.89$ coût 1.8%
 2026-11-15 19:48:09,agressive,ACHAT,Anthropig,0.0006589971194,758.06,score 55 coût 3.7%
 2026-11-15 19:49:57,hasard,VENTE,BEAR,4.059e-06,31.66,stop-loss (-97%) PnL -953.79$ coût 2.6%
+2026-11-15 20:00:53,actuelle,VENTE,DOUG,0.0001806,576.45,palier +50% PnL +185.30$ coût 4.3%
