@@ -5363,3 +5363,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 18:21:57,prudente,ACHAT,SWJ,0.0008144603774,7.90,score 71 coût 1.0%
 2026-11-15 18:21:57,actuelle,ACHAT,SWJ,0.0008438563223,1177.92,score 71 coût 4.7%
 2026-11-15 18:44:56,prudente,VENTE,SWJ,0.0006269,6.02,stop-loss (-23%) PnL -1.88$ coût 1.0%
+2026-11-15 18:59:51,actuelle,VENTE,SWJ,0.0005884,788.39,stop-loss (-30%) PnL -389.52$ coût 4.0%
