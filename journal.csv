@@ -5287,3 +5287,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 06:50:43,prudente,ACHAT,bill,0.000788534507,8.07,score 77 coût 1.0%
 2026-11-15 07:30:46,hasard,ACHAT,GTA,0.000100630216,1072.78,score 40 coût 8.6%
 2026-11-15 07:35:44,prudente,VENTE,bill,0.0006206,6.28,stop-loss (-21%) PnL -1.78$ coût 1.0%
+2026-11-15 07:46:44,agressive,ACHAT,GTA,9.856561849e-05,822.04,score 50 coût 6.8%
