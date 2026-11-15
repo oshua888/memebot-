@@ -5278,3 +5278,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 02:29:23,prudente,VENTE,DOJE,0.0002387,5.11,trailing-stop PnL +1.09$ coût 1.0%
 2026-11-15 02:51:23,actuelle,VENTE,DOJE,0.0001367,795.82,stop-loss (-32%) PnL -476.50$ coût 7.7%
 2026-11-15 02:51:23,hasard,VENTE,DOJE,0.0001367,706.38,stop-loss (-32%) PnL -401.65$ coût 6.9%
+2026-11-15 03:02:24,hasard,ACHAT,worth,0.0001459846623,1074.87,score 51 coût 9.5%
