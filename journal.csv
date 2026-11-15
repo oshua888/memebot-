@@ -5312,3 +5312,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 12:13:11,actuelle,ACHAT,JENSEN,0.000121878606,1205.98,score 62 coût 10.6%
 2026-11-15 12:13:11,hasard,ACHAT,JENSEN,0.0001203495765,1031.64,score 62 coût 9.2%
 2026-11-15 12:56:11,hasard,ACHAT,BIG,0.001367072583,1029.73,score 42 coût 2.9%
+2026-11-15 12:58:12,actuelle,VENTE,Socks,0.000242,732.71,stop-loss (-36%) PnL -475.24$ coût 5.2%
+2026-11-15 12:58:12,hasard,VENTE,Socks,0.000242,635.11,stop-loss (-36%) PnL -398.04$ coût 4.6%
