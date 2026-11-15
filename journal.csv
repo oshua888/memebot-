@@ -5250,33 +5250,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-14 23:41:22,agressive,ACHAT,Max,0.00148912646,858.92,score 55 coût 2.1%
 2026-11-15 00:12:22,agressive,VENTE,SLIDES,6.516e-05,490.04,stop-loss (-41%) PnL -392.53$ coût 6.0%
 2026-11-15 00:53:22,hasard,VENTE,GTA$,0.0001289,718.97,stop-loss (-31%) PnL -383.79$ coût 5.3%
-2026-11-15 01:28:23,prudente,ACHAT,DOJE,0.000185739112,8.04,score 75 coût 1.1%
-2026-11-15 01:28:23,actuelle,ACHAT,DOJE,0.0002016374107,1272.32,score 75 coût 9.7%
-2026-11-15 01:28:23,agressive,ACHAT,DOJE,0.0001964469464,859.56,score 75 coût 6.9%
-2026-11-15 01:28:23,hasard,ACHAT,DOJE,0.0001995714943,1108.03,score 75 coût 8.6%
-2026-11-15 01:28:23,apprentie,ACHAT,DOJE,0.0001858559155,17.33,score 75 coût 1.1%
-2026-11-15 01:29:23,hasard,VENTE,CJ,0.0002805,1038.51,durée max 12h PnL -104.40$ coût 7.0%
-2026-11-15 01:39:25,actuelle,ACHAT,bill,0.0006839733046,1265.68,score 67 coût 3.9%
-2026-11-15 01:39:25,agressive,ACHAT,bill,0.000677746974,852.88,score 67 coût 3.0%
-2026-11-15 01:39:25,hasard,ACHAT,bill,0.0006815141656,1102.64,score 67 coût 3.5%
-2026-11-15 01:49:23,hasard,ACHAT,nilf,0.0001094755976,1112.66,score 18 coût 9.8%
-2026-11-15 01:52:22,prudente,ACHAT,bill,0.0007756077826,8.05,score 81 coût 1.0%
-2026-11-15 01:57:23,hasard,ACHAT,UM,0.0001575197399,1107.74,score 20 coût 9.5%
-2026-11-15 01:57:23,apprentie,ACHAT,UM,0.0001454303178,17.35,score 20 coût 1.1%
-2026-11-15 01:58:23,hasard,VENTE,UM,9.79e-05,635.95,stop-loss (-38%) PnL -471.79$ coût 7.6%
-2026-11-15 01:58:23,apprentie,VENTE,UM,9.79e-05,11.55,stop-loss (-33%) PnL -5.80$ coût 1.1%
-2026-11-15 02:08:24,hasard,ACHAT,USDC,0.0001993792726,1102.00,score 52 coût 6.1%
-2026-11-15 02:13:22,apprentie,VENTE,DOJE,0.0002342,21.59,palier +25% PnL +4.26$ coût 1.1%
-2026-11-15 02:14:22,prudente,VENTE,DOJE,0.0002442,5.23,palier +30% PnL +1.21$ coût 1.0%
-2026-11-15 02:15:22,hasard,VENTE,nilf,7.381e-05,691.48,stop-loss (-33%) PnL -421.17$ coût 7.8%
-2026-11-15 02:18:22,actuelle,ACHAT,USDC,0.0002047801249,1279.73,score 60 coût 6.9%
-2026-11-15 02:18:22,apprentie,ACHAT,BIG,0.001297268253,17.30,score 42 coût 1.0%
-2026-11-15 02:20:23,hasard,ACHAT,HYGG,0.0004215615601,1092.42,score 31 coût 5.9%
-2026-11-15 02:20:23,apprentie,ACHAT,HYGG,0.0004021907752,17.30,score 31 coût 1.1%
-2026-11-15 02:23:25,actuelle,VENTE,USDC,0.0001212,716.46,stop-loss (-41%) PnL -563.27$ coût 5.4%
-2026-11-15 02:23:25,hasard,VENTE,USDC,0.0001212,637.08,stop-loss (-39%) PnL -464.92$ coût 4.9%
-2026-11-15 02:29:23,prudente,VENTE,DOJE,0.0002387,5.11,trailing-stop PnL +1.09$ coût 1.0%
-2026-11-15 02:51:23,actuelle,VENTE,DOJE,0.0001367,795.82,stop-loss (-32%) PnL -476.50$ coût 7.7%
-2026-11-15 02:51:23,hasard,VENTE,DOJE,0.0001367,706.38,stop-loss (-32%) PnL -401.65$ coût 6.9%
-2026-11-15 03:02:24,hasard,ACHAT,worth,0.0001459846623,1074.87,score 51 coût 9.5%
-2026-11-15 03:08:24,actuelle,ACHAT,worth,0.0001479613545,1256.95,score 66 coût 10.9%
+2026-11-15 03:37:44,actuelle,ACHAT,bill,0.0008088939665,1267.20,score 67 coût 3.6%
+2026-11-15 03:37:44,agressive,ACHAT,bill,0.0008023249536,860.90,score 67 coût 2.8%
+2026-11-15 03:37:44,hasard,VENTE,CJ,0.0003002,1110.16,durée max 12h PnL -32.74$ coût 7.1%
+2026-11-15 03:37:44,hasard,ACHAT,worth,0.0002148464557,1109.46,score 48 coût 8.1%
+2026-11-15 03:37:44,apprentie,ACHAT,greg,0.0001735140114,17.33,score 41 coût 1.1%
+2026-11-15 03:38:44,actuelle,ACHAT,worth,0.0002131052569,1271.10,score 62 coût 9.2%
+2026-11-15 03:38:44,agressive,ACHAT,worth,0.0002079402903,859.57,score 62 coût 6.5%
+2026-11-15 03:38:44,hasard,ACHAT,bill,0.0008031159087,1105.93,score 67 coût 3.3%
