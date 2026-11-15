@@ -5258,3 +5258,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 03:38:44,actuelle,ACHAT,worth,0.0002131052569,1271.10,score 62 coût 9.2%
 2026-11-15 03:38:44,agressive,ACHAT,worth,0.0002079402903,859.57,score 62 coût 6.5%
 2026-11-15 03:38:44,hasard,ACHAT,bill,0.0008031159087,1105.93,score 67 coût 3.3%
+2026-11-15 03:46:44,actuelle,VENTE,worth,0.0001459,805.08,stop-loss (-32%) PnL -466.01$ coût 7.5%
+2026-11-15 03:46:44,hasard,VENTE,worth,0.0001459,703.57,stop-loss (-32%) PnL -405.89$ coût 6.6%
