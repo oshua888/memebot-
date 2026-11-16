@@ -5776,3 +5776,73 @@ agressive    23030.49$ +2203.0% +22132.15$17478186.80$  125/369     4
 hasard       45750.71$ +4475.1% +45271.66$12413221.63$  239/523     5
 apprentie      826.12$   -17.4%   -170.89$  170.43$  216/240     1
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 211 — 2026-11-16 21:48:33 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  9 retenus / 94 ; rejets : liquidité faible ×62, trop récent ×43, volume faible ×40, trop ancien ×17, FDV/liquidité trop élevé ×4, RugCheck: Low Liquidity ×1, RugCheck: top 10 détient 37% ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       769.07$   -23.1%   -230.93$   66.36$  312/252     0
+actuelle     52009.76$ +5101.0% +50786.22$12579453.42$  232/477     1
+agressive    22959.71$ +2196.0% +22132.15$17478186.80$  125/369     4
+hasard       45696.35$ +4469.6% +45271.66$12413221.63$  239/523     5
+apprentie      825.81$   -17.4%   -170.89$  170.43$  216/240     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 212 — 2026-11-16 21:49:33 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  92 tokens trouvés, analyse en cours…
+  9 retenus / 92 ; rejets : liquidité faible ×60, trop récent ×41, volume faible ×37, trop ancien ×17, FDV/liquidité trop élevé ×4, RugCheck: Low Liquidity ×1, RugCheck: top 10 détient 37% ×1
+  [hasard] VENTE BANK @ 9.98e-05$ — 586.72$ stop-loss (-33%) PnL -334.62$ coût 5.4%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       769.07$   -23.1%   -230.93$   66.36$  312/252     0
+actuelle     51996.16$ +5099.6% +50786.22$12579453.42$  232/477     1
+agressive    22898.39$ +2189.8% +22132.15$17478186.80$  125/369     4
+hasard       45649.61$ +4465.0% +44937.04$12413255.13$  239/524     4
+apprentie      825.60$   -17.4%   -170.89$  170.43$  216/240     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 213 — 2026-11-16 21:50:33 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  9 retenus / 94 ; rejets : liquidité faible ×63, trop récent ×42, volume faible ×41, trop ancien ×17, FDV/liquidité trop élevé ×4, RugCheck: top 10 détient 37% ×1
+  [agressive] VENTE BANK @ 7.891e-05$ — 356.34$ stop-loss (-47%) PnL -338.67$ coût 4.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       769.07$   -23.1%   -230.93$   66.36$  312/252     0
+actuelle     52029.25$ +5102.9% +50786.22$12579453.42$  232/477     1
+agressive    22843.18$ +2184.3% +21793.48$17478201.56$  125/370     3
+hasard       45659.13$ +4465.9% +44937.04$12413255.13$  239/524     4
+apprentie      825.54$   -17.4%   -170.89$  170.43$  216/240     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 214 — 2026-11-16 21:51:33 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  9 retenus / 94 ; rejets : liquidité faible ×59, trop récent ×42, volume faible ×41, trop ancien ×17, FDV/liquidité trop élevé ×5, RugCheck: Low Liquidity ×1, RugCheck: top 10 détient 37% ×1
+  [apprentie] VENTE Christmax @ 0.0001369$ — 13.44$ durée max 12h PnL -3.60$ coût 1.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       769.07$   -23.1%   -230.93$   66.36$  312/252     0
+actuelle     51982.07$ +5098.2% +50786.22$12579453.42$  232/477     1
+agressive    22805.21$ +2180.5% +21793.48$17478201.56$  125/370     3
+hasard       45628.73$ +4462.9% +44937.04$12413255.13$  239/524     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 215 — 2026-11-16 21:52:33 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  94 tokens trouvés, analyse en cours…
+  9 retenus / 94 ; rejets : liquidité faible ×61, trop récent ×42, volume faible ×40, trop ancien ×17, FDV/liquidité trop élevé ×5, RugCheck: Low Liquidity ×1, RugCheck: top 10 détient 37% ×1
+  [actuelle] VENTE Trader @ 0.0002863$ — 816.57$ trailing-stop PnL +120.07$ coût 5.2%
+  [hasard] VENTE Trader @ 0.0002863$ — 730.89$ trailing-stop PnL +114.36$ coût 4.7%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       769.07$   -23.1%   -230.93$   66.36$  312/252     0
+actuelle     51906.28$ +5090.6% +50906.28$12579497.88$  233/477     0
+agressive    22662.45$ +2166.2% +21793.48$17478201.56$  125/370     3
+hasard       45484.44$ +4448.4% +45051.40$12413291.25$  240/524     3
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
