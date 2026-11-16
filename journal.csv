@@ -5510,3 +5510,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 21:51:42,apprentie,VENTE,Christmax,0.0001369,13.44,durée max 12h PnL -3.60$ coût 1.1%
 2026-11-16 21:52:42,actuelle,VENTE,Trader,0.0002863,816.57,trailing-stop PnL +120.07$ coût 5.2%
 2026-11-16 21:52:42,hasard,VENTE,Trader,0.0002863,730.89,trailing-stop PnL +114.36$ coût 4.7%
+2026-11-16 22:00:42,hasard,VENTE,HOGE,0.0005946,620.40,stop-loss (-32%) PnL -308.97$ coût 2.5%
