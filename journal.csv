@@ -5443,3 +5443,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 06:49:49,hasard,ACHAT,Rocco,0.001181850729,948.73,score 44 coût 2.7%
 2026-11-16 07:35:48,prudente,VENTE,HOGE,0.0003629,6.09,stop-loss (-20%) PnL -1.63$ coût 1.0%
 2026-11-16 07:46:47,agressive,VENTE,GTA,0.0001323,1022.71,durée max 24h PnL +200.66$ coût 7.3%
+2026-11-16 07:55:34,agressive,ACHAT,RESPECT,0.0001184848089,743.04,score 55 coût 6.4%
