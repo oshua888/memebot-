@@ -5436,3 +5436,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 05:58:47,actuelle,ACHAT,Marvin,0.0007381082668,1055.78,score 67 coût 3.7%
 2026-11-16 06:11:47,hasard,VENTE,SWJ,0.0006784,941.30,durée max 12h PnL -49.39$ coût 4.3%
 2026-11-16 06:11:47,hasard,ACHAT,Marvin,0.0007142684411,956.56,score 67 coût 3.4%
+2026-11-16 06:18:47,actuelle,VENTE,Marvin,0.0005164,714.98,stop-loss (-30%) PnL -340.80$ coût 3.2%
