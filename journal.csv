@@ -5419,3 +5419,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 01:51:19,actuelle,VENTE,AI,8.444e-05,610.64,stop-loss (-41%) PnL -506.83$ coût 7.6%
 2026-11-16 01:56:19,prudente,VENTE,HOGE,0.0006224,5.04,palier +30% PnL +1.19$ coût 1.0%
 2026-11-16 01:59:19,prudente,VENTE,HOGE,0.0007931,3.21,palier +60% PnL +1.29$ coût 1.0%
+2026-11-16 02:11:22,actuelle,ACHAT,WIGGLES,0.0001788208062,1104.83,score 62 coût 8.5%
