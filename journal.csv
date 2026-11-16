@@ -5503,3 +5503,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 21:37:41,hasard,ACHAT,rockstar,0.0005914852537,919.53,score 42 coût 3.5%
 2026-11-16 21:38:43,agressive,VENTE,HOGE,0.0006667,665.97,trailing-stop PnL +161.63$ coût 2.5%
 2026-11-16 21:41:42,actuelle,VENTE,rockstar,0.0005109,687.79,stop-loss (-32%) PnL -350.12$ coût 3.1%
+2026-11-16 21:43:41,actuelle,VENTE,Trader,0.0003501,501.71,palier +50% PnL +158.66$ coût 3.3%
+2026-11-16 21:43:41,hasard,VENTE,Trader,0.0003501,448.06,palier +50% PnL +144.40$ coût 3.0%
