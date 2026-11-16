@@ -5434,3 +5434,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 05:29:46,actuelle,ACHAT,GTA,0.0001682987052,1058.16,score 62 coût 6.5%
 2026-11-16 05:38:46,prudente,ACHAT,HOGE,0.0004554021478,7.72,score 76 coût 1.0%
 2026-11-16 05:58:47,actuelle,ACHAT,Marvin,0.0007381082668,1055.78,score 67 coût 3.7%
+2026-11-16 06:11:47,hasard,VENTE,SWJ,0.0006784,941.30,durée max 12h PnL -49.39$ coût 4.3%
+2026-11-16 06:11:47,hasard,ACHAT,Marvin,0.0007142684411,956.56,score 67 coût 3.4%
