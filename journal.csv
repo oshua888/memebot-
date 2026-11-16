@@ -5420,3 +5420,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 01:56:19,prudente,VENTE,HOGE,0.0006224,5.04,palier +30% PnL +1.19$ coût 1.0%
 2026-11-16 01:59:19,prudente,VENTE,HOGE,0.0007931,3.21,palier +60% PnL +1.29$ coût 1.0%
 2026-11-16 02:11:22,actuelle,ACHAT,WIGGLES,0.0001788208062,1104.83,score 62 coût 8.5%
+2026-11-16 02:15:22,prudente,VENTE,HOGE,0.0009038,3.66,trailing-stop PnL +1.73$ coût 1.0%
+2026-11-16 02:17:21,actuelle,VENTE,WIGGLES,0.0002713,531.79,palier +50% PnL +167.19$ coût 3.9%
+2026-11-16 02:17:21,actuelle,ACHAT,BAWSAQ,0.0005660557681,1114.62,score 60 coût 5.2%
