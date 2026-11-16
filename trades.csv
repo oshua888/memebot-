@@ -2500,3 +2500,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-16 08:12,2026-11-16 09:10,prudente,WIGGLES,tendance,stop-loss (-21%),0.97,-21.95,74,43502,6.86,10.0,11.336,0.555,3.35,7.98,62.46,0
 2026-11-15 21:18,2026-11-16 09:18,hasard,Christmax,boost,durée max 12h,12.0,-24.34,34,32034,6.04,70.8,0.091,0.006,3.69,5.9,-0.46,1
 2026-11-16 08:15,2026-11-16 09:20,actuelle,RESPECT,boost+profil,stop-loss (-30%),1.08,-35.01,63,29022,4.01,6.0,0.704,0.621,-6.96,6.46,162,1
+2026-11-16 08:12,2026-11-16 09:26,actuelle,WIGGLES,tendance,stop-loss (-30%),1.23,-33.52,74,43502,6.86,10.0,11.336,0.555,3.35,7.98,62.46,0
