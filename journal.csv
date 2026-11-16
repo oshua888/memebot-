@@ -5458,3 +5458,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 09:51:35,apprentie,ACHAT,Anthropig,0.0008882278322,17.03,score 35 coût 1.0%
 2026-11-16 09:51:35,apprentie,ACHAT,gtacoin,0.0004715654119,17.02,score 63 coût 1.1%
 2026-11-16 10:51:34,actuelle,ACHAT,HOGE,0.0005013581788,1030.73,score 60 coût 3.7%
+2026-11-16 10:56:34,actuelle,VENTE,Anthropig,0.0006846,723.28,stop-loss (-30%) PnL -348.70$ coût 3.5%
+2026-11-16 10:57:34,hasard,VENTE,Anthropig,0.0006606,627.84,stop-loss (-32%) PnL -330.60$ coût 3.2%
+2026-11-16 10:57:34,hasard,ACHAT,WIGGLES,0.0002648620409,947.20,score 67 coût 5.8%
+2026-11-16 10:57:34,apprentie,VENTE,Anthropig,0.0006606,12.53,stop-loss (-26%) PnL -4.50$ coût 1.0%
