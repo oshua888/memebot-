@@ -5516,3 +5516,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 22:30:41,hasard,ACHAT,DSP,0.0009732375648,907.50,score 25 coût 4.0%
 2026-11-16 22:31:42,hasard,ACHAT,BAWSAQ,0.00177655361,905.54,score 63 coût 2.9%
 2026-11-16 22:44:42,agressive,ACHAT,HOGE,0.0006088816161,674.51,score 51 coût 2.5%
+2026-11-16 22:49:41,hasard,VENTE,rockstar,0.0004075,614.19,stop-loss (-31%) PnL -305.34$ coût 3.0%
