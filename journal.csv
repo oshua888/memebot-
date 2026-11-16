@@ -5406,3 +5406,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 00:56:19,hasard,VENTE,BIG,0.001506,1100.79,durée max 12h PnL +71.05$ coût 3.0%
 2026-11-16 00:56:19,hasard,ACHAT,BIG,0.001546519516,977.82,score 17 coût 2.7%
 2026-11-16 01:08:19,prudente,ACHAT,Anthropig,0.001283950893,7.76,score 76 coût 1.0%
+2026-11-16 01:24:22,prudente,VENTE,WISHMAS,0.000175,6.22,stop-loss (-20%) PnL -1.66$ coût 1.0%
+2026-11-16 01:24:22,hasard,VENTE,WISHMAS,0.000175,642.86,stop-loss (-30%) PnL -327.42$ coût 4.9%
+2026-11-16 01:24:22,hasard,ACHAT,BUTTHOLE,0.0005200089207,976.93,score 54 coût 2.0%
