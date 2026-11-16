@@ -5491,3 +5491,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 20:10:42,agressive,VENTE,WIGGLES,0.0001584,413.81,stop-loss (-41%) PnL -319.02$ coût 3.7%
 2026-11-16 20:19:42,agressive,ACHAT,rockstar,0.0006293564903,696.57,score 50 coût 2.8%
 2026-11-16 20:49:41,agressive,ACHAT,GTA,0.0007780137405,698.29,score 50 coût 3.3%
+2026-11-16 20:57:42,actuelle,ACHAT,Trader,0.0002315922894,1039.55,score 64 coût 6.9%
+2026-11-16 20:57:42,agressive,ACHAT,Trader,0.0002274150134,698.30,score 64 coût 4.9%
+2026-11-16 20:57:42,hasard,ACHAT,Trader,0.0002301312374,920.20,score 64 coût 6.2%
