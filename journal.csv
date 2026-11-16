@@ -5413,3 +5413,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 02:47:46,hasard,VENTE,BAWSAQ,0.0002915,415.03,stop-loss (-56%) PnL -556.75$ coût 3.2%
 2026-11-16 02:47:46,hasard,ACHAT,BIG,0.001594479456,963.04,score 34 coût 2.7%
 2026-11-16 02:49:45,actuelle,ACHAT,BAWSAQ,0.0002752533622,1107.29,score 60 coût 7.1%
+2026-11-16 02:51:45,prudente,VENTE,WISHMAS,0.0001754,6.24,stop-loss (-20%) PnL -1.64$ coût 1.0%
+2026-11-16 02:51:45,prudente,VENTE,CYBERDACITY,0.0001992,5.99,stop-loss (-22%) PnL -1.77$ coût 1.0%
+2026-11-16 02:51:45,prudente,ACHAT,Anthropig,0.001219302926,7.75,score 75 coût 1.0%
