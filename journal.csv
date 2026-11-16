@@ -5426,3 +5426,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 03:50:44,hasard,VENTE,Anthropig,0.0009414,826.28,trailing-stop PnL +176.03$ coût 3.4%
 2026-11-16 03:50:44,hasard,ACHAT,Anthropig,0.0009763589749,958.44,score 61 coût 3.7%
 2026-11-16 04:10:44,actuelle,VENTE,WISHMAS,0.0001617,771.83,stop-loss (-30%) PnL -403.67$ coût 5.9%
+2026-11-16 04:35:44,actuelle,VENTE,Neil,0.0001135,694.29,stop-loss (-31%) PnL -382.90$ coût 6.9%
