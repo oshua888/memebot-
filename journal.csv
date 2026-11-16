@@ -5400,3 +5400,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-15 23:58:20,actuelle,VENTE,AURA,0.0001645,733.11,stop-loss (-31%) PnL -401.96$ coût 5.8%
 2026-11-16 00:07:20,prudente,ACHAT,BJB,0.002063733298,7.77,score 81 coût 1.0%
 2026-11-16 00:10:19,actuelle,ACHAT,GTAVI,9.874066972e-05,1129.08,score 66 coût 9.4%
+2026-11-16 00:16:22,hasard,VENTE,Anthropig,0.001083,473.72,palier +50% PnL +153.45$ coût 2.3%
+2026-11-16 00:19:19,actuelle,VENTE,Anthropig,0.00112,576.22,palier +50% PnL +186.37$ coût 2.5%
