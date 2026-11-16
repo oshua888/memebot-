@@ -5481,3 +5481,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 18:46:42,actuelle,ACHAT,SNUT,0.0001399602371,1048.40,score 61 coût 7.5%
 2026-11-16 18:50:42,hasard,VENTE,Rocco,0.001128,881.36,durée max 12h PnL -67.37$ coût 2.7%
 2026-11-16 18:50:42,hasard,ACHAT,BUTTHOLE,0.0005710900669,935.80,score 72 coût 1.9%
+2026-11-16 19:09:42,actuelle,VENTE,HOGE,0.0007797,525.87,trailing-stop PnL +180.58$ coût 2.1%
+2026-11-16 19:09:42,hasard,VENTE,WIGGLES,0.0001845,628.01,stop-loss (-30%) PnL -319.19$ coût 4.8%
