@@ -5445,3 +5445,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 07:46:47,agressive,VENTE,GTA,0.0001323,1022.71,durée max 24h PnL +200.66$ coût 7.3%
 2026-11-16 07:55:34,agressive,ACHAT,RESPECT,0.0001184848089,743.04,score 55 coût 6.4%
 2026-11-16 08:07:34,prudente,VENTE,BJB,0.001923,7.17,durée max 8h PnL -0.60$ coût 1.0%
+2026-11-16 08:12:34,prudente,ACHAT,WIGGLES,0.0003147253818,7.71,score 74 coût 1.0%
+2026-11-16 08:12:34,actuelle,ACHAT,WIGGLES,0.0003296314399,1048.55,score 74 coût 5.8%
+2026-11-16 08:15:35,actuelle,ACHAT,RESPECT,0.0001304922777,1045.15,score 63 coût 8.2%
