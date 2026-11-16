@@ -5444,3 +5444,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 07:35:48,prudente,VENTE,HOGE,0.0003629,6.09,stop-loss (-20%) PnL -1.63$ coût 1.0%
 2026-11-16 07:46:47,agressive,VENTE,GTA,0.0001323,1022.71,durée max 24h PnL +200.66$ coût 7.3%
 2026-11-16 07:55:34,agressive,ACHAT,RESPECT,0.0001184848089,743.04,score 55 coût 6.4%
+2026-11-16 08:07:34,prudente,VENTE,BJB,0.001923,7.17,durée max 8h PnL -0.60$ coût 1.0%
