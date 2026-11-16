@@ -5420,3 +5420,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 03:03:44,actuelle,VENTE,CYBERDACITY,0.0001726,668.18,stop-loss (-36%) PnL -447.16$ coût 5.9%
 2026-11-16 03:14:45,actuelle,VENTE,FiveM,0.0002949,722.69,stop-loss (-32%) PnL -390.74$ coût 5.0%
 2026-11-16 03:16:45,actuelle,ACHAT,Neil,0.0001639246763,1077.19,score 63 coût 8.3%
+2026-11-16 03:50:44,prudente,VENTE,Anthropig,0.0009414,5.92,stop-loss (-23%) PnL -1.83$ coût 1.0%
+2026-11-16 03:50:44,actuelle,VENTE,Anthropig,0.0009414,970.04,trailing-stop PnL +178.51$ coût 3.9%
+2026-11-16 03:50:44,actuelle,ACHAT,Anthropig,0.0009793849283,1071.98,score 61 coût 4.0%
+2026-11-16 03:50:44,hasard,VENTE,Anthropig,0.0009414,826.28,trailing-stop PnL +176.03$ coût 3.4%
+2026-11-16 03:50:44,hasard,ACHAT,Anthropig,0.0009763589749,958.44,score 61 coût 3.7%
