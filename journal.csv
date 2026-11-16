@@ -5512,3 +5512,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 21:52:42,hasard,VENTE,Trader,0.0002863,730.89,trailing-stop PnL +114.36$ coût 4.7%
 2026-11-16 22:00:42,hasard,VENTE,HOGE,0.0005946,620.40,stop-loss (-32%) PnL -308.97$ coût 2.5%
 2026-11-16 22:04:44,agressive,ACHAT,BAWSAQ,0.001700102255,671.88,score 59 coût 2.4%
+2026-11-16 22:30:41,actuelle,ACHAT,BAWSAQ,0.001768021797,1038.13,score 63 coût 3.2%
+2026-11-16 22:30:41,hasard,ACHAT,DSP,0.0009732375648,907.50,score 25 coût 4.0%
+2026-11-16 22:31:42,hasard,ACHAT,BAWSAQ,0.00177655361,905.54,score 63 coût 2.9%
