@@ -5413,3 +5413,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 01:30:19,actuelle,ACHAT,CYBERDACITY,0.0001939249758,1127.78,score 72 coût 8.7%
 2026-11-16 01:37:19,prudente,VENTE,CYBERDACITY,0.0001117,4.76,stop-loss (-38%) PnL -3.00$ coût 1.0%
 2026-11-16 01:37:19,actuelle,VENTE,CYBERDACITY,0.0001117,606.31,stop-loss (-42%) PnL -521.47$ coût 6.7%
+2026-11-16 01:41:19,prudente,VENTE,BJB,0.001489,5.55,stop-loss (-28%) PnL -2.22$ coût 1.0%
+2026-11-16 01:43:20,actuelle,ACHAT,AI,0.0001427878104,1117.47,score 60 coût 9.9%
