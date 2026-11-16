@@ -5484,3 +5484,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 19:09:42,actuelle,VENTE,HOGE,0.0007797,525.87,trailing-stop PnL +180.58$ coût 2.1%
 2026-11-16 19:09:42,hasard,VENTE,WIGGLES,0.0001845,628.01,stop-loss (-30%) PnL -319.19$ coût 4.8%
 2026-11-16 19:16:42,agressive,VENTE,Marvin,0.0002048,425.87,stop-loss (-40%) PnL -306.85$ coût 3.0%
+2026-11-16 19:39:41,actuelle,VENTE,SNUT,9.706e-05,681.89,stop-loss (-31%) PnL -366.51$ coût 6.2%
+2026-11-16 19:41:41,hasard,ACHAT,HOGE,0.0008688789562,929.38,score 46 coût 2.8%
