@@ -5405,3 +5405,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 00:56:19,actuelle,VENTE,GTAVI,6.817e-05,718.71,stop-loss (-31%) PnL -410.37$ coût 7.8%
 2026-11-16 00:56:19,hasard,VENTE,BIG,0.001506,1100.79,durée max 12h PnL +71.05$ coût 3.0%
 2026-11-16 00:56:19,hasard,ACHAT,BIG,0.001546519516,977.82,score 17 coût 2.7%
+2026-11-16 01:08:19,prudente,ACHAT,Anthropig,0.001283950893,7.76,score 76 coût 1.0%
