@@ -2481,3 +2481,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-15 21:34,2026-11-16 02:51,prudente,WISHMAS,boost,stop-loss (-20%),5.29,-20.83,76,38788,5.34,47.8,13.044,0.578,-7.76,59.99,123,1
 2026-11-16 02:30,2026-11-16 02:51,prudente,CYBERDACITY,profil,stop-loss (-22%),0.35,-22.83,71,35548,7.03,3.0,1.682,0.69,-1.73,41.17,614,0
 2026-11-16 02:49,2026-11-16 02:57,actuelle,BAWSAQ,profil,stop-loss (-99%),0.13,-99.43,60,36539,7.01,2.7,2.067,0.688,-54.7,-63.63,186,0
+2026-11-16 02:30,2026-11-16 03:03,actuelle,CYBERDACITY,profil,stop-loss (-36%),0.55,-40.09,71,35548,7.03,3.0,1.682,0.69,-1.73,41.17,614,0
