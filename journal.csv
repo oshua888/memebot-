@@ -5541,3 +5541,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 02:55:24,hasard,VENTE,BAWSAQ,0.0008961,446.58,stop-loss (-50%) PnL -458.96$ coût 2.2%
 2026-11-17 02:55:24,hasard,ACHAT,BAWSAQ,0.0009102776325,878.44,score 64 coût 3.3%
 2026-11-17 02:59:23,actuelle,VENTE,HOGE,0.0006162,663.63,stop-loss (-33%) PnL -359.21$ coût 2.5%
+2026-11-17 03:11:24,prudente,ACHAT,GTA,0.001114251309,7.65,score 75 coût 1.0%
