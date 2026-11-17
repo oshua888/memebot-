@@ -5594,3 +5594,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 13:04:47,prudente,VENTE,LEOSTAR,0.0003458,1.48,stop-loss (-81%) PnL -6.24$ coût 1.0%
 2026-11-17 13:05:47,actuelle,VENTE,bul,0.000245,675.47,stop-loss (-31%) PnL -322.27$ coût 2.6%
 2026-11-17 13:14:47,agressive,ACHAT,GROKIA,0.0003581890236,624.85,score 52 coût 3.8%
+2026-11-17 13:19:48,actuelle,ACHAT,GROKIA,0.0003877892579,988.44,score 60 coût 5.3%
