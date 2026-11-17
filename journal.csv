@@ -5599,3 +5599,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 13:43:49,hasard,VENTE,GROKIA,0.0002602,555.94,stop-loss (-32%) PnL -289.65$ coût 4.0%
 2026-11-17 13:55:48,prudente,ACHAT,HOGE,0.000954981658,7.66,score 70 coût 1.0%
 2026-11-17 14:00:50,actuelle,VENTE,GTA,0.001619,1394.98,durée max 12h PnL +361.27$ coût 4.0%
+2026-11-17 14:01:48,hasard,VENTE,GTA,0.001619,1224.34,durée max 12h PnL +330.30$ coût 3.7%
+2026-11-17 14:02:48,hasard,ACHAT,GTA,0.001520069437,841.78,score 43 coût 2.8%
