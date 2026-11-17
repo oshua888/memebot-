@@ -5565,3 +5565,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 05:45:25,agressive,ACHAT,bul,0.0002187008367,639.31,score 50 coût 2.5%
 2026-11-17 06:21:24,hasard,VENTE,Leonida,0.0002902,800.65,durée max 12h PnL -137.39$ coût 5.0%
 2026-11-17 06:32:24,prudente,ACHAT,LEOSTAR,0.000983945854,7.65,score 73 coût 1.0%
+2026-11-17 06:37:24,hasard,ACHAT,Marvin,0.0001474656937,849.10,score 23 coût 5.8%
+2026-11-17 06:39:25,agressive,VENTE,bul,0.0001301,371.92,stop-loss (-41%) PnL -267.38$ coût 2.2%
+2026-11-17 06:39:25,hasard,VENTE,bul,0.0001301,547.27,stop-loss (-34%) PnL -306.06$ coût 2.8%
