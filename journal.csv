@@ -5589,3 +5589,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 12:50:47,actuelle,ACHAT,bul,0.000352533212,997.73,score 66 coût 2.9%
 2026-11-17 12:53:48,agressive,VENTE,GTA,0.001565,454.31,palier +100% PnL +223.87$ coût 2.0%
 2026-11-17 12:53:48,hasard,ACHAT,GROKIA,0.0003799832162,845.58,score 42 coût 4.7%
+2026-11-17 13:03:47,prudente,VENTE,LEOSTAR,0.00177,3.41,trailing-stop PnL +1.49$ coût 1.0%
+2026-11-17 13:03:47,prudente,ACHAT,LEOSTAR,0.001787973186,7.72,score 87 coût 1.0%
+2026-11-17 13:04:47,prudente,VENTE,LEOSTAR,0.0003458,1.48,stop-loss (-81%) PnL -6.24$ coût 1.0%
+2026-11-17 13:05:47,actuelle,VENTE,bul,0.000245,675.47,stop-loss (-31%) PnL -322.27$ coût 2.6%
