@@ -5530,3 +5530,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 02:08:24,prudente,ACHAT,BAWSAQ,0.001729391081,7.69,score 71 coût 1.0%
 2026-11-17 02:17:24,prudente,VENTE,ETF,0.0002097,6.06,stop-loss (-20%) PnL -1.63$ coût 1.0%
 2026-11-17 02:26:28,prudente,VENTE,BAWSAQ,0.001296,5.70,stop-loss (-25%) PnL -1.98$ coût 1.0%
+2026-11-17 02:44:23,actuelle,ACHAT,HOGE,0.0009259543922,1022.83,score 60 coût 2.9%
