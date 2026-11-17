@@ -5583,3 +5583,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 11:55:47,hasard,ACHAT,PumpMas,0.0001420896124,845.56,score 50 coût 7.6%
 2026-11-17 11:57:47,hasard,VENTE,GTAVI,0.0003169,626.20,trailing-stop PnL +59.89$ coût 3.9%
 2026-11-17 12:07:47,agressive,VENTE,CHAR,0.0001187,345.47,stop-loss (-43%) PnL -285.55$ coût 3.7%
+2026-11-17 12:26:47,hasard,VENTE,ETF,0.0001307,560.64,stop-loss (-33%) PnL -324.44$ coût 5.4%
