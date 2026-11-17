@@ -5571,3 +5571,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 06:43:24,actuelle,VENTE,WANTED,0.0002586,796.63,trailing-stop PnL +133.65$ coût 5.3%
 2026-11-17 06:51:23,hasard,VENTE,Marvin,9.995e-05,547.52,stop-loss (-32%) PnL -301.58$ coût 4.9%
 2026-11-17 07:02:24,agressive,ACHAT,CHAR,0.0002088076381,631.02,score 50 coût 4.7%
+2026-11-17 10:36:48,hasard,VENTE,DSP,0.001021,913.96,durée max 12h PnL +6.45$ coût 4.0%
+2026-11-17 10:36:48,hasard,ACHAT,GTAVI,0.0002753707661,845.23,score 24 coût 5.5%
+2026-11-17 10:37:48,hasard,ACHAT,DSP,0.001058342246,843.23,score 20 coût 3.7%
