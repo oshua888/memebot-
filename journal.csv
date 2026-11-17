@@ -5614,3 +5614,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 15:23:49,agressive,VENTE,BRAVO,0.0002667,433.90,palier +100% PnL +226.32$ coût 3.0%
 2026-11-17 15:28:49,actuelle,ACHAT,BRAVO,0.000261706861,988.10,score 61 coût 5.5%
 2026-11-17 15:28:49,hasard,ACHAT,GEKKO,0.0003447670283,852.80,score 59 coût 5.0%
+2026-11-17 15:31:48,prudente,VENTE,GTA,0.001729,4.97,palier +30% PnL +1.12$ coût 1.0%
