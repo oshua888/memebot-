@@ -5621,3 +5621,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 15:37:49,agressive,ACHAT,GEKKO,0.0003666409446,649.56,score 74 coût 3.9%
 2026-11-17 15:39:50,actuelle,VENTE,BRAVO,0.0001808,650.39,stop-loss (-31%) PnL -337.72$ coût 4.7%
 2026-11-17 15:46:50,prudente,VENTE,GTA,0.001466,4.21,trailing-stop PnL +0.37$ coût 1.0%
+2026-11-17 19:44:07,prudente,VENTE,GEKKO,9.008e-05,2.03,stop-loss (-73%) PnL -5.62$ coût 1.0%
+2026-11-17 19:44:07,actuelle,VENTE,GEKKO,9.008e-05,243.47,stop-loss (-74%) PnL -738.77$ coût 3.2%
+2026-11-17 19:44:07,agressive,VENTE,GTA,0.00111,649.52,trailing-stop PnL +181.66$ coût 2.7%
+2026-11-17 19:44:07,agressive,VENTE,GEKKO,9.008e-05,155.72,stop-loss (-75%) PnL -493.84$ coût 2.4%
+2026-11-17 19:44:07,hasard,VENTE,GEKKO,9.008e-05,216.16,stop-loss (-74%) PnL -636.64$ coût 3.0%
+2026-11-17 19:48:06,prudente,ACHAT,BAWSAQ,0.0006567426318,7.59,score 70 coût 1.0%
+2026-11-17 19:48:06,hasard,ACHAT,BIG,0.001664620368,834.04,score 36 coût 2.5%
