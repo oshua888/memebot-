@@ -5650,3 +5650,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 21:24:05,hasard,ACHAT,REFU,0.0001881044803,816.88,score 43 coût 6.3%
 2026-11-17 21:32:06,hasard,VENTE,REFU,0.0002927,406.44,palier +50% PnL +136.87$ coût 3.1%
 2026-11-17 21:50:05,agressive,VENTE,REFU,0.0003168,383.61,palier +100% PnL +186.94$ coût 2.9%
+2026-11-17 22:06:05,prudente,VENTE,JALU,0.0006525,5.90,stop-loss (-21%) PnL -1.66$ coût 1.0%
+2026-11-17 22:07:05,prudente,VENTE,BAWSAQ,0.0005191,5.93,stop-loss (-21%) PnL -1.65$ coût 1.0%
