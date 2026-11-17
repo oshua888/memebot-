@@ -5561,3 +5561,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 05:25:25,hasard,VENTE,MELNOK,7.792e-05,450.61,stop-loss (-44%) PnL -411.48$ coût 5.9%
 2026-11-17 05:29:26,hasard,ACHAT,bul,0.0001972121502,853.33,score 50 coût 3.1%
 2026-11-17 05:39:25,agressive,VENTE,LEOSTAR,0.0007003,365.26,stop-loss (-42%) PnL -280.12$ coût 2.2%
+2026-11-17 05:45:25,actuelle,VENTE,WANTED,0.0003205,496.40,palier +50% PnL +169.86$ coût 3.4%
+2026-11-17 05:45:25,agressive,ACHAT,bul,0.0002187008367,639.31,score 50 coût 2.5%
