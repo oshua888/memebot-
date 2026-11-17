@@ -5639,3 +5639,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 20:24:07,hasard,VENTE,Rex,7.605e-05,249.00,stop-loss (-69%) PnL -581.98$ coût 3.7%
 2026-11-17 20:35:08,agressive,ACHAT,REFU,0.0001576976584,595.97,score 51 coût 5.3%
 2026-11-17 20:37:09,hasard,VENTE,DSP,0.0006916,533.90,stop-loss (-35%) PnL -309.33$ coût 3.1%
+2026-11-17 20:42:07,prudente,ACHAT,Rex,0.0005013082577,7.58,score 77 coût 1.0%
+2026-11-17 20:43:07,prudente,VENTE,Rex,0.0003712,5.55,stop-loss (-26%) PnL -2.02$ coût 1.0%
