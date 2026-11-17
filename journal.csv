@@ -5545,3 +5545,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 03:15:24,actuelle,ACHAT,DSP,0.001075018065,1008.11,score 60 coût 4.2%
 2026-11-17 03:24:24,agressive,VENTE,rockstar,0.0003719,401.78,stop-loss (-41%) PnL -294.79$ coût 2.4%
 2026-11-17 03:24:24,agressive,ACHAT,DSP,0.001080069052,661.55,score 57 coût 3.1%
+2026-11-17 03:50:24,actuelle,VENTE,BAWSAQ,0.0005983,633.04,stop-loss (-36%) PnL -385.17$ coût 3.0%
+2026-11-17 03:50:24,hasard,VENTE,BAWSAQ,0.0005983,561.30,stop-loss (-34%) PnL -317.14$ coût 2.8%
