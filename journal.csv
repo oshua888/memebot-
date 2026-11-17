@@ -5574,3 +5574,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 10:36:48,hasard,VENTE,DSP,0.001021,913.96,durée max 12h PnL +6.45$ coût 4.0%
 2026-11-17 10:36:48,hasard,ACHAT,GTAVI,0.0002753707661,845.23,score 24 coût 5.5%
 2026-11-17 10:37:48,hasard,ACHAT,DSP,0.001058342246,843.23,score 20 coût 3.7%
+2026-11-17 10:53:47,agressive,VENTE,ETF,0.0001486,370.17,stop-loss (-42%) PnL -296.38$ coût 3.7%
