@@ -5604,3 +5604,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 14:22:50,hasard,ACHAT,GEKKO,0.0001523835001,840.64,score 33 coût 7.2%
 2026-11-17 14:28:52,hasard,ACHAT,BRAVO,0.0001690038336,840.53,score 43 coût 5.9%
 2026-11-17 14:38:51,hasard,VENTE,GEKKO,0.0002661,467.14,palier +50% PnL +189.72$ coût 3.6%
+2026-11-17 14:42:50,hasard,VENTE,GEKKO,0.0003077,547.22,palier +100% PnL +265.60$ coût 3.8%
