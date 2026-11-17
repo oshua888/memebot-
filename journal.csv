@@ -5620,3 +5620,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 15:37:49,agressive,VENTE,BRAVO,0.0001862,606.01,trailing-stop PnL +184.57$ coût 4.4%
 2026-11-17 15:37:49,agressive,ACHAT,GEKKO,0.0003666409446,649.56,score 74 coût 3.9%
 2026-11-17 15:39:50,actuelle,VENTE,BRAVO,0.0001808,650.39,stop-loss (-31%) PnL -337.72$ coût 4.7%
+2026-11-17 15:46:50,prudente,VENTE,GTA,0.001466,4.21,trailing-stop PnL +0.37$ coût 1.0%

@@ -2577,3 +2577,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-17 03:15,2026-11-17 15:15,actuelle,DSP,tendance,durée max 12h,12.01,-16.82,60,63635,6.49,10.2,0.068,0.643,3.67,14.17,6.09,0
 2026-11-17 15:13,2026-11-17 15:37,agressive,BRAVO,profil,trailing-stop,0.4,65.32,58,28936,3.94,2.8,5.078,0.527,-14.47,45.55,160,0
 2026-11-17 15:28,2026-11-17 15:39,actuelle,BRAVO,profil,stop-loss (-31%),0.18,-34.18,61,43654,5.51,3.0,3.542,0.543,-7.67,56.76,449,0
+2026-11-17 11:11,2026-11-17 15:46,prudente,GTA,boost+tendance,trailing-stop,4.58,19.41,76,84522,15.35,17.3,0.755,0.71,3.6,12.9,22.05,1
