@@ -5531,3 +5531,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 02:17:24,prudente,VENTE,ETF,0.0002097,6.06,stop-loss (-20%) PnL -1.63$ coût 1.0%
 2026-11-17 02:26:28,prudente,VENTE,BAWSAQ,0.001296,5.70,stop-loss (-25%) PnL -1.98$ coût 1.0%
 2026-11-17 02:44:23,actuelle,ACHAT,HOGE,0.0009259543922,1022.83,score 60 coût 2.9%
+2026-11-17 02:47:23,actuelle,VENTE,ETF,0.0001938,672.29,stop-loss (-31%) PnL -361.94$ coût 5.4%
+2026-11-17 02:48:23,hasard,VENTE,LEOSTAR,0.0009569,563.26,stop-loss (-35%) PnL -329.50$ coût 2.6%
+2026-11-17 02:48:23,hasard,ACHAT,ETF,0.0001951555091,885.08,score 58 coût 6.6%
