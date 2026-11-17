@@ -2574,3 +2574,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-17 13:14,2026-11-17 14:51,agressive,GROKIA,boost+profil,stop-loss (-42%),1.62,-43.36,52,44270,7.79,2.4,6.345,0.533,-0.5,1.7,943,1
 2026-11-17 14:22,2026-11-17 15:04,hasard,GEKKO,profil,trailing-stop,0.7,91.84,33,26958,5.0,5.1,8.2,0.578,82.66,1977,386,0
 2026-11-17 14:28,2026-11-17 15:05,hasard,BRAVO,profil,stop-loss (-31%),0.62,-34.8,43,34362,4.5,2.0,3.571,0.529,8.27,482,253,0
+2026-11-17 03:15,2026-11-17 15:15,actuelle,DSP,tendance,durée max 12h,12.01,-16.82,60,63635,6.49,10.2,0.068,0.643,3.67,14.17,6.09,0
