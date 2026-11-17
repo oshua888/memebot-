@@ -5547,3 +5547,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 03:24:24,agressive,ACHAT,DSP,0.001080069052,661.55,score 57 coût 3.1%
 2026-11-17 03:50:24,actuelle,VENTE,BAWSAQ,0.0005983,633.04,stop-loss (-36%) PnL -385.17$ coût 3.0%
 2026-11-17 03:50:24,hasard,VENTE,BAWSAQ,0.0005983,561.30,stop-loss (-34%) PnL -317.14$ coût 2.8%
+2026-11-17 04:11:24,hasard,ACHAT,CHAR,0.0004257206427,874.77,score 45 coût 4.6%
+2026-11-17 04:13:24,agressive,VENTE,BAWSAQ,0.0005022,360.52,stop-loss (-45%) PnL -304.41$ coût 2.2%
+2026-11-17 04:13:24,agressive,ACHAT,LEOSTAR,0.00120992445,645.38,score 54 coût 2.6%
