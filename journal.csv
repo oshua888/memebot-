@@ -5578,3 +5578,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 11:04:48,prudente,VENTE,LEOSTAR,0.001294,4.98,palier +30% PnL +1.15$ coût 1.0%
 2026-11-17 11:11:48,prudente,VENTE,GTA,0.001311,8.91,durée max 8h PnL +1.26$ coût 1.0%
 2026-11-17 11:11:48,prudente,ACHAT,GTA,0.001324348604,7.69,score 76 coût 1.0%
+2026-11-17 11:21:48,hasard,VENTE,GTAVI,0.0004268,420.96,palier +50% PnL +142.03$ coût 2.6%
