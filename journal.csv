@@ -5563,3 +5563,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 05:39:25,agressive,VENTE,LEOSTAR,0.0007003,365.26,stop-loss (-42%) PnL -280.12$ coût 2.2%
 2026-11-17 05:45:25,actuelle,VENTE,WANTED,0.0003205,496.40,palier +50% PnL +169.86$ coût 3.4%
 2026-11-17 05:45:25,agressive,ACHAT,bul,0.0002187008367,639.31,score 50 coût 2.5%
+2026-11-17 06:21:24,hasard,VENTE,Leonida,0.0002902,800.65,durée max 12h PnL -137.39$ coût 5.0%
