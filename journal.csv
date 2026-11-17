@@ -5543,3 +5543,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 02:59:23,actuelle,VENTE,HOGE,0.0006162,663.63,stop-loss (-33%) PnL -359.21$ coût 2.5%
 2026-11-17 03:11:24,prudente,ACHAT,GTA,0.001114251309,7.65,score 75 coût 1.0%
 2026-11-17 03:15:24,actuelle,ACHAT,DSP,0.001075018065,1008.11,score 60 coût 4.2%
+2026-11-17 03:24:24,agressive,VENTE,rockstar,0.0003719,401.78,stop-loss (-41%) PnL -294.79$ coût 2.4%
+2026-11-17 03:24:24,agressive,ACHAT,DSP,0.001080069052,661.55,score 57 coût 3.1%

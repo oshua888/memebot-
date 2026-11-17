@@ -2542,3 +2542,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-16 22:04,2026-11-17 02:55,agressive,BAWSAQ,boost+profil,stop-loss (-47%),4.84,-48.32,59,94912,17.41,2.0,1.631,0.681,-0.93,-43.39,1848,1
 2026-11-16 22:31,2026-11-17 02:55,hasard,BAWSAQ,boost,stop-loss (-50%),4.39,-50.68,63,96883,17.75,2.5,0.687,0.688,5.24,5.56,1928,1
 2026-11-17 02:44,2026-11-17 02:59,actuelle,HOGE,boost+tendance,stop-loss (-33%),0.25,-35.12,60,109925,7.82,43.8,1.953,0.519,-0.88,115,25.97,1
+2026-11-16 20:19,2026-11-17 03:24,agressive,rockstar,tendance,stop-loss (-41%),7.08,-42.32,50,75878,7.67,33.3,1.875,0.56,1.29,-33.38,-56.93,0
