@@ -5520,3 +5520,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-16 23:20:41,agressive,VENTE,Trader,0.0001349,397.95,stop-loss (-41%) PnL -300.36$ coût 3.9%
 2026-11-16 23:26:41,hasard,ACHAT,MEOWL,0.0001394859579,900.41,score 30 coût 8.0%
 2026-11-16 23:30:41,hasard,VENTE,MEOWL,9.629e-05,580.73,stop-loss (-31%) PnL -319.68$ coût 6.6%
+2026-11-17 02:00:24,actuelle,ACHAT,GTA,0.001151165765,1033.70,score 61 coût 3.7%
+2026-11-17 02:00:24,agressive,ACHAT,ETF,0.0002576797651,666.54,score 58 coût 4.7%
+2026-11-17 02:00:24,hasard,ACHAT,LEOSTAR,0.001476774811,892.76,score 52 coût 3.1%
+2026-11-17 02:01:24,hasard,ACHAT,GTA,0.001138932454,894.04,score 61 coût 3.4%
+2026-11-17 02:02:24,actuelle,ACHAT,LEOSTAR,0.001311719321,1033.14,score 68 coût 3.5%
+2026-11-17 02:03:24,actuelle,ACHAT,ETF,0.0002820346722,1034.23,score 64 coût 6.5%
