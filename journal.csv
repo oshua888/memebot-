@@ -5585,3 +5585,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 12:07:47,agressive,VENTE,CHAR,0.0001187,345.47,stop-loss (-43%) PnL -285.55$ coût 3.7%
 2026-11-17 12:26:47,hasard,VENTE,ETF,0.0001307,560.64,stop-loss (-33%) PnL -324.44$ coût 5.4%
 2026-11-17 12:39:47,actuelle,ACHAT,PumpMas,0.0001505975351,1000.17,score 60 coût 8.7%
+2026-11-17 12:45:49,prudente,VENTE,LEOSTAR,0.001611,3.10,palier +60% PnL +1.19$ coût 1.0%
