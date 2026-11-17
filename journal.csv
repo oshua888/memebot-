@@ -5656,3 +5656,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 22:45:07,agressive,VENTE,HOGE,0.0005603,605.67,durée max 24h PnL -68.83$ coût 2.4%
 2026-11-17 22:45:07,agressive,ACHAT,Max,0.001066716315,603.60,score 58 coût 1.9%
 2026-11-17 22:55:07,hasard,ACHAT,LUNO,0.0002969480206,822.95,score 43 coût 5.2%
+2026-11-17 23:20:07,hasard,VENTE,LUNO,0.0001792,475.86,stop-loss (-40%) PnL -347.09$ coût 4.2%
+2026-11-17 23:20:07,hasard,ACHAT,REFU,0.0002549982269,815.95,score 36 coût 5.5%
+2026-11-17 23:21:06,agressive,VENTE,WANTED ,5.799e-05,344.21,stop-loss (-41%) PnL -269.75$ coût 4.6%
+2026-11-17 23:21:06,agressive,ACHAT,JALU,0.000758162149,596.74,score 60 coût 2.9%
