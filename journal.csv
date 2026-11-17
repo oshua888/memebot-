@@ -5646,3 +5646,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-17 20:50:12,hasard,ACHAT,JALU,0.0008479256894,813.05,score 78 coût 3.5%
 2026-11-17 21:18:05,hasard,VENTE,REFU,0.0002165,420.26,palier +50% PnL +144.97$ coût 3.6%
 2026-11-17 21:19:05,hasard,ACHAT,Max,0.0009187110107,819.49,score 29 coût 2.3%
+2026-11-17 21:24:05,hasard,VENTE,REFU,0.0001769,681.62,trailing-stop PnL +122.70$ coût 5.7%
+2026-11-17 21:24:05,hasard,ACHAT,REFU,0.0001881044803,816.88,score 43 coût 6.3%
