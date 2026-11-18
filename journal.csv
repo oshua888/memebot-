@@ -5677,3 +5677,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 03:27:06,actuelle,ACHAT,KATIA,0.0008707948403,950.96,score 74 coût 3.8%
 2026-11-18 03:36:07,prudente,VENTE,KATIA,0.0006068,5.34,stop-loss (-28%) PnL -2.19$ coût 1.0%
 2026-11-18 03:36:07,actuelle,VENTE,KATIA,0.0006068,640.76,stop-loss (-30%) PnL -310.21$ coût 3.3%
+2026-11-18 03:44:08,prudente,ACHAT,DCI,0.000703706041,7.51,score 71 coût 1.0%
+2026-11-18 03:44:08,actuelle,VENTE,JALU,0.0005902,640.22,stop-loss (-31%) PnL -314.73$ coût 3.3%
+2026-11-18 03:44:08,actuelle,ACHAT,DCI,0.0007211615893,943.66,score 71 coût 3.5%
+2026-11-18 03:44:08,hasard,VENTE,JALU,0.0005902,549.22,stop-loss (-30%) PnL -263.83$ coût 3.0%
+2026-11-18 03:44:08,hasard,ACHAT,GTAVI,0.002645390727,815.42,score 65 coût 2.4%
