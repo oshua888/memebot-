@@ -3993,3 +3993,69 @@ agressive    19545.16$ +1854.5% +18769.83$17478959.97$  133/386     4
 hasard       40752.66$ +3975.3% +39853.13$12415539.40$  256/549     5
 apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 76 — 2026-11-18 11:52:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  84 tokens trouvés, analyse en cours…
+  9 retenus / 83 ; rejets : liquidité faible ×55, volume faible ×40, trop récent ×32, trop ancien ×16, FDV/liquidité trop élevé ×3, aucune vente ×2, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.07$   -25.4%   -253.93$   68.45$  318/264     0
+actuelle     46462.34$ +4546.2% +45824.93$12581236.51$  241/495     2
+agressive    19579.12$ +1857.9% +18769.83$17478959.97$  133/386     4
+hasard       40844.14$ +3984.4% +39853.13$12415539.40$  256/549     5
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 77 — 2026-11-18 11:53:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  9 retenus / 83 ; rejets : liquidité faible ×54, volume faible ×40, trop récent ×32, trop ancien ×16, aucune vente ×2, FDV/liquidité trop élevé ×2, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.07$   -25.4%   -253.93$   68.45$  318/264     0
+actuelle     46460.50$ +4546.0% +45824.93$12581236.51$  241/495     2
+agressive    19558.60$ +1855.9% +18769.83$17478959.97$  133/386     4
+hasard       40769.31$ +3976.9% +39853.13$12415539.40$  256/549     5
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 78 — 2026-11-18 11:54:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  9 retenus / 83 ; rejets : liquidité faible ×54, volume faible ×39, trop récent ×31, trop ancien ×17, aucune vente ×2, FDV/liquidité trop élevé ×2, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.07$   -25.4%   -253.93$   68.45$  318/264     0
+actuelle     46477.48$ +4547.7% +45824.93$12581236.51$  241/495     2
+agressive    19598.84$ +1859.9% +18769.83$17478959.97$  133/386     4
+hasard       40746.36$ +3974.6% +39853.13$12415539.40$  256/549     5
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 79 — 2026-11-18 11:55:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  82 tokens trouvés, analyse en cours…
+  9 retenus / 80 ; rejets : liquidité faible ×52, volume faible ×37, trop récent ×30, trop ancien ×16, aucune vente ×2, FDV/liquidité trop élevé ×2, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.07$   -25.4%   -253.93$   68.45$  318/264     0
+actuelle     46480.52$ +4548.1% +45824.93$12581236.51$  241/495     2
+agressive    19621.03$ +1862.1% +18769.83$17478959.97$  133/386     4
+hasard       40733.66$ +3973.4% +39853.13$12415539.40$  256/549     5
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 80 — 2026-11-18 11:56:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  9 retenus / 82 ; rejets : liquidité faible ×54, volume faible ×39, trop récent ×33, trop ancien ×16, aucune vente ×2, FDV/liquidité trop élevé ×2, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+  [agressive] VENTE PumpMas @ 9.283e-05$ — 392.48$ durée max 24h PnL -228.48$ coût 4.8%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.07$   -25.4%   -253.93$   68.45$  318/264     0
+actuelle     46465.67$ +4546.6% +45824.93$12581236.51$  241/495     2
+agressive    19621.78$ +1862.2% +18541.35$17478979.93$  133/387     3
+hasard       40722.82$ +3972.3% +39853.13$12415539.40$  256/549     5
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)

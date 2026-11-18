@@ -5714,3 +5714,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 11:43:32,actuelle,VENTE,SHIT,0.001232,488.80,trailing-stop PnL +170.36$ coût 2.2%
 2026-11-18 11:43:32,hasard,VENTE,SHIT,0.001232,737.71,trailing-stop PnL +188.64$ coût 2.8%
 2026-11-18 11:43:32,hasard,ACHAT,BAWSAQ,0.0004525240985,820.58,score 38 coût 3.8%
+2026-11-18 11:56:33,agressive,VENTE,PumpMas,9.283e-05,392.48,durée max 24h PnL -228.48$ coût 4.8%
