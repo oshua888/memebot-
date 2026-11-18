@@ -5785,3 +5785,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 22:25:15,hasard,VENTE,ANT,0.0001415,512.23,stop-loss (-34%) PnL -297.48$ coût 4.2%
 2026-11-18 22:27:15,hasard,VENTE,THUG,0.0001673,431.62,palier +50% PnL +165.39$ coût 3.5%
 2026-11-18 22:29:15,agressive,ACHAT,THUG,0.000159312637,546.28,score 58 coût 4.2%
+2026-11-18 22:41:16,hasard,VENTE,Max,0.001146,669.21,durée max 12h PnL -153.74$ coût 2.0%
+2026-11-18 22:45:16,agressive,VENTE,Max,0.00112,621.75,durée max 24h PnL +18.14$ coût 1.9%
