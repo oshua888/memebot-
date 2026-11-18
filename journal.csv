@@ -5684,3 +5684,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 03:44:08,hasard,ACHAT,GTAVI,0.002645390727,815.42,score 65 coût 2.4%
 2026-11-18 03:51:07,hasard,VENTE,Max,0.001356,793.94,trailing-stop PnL +244.88$ coût 2.0%
 2026-11-18 03:51:07,hasard,ACHAT,Leonida,0.0006822692313,813.64,score 36 coût 3.7%
+2026-11-18 03:54:06,agressive,VENTE,JALU,0.0004532,348.14,stop-loss (-40%) PnL -248.60$ coût 2.4%
+2026-11-18 03:55:07,prudente,VENTE,DCI,0.00055,5.81,stop-loss (-22%) PnL -1.70$ coût 1.0%
+2026-11-18 03:55:07,agressive,ACHAT,DCI,0.0005654832103,599.80,score 70 coût 2.8%
