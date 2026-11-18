@@ -5717,3 +5717,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 11:56:33,agressive,VENTE,PumpMas,9.283e-05,392.48,durée max 24h PnL -228.48$ coût 4.8%
 2026-11-18 12:02:33,agressive,ACHAT,GTA,0.001348448414,588.41,score 51 coût 2.4%
 2026-11-18 12:06:33,actuelle,ACHAT,GTA,0.001273305871,928.88,score 60 coût 3.3%
+2026-11-18 12:09:33,hasard,VENTE,BAWSAQ,0.0003122,547.54,stop-loss (-31%) PnL -273.04$ coût 3.3%
