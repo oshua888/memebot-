@@ -5724,3 +5724,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 12:36:33,hasard,ACHAT,HOGE,0.001963123724,821.42,score 42 coût 2.0%
 2026-11-18 12:40:32,agressive,VENTE,REFU,0.0001061,224.17,stop-loss (-61%) PnL -369.17$ coût 2.9%
 2026-11-18 12:51:32,agressive,ACHAT,Leonida,0.001738357409,583.67,score 56 coût 2.2%
+2026-11-18 12:55:32,actuelle,ACHAT,Leonida,0.001752564311,933.65,score 60 coût 2.9%
