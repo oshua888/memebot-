@@ -5675,3 +5675,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 03:27:06,prudente,ACHAT,KATIA,0.000847374986,7.53,score 74 coût 1.0%
 2026-11-18 03:27:06,actuelle,VENTE,KATIA,0.0008388,711.96,trailing-stop PnL +76.87$ coût 3.2%
 2026-11-18 03:27:06,actuelle,ACHAT,KATIA,0.0008707948403,950.96,score 74 coût 3.8%
+2026-11-18 03:36:07,prudente,VENTE,KATIA,0.0006068,5.34,stop-loss (-28%) PnL -2.19$ coût 1.0%
+2026-11-18 03:36:07,actuelle,VENTE,KATIA,0.0006068,640.76,stop-loss (-30%) PnL -310.21$ coût 3.3%
