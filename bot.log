@@ -4850,3 +4850,76 @@ agressive    19569.39$ +1856.9% +18172.18$17479036.28$  133/388     5
 hasard       40933.26$ +3993.3% +39874.72$12415587.21$  257/550     5
 apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 141 — 2026-11-18 12:57:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  84 tokens trouvés, analyse en cours…
+  9 retenus / 82 ; rejets : liquidité faible ×53, volume faible ×37, trop récent ×37, trop ancien ×15, FDV/liquidité trop élevé ×3, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+  [actuelle] VENTE GTA @ 0.001912$ — 451.55$ palier +50% PnL +145.02$ coût 1.9%
+  [hasard] VENTE HOGE @ 0.001327$ — 545.27$ stop-loss (-32%) PnL -276.16$ coût 1.8%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.80$   -25.3%   -253.93$   68.53$  318/264     1
+actuelle     46793.18$ +4579.3% +45969.95$12581301.05$  242/495     4
+agressive    19618.38$ +1861.8% +18172.18$17479036.28$  133/388     5
+hasard       40986.87$ +3998.7% +39598.57$12415597.19$  257/551     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 142 — 2026-11-18 12:58:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  9 retenus / 84 ; rejets : liquidité faible ×55, volume faible ×39, trop récent ×39, trop ancien ×15, FDV/liquidité trop élevé ×3, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       747.19$   -25.3%   -253.93$   68.53$  318/264     1
+actuelle     46828.09$ +4582.8% +45969.95$12581301.05$  242/495     4
+agressive    19602.11$ +1860.2% +18172.18$17479036.28$  133/388     5
+hasard       41019.79$ +4002.0% +39598.57$12415597.19$  257/551     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 143 — 2026-11-18 12:59:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  9 retenus / 84 ; rejets : liquidité faible ×56, volume faible ×40, trop récent ×39, trop ancien ×15, FDV/liquidité trop élevé ×3, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       747.52$   -25.2%   -253.93$   68.53$  318/264     1
+actuelle     46926.21$ +4592.6% +45969.95$12581301.05$  242/495     4
+agressive    19702.17$ +1870.2% +18172.18$17479036.28$  133/388     5
+hasard       41092.94$ +4009.3% +39598.57$12415597.19$  257/551     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 144 — 2026-11-18 13:00:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  9 retenus / 82 ; rejets : liquidité faible ×54, volume faible ×38, trop récent ×37, trop ancien ×15, FDV/liquidité trop élevé ×3, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+  [prudente] VENTE GTA @ 0.002312$ — 4.95$ palier +30% PnL +1.22$ coût 1.0%
+  [hasard] VENTE GTA @ 0.002312$ — 440.59$ palier +50% PnL +170.41$ coût 1.8%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       748.51$   -25.1%   -252.71$   68.58$  319/264     1
+actuelle     47007.63$ +4600.8% +45969.95$12581301.05$  242/495     4
+agressive    19791.74$ +1879.2% +18172.18$17479036.28$  133/388     5
+hasard       41230.56$ +4023.1% +39768.98$12415605.25$  258/551     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 145 — 2026-11-18 13:01:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  9 retenus / 83 ; rejets : liquidité faible ×55, volume faible ×39, trop récent ×38, trop ancien ×15, FDV/liquidité trop élevé ×3, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+  [prudente] VENTE GTA @ 0.002866$ — 3.07$ palier +60% PnL +1.20$ coût 1.0%
+  [actuelle] VENTE GTA @ 0.002866$ — 685.61$ palier +100% PnL +374.44$ coût 2.1%
+  [agressive] VENTE GTA @ 0.002866$ — 405.87$ palier +100% PnL +211.70$ coût 1.7%
+  [hasard] VENTE GTA @ 0.002866$ — 553.87$ palier +100% PnL +279.60$ coût 1.9%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.70$   -25.0%   -251.51$   68.61$  320/264     1
+actuelle     47272.72$ +4627.3% +46344.39$12581315.84$  243/495     4
+agressive    19955.30$ +1895.5% +18383.88$17479043.11$  134/388     5
+hasard       41446.96$ +4044.7% +40048.58$12415615.95$  259/551     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
