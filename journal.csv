@@ -5667,3 +5667,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 02:19:09,hasard,VENTE,Max,0.00139,402.96,palier +50% PnL +132.52$ coût 1.5%
 2026-11-18 02:19:09,hasard,ACHAT,SHIT,0.0008913156806,819.50,score 58 coût 3.4%
 2026-11-18 02:36:07,actuelle,ACHAT,SHIT,0.0007851028512,950.57,score 64 coût 3.9%
+2026-11-18 03:00:08,agressive,VENTE,DSP,0.0006476,386.52,stop-loss (-40%) PnL -275.02$ coût 2.6%
+2026-11-18 03:00:08,agressive,ACHAT,GTAVI,0.00224745156,603.85,score 51 coût 2.1%

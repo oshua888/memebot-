@@ -2599,3 +2599,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-17 11:55,2026-11-17 23:56,hasard,PumpMas,boost,durée max 12h,12.01,-16.14,50,25455,4.86,62.9,0.085,0.653,5.71,4.47,20.83,1
 2026-11-17 20:35,2026-11-18 00:23,agressive,REFU,boost+profil,trailing-stop,3.8,49.46,51,27900,5.33,3.8,1.235,0.553,0.86,9.08,245,1
 2026-11-17 12:39,2026-11-18 00:40,actuelle,PumpMas,boost,durée max 12h,12.01,-20.75,60,26127,4.98,63.7,0.1,0.667,1.05,11.94,19.54,1
+2026-11-17 03:24,2026-11-18 03:00,agressive,DSP,tendance,stop-loss (-40%),23.6,-41.57,57,64227,6.53,10.4,0.068,0.615,0.68,16.75,10.9,0
