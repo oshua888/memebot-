@@ -5770,3 +5770,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 20:03:17,hasard,ACHAT,QUIT,0.0001494175776,811.70,score 32 coût 6.0%
 2026-11-18 20:07:16,hasard,VENTE,QUIT,0.0001028,530.11,stop-loss (-31%) PnL -281.59$ coût 5.1%
 2026-11-18 20:13:18,agressive,ACHAT,ANT,0.00021239196,558.76,score 52 coût 3.8%
+2026-11-18 20:26:16,hasard,ACHAT,THUG,9.95800353e-05,806.75,score 32 coût 7.1%
+2026-11-18 20:30:17,actuelle,ACHAT,QUIT,0.0001106015699,931.77,score 60 coût 7.8%
+2026-11-18 20:30:17,agressive,ACHAT,QUIT,0.0001078073522,558.53,score 60 coût 5.1%
