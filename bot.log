@@ -6884,3 +6884,75 @@ agressive    20254.75$ +1925.5% +19021.44$17478951.72$  133/385     5
 hasard       41301.15$ +4030.1% +40008.16$12415335.46$  253/546     5
 apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 296 — 2026-11-18 07:13:58 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  97 tokens trouvés, analyse en cours…
+  13 retenus / 95 ; rejets : liquidité faible ×66, volume faible ×47, trop récent ×32, trop ancien ×17, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.35$   -25.1%   -250.65$   68.18$  318/262     0
+actuelle     46857.33$ +4585.7% +46076.80$12581153.37$  239/493     5
+agressive    20253.09$ +1925.3% +19021.44$17478951.72$  133/385     5
+hasard       41305.86$ +4030.6% +40008.16$12415335.46$  253/546     5
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 297 — 2026-11-18 07:14:58 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  97 tokens trouvés, analyse en cours…
+  13 retenus / 91 ; rejets : liquidité faible ×62, volume faible ×43, trop récent ×28, trop ancien ×17, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.35$   -25.1%   -250.65$   68.18$  318/262     0
+actuelle     46755.93$ +4575.6% +46076.80$12581153.37$  239/493     5
+agressive    20180.27$ +1918.0% +19021.44$17478951.72$  133/385     5
+hasard       41190.31$ +4019.0% +40008.16$12415335.46$  253/546     5
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 298 — 2026-11-18 07:15:58 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  [!] geckoterminal trending_pools : HTTP Error 429: Too Many Requests
+  [!] geckoterminal new_pools : HTTP Error 429: Too Many Requests
+  60 tokens trouvés, analyse en cours…
+  10 retenus / 60 ; rejets : liquidité faible ×46, volume faible ×27, trop récent ×13, trop ancien ×6
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.35$   -25.1%   -250.65$   68.18$  318/262     0
+actuelle     46764.98$ +4576.5% +46076.80$12581153.37$  239/493     5
+agressive    20187.41$ +1918.7% +19021.44$17478951.72$  133/385     5
+hasard       41252.67$ +4025.3% +40008.16$12415335.46$  253/546     5
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 299 — 2026-11-18 07:16:58 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  [!] geckoterminal trending_pools : HTTP Error 429: Too Many Requests
+  [!] geckoterminal new_pools : HTTP Error 429: Too Many Requests
+  60 tokens trouvés, analyse en cours…
+  10 retenus / 60 ; rejets : liquidité faible ×46, volume faible ×27, trop récent ×13, trop ancien ×6
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.35$   -25.1%   -250.65$   68.18$  318/262     0
+actuelle     46776.67$ +4577.7% +46076.80$12581153.37$  239/493     5
+agressive    20182.79$ +1918.3% +19021.44$17478951.72$  133/385     5
+hasard       41238.97$ +4023.9% +40008.16$12415335.46$  253/546     5
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 300 — 2026-11-18 07:17:58 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  [!] geckoterminal trending_pools : HTTP Error 429: Too Many Requests
+  [!] geckoterminal new_pools : HTTP Error 429: Too Many Requests
+  60 tokens trouvés, analyse en cours…
+  10 retenus / 60 ; rejets : liquidité faible ×46, volume faible ×27, trop récent ×13, trop ancien ×6
+  [apprentissage] 1258 observations — règle sl25_tp25 — top 25 % : -2.6% vs moyenne -7.4% → en pause : rien de rentable sur les données récentes
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.35$   -25.1%   -250.65$   68.18$  318/262     0
+actuelle     46818.28$ +4581.8% +46076.80$12581153.37$  239/493     5
+agressive    20215.36$ +1921.5% +19021.44$17478951.72$  133/385     5
+hasard       41311.96$ +4031.2% +40008.16$12415335.46$  253/546     5
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
