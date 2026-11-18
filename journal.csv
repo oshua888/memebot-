@@ -5757,3 +5757,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 14:48:35,prudente,ACHAT,HOGE,0.001891898417,7.47,score 72 coût 1.0%
 2026-11-18 14:55:33,prudente,VENTE,HOGE,0.001507,5.89,stop-loss (-20%) PnL -1.58$ coût 1.0%
 2026-11-18 15:13:35,hasard,VENTE,JESTER,0.001037,405.09,palier +50% PnL +134.92$ coût 2.1%
+2026-11-18 15:32:34,actuelle,VENTE,JESTER,0.001317,491.78,palier +50% PnL +184.23$ coût 2.2%
