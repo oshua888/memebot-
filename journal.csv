@@ -5720,3 +5720,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 12:09:33,hasard,VENTE,BAWSAQ,0.0003122,547.54,stop-loss (-31%) PnL -273.04$ coût 3.3%
 2026-11-18 12:16:32,hasard,VENTE,Leonida,0.001453,567.21,palier +100% PnL +294.64$ coût 2.3%
 2026-11-18 12:25:32,agressive,ACHAT,REFU,0.0002726197014,593.34,score 50 coût 4.1%
+2026-11-18 12:28:32,prudente,ACHAT,GTA,0.001724332742,7.46,score 70 coût 1.0%
