@@ -5584,3 +5584,71 @@ agressive    19452.64$ +1845.3% +18461.20$17479065.58$  135/388     5
 hasard       41105.38$ +4010.5% +40174.50$12415643.62$  260/551     4
 apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 196 — 2026-11-18 13:52:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  84 tokens trouvés, analyse en cours…
+  8 retenus / 83 ; rejets : liquidité faible ×54, volume faible ×39, trop récent ×34, trop ancien ×17, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.62$   -25.3%   -252.77$   68.84$  321/265     1
+actuelle     47000.36$ +4600.0% +46528.77$12581350.98$  244/495     4
+agressive    19472.14$ +1847.2% +18461.20$17479065.58$  135/388     5
+hasard       41147.24$ +4014.7% +40174.50$12415643.62$  260/551     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 197 — 2026-11-18 13:53:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  8 retenus / 85 ; rejets : liquidité faible ×56, volume faible ×41, trop récent ×36, trop ancien ×17, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.82$   -25.3%   -252.77$   68.84$  321/265     1
+actuelle     47040.86$ +4604.1% +46528.77$12581350.98$  244/495     4
+agressive    19531.48$ +1853.1% +18461.20$17479065.58$  135/388     5
+hasard       41214.76$ +4021.5% +40174.50$12415643.62$  260/551     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 198 — 2026-11-18 13:54:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  84 tokens trouvés, analyse en cours…
+  8 retenus / 84 ; rejets : liquidité faible ×54, volume faible ×39, trop récent ×33, trop ancien ×17, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.61$   -25.3%   -252.77$   68.84$  321/265     1
+actuelle     47048.54$ +4604.9% +46528.77$12581350.98$  244/495     4
+agressive    19548.82$ +1854.9% +18461.20$17479065.58$  135/388     5
+hasard       41254.00$ +4025.4% +40174.50$12415643.62$  260/551     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 199 — 2026-11-18 13:55:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  9 retenus / 87 ; rejets : liquidité faible ×56, volume faible ×41, trop récent ×35, trop ancien ×17, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+  [actuelle] ACHAT HOGE @ 0.0017666761$ — 939.09$ score 78 coût 2.2%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.44$   -25.4%   -252.77$   68.84$  321/265     1
+actuelle     46914.61$ +4591.5% +46528.77$12581371.01$  244/495     5
+agressive    19492.01$ +1849.2% +18461.20$17479065.58$  135/388     5
+hasard       41173.78$ +4017.4% +40174.50$12415643.62$  260/551     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 200 — 2026-11-18 13:56:24 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  80 tokens trouvés, analyse en cours…
+  9 retenus / 80 ; rejets : liquidité faible ×49, volume faible ×34, trop récent ×28, trop ancien ×17, FDV/liquidité trop élevé ×4, RugCheck: Creator history of rugged tokens ×1, RugCheck: peut créer des tokens ×1, RugCheck: Mint Authority still enabled ×1
+  [hasard] VENTE Leonida @ 0.001286$ — 502.41$ trailing-stop PnL +229.84$ coût 2.2%
+  [hasard] ACHAT Leonida @ 0.0013237949$ — 822.86$ score 62 coût 2.9%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       746.21$   -25.4%   -252.77$   68.84$  321/265     1
+actuelle     46874.18$ +4587.4% +46528.77$12581371.01$  244/495     5
+agressive    19461.86$ +1846.2% +18461.20$17479065.58$  135/388     5
+hasard       41096.35$ +4009.6% +40404.34$12415678.47$  261/551     4
+apprentie      825.50$   -17.4%   -174.50$  170.58$  216/241     0
+(argent fictif — valeur nette si tout était revendu maintenant)

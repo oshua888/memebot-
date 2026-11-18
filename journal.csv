@@ -5743,3 +5743,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 13:06:32,agressive,VENTE,GTA,0.001646,471.56,trailing-stop PnL +77.32$ coût 2.0%
 2026-11-18 13:06:32,agressive,ACHAT,GTA,0.001682719498,586.75,score 92 coût 2.2%
 2026-11-18 13:13:32,prudente,ACHAT,Leonida,0.001473831254,7.47,score 70 coût 1.0%
+2026-11-18 13:55:35,actuelle,ACHAT,HOGE,0.001766676145,939.09,score 78 coût 2.2%
+2026-11-18 13:56:33,hasard,VENTE,Leonida,0.001286,502.41,trailing-stop PnL +229.84$ coût 2.2%
+2026-11-18 13:56:33,hasard,ACHAT,Leonida,0.001323794851,822.86,score 62 coût 2.9%
