@@ -5695,3 +5695,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 06:54:05,agressive,VENTE,DCI,0.001293,444.10,palier +100% PnL +246.17$ coût 1.9%
 2026-11-18 07:04:07,agressive,VENTE,DCI,0.000769,533.62,trailing-stop PnL +131.75$ coût 2.4%
 2026-11-18 07:04:07,agressive,ACHAT,BAWSAQ,0.0006996558502,607.55,score 57 coût 2.6%
+2026-11-18 07:35:07,prudente,ACHAT,GETAJOB,0.0004451422045,7.49,score 79 coût 1.0%
+2026-11-18 07:36:09,prudente,ACHAT,GTAVI,0.002654607813,7.49,score 72 coût 1.0%
