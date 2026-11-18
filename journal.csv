@@ -5796,3 +5796,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 23:27:15,hasard,VENTE,CRIME,6.705e-05,488.25,stop-loss (-37%) PnL -324.93$ coût 4.8%
 2026-11-18 23:42:15,apprentie,VENTE,GTA,0.0002347,6.65,stop-loss (-59%) PnL -9.85$ coût 1.0%
 2026-11-18 23:45:16,apprentie,VENTE,GTAVI,0.0001505,10.47,stop-loss (-36%) PnL -6.04$ coût 1.1%
+2026-11-18 23:48:15,prudente,ACHAT,ANT,0.0002625822013,7.46,score 82 coût 1.0%
