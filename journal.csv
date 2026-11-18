@@ -5664,3 +5664,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 00:23:05,agressive,VENTE,REFU,0.0002089,507.12,trailing-stop PnL +107.82$ coût 4.1%
 2026-11-18 00:27:07,agressive,ACHAT,LUNO,0.0001741792393,592.48,score 55 coût 5.0%
 2026-11-18 00:40:06,actuelle,VENTE,PumpMas,0.0001293,792.63,durée max 12h PnL -207.53$ coût 7.7%
+2026-11-18 02:19:09,hasard,VENTE,Max,0.00139,402.96,palier +50% PnL +132.52$ coût 1.5%
+2026-11-18 02:19:09,hasard,ACHAT,SHIT,0.0008913156806,819.50,score 58 coût 3.4%
