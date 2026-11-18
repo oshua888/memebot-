@@ -5760,3 +5760,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 15:32:34,actuelle,VENTE,JESTER,0.001317,491.78,palier +50% PnL +184.23$ coût 2.2%
 2026-11-18 15:42:35,hasard,ACHAT,Doubloon,0.0001701430544,823.87,score 49 coût 5.7%
 2026-11-18 15:52:34,hasard,VENTE,Leonida,0.0002401,545.93,stop-loss (-31%) PnL -278.01$ coût 3.9%
+2026-11-18 19:21:15,actuelle,VENTE,Max,0.001137,700.71,durée max 12h PnL -236.51$ coût 2.0%
+2026-11-18 19:21:15,actuelle,VENTE,LUNO,0.0001653,648.28,durée max 12h PnL -292.16$ coût 5.6%
+2026-11-18 19:21:15,agressive,VENTE,GTAVI,0.0004817,127.48,stop-loss (-79%) PnL -476.38$ coût 1.5%
+2026-11-18 19:21:15,hasard,VENTE,JESTER,0.001438,569.01,palier +100% PnL +294.75$ coût 2.3%
+2026-11-18 19:21:15,hasard,VENTE,Doubloon,1.688e-05,79.62,stop-loss (-90%) PnL -744.25$ coût 2.6%
