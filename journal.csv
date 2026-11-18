@@ -5787,3 +5787,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 22:29:15,agressive,ACHAT,THUG,0.000159312637,546.28,score 58 coût 4.2%
 2026-11-18 22:41:16,hasard,VENTE,Max,0.001146,669.21,durée max 12h PnL -153.74$ coût 2.0%
 2026-11-18 22:45:16,agressive,VENTE,Max,0.00112,621.75,durée max 24h PnL +18.14$ coût 1.9%
+2026-11-18 22:56:17,agressive,ACHAT,CRIME,0.0001047138388,550.60,score 54 coût 4.4%
+2026-11-18 22:56:17,hasard,ACHAT,CRIME,0.0001063403952,813.17,score 54 coût 6.0%
