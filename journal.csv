@@ -5733,3 +5733,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 13:01:32,actuelle,VENTE,GTA,0.002866,685.61,palier +100% PnL +374.44$ coût 2.1%
 2026-11-18 13:01:32,agressive,VENTE,GTA,0.002866,405.87,palier +100% PnL +211.70$ coût 1.7%
 2026-11-18 13:01:32,hasard,VENTE,GTA,0.002866,553.87,palier +100% PnL +279.60$ coût 1.9%
+2026-11-18 13:02:33,prudente,VENTE,GTA,0.002407,2.58,trailing-stop PnL +0.71$ coût 1.0%
+2026-11-18 13:03:34,prudente,ACHAT,GTA,0.00221320821,7.49,score 78 coût 1.0%
+2026-11-18 13:04:34,actuelle,VENTE,GTA,0.002068,495.55,trailing-stop PnL +184.38$ coût 1.9%
+2026-11-18 13:04:34,actuelle,ACHAT,GTA,0.002125100783,941.87,score 78 coût 2.8%
+2026-11-18 13:04:34,hasard,VENTE,GTA,0.002068,400.20,trailing-stop PnL +125.93$ coût 1.8%
+2026-11-18 13:04:34,hasard,ACHAT,GTA,0.002120613438,825.82,score 78 coût 2.5%
+2026-11-18 13:06:32,prudente,VENTE,GTA,0.001646,5.52,stop-loss (-26%) PnL -1.98$ coût 1.0%
+2026-11-18 13:06:32,agressive,VENTE,GTA,0.001646,471.56,trailing-stop PnL +77.32$ coût 2.0%
+2026-11-18 13:06:32,agressive,ACHAT,GTA,0.001682719498,586.75,score 92 coût 2.2%
