@@ -5703,3 +5703,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 10:41:34,prudente,VENTE,GTAVI,0.002117,5.91,stop-loss (-20%) PnL -1.58$ coût 1.0%
 2026-11-18 10:45:35,hasard,VENTE,SHIT,0.001346,400.53,palier +50% PnL +130.10$ coût 1.9%
 2026-11-18 10:48:34,actuelle,VENTE,SHIT,0.001606,636.09,palier +100% PnL +317.65$ coût 2.3%
+2026-11-18 11:06:32,agressive,VENTE,BAWSAQ,0.0004194,355.94,stop-loss (-40%) PnL -251.61$ coût 2.3%
