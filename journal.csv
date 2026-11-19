@@ -5820,3 +5820,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 02:31:09,apprentie,ACHAT,Leonida,0.001668059016,16.21,score 50 coût 1.0%
 2026-11-19 02:32:09,actuelle,VENTE,GTASZN,0.002151,446.18,palier +50% PnL +143.35$ coût 1.8%
 2026-11-19 02:36:12,prudente,ACHAT,ANT,0.0003756200617,7.50,score 74 coût 1.0%
+2026-11-19 02:40:11,actuelle,VENTE,GTASZN,0.002985,627.54,palier +100% PnL +320.12$ coût 2.0%
+2026-11-19 02:44:12,agressive,VENTE,ANT,0.0003355,571.99,trailing-stop PnL +197.61$ coût 3.3%
+2026-11-19 02:44:12,agressive,ACHAT,ANT,0.000346047512,556.69,score 74 coût 3.1%
