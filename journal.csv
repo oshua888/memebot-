@@ -5984,3 +5984,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 22:10:21,hasard,ACHAT,jingyu,0.000132211638,738.02,score 63 coût 6.8%
 2026-11-19 22:15:21,actuelle,VENTE,AI,8.894e-05,496.24,stop-loss (-40%) PnL -355.83$ coût 2.8%
 2026-11-19 22:15:21,hasard,VENTE,AI,8.894e-05,440.59,stop-loss (-40%) PnL -312.37$ coût 2.6%
+2026-11-19 22:29:21,agressive,VENTE,THUG,0.000146,480.61,durée max 24h PnL -65.67$ coût 4.0%
