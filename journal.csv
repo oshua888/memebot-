@@ -5962,3 +5962,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 19:46:15,agressive,ACHAT,Mandy,0.000134576846,493.83,score 50 coût 4.0%
 2026-11-19 20:12:19,hasard,VENTE,Leonida,0.001461,510.36,stop-loss (-32%) PnL -255.60$ coût 2.1%
 2026-11-19 20:14:21,agressive,VENTE,Mandy,0.0002858,337.86,palier +100% PnL +174.89$ coût 2.4%
+2026-11-19 20:25:20,hasard,ACHAT,DATITTY,0.0001377085084,760.68,score 45 coût 7.1%
+2026-11-19 20:28:20,actuelle,ACHAT,DATITTY,0.0001486682863,864.21,score 60 coût 7.7%
