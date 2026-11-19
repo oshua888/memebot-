@@ -5928,3 +5928,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 14:04:09,hasard,ACHAT,OGTA,0.001030109888,806.08,score 63 coût 3.2%
 2026-11-19 14:06:13,hasard,ACHAT,PIPI,0.0006102603448,805.44,score 36 coût 3.2%
 2026-11-19 14:08:11,actuelle,VENTE,GOODTIME,8.065e-05,581.95,stop-loss (-33%) PnL -353.04$ coût 6.8%
+2026-11-19 14:17:10,agressive,VENTE,ANT,0.0002055,322.00,stop-loss (-41%) PnL -234.69$ coût 2.6%
+2026-11-19 14:17:10,agressive,ACHAT,OGTA,0.001052499299,557.97,score 61 coût 2.5%
