@@ -5958,3 +5958,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 19:10:20,prudente,VENTE,PIPI,0.0002705,5.82,stop-loss (-20%) PnL -1.55$ coût 1.0%
 2026-11-19 19:23:20,agressive,ACHAT,Max,0.0009996239985,498.94,score 50 coût 1.7%
 2026-11-19 19:30:23,actuelle,VENTE,PIPI,0.0002436,586.10,stop-loss (-30%) PnL -283.31$ coût 3.5%
+2026-11-19 19:36:20,agressive,VENTE,PIPI,0.0001994,292.77,stop-loss (-41%) PnL -212.37$ coût 2.4%
