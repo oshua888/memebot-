@@ -5800,3 +5800,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-18 23:56:15,hasard,ACHAT,PumpMas,0.0001429857964,807.92,score 32 coût 7.2%
 2026-11-19 00:13:18,agressive,VENTE,CRIME,5.468e-05,278.04,stop-loss (-48%) PnL -272.57$ coût 3.3%
 2026-11-19 00:27:16,agressive,VENTE,LUNO,0.0002013,649.38,durée max 24h PnL +56.90$ coût 5.2%
+2026-11-19 00:36:16,agressive,ACHAT,HOGE,0.001506711791,549.25,score 55 coût 1.7%
