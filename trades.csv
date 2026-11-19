@@ -2656,3 +2656,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-18 23:21,2026-11-18 23:45,apprentie,GTAVI,boost+tendance,stop-loss (-36%),0.4,-36.6,57,35598,6.5,23.2,1.078,0.605,2,14.56,-70.76,1
 2026-11-18 22:56,2026-11-19 00:13,agressive,CRIME,profil,stop-loss (-48%),1.28,-49.5,54,32382,3.01,2.0,7.274,0.633,4.52,-25.27,119,0
 2026-11-18 00:27,2026-11-19 00:27,agressive,LUNO,boost,durée max 24h,24.0,9.6,55,29694,5.57,3.7,0.651,0.664,3.94,21.11,146,1
+2026-11-18 12:55,2026-11-19 01:25,actuelle,Leonida,boost,durée max 12h,12.49,-7.62,60,97744,17.36,11.6,0.679,0.542,-0.7,59.68,91.45,1

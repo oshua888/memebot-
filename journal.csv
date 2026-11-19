@@ -5801,3 +5801,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 00:13:18,agressive,VENTE,CRIME,5.468e-05,278.04,stop-loss (-48%) PnL -272.57$ coût 3.3%
 2026-11-19 00:27:16,agressive,VENTE,LUNO,0.0002013,649.38,durée max 24h PnL +56.90$ coût 5.2%
 2026-11-19 00:36:16,agressive,ACHAT,HOGE,0.001506711791,549.25,score 55 coût 1.7%
+2026-11-19 01:25:10,actuelle,VENTE,Leonida,0.001666,862.52,durée max 12h PnL -71.13$ coût 2.8%
+2026-11-19 01:25:10,agressive,ACHAT,Mandy,9.35962013e-05,541.67,score 57 coût 5.1%
+2026-11-19 01:26:11,actuelle,VENTE,JESTER,0.001613,610.54,palier +100% PnL +298.32$ coût 2.3%
