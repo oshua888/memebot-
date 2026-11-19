@@ -2734,3 +2734,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-19 19:09,2026-11-19 21:39,actuelle,CATMARIO,tendance,stop-loss (-58%),2.5,-58.97,64,58351,5.9,2.6,2.842,0.567,12.61,5.37,623,0
 2026-11-19 19:09,2026-11-19 21:39,agressive,CATMARIO,tendance,stop-loss (-57%),2.5,-58.13,64,58351,5.9,2.6,2.842,0.567,12.61,5.37,623,0
 2026-11-19 19:04,2026-11-19 21:39,hasard,CATMARIO,tendance,stop-loss (-53%),2.58,-54.13,48,55088,5.6,2.6,3.15,0.555,-9.06,-18.08,548,0
+2026-11-19 20:32,2026-11-19 21:52,prudente,OGTA,boost+profil,stop-loss (-26%),1.33,-26.87,79,80822,14.59,2.0,4.359,0.803,-3.07,42.29,1202,1
