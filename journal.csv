@@ -5880,3 +5880,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 10:49:12,hasard,VENTE,GTA,1.668e-06,1.27,stop-loss (-100%) PnL -818.18$ coût 1.1%
 2026-11-19 10:49:12,hasard,ACHAT,FNDR,0.0001986147884,800.73,score 34 coût 5.6%
 2026-11-19 10:49:12,apprentie,VENTE,GTA,1.668e-06,0.03,stop-loss (-100%) PnL -16.21$ coût 1.0%
+2026-11-19 10:56:11,hasard,VENTE,Mandy,0.0002559,528.30,palier +100% PnL +256.26$ coût 3.4%
+2026-11-19 10:57:08,actuelle,VENTE,Mandy,0.000258,598.56,palier +100% PnL +289.80$ coût 3.7%
