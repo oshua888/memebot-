@@ -5994,3 +5994,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 23:03:21,actuelle,ACHAT,FIONA,0.001587361285,828.82,score 64 coût 2.5%
 2026-11-19 23:03:21,agressive,ACHAT,FIONA,0.00157740467,483.27,score 64 coût 1.9%
 2026-11-19 23:17:21,hasard,VENTE,FIONA,0.001122,490.38,stop-loss (-30%) PnL -229.69$ coût 2.1%
+2026-11-19 23:20:21,hasard,VENTE,OGTA,0.001831,367.26,palier +50% PnL +118.67$ coût 1.7%
+2026-11-19 23:21:21,actuelle,VENTE,FIONA,0.001104,563.28,stop-loss (-30%) PnL -265.54$ coût 2.3%
