@@ -5824,3 +5824,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 02:44:12,agressive,VENTE,ANT,0.0003355,571.99,trailing-stop PnL +197.61$ coût 3.3%
 2026-11-19 02:44:12,agressive,ACHAT,ANT,0.000346047512,556.69,score 74 coût 3.1%
 2026-11-19 02:53:15,prudente,VENTE,ANT,0.0002985,5.90,stop-loss (-21%) PnL -1.60$ coût 1.0%
+2026-11-19 03:02:10,actuelle,VENTE,GTASZN,0.00298,626.56,trailing-stop PnL +319.14$ coût 2.0%
+2026-11-19 03:02:10,actuelle,ACHAT,GTASZN,0.003051796523,939.56,score 64 coût 2.4%
