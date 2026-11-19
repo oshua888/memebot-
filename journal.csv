@@ -5921,3 +5921,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 13:06:09,prudente,VENTE,GOODTIME,9.71e-05,6.36,durée max 8h PnL -1.08$ coût 1.1%
 2026-11-19 13:20:09,actuelle,ACHAT,Mandy,0.0003222720477,907.00,score 61 coût 4.6%
 2026-11-19 13:38:09,prudente,VENTE,ANTS,0.009697,5.80,stop-loss (-21%) PnL -1.61$ coût 1.0%
+2026-11-19 13:50:08,actuelle,VENTE,ANTS,0.007677,570.96,stop-loss (-36%) PnL -340.29$ coût 1.5%
+2026-11-19 13:50:08,hasard,VENTE,ANTS,0.007677,480.43,stop-loss (-39%) PnL -312.77$ coût 1.4%
