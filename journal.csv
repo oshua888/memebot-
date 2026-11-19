@@ -5836,3 +5836,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 03:38:13,apprentie,ACHAT,Founder,0.0002928001454,16.23,score 22 coût 1.1%
 2026-11-19 04:04:11,prudente,ACHAT,DCTC,0.000157019277,7.46,score 70 coût 1.0%
 2026-11-19 04:11:12,prudente,VENTE,DCTC,0.0001216,5.72,stop-loss (-23%) PnL -1.74$ coût 1.0%
+2026-11-19 04:26:11,apprentie,VENTE,NASDUCK,0.0001481,11.70,stop-loss (-27%) PnL -4.58$ coût 1.1%
+2026-11-19 04:26:11,apprentie,ACHAT,GTASZN,0.00106900653,16.13,score 58 coût 1.0%
+2026-11-19 04:29:11,apprentie,VENTE,Leonida,0.002121,20.40,palier +25% PnL +4.19$ coût 1.0%
