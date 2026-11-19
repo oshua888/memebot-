@@ -5809,3 +5809,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 01:34:09,hasard,ACHAT,Mandy,0.0001273092317,812.05,score 70 coût 6.3%
 2026-11-19 01:43:10,hasard,VENTE,Leonida,0.00205,413.04,palier +50% PnL +141.49$ coût 1.8%
 2026-11-19 01:44:10,actuelle,ACHAT,GTASZN,0.00143347824,917.66,score 65 coût 3.1%
+2026-11-19 01:47:12,prudente,VENTE,Mandy,9.661e-05,5.89,stop-loss (-20%) PnL -1.57$ coût 1.0%
