@@ -5931,3 +5931,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 14:17:10,agressive,VENTE,ANT,0.0002055,322.00,stop-loss (-41%) PnL -234.69$ coût 2.6%
 2026-11-19 14:17:10,agressive,ACHAT,OGTA,0.001052499299,557.97,score 61 coût 2.5%
 2026-11-19 14:20:13,prudente,ACHAT,Leonida,0.002868718472,7.39,score 70 coût 1.0%
+2026-11-19 14:34:12,agressive,VENTE,Mandy,0.0002547,478.29,trailing-stop PnL +296.84$ coût 3.1%
+2026-11-19 14:34:12,agressive,ACHAT,GTASZN,0.0008976476908,551.66,score 66 coût 2.5%
+2026-11-19 14:37:12,agressive,VENTE,ANTS,0.007375,330.35,stop-loss (-40%) PnL -228.02$ coût 1.3%
+2026-11-19 14:37:12,agressive,ACHAT,Apocrycoin,0.0003834092846,552.79,score 62 coût 2.7%
