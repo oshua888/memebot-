@@ -5815,3 +5815,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 01:55:10,agressive,VENTE,ANT,0.0004496,381.38,palier +100% PnL +196.99$ coût 2.3%
 2026-11-19 01:59:10,prudente,VENTE,ANT,0.0003926,2.76,trailing-stop PnL +0.90$ coût 1.0%
 2026-11-19 01:59:10,prudente,ACHAT,ANT,0.0003966301405,7.48,score 70 coût 1.0%
+2026-11-19 02:24:11,prudente,VENTE,ANT,0.0005318,4.97,palier +30% PnL +1.22$ coût 1.0%
