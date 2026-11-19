@@ -5918,3 +5918,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 12:56:10,hasard,VENTE,Leonida,0.002198,410.82,palier +50% PnL +138.83$ coût 1.7%
 2026-11-19 12:58:08,hasard,ACHAT,HOGE,0.001178557383,803.98,score 31 coût 2.2%
 2026-11-19 13:01:08,hasard,ACHAT,Mandy,0.0002851107056,803.83,score 54 coût 4.4%
+2026-11-19 13:06:09,prudente,VENTE,GOODTIME,9.71e-05,6.36,durée max 8h PnL -1.08$ coût 1.1%
