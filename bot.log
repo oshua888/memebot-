@@ -4276,3 +4276,70 @@ agressive    16398.88$ +1539.9% +15735.93$17479546.73$  142/401     5
 hasard       37949.97$ +3695.0% +37409.54$12417179.06$  281/570     3
 apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 96 — 2026-11-19 20:10:11 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  8 retenus / 89 ; rejets : liquidité faible ×62, trop récent ×39, volume faible ×39, trop ancien ×20, FDV/liquidité trop élevé ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       735.12$   -26.5%   -264.88$   71.08$  329/277     0
+actuelle     43056.09$ +4205.6% +42186.81$12582933.19$  255/515     1
+agressive    16416.34$ +1541.6% +15735.93$17479546.73$  142/401     5
+hasard       37983.81$ +3698.4% +37409.54$12417179.06$  281/570     3
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 97 — 2026-11-19 20:11:11 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  8 retenus / 89 ; rejets : liquidité faible ×61, trop récent ×39, volume faible ×39, trop ancien ×20, FDV/liquidité trop élevé ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       735.12$   -26.5%   -264.88$   71.08$  329/277     0
+actuelle     43052.69$ +4205.3% +42186.81$12582933.19$  255/515     1
+agressive    16407.11$ +1540.7% +15735.93$17479546.73$  142/401     5
+hasard       37955.75$ +3695.6% +37409.54$12417179.06$  281/570     3
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 98 — 2026-11-19 20:12:11 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  8 retenus / 88 ; rejets : liquidité faible ×60, trop récent ×38, volume faible ×38, trop ancien ×20, FDV/liquidité trop élevé ×2
+  [hasard] VENTE Leonida @ 0.001461$ — 510.36$ stop-loss (-32%) PnL -255.60$ coût 2.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       735.12$   -26.5%   -264.88$   71.08$  329/277     0
+actuelle     43017.49$ +4201.7% +42186.81$12582933.19$  255/515     1
+agressive    16389.30$ +1538.9% +15735.93$17479546.73$  142/401     5
+hasard       37915.01$ +3691.5% +37153.95$12417190.08$  281/571     2
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 99 — 2026-11-19 20:13:11 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  8 retenus / 88 ; rejets : liquidité faible ×60, trop récent ×38, volume faible ×38, trop ancien ×20, FDV/liquidité trop élevé ×2
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       735.12$   -26.5%   -264.88$   71.08$  329/277     0
+actuelle     42984.08$ +4198.4% +42186.81$12582933.19$  255/515     1
+agressive    16797.33$ +1579.7% +15735.93$17479546.73$  142/401     5
+hasard       37881.98$ +3688.2% +37153.95$12417190.08$  281/571     2
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 100 — 2026-11-19 20:14:11 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  8 retenus / 88 ; rejets : liquidité faible ×62, trop récent ×38, volume faible ×38, trop ancien ×20, FDV/liquidité trop élevé ×2
+  [agressive] VENTE Mandy @ 0.0002858$ — 337.86$ palier +100% PnL +174.89$ coût 2.4%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       735.12$   -26.5%   -264.88$   71.08$  329/277     0
+actuelle     43028.40$ +4202.8% +42186.81$12582933.19$  255/515     1
+agressive    16920.58$ +1592.1% +15910.83$17479554.96$  143/401     5
+hasard       37908.12$ +3690.8% +37153.95$12417190.08$  281/571     2
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
