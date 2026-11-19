@@ -5876,3 +5876,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 10:31:11,actuelle,ACHAT,Apocrycoin,0.0005718018419,920.60,score 71 coût 3.4%
 2026-11-19 10:31:11,hasard,VENTE,JESTER,0.002153,849.63,trailing-stop PnL +575.36$ coût 2.6%
 2026-11-19 10:31:11,hasard,ACHAT,GTASZN,0.0009725161534,816.55,score 40 coût 3.1%
+2026-11-19 10:46:09,prudente,VENTE,Apocrycoin,0.000431,5.76,stop-loss (-22%) PnL -1.67$ coût 1.0%

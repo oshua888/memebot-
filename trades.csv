@@ -2684,3 +2684,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-19 05:17,2026-11-19 10:25,apprentie,THUG,boost,stop-loss (-19%),5.13,-19.85,18,35964,4.6,329.8,0.007,0.5,0,1.84,-0.39,1
 2026-11-18 14:29,2026-11-19 10:31,actuelle,JESTER,profil,trailing-stop,20.03,105.56,60,64244,11.9,23.8,1.183,0.367,1.21,39.48,137,0
 2026-11-18 14:14,2026-11-19 10:31,hasard,JESTER,profil,trailing-stop,20.28,122.76,59,58746,10.95,23.6,1.185,0.367,4.37,29.13,97.1,0
+2026-11-19 09:38,2026-11-19 10:46,prudente,Apocrycoin,tendance,stop-loss (-22%),1.13,-22.5,71,76228,6.8,18.1,2.71,0.348,-18.19,49.4,457,0
