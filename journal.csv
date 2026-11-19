@@ -5889,3 +5889,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 11:08:07,prudente,ACHAT,FNDR,0.0002740053711,7.40,score 74 coût 1.0%
 2026-11-19 11:13:08,agressive,VENTE,Mandy,0.0002822,529.04,palier +200% PnL +347.58$ coût 3.3%
 2026-11-19 11:15:08,actuelle,VENTE,Apocrycoin,0.0003832,598.60,stop-loss (-33%) PnL -322.00$ coût 3.0%
+2026-11-19 11:21:10,prudente,VENTE,FNDR,0.0002182,5.83,stop-loss (-20%) PnL -1.57$ coût 1.0%
+2026-11-19 11:22:08,actuelle,VENTE,FNDR,0.0002021,580.02,stop-loss (-34%) PnL -344.94$ coût 4.3%
+2026-11-19 11:22:08,apprentie,VENTE,PumpMas,0.0001436,17.91,durée max 12h PnL +1.41$ coût 1.1%
