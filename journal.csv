@@ -5869,3 +5869,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 10:10:09,prudente,VENTE,SHIT,0.001674,5.62,stop-loss (-24%) PnL -1.82$ coût 1.0%
 2026-11-19 10:11:09,hasard,VENTE,SHIT,0.001553,546.54,stop-loss (-32%) PnL -271.16$ coût 2.1%
 2026-11-19 10:11:09,hasard,ACHAT,Leonida,0.001430124251,824.22,score 63 coût 2.8%
+2026-11-19 10:25:09,hasard,VENTE,THUG,0.0001354,694.42,trailing-stop PnL +153.90$ coût 5.5%
+2026-11-19 10:25:09,apprentie,VENTE,THUG,0.0001354,12.95,stop-loss (-19%) PnL -3.21$ coût 1.1%
+2026-11-19 10:27:09,hasard,ACHAT,GTA,0.001066092064,819.44,score 34 coût 3.2%
