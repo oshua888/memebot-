@@ -5804,3 +5804,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 01:25:10,actuelle,VENTE,Leonida,0.001666,862.52,durée max 12h PnL -71.13$ coût 2.8%
 2026-11-19 01:25:10,agressive,ACHAT,Mandy,9.35962013e-05,541.67,score 57 coût 5.1%
 2026-11-19 01:26:11,actuelle,VENTE,JESTER,0.001613,610.54,palier +100% PnL +298.32$ coût 2.3%
+2026-11-19 01:34:09,prudente,ACHAT,Mandy,0.0001210559187,7.45,score 70 coût 1.0%
+2026-11-19 01:34:09,actuelle,ACHAT,Mandy,0.0001281610766,921.65,score 70 coût 7.0%
+2026-11-19 01:34:09,hasard,ACHAT,Mandy,0.0001273092317,812.05,score 70 coût 6.3%
