@@ -5955,3 +5955,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 19:04:20,hasard,ACHAT,CATMARIO,0.0003239940802,765.09,score 48 coût 3.8%
 2026-11-19 19:09:20,actuelle,ACHAT,CATMARIO,0.0003621141432,865.40,score 64 coût 4.0%
 2026-11-19 19:09:20,agressive,ACHAT,CATMARIO,0.0003577465618,499.54,score 64 coût 2.7%
+2026-11-19 19:10:20,prudente,VENTE,PIPI,0.0002705,5.82,stop-loss (-20%) PnL -1.55$ coût 1.0%
