@@ -5894,3 +5894,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 11:22:08,apprentie,VENTE,PumpMas,0.0001436,17.91,durée max 12h PnL +1.41$ coût 1.1%
 2026-11-19 11:36:08,actuelle,ACHAT,ANTS,0.01207130197,911.25,score 66 coût 1.6%
 2026-11-19 11:42:08,hasard,VENTE,GTASZN,0.001474,400.86,palier +50% PnL +131.40$ coût 1.8%
+2026-11-19 11:54:08,actuelle,VENTE,GTA6IRL,0.0001472,568.39,stop-loss (-36%) PnL -367.08$ coût 5.4%
+2026-11-19 11:55:07,hasard,VENTE,GTASZN,0.001174,643.66,trailing-stop PnL +96.57$ coût 2.5%
+2026-11-19 11:55:07,hasard,ACHAT,GTASZN,0.001207623909,799.83,score 54 coût 2.9%
+2026-11-19 11:57:07,actuelle,VENTE,Mandy,0.0002108,490.22,trailing-stop PnL +181.47$ coût 3.5%
+2026-11-19 11:57:07,hasard,VENTE,PumpMas,0.0001374,723.39,durée max 12h PnL -84.53$ coût 6.8%
+2026-11-19 11:57:07,hasard,VENTE,Mandy,0.0002108,436.07,trailing-stop PnL +164.03$ coût 3.2%
+2026-11-19 11:57:07,hasard,ACHAT,APCY,0.0001133096818,798.97,score 36 coût 6.3%

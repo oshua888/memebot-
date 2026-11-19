@@ -4989,3 +4989,75 @@ agressive    18851.34$ +1785.1% +17917.38$17479373.64$  141/393     5
 hasard       40207.24$ +3920.7% +38855.74$12416708.80$  273/562     5
 apprentie      789.94$   -21.0%   -210.49$  174.54$  220/249     1
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 151 — 2026-11-19 11:53:00 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  8 retenus / 83 ; rejets : liquidité faible ×56, volume faible ×40, trop récent ×29, trop ancien ×17, FDV/liquidité trop élevé ×5
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       738.52$   -26.1%   -260.60$   70.44$  327/273     1
+actuelle     45704.40$ +4470.4% +44769.20$12582661.28$  254/509     4
+agressive    18859.01$ +1785.9% +17917.38$17479373.64$  141/393     5
+hasard       40256.42$ +3925.6% +38855.74$12416708.80$  273/562     5
+apprentie      789.94$   -21.0%   -210.49$  174.54$  220/249     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 152 — 2026-11-19 11:54:00 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  8 retenus / 83 ; rejets : liquidité faible ×55, volume faible ×40, trop récent ×29, trop ancien ×17, FDV/liquidité trop élevé ×4
+  [actuelle] VENTE GTA6IRL @ 0.0001472$ — 568.39$ stop-loss (-36%) PnL -367.08$ coût 5.4%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       738.36$   -26.2%   -260.60$   70.44$  327/273     1
+actuelle     45463.07$ +4446.3% +44402.11$12582693.98$  254/510     3
+agressive    18768.59$ +1776.9% +17917.38$17479373.64$  141/393     5
+hasard       40130.40$ +3913.0% +38855.74$12416708.80$  273/562     5
+apprentie      789.94$   -21.0%   -210.49$  174.54$  220/249     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 153 — 2026-11-19 11:55:00 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  82 tokens trouvés, analyse en cours…
+  8 retenus / 82 ; rejets : liquidité faible ×54, volume faible ×40, trop récent ×28, trop ancien ×17, FDV/liquidité trop élevé ×4
+  [hasard] VENTE GTASZN @ 0.001174$ — 643.66$ trailing-stop PnL +96.57$ coût 2.5%
+  [hasard] ACHAT GTASZN @ 0.0012076239$ — 799.83$ score 54 coût 2.9%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       738.36$   -26.2%   -260.60$   70.44$  327/273     1
+actuelle     45451.10$ +4445.1% +44402.11$12582693.98$  254/510     3
+agressive    18730.50$ +1773.1% +17917.38$17479373.64$  141/393     5
+hasard       39947.34$ +3894.7% +38952.31$12416747.84$  274/562     5
+apprentie      789.94$   -21.0%   -210.49$  174.54$  220/249     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 154 — 2026-11-19 11:56:00 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  8 retenus / 82 ; rejets : liquidité faible ×54, volume faible ×41, trop récent ×29, trop ancien ×17, FDV/liquidité trop élevé ×4
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       738.49$   -26.2%   -260.60$   70.44$  327/273     1
+actuelle     45442.77$ +4444.3% +44402.11$12582693.98$  254/510     3
+agressive    18646.01$ +1764.6% +17917.38$17479373.64$  141/393     5
+hasard       39999.95$ +3900.0% +38952.31$12416747.84$  274/562     5
+apprentie      789.94$   -21.0%   -210.49$  174.54$  220/249     1
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 155 — 2026-11-19 11:57:00 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  8 retenus / 83 ; rejets : liquidité faible ×56, volume faible ×42, trop récent ×29, trop ancien ×18, FDV/liquidité trop élevé ×5
+  [actuelle] VENTE Mandy @ 0.0002108$ — 490.22$ trailing-stop PnL +181.47$ coût 3.5%
+  [hasard] VENTE PumpMas @ 0.0001374$ — 723.39$ durée max 12h PnL -84.53$ coût 6.8%
+  [hasard] VENTE Mandy @ 0.0002108$ — 436.07$ trailing-stop PnL +164.03$ coût 3.2%
+  [hasard] ACHAT APCY @ 0.00011330968$ — 798.97$ score 36 coût 6.3%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       738.49$   -26.2%   -260.60$   70.44$  327/273     1
+actuelle     45541.91$ +4454.2% +44583.58$12582711.60$  255/510     2
+agressive    18642.04$ +1764.2% +17917.38$17479373.64$  141/393     5
+hasard       39856.41$ +3885.6% +39031.82$12416862.48$  275/563     4
+apprentie      789.94$   -21.0%   -210.49$  174.54$  220/249     1
+(argent fictif — valeur nette si tout était revendu maintenant)
