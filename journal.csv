@@ -5841,3 +5841,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 04:29:11,apprentie,VENTE,Leonida,0.002121,20.40,palier +25% PnL +4.19$ coût 1.0%
 2026-11-19 04:34:12,apprentie,ACHAT,Leonida,0.002012516158,16.18,score 57 coût 1.0%
 2026-11-19 04:42:12,actuelle,VENTE,NASDUCK,0.0002455,454.35,palier +50% PnL +147.59$ coût 3.5%
+2026-11-19 04:45:15,actuelle,VENTE,SHIT,0.001931,631.16,stop-loss (-30%) PnL -295.12$ coût 2.2%
