@@ -5857,3 +5857,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 06:02:12,apprentie,VENTE,Leonida,0.001462,11.64,stop-loss (-27%) PnL -4.55$ coût 1.0%
 2026-11-19 06:10:11,apprentie,ACHAT,GTA6IRL,0.0001347005419,16.15,score 25 coût 1.1%
 2026-11-19 06:40:12,apprentie,VENTE,GTA6IRL,0.0001951,23.12,palier +25% PnL +6.97$ coût 1.1%
+2026-11-19 09:23:11,actuelle,VENTE,Mandy,0.0002208,505.85,palier +50% PnL +201.70$ coût 3.5%
+2026-11-19 09:23:11,actuelle,ACHAT,GTA6IRL,0.000229085787,935.47,score 64 coût 6.7%
+2026-11-19 09:23:11,agressive,VENTE,Leonida,0.001003,330.45,stop-loss (-42%) PnL -253.22$ coût 1.9%
+2026-11-19 09:23:11,agressive,VENTE,Mandy,0.0002208,409.11,palier +100% PnL +230.36$ coût 3.0%
+2026-11-19 09:23:11,agressive,ACHAT,GTA6IRL,0.000224258675,566.51,score 64 coût 4.5%
+2026-11-19 09:23:11,hasard,VENTE,Mandy,0.0002208,449.97,palier +50% PnL +181.99$ coût 3.2%
+2026-11-19 09:23:11,apprentie,ACHAT,GTA,0.0009561960356,16.24,score 51 coût 1.0%
