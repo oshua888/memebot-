@@ -5852,3 +5852,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 05:26:12,actuelle,ACHAT,NASDUCK,0.0001630259989,926.47,score 67 coût 7.3%
 2026-11-19 05:42:10,prudente,ACHAT,SHIT,0.002192987676,7.44,score 70 coût 1.0%
 2026-11-19 05:44:09,actuelle,VENTE,NASDUCK,0.0001059,565.99,stop-loss (-35%) PnL -360.48$ coût 6.0%
+2026-11-19 06:01:11,hasard,VENTE,Leonida,0.00168,682.83,trailing-stop PnL +131.51$ coût 2.4%
+2026-11-19 06:01:11,hasard,ACHAT,SHIT,0.002274046642,817.70,score 70 coût 2.4%
+2026-11-19 06:02:12,apprentie,VENTE,Leonida,0.001462,11.64,stop-loss (-27%) PnL -4.55$ coût 1.0%
