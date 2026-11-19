@@ -5845,3 +5845,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 04:52:11,actuelle,ACHAT,GOODTIME,0.0001207394616,934.99,score 61 coût 8.4%
 2026-11-19 05:02:10,actuelle,VENTE,NASDUCK,0.0002033,747.03,trailing-stop PnL +124.23$ coût 5.6%
 2026-11-19 05:05:16,prudente,ACHAT,GOODTIME,0.0001123775225,7.44,score 70 coût 1.1%
+2026-11-19 05:17:10,apprentie,VENTE,HOGE,0.0009966,11.97,stop-loss (-26%) PnL -4.35$ coût 1.0%
+2026-11-19 05:17:10,apprentie,ACHAT,THUG,0.0001671015715,16.16,score 18 coût 1.1%
