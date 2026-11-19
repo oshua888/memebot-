@@ -5935,3 +5935,16 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 14:34:12,agressive,ACHAT,GTASZN,0.0008976476908,551.66,score 66 coût 2.5%
 2026-11-19 14:37:12,agressive,VENTE,ANTS,0.007375,330.35,stop-loss (-40%) PnL -228.02$ coût 1.3%
 2026-11-19 14:37:12,agressive,ACHAT,Apocrycoin,0.0003834092846,552.79,score 62 coût 2.7%
+2026-11-19 18:35:19,prudente,VENTE,Leonida,0.002097,5.35,stop-loss (-27%) PnL -2.04$ coût 1.0%
+2026-11-19 18:35:19,actuelle,VENTE,Mandy,0.0001416,385.34,stop-loss (-56%) PnL -521.66$ coût 3.3%
+2026-11-19 18:35:19,actuelle,VENTE,OGTA,1.437e-06,1.24,stop-loss (-100%) PnL -898.47$ coût 1.2%
+2026-11-19 18:35:19,agressive,VENTE,OGTA,1.437e-06,0.75,stop-loss (-100%) PnL -557.22$ coût 1.1%
+2026-11-19 18:35:19,agressive,VENTE,GTASZN,0.0001231,74.48,stop-loss (-86%) PnL -477.18$ coût 1.5%
+2026-11-19 18:35:19,agressive,VENTE,Apocrycoin,0.0001789,252.29,stop-loss (-53%) PnL -300.50$ coût 2.2%
+2026-11-19 18:35:19,agressive,ACHAT,PIPI,0.0003359525734,505.14,score 58 coût 2.8%
+2026-11-19 18:35:19,hasard,VENTE,Leonida,0.002097,397.92,trailing-stop PnL +121.81$ coût 1.7%
+2026-11-19 18:35:19,hasard,VENTE,Mandy,0.0001416,386.00,stop-loss (-50%) PnL -417.83$ coût 3.3%
+2026-11-19 18:35:19,hasard,VENTE,OGTA,1.437e-06,1.11,stop-loss (-100%) PnL -804.97$ coût 1.1%
+2026-11-19 18:35:19,hasard,VENTE,PIPI,0.0003269,420.62,stop-loss (-46%) PnL -384.82$ coût 2.5%
+2026-11-19 18:35:19,hasard,ACHAT,Leonida,0.002146350486,765.96,score 61 coût 2.4%
+2026-11-19 18:35:19,apprentie,VENTE,Founder,0.0002928,16.05,durée max 12h PnL -0.17$ coût 1.1%
