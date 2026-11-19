@@ -5865,3 +5865,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 09:23:11,hasard,VENTE,Mandy,0.0002208,449.97,palier +50% PnL +181.99$ coût 3.2%
 2026-11-19 09:23:11,apprentie,ACHAT,GTA,0.0009561960356,16.24,score 51 coût 1.0%
 2026-11-19 09:38:10,prudente,ACHAT,Apocrycoin,0.0005504551976,7.43,score 71 coût 1.0%
+2026-11-19 09:54:09,apprentie,VENTE,GTASZN,0.001041,11.98,stop-loss (-25%) PnL -4.18$ coût 1.0%
