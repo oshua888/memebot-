@@ -5971,3 +5971,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 20:32:20,hasard,ACHAT,OGTA,0.001217911558,753.32,score 79 coût 2.9%
 2026-11-19 21:00:21,actuelle,ACHAT,AI,0.0001484742719,852.06,score 60 coût 3.3%
 2026-11-19 21:00:21,hasard,ACHAT,AI,0.0001480861164,752.96,score 60 coût 3.1%
+2026-11-19 21:19:20,agressive,VENTE,Mandy,0.0001915,455.14,trailing-stop PnL +124.27$ coût 3.3%
+2026-11-19 21:19:20,agressive,ACHAT,OGTA,0.001236990737,502.43,score 59 coût 2.2%
