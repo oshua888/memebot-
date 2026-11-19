@@ -5872,3 +5872,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 10:25:09,hasard,VENTE,THUG,0.0001354,694.42,trailing-stop PnL +153.90$ coût 5.5%
 2026-11-19 10:25:09,apprentie,VENTE,THUG,0.0001354,12.95,stop-loss (-19%) PnL -3.21$ coût 1.1%
 2026-11-19 10:27:09,hasard,ACHAT,GTA,0.001066092064,819.44,score 34 coût 3.2%
+2026-11-19 10:31:11,actuelle,VENTE,JESTER,0.002153,813.43,trailing-stop PnL +501.21$ coût 2.5%
+2026-11-19 10:31:11,actuelle,ACHAT,Apocrycoin,0.0005718018419,920.60,score 71 coût 3.4%
+2026-11-19 10:31:11,hasard,VENTE,JESTER,0.002153,849.63,trailing-stop PnL +575.36$ coût 2.6%
+2026-11-19 10:31:11,hasard,ACHAT,GTASZN,0.0009725161534,816.55,score 40 coût 3.1%
