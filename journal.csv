@@ -5847,3 +5847,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 05:05:16,prudente,ACHAT,GOODTIME,0.0001123775225,7.44,score 70 coût 1.1%
 2026-11-19 05:17:10,apprentie,VENTE,HOGE,0.0009966,11.97,stop-loss (-26%) PnL -4.35$ coût 1.0%
 2026-11-19 05:17:10,apprentie,ACHAT,THUG,0.0001671015715,16.16,score 18 coût 1.1%
+2026-11-19 05:25:10,apprentie,VENTE,GTASZN,0.001375,20.53,palier +25% PnL +4.40$ coût 1.0%
+2026-11-19 05:25:10,apprentie,ACHAT,GTASZN,0.001389235206,16.16,score 61 coût 1.0%
+2026-11-19 05:26:12,actuelle,ACHAT,NASDUCK,0.0001630259989,926.47,score 67 coût 7.3%
