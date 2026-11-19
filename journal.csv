@@ -5990,3 +5990,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 22:42:22,agressive,ACHAT,jingyu,0.0001225124412,487.04,score 58 coût 4.9%
 2026-11-19 22:45:20,hasard,VENTE,HOGE,0.0007779,520.18,stop-loss (-34%) PnL -283.80$ coût 2.0%
 2026-11-19 22:45:20,hasard,ACHAT,Max,0.000925932904,721.33,score 28 coût 2.1%
+2026-11-19 23:02:21,hasard,ACHAT,FIONA,0.001612705329,720.08,score 49 coût 2.3%
+2026-11-19 23:03:21,actuelle,ACHAT,FIONA,0.001587361285,828.82,score 64 coût 2.5%
+2026-11-19 23:03:21,agressive,ACHAT,FIONA,0.00157740467,483.27,score 64 coût 1.9%
