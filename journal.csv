@@ -5893,3 +5893,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 11:22:08,actuelle,VENTE,FNDR,0.0002021,580.02,stop-loss (-34%) PnL -344.94$ coût 4.3%
 2026-11-19 11:22:08,apprentie,VENTE,PumpMas,0.0001436,17.91,durée max 12h PnL +1.41$ coût 1.1%
 2026-11-19 11:36:08,actuelle,ACHAT,ANTS,0.01207130197,911.25,score 66 coût 1.6%
+2026-11-19 11:42:08,hasard,VENTE,GTASZN,0.001474,400.86,palier +50% PnL +131.40$ coût 1.8%
