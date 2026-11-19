@@ -5948,3 +5948,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 18:35:19,hasard,VENTE,PIPI,0.0003269,420.62,stop-loss (-46%) PnL -384.82$ coût 2.5%
 2026-11-19 18:35:19,hasard,ACHAT,Leonida,0.002146350486,765.96,score 61 coût 2.4%
 2026-11-19 18:35:19,apprentie,VENTE,Founder,0.0002928,16.05,durée max 12h PnL -0.17$ coût 1.1%
+2026-11-19 18:40:20,prudente,ACHAT,PIPI,0.0003388393645,7.37,score 73 coût 1.0%
+2026-11-19 18:40:20,actuelle,ACHAT,PIPI,0.0003488285553,869.40,score 73 coût 4.0%
+2026-11-19 18:43:21,agressive,ACHAT,SHIT,0.001442948082,503.52,score 64 coût 2.0%
