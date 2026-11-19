@@ -5988,3 +5988,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 22:37:20,agressive,VENTE,ONI,4.147e-05,213.79,stop-loss (-55%) PnL -276.18$ coût 3.1%
 2026-11-19 22:37:20,hasard,VENTE,ONI,4.147e-05,302.62,stop-loss (-57%) PnL -436.59$ coût 4.0%
 2026-11-19 22:42:22,agressive,ACHAT,jingyu,0.0001225124412,487.04,score 58 coût 4.9%
+2026-11-19 22:45:20,hasard,VENTE,HOGE,0.0007779,520.18,stop-loss (-34%) PnL -283.80$ coût 2.0%
+2026-11-19 22:45:20,hasard,ACHAT,Max,0.000925932904,721.33,score 28 coût 2.1%
