@@ -5998,3 +5998,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 23:21:21,actuelle,VENTE,FIONA,0.001104,563.28,stop-loss (-30%) PnL -265.54$ coût 2.3%
 2026-11-19 23:28:21,hasard,VENTE,OGTA,0.001333,539.89,trailing-stop PnL +35.16$ coût 2.3%
 2026-11-19 23:28:21,hasard,ACHAT,OGTA,0.001368361649,719.65,score 79 coût 2.7%
+2026-11-19 23:30:25,hasard,ACHAT,SIM,0.0001595321349,716.84,score 25 coût 6.2%
+2026-11-19 23:31:22,hasard,VENTE,SIM,0.0001082,460.56,stop-loss (-32%) PnL -256.28$ coût 5.3%
