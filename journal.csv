@@ -5964,3 +5964,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 20:14:21,agressive,VENTE,Mandy,0.0002858,337.86,palier +100% PnL +174.89$ coût 2.4%
 2026-11-19 20:25:20,hasard,ACHAT,DATITTY,0.0001377085084,760.68,score 45 coût 7.1%
 2026-11-19 20:28:20,actuelle,ACHAT,DATITTY,0.0001486682863,864.21,score 60 coût 7.7%
+2026-11-19 20:31:21,actuelle,VENTE,DATITTY,8.585e-05,469.45,stop-loss (-42%) PnL -394.77$ coût 5.9%
+2026-11-19 20:31:21,hasard,VENTE,DATITTY,8.585e-05,447.25,stop-loss (-38%) PnL -313.42$ coût 5.7%
+2026-11-19 20:32:20,prudente,ACHAT,OGTA,0.001196055383,7.35,score 79 coût 1.0%
+2026-11-19 20:32:20,actuelle,ACHAT,OGTA,0.001220869948,854.30,score 79 coût 3.1%
+2026-11-19 20:32:20,hasard,ACHAT,OGTA,0.001217911558,753.32,score 79 coût 2.9%
