@@ -5915,3 +5915,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 12:34:07,hasard,ACHAT,GTASZN,0.001802056956,802.70,score 70 coût 2.5%
 2026-11-19 12:40:08,hasard,VENTE,Apocrycoin,0.0003477,542.29,stop-loss (-30%) PnL -255.32$ coût 2.9%
 2026-11-19 12:47:08,hasard,VENTE,GTASZN,0.001198,521.82,stop-loss (-34%) PnL -280.87$ coût 2.2%
+2026-11-19 12:56:10,hasard,VENTE,Leonida,0.002198,410.82,palier +50% PnL +138.83$ coût 1.7%
