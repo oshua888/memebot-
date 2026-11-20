@@ -6035,3 +6035,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 06:18:13,agressive,VENTE,SWRDXSTFF,7.319e-05,251.20,stop-loss (-44%) PnL -213.59$ coût 3.6%
 2026-11-20 06:24:14,agressive,ACHAT,apocry ,0.0002207777866,465.39,score 50 coût 3.2%
 2026-11-20 06:24:14,hasard,ACHAT,apocry ,0.0002231893739,702.23,score 50 coût 4.3%
+2026-11-20 09:05:08,actuelle,VENTE,iAgent,0.001274,497.35,stop-loss (-37%) PnL -314.66$ coût 2.2%
+2026-11-20 09:05:08,agressive,VENTE,apocry ,3.87e-05,79.98,stop-loss (-82%) PnL -385.41$ coût 2.0%
+2026-11-20 09:05:08,hasard,VENTE,apocry ,3.87e-05,118.81,stop-loss (-83%) PnL -583.43$ coût 2.4%
