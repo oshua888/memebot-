@@ -6127,3 +6127,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 21:19:19,agressive,ACHAT,AI,0.0001918197998,405.25,score 56 coût 3.0%
 2026-11-20 21:52:20,agressive,ACHAT,HUGH,0.0001845742818,404.49,score 57 coût 3.2%
 2026-11-20 21:52:20,agressive,ACHAT,BUCKME,0.0001454841767,403.75,score 50 coût 3.8%
+2026-11-20 21:53:20,actuelle,ACHAT,HUGH,0.0001863342084,780.80,score 63 coût 5.2%
+2026-11-20 21:56:20,prudente,VENTE,AI,0.0001607,5.72,stop-loss (-21%) PnL -1.59$ coût 1.0%
