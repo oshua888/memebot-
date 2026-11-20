@@ -6024,3 +6024,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 03:42:14,agressive,VENTE,OGTA,0.0007101,282.92,stop-loss (-43%) PnL -219.50$ coût 1.9%
 2026-11-20 03:42:14,agressive,ACHAT,iAgent,0.001878169707,470.79,score 54 coût 1.9%
 2026-11-20 03:49:14,actuelle,ACHAT,iAgent,0.002034782661,812.01,score 62 coût 2.5%
+2026-11-20 03:55:15,actuelle,VENTE,Leonida,0.0008591,555.76,stop-loss (-31%) PnL -271.39$ coût 2.6%
+2026-11-20 03:55:15,hasard,VENTE,HNYDRIP,0.0001276,376.69,stop-loss (-45%) PnL -335.05$ coût 4.2%
