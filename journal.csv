@@ -6044,3 +6044,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 09:56:08,agressive,VENTE,FIONA,0.003176,316.60,palier +100% PnL +157.12$ coût 1.4%
 2026-11-20 10:11:09,actuelle,VENTE,jingyu,0.0001094,643.01,durée max 12h PnL -196.32$ coût 6.7%
 2026-11-20 10:11:09,hasard,VENTE,jingyu,0.0001094,573.60,durée max 12h PnL -164.42$ coût 6.1%
+2026-11-20 10:20:09,hasard,ACHAT,AMC ,0.0002040087867,678.76,score 33 coût 4.6%
