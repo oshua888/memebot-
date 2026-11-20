@@ -6083,3 +6083,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 13:58:10,actuelle,VENTE,LOOSY,0.001667,636.69,trailing-stop PnL +89.92$ coût 2.4%
 2026-11-20 13:58:10,hasard,VENTE,LOOSY,0.001667,559.98,trailing-stop PnL +81.02$ coût 2.2%
 2026-11-20 13:58:10,hasard,ACHAT,LOOSY,0.001707592728,682.64,score 59 coût 2.4%
+2026-11-20 14:08:10,actuelle,ACHAT,LOOSY,0.001952704405,793.07,score 66 coût 2.6%
