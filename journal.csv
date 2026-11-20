@@ -6004,3 +6004,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 01:12:13,hasard,ACHAT,AI,0.0001078844289,712.40,score 34 coût 5.9%
 2026-11-20 01:46:12,hasard,VENTE,AI,0.0001795,379.48,palier +50% PnL +144.39$ coût 3.0%
 2026-11-20 01:51:12,prudente,ACHAT,FIONA,0.002160636849,7.33,score 70 coût 1.0%
+2026-11-20 01:55:12,hasard,VENTE,AI,0.0002257,483.07,palier +100% PnL +244.41$ coût 3.2%
+2026-11-20 01:59:12,prudente,VENTE,FIONA,0.001685,5.66,stop-loss (-22%) PnL -1.67$ coût 1.0%
