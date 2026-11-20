@@ -6063,3 +6063,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 11:34:11,prudente,VENTE,LOOSY,0.002021,5.28,palier +30% PnL +1.62$ coût 1.0%
 2026-11-20 11:42:09,prudente,VENTE,LOOSY,0.001702,4.45,trailing-stop PnL +0.79$ coût 1.0%
 2026-11-20 11:42:09,prudente,ACHAT,LOOSY,0.00171927843,7.31,score 86 coût 1.0%
+2026-11-20 11:46:09,agressive,VENTE,jingyu,7.203e-05,274.99,stop-loss (-41%) PnL -212.05$ coût 4.0%
