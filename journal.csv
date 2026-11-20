@@ -6109,3 +6109,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 19:51:18,hasard,VENTE,PATRICK,0.0004588,497.02,palier +100% PnL +272.40$ coût 3.0%
 2026-11-20 19:56:19,agressive,VENTE,SWJ,0.0004238,253.27,stop-loss (-41%) PnL -185.98$ coût 2.1%
 2026-11-20 20:07:19,prudente,VENTE,AI,0.0002036,4.89,palier +30% PnL +1.24$ coût 1.0%
+2026-11-20 20:12:21,hasard,VENTE,PATRICK,0.0004364,474.11,trailing-stop PnL +249.49$ coût 2.7%
+2026-11-20 20:12:21,hasard,ACHAT,BUCKME,0.0001327659016,681.74,score 38 coût 6.1%
