@@ -6016,3 +6016,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 02:51:13,actuelle,VENTE,Brian,0.0003001,468.38,stop-loss (-41%) PnL -357.34$ coût 3.5%
 2026-11-20 02:51:13,agressive,VENTE,Brian,0.0003001,280.08,stop-loss (-40%) PnL -202.08$ coût 2.5%
 2026-11-20 02:51:13,hasard,VENTE,Brian,0.0003001,411.77,stop-loss (-41%) PnL -308.92$ coût 3.2%
+2026-11-20 03:05:13,actuelle,ACHAT,LOOSY,0.001397623775,816.07,score 65 coût 2.9%
+2026-11-20 03:05:13,agressive,ACHAT,LOOSY,0.001386847364,478.40,score 65 coût 2.1%
+2026-11-20 03:05:13,hasard,ACHAT,LOOSY,0.001394394043,714.87,score 65 coût 2.7%
+2026-11-20 03:07:13,hasard,ACHAT,iAgent,0.001791205608,714.11,score 47 coût 2.4%
