@@ -2783,3 +2783,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-20 12:56,2026-11-20 13:52,agressive,RUDY,profil,stop-loss (-41%),0.93,-42.1,56,44959,4.28,2.2,4.611,0.577,12.46,3.19,247,0
 2026-11-20 03:05,2026-11-20 13:58,actuelle,LOOSY,boost+profil,trailing-stop,10.88,29.67,65,85105,15.9,2.0,0.946,0.685,-2.1,53.58,3290,1
 2026-11-20 03:05,2026-11-20 13:58,hasard,LOOSY,boost+profil,trailing-stop,10.88,30.15,65,85105,15.9,2.0,0.946,0.685,-2.1,53.58,3290,1
+2026-11-20 12:41,2026-11-20 14:12,actuelle,SWJ,profil,stop-loss (-31%),1.52,-33.35,60,67744,12.94,21.7,0.328,0.606,5.41,45.15,39.93,0
