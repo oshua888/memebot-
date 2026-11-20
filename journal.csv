@@ -6133,3 +6133,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 22:10:20,actuelle,VENTE,Singularity,9.094e-05,467.37,stop-loss (-37%) PnL -312.14$ coût 5.5%
 2026-11-20 22:12:20,actuelle,VENTE,AI,0.0001384,494.71,stop-loss (-34%) PnL -288.86$ coût 3.9%
 2026-11-20 22:12:20,hasard,VENTE,AI,0.0001384,435.60,stop-loss (-34%) PnL -248.76$ coût 3.5%
+2026-11-20 22:14:20,hasard,ACHAT,CATMARIO,7.368424307e-05,675.04,score 28 coût 6.2%
+2026-11-20 22:17:21,hasard,VENTE,PIPI,8.507e-05,421.75,stop-loss (-34%) PnL -244.04$ coût 4.0%
