@@ -6047,3 +6047,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 10:20:09,hasard,ACHAT,AMC ,0.0002040087867,678.76,score 33 coût 4.6%
 2026-11-20 10:46:09,hasard,VENTE,AMC ,0.0003164,339.07,palier +50% PnL +115.08$ coût 2.4%
 2026-11-20 10:53:09,hasard,VENTE,AMC ,0.0004124,447.63,palier +100% PnL +220.24$ coût 2.6%
+2026-11-20 10:55:10,prudente,ACHAT,LOOSY,0.00138595249,7.31,score 73 coût 1.0%
+2026-11-20 10:59:09,hasard,VENTE,AMC ,0.0002788,303.55,trailing-stop PnL +76.17$ coût 2.3%
+2026-11-20 10:59:09,hasard,ACHAT,AMC ,0.0002897114406,688.46,score 47 coût 3.9%
