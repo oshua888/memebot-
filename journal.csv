@@ -6130,3 +6130,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 21:53:20,actuelle,ACHAT,HUGH,0.0001863342084,780.80,score 63 coût 5.2%
 2026-11-20 21:56:20,prudente,VENTE,AI,0.0001607,5.72,stop-loss (-21%) PnL -1.59$ coût 1.0%
 2026-11-20 22:07:21,actuelle,ACHAT,Singularity,0.000143288496,779.51,score 63 coût 6.9%
+2026-11-20 22:10:20,actuelle,VENTE,Singularity,9.094e-05,467.37,stop-loss (-37%) PnL -312.14$ coût 5.5%
+2026-11-20 22:12:20,actuelle,VENTE,AI,0.0001384,494.71,stop-loss (-34%) PnL -288.86$ coût 3.9%
+2026-11-20 22:12:20,hasard,VENTE,AI,0.0001384,435.60,stop-loss (-34%) PnL -248.76$ coût 3.5%
