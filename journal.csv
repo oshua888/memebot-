@@ -6123,3 +6123,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 20:55:19,actuelle,ACHAT,AI,0.0002106582377,783.57,score 72 coût 4.6%
 2026-11-20 20:55:19,hasard,VENTE,AI,0.0002013,306.52,trailing-stop PnL +81.46$ coût 2.5%
 2026-11-20 20:55:19,hasard,ACHAT,AI,0.0002097281941,684.35,score 72 coût 4.2%
+2026-11-20 21:19:19,agressive,VENTE,AI,0.0001863,451.86,trailing-stop PnL +152.26$ coût 3.3%
+2026-11-20 21:19:19,agressive,ACHAT,AI,0.0001918197998,405.25,score 56 coût 3.0%
