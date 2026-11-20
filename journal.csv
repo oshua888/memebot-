@@ -6001,3 +6001,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-19 23:30:25,hasard,ACHAT,SIM,0.0001595321349,716.84,score 25 coût 6.2%
 2026-11-19 23:31:22,hasard,VENTE,SIM,0.0001082,460.56,stop-loss (-32%) PnL -256.28$ coût 5.3%
 2026-11-19 23:35:22,hasard,VENTE,OGTA,0.0008986,461.59,stop-loss (-34%) PnL -258.05$ coût 2.3%
+2026-11-20 01:12:13,hasard,ACHAT,AI,0.0001078844289,712.40,score 34 coût 5.9%
