@@ -6064,3 +6064,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 11:42:09,prudente,VENTE,LOOSY,0.001702,4.45,trailing-stop PnL +0.79$ coût 1.0%
 2026-11-20 11:42:09,prudente,ACHAT,LOOSY,0.00171927843,7.31,score 86 coût 1.0%
 2026-11-20 11:46:09,agressive,VENTE,jingyu,7.203e-05,274.99,stop-loss (-41%) PnL -212.05$ coût 4.0%
+2026-11-20 12:15:08,actuelle,VENTE,AMC ,0.0002007,534.76,stop-loss (-31%) PnL -272.68$ coût 3.8%
+2026-11-20 12:15:08,hasard,VENTE,AMC ,0.0002007,460.67,stop-loss (-31%) PnL -227.79$ coût 3.4%
