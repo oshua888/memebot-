@@ -6056,3 +6056,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 11:07:09,prudente,ACHAT,iAgent,0.001040492872,7.31,score 70 coût 1.0%
 2026-11-20 11:08:09,actuelle,VENTE,AMC ,0.0003816,394.10,palier +50% PnL +130.74$ coût 2.5%
 2026-11-20 11:13:09,prudente,VENTE,iAgent,0.0006471,4.50,stop-loss (-38%) PnL -2.81$ coût 1.0%
+2026-11-20 11:17:08,agressive,VENTE,Leonida,0.0004567,256.37,stop-loss (-41%) PnL -190.53$ coût 2.0%
