@@ -6066,3 +6066,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 11:46:09,agressive,VENTE,jingyu,7.203e-05,274.99,stop-loss (-41%) PnL -212.05$ coût 4.0%
 2026-11-20 12:15:08,actuelle,VENTE,AMC ,0.0002007,534.76,stop-loss (-31%) PnL -272.68$ coût 3.8%
 2026-11-20 12:15:08,hasard,VENTE,AMC ,0.0002007,460.67,stop-loss (-31%) PnL -227.79$ coût 3.4%
+2026-11-20 12:20:08,agressive,VENTE,AMC ,0.0001318,234.04,stop-loss (-46%) PnL -211.87$ coût 2.5%
+2026-11-20 12:21:10,hasard,ACHAT,SWJ,0.000668206284,691.83,score 41 coût 3.4%
+2026-11-20 12:23:09,agressive,ACHAT,SWJ,0.0007192969254,439.25,score 55 coût 2.5%
+2026-11-20 12:24:09,actuelle,VENTE,LOOSY,0.002227,421.47,palier +50% PnL +152.17$ coût 1.8%
+2026-11-20 12:24:09,hasard,VENTE,LOOSY,0.002227,370.42,palier +50% PnL +134.51$ coût 1.7%
