@@ -6080,3 +6080,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 13:25:10,actuelle,VENTE,RUDY,0.0001472,529.65,stop-loss (-31%) PnL -272.68$ coût 3.9%
 2026-11-20 13:40:10,hasard,VENTE,RUDY,0.0001321,462.98,stop-loss (-31%) PnL -231.99$ coût 3.7%
 2026-11-20 13:52:11,agressive,VENTE,RUDY,0.0001231,251.71,stop-loss (-41%) PnL -183.01$ coût 2.5%
+2026-11-20 13:58:10,actuelle,VENTE,LOOSY,0.001667,636.69,trailing-stop PnL +89.92$ coût 2.4%
+2026-11-20 13:58:10,hasard,VENTE,LOOSY,0.001667,559.98,trailing-stop PnL +81.02$ coût 2.2%
+2026-11-20 13:58:10,hasard,ACHAT,LOOSY,0.001707592728,682.64,score 59 coût 2.4%
