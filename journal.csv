@@ -6021,3 +6021,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 03:05:13,hasard,ACHAT,LOOSY,0.001394394043,714.87,score 65 coût 2.7%
 2026-11-20 03:07:13,hasard,ACHAT,iAgent,0.001791205608,714.11,score 47 coût 2.4%
 2026-11-20 03:22:14,hasard,ACHAT,HNYDRIP,0.0002310846224,711.75,score 55 coût 5.3%
+2026-11-20 03:42:14,agressive,VENTE,OGTA,0.0007101,282.92,stop-loss (-43%) PnL -219.50$ coût 1.9%
+2026-11-20 03:42:14,agressive,ACHAT,iAgent,0.001878169707,470.79,score 54 coût 1.9%
