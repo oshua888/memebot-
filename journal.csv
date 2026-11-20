@@ -6009,3 +6009,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 02:06:12,agressive,VENTE,Max,0.0005886,289.17,stop-loss (-41%) PnL -209.77$ coût 1.6%
 2026-11-20 02:06:12,hasard,VENTE,Max,0.0005886,449.87,stop-loss (-36%) PnL -271.46$ coût 1.9%
 2026-11-20 02:06:12,hasard,VENTE,AI,0.0001684,361.52,trailing-stop PnL +122.87$ coût 3.0%
+2026-11-20 02:43:13,actuelle,ACHAT,Leonida,0.001245609596,827.15,score 60 coût 2.9%
