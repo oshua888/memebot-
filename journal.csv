@@ -6091,3 +6091,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 17:58:20,hasard,VENTE,Apocrycoin,5.632e-05,349.14,stop-loss (-47%) PnL -334.43$ coût 4.1%
 2026-11-20 17:58:20,hasard,ACHAT,Huss,0.0003074846554,677.33,score 53 coût 4.3%
 2026-11-20 18:22:19,prudente,VENTE,LOOSY,0.002419,5.09,palier +30% PnL +1.44$ coût 1.0%
+2026-11-20 18:24:20,prudente,VENTE,LOOSY,0.0003816,0.80,stop-loss (-78%) PnL -2.85$ coût 1.0%
+2026-11-20 18:24:20,actuelle,VENTE,LOOSY,0.0003816,152.36,stop-loss (-80%) PnL -640.71$ coût 1.7%
+2026-11-20 18:24:20,agressive,VENTE,LOOSY,0.0003816,129.54,stop-loss (-72%) PnL -348.85$ coût 1.6%
+2026-11-20 18:24:20,hasard,VENTE,LOOSY,0.0003816,149.98,stop-loss (-78%) PnL -532.66$ coût 1.7%
