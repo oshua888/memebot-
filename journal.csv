@@ -6040,3 +6040,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 09:05:08,hasard,VENTE,apocry ,3.87e-05,118.81,stop-loss (-83%) PnL -583.43$ coût 2.4%
 2026-11-20 09:14:09,hasard,VENTE,iAgent,0.001153,449.94,stop-loss (-36%) PnL -264.18$ coût 2.1%
 2026-11-20 09:17:09,agressive,VENTE,iAgent,0.0009733,239.95,stop-loss (-48%) PnL -230.84$ coût 1.6%
+2026-11-20 09:34:10,agressive,ACHAT,Leonida,0.0007802374069,446.90,score 56 coût 2.3%
