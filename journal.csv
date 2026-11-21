@@ -6194,3 +6194,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 08:08:15,actuelle,ACHAT,Rings,0.002814280656,743.22,score 65 coût 2.1%
 2026-11-21 08:13:14,hasard,VENTE,BUCKME,0.0001135,549.94,durée max 12h PnL -131.80$ coût 5.6%
 2026-11-21 08:21:16,hasard,ACHAT,HUGH,0.0001367525654,662.40,score 25 coût 5.2%
+2026-11-21 08:48:12,agressive,VENTE,Singularity,7.844e-05,224.32,stop-loss (-41%) PnL -172.03$ coût 3.3%
+2026-11-21 08:49:12,agressive,ACHAT,PUNANI,0.002839549227,392.32,score 54 coût 1.7%
