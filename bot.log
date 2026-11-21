@@ -5465,3 +5465,73 @@ agressive    12459.57$ +1146.0% +11882.66$17480064.75$  148/424     5
 hasard       32861.85$ +3186.2% +32093.23$12419547.63$  312/604     5
 apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 186 — 2026-11-21 18:19:48 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  11 retenus / 87 ; rejets : liquidité faible ×55, volume faible ×35, trop récent ×31, trop ancien ×19, FDV/liquidité trop élevé ×2, RugCheck: liquidité non verrouillée ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       742.80$   -25.7%   -255.86$   74.15$  351/287     4
+actuelle     35660.11$ +3466.0% +35208.21$12584822.62$  270/542     5
+agressive    12473.72$ +1147.4% +11882.66$17480064.75$  148/424     5
+hasard       32905.48$ +3190.5% +32093.23$12419547.63$  312/604     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 187 — 2026-11-21 18:20:48 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  90 tokens trouvés, analyse en cours…
+  11 retenus / 84 ; rejets : liquidité faible ×51, volume faible ×33, trop récent ×27, trop ancien ×19, FDV/liquidité trop élevé ×2, RugCheck: liquidité non verrouillée ×1
+  [actuelle] VENTE MAYA @ 0.002221$ — 468.09$ stop-loss (-35%) PnL -261.77$ coût 1.9%
+  [actuelle] ACHAT ROCKET @ 0.00085543941$ — 711.09$ score 63 coût 2.8%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       743.11$   -25.7%   -255.86$   74.15$  351/287     4
+actuelle     35516.66$ +3451.7% +34946.45$12584850.74$  270/543     5
+agressive    12409.31$ +1140.9% +11882.66$17480064.75$  148/424     5
+hasard       32804.50$ +3180.5% +32093.23$12419547.63$  312/604     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 188 — 2026-11-21 18:21:48 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  89 tokens trouvés, analyse en cours…
+  11 retenus / 82 ; rejets : liquidité faible ×49, volume faible ×31, trop récent ×25, trop ancien ×19, FDV/liquidité trop élevé ×2, RugCheck: liquidité non verrouillée ×1
+  [hasard] VENTE MAYA @ 0.001976$ — 409.15$ stop-loss (-37%) PnL -253.70$ coût 1.8%
+  [hasard] ACHAT NOHR @ 0.0023971701$ — 654.82$ score 39 coût 2.2%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       743.79$   -25.6%   -255.86$   74.15$  351/287     4
+actuelle     35589.95$ +3459.0% +34946.45$12584850.74$  270/543     5
+agressive    12395.55$ +1139.6% +11882.66$17480064.75$  148/424     5
+hasard       32713.12$ +3171.3% +31839.53$12419569.19$  312/605     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 189 — 2026-11-21 18:22:48 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  90 tokens trouvés, analyse en cours…
+  11 retenus / 85 ; rejets : liquidité faible ×52, volume faible ×34, trop récent ×28, trop ancien ×19, FDV/liquidité trop élevé ×2, RugCheck: liquidité non verrouillée ×1
+  [prudente] VENTE NOHR @ 0.002378$ — 4.76$ palier +30% PnL +1.07$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       744.33$   -25.6%   -254.80$   74.20$  352/287     4
+actuelle     35637.22$ +3463.7% +34946.45$12584850.74$  270/543     5
+agressive    12428.75$ +1142.9% +11882.66$17480064.75$  148/424     5
+hasard       32773.85$ +3177.4% +31839.53$12419569.19$  312/605     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 190 — 2026-11-21 18:23:48 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  90 tokens trouvés, analyse en cours…
+  11 retenus / 89 ; rejets : liquidité faible ×57, volume faible ×38, trop récent ×32, trop ancien ×19, FDV/liquidité trop élevé ×3, RugCheck: liquidité non verrouillée ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       744.29$   -25.6%   -254.80$   74.20$  352/287     4
+actuelle     35639.06$ +3463.9% +34946.45$12584850.74$  270/543     5
+agressive    12438.73$ +1143.9% +11882.66$17480064.75$  148/424     5
+hasard       32693.26$ +3169.3% +31839.53$12419569.19$  312/605     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)

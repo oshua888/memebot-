@@ -6264,3 +6264,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 18:12:57,prudente,VENTE,Singularity,0.0007953,3.29,trailing-stop PnL +1.44$ coût 1.0%
 2026-11-21 18:12:57,prudente,ACHAT,Singularity,0.0008034172655,7.43,score 78 coût 1.0%
 2026-11-21 18:16:03,prudente,VENTE,SHIT,0.002019,5.65,stop-loss (-23%) PnL -1.76$ coût 1.0%
+2026-11-21 18:20:57,actuelle,VENTE,MAYA,0.002221,468.09,stop-loss (-35%) PnL -261.77$ coût 1.9%
+2026-11-21 18:20:57,actuelle,ACHAT,ROCKET,0.0008554394088,711.09,score 63 coût 2.8%
+2026-11-21 18:22:01,hasard,VENTE,MAYA,0.001976,409.15,stop-loss (-37%) PnL -253.70$ coût 1.8%
+2026-11-21 18:22:01,hasard,ACHAT,NOHR,0.002397170114,654.82,score 39 coût 2.2%
+2026-11-21 18:22:59,prudente,VENTE,NOHR,0.002378,4.76,palier +30% PnL +1.07$ coût 1.0%
