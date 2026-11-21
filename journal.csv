@@ -6223,3 +6223,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 15:22:56,actuelle,VENTE,SHIT,0.001812,370.43,palier +50% PnL +133.15$ coût 1.6%
 2026-11-21 15:22:56,hasard,VENTE,SHIT,0.001812,337.15,palier +50% PnL +121.62$ coût 1.6%
 2026-11-21 15:23:55,prudente,VENTE,JENSEN,0.001626,5.42,stop-loss (-25%) PnL -1.85$ coût 1.0%
+2026-11-21 15:29:56,prudente,VENTE,SHIT,0.001483,2.38,trailing-stop PnL +0.56$ coût 1.0%
+2026-11-21 15:29:56,prudente,ACHAT,SHIT,0.001498034109,7.29,score 71 coût 1.0%
