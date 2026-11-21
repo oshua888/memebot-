@@ -6280,3 +6280,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 18:39:56,hasard,VENTE,Bigfoot,0.0001318,440.18,stop-loss (-30%) PnL -220.19$ coût 4.4%
 2026-11-21 18:39:56,hasard,ACHAT,greg,0.0005824324634,645.98,score 34 coût 3.1%
 2026-11-21 18:48:57,prudente,ACHAT,FIONA,0.00142731171,7.46,score 74 coût 1.0%
+2026-11-21 18:59:56,prudente,VENTE,FIONA,0.001867,4.83,palier +30% PnL +1.10$ coût 1.0%
+2026-11-21 19:00:57,prudente,ACHAT,Singularity,0.0009438189226,7.47,score 79 coût 1.0%
