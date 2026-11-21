@@ -6205,3 +6205,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 11:23:12,prudente,ACHAT,PUNANI,0.002845513428,7.31,score 71 coût 1.0%
 2026-11-21 11:25:13,actuelle,ACHAT,MAYA,0.003397870868,729.86,score 61 coût 2.1%
 2026-11-21 11:29:12,prudente,ACHAT,MAYA,0.003555587186,7.31,score 70 coût 1.0%
+2026-11-21 11:56:13,actuelle,ACHAT,XV,0.0002505897519,728.21,score 66 coût 4.4%
+2026-11-21 11:58:12,prudente,VENTE,MAYA,0.002817,5.73,stop-loss (-21%) PnL -1.58$ coût 1.0%
