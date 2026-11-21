@@ -6240,3 +6240,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 16:48:58,prudente,VENTE,Singularity,0.000227,3.03,palier +60% PnL +1.20$ coût 1.0%
 2026-11-21 16:56:58,hasard,VENTE,Bigfoot,0.0002283,339.99,palier +50% PnL +124.10$ coût 3.0%
 2026-11-21 17:08:58,prudente,VENTE,Singularity,0.0005455,7.27,trailing-stop PnL +5.44$ coût 1.0%
+2026-11-21 17:09:57,hasard,VENTE,Bigfoot,0.0001797,534.43,trailing-stop PnL +96.11$ coût 4.6%
+2026-11-21 17:09:57,hasard,ACHAT,Bigfoot,0.0001890263212,660.37,score 62 coût 5.2%

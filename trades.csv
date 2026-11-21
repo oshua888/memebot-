@@ -2845,3 +2845,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-21 16:04,2026-11-21 16:17,actuelle,Bigfoot,profil,stop-loss (-34%),0.22,-37.63,62,25650,4.76,2.3,3.572,0.574,-0.59,44.11,334,0
 2026-11-21 15:49,2026-11-21 16:28,hasard,JENSEN,boost,stop-loss (-30%),0.65,-31.7,77,97469,16.71,15.8,3.093,0.718,-0.01,-30.23,91.23,1
 2026-11-21 16:26,2026-11-21 17:08,prudente,Singularity,tendance,trailing-stop,0.7,110.58,70,27901,4.57,20.3,1.761,0.56,-3.56,53.59,47.44,0
+2026-11-21 16:28,2026-11-21 17:09,hasard,Bigfoot,profil,trailing-stop,0.68,33.66,33,26552,4.83,2.7,3.276,0.584,27.48,97.26,357,0
