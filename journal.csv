@@ -6183,3 +6183,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 04:26:18,actuelle,VENTE,JENSEN,0.001274,524.50,stop-loss (-30%) PnL -247.59$ coût 2.3%
 2026-11-21 04:39:18,actuelle,VENTE,HUGH,0.0001009,405.61,stop-loss (-46%) PnL -375.19$ coût 4.1%
 2026-11-21 04:39:18,agressive,VENTE,HUGH,0.0001009,215.36,stop-loss (-45%) PnL -189.13$ coût 2.6%
+2026-11-21 04:46:18,agressive,ACHAT,JENSEN,0.001164341169,395.48,score 50 coût 2.0%
