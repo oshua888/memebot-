@@ -6148,3 +6148,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 23:17:22,prudente,VENTE,Trader,0.0003628,2.22,trailing-stop PnL +0.40$ coût 1.0%
 2026-11-20 23:59:17,actuelle,VENTE,Trader,0.0003409,619.22,trailing-stop PnL +100.67$ coût 2.3%
 2026-11-21 00:02:17,actuelle,ACHAT,FIONA,0.001359478302,774.89,score 64 coût 2.4%
+2026-11-21 00:11:16,hasard,VENTE,CATMARIO,4.764e-05,414.12,stop-loss (-35%) PnL -260.92$ coût 5.1%
