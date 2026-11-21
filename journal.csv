@@ -6300,3 +6300,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 20:21:56,hasard,VENTE,HUGH,0.0001698,777.15,durée max 12h PnL +114.75$ coût 5.5%
 2026-11-21 20:21:56,hasard,ACHAT,chud,0.0004851379156,646.54,score 52 coût 3.6%
 2026-11-21 20:26:56,agressive,ACHAT,Rings,0.002968182436,362.48,score 55 coût 1.5%
+2026-11-21 21:02:18,hasard,VENTE,NOHR,0.001623,434.64,stop-loss (-32%) PnL -220.18$ coût 2.0%
+2026-11-21 21:02:18,hasard,ACHAT,Christmax,0.0003587201421,641.63,score 13 coût 4.0%
+2026-11-21 21:06:18,actuelle,VENTE,greg,0.0004567,486.98,stop-loss (-30%) PnL -231.37$ coût 2.8%
