@@ -6210,3 +6210,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 12:04:13,prudente,VENTE,PUNANI,0.002248,5.71,stop-loss (-21%) PnL -1.59$ coût 1.0%
 2026-11-21 12:13:13,hasard,VENTE,HOGE,0.0007938,656.96,durée max 12h PnL -6.88$ coût 2.2%
 2026-11-21 12:13:13,hasard,ACHAT,XV,0.0002038655374,659.11,score 51 coût 4.4%
+2026-11-21 15:14:55,prudente,ACHAT,SHIT,0.001124306882,7.28,score 85 coût 1.0%
+2026-11-21 15:14:55,prudente,ACHAT,JENSEN,0.00215864815,7.27,score 78 coût 1.0%
+2026-11-21 15:14:55,actuelle,VENTE,XV,6.969e-05,196.91,stop-loss (-72%) PnL -531.30$ coût 2.8%
+2026-11-21 15:14:55,actuelle,ACHAT,SHIT,0.001141610193,719.05,score 85 coût 2.6%
+2026-11-21 15:14:55,actuelle,ACHAT,RIEMANN,0.0008127530425,718.34,score 65 coût 3.3%
+2026-11-21 15:14:55,hasard,VENTE,XV,6.969e-05,218.62,stop-loss (-66%) PnL -440.49$ coût 3.0%
+2026-11-21 15:14:55,hasard,ACHAT,SHIT,0.001140007871,653.14,score 85 coût 2.4%
+2026-11-21 15:15:58,actuelle,ACHAT,jingyu,0.0001139747745,718.00,score 65 coût 6.7%
+2026-11-21 15:18:55,prudente,VENTE,SHIT,0.001504,4.82,palier +30% PnL +1.18$ coût 1.0%
