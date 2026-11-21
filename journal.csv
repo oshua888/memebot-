@@ -6284,3 +6284,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 19:00:57,prudente,ACHAT,Singularity,0.0009438189226,7.47,score 79 coût 1.0%
 2026-11-21 19:09:56,agressive,VENTE,MAYA,0.001791,210.86,stop-loss (-44%) PnL -172.69$ coût 1.4%
 2026-11-21 19:09:56,agressive,ACHAT,FIONA,0.00180686945,369.60,score 75 coût 1.6%
+2026-11-21 19:18:56,prudente,VENTE,Singularity,0.0007038,5.51,stop-loss (-25%) PnL -1.96$ coût 1.0%
