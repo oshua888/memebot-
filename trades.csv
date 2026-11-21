@@ -2852,3 +2852,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-21 15:14,2026-11-21 18:02,actuelle,SHIT,boost,trailing-stop,2.8,88.11,85,91567,12.12,87.6,3.634,0.717,-3.38,43.29,41.71,1
 2026-11-21 15:14,2026-11-21 18:02,hasard,SHIT,boost,trailing-stop,2.8,88.5,85,91567,12.12,87.6,3.634,0.717,-3.38,43.29,41.71,1
 2026-11-21 17:57,2026-11-21 18:12,prudente,Singularity,tendance,trailing-stop,0.25,52.48,78,53061,7.86,21.9,11.722,0.586,-1.97,39.17,498,0
+2026-11-21 18:00,2026-11-21 18:16,prudente,SHIT,boost,stop-loss (-23%),0.25,-23.78,85,142357,18.18,90.4,1.706,0.77,4.78,22.49,316,1

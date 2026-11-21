@@ -6263,3 +6263,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 18:06:57,prudente,VENTE,Singularity,0.0007144,2.95,palier +60% PnL +1.10$ coût 1.0%
 2026-11-21 18:12:57,prudente,VENTE,Singularity,0.0007953,3.29,trailing-stop PnL +1.44$ coût 1.0%
 2026-11-21 18:12:57,prudente,ACHAT,Singularity,0.0008034172655,7.43,score 78 coût 1.0%
+2026-11-21 18:16:03,prudente,VENTE,SHIT,0.002019,5.65,stop-loss (-23%) PnL -1.76$ coût 1.0%
