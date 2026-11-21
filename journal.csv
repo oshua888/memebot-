@@ -6184,3 +6184,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 04:39:18,actuelle,VENTE,HUGH,0.0001009,405.61,stop-loss (-46%) PnL -375.19$ coût 4.1%
 2026-11-21 04:39:18,agressive,VENTE,HUGH,0.0001009,215.36,stop-loss (-45%) PnL -189.13$ coût 2.6%
 2026-11-21 04:46:18,agressive,ACHAT,JENSEN,0.001164341169,395.48,score 50 coût 2.0%
+2026-11-21 06:55:16,actuelle,VENTE,BTC,0.000101,187.34,stop-loss (-75%) PnL -583.67$ coût 2.8%
+2026-11-21 06:55:16,actuelle,ACHAT,PUNANI,0.002637507644,744.50,score 63 coût 2.3%
+2026-11-21 06:55:16,hasard,VENTE,Huss,0.0004224,885.97,durée max 12h PnL +208.63$ coût 4.8%
+2026-11-21 06:55:16,hasard,ACHAT,PUNANI,0.002634120757,669.73,score 63 coût 2.2%
