@@ -6274,3 +6274,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 18:27:57,actuelle,VENTE,SHIT,0.001698,491.16,stop-loss (-30%) PnL -227.19$ coût 1.9%
 2026-11-21 18:27:57,hasard,VENTE,SHIT,0.001698,454.06,stop-loss (-30%) PnL -209.06$ coût 1.8%
 2026-11-21 18:27:57,hasard,ACHAT,ROCKET,0.0009162614596,649.99,score 67 coût 2.6%
+2026-11-21 18:29:59,prudente,VENTE,NOHR,0.001984,3.97,trailing-stop PnL +0.28$ coût 1.0%
+2026-11-21 18:31:56,prudente,VENTE,Singularity,0.001102,5.05,palier +30% PnL +1.33$ coût 1.0%
