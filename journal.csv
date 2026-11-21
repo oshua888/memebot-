@@ -6229,3 +6229,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 15:49:55,hasard,ACHAT,JENSEN,0.001672409335,658.23,score 77 coût 2.4%
 2026-11-21 15:56:55,actuelle,VENTE,RIEMANN,0.0005573,478.46,stop-loss (-31%) PnL -239.87$ coût 2.9%
 2026-11-21 16:04:55,actuelle,ACHAT,Bigfoot,0.0001345324256,718.53,score 62 coût 6.6%
+2026-11-21 16:17:56,actuelle,VENTE,Bigfoot,8.874e-05,448.16,stop-loss (-34%) PnL -270.37$ coût 5.4%
