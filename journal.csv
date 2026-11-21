@@ -6192,3 +6192,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 07:54:13,hasard,VENTE,Singularity,8.931e-05,370.19,stop-loss (-42%) PnL -292.97$ coût 4.6%
 2026-11-21 08:07:13,hasard,ACHAT,MAYA,0.003143002239,662.85,score 58 coût 2.1%
 2026-11-21 08:08:15,actuelle,ACHAT,Rings,0.002814280656,743.22,score 65 coût 2.1%
+2026-11-21 08:13:14,hasard,VENTE,BUCKME,0.0001135,549.94,durée max 12h PnL -131.80$ coût 5.6%
