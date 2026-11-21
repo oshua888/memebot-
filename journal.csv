@@ -6219,3 +6219,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 15:14:55,hasard,ACHAT,SHIT,0.001140007871,653.14,score 85 coût 2.4%
 2026-11-21 15:15:58,actuelle,ACHAT,jingyu,0.0001139747745,718.00,score 65 coût 6.7%
 2026-11-21 15:18:55,prudente,VENTE,SHIT,0.001504,4.82,palier +30% PnL +1.18$ coût 1.0%
+2026-11-21 15:22:56,prudente,VENTE,SHIT,0.001812,2.90,palier +60% PnL +1.08$ coût 1.0%
+2026-11-21 15:22:56,actuelle,VENTE,SHIT,0.001812,370.43,palier +50% PnL +133.15$ coût 1.6%
+2026-11-21 15:22:56,hasard,VENTE,SHIT,0.001812,337.15,palier +50% PnL +121.62$ coût 1.6%
+2026-11-21 15:23:55,prudente,VENTE,JENSEN,0.001626,5.42,stop-loss (-25%) PnL -1.85$ coût 1.0%
