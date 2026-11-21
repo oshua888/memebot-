@@ -6318,3 +6318,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 23:05:20,actuelle,VENTE,SBS,0.0002064,342.40,palier +50% PnL +108.34$ coût 3.0%
 2026-11-21 23:06:18,agressive,VENTE,SBS,0.0002143,235.72,palier +100% PnL +116.32$ coût 2.3%
 2026-11-21 23:08:18,hasard,VENTE,SBS,0.000231,428.71,palier +100% PnL +214.48$ coût 3.3%
+2026-11-21 23:17:18,actuelle,VENTE,SBS,0.0001666,551.82,trailing-stop PnL +76.60$ coût 4.6%
+2026-11-21 23:17:18,actuelle,ACHAT,Singularity,0.0004982604554,713.02,score 60 coût 3.5%
+2026-11-21 23:17:18,hasard,VENTE,SBS,0.0001666,310.34,trailing-stop PnL +96.10$ coût 3.0%
+2026-11-21 23:17:18,hasard,ACHAT,SBS,0.0001749835849,653.08,score 58 coût 5.0%
