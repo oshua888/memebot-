@@ -6189,3 +6189,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 06:55:16,hasard,VENTE,Huss,0.0004224,885.97,durée max 12h PnL +208.63$ coût 4.8%
 2026-11-21 06:55:16,hasard,ACHAT,PUNANI,0.002634120757,669.73,score 63 coût 2.2%
 2026-11-21 07:43:14,actuelle,ACHAT,SI,0.0004821662918,745.84,score 68 coût 4.2%
+2026-11-21 07:54:13,hasard,VENTE,Singularity,8.931e-05,370.19,stop-loss (-42%) PnL -292.97$ coût 4.6%
