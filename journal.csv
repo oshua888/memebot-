@@ -6197,3 +6197,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 08:48:12,agressive,VENTE,Singularity,7.844e-05,224.32,stop-loss (-41%) PnL -172.03$ coût 3.3%
 2026-11-21 08:49:12,agressive,ACHAT,PUNANI,0.002839549227,392.32,score 54 coût 1.7%
 2026-11-21 08:59:14,actuelle,VENTE,SI,0.0002831,422.97,stop-loss (-41%) PnL -322.87$ coût 3.4%
+2026-11-21 11:03:12,actuelle,VENTE,PUNANI,0.001659,458.81,stop-loss (-37%) PnL -285.68$ coût 2.0%
+2026-11-21 11:03:12,agressive,VENTE,PUNANI,0.001659,225.77,stop-loss (-42%) PnL -166.55$ coût 1.5%
+2026-11-21 11:03:12,hasard,VENTE,PUNANI,0.001659,413.70,stop-loss (-37%) PnL -256.04$ coût 1.9%
