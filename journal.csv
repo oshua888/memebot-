@@ -6252,3 +6252,11 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 17:57:56,prudente,ACHAT,Singularity,0.0004434115017,7.40,score 78 coût 1.0%
 2026-11-21 17:58:56,agressive,VENTE,Huss,0.0003012,405.93,durée max 24h PnL -15.87$ coût 2.9%
 2026-11-21 17:58:56,agressive,ACHAT,SHIT,0.003044931166,380.64,score 82 coût 1.5%
+2026-11-21 17:59:56,prudente,VENTE,SHIT,0.003302,3.12,palier +60% PnL +1.27$ coût 1.0%
+2026-11-21 18:00:57,prudente,VENTE,SHIT,0.002596,2.45,trailing-stop PnL +0.61$ coût 1.0%
+2026-11-21 18:00:57,prudente,ACHAT,SHIT,0.002622230261,7.41,score 85 coût 1.0%
+2026-11-21 18:01:56,prudente,VENTE,Singularity,0.0006112,5.05,palier +30% PnL +1.35$ coût 1.0%
+2026-11-21 18:02:56,actuelle,VENTE,SHIT,0.002388,495.12,trailing-stop PnL +254.23$ coût 1.7%
+2026-11-21 18:02:56,actuelle,ACHAT,SHIT,0.002437007291,718.35,score 87 coût 2.1%
+2026-11-21 18:02:56,hasard,VENTE,SHIT,0.002388,450.67,trailing-stop PnL +231.87$ coût 1.7%
+2026-11-21 18:02:56,hasard,ACHAT,SHIT,0.002435075514,663.12,score 87 coût 2.0%
