@@ -6234,3 +6234,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 16:28:58,hasard,VENTE,JENSEN,0.001167,449.58,stop-loss (-30%) PnL -208.65$ coût 2.1%
 2026-11-21 16:28:58,hasard,ACHAT,Bigfoot,0.0001406718983,654.20,score 33 coût 5.9%
 2026-11-21 16:37:58,prudente,VENTE,Singularity,0.0001908,5.08,palier +30% PnL +1.43$ coût 1.0%
+2026-11-21 16:41:58,prudente,VENTE,SHIT,0.001977,4.76,palier +30% PnL +1.12$ coût 1.0%
