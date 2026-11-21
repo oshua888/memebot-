@@ -2847,3 +2847,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-21 16:26,2026-11-21 17:08,prudente,Singularity,tendance,trailing-stop,0.7,110.58,70,27901,4.57,20.3,1.761,0.56,-3.56,53.59,47.44,0
 2026-11-21 16:28,2026-11-21 17:09,hasard,Bigfoot,profil,trailing-stop,0.68,33.66,33,26552,4.83,2.7,3.276,0.584,27.48,97.26,357,0
 2026-11-21 15:29,2026-11-21 17:21,prudente,SHIT,boost,trailing-stop,1.87,28.63,71,105873,13.96,87.9,4.022,0.714,-17.44,96.37,111,1
+2026-11-20 17:58,2026-11-21 17:58,agressive,Huss,tendance,durée max 24h,24.01,-3.76,53,40581,6.93,96.5,4.145,0.519,-10.44,16.77,-39.94,0
