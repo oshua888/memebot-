@@ -6269,3 +6269,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 18:22:01,hasard,VENTE,MAYA,0.001976,409.15,stop-loss (-37%) PnL -253.70$ coût 1.8%
 2026-11-21 18:22:01,hasard,ACHAT,NOHR,0.002397170114,654.82,score 39 coût 2.2%
 2026-11-21 18:22:59,prudente,VENTE,NOHR,0.002378,4.76,palier +30% PnL +1.07$ coût 1.0%
+2026-11-21 18:25:58,agressive,VENTE,SHIT,0.001824,224.86,stop-loss (-40%) PnL -155.78$ coût 1.4%
+2026-11-21 18:25:58,agressive,ACHAT,ROCKET,0.0008831483208,373.15,score 67 coût 1.9%
+2026-11-21 18:27:57,actuelle,VENTE,SHIT,0.001698,491.16,stop-loss (-30%) PnL -227.19$ coût 1.9%
+2026-11-21 18:27:57,hasard,VENTE,SHIT,0.001698,454.06,stop-loss (-30%) PnL -209.06$ coût 1.8%
+2026-11-21 18:27:57,hasard,ACHAT,ROCKET,0.0009162614596,649.99,score 67 coût 2.6%
