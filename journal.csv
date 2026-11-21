@@ -6168,3 +6168,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 02:13:19,actuelle,VENTE,SBS,0.0002247,407.70,palier +50% PnL +156.45$ coût 3.4%
 2026-11-21 02:13:19,hasard,VENTE,SBS,0.0002247,358.67,palier +50% PnL +139.84$ coût 3.1%
 2026-11-21 02:17:19,actuelle,ACHAT,JENSEN,0.00183135423,772.08,score 62 coût 2.6%
+2026-11-21 02:27:19,actuelle,VENTE,SBS,0.0001551,561.87,trailing-stop PnL +51.76$ coût 5.0%
+2026-11-21 02:27:19,actuelle,ACHAT,SBS,0.000164678268,770.25,score 64 coût 6.2%
+2026-11-21 02:27:19,hasard,VENTE,SBS,0.0001551,495.35,trailing-stop PnL +51.06$ coût 4.5%
+2026-11-21 02:27:19,hasard,ACHAT,SBS,0.0001635350894,660.56,score 64 coût 5.4%
