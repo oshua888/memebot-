@@ -6150,3 +6150,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 00:02:17,actuelle,ACHAT,FIONA,0.001359478302,774.89,score 64 coût 2.4%
 2026-11-21 00:11:16,hasard,VENTE,CATMARIO,4.764e-05,414.12,stop-loss (-35%) PnL -260.92$ coût 5.1%
 2026-11-21 00:12:16,hasard,ACHAT,HOGE,0.0007843970863,663.84,score 35 coût 2.2%
+2026-11-21 00:20:18,prudente,ACHAT,PATRICK,0.0001923835016,7.33,score 72 coût 1.0%
+2026-11-21 00:20:18,actuelle,ACHAT,PATRICK,0.0002007178882,775.34,score 72 coût 5.4%
