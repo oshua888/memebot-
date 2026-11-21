@@ -6289,3 +6289,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 19:19:56,agressive,VENTE,JENSEN,0.0006619,220.94,stop-loss (-43%) PnL -174.54$ coût 1.7%
 2026-11-21 19:20:56,prudente,VENTE,FIONA,0.001577,4.08,trailing-stop PnL +0.35$ coût 1.0%
 2026-11-21 19:20:56,prudente,ACHAT,FIONA,0.001592961335,7.44,score 74 coût 1.0%
+2026-11-21 19:38:56,actuelle,ACHAT,chud,0.0005237064112,708.85,score 62 coût 3.8%
+2026-11-21 19:38:56,agressive,ACHAT,chud,0.0005170309805,369.87,score 62 coût 2.4%
