@@ -6227,3 +6227,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 15:29:56,prudente,ACHAT,SHIT,0.001498034109,7.29,score 71 coût 1.0%
 2026-11-21 15:49:55,hasard,VENTE,Christmax,0.0003395,797.31,durée max 12h PnL +132.32$ coût 5.0%
 2026-11-21 15:49:55,hasard,ACHAT,JENSEN,0.001672409335,658.23,score 77 coût 2.4%
+2026-11-21 15:56:55,actuelle,VENTE,RIEMANN,0.0005573,478.46,stop-loss (-31%) PnL -239.87$ coût 2.9%
