@@ -6311,3 +6311,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 21:40:19,prudente,VENTE,FIONA,0.001272,5.88,stop-loss (-20%) PnL -1.56$ coût 1.0%
 2026-11-21 21:42:19,actuelle,ACHAT,CoT,0.001729686656,704.05,score 64 coût 2.7%
 2026-11-21 21:53:19,agressive,VENTE,BUCKME,0.0001562,416.83,durée max 24h PnL +13.08$ coût 3.8%
+2026-11-21 21:59:19,hasard,VENTE,Rings,0.003796,330.34,palier +50% PnL +113.35$ coût 1.4%
