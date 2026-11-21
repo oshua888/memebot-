@@ -6157,3 +6157,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 01:07:19,hasard,VENTE,Singularity,0.0001504,488.69,trailing-stop PnL +40.46$ coût 4.6%
 2026-11-21 01:07:19,hasard,ACHAT,FIONA,0.001315427573,668.41,score 45 coût 2.3%
 2026-11-21 01:08:19,prudente,VENTE,PATRICK,0.000146,5.50,stop-loss (-24%) PnL -1.82$ coût 1.0%
+2026-11-21 01:13:19,actuelle,VENTE,BANDANA,0.0001961,513.06,stop-loss (-31%) PnL -260.06$ coût 4.4%
