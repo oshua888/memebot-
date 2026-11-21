@@ -6146,3 +6146,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-20 23:16:23,agressive,VENTE,AI,0.000109,224.60,stop-loss (-43%) PnL -180.64$ coût 2.5%
 2026-11-20 23:16:23,agressive,ACHAT,Singularity,0.0001340323562,396.35,score 62 coût 4.0%
 2026-11-20 23:17:22,prudente,VENTE,Trader,0.0003628,2.22,trailing-stop PnL +0.40$ coût 1.0%
+2026-11-20 23:59:17,actuelle,VENTE,Trader,0.0003409,619.22,trailing-stop PnL +100.67$ coût 2.3%
