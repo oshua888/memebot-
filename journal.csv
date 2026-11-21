@@ -6294,3 +6294,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 19:48:57,prudente,VENTE,greg,0.0005109,5.79,stop-loss (-20%) PnL -1.54$ coût 1.0%
 2026-11-21 20:05:56,prudente,ACHAT,chud,0.0004029187464,7.43,score 76 coût 1.0%
 2026-11-21 20:08:56,actuelle,VENTE,Rings,0.003006,777.14,durée max 12h PnL +33.93$ coût 2.1%
+2026-11-21 20:09:56,actuelle,VENTE,chud,0.000352,461.00,stop-loss (-33%) PnL -247.84$ coût 3.2%
