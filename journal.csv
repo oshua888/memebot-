@@ -6160,3 +6160,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 01:13:19,actuelle,VENTE,BANDANA,0.0001961,513.06,stop-loss (-31%) PnL -260.06$ coût 4.4%
 2026-11-21 01:30:17,actuelle,VENTE,PATRICK,0.0001379,508.37,stop-loss (-31%) PnL -266.97$ coût 4.6%
 2026-11-21 01:39:18,hasard,VENTE,rockstar,7.58e-05,437.75,stop-loss (-33%) PnL -240.27$ coût 4.3%
+2026-11-21 01:49:18,actuelle,ACHAT,SBS,0.0001338084749,761.35,score 63 coût 6.8%
+2026-11-21 01:49:18,hasard,ACHAT,SBS,0.0001328722478,663.10,score 63 coût 6.0%
