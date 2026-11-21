@@ -2812,3 +2812,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-20 22:40,2026-11-21 01:07,hasard,Singularity,profil,trailing-stop,2.45,22.07,48,26102,4.52,2.6,14.061,0.582,24.24,-36.83,328,0
 2026-11-21 00:20,2026-11-21 01:08,prudente,PATRICK,tendance,stop-loss (-24%),0.8,-24.9,72,35091,5.22,17.4,3.309,0.548,-1.34,32.56,62.88,0
 2026-11-21 00:47,2026-11-21 01:13,actuelle,BANDANA,profil,stop-loss (-31%),0.43,-33.64,63,36913,7.28,2.3,4.863,0.575,0.9,6.84,801,0
+2026-11-21 00:20,2026-11-21 01:30,actuelle,PATRICK,tendance,stop-loss (-31%),1.17,-34.43,72,35091,5.22,17.4,3.309,0.548,-1.34,32.56,62.88,0
