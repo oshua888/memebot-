@@ -6307,3 +6307,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 21:17:19,hasard,VENTE,chud,0.0003358,433.42,stop-loss (-31%) PnL -213.12$ coût 3.2%
 2026-11-21 21:17:19,hasard,ACHAT,SBS,0.0001115893562,639.52,score 36 coût 6.0%
 2026-11-21 21:30:19,agressive,ACHAT,SBS,0.0001060378002,361.82,score 52 coût 3.9%
+2026-11-21 21:37:18,prudente,ACHAT,Rings,0.003524222828,7.40,score 70 coût 1.0%
+2026-11-21 21:40:19,prudente,VENTE,FIONA,0.001272,5.88,stop-loss (-20%) PnL -1.56$ coût 1.0%
