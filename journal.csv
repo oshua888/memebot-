@@ -6208,3 +6208,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 11:56:13,actuelle,ACHAT,XV,0.0002505897519,728.21,score 66 coût 4.4%
 2026-11-21 11:58:12,prudente,VENTE,MAYA,0.002817,5.73,stop-loss (-21%) PnL -1.58$ coût 1.0%
 2026-11-21 12:04:13,prudente,VENTE,PUNANI,0.002248,5.71,stop-loss (-21%) PnL -1.59$ coût 1.0%
+2026-11-21 12:13:13,hasard,VENTE,HOGE,0.0007938,656.96,durée max 12h PnL -6.88$ coût 2.2%
+2026-11-21 12:13:13,hasard,ACHAT,XV,0.0002038655374,659.11,score 51 coût 4.4%
