@@ -6174,3 +6174,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 02:27:19,hasard,ACHAT,SBS,0.0001635350894,660.56,score 64 coût 5.4%
 2026-11-21 02:35:22,hasard,VENTE,SBS,0.0002467,319.79,palier +50% PnL +101.80$ coût 2.8%
 2026-11-21 02:48:18,actuelle,ACHAT,BTC,0.0004041245711,771.01,score 63 coût 4.6%
+2026-11-21 03:05:17,hasard,VENTE,SBS,0.0001805,468.77,trailing-stop PnL +26.20$ coût 4.0%
