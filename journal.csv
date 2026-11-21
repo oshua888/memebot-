@@ -6246,3 +6246,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 17:21:58,prudente,VENTE,SHIT,0.001916,4.61,trailing-stop PnL +0.97$ coût 1.0%
 2026-11-21 17:21:58,prudente,ACHAT,SHIT,0.001935392814,7.39,score 79 coût 1.0%
 2026-11-21 17:40:59,prudente,ACHAT,RIEMANN,0.001199093389,7.38,score 72 coût 1.0%
+2026-11-21 17:52:56,actuelle,VENTE,SHIT,0.002349,487.05,palier +100% PnL +246.17$ coût 1.7%
+2026-11-21 17:52:56,hasard,VENTE,SHIT,0.002349,443.32,palier +100% PnL +224.52$ coût 1.7%
+2026-11-21 17:53:56,prudente,VENTE,SHIT,0.002692,5.09,palier +30% PnL +1.39$ coût 1.0%
