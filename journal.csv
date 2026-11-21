@@ -6179,3 +6179,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-21 03:22:18,hasard,VENTE,PATRICK,0.0001066,421.57,stop-loss (-34%) PnL -243.45$ coût 4.4%
 2026-11-21 03:49:18,hasard,ACHAT,Christmax,0.0002690874297,664.99,score 28 coût 4.7%
 2026-11-21 03:51:18,actuelle,VENTE,SBS,0.0002499,374.05,palier +50% PnL +119.86$ coût 3.0%
+2026-11-21 04:04:18,actuelle,VENTE,SBS,0.0001791,536.12,trailing-stop PnL +20.05$ coût 4.5%
