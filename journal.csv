@@ -6413,3 +6413,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 18:38:04,actuelle,VENTE,MCAT,0.0001446,421.56,stop-loss (-38%) PnL -287.14$ coût 4.0%
 2026-11-22 18:38:04,hasard,VENTE,MCAT,0.0001446,389.59,stop-loss (-38%) PnL -261.82$ coût 3.7%
 2026-11-22 19:08:04,actuelle,VENTE,PushCoin,0.001352,546.14,trailing-stop PnL +73.07$ coût 2.3%
+2026-11-22 19:10:04,agressive,VENTE,FIONA,0.00142,286.14,durée max 24h PnL -83.45$ coût 1.5%
+2026-11-22 19:11:04,agressive,VENTE,Singularity,0.0005325,226.30,stop-loss (-41%) PnL -161.35$ coût 1.7%
+2026-11-22 19:13:04,agressive,ACHAT,MCAT,0.0001135070172,377.92,score 59 coût 3.9%
