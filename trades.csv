@@ -2889,3 +2889,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-21 21:15,2026-11-22 04:32,actuelle,Rings,tendance,trailing-stop,7.29,12.4,60,143397,20.1,266.1,0.358,0.718,0.23,0.23,19.61,0
 2026-11-21 11:10,2026-11-22 04:32,hasard,Rings,tendance,trailing-stop,17.37,28.45,36,125762,18.58,256.0,0.038,0.507,0.26,4.25,1.53,0
 2026-11-22 04:32,2026-11-22 04:46,actuelle,CATEMAS,profil,stop-loss (-36%),0.23,-37.7,64,49005,5.11,2.3,3.253,0.572,-1.53,22.8,447,0
+2026-11-21 21:37,2026-11-22 05:37,prudente,Rings,tendance,durée max 8h,8.01,-17.76,70,155243,21.79,266.5,0.399,0.701,7.43,19.55,40.62,0
