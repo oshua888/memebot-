@@ -6422,3 +6422,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 19:37:04,agressive,ACHAT,OpenIndex,0.0003503039789,372.82,score 63 coût 2.7%
 2026-11-22 19:37:04,hasard,ACHAT,OpenIndex,0.0003545406041,640.80,score 63 coût 4.0%
 2026-11-22 19:43:04,agressive,VENTE,PushCoin,0.0009929,218.29,stop-loss (-42%) PnL -166.88$ coût 1.6%
+2026-11-22 19:45:04,agressive,ACHAT,snowball,0.0001702613463,371.51,score 50 coût 3.3%
