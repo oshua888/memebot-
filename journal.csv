@@ -6454,3 +6454,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 22:28:05,agressive,ACHAT,SIDOOR,0.0003160651815,372.85,score 79 coût 2.8%
 2026-11-22 22:35:05,actuelle,VENTE,SIDOOR,0.0002737,476.21,trailing-stop PnL +7.56$ coût 3.5%
 2026-11-22 22:35:05,actuelle,ACHAT,SIDOOR,0.000286132223,698.47,score 79 coût 4.5%
+2026-11-22 22:39:05,hasard,VENTE,MCAT,0.000363,439.19,stop-loss (-32%) PnL -220.23$ coût 1.9%
+2026-11-22 22:39:05,hasard,ACHAT,UCASH,0.001178567763,656.16,score 37 coût 2.7%
+2026-11-22 22:43:05,prudente,VENTE,SIDOOR,0.0002598,5.69,stop-loss (-22%) PnL -1.68$ coût 1.0%
