@@ -6380,3 +6380,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 11:17:07,actuelle,ACHAT,FIONA,0.00175569433,703.84,score 68 coût 2.1%
 2026-11-22 11:18:07,actuelle,VENTE,Singularity,0.0006306,869.16,durée max 12h PnL +156.13$ coût 3.7%
 2026-11-22 11:24:07,actuelle,ACHAT,Singularity,0.0007953229302,700.51,score 60 coût 2.9%
+2026-11-22 11:38:07,prudente,VENTE,snowball,0.0002777,5.84,stop-loss (-20%) PnL -1.56$ coût 1.0%
+2026-11-22 11:41:07,hasard,VENTE,jingyu,7.821e-05,428.23,stop-loss (-30%) PnL -219.84$ coût 5.2%
