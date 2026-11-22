@@ -6388,3 +6388,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 12:16:07,actuelle,VENTE,Singularity,0.001242,354.67,palier +50% PnL +123.50$ coût 1.8%
 2026-11-22 12:20:08,agressive,VENTE,Singularity,0.001353,249.54,palier +100% PnL +124.89$ coût 1.5%
 2026-11-22 12:20:08,hasard,VENTE,Singularity,0.001353,432.77,palier +100% PnL +217.48$ coût 1.9%
+2026-11-22 12:43:07,actuelle,VENTE,Singularity,0.0009771,562.97,trailing-stop PnL +93.63$ coût 2.4%
+2026-11-22 12:43:07,actuelle,ACHAT,Singularity,0.001003154555,703.73,score 78 coût 2.7%
+2026-11-22 12:43:07,hasard,VENTE,Singularity,0.0009771,312.95,trailing-stop PnL +97.66$ coût 1.8%
+2026-11-22 12:43:07,hasard,ACHAT,Singularity,0.00100202584,654.95,score 78 coût 2.6%
+2026-11-22 12:44:07,hasard,VENTE,snowball,0.0004525,332.66,palier +50% PnL +120.90$ coût 2.3%
