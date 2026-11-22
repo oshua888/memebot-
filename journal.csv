@@ -6356,3 +6356,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 06:49:41,hasard,ACHAT,snowball,0.0001653993686,636.87,score 65 coût 5.5%
 2026-11-22 06:57:40,actuelle,VENTE,GRAUDIA,1.637e-06,6.59,stop-loss (-99%) PnL -707.71$ coût 1.8%
 2026-11-22 07:01:40,actuelle,VENTE,snowball,0.000215,341.48,palier +50% PnL +111.44$ coût 3.1%
+2026-11-22 07:10:42,actuelle,VENTE,snowball,0.0001616,512.57,trailing-stop PnL +45.52$ coût 4.7%
