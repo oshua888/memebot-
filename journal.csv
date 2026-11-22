@@ -6360,3 +6360,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 07:20:41,actuelle,ACHAT,snowball,0.0001655260625,690.73,score 64 coût 5.8%
 2026-11-22 07:37:41,actuelle,VENTE,snowball,0.0002661,355.68,palier +50% PnL +127.74$ coût 2.9%
 2026-11-22 07:37:41,hasard,VENTE,snowball,0.0002661,328.71,palier +50% PnL +118.54$ coût 2.8%
+2026-11-22 09:38:07,actuelle,VENTE,snowball,0.0003938,532.40,palier +100% PnL +301.00$ coût 3.3%
+2026-11-22 09:38:07,agressive,VENTE,snowball,0.0003938,335.47,palier +100% PnL +215.92$ coût 2.4%
+2026-11-22 09:38:07,hasard,VENTE,Christmax,0.0002974,512.27,durée max 12h PnL -129.36$ coût 3.7%
+2026-11-22 09:38:07,hasard,VENTE,PushCoin,0.001166,427.24,stop-loss (-32%) PnL -210.35$ coût 2.1%
+2026-11-22 09:38:07,hasard,VENTE,snowball,0.0003938,492.16,palier +100% PnL +278.81$ coût 3.1%
+2026-11-22 09:39:06,agressive,VENTE,snowball,0.0004291,370.76,palier +200% PnL +249.41$ coût 2.5%
