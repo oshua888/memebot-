@@ -2916,3 +2916,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-22 04:32,2026-11-22 17:44,hasard,FIONA,tendance,durée max 12h,13.19,-9.76,54,127688,12.96,55.7,0.267,0.659,-0.26,-5.2,3.72,0
 2026-11-22 12:43,2026-11-22 18:20,actuelle,Singularity,tendance,stop-loss (-34%),5.62,-35.36,78,84455,11.0,40.6,3.067,0.563,-14.46,9.3,95.21,0
 2026-11-22 12:43,2026-11-22 18:20,hasard,Singularity,tendance,stop-loss (-34%),5.62,-35.23,78,84455,11.0,40.6,3.067,0.563,-14.46,9.3,95.21,0
+2026-11-21 18:25,2026-11-22 18:26,agressive,ROCKET,profil,durée max 24h,24.0,-4.02,67,82050,10.22,6.7,0.044,0.71,1.53,9.83,40663,0
