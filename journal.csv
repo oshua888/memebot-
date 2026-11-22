@@ -6400,3 +6400,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 13:55:08,agressive,VENTE,Singularity,0.0008791,328.09,trailing-stop PnL +75.03$ coût 1.8%
 2026-11-22 13:55:08,agressive,ACHAT,Singularity,0.0008964002641,387.65,score 56 coût 2.0%
 2026-11-22 13:55:08,hasard,VENTE,snowball,0.0003017,437.64,stop-loss (-32%) PnL -224.31$ coût 3.1%
+2026-11-22 14:11:08,hasard,ACHAT,Max,0.0006124669069,655.81,score 33 coût 2.3%
