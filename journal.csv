@@ -6327,3 +6327,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 00:05:18,prudente,VENTE,SBS,0.0001511,5.77,stop-loss (-21%) PnL -1.64$ coût 1.0%
 2026-11-22 00:14:18,agressive,VENTE,SBS,0.0001491,329.90,trailing-stop PnL +87.48$ coût 3.2%
 2026-11-22 00:37:19,hasard,ACHAT,jingyu,0.0001122294891,648.08,score 43 coût 6.2%
+2026-11-22 00:52:16,prudente,VENTE,RIEMANN,0.0009585,5.84,stop-loss (-20%) PnL -1.54$ coût 1.0%
