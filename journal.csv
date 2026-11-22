@@ -6457,3 +6457,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 22:39:05,hasard,VENTE,MCAT,0.000363,439.19,stop-loss (-32%) PnL -220.23$ coût 1.9%
 2026-11-22 22:39:05,hasard,ACHAT,UCASH,0.001178567763,656.16,score 37 coût 2.7%
 2026-11-22 22:43:05,prudente,VENTE,SIDOOR,0.0002598,5.69,stop-loss (-22%) PnL -1.68$ coût 1.0%
+2026-11-22 22:47:05,actuelle,VENTE,OpenIndex,0.0002913,464.93,stop-loss (-31%) PnL -235.92$ coût 3.4%
+2026-11-22 22:47:05,hasard,VENTE,OpenIndex,0.0002913,391.19,stop-loss (-39%) PnL -269.05$ coût 3.0%
+2026-11-22 22:47:05,hasard,ACHAT,SIDOOR,0.0002467899653,653.59,score 64 coût 4.6%
