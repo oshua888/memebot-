@@ -6346,3 +6346,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 04:59:41,actuelle,ACHAT,SBS,0.0001960776392,703.66,score 60 coût 5.1%
 2026-11-22 05:37:40,prudente,VENTE,Rings,0.002928,6.09,durée max 8h PnL -1.31$ coût 1.0%
 2026-11-22 05:49:41,actuelle,VENTE,SBS,0.000134,460.31,stop-loss (-32%) PnL -243.35$ coût 4.3%
+2026-11-22 06:21:41,actuelle,VENTE,ROCKET,0.0008544,690.70,durée max 12h PnL -20.39$ coût 2.7%
