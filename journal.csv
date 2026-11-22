@@ -6450,3 +6450,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 22:15:05,actuelle,VENTE,SIDOOR,0.0003915,339.09,palier +50% PnL +108.26$ coût 2.5%
 2026-11-22 22:21:07,hasard,VENTE,Rings,0.002801,572.86,durée max 12h PnL -67.50$ coût 1.8%
 2026-11-22 22:21:07,hasard,ACHAT,OpenIndex,0.0004770338029,660.24,score 63 coût 3.6%
+2026-11-22 22:28:05,agressive,VENTE,snowball,9.432e-05,200.24,stop-loss (-45%) PnL -171.28$ coût 2.7%
+2026-11-22 22:28:05,agressive,ACHAT,SIDOOR,0.0003160651815,372.85,score 79 coût 2.8%
