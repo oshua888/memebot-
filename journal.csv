@@ -6418,3 +6418,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 19:13:04,agressive,ACHAT,MCAT,0.0001135070172,377.92,score 59 coût 3.9%
 2026-11-22 19:22:04,agressive,VENTE,MCAT,5.608e-05,181.00,stop-loss (-51%) PnL -196.92$ coût 3.1%
 2026-11-22 19:30:04,actuelle,VENTE,FIONA,0.00122,479.87,stop-loss (-31%) PnL -223.97$ coût 1.9%
+2026-11-22 19:37:04,actuelle,ACHAT,OpenIndex,0.0003553910683,694.59,score 63 coût 4.2%
+2026-11-22 19:37:04,agressive,ACHAT,OpenIndex,0.0003503039789,372.82,score 63 coût 2.7%
+2026-11-22 19:37:04,hasard,ACHAT,OpenIndex,0.0003545406041,640.80,score 63 coût 4.0%
