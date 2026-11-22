@@ -6410,3 +6410,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 18:20:04,hasard,VENTE,Singularity,0.0006638,424.20,stop-loss (-34%) PnL -230.75$ coût 2.2%
 2026-11-22 18:26:04,agressive,VENTE,ROCKET,0.000864,358.16,durée max 24h PnL -15.00$ coût 1.9%
 2026-11-22 18:26:04,agressive,ACHAT,PushCoin,0.001723702908,385.18,score 53 coût 1.8%
+2026-11-22 18:38:04,actuelle,VENTE,MCAT,0.0001446,421.56,stop-loss (-38%) PnL -287.14$ coût 4.0%
+2026-11-22 18:38:04,hasard,VENTE,MCAT,0.0001446,389.59,stop-loss (-38%) PnL -261.82$ coût 3.7%
