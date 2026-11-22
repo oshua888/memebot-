@@ -6358,3 +6358,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 07:01:40,actuelle,VENTE,snowball,0.000215,341.48,palier +50% PnL +111.44$ coût 3.1%
 2026-11-22 07:10:42,actuelle,VENTE,snowball,0.0001616,512.57,trailing-stop PnL +45.52$ coût 4.7%
 2026-11-22 07:20:41,actuelle,ACHAT,snowball,0.0001655260625,690.73,score 64 coût 5.8%
+2026-11-22 07:37:41,actuelle,VENTE,snowball,0.0002661,355.68,palier +50% PnL +127.74$ coût 2.9%
+2026-11-22 07:37:41,hasard,VENTE,snowball,0.0002661,328.71,palier +50% PnL +118.54$ coût 2.8%
