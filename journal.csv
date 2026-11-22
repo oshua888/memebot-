@@ -6383,3 +6383,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 11:38:07,prudente,VENTE,snowball,0.0002777,5.84,stop-loss (-20%) PnL -1.56$ coût 1.0%
 2026-11-22 11:41:07,hasard,VENTE,jingyu,7.821e-05,428.23,stop-loss (-30%) PnL -219.84$ coût 5.2%
 2026-11-22 11:51:07,hasard,VENTE,Singularity,0.001014,319.91,palier +50% PnL +107.83$ coût 1.8%
+2026-11-22 11:57:07,actuelle,VENTE,snowball,0.0002287,474.56,stop-loss (-30%) PnL -231.21$ coût 3.7%
