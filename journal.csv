@@ -6334,3 +6334,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 03:08:42,prudente,VENTE,GRAUDIA,0.0001834,4.87,palier +30% PnL +1.17$ coût 1.0%
 2026-11-22 03:10:42,prudente,VENTE,GRAUDIA,0.0001509,4.00,trailing-stop PnL +0.31$ coût 1.0%
 2026-11-22 03:11:42,prudente,ACHAT,GRAUDIA,0.000160070255,7.40,score 70 coût 1.1%
+2026-11-22 03:16:41,actuelle,VENTE,jingyu,0.0001176,691.79,durée max 12h PnL -26.21$ coût 6.6%
+2026-11-22 03:16:41,actuelle,ACHAT,GRAUDIA,0.0001742010786,714.30,score 69 coût 6.2%
