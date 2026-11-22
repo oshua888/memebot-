@@ -2938,3 +2938,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-22 22:05,2026-11-22 22:43,prudente,SIDOOR,tendance,stop-loss (-22%),0.63,-22.83,73,43366,7.1,25.3,1.644,0.593,5.82,12.2,79.83,0
 2026-11-22 22:12,2026-11-22 22:47,actuelle,OpenIndex,profil,stop-loss (-31%),0.58,-33.66,63,48498,8.05,4.7,3.273,0.562,1.99,5.12,1335,0
 2026-11-22 22:21,2026-11-22 22:47,hasard,OpenIndex,profil,stop-loss (-39%),0.43,-40.75,63,51422,8.56,4.9,2.69,0.559,8.72,7.97,1518,0
+2026-11-22 22:35,2026-11-22 22:53,actuelle,SIDOOR,tendance,stop-loss (-34%),0.3,-36.2,79,39436,6.48,25.8,3.197,0.608,-13.09,8.61,56.1,0
