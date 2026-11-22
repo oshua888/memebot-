@@ -6440,3 +6440,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 21:28:06,hasard,ACHAT,cateball,0.001626736131,657.60,score 70 coût 2.4%
 2026-11-22 21:29:05,hasard,ACHAT,MCAT,0.0005348792994,659.42,score 57 coût 2.0%
 2026-11-22 21:33:05,actuelle,ACHAT,SIDOOR,0.0002599190452,699.47,score 66 coût 4.7%
+2026-11-22 21:34:04,actuelle,VENTE,PushCoin,0.000104,434.39,stop-loss (-35%) PnL -265.06$ coût 5.0%
