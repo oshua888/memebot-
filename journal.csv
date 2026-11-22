@@ -6348,3 +6348,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 05:49:41,actuelle,VENTE,SBS,0.000134,460.31,stop-loss (-32%) PnL -243.35$ coût 4.3%
 2026-11-22 06:21:41,actuelle,VENTE,ROCKET,0.0008544,690.70,durée max 12h PnL -20.39$ coût 2.7%
 2026-11-22 06:28:40,hasard,VENTE,ROCKET,0.0008758,605.68,durée max 12h PnL -44.30$ coût 2.5%
+2026-11-22 06:43:41,agressive,VENTE,SBS,0.0001022,199.44,stop-loss (-45%) PnL -173.77$ coût 2.6%
+2026-11-22 06:43:41,hasard,VENTE,SBS,0.0001022,366.31,stop-loss (-42%) PnL -286.77$ coût 4.0%
+2026-11-22 06:45:41,actuelle,ACHAT,snowball,0.0001403443487,697.09,score 65 coût 6.4%
+2026-11-22 06:45:41,agressive,ACHAT,snowball,0.0001369218199,362.26,score 65 coût 3.8%
+2026-11-22 06:45:41,hasard,ACHAT,PushCoin,0.001702889579,637.58,score 40 coût 2.4%
