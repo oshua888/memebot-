@@ -6435,3 +6435,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 21:16:04,hasard,VENTE,IF,6.418e-05,409.15,trailing-stop PnL +193.71$ coût 2.9%
 2026-11-22 21:19:07,agressive,ACHAT,cateball,0.00130943725,368.88,score 51 coût 1.9%
 2026-11-22 21:21:06,agressive,ACHAT,MCAT,0.0005475811932,368.77,score 57 coût 1.6%
+2026-11-22 21:28:06,prudente,ACHAT,cateball,0.001604136018,7.37,score 70 coût 1.0%
+2026-11-22 21:28:06,actuelle,ACHAT,cateball,0.001628220597,700.31,score 70 coût 2.5%
+2026-11-22 21:28:06,hasard,ACHAT,cateball,0.001626736131,657.60,score 70 coût 2.4%
