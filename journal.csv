@@ -6433,3 +6433,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 21:05:04,actuelle,ACHAT,PushCoin,0.0001590458294,699.46,score 60 coût 6.1%
 2026-11-22 21:05:04,hasard,VENTE,OpenIndex,0.000465,545.09,trailing-stop PnL +115.75$ coût 3.2%
 2026-11-22 21:16:04,hasard,VENTE,IF,6.418e-05,409.15,trailing-stop PnL +193.71$ coût 2.9%
+2026-11-22 21:19:07,agressive,ACHAT,cateball,0.00130943725,368.88,score 51 coût 1.9%
+2026-11-22 21:21:06,agressive,ACHAT,MCAT,0.0005475811932,368.77,score 57 coût 1.6%
