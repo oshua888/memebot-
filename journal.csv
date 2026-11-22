@@ -6386,3 +6386,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 11:57:07,actuelle,VENTE,snowball,0.0002287,474.56,stop-loss (-30%) PnL -231.21$ coût 3.7%
 2026-11-22 12:09:07,prudente,ACHAT,PushCoin,0.001237477184,7.39,score 70 coût 1.0%
 2026-11-22 12:16:07,actuelle,VENTE,Singularity,0.001242,354.67,palier +50% PnL +123.50$ coût 1.8%
+2026-11-22 12:20:08,agressive,VENTE,Singularity,0.001353,249.54,palier +100% PnL +124.89$ coût 1.5%
+2026-11-22 12:20:08,hasard,VENTE,Singularity,0.001353,432.77,palier +100% PnL +217.48$ coût 1.9%
