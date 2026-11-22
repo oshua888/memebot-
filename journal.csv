@@ -6393,3 +6393,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 12:43:07,hasard,VENTE,Singularity,0.0009771,312.95,trailing-stop PnL +97.66$ coût 1.8%
 2026-11-22 12:43:07,hasard,ACHAT,Singularity,0.00100202584,654.95,score 78 coût 2.6%
 2026-11-22 12:44:07,hasard,VENTE,snowball,0.0004525,332.66,palier +50% PnL +120.90$ coût 2.3%
+2026-11-22 12:48:07,prudente,VENTE,PushCoin,0.0009149,5.41,stop-loss (-26%) PnL -1.98$ coût 1.0%
