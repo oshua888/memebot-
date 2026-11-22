@@ -2886,3 +2886,5 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-22 02:52,2026-11-22 03:10,prudente,GRAUDIA,profil,trailing-stop,0.3,20.1,70,25135,5.36,2.1,2.589,0.652,9.61,12.67,336,0
 2026-11-21 15:15,2026-11-22 03:16,actuelle,jingyu,tendance,durée max 12h,12.01,-3.65,65,25114,4.12,55.2,0.478,0.672,4.54,8.88,8.18,0
 2026-11-22 03:11,2026-11-22 03:31,prudente,GRAUDIA,profil,trailing-stop,0.33,21.25,70,27194,5.75,2.4,2.043,0.655,-9.89,51.42,406,0
+2026-11-21 21:15,2026-11-22 04:32,actuelle,Rings,tendance,trailing-stop,7.29,12.4,60,143397,20.1,266.1,0.358,0.718,0.23,0.23,19.61,0
+2026-11-21 11:10,2026-11-22 04:32,hasard,Rings,tendance,trailing-stop,17.37,28.45,36,125762,18.58,256.0,0.038,0.507,0.26,4.25,1.53,0
