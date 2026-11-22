@@ -6443,3 +6443,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 21:34:04,actuelle,VENTE,PushCoin,0.000104,434.39,stop-loss (-35%) PnL -265.06$ coût 5.0%
 2026-11-22 21:49:07,prudente,ACHAT,MCAT,0.0004900103951,7.38,score 71 coût 1.0%
 2026-11-22 21:49:07,actuelle,ACHAT,MCAT,0.0004955413062,694.76,score 71 coût 2.2%
+2026-11-22 21:58:05,prudente,VENTE,MCAT,0.0003916,5.84,stop-loss (-20%) PnL -1.54$ coût 1.0%
