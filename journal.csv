@@ -6447,3 +6447,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 22:02:05,prudente,VENTE,cateball,0.002151,4.89,palier +30% PnL +1.21$ coût 1.0%
 2026-11-22 22:05:06,prudente,ACHAT,SIDOOR,0.0003332101891,7.38,score 73 coût 1.0%
 2026-11-22 22:12:05,actuelle,ACHAT,OpenIndex,0.0004243914434,700.85,score 63 coût 3.9%
+2026-11-22 22:15:05,actuelle,VENTE,SIDOOR,0.0003915,339.09,palier +50% PnL +108.26$ coût 2.5%
