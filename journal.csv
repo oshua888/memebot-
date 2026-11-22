@@ -6406,3 +6406,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 17:54:04,actuelle,ACHAT,MCAT,0.0002334273311,708.70,score 63 coût 4.9%
 2026-11-22 17:54:04,hasard,ACHAT,MCAT,0.0002327237928,651.41,score 63 coût 4.6%
 2026-11-22 17:55:04,hasard,ACHAT,HOGE,0.0007429875554,649.82,score 27 coût 2.2%
+2026-11-22 18:20:04,actuelle,VENTE,Singularity,0.0006638,454.86,stop-loss (-34%) PnL -248.87$ coût 2.3%
+2026-11-22 18:20:04,hasard,VENTE,Singularity,0.0006638,424.20,stop-loss (-34%) PnL -230.75$ coût 2.2%
