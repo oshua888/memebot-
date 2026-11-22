@@ -2928,3 +2928,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-21 20:26,2026-11-22 20:27,agressive,Rings,tendance,durée max 24h,24.0,-3.78,55,141861,19.99,265.3,0.077,0.681,1.96,0.29,13.88,0
 2026-11-22 19:37,2026-11-22 21:05,actuelle,OpenIndex,profil,trailing-stop,1.47,35.0,63,43139,7.55,2.1,24.907,0.566,-25.16,26.88,1098,0
 2026-11-22 19:37,2026-11-22 21:05,hasard,OpenIndex,profil,trailing-stop,1.47,35.54,63,43139,7.55,2.1,24.907,0.566,-25.16,26.88,1098,0
+2026-11-22 20:15,2026-11-22 21:16,hasard,IF,profil,trailing-stop,1.02,130.45,18,32121,0.97,2.1,0.993,0.499,-21.31,-24.65,-69.9,0
