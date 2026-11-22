@@ -6429,3 +6429,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 20:27:05,agressive,VENTE,Rings,0.002899,348.76,durée max 24h PnL -13.71$ coût 1.5%
 2026-11-22 20:54:04,hasard,VENTE,IF,8.866e-05,554.95,palier +50% PnL +342.73$ coût 3.2%
 2026-11-22 20:55:04,hasard,VENTE,IF,8.145e-05,517.94,palier +100% PnL +302.50$ coût 3.1%
+2026-11-22 21:05:04,actuelle,VENTE,OpenIndex,0.000465,588.34,trailing-stop PnL +122.97$ coût 3.4%
+2026-11-22 21:05:04,actuelle,ACHAT,PushCoin,0.0001590458294,699.46,score 60 coût 6.1%
+2026-11-22 21:05:04,hasard,VENTE,OpenIndex,0.000465,545.09,trailing-stop PnL +115.75$ coût 3.2%
