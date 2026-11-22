@@ -6426,3 +6426,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 20:07:04,actuelle,VENTE,OpenIndex,0.0005544,349.39,palier +50% PnL +120.17$ coût 2.3%
 2026-11-22 20:07:04,hasard,VENTE,OpenIndex,0.0005544,323.42,palier +50% PnL +111.96$ coût 2.2%
 2026-11-22 20:15:05,hasard,ACHAT,IF,3.281383876e-05,643.11,score 18 coût 5.0%
+2026-11-22 20:27:05,agressive,VENTE,Rings,0.002899,348.76,durée max 24h PnL -13.71$ coût 1.5%
