@@ -6461,3 +6461,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 22:47:05,hasard,VENTE,OpenIndex,0.0002913,391.19,stop-loss (-39%) PnL -269.05$ coût 3.0%
 2026-11-22 22:47:05,hasard,ACHAT,SIDOOR,0.0002467899653,653.59,score 64 coût 4.6%
 2026-11-22 22:53:05,actuelle,VENTE,SIDOOR,0.0001898,445.61,stop-loss (-34%) PnL -252.85$ coût 3.8%
+2026-11-22 22:54:05,agressive,VENTE,SIDOOR,0.0001851,213.24,stop-loss (-41%) PnL -159.62$ coût 2.3%
