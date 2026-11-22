@@ -2913,3 +2913,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-22 10:20,2026-11-22 13:09,hasard,snowball,tendance,trailing-stop,2.82,69.96,50,40114,6.44,5.7,5.971,0.59,-4.67,-39.34,829,0
 2026-11-22 10:16,2026-11-22 13:55,agressive,Singularity,tendance,trailing-stop,3.65,52.93,54,68327,9.07,38.2,0.445,0.53,-5.08,15.1,21.41,0
 2026-11-22 13:09,2026-11-22 13:55,hasard,snowball,tendance,stop-loss (-32%),0.77,-33.89,54,51796,7.88,8.6,4.072,0.503,-22.08,72.37,151,0
+2026-11-22 04:32,2026-11-22 17:44,hasard,FIONA,tendance,durée max 12h,13.19,-9.76,54,127688,12.96,55.7,0.267,0.659,-0.26,-5.2,3.72,0
