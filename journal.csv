@@ -6416,3 +6416,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 19:10:04,agressive,VENTE,FIONA,0.00142,286.14,durée max 24h PnL -83.45$ coût 1.5%
 2026-11-22 19:11:04,agressive,VENTE,Singularity,0.0005325,226.30,stop-loss (-41%) PnL -161.35$ coût 1.7%
 2026-11-22 19:13:04,agressive,ACHAT,MCAT,0.0001135070172,377.92,score 59 coût 3.9%
+2026-11-22 19:22:04,agressive,VENTE,MCAT,5.608e-05,181.00,stop-loss (-51%) PnL -196.92$ coût 3.1%
