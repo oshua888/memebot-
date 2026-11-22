@@ -2902,3 +2902,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-21 21:42,2026-11-22 09:43,actuelle,CoT,boost,durée max 12h,12.01,11.82,64,85235,19.78,24.1,0.113,0.667,23.31,45.8,84.36,1
 2026-11-22 07:20,2026-11-22 09:50,actuelle,snowball,profil,trailing-stop,2.49,88.57,64,28572,5.23,2.8,10.515,0.592,1.66,56.88,438,0
 2026-11-22 06:49,2026-11-22 09:50,hasard,snowball,profil,trailing-stop,3.01,89.03,65,28405,5.28,2.2,8.131,0.601,14.9,35.22,439,0
+2026-11-22 06:45,2026-11-22 10:16,agressive,snowball,profil,trailing-stop,3.51,160.47,65,25808,4.89,2.2,9.115,0.602,23.44,54.04,354,0
