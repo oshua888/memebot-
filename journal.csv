@@ -6401,3 +6401,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 13:55:08,agressive,ACHAT,Singularity,0.0008964002641,387.65,score 56 coût 2.0%
 2026-11-22 13:55:08,hasard,VENTE,snowball,0.0003017,437.64,stop-loss (-32%) PnL -224.31$ coût 3.1%
 2026-11-22 14:11:08,hasard,ACHAT,Max,0.0006124669069,655.81,score 33 coût 2.3%
+2026-11-22 14:31:08,actuelle,VENTE,PushCoin,0.001877,375.55,palier +50% PnL +142.55$ coût 1.8%
