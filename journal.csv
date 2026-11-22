@@ -6403,3 +6403,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 14:11:08,hasard,ACHAT,Max,0.0006124669069,655.81,score 33 coût 2.3%
 2026-11-22 14:31:08,actuelle,VENTE,PushCoin,0.001877,375.55,palier +50% PnL +142.55$ coût 1.8%
 2026-11-22 17:44:04,hasard,VENTE,FIONA,0.001578,581.12,durée max 12h PnL -62.87$ coût 1.9%
+2026-11-22 17:54:04,actuelle,ACHAT,MCAT,0.0002334273311,708.70,score 63 coût 4.9%
+2026-11-22 17:54:04,hasard,ACHAT,MCAT,0.0002327237928,651.41,score 63 coût 4.6%
+2026-11-22 17:55:04,hasard,ACHAT,HOGE,0.0007429875554,649.82,score 27 coût 2.2%
