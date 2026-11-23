@@ -6515,3 +6515,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 06:45:42,prudente,ACHAT,NOHR,0.002191996284,7.40,score 70 coût 1.0%
 2026-11-23 06:48:42,hasard,VENTE,Fly,0.0001626,431.22,stop-loss (-31%) PnL -216.66$ coût 4.0%
 2026-11-23 06:48:42,hasard,ACHAT,NOHR,0.002266149116,642.27,score 71 coût 2.2%
+2026-11-23 06:53:41,hasard,VENTE,FSDV15,0.00335,318.98,palier +50% PnL +105.02$ coût 1.5%
