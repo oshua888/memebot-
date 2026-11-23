@@ -6603,3 +6603,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 19:09:22,agressive,VENTE,HUANG,9.016e-05,182.03,stop-loss (-41%) PnL -134.31$ coût 2.3%
 2026-11-23 19:10:22,agressive,ACHAT,FIONA,0.002628477029,312.26,score 74 coût 1.4%
 2026-11-23 19:18:22,agressive,ACHAT,Singularity,0.0001836284705,311.18,score 50 coût 2.6%
+2026-11-23 19:29:23,agressive,VENTE,OpenIndex,0.0002045,212.84,stop-loss (-42%) PnL -159.98$ coût 2.2%
+2026-11-23 19:30:23,actuelle,ACHAT,FIONA,0.002570883787,648.60,score 73 coût 1.8%
