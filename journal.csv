@@ -6533,3 +6533,17 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 08:37:43,prudente,VENTE,NOHR,0.00173,5.78,stop-loss (-21%) PnL -1.62$ coût 1.0%
 2026-11-23 08:38:43,hasard,VENTE,MINELIUS,0.01541,442.29,palier +100% PnL +225.01$ coût 1.3%
 2026-11-23 09:04:42,prudente,VENTE,PumpMeme,0.001135,5.74,stop-loss (-22%) PnL -1.67$ coût 1.0%
+2026-11-23 14:26:23,actuelle,VENTE,FSDV15,0.001035,265.59,stop-loss (-60%) PnL -415.79$ coût 1.7%
+2026-11-23 14:26:23,actuelle,VENTE,Fly,0.0001248,381.77,stop-loss (-41%) PnL -293.19$ coût 3.8%
+2026-11-23 14:26:23,actuelle,VENTE,NOHR,0.0008385,247.93,stop-loss (-63%) PnL -427.47$ coût 1.7%
+2026-11-23 14:26:23,actuelle,ACHAT,PumpMeme,0.001482387353,657.61,score 69 coût 2.4%
+2026-11-23 14:26:23,agressive,VENTE,cateball,0.0007354,203.78,stop-loss (-44%) PnL -165.10$ coût 1.6%
+2026-11-23 14:26:23,agressive,VENTE,MCAT,0.0002801,186.01,stop-loss (-49%) PnL -182.76$ coût 1.4%
+2026-11-23 14:26:23,agressive,VENTE,FSDV15,0.001035,126.84,stop-loss (-64%) PnL -231.60$ coût 1.3%
+2026-11-23 14:26:23,agressive,ACHAT,PumpMeme,0.00147263398,350.98,score 69 coût 1.8%
+2026-11-23 14:26:23,agressive,ACHAT,UCASH,0.002724624002,350.62,score 65 coût 1.5%
+2026-11-23 14:26:23,agressive,ACHAT,NOHR,0.0008551973978,350.30,score 52 coût 2.0%
+2026-11-23 14:26:23,hasard,VENTE,FSDV15,0.001035,200.01,stop-loss (-53%) PnL -234.40$ coût 1.5%
+2026-11-23 14:26:23,hasard,VENTE,NOHR,0.0008385,233.67,stop-loss (-63%) PnL -408.60$ coût 1.7%
+2026-11-23 14:26:23,hasard,ACHAT,jingyu,0.0001450548927,630.29,score 35 coût 5.1%
+2026-11-23 14:26:23,hasard,ACHAT,ROCKET,0.0008160607394,629.09,score 46 coût 2.6%
