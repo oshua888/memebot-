@@ -6561,3 +6561,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 15:40:24,agressive,ACHAT,MINELIUS,0.003524372673,328.22,score 51 coût 1.4%
 2026-11-23 15:49:30,prudente,ACHAT,JENSEN,0.0004690419851,7.38,score 70 coût 1.0%
 2026-11-23 15:49:30,actuelle,ACHAT,JENSEN,0.0004776993191,652.95,score 70 coût 2.9%
+2026-11-23 15:51:24,actuelle,VENTE,COPIUM,0.0007861,558.08,trailing-stop PnL +102.78$ coût 2.7%
+2026-11-23 15:54:24,prudente,VENTE,JENSEN,0.0006463,5.03,palier +30% PnL +1.34$ coût 1.0%
