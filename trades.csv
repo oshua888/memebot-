@@ -2946,3 +2946,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-23 00:25,2026-11-23 00:30,actuelle,XMAS,profil,stop-loss (-43%),0.08,-45.53,60,25680,5.33,2.0,5.045,0.791,0.98,-1.38,297,0
 2026-11-23 00:11,2026-11-23 00:46,prudente,FSDV15,boost+profil,trailing-stop,0.58,26.32,75,113365,21.4,2.4,1.494,0.816,-11.47,16.32,6189,1
 2026-11-22 23:46,2026-11-23 00:51,actuelle,FSDV15,boost+profil,trailing-stop,1.08,31.94,81,104394,19.83,2.0,4.062,0.814,7.13,23.6,5265,1
+2026-11-22 00:57,2026-11-23 00:57,agressive,jingyu,tendance,durée max 24h,24.0,-6.58,57,25028,4.09,64.8,0.433,0.698,2.62,8.39,-5.5,0

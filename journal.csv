@@ -6484,3 +6484,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 00:51:22,actuelle,VENTE,FSDV15,0.002555,543.85,trailing-stop PnL +82.70$ coût 2.0%
 2026-11-23 00:51:22,actuelle,ACHAT,FSDV15,0.002610505332,681.38,score 78 coût 2.2%
 2026-11-23 00:51:22,actuelle,ACHAT,ZOL,0.0002211241692,680.81,score 60 coût 5.2%
+2026-11-23 00:57:22,agressive,VENTE,jingyu,0.0001067,350.31,durée max 24h PnL -24.67$ coût 3.8%
+2026-11-23 00:57:22,agressive,ACHAT,FSDV15,0.002885995824,358.44,score 77 coût 1.6%
