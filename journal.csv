@@ -6486,3 +6486,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 00:51:22,actuelle,ACHAT,ZOL,0.0002211241692,680.81,score 60 coût 5.2%
 2026-11-23 00:57:22,agressive,VENTE,jingyu,0.0001067,350.31,durée max 24h PnL -24.67$ coût 3.8%
 2026-11-23 00:57:22,agressive,ACHAT,FSDV15,0.002885995824,358.44,score 77 coût 1.6%
+2026-11-23 01:05:22,prudente,VENTE,OpenIndex,0.0004682,6.12,palier +30% PnL +2.44$ coût 1.0%
+2026-11-23 01:06:22,prudente,VENTE,OpenIndex,0.000448,2.93,palier +60% PnL +1.09$ coût 1.0%
+2026-11-23 01:08:22,prudente,VENTE,OpenIndex,0.0003643,2.38,trailing-stop PnL +0.54$ coût 1.0%
+2026-11-23 01:08:22,prudente,VENTE,FSDV15,0.00218,5.61,stop-loss (-23%) PnL -1.78$ coût 1.0%
