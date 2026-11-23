@@ -6492,3 +6492,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 01:08:22,prudente,VENTE,FSDV15,0.00218,5.61,stop-loss (-23%) PnL -1.78$ coût 1.0%
 2026-11-23 01:25:21,actuelle,VENTE,ZOL,0.0001477,434.83,stop-loss (-33%) PnL -245.98$ coût 4.4%
 2026-11-23 01:25:21,actuelle,ACHAT,UCASH,0.001645031982,674.13,score 61 coût 2.4%
+2026-11-23 01:42:21,prudente,ACHAT,UCASH,0.001645544321,7.41,score 70 coût 1.0%
