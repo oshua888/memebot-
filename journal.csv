@@ -6559,3 +6559,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 15:39:23,hasard,VENTE,MINELIUS,0.005849,168.08,trailing-stop PnL -49.20$ coût 1.2%
 2026-11-23 15:39:23,hasard,ACHAT,JENSEN,0.0006052949266,623.49,score 55 coût 2.6%
 2026-11-23 15:40:24,agressive,ACHAT,MINELIUS,0.003524372673,328.22,score 51 coût 1.4%
+2026-11-23 15:49:30,prudente,ACHAT,JENSEN,0.0004690419851,7.38,score 70 coût 1.0%
+2026-11-23 15:49:30,actuelle,ACHAT,JENSEN,0.0004776993191,652.95,score 70 coût 2.9%
