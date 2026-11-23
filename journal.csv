@@ -6565,3 +6565,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 15:54:24,prudente,VENTE,JENSEN,0.0006463,5.03,palier +30% PnL +1.34$ coût 1.0%
 2026-11-23 16:08:26,prudente,VENTE,JENSEN,0.0005622,4.38,trailing-stop PnL +0.69$ coût 1.0%
 2026-11-23 16:10:28,prudente,ACHAT,JENSEN,0.0005528799067,7.40,score 71 coût 1.0%
+2026-11-23 16:16:24,prudente,VENTE,JENSEN,0.0007455,4.94,palier +30% PnL +1.24$ coût 1.0%
+2026-11-23 16:16:24,actuelle,VENTE,JENSEN,0.0007455,330.37,palier +50% PnL +114.89$ coût 1.8%
+2026-11-23 16:18:24,hasard,VENTE,HUSS,0.0001757,332.82,palier +50% PnL +120.46$ coût 3.0%
