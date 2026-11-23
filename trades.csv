@@ -2985,3 +2985,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-23 15:49,2026-11-23 16:08,prudente,JENSEN,profil,trailing-stop,0.32,27.52,70,69244,6.43,188.7,34.686,0.563,-18.59,41.89,5801,0
 2026-11-23 16:10,2026-11-23 16:25,prudente,JENSEN,profil,trailing-stop,0.25,22.56,71,75783,6.93,189.0,10.873,0.569,-12.93,5.86,6856,0
 2026-11-23 15:49,2026-11-23 16:33,actuelle,JENSEN,profil,trailing-stop,0.73,26.8,70,69244,6.43,188.7,34.686,0.563,-18.59,41.89,5801,0
+2026-11-23 15:39,2026-11-23 16:43,hasard,JENSEN,profil,stop-loss (-32%),1.07,-33.46,55,78310,7.23,188.5,33.773,0.56,13.54,345,7399,0
