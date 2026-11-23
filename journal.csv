@@ -6597,3 +6597,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 18:50:26,hasard,VENTE,Singularity,0.0001696,407.55,stop-loss (-30%) PnL -196.35$ coût 3.3%
 2026-11-23 18:50:26,hasard,ACHAT,HUANG,0.0001335277828,603.31,score 48 coût 4.6%
 2026-11-23 18:55:23,hasard,VENTE,SIDOOR,0.0002914,414.50,stop-loss (-31%) PnL -202.78$ coût 3.0%
+2026-11-23 18:58:23,hasard,VENTE,FIONA,0.002488,299.54,palier +50% PnL +99.01$ coût 1.4%
