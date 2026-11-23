@@ -6527,3 +6527,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 07:56:42,prudente,VENTE,MINELIUS,0.01208,3.02,palier +60% PnL +1.18$ coût 1.0%
 2026-11-23 08:03:44,hasard,ACHAT,HUSS,0.0001087459154,643.49,score 51 coût 6.1%
 2026-11-23 08:04:43,actuelle,VENTE,MCAT,0.0003429,471.43,stop-loss (-31%) PnL -223.33$ coût 1.9%
+2026-11-23 08:17:42,actuelle,ACHAT,COPIUM,0.0006239945447,679.56,score 67 coût 3.4%
