@@ -6512,3 +6512,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 06:18:44,hasard,VENTE,UCASH,0.001073,441.28,stop-loss (-30%) PnL -206.93$ coût 2.1%
 2026-11-23 06:18:44,hasard,ACHAT,hCAT,0.000147248158,644.65,score 50 coût 5.9%
 2026-11-23 06:28:42,prudente,VENTE,MINELIUS,0.009658,4.84,palier +30% PnL +1.16$ coût 1.0%
+2026-11-23 06:45:42,prudente,ACHAT,NOHR,0.002191996284,7.40,score 70 coût 1.0%
+2026-11-23 06:48:42,hasard,VENTE,Fly,0.0001626,431.22,stop-loss (-31%) PnL -216.66$ coût 4.0%
+2026-11-23 06:48:42,hasard,ACHAT,NOHR,0.002266149116,642.27,score 71 coût 2.2%
