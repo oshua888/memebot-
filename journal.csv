@@ -6573,3 +6573,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 16:39:24,actuelle,ACHAT,MINELIUS,0.003890022832,654.40,score 63 coût 1.9%
 2026-11-23 16:43:23,hasard,VENTE,JENSEN,0.0004122,414.84,stop-loss (-32%) PnL -208.65$ coût 2.3%
 2026-11-23 16:43:23,hasard,ACHAT,MINELIUS,0.003906711173,620.58,score 54 coût 1.8%
+2026-11-23 16:51:23,actuelle,VENTE,PumpMeme,0.001035,448.98,stop-loss (-30%) PnL -208.63$ coût 2.2%
+2026-11-23 16:52:23,hasard,VENTE,PumpMeme,0.0009868,420.81,stop-loss (-33%) PnL -220.66$ coût 2.2%
+2026-11-23 16:53:23,hasard,VENTE,HUSS,0.0001313,496.86,trailing-stop PnL +65.72$ coût 4.6%
+2026-11-23 16:54:23,actuelle,ACHAT,COPIUM,0.0006614145705,654.05,score 61 coût 3.2%
