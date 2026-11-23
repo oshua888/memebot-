@@ -6477,3 +6477,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 00:12:21,hasard,ACHAT,COPIUM,0.000684706257,657.22,score 50 coût 3.3%
 2026-11-23 00:25:22,actuelle,ACHAT,XMAS,0.0001469301232,692.60,score 60 coût 6.4%
 2026-11-23 00:30:22,actuelle,VENTE,XMAS,8.425e-05,377.23,stop-loss (-43%) PnL -315.38$ coût 5.0%
+2026-11-23 00:40:22,prudente,VENTE,FSDV15,0.00346,5.14,palier +30% PnL +1.45$ coût 1.0%
+2026-11-23 00:40:22,actuelle,VENTE,FSDV15,0.00346,364.26,palier +50% PnL +137.13$ coût 1.5%
