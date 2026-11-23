@@ -6506,3 +6506,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 05:46:45,prudente,VENTE,UCASH,0.001298,5.79,stop-loss (-21%) PnL -1.62$ coût 1.0%
 2026-11-23 05:55:43,hasard,VENTE,HOGE,0.000618,529.19,durée max 12h PnL -120.63$ coût 2.1%
 2026-11-23 05:55:43,hasard,ACHAT,Fly,0.0002346350081,647.89,score 64 coût 4.6%
+2026-11-23 06:03:41,actuelle,VENTE,UCASH,0.001136,455.55,stop-loss (-31%) PnL -218.58$ coût 2.1%
+2026-11-23 06:03:41,actuelle,ACHAT,Fly,0.0002121660928,674.97,score 63 coût 5.0%
