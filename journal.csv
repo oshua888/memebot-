@@ -6588,3 +6588,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 17:56:24,agressive,ACHAT,sexcoin,0.0002257743021,324.24,score 58 coût 2.4%
 2026-11-23 18:11:24,agressive,VENTE,PumpMeme,0.000851,199.59,stop-loss (-42%) PnL -151.39$ coût 1.6%
 2026-11-23 18:16:24,agressive,VENTE,sexcoin,0.00013,182.81,stop-loss (-42%) PnL -141.43$ coût 2.1%
+2026-11-23 18:22:24,hasard,VENTE,sexcoin,0.0001152,373.96,stop-loss (-36%) PnL -230.61$ coût 3.4%
+2026-11-23 18:22:24,hasard,ACHAT,Singularity,0.0002430573394,603.90,score 28 coût 3.8%
