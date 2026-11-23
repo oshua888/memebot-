@@ -6498,3 +6498,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 02:11:21,hasard,ACHAT,ZOL,0.0001560375516,659.71,score 45 coût 5.9%
 2026-11-23 02:38:25,hasard,VENTE,COPIUM,0.0004578,426.98,stop-loss (-33%) PnL -230.24$ coût 2.8%
 2026-11-23 02:38:25,hasard,ACHAT,MINELIUS,0.007471918764,648.61,score 47 coût 1.6%
+2026-11-23 02:41:22,hasard,VENTE,UCASH,0.001336,487.59,trailing-stop PnL +47.97$ coût 2.2%
+2026-11-23 02:41:22,hasard,ACHAT,FSDV15,0.002213883238,648.37,score 54 coût 2.2%
