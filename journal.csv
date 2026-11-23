@@ -6469,3 +6469,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-22 23:46:21,actuelle,ACHAT,FSDV15,0.002124134875,688.29,score 81 coût 2.3%
 2026-11-22 23:51:21,prudente,VENTE,cateball,0.001983,4.51,trailing-stop PnL +0.82$ coût 1.0%
 2026-11-22 23:52:22,prudente,ACHAT,OpenIndex,0.0002786594618,7.36,score 71 coût 1.0%
+2026-11-23 00:05:21,prudente,VENTE,FSDV15,0.002746,4.77,palier +30% PnL +1.09$ coût 1.0%
+2026-11-23 00:07:21,hasard,VENTE,SIDOOR,0.0004082,347.92,palier +50% PnL +132.24$ coût 2.5%
