@@ -6503,3 +6503,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 02:48:18,hasard,VENTE,ZOL,0.0001075,431.89,stop-loss (-31%) PnL -227.82$ coût 5.0%
 2026-11-23 02:48:18,hasard,ACHAT,UCASH,0.001542448404,648.21,score 74 coût 2.4%
 2026-11-23 03:43:20,prudente,ACHAT,COPIUM,0.0004568607177,7.40,score 78 coût 1.0%
+2026-11-23 05:46:45,prudente,VENTE,UCASH,0.001298,5.79,stop-loss (-21%) PnL -1.62$ coût 1.0%
