@@ -6532,3 +6532,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 08:32:42,actuelle,VENTE,MINELIUS,0.01471,459.06,palier +100% PnL +227.37$ coût 1.3%
 2026-11-23 08:37:43,prudente,VENTE,NOHR,0.00173,5.78,stop-loss (-21%) PnL -1.62$ coût 1.0%
 2026-11-23 08:38:43,hasard,VENTE,MINELIUS,0.01541,442.29,palier +100% PnL +225.01$ coût 1.3%
+2026-11-23 09:04:42,prudente,VENTE,PumpMeme,0.001135,5.74,stop-loss (-22%) PnL -1.67$ coût 1.0%
