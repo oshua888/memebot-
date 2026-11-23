@@ -6593,3 +6593,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 18:34:25,actuelle,ACHAT,HUANG,0.0001558059821,653.91,score 61 coût 4.6%
 2026-11-23 18:34:25,agressive,ACHAT,HUANG,0.0001530095201,316.33,score 61 coût 2.8%
 2026-11-23 18:35:25,actuelle,VENTE,COPIUM,0.001017,325.66,palier +50% PnL +109.83$ coût 1.9%
+2026-11-23 18:49:24,prudente,ACHAT,FIONA,0.002389877739,7.42,score 70 coût 1.0%
+2026-11-23 18:50:26,hasard,VENTE,Singularity,0.0001696,407.55,stop-loss (-30%) PnL -196.35$ coût 3.3%
+2026-11-23 18:50:26,hasard,ACHAT,HUANG,0.0001335277828,603.31,score 48 coût 4.6%
