@@ -6673,3 +6673,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 12:19:55,hasard,ACHAT,DUVAL,0.0004523071728,610.55,score 34 coût 3.5%
 2026-11-24 12:33:55,agressive,VENTE,COPIUM,0.000382,169.04,stop-loss (-50%) PnL -174.89$ coût 1.7%
 2026-11-24 12:33:55,agressive,ACHAT,DONJENSEN,0.002237671575,308.28,score 54 coût 1.6%
+2026-11-24 12:46:55,hasard,VENTE,JIMMY,0.0004474,298.44,palier +50% PnL +96.93$ coût 2.2%
