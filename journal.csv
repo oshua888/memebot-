@@ -6653,3 +6653,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 05:44:46,actuelle,VENTE,JIMMY,0.0003294,477.53,trailing-stop PnL +39.73$ coût 3.2%
 2026-11-24 05:53:46,prudente,VENTE,JIMMY,0.0002891,5.46,stop-loss (-26%) PnL -2.03$ coût 1.0%
 2026-11-24 05:55:46,prudente,VENTE,Jesus,0.0005073,2.64,trailing-stop PnL +0.77$ coût 1.0%
+2026-11-24 05:59:46,agressive,VENTE,JIMMY,0.0002855,280.28,trailing-stop PnL +70.22$ coût 2.4%
+2026-11-24 05:59:46,agressive,ACHAT,JIMMY,0.0002926645709,312.86,score 59 coût 2.5%
