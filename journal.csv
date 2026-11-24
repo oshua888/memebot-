@@ -6707,3 +6707,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 16:03:54,agressive,VENTE,Rings,0.001809,178.90,stop-loss (-43%) PnL -136.53$ coût 1.3%
 2026-11-24 16:03:54,agressive,ACHAT,cateball,0.0009876130943,312.65,score 58 coût 1.9%
 2026-11-24 16:08:53,actuelle,VENTE,Memeployed,0.0001162,471.73,trailing-stop PnL +34.86$ coût 4.5%
+2026-11-24 16:29:54,hasard,VENTE,Memeployed,0.0002424,343.05,palier +50% PnL +144.38$ coût 2.6%
