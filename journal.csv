@@ -6695,3 +6695,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 14:42:55,agressive,VENTE,JIMMY,0.0009155,321.76,palier +200% PnL +216.95$ coût 1.9%
 2026-11-24 14:45:55,actuelle,VENTE,cateball,0.0008589,412.60,stop-loss (-35%) PnL -238.80$ coût 2.2%
 2026-11-24 15:14:57,prudente,VENTE,DONJENSEN,0.001832,5.79,stop-loss (-22%) PnL -1.72$ coût 1.0%
+2026-11-24 15:19:53,hasard,VENTE,SHHFT,7.028e-05,298.55,stop-loss (-49%) PnL -310.59$ coût 4.3%
+2026-11-24 15:19:53,hasard,ACHAT,MCAT,0.0001639127631,604.42,score 22 coût 2.8%
