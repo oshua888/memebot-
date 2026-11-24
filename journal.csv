@@ -6655,3 +6655,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 05:55:46,prudente,VENTE,Jesus,0.0005073,2.64,trailing-stop PnL +0.77$ coût 1.0%
 2026-11-24 05:59:46,agressive,VENTE,JIMMY,0.0002855,280.28,trailing-stop PnL +70.22$ coût 2.4%
 2026-11-24 05:59:46,agressive,ACHAT,JIMMY,0.0002926645709,312.86,score 59 coût 2.5%
+2026-11-24 06:03:45,actuelle,ACHAT,UCASH,0.0001472401337,656.52,score 62 coût 5.2%
+2026-11-24 06:05:45,actuelle,VENTE,Jesus,0.0004579,534.75,trailing-stop PnL +92.98$ coût 3.3%
+2026-11-24 06:05:45,hasard,VENTE,Jesus,0.0004579,538.84,trailing-stop PnL +129.25$ coût 3.3%
+2026-11-24 06:05:45,hasard,ACHAT,JIMMY,0.0002955659168,610.64,score 58 coût 4.0%
