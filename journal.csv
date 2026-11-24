@@ -6686,3 +6686,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 13:45:54,hasard,VENTE,JIMMY,0.0005955,402.43,palier +100% PnL +197.87$ coût 2.4%
 2026-11-24 13:48:54,actuelle,VENTE,Rings,0.00206,451.40,stop-loss (-30%) PnL -208.38$ coût 1.7%
 2026-11-24 14:00:56,prudente,ACHAT,cateball,0.001218281347,7.50,score 78 coût 1.0%
+2026-11-24 14:26:56,hasard,VENTE,Rings,0.002135,502.71,durée max 12h PnL -109.61$ coût 1.7%
+2026-11-24 14:27:56,prudente,VENTE,cateball,0.0009742,5.94,stop-loss (-20%) PnL -1.56$ coût 1.0%
+2026-11-24 14:27:56,hasard,VENTE,MCAT,0.0001628,653.93,durée max 12h PnL +40.98$ coût 2.9%
