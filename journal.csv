@@ -6665,3 +6665,9 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 07:04:45,prudente,VENTE,UCASH,0.0002139,5.27,palier +30% PnL +1.51$ coût 1.0%
 2026-11-24 07:08:45,prudente,VENTE,UCASH,0.000254,3.13,palier +60% PnL +1.25$ coût 1.0%
 2026-11-24 07:08:45,actuelle,VENTE,UCASH,0.000254,363.52,palier +50% PnL +146.86$ coût 2.7%
+2026-11-24 12:19:55,prudente,VENTE,UCASH,2.956e-06,0.04,stop-loss (-98%) PnL -1.84$ coût 1.0%
+2026-11-24 12:19:55,actuelle,VENTE,FIONA,0.003319,552.18,trailing-stop PnL +117.61$ coût 1.6%
+2026-11-24 12:19:55,actuelle,VENTE,UCASH,2.956e-06,8.70,stop-loss (-98%) PnL -431.17$ coût 1.5%
+2026-11-24 12:19:55,actuelle,ACHAT,DONJENSEN,0.002239302281,645.31,score 61 coût 2.2%
+2026-11-24 12:19:55,hasard,VENTE,FIONA,0.003319,405.41,trailing-stop PnL +201.84$ coût 1.4%
+2026-11-24 12:19:55,hasard,ACHAT,DUVAL,0.0004523071728,610.55,score 34 coût 3.5%
