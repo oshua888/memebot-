@@ -3038,3 +3038,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-24 06:05,2026-11-24 15:54,hasard,JIMMY,tendance,trailing-stop,9.82,101.4,58,41222,6.44,8.9,1.612,0.601,-2.99,-28.53,16.01,0
 2026-11-24 05:34,2026-11-24 16:03,agressive,Rings,tendance,stop-loss (-43%),10.49,-43.28,51,169408,17.66,322.4,0.05,0.695,-0.21,-9.62,40.24,0
 2026-11-24 15:47,2026-11-24 16:08,actuelle,Memeployed,profil,trailing-stop,0.35,21.12,68,25853,3.62,2.0,2.797,0.632,-7.19,10.43,111,0
+2026-11-24 05:59,2026-11-24 16:42,agressive,JIMMY,tendance,trailing-stop,10.72,143.95,59,41453,6.43,8.8,1.616,0.605,-5.81,-20.71,3.09,0
