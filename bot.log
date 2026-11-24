@@ -6170,3 +6170,70 @@ agressive    10521.95$  +952.2%  +9236.74$17480513.33$  158/452     5
 hasard       30636.74$ +2963.7% +29002.29$12421561.29$  346/644     5
 apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 241 — 2026-11-24 05:51:37 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  80 tokens trouvés, analyse en cours…
+  10 retenus / 80 ; rejets : liquidité faible ×53, volume faible ×32, trop récent ×28, trop ancien ×14, FDV/liquidité trop élevé ×5, RugCheck: Large Amount of LP Unlocked ×1, RugCheck: liquidité non verrouillée ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       751.72$   -24.8%   -248.31$   78.81$  386/303     2
+actuelle     32843.56$ +3184.4% +31439.72$12586800.82$  305/573     3
+agressive    10490.54$  +949.1%  +9236.74$17480513.33$  158/452     5
+hasard       30625.25$ +2962.5% +29002.29$12421561.29$  346/644     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 242 — 2026-11-24 05:52:37 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  81 tokens trouvés, analyse en cours…
+  10 retenus / 81 ; rejets : liquidité faible ×57, volume faible ×35, trop récent ×29, trop ancien ×14, FDV/liquidité trop élevé ×3, RugCheck: Large Amount of LP Unlocked ×1, RugCheck: liquidité non verrouillée ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       751.59$   -24.8%   -248.31$   78.81$  386/303     2
+actuelle     32875.64$ +3187.6% +31439.72$12586800.82$  305/573     3
+agressive    10486.39$  +948.6%  +9236.74$17480513.33$  158/452     5
+hasard       30658.06$ +2965.8% +29002.29$12421561.29$  346/644     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 243 — 2026-11-24 05:53:37 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  81 tokens trouvés, analyse en cours…
+  10 retenus / 81 ; rejets : liquidité faible ×55, volume faible ×34, trop récent ×28, trop ancien ×14, FDV/liquidité trop élevé ×3, RugCheck: Large Amount of LP Unlocked ×1, RugCheck: liquidité non verrouillée ×1
+  [prudente] VENTE JIMMY @ 0.0002891$ — 5.46$ stop-loss (-26%) PnL -2.03$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       750.78$   -24.9%   -250.34$   78.87$  386/304     1
+actuelle     32888.41$ +3188.8% +31439.72$12586800.82$  305/573     3
+agressive    10446.94$  +944.7%  +9236.74$17480513.33$  158/452     5
+hasard       30661.59$ +2966.2% +29002.29$12421561.29$  346/644     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 244 — 2026-11-24 05:54:37 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  81 tokens trouvés, analyse en cours…
+  10 retenus / 81 ; rejets : liquidité faible ×56, volume faible ×34, trop récent ×29, trop ancien ×14, FDV/liquidité trop élevé ×4, RugCheck: Large Amount of LP Unlocked ×1, RugCheck: liquidité non verrouillée ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       750.81$   -24.9%   -250.34$   78.87$  386/304     1
+actuelle     32896.18$ +3189.6% +31439.72$12586800.82$  305/573     3
+agressive    10442.39$  +944.2%  +9236.74$17480513.33$  158/452     5
+hasard       30679.30$ +2967.9% +29002.29$12421561.29$  346/644     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 245 — 2026-11-24 05:55:37 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  81 tokens trouvés, analyse en cours…
+  10 retenus / 81 ; rejets : liquidité faible ×56, volume faible ×36, trop récent ×29, trop ancien ×14, FDV/liquidité trop élevé ×4, RugCheck: Large Amount of LP Unlocked ×1, RugCheck: liquidité non verrouillée ×1
+  [prudente] VENTE Jesus @ 0.0005073$ — 2.64$ trailing-stop PnL +0.77$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       750.43$   -25.0%   -249.57$   78.90$  387/304     0
+actuelle     32805.64$ +3180.6% +31439.72$12586800.82$  305/573     3
+agressive    10442.28$  +944.2%  +9236.74$17480513.33$  158/452     5
+hasard       30567.78$ +2956.8% +29002.29$12421561.29$  346/644     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
