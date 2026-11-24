@@ -6634,3 +6634,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 04:00:47,prudente,VENTE,JIMMY,0.0003966,5.20,palier +30% PnL +1.48$ coût 1.0%
 2026-11-24 04:02:47,agressive,VENTE,JIMMY,0.000435,211.50,palier +100% PnL +108.04$ coût 1.8%
 2026-11-24 04:16:48,prudente,ACHAT,GROKIA,0.002217245605,7.49,score 79 coût 1.0%
+2026-11-24 04:26:46,prudente,VENTE,JIMMY,0.0003603,4.73,trailing-stop PnL +1.00$ coût 1.0%
+2026-11-24 04:27:45,prudente,ACHAT,JIMMY,0.0003924046755,7.48,score 70 coût 1.0%
+2026-11-24 04:29:45,actuelle,VENTE,CHIBI,8.594e-05,419.00,stop-loss (-33%) PnL -239.08$ coût 5.0%
