@@ -3005,3 +3005,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-23 16:54,2026-11-24 01:51,actuelle,COPIUM,boost,trailing-stop,8.96,19.21,61,60317,10.52,19.2,0.886,0.635,-1.74,4.36,8.75,1
 2026-11-23 14:26,2026-11-24 02:26,hasard,jingyu,tendance,durée max 12h,12.01,-18.91,35,30654,4.37,102.3,0.107,0.567,-2.85,1.49,2.27,0
 2026-11-23 14:26,2026-11-24 02:26,hasard,ROCKET,boost,durée max 12h,12.01,-11.35,46,79399,9.7,50.8,0.009,0.501,-2.4,5.07,52.09,1
+2026-11-23 18:49,2026-11-24 02:31,prudente,FIONA,boost+tendance,trailing-stop,7.71,47.09,70,161215,14.44,93.9,1.833,0.517,-3.59,55.16,48.18,1
