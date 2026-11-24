@@ -6681,3 +6681,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 13:19:55,actuelle,VENTE,DUVAL,0.0004776,317.87,palier +50% PnL +103.46$ coût 2.2%
 2026-11-24 13:28:59,actuelle,VENTE,DUVAL,0.0003421,458.06,trailing-stop PnL +22.75$ coût 3.1%
 2026-11-24 13:29:56,actuelle,ACHAT,cateball,0.001325815275,651.40,score 66 coût 2.5%
+2026-11-24 13:35:54,actuelle,VENTE,JIMMY,0.0005282,331.73,palier +50% PnL +115.90$ coût 2.2%
