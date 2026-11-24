@@ -6724,3 +6724,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 22:43:35,agressive,ACHAT,Memeployed,0.0001154382214,314.56,score 51 coût 3.2%
 2026-11-24 22:43:35,hasard,VENTE,JIMMY,0.001401,334.69,palier +50% PnL +133.58$ coût 1.7%
 2026-11-24 22:43:35,hasard,ACHAT,GROKIA,0.00366302014,619.74,score 59 coût 1.9%
+2026-11-24 22:50:35,agressive,VENTE,DONJENSEN,0.001209,164.20,stop-loss (-46%) PnL -144.08$ coût 1.4%
+2026-11-24 22:51:36,prudente,ACHAT,GROKIA,0.003878787379,7.48,score 73 coût 1.0%
+2026-11-24 22:51:36,actuelle,ACHAT,GROKIA,0.003912602079,660.48,score 73 coût 1.9%

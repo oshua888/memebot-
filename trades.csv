@@ -3045,3 +3045,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-24 06:16,2026-11-24 22:43,actuelle,SIDOOR,tendance,durée max 12h,16.45,-1.15,60,40041,6.17,57.5,0.048,0.66,0.12,13.54,3.22,0
 2026-11-24 12:19,2026-11-24 22:43,actuelle,DONJENSEN,boost,stop-loss (-36%),10.39,-36.86,61,107143,20.37,9.8,0.473,0.569,-2.33,5.11,2.68,1
 2026-11-23 19:10,2026-11-24 22:43,agressive,FIONA,boost+tendance,durée max 24h,27.55,12.63,74,169619,15.05,94.3,2.003,0.533,6.67,43.38,71.83,1
+2026-11-24 12:33,2026-11-24 22:50,agressive,DONJENSEN,boost,stop-loss (-46%),10.28,-46.74,54,107445,20.42,10.0,0.459,0.579,-0.81,2.6,12.48,1
