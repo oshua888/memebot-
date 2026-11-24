@@ -6605,3 +6605,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-23 19:18:22,agressive,ACHAT,Singularity,0.0001836284705,311.18,score 50 coût 2.6%
 2026-11-23 19:29:23,agressive,VENTE,OpenIndex,0.0002045,212.84,stop-loss (-42%) PnL -159.98$ coût 2.2%
 2026-11-23 19:30:23,actuelle,ACHAT,FIONA,0.002570883787,648.60,score 73 coût 1.8%
+2026-11-24 01:51:46,prudente,VENTE,FIONA,0.003336,5.13,palier +30% PnL +1.42$ coût 1.0%
+2026-11-24 01:51:46,actuelle,VENTE,COPIUM,0.0007027,454.05,trailing-stop PnL +15.84$ coût 2.5%
+2026-11-24 01:51:46,actuelle,ACHAT,JIMMY,0.0002128723672,649.78,score 62 coût 4.8%
+2026-11-24 01:51:46,agressive,ACHAT,JIMMY,0.0002088662144,313.52,score 62 coût 2.8%
+2026-11-24 01:51:46,hasard,VENTE,FIONA,0.003336,407.48,palier +100% PnL +203.91$ coût 1.4%
+2026-11-24 01:51:46,hasard,ACHAT,JENSEN,0.0006784343436,601.42,score 42 coût 3.0%
+2026-11-24 01:51:46,hasard,ACHAT,JIMMY,0.0002122880481,600.73,score 62 coût 4.5%
