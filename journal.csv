@@ -6641,3 +6641,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 04:58:46,actuelle,ACHAT,JENSEN,0.0007845799828,660.27,score 65 coût 3.0%
 2026-11-24 05:08:46,prudente,VENTE,Jesus,0.0004639,4.82,palier +30% PnL +1.10$ coût 1.0%
 2026-11-24 05:23:46,prudente,VENTE,GROKIA,0.002973,4.97,palier +30% PnL +1.23$ coût 1.0%
+2026-11-24 05:26:46,prudente,VENTE,GROKIA,0.002495,4.17,trailing-stop PnL +0.43$ coût 1.0%
+2026-11-24 05:30:46,actuelle,VENTE,JENSEN,0.0005414,443.52,stop-loss (-31%) PnL -216.74$ coût 2.7%
