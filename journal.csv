@@ -6643,3 +6643,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 05:23:46,prudente,VENTE,GROKIA,0.002973,4.97,palier +30% PnL +1.23$ coût 1.0%
 2026-11-24 05:26:46,prudente,VENTE,GROKIA,0.002495,4.17,trailing-stop PnL +0.43$ coût 1.0%
 2026-11-24 05:30:46,actuelle,VENTE,JENSEN,0.0005414,443.52,stop-loss (-31%) PnL -216.74$ coût 2.7%
+2026-11-24 05:31:46,agressive,VENTE,JENSEN,0.0004703,186.66,stop-loss (-40%) PnL -130.23$ coût 1.7%
+2026-11-24 05:31:46,hasard,VENTE,JENSEN,0.0004703,405.96,stop-loss (-31%) PnL -195.46$ coût 2.6%
+2026-11-24 05:31:46,hasard,ACHAT,DONJENSEN,0.002126039451,607.77,score 44 coût 2.2%
+2026-11-24 05:33:46,hasard,VENTE,Jesus,0.0005073,297.40,palier +50% PnL +95.66$ coût 2.2%
+2026-11-24 05:34:46,actuelle,VENTE,Jesus,0.0005594,325.23,palier +50% PnL +107.64$ coût 2.2%
+2026-11-24 05:34:46,agressive,ACHAT,Rings,0.003148626571,315.43,score 51 coût 1.4%
+2026-11-24 05:35:46,prudente,VENTE,Jesus,0.0005783,3.01,palier +60% PnL +1.14$ coût 1.0%

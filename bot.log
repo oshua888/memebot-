@@ -5901,3 +5901,75 @@ agressive    10543.55$  +954.4%  +9366.97$17480505.75$  158/451     5
 hasard       30432.05$ +2943.2% +29102.09$12421530.77$  345/643     5
 apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 221 — 2026-11-24 05:31:37 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  82 tokens trouvés, analyse en cours…
+  11 retenus / 82 ; rejets : liquidité faible ×57, volume faible ×34, trop récent ×32, trop ancien ×14, FDV/liquidité trop élevé ×3
+  [agressive] VENTE JENSEN @ 0.0004703$ — 186.66$ stop-loss (-40%) PnL -130.23$ coût 1.7%
+  [hasard] VENTE JENSEN @ 0.0004703$ — 405.96$ stop-loss (-31%) PnL -195.46$ coût 2.6%
+  [hasard] ACHAT DONJENSEN @ 0.0021260395$ — 607.77$ score 44 coût 2.2%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       751.49$   -24.9%   -249.45$   78.78$  385/303     2
+actuelle     32756.49$ +3175.6% +31292.34$12586777.47$  303/573     4
+agressive    10509.18$  +950.9%  +9236.74$17480509.06$  158/452     4
+hasard       30362.97$ +2936.3% +28906.63$12421554.60$  345/644     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 222 — 2026-11-24 05:32:37 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  81 tokens trouvés, analyse en cours…
+  11 retenus / 81 ; rejets : liquidité faible ×56, volume faible ×33, trop récent ×31, trop ancien ×14, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       751.58$   -24.8%   -249.45$   78.78$  385/303     2
+actuelle     32777.56$ +3177.8% +31292.34$12586777.47$  303/573     4
+agressive    10523.85$  +952.4%  +9236.74$17480509.06$  158/452     4
+hasard       30392.16$ +2939.2% +28906.63$12421554.60$  345/644     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 223 — 2026-11-24 05:33:37 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  11 retenus / 83 ; rejets : liquidité faible ×58, volume faible ×36, trop récent ×33, trop ancien ×14, FDV/liquidité trop élevé ×3
+  [hasard] VENTE Jesus @ 0.0005073$ — 297.40$ palier +50% PnL +95.66$ coût 2.2%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       751.73$   -24.8%   -249.45$   78.78$  385/303     2
+actuelle     32809.75$ +3181.0% +31292.34$12586777.47$  303/573     4
+agressive    10490.87$  +949.1%  +9236.74$17480509.06$  158/452     4
+hasard       30468.45$ +2946.8% +29002.29$12421561.29$  346/644     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 224 — 2026-11-24 05:34:37 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  11 retenus / 83 ; rejets : liquidité faible ×56, volume faible ×35, trop récent ×33, trop ancien ×14, FDV/liquidité trop élevé ×4
+  [actuelle] VENTE Jesus @ 0.0005594$ — 325.23$ palier +50% PnL +107.64$ coût 2.2%
+  [agressive] ACHAT Rings @ 0.0031486266$ — 315.43$ score 51 coût 1.4%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       752.39$   -24.8%   -249.45$   78.78$  385/303     2
+actuelle     32921.73$ +3192.2% +31399.99$12586784.95$  304/573     4
+agressive    10505.91$  +950.6%  +9236.74$17480513.33$  158/452     5
+hasard       30540.16$ +2954.0% +29002.29$12421561.29$  346/644     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 225 — 2026-11-24 05:35:37 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  82 tokens trouvés, analyse en cours…
+  11 retenus / 70 ; rejets : liquidité faible ×45, volume faible ×23, trop récent ×20, trop ancien ×14, FDV/liquidité trop élevé ×6
+  [prudente] VENTE Jesus @ 0.0005783$ — 3.01$ palier +60% PnL +1.14$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       752.61$   -24.7%   -248.31$   78.81$  386/303     2
+actuelle     32940.49$ +3194.0% +31399.99$12586784.95$  304/573     4
+agressive    10504.64$  +950.5%  +9236.74$17480513.33$  158/452     5
+hasard       30569.39$ +2956.9% +29002.29$12421561.29$  346/644     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
