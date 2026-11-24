@@ -6713,3 +6713,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 16:42:53,hasard,VENTE,Memeployed,0.0002766,396.88,palier +100% PnL +195.20$ coût 2.8%
 2026-11-24 16:55:53,hasard,VENTE,Memeployed,0.0002013,289.55,trailing-stop PnL +87.88$ coût 2.5%
 2026-11-24 16:58:54,hasard,ACHAT,JIMMY,0.0008275162693,609.43,score 67 coût 2.7%
+2026-11-24 17:31:55,agressive,VENTE,Singularity,0.000105,173.93,stop-loss (-43%) PnL -137.25$ coût 2.2%
+2026-11-24 17:31:55,hasard,VENTE,DONJENSEN,0.001988,556.29,durée max 12h PnL -51.49$ coût 2.1%

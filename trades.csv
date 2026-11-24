@@ -3040,3 +3040,5 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-24 15:47,2026-11-24 16:08,actuelle,Memeployed,profil,trailing-stop,0.35,21.12,68,25853,3.62,2.0,2.797,0.632,-7.19,10.43,111,0
 2026-11-24 05:59,2026-11-24 16:42,agressive,JIMMY,tendance,trailing-stop,10.72,143.95,59,41453,6.43,8.8,1.616,0.605,-5.81,-20.71,3.09,0
 2026-11-24 15:54,2026-11-24 16:55,hasard,Memeployed,profil,trailing-stop,1.02,71.01,53,30387,4.13,2.1,2.588,0.626,2.83,74.21,183,0
+2026-11-23 19:18,2026-11-24 17:31,agressive,Singularity,tendance,stop-loss (-43%),22.23,-44.11,50,37878,4.49,71.2,1.657,0.61,-3.65,-27.37,-60.02,0
+2026-11-24 05:31,2026-11-24 17:31,hasard,DONJENSEN,boost+profil,durée max 12h,12.0,-8.47,44,104400,19.86,3.0,0.617,0.417,4.21,10.73,5724,1
