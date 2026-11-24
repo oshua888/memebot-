@@ -6698,3 +6698,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 15:19:53,hasard,VENTE,SHHFT,7.028e-05,298.55,stop-loss (-49%) PnL -310.59$ coût 4.3%
 2026-11-24 15:19:53,hasard,ACHAT,MCAT,0.0001639127631,604.42,score 22 coût 2.8%
 2026-11-24 15:47:53,actuelle,ACHAT,Memeployed,0.000102820598,652.05,score 68 coût 6.0%
+2026-11-24 15:54:54,actuelle,VENTE,JIMMY,0.0007843,498.67,trailing-stop PnL +279.56$ coût 2.5%
+2026-11-24 15:54:54,actuelle,ACHAT,JIMMY,0.0008067913551,654.32,score 60 coût 2.9%
+2026-11-24 15:54:54,hasard,VENTE,JIMMY,0.0007843,528.98,trailing-stop PnL +324.42$ coût 2.5%
+2026-11-24 15:54:54,hasard,ACHAT,Memeployed,0.0001366608606,602.01,score 53 coût 5.0%
+2026-11-24 15:55:53,actuelle,VENTE,Memeployed,0.0001566,318.02,palier +50% PnL +102.85$ coût 3.0%
