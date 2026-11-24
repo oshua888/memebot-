@@ -6639,3 +6639,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 04:29:45,actuelle,VENTE,CHIBI,8.594e-05,419.00,stop-loss (-33%) PnL -239.08$ coût 5.0%
 2026-11-24 04:48:46,actuelle,VENTE,JIMMY,0.0004408,317.84,palier +50% PnL +102.21$ coût 2.3%
 2026-11-24 04:58:46,actuelle,ACHAT,JENSEN,0.0007845799828,660.27,score 65 coût 3.0%
+2026-11-24 05:08:46,prudente,VENTE,Jesus,0.0004639,4.82,palier +30% PnL +1.10$ coût 1.0%
