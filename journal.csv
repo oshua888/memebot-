@@ -6613,3 +6613,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 01:51:46,hasard,ACHAT,JENSEN,0.0006784343436,601.42,score 42 coût 3.0%
 2026-11-24 01:51:46,hasard,ACHAT,JIMMY,0.0002122880481,600.73,score 62 coût 4.5%
 2026-11-24 01:58:45,agressive,ACHAT,JENSEN,0.0007845102148,316.89,score 58 coût 2.0%
+2026-11-24 02:03:45,prudente,VENTE,FIONA,0.003882,2.98,palier +60% PnL +1.13$ coût 1.0%
+2026-11-24 02:03:45,actuelle,VENTE,FIONA,0.003882,318.97,palier +50% PnL +104.93$ coût 1.3%
