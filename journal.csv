@@ -6715,3 +6715,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 16:58:54,hasard,ACHAT,JIMMY,0.0008275162693,609.43,score 67 coût 2.7%
 2026-11-24 17:31:55,agressive,VENTE,Singularity,0.000105,173.93,stop-loss (-43%) PnL -137.25$ coût 2.2%
 2026-11-24 17:31:55,hasard,VENTE,DONJENSEN,0.001988,556.29,durée max 12h PnL -51.49$ coût 2.1%
+2026-11-24 22:43:35,actuelle,VENTE,SIDOOR,0.0002869,644.87,durée max 12h PnL -7.48$ coût 4.4%
+2026-11-24 22:43:35,actuelle,VENTE,DONJENSEN,0.001442,407.44,stop-loss (-36%) PnL -237.88$ coût 2.0%
+2026-11-24 22:43:35,actuelle,VENTE,JIMMY,0.001401,368.31,palier +50% PnL +152.39$ coût 1.8%
+2026-11-24 22:43:35,agressive,VENTE,FIONA,0.003002,351.69,durée max 24h PnL +39.44$ coût 1.4%
+2026-11-24 22:43:35,agressive,VENTE,JIMMY,0.001401,208.17,palier +100% PnL +105.54$ coût 1.4%
+2026-11-24 22:43:35,agressive,ACHAT,GROKIA,0.003647738686,314.83,score 59 coût 1.4%
+2026-11-24 22:43:35,agressive,ACHAT,Memeployed,0.0001154382214,314.56,score 51 coût 3.2%
+2026-11-24 22:43:35,hasard,VENTE,JIMMY,0.001401,334.69,palier +50% PnL +133.58$ coût 1.7%
+2026-11-24 22:43:35,hasard,ACHAT,GROKIA,0.00366302014,619.74,score 59 coût 1.9%
