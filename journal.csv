@@ -6734,3 +6734,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 23:22:34,actuelle,ACHAT,JIMMY,0.001096237406,656.44,score 62 coût 2.5%
 2026-11-24 23:22:34,hasard,VENTE,JIMMY,0.001069,515.64,trailing-stop PnL +107.32$ coût 2.2%
 2026-11-24 23:22:34,hasard,ACHAT,JIMMY,0.001095262715,617.78,score 62 coût 2.5%
+2026-11-24 23:53:34,prudente,VENTE,GROKIA,0.003071,5.86,stop-loss (-21%) PnL -1.62$ coût 1.0%
+2026-11-24 23:54:34,actuelle,VENTE,GROKIA,0.002582,428.38,stop-loss (-34%) PnL -232.11$ coût 1.7%
+2026-11-24 23:55:34,hasard,VENTE,GROKIA,0.002246,373.64,stop-loss (-39%) PnL -246.10$ coût 1.7%
