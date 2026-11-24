@@ -6685,3 +6685,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 13:45:54,agressive,VENTE,JIMMY,0.0005955,206.52,palier +100% PnL +103.28$ coût 1.7%
 2026-11-24 13:45:54,hasard,VENTE,JIMMY,0.0005955,402.43,palier +100% PnL +197.87$ coût 2.4%
 2026-11-24 13:48:54,actuelle,VENTE,Rings,0.00206,451.40,stop-loss (-30%) PnL -208.38$ coût 1.7%
+2026-11-24 14:00:56,prudente,ACHAT,cateball,0.001218281347,7.50,score 78 coût 1.0%
