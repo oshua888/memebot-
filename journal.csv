@@ -6625,3 +6625,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 02:33:45,actuelle,ACHAT,Rings,0.002960594051,659.78,score 60 coût 1.8%
 2026-11-24 02:42:46,prudente,ACHAT,Jesus,0.0003548377936,7.45,score 74 coût 1.0%
 2026-11-24 02:42:46,actuelle,ACHAT,Jesus,0.0003658407502,659.37,score 74 coût 4.2%
+2026-11-24 02:57:46,actuelle,VENTE,JIMMY,0.0002804,551.43,trailing-stop PnL +116.08$ coût 3.8%
+2026-11-24 02:57:46,actuelle,ACHAT,JIMMY,0.0002922804379,653.43,score 61 coût 4.2%
+2026-11-24 02:57:46,hasard,VENTE,JIMMY,0.0002804,512.31,trailing-stop PnL +109.82$ coût 3.6%
+2026-11-24 02:57:46,hasard,ACHAT,Jesus,0.000336552614,611.33,score 68 coût 4.1%
