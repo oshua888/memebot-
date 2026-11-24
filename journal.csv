@@ -6623,3 +6623,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 02:27:46,hasard,ACHAT,MCAT,0.0001481141071,612.95,score 30 coût 2.9%
 2026-11-24 02:31:47,prudente,VENTE,FIONA,0.00365,2.80,trailing-stop PnL +0.95$ coût 1.0%
 2026-11-24 02:33:45,actuelle,ACHAT,Rings,0.002960594051,659.78,score 60 coût 1.8%
+2026-11-24 02:42:46,prudente,ACHAT,Jesus,0.0003548377936,7.45,score 74 coût 1.0%
+2026-11-24 02:42:46,actuelle,ACHAT,Jesus,0.0003658407502,659.37,score 74 coût 4.2%
