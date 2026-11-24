@@ -6693,3 +6693,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-24 14:34:55,hasard,ACHAT,NOHR,0.003426002743,607.98,score 26 coût 1.9%
 2026-11-24 14:36:55,actuelle,VENTE,JIMMY,0.0007924,503.76,palier +100% PnL +284.65$ coût 2.5%
 2026-11-24 14:42:55,agressive,VENTE,JIMMY,0.0009155,321.76,palier +200% PnL +216.95$ coût 1.9%
+2026-11-24 14:45:55,actuelle,VENTE,cateball,0.0008589,412.60,stop-loss (-35%) PnL -238.80$ coût 2.2%
