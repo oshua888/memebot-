@@ -6864,3 +6864,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 18:24:34,prudente,ACHAT,Pompom,0.0005861464614,7.66,score 74 coût 1.0%
 2026-11-25 18:27:34,agressive,VENTE,PERRO,0.0001466,179.35,stop-loss (-40%) PnL -128.71$ coût 2.2%
 2026-11-25 18:27:34,agressive,ACHAT,BASKET,0.0008030681008,300.32,score 53 coût 1.5%
+2026-11-25 18:33:34,hasard,VENTE,Pompom,0.0004802,524.99,trailing-stop PnL +118.02$ coût 3.0%
+2026-11-25 18:33:34,hasard,ACHAT,Pompom,0.0004955726342,608.01,score 73 coût 3.2%

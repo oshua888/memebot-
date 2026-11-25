@@ -3101,3 +3101,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-25 07:10,2026-11-25 18:18,agressive,Jimmies,boost,stop-loss (-41%),11.13,-41.48,67,77507,15.18,7.9,1.26,0.702,7.19,-9.24,352,1
 2026-11-25 17:24,2026-11-25 18:24,prudente,Pompom,boost+tendance,trailing-stop,1.0,53.69,75,48823,7.8,6.1,2.631,0.568,11.69,10.4,486,1
 2026-11-25 15:58,2026-11-25 18:27,agressive,PERRO,tendance,stop-loss (-40%),2.48,-41.78,56,37808,6.1,14.6,1.652,0.502,0,0.93,63.58,0
+2026-11-25 16:04,2026-11-25 18:33,hasard,Pompom,boost+tendance,trailing-stop,2.48,41.67,64,45268,7.51,4.8,6.418,0.574,0,31.57,1183,1
