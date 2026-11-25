@@ -3105,3 +3105,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-25 06:50,2026-11-25 18:51,hasard,Huss,tendance,durée max 12h,12.01,0.07,25,73146,9.86,205.4,0.127,0.526,-1.12,3.4,-10.68,0
 2026-11-25 18:24,2026-11-25 18:56,prudente,Pompom,boost+tendance,stop-loss (-21%),0.53,-21.97,74,61494,9.21,7.1,5.676,0.541,-4.56,49.1,157,1
 2026-11-25 18:18,2026-11-25 19:12,agressive,Pompom,boost+tendance,stop-loss (-41%),0.9,-41.82,58,63231,9.56,7.0,5.433,0.535,-3.76,73.3,247,1
+2026-11-25 05:47,2026-11-25 20:51,agressive,JIMMY,tendance,stop-loss (-41%),15.06,-41.69,57,100430,13.56,32.6,1.142,0.602,-10.41,-19.93,32.36,0
