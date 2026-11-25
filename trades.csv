@@ -3084,3 +3084,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-25 06:43,2026-11-25 07:36,prudente,BASKET,profil,trailing-stop,0.88,25.25,71,106010,5.08,2.0,5.819,0.605,-21.35,29.82,669,0
 2026-11-25 07:50,2026-11-25 08:18,prudente,BASKET,profil,trailing-stop,0.47,24.01,70,118738,5.98,3.1,3.102,0.576,20.63,30.12,914,0
 2026-11-25 09:16,2026-11-25 09:25,actuelle,JaoJiu,profil,stop-loss (-33%),0.15,-36.24,63,35096,6.51,2.0,11.148,0.576,5.67,50.54,649,0
+2026-11-25 08:18,2026-11-25 10:25,prudente,BASKET,profil,trailing-stop,2.12,52.75,70,128859,6.52,3.6,3.187,0.573,-13.48,55.75,1099,0
