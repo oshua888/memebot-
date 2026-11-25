@@ -3071,3 +3071,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-24 16:03,2026-11-25 05:29,agressive,cateball,boost,stop-loss (-61%),13.43,-61.82,58,72897,13.12,55.0,0.283,0.665,-0.1,2.94,182,1
 2026-11-25 00:40,2026-11-25 05:33,actuelle,4CHAN,profil,trailing-stop,4.89,91.02,62,42102,7.54,2.7,17.171,0.56,1.11,59.32,1059,0
 2026-11-25 00:54,2026-11-25 05:33,hasard,4CHAN,profil,trailing-stop,4.66,81.02,47,45416,7.92,2.9,10.698,0.554,29.28,39.51,1213,0
+2026-11-24 16:42,2026-11-25 05:47,agressive,JIMMY,tendance,trailing-stop,13.08,136.98,54,64715,9.64,19.5,1.674,0.536,-11.23,-19.18,59.26,0
