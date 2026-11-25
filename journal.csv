@@ -6813,3 +6813,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 06:58:56,hasard,VENTE,JIMMY,0.001219,416.70,stop-loss (-30%) PnL -193.35$ coût 1.9%
 2026-11-25 07:00:56,actuelle,VENTE,JIMMY,0.001178,471.48,stop-loss (-30%) PnL -218.66$ coût 2.1%
 2026-11-25 07:05:56,actuelle,VENTE,Jimmies,0.001133,796.24,trailing-stop PnL +574.98$ coût 3.2%
+2026-11-25 07:10:57,actuelle,ACHAT,Jimmies,0.001220601187,675.94,score 67 coût 2.7%
+2026-11-25 07:10:57,agressive,ACHAT,Jimmies,0.001209008601,297.78,score 67 coût 1.8%
+2026-11-25 07:10:57,hasard,ACHAT,BASKET,0.0005205066123,597.33,score 70 coût 2.2%
