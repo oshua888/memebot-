@@ -6756,3 +6756,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 01:52:33,agressive,ACHAT,4CHAN,0.0003649511815,297.14,score 50 coût 2.3%
 2026-11-25 01:53:33,prudente,VENTE,Jimmies,0.0004932,3.09,palier +60% PnL +1.23$ coût 1.0%
 2026-11-25 01:56:33,prudente,VENTE,Jimmies,0.0004219,2.65,trailing-stop PnL +0.78$ coût 1.0%
+2026-11-25 02:13:33,actuelle,VENTE,Jimmies,0.0006471,457.12,palier +100% PnL +235.86$ coût 2.7%
+2026-11-25 02:14:33,prudente,ACHAT,ChristmASS,0.0002038146701,7.50,score 75 coût 1.0%
