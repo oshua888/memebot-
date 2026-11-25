@@ -6869,3 +6869,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 18:51:34,hasard,VENTE,Huss,0.0007975,599.37,durée max 12h PnL +0.45$ coût 2.6%
 2026-11-25 18:51:34,hasard,ACHAT,Huss,0.0008182039705,607.24,score 28 coût 2.6%
 2026-11-25 18:56:33,prudente,VENTE,Pompom,0.0004621,5.97,stop-loss (-21%) PnL -1.68$ coût 1.0%
+2026-11-25 19:12:34,agressive,VENTE,Pompom,0.0003739,175.93,stop-loss (-41%) PnL -126.45$ coût 1.7%
