@@ -6875,3 +6875,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 20:59:32,hasard,VENTE,Pompom,0.000338,403.22,stop-loss (-32%) PnL -204.79$ coût 2.8%
 2026-11-25 21:00:33,agressive,ACHAT,Santa,0.0001996715915,294.43,score 55 coût 3.3%
 2026-11-25 21:00:33,hasard,ACHAT,Santa,0.0002043880165,600.32,score 55 coût 5.8%
+2026-11-25 21:14:32,agressive,VENTE,Santa,0.0001153,165.33,stop-loss (-42%) PnL -129.09$ coût 2.8%
+2026-11-25 21:14:32,hasard,VENTE,Santa,0.0001153,323.43,stop-loss (-44%) PnL -276.89$ coût 4.5%
