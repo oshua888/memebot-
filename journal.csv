@@ -6781,3 +6781,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 03:19:34,actuelle,VENTE,4CHAN,0.0007056,436.74,palier +100% PnL +215.83$ coût 2.4%
 2026-11-25 03:24:34,agressive,VENTE,4CHAN,0.0007737,204.51,palier +100% PnL +106.45$ coût 1.6%
 2026-11-25 03:28:35,hasard,VENTE,4CHAN,0.000787,400.69,palier +100% PnL +196.14$ coût 2.2%
+2026-11-25 03:46:38,actuelle,VENTE,JIMMY,0.001651,325.83,trailing-stop PnL +105.93$ coût 1.6%
+2026-11-25 03:46:38,actuelle,ACHAT,JIMMY,0.00168879335,690.14,score 65 coût 2.3%
+2026-11-25 03:46:38,hasard,VENTE,JIMMY,0.001651,307.03,trailing-stop PnL +100.07$ coût 1.6%
+2026-11-25 03:46:38,hasard,ACHAT,PERRO,0.0002001549359,620.15,score 46 coût 4.8%
