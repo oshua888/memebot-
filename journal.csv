@@ -6787,3 +6787,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 03:46:38,hasard,ACHAT,PERRO,0.0002001549359,620.15,score 46 coût 4.8%
 2026-11-25 03:48:35,hasard,VENTE,BOOBS,0.0008391,262.55,stop-loss (-56%) PnL -349.73$ coût 1.8%
 2026-11-25 03:48:35,hasard,ACHAT,ROCKET,0.0008411075155,612.83,score 44 coût 2.5%
+2026-11-25 03:58:33,hasard,VENTE,PERRO,0.0001392,413.62,stop-loss (-30%) PnL -206.54$ coût 4.1%
+2026-11-25 03:58:33,hasard,ACHAT,JIMMY,0.00175031764,610.05,score 64 coût 2.1%
+2026-11-25 04:01:34,actuelle,VENTE,NOHR,0.003718,654.00,durée max 12h PnL -2.18$ coût 1.9%
