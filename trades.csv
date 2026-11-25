@@ -3065,3 +3065,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-25 02:36,2026-11-25 03:18,prudente,BOOBS,profil,trailing-stop,0.7,28.62,81,100243,19.44,2.2,2.662,0.75,-13.67,37.04,5014,0
 2026-11-24 23:22,2026-11-25 03:46,actuelle,JIMMY,tendance,trailing-stop,4.4,68.43,62,84815,11.78,26.2,3.144,0.552,-8.69,-8.85,37.14,0
 2026-11-24 23:22,2026-11-25 03:46,hasard,JIMMY,tendance,trailing-stop,4.4,68.64,62,84815,11.78,26.2,3.144,0.552,-8.69,-8.85,37.14,0
+2026-11-25 02:46,2026-11-25 03:48,hasard,BOOBS,profil,stop-loss (-56%),1.03,-57.12,65,97882,19.09,2.3,2.216,0.739,-2.97,-7.31,4803,0
