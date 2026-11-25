@@ -6834,3 +6834,13 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 09:57:56,prudente,VENTE,BASKET,0.001386,3.07,palier +60% PnL +1.17$ coût 1.0%
 2026-11-25 10:13:56,agressive,VENTE,BASKET,0.001578,305.29,palier +200% PnL +204.73$ coût 1.4%
 2026-11-25 10:25:56,prudente,VENTE,BASKET,0.001621,3.59,trailing-stop PnL +1.69$ coût 1.0%
+2026-11-25 15:58:34,actuelle,VENTE,BASKET,0.001064,439.19,trailing-stop PnL +210.56$ coût 1.6%
+2026-11-25 15:58:34,agressive,VENTE,BASKET,0.001064,205.98,trailing-stop PnL +105.42$ coût 1.3%
+2026-11-25 15:58:34,agressive,ACHAT,PERRO,0.0002462084577,308.06,score 56 coût 2.6%
+2026-11-25 15:58:34,hasard,VENTE,HOGE,0.0007122,578.04,durée max 12h PnL -35.65$ coût 2.1%
+2026-11-25 15:58:34,hasard,VENTE,Christmax,0.0002708,567.65,durée max 12h PnL -45.02$ coût 4.2%
+2026-11-25 15:58:34,hasard,VENTE,ROCKET,0.000664,472.67,durée max 12h PnL -140.16$ coût 2.3%
+2026-11-25 15:58:34,hasard,VENTE,BASKET,0.001064,402.65,trailing-stop PnL +202.54$ coût 1.6%
+2026-11-25 16:01:34,actuelle,ACHAT,Pompom,0.0004124631544,678.77,score 64 coût 3.8%
+2026-11-25 16:01:34,hasard,ACHAT,Jimmies,0.001086305515,607.81,score 42 coût 2.7%
+2026-11-25 16:02:35,hasard,ACHAT,BASKET,0.001087603264,606.97,score 43 coût 1.8%
