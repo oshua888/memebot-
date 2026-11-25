@@ -6872,3 +6872,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 19:12:34,agressive,VENTE,Pompom,0.0003739,175.93,stop-loss (-41%) PnL -126.45$ coût 1.7%
 2026-11-25 20:51:32,agressive,VENTE,JIMMY,0.0008759,178.13,stop-loss (-41%) PnL -127.36$ coût 1.4%
 2026-11-25 20:51:32,agressive,ACHAT,HOGE,0.0006498994193,294.74,score 53 coût 1.6%
+2026-11-25 20:59:32,hasard,VENTE,Pompom,0.000338,403.22,stop-loss (-32%) PnL -204.79$ coût 2.8%
+2026-11-25 21:00:33,agressive,ACHAT,Santa,0.0001996715915,294.43,score 55 coût 3.3%
+2026-11-25 21:00:33,hasard,ACHAT,Santa,0.0002043880165,600.32,score 55 coût 5.8%
