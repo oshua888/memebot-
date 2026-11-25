@@ -6793,3 +6793,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 05:26:58,actuelle,ACHAT,jingyu,0.0001079529162,692.60,score 64 coût 6.5%
 2026-11-25 05:29:58,agressive,VENTE,cateball,0.0003829,119.36,stop-loss (-61%) PnL -193.29$ coût 1.5%
 2026-11-25 05:29:58,agressive,ACHAT,jingyu,0.0001048765918,307.93,score 64 coût 3.4%
+2026-11-25 05:33:58,actuelle,VENTE,4CHAN,0.0007956,492.29,trailing-stop PnL +271.37$ coût 2.4%
+2026-11-25 05:33:58,actuelle,ACHAT,4CHAN,0.0008191452336,688.20,score 64 coût 3.0%
+2026-11-25 05:33:58,hasard,VENTE,4CHAN,0.0007956,405.20,trailing-stop PnL +200.65$ coût 2.2%
+2026-11-25 05:33:58,hasard,ACHAT,Memeployed,0.0001049458114,604.81,score 58 coût 5.4%
