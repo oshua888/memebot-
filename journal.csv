@@ -6740,3 +6740,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 00:05:36,hasard,ACHAT,HOGE,0.0007402619945,613.69,score 34 coût 2.1%
 2026-11-25 00:14:35,agressive,VENTE,GROKIA,0.002188,186.32,stop-loss (-40%) PnL -128.52$ coût 1.3%
 2026-11-25 00:14:35,agressive,ACHAT,DUVAL,0.000186805898,302.79,score 56 coût 2.8%
+2026-11-25 00:29:35,actuelle,VENTE,JIMMY,0.001682,326.99,palier +50% PnL +110.36$ coût 1.6%
+2026-11-25 00:29:35,hasard,VENTE,JIMMY,0.001682,308.12,palier +50% PnL +104.25$ coût 1.6%
