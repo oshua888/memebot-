@@ -6742,3 +6742,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 00:14:35,agressive,ACHAT,DUVAL,0.000186805898,302.79,score 56 coût 2.8%
 2026-11-25 00:29:35,actuelle,VENTE,JIMMY,0.001682,326.99,palier +50% PnL +110.36$ coût 1.6%
 2026-11-25 00:29:35,hasard,VENTE,JIMMY,0.001682,308.12,palier +50% PnL +104.25$ coût 1.6%
+2026-11-25 00:40:36,actuelle,ACHAT,4CHAN,0.0003483234134,659.44,score 62 coût 4.1%
+2026-11-25 00:41:35,hasard,VENTE,MCAT,0.0001117,401.86,stop-loss (-32%) PnL -202.56$ coût 2.4%
+2026-11-25 00:41:35,hasard,ACHAT,Christmax,0.0002800325016,612.67,score 18 coût 4.3%
