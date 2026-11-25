@@ -6825,3 +6825,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 08:14:57,prudente,VENTE,BASKET,0.000958,5.00,palier +30% PnL +1.22$ coût 1.0%
 2026-11-25 08:18:57,prudente,VENTE,BASKET,0.0008397,4.38,trailing-stop PnL +0.60$ coût 1.0%
 2026-11-25 08:18:57,prudente,ACHAT,BASKET,0.0008481958417,7.58,score 70 coût 1.0%
+2026-11-25 08:28:56,agressive,VENTE,BASKET,0.001037,197.77,palier +100% PnL +98.72$ coût 1.3%
