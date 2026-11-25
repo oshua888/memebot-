@@ -6810,3 +6810,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 06:46:59,hasard,VENTE,Memeployed,7.284e-05,400.41,stop-loss (-31%) PnL -204.40$ coût 4.6%
 2026-11-25 06:50:56,actuelle,ACHAT,BASKET,0.0005449433567,682.49,score 71 coût 2.3%
 2026-11-25 06:50:56,hasard,ACHAT,Huss,0.0007760430214,598.92,score 25 coût 2.6%
+2026-11-25 06:58:56,hasard,VENTE,JIMMY,0.001219,416.70,stop-loss (-30%) PnL -193.35$ coût 1.9%
+2026-11-25 07:00:56,actuelle,VENTE,JIMMY,0.001178,471.48,stop-loss (-30%) PnL -218.66$ coût 2.1%
