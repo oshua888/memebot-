@@ -6806,3 +6806,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 06:44:57,agressive,VENTE,DUVAL,0.0001097,173.58,stop-loss (-41%) PnL -129.21$ coût 2.4%
 2026-11-25 06:44:57,agressive,ACHAT,BASKET,0.0005127516904,300.18,score 56 coût 1.6%
 2026-11-25 06:45:57,actuelle,VENTE,4CHAN,0.0004946,405.21,stop-loss (-40%) PnL -283.00$ coût 2.5%
+2026-11-25 06:46:59,agressive,VENTE,4CHAN,0.0003884,163.72,stop-loss (-45%) PnL -141.25$ coût 1.7%
+2026-11-25 06:46:59,hasard,VENTE,Memeployed,7.284e-05,400.41,stop-loss (-31%) PnL -204.40$ coût 4.6%
+2026-11-25 06:50:56,actuelle,ACHAT,BASKET,0.0005449433567,682.49,score 71 coût 2.3%
+2026-11-25 06:50:56,hasard,ACHAT,Huss,0.0007760430214,598.92,score 25 coût 2.6%
