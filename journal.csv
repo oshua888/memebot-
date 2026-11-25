@@ -6854,3 +6854,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 17:44:33,actuelle,VENTE,Jimmies,0.0008383,452.99,stop-loss (-31%) PnL -222.95$ coût 2.4%
 2026-11-25 17:56:34,prudente,VENTE,Pompom,0.0006177,5.90,palier +30% PnL +2.10$ coût 1.0%
 2026-11-25 17:56:34,hasard,VENTE,Pompom,0.0006177,335.55,palier +50% PnL +135.10$ coût 2.1%
+2026-11-25 17:59:33,prudente,VENTE,Pompom,0.0006327,3.02,palier +60% PnL +1.12$ coût 1.0%
