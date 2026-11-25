@@ -6799,3 +6799,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 05:33:58,hasard,ACHAT,Memeployed,0.0001049458114,604.81,score 58 coût 5.4%
 2026-11-25 05:47:58,agressive,VENTE,JIMMY,0.001457,219.75,trailing-stop PnL +115.56$ coût 1.4%
 2026-11-25 05:47:58,agressive,ACHAT,JIMMY,0.001480433925,305.49,score 57 coût 1.6%
+2026-11-25 06:16:59,agressive,VENTE,4CHAN,0.000698,372.56,trailing-stop PnL +173.48$ coût 2.2%
+2026-11-25 06:16:59,agressive,ACHAT,4CHAN,0.0007114355651,304.97,score 63 coût 1.9%
