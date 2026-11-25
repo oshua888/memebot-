@@ -6848,3 +6848,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 16:04:34,hasard,ACHAT,Pompom,0.0003612338313,607.42,score 64 coût 3.7%
 2026-11-25 16:06:34,prudente,VENTE,Jimmies,0.001084,6.43,durée max 8h PnL -1.16$ coût 1.0%
 2026-11-25 16:22:34,actuelle,ACHAT,BASKET,0.001324011503,678.53,score 60 coût 1.8%
+2026-11-25 16:39:34,actuelle,VENTE,Pompom,0.0002799,445.58,stop-loss (-32%) PnL -233.19$ coût 3.3%
