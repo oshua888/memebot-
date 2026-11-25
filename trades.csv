@@ -3082,3 +3082,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-25 03:46,2026-11-25 07:00,actuelle,JIMMY,tendance,stop-loss (-30%),3.24,-31.68,65,107072,14.41,30.6,2.689,0.566,-5.15,-13.13,56.1,0
 2026-11-25 01:17,2026-11-25 07:05,actuelle,Jimmies,profil,trailing-stop,5.81,138.75,74,37324,7.73,2.0,1.877,0.736,6.2,28.88,812,0
 2026-11-25 06:43,2026-11-25 07:36,prudente,BASKET,profil,trailing-stop,0.88,25.25,71,106010,5.08,2.0,5.819,0.605,-21.35,29.82,669,0
+2026-11-25 07:50,2026-11-25 08:18,prudente,BASKET,profil,trailing-stop,0.47,24.01,70,118738,5.98,3.1,3.102,0.576,20.63,30.12,914,0
