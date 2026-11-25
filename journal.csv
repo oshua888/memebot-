@@ -6822,3 +6822,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 07:58:57,actuelle,VENTE,BASKET,0.000847,344.67,palier +50% PnL +119.44$ coût 1.5%
 2026-11-25 07:58:57,hasard,VENTE,BASKET,0.000847,315.97,palier +50% PnL +118.85$ coût 1.5%
 2026-11-25 08:06:00,prudente,ACHAT,Jimmies,0.001265770424,7.58,score 72 coût 1.0%
+2026-11-25 08:14:57,prudente,VENTE,BASKET,0.000958,5.00,palier +30% PnL +1.22$ coût 1.0%
