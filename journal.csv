@@ -6764,3 +6764,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 02:29:34,prudente,VENTE,ChristmASS,0.0002975,2.71,trailing-stop PnL +0.83$ coût 1.0%
 2026-11-25 02:29:34,prudente,ACHAT,ChristmASS,0.0003005932465,7.54,score 74 coût 1.0%
 2026-11-25 02:32:34,prudente,VENTE,BOOBS,0.002262,4.92,palier +30% PnL +1.15$ coût 1.0%
+2026-11-25 02:35:35,hasard,VENTE,NOHR,0.00378,657.93,durée max 12h PnL +49.95$ coût 1.9%
+2026-11-25 02:35:35,hasard,ACHAT,ChristmASS,0.0002686261652,613.58,score 69 coût 4.5%
+2026-11-25 02:36:35,prudente,VENTE,BOOBS,0.00196,4.26,trailing-stop PnL +0.49$ coût 1.0%
+2026-11-25 02:36:35,prudente,ACHAT,BOOBS,0.001979894978,7.54,score 81 coût 1.0%
