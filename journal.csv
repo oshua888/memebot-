@@ -6779,3 +6779,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-25 03:15:34,hasard,VENTE,4CHAN,0.000596,299.40,palier +50% PnL +97.90$ coût 2.1%
 2026-11-25 03:18:34,prudente,VENTE,BOOBS,0.00241,4.54,trailing-stop PnL +0.77$ coût 1.0%
 2026-11-25 03:19:34,actuelle,VENTE,4CHAN,0.0007056,436.74,palier +100% PnL +215.83$ coût 2.4%
+2026-11-25 03:24:34,agressive,VENTE,4CHAN,0.0007737,204.51,palier +100% PnL +106.45$ coût 1.6%
