@@ -3061,3 +3061,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-24 14:34,2026-11-25 02:35,hasard,NOHR,boost,durée max 12h,12.01,8.22,26,139220,23.94,71.2,0.019,0.42,0.05,-5.27,-6.43,1
 2026-11-25 02:27,2026-11-25 02:36,prudente,BOOBS,profil,trailing-stop,0.15,21.69,80,92849,18.2,2.0,3.14,0.759,9.18,14.59,4335,0
 2026-11-25 02:29,2026-11-25 02:39,prudente,ChristmASS,profil,stop-loss (-32%),0.17,-33.1,74,37944,7.77,2.3,4.928,0.679,7.31,38.24,723,0
+2026-11-25 02:35,2026-11-25 02:46,hasard,ChristmASS,profil,stop-loss (-38%),0.18,-40.17,69,35231,7.23,2.4,5.345,0.636,-10.01,28.68,612,0
