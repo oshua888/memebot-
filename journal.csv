@@ -6931,3 +6931,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 08:50:16,hasard,VENTE,NORFEATH,0.0004402,390.99,stop-loss (-32%) PnL -200.85$ coût 2.6%
 2026-11-26 08:50:16,hasard,ACHAT,Elonmas,0.0002013163221,585.99,score 43 coût 4.6%
 2026-11-26 09:03:16,hasard,VENTE,Elonmas,0.0003052,286.13,palier +50% PnL +92.75$ coût 2.4%
+2026-11-26 09:15:16,hasard,VENTE,Elonmas,0.0002591,487.02,trailing-stop PnL +94.41$ coût 3.6%
+2026-11-26 09:15:16,hasard,ACHAT,Elonmas,0.000269615873,590.26,score 46 coût 4.1%
