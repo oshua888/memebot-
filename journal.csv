@@ -6953,3 +6953,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 12:13:15,hasard,ACHAT,JIMMY,0.0008269832876,601.09,score 49 coût 2.5%
 2026-11-26 12:47:14,hasard,VENTE,Zero,0.0002438,403.62,trailing-stop PnL +10.58$ coût 3.1%
 2026-11-26 12:47:14,hasard,ACHAT,Zero,0.0002534251827,598.55,score 32 coût 3.9%
+2026-11-26 12:59:13,prudente,VENTE,UHI,0.001491,4.63,trailing-stop PnL +0.82$ coût 1.0%
