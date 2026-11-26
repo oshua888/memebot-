@@ -8,26 +8,6 @@
   "losses": 311,
   "history": [
    [
-    1795348987,
-    738.58
-   ],
-   [
-    1795349048,
-    738.58
-   ],
-   [
-    1795349107,
-    738.58
-   ],
-   [
-    1795349168,
-    738.58
-   ],
-   [
-    1795349227,
-    738.58
-   ],
-   [
     1795349287,
     738.58
    ],
@@ -12006,6 +11986,26 @@
    [
     1795641485,
     763.87
+   ],
+   [
+    1795651977,
+    763.87
+   ],
+   [
+    1795652037,
+    763.87
+   ],
+   [
+    1795652097,
+    763.87
+   ],
+   [
+    1795652158,
+    763.87
+   ],
+   [
+    1795652217,
+    763.87
    ]
   ],
   "cooldown": {
@@ -12022,7 +12022,6 @@
    "G69C53wwbhRDCpAkkoqBGWjeBfPoUsRMbNg3jmU8pump": 1826301895.164666,
    "CnXTC8NutHZq2zaPqYz6bxuLYnq775EnvUBHjRqxpump": 1826317760.0306125,
    "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": 1826456687.993195,
-   "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795650814.310353,
    "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump": 1795660774.2987618,
    "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump": 1795709194.1471915,
    "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795719393.2424526
@@ -12036,26 +12035,6 @@
   "wins": 329,
   "losses": 588,
   "history": [
-   [
-    1795348987,
-    35153.87
-   ],
-   [
-    1795349048,
-    35225.07
-   ],
-   [
-    1795349107,
-    35191.99
-   ],
-   [
-    1795349168,
-    35210.34
-   ],
-   [
-    1795349227,
-    35181.63
-   ],
    [
     1795349287,
     35245.31
@@ -24035,6 +24014,26 @@
    [
     1795641485,
     33419.92
+   ],
+   [
+    1795651977,
+    33419.92
+   ],
+   [
+    1795652037,
+    33419.92
+   ],
+   [
+    1795652097,
+    33419.92
+   ],
+   [
+    1795652158,
+    33419.92
+   ],
+   [
+    1795652217,
+    33419.92
    ]
   ],
   "cooldown": {
@@ -24070,9 +24069,6 @@
    "HXT1UpmDkHmphFDrs3JWR3WHpsnoueCyABArTo7Apump": 1826649319.9075055,
    "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1826735060.8600116,
    "B1oGtkaVAVZkdtWV7SXrHnFkcWC1Kd45sYpy6RYTpump": 1826866660.9160979,
-   "zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795646615.8489525,
-   "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795646615.8493235,
-   "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795650874.98484,
    "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": 1795665694.251857,
    "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795675497.4850664,
    "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795675557.4460576,
@@ -24085,41 +24081,8 @@
   }
  },
  "agressive": {
-  "cash": 8602.285371677319,
+  "cash": 8224.709508948235,
   "positions": {
-   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
-    "symbol": "FIONA",
-    "entry": 0.003251540987469966,
-    "qty": 96233.94681354029,
-    "cost": 312.90862245023095,
-    "cost0": 312.90862245023095,
-    "proceeds": 0.0,
-    "high": 0.003413,
-    "last": 0.002677,
-    "liq": 178759.85,
-    "tp_idx": 0,
-    "opened": 1795560815.5889072,
-    "missing": 0,
-    "sources": [
-     "boost",
-     "tendance"
-    ],
-    "features": {
-     "score": 50,
-     "liq": 192159,
-     "fdv_liq": 16.43,
-     "age_h": 122.0,
-     "turnover": 0.369,
-     "buy_ratio": 0.558,
-     "m5": 3.3,
-     "h1": 3.07,
-     "h6": 9.58,
-     "boost": 1,
-     "lp_locked": 100,
-     "top10": 12.482676312098187,
-     "rug_score": 1
-    }
-   },
    "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": {
     "symbol": "jingyu",
     "entry": 0.00010487659181507597,
@@ -24128,8 +24091,8 @@
     "cost0": 307.93472065842815,
     "proceeds": 0.0,
     "high": 0.0001527,
-    "last": 9.193e-05,
-    "liq": 24637.79,
+    "last": 9.724e-05,
+    "liq": 25395.23,
     "tp_idx": 0,
     "opened": 1795584598.4881744,
     "missing": 0,
@@ -24160,8 +24123,8 @@
     "cost0": 300.3171294874427,
     "proceeds": 0.0,
     "high": 0.0008976,
-    "last": 0.0006622,
-    "liq": 116667.81,
+    "last": 0.0008574,
+    "liq": 133251.37,
     "tp_idx": 0,
     "opened": 1795631254.273049,
     "missing": 0,
@@ -24192,8 +24155,8 @@
     "cost0": 294.74246437649316,
     "proceeds": 0.0,
     "high": 0.0006728,
-    "last": 0.0006728,
-    "liq": 104560.52,
+    "last": 0.000668,
+    "liq": 104233.21,
     "tp_idx": 0,
     "opened": 1795639892.663772,
     "missing": 0,
@@ -24215,33 +24178,77 @@
      "top10": 16.003093894030005,
      "rug_score": 1
     }
+   },
+   "3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": {
+    "symbol": "NORFEATH",
+    "entry": 0.0005155222388380651,
+    "qty": 563052.4425585776,
+    "cost": 290.266055771039,
+    "cost0": 290.266055771039,
+    "proceeds": 0.0,
+    "high": 0.0006072,
+    "last": 0.0006072,
+    "liq": 55991.18,
+    "tp_idx": 0,
+    "opened": 1795651976.9144557,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 58,
+     "liq": 50733,
+     "fdv_liq": 9.95,
+     "age_h": 3.1,
+     "turnover": 3.12,
+     "buy_ratio": 0.664,
+     "m5": 3.7,
+     "h1": -16.51,
+     "h6": 1000,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 1.7047771475511313,
+     "rug_score": 1
+    }
+   },
+   "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": {
+    "symbol": "enu",
+    "entry": 0.00020422514572322002,
+    "qty": 1419523.9933284933,
+    "cost": 289.90249439511877,
+    "cost0": 289.90249439511877,
+    "proceeds": 0.0,
+    "high": 0.0002136,
+    "last": 0.0002136,
+    "liq": 34937.74,
+    "tp_idx": 0,
+    "opened": 1795651976.914598,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 50,
+     "liq": 33535,
+     "fdv_liq": 5.69,
+     "age_h": 140.3,
+     "turnover": 0.817,
+     "buy_ratio": 0.543,
+     "m5": -1.72,
+     "h1": 23.38,
+     "h6": 41.38,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 24.892153010549265,
+     "rug_score": 1
+    }
    }
   },
-  "realized": 8818.188308649034,
-  "fees": 17480745.082041726,
+  "realized": 8707.872373635879,
+  "fees": 17480761.45474143,
   "wins": 171,
-  "losses": 467,
+  "losses": 468,
   "history": [
-   [
-    1795348987,
-    12749.81
-   ],
-   [
-    1795349048,
-    12783.7
-   ],
-   [
-    1795349107,
-    12761.63
-   ],
-   [
-    1795349168,
-    12745.2
-   ],
-   [
-    1795349227,
-    12741.72
-   ],
    [
     1795349287,
     12773.51
@@ -36221,6 +36228,26 @@
    [
     1795641485,
     9662.3
+   ],
+   [
+    1795651977,
+    9648.14
+   ],
+   [
+    1795652037,
+    9673.94
+   ],
+   [
+    1795652097,
+    9667.52
+   ],
+   [
+    1795652158,
+    9696.15
+   ],
+   [
+    1795652217,
+    9744.2
    ]
   ],
   "cooldown": {
@@ -36274,9 +36301,6 @@
    "HXT1UpmDkHmphFDrs3JWR3WHpsnoueCyABArTo7Apump": 1826649319.907891,
    "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1826649319.9080353,
    "HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1826701508.9797652,
-   "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795647035.650149,
-   "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": 1795647755.0134313,
-   "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795652075.904646,
    "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795657953.628566,
    "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795670998.4880137,
    "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795675497.4857087,
@@ -36285,11 +36309,12 @@
    "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": 1795717654.272906,
    "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795720354.6647305,
    "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795726292.6636295,
-   "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27": 1795727672.853156
+   "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27": 1795727672.853156,
+   "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795738376.9142532
   }
  },
  "hasard": {
-  "cash": 28610.477456367087,
+  "cash": 27427.832616400574,
   "positions": {
    "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": {
     "symbol": "4CHAN",
@@ -36299,8 +36324,8 @@
     "cost0": 606.6222293960659,
     "proceeds": 0.0,
     "high": 0.0004451,
-    "last": 0.0002971,
-    "liq": 45311.97,
+    "last": 0.000219,
+    "liq": 39194.86,
     "tp_idx": 0,
     "opened": 1795622615.0269122,
     "missing": 0,
@@ -36331,8 +36356,8 @@
     "cost0": 607.2390070585662,
     "proceeds": 0.0,
     "high": 0.0008572,
-    "last": 0.0008379,
-    "liq": 78548.24,
+    "last": 0.0007482,
+    "liq": 74598.9,
     "tp_idx": 0,
     "opened": 1795632694.345783,
     "missing": 0,
@@ -36354,33 +36379,77 @@
      "top10": 17.28912382219698,
      "rug_score": 1
     }
+   },
+   "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": {
+    "symbol": "enu",
+    "entry": 0.0002078053315634335,
+    "qty": 2848192.367272032,
+    "cost": 591.8695592374052,
+    "cost0": 591.8695592374052,
+    "proceeds": 0.0,
+    "high": 0.0002136,
+    "last": 0.0002136,
+    "liq": 34937.74,
+    "tp_idx": 0,
+    "opened": 1795651976.9150395,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 50,
+     "liq": 33535,
+     "fdv_liq": 5.69,
+     "age_h": 140.3,
+     "turnover": 0.817,
+     "buy_ratio": 0.543,
+     "m5": -1.72,
+     "h1": 23.38,
+     "h6": 41.38,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 24.892153010549265,
+     "rug_score": 1
+    }
+   },
+   "3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": {
+    "symbol": "NORFEATH",
+    "entry": 0.0005557077878995982,
+    "qty": 1063104.195393866,
+    "cost": 590.7752807291075,
+    "cost0": 590.7752807291075,
+    "proceeds": 0.0,
+    "high": 0.0006072,
+    "last": 0.0006072,
+    "liq": 55991.18,
+    "tp_idx": 0,
+    "opened": 1795652036.63861,
+    "missing": 0,
+    "sources": [
+     "boost"
+    ],
+    "features": {
+     "score": 58,
+     "liq": 52443,
+     "fdv_liq": 10.26,
+     "age_h": 3.1,
+     "turnover": 3.022,
+     "buy_ratio": 0.664,
+     "m5": 19.63,
+     "h1": -11.3,
+     "h6": 1073,
+     "boost": 1,
+     "lp_locked": 100,
+     "top10": 1.6406719193242583,
+     "rug_score": 1
+    }
    }
   },
   "realized": 28824.338692821602,
-  "fees": 12422555.159507176,
+  "fees": 12422599.421026569,
   "wins": 370,
   "losses": 663,
   "history": [
-   [
-    1795348987,
-    32238.37
-   ],
-   [
-    1795349048,
-    32266.71
-   ],
-   [
-    1795349107,
-    32250.7
-   ],
-   [
-    1795349168,
-    32216.68
-   ],
-   [
-    1795349227,
-    32205.68
-   ],
    [
     1795349287,
     32281.24
@@ -48360,6 +48429,26 @@
    [
     1795641485,
     29799.18
+   ],
+   [
+    1795651977,
+    29543.05
+   ],
+   [
+    1795652037,
+    29501.94
+   ],
+   [
+    1795652097,
+    29490.91
+   ],
+   [
+    1795652158,
+    29571.66
+   ],
+   [
+    1795652217,
+    29606.02
    ]
   ],
   "cooldown": {
@@ -48395,7 +48484,6 @@
    "8CnvwZJLRpQazvn6LszkzmXJxkmMY2bTQ4Q3NN4fpump": 1826621352.006979,
    "HXT1UpmDkHmphFDrs3JWR3WHpsnoueCyABArTo7Apump": 1826649319.910001,
    "HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1826701508.9805906,
-   "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795650934.8874383,
    "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795653695.6248026,
    "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795654475.7406063,
    "CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump": 1795661194.9001446,
@@ -48420,26 +48508,6 @@
   "wins": 220,
   "losses": 250,
   "history": [
-   [
-    1795348987,
-    789.34
-   ],
-   [
-    1795349048,
-    789.34
-   ],
-   [
-    1795349107,
-    789.34
-   ],
-   [
-    1795349168,
-    789.34
-   ],
-   [
-    1795349227,
-    789.34
-   ],
    [
     1795349287,
     789.34
@@ -60418,6 +60486,26 @@
    ],
    [
     1795641485,
+    789.34
+   ],
+   [
+    1795651977,
+    789.34
+   ],
+   [
+    1795652037,
+    789.34
+   ],
+   [
+    1795652097,
+    789.34
+   ],
+   [
+    1795652158,
+    789.34
+   ],
+   [
+    1795652217,
     789.34
    ]
   ],
