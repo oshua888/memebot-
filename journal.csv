@@ -6919,3 +6919,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 02:21:02,prudente,VENTE,MONEY,0.0009018,4.60,trailing-stop PnL +0.79$ coût 1.0%
 2026-11-26 02:23:04,actuelle,VENTE,MONEY,0.0008824,505.27,trailing-stop PnL +62.53$ coût 2.5%
 2026-11-26 02:27:04,actuelle,ACHAT,MONEY,0.000929864497,659.40,score 60 coût 2.8%
+2026-11-26 03:07:58,hasard,VENTE,NORFEATH,0.0008772,301.89,palier +50% PnL +106.93$ coût 1.9%
+2026-11-26 03:11:58,hasard,VENTE,NORFEATH,0.0006295,436.93,trailing-stop PnL +41.11$ coût 2.6%
+2026-11-26 03:11:58,hasard,ACHAT,NORFEATH,0.000648707288,591.84,score 84 coût 3.1%

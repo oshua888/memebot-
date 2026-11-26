@@ -5319,3 +5319,72 @@ agressive     9738.80$  +873.9%  +8707.87$17480761.45$  171/468     5
 hasard       29601.67$ +2860.2% +28471.53$12422723.38$  372/666     5
 apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 176 — 2026-11-26 03:07:47 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  11 retenus / 72 ; rejets : liquidité faible ×48, volume faible ×24, trop récent ×18, trop ancien ×16, FDV/liquidité trop élevé ×4
+  [hasard] VENTE NORFEATH @ 0.0008772$ — 301.89$ palier +50% PnL +106.93$ coût 1.9%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       764.93$   -23.5%   -235.87$   82.04$  413/313     1
+actuelle     32917.75$ +3191.8% +31994.74$12588015.48$  333/592     2
+agressive     9800.94$  +880.1%  +8707.87$17480761.45$  171/468     5
+hasard       29716.00$ +2871.6% +28578.46$12422729.23$  373/666     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 177 — 2026-11-26 03:08:47 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  11 retenus / 77 ; rejets : liquidité faible ×53, volume faible ×29, trop récent ×23, trop ancien ×16, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       765.00$   -23.5%   -235.87$   82.04$  413/313     1
+actuelle     32927.59$ +3192.8% +31994.74$12588015.48$  333/592     2
+agressive     9729.68$  +873.0%  +8707.87$17480761.45$  171/468     5
+hasard       29621.95$ +2862.2% +28578.46$12422729.23$  373/666     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 178 — 2026-11-26 03:09:47 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  11 retenus / 84 ; rejets : liquidité faible ×60, volume faible ×36, trop récent ×31, trop ancien ×16, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       764.97$   -23.5%   -235.87$   82.04$  413/313     1
+actuelle     32926.10$ +3192.6% +31994.74$12588015.48$  333/592     2
+agressive     9733.97$  +873.4%  +8707.87$17480761.45$  171/468     5
+hasard       29666.50$ +2866.6% +28578.46$12422729.23$  373/666     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 179 — 2026-11-26 03:10:47 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  11 retenus / 87 ; rejets : liquidité faible ×63, volume faible ×38, trop récent ×33, trop ancien ×16, FDV/liquidité trop élevé ×3
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       765.36$   -23.5%   -235.87$   82.04$  413/313     1
+actuelle     32960.46$ +3196.0% +31994.74$12588015.48$  333/592     2
+agressive     9696.03$  +869.6%  +8707.87$17480761.45$  171/468     5
+hasard       29651.95$ +2865.2% +28578.46$12422729.23$  373/666     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 180 — 2026-11-26 03:11:47 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  11 retenus / 87 ; rejets : liquidité faible ×63, volume faible ×38, trop récent ×33, trop ancien ×16, FDV/liquidité trop élevé ×3
+  [hasard] VENTE NORFEATH @ 0.0006295$ — 436.93$ trailing-stop PnL +41.11$ coût 2.6%
+  [hasard] ACHAT NORFEATH @ 0.00064870729$ — 591.84$ score 84 coût 3.1%
+  [apprentissage] 1530 observations — règle sl15_tp25 — top 25 % : -7.7% vs moyenne -4.7% → en pause : rien de rentable sur les données récentes
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       765.23$   -23.5%   -235.87$   82.04$  413/313     1
+actuelle     32962.45$ +3196.2% +31994.74$12588015.48$  333/592     2
+agressive     9661.47$  +866.1%  +8707.87$17480761.45$  171/468     5
+hasard       29557.39$ +2855.7% +28619.57$12422758.20$  374/666     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)

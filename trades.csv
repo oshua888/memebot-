@@ -3124,3 +3124,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-26 02:14,2026-11-26 02:17,actuelle,Zero,profil,stop-loss (-32%),0.05,-33.66,65,71175,11.97,2.0,7.587,0.566,7.88,58.03,2833,0
 2026-11-26 02:03,2026-11-26 02:21,prudente,MONEY,profil,trailing-stop,0.3,39.94,71,63750,11.48,2.2,17.636,0.631,5.21,34.3,651,0
 2026-11-26 02:03,2026-11-26 02:23,actuelle,MONEY,profil,trailing-stop,0.33,27.5,71,63750,11.48,2.2,17.636,0.631,5.21,34.3,651,0
+2026-11-26 00:13,2026-11-26 03:11,hasard,NORFEATH,boost,trailing-stop,2.97,25.06,58,52443,10.26,3.1,3.022,0.664,19.63,-11.3,1073,1
