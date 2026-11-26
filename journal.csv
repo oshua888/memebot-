@@ -6923,3 +6923,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 03:11:58,hasard,VENTE,NORFEATH,0.0006295,436.93,trailing-stop PnL +41.11$ coût 2.6%
 2026-11-26 03:11:58,hasard,ACHAT,NORFEATH,0.000648707288,591.84,score 84 coût 3.1%
 2026-11-26 04:46:59,actuelle,VENTE,MONEY,0.0006498,449.15,stop-loss (-30%) PnL -210.25$ coût 2.5%
+2026-11-26 05:29:59,agressive,VENTE,jingyu,9.461e-05,268.88,durée max 24h PnL -39.06$ coût 3.2%
+2026-11-26 05:29:59,agressive,ACHAT,UHI,0.001065649971,288.10,score 69 coût 1.8%
