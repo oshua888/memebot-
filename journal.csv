@@ -6961,3 +6961,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 18:56:41,hasard,VENTE,Zero,0.0001462,334.28,stop-loss (-42%) PnL -264.27$ coût 3.2%
 2026-11-26 18:58:41,hasard,ACHAT,BASKET,0.0005917668866,592.92,score 34 coût 2.1%
 2026-11-26 18:59:41,hasard,ACHAT,PAIR,0.0002354502297,592.17,score 47 coût 4.2%
+2026-11-26 19:09:43,hasard,VENTE,PAIR,0.000152,368.96,stop-loss (-35%) PnL -223.21$ coût 3.5%
