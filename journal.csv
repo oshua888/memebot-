@@ -6955,3 +6955,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 12:47:14,hasard,ACHAT,Zero,0.0002534251827,598.55,score 32 coût 3.9%
 2026-11-26 12:59:13,prudente,VENTE,UHI,0.001491,4.63,trailing-stop PnL +0.82$ coût 1.0%
 2026-11-26 13:07:14,hasard,VENTE,FIONA,0.002059,567.68,durée max 12h PnL -28.10$ coût 1.7%
+2026-11-26 13:44:16,prudente,ACHAT,UHI,0.001597073955,7.63,score 70 coût 1.0%
