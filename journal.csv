@@ -6890,3 +6890,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 00:31:59,prudente,VENTE,NORFEATH,0.000578,5.53,stop-loss (-27%) PnL -2.11$ coût 1.0%
 2026-11-26 00:31:59,actuelle,ACHAT,PVE,0.0002124755371,665.22,score 62 coût 4.1%
 2026-11-26 00:31:59,hasard,ACHAT,PVE,0.0002117587217,589.95,score 62 coût 3.8%
+2026-11-26 00:47:59,prudente,ACHAT,Grodia,0.001728387276,7.62,score 78 coût 1.0%
+2026-11-26 00:50:59,actuelle,VENTE,Grodia,0.00181,332.39,palier +50% PnL +111.48$ coût 1.7%
+2026-11-26 00:50:59,hasard,VENTE,Grodia,0.00181,296.25,palier +50% PnL +99.88$ coût 1.6%
