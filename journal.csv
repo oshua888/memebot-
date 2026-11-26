@@ -6899,3 +6899,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 01:06:59,actuelle,VENTE,Grodia,0.001689,625.48,trailing-stop PnL +176.95$ coût 2.4%
 2026-11-26 01:06:59,hasard,VENTE,Grodia,0.001689,557.88,trailing-stop PnL +159.19$ coût 2.2%
 2026-11-26 01:06:59,hasard,ACHAT,FIONA,0.002123541841,595.78,score 22 coût 1.8%
+2026-11-26 01:14:59,prudente,VENTE,Grodia,0.001368,5.74,stop-loss (-24%) PnL -1.89$ coût 1.0%
