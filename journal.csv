@@ -6912,3 +6912,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 01:58:01,prudente,ACHAT,UHI,0.0009905160371,7.61,score 71 coût 1.0%
 2026-11-26 02:03:00,prudente,ACHAT,MONEY,0.0007390906663,7.61,score 71 coût 1.0%
 2026-11-26 02:03:00,actuelle,ACHAT,MONEY,0.0007540827459,660.80,score 71 coût 3.1%
+2026-11-26 02:14:02,actuelle,ACHAT,Zero,0.0008780629231,659.72,score 65 coût 2.9%
+2026-11-26 02:17:01,actuelle,VENTE,Zero,0.0005974,437.65,stop-loss (-32%) PnL -222.07$ coût 2.5%
