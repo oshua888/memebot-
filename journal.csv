@@ -6956,3 +6956,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 12:59:13,prudente,VENTE,UHI,0.001491,4.63,trailing-stop PnL +0.82$ coût 1.0%
 2026-11-26 13:07:14,hasard,VENTE,FIONA,0.002059,567.68,durée max 12h PnL -28.10$ coût 1.7%
 2026-11-26 13:44:16,prudente,ACHAT,UHI,0.001597073955,7.63,score 70 coût 1.0%
+2026-11-26 18:56:41,agressive,VENTE,BASKET,0.0005785,213.32,durée max 24h PnL -87.00$ coût 1.4%
+2026-11-26 18:56:41,agressive,VENTE,NORFEATH,0.000284,157.05,stop-loss (-45%) PnL -133.22$ coût 1.8%
+2026-11-26 18:56:41,hasard,VENTE,Zero,0.0001462,334.28,stop-loss (-42%) PnL -264.27$ coût 3.2%
+2026-11-26 18:58:41,hasard,ACHAT,BASKET,0.0005917668866,592.92,score 34 coût 2.1%
+2026-11-26 18:59:41,hasard,ACHAT,PAIR,0.0002354502297,592.17,score 47 coût 4.2%
