@@ -6947,3 +6947,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 11:13:16,prudente,VENTE,UHI,0.00161,5.00,palier +30% PnL +1.19$ coût 1.0%
 2026-11-26 11:15:16,hasard,VENTE,UHI,0.001623,286.32,palier +50% PnL +92.93$ coût 1.6%
 2026-11-26 12:01:15,actuelle,VENTE,Elonmas,0.0002168,444.36,stop-loss (-30%) PnL -218.40$ coût 3.6%
+2026-11-26 12:06:15,prudente,VENTE,Elonmas,0.0001965,5.90,stop-loss (-22%) PnL -1.74$ coût 1.0%
