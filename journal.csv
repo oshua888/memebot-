@@ -6937,3 +6937,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 09:57:16,prudente,VENTE,PUMPCHAN,0.004643,5.82,stop-loss (-23%) PnL -1.83$ coût 1.0%
 2026-11-26 09:58:15,prudente,VENTE,UHI,0.001109,8.43,durée max 8h PnL +0.82$ coût 1.0%
 2026-11-26 10:08:34,prudente,ACHAT,UHI,0.001215261562,7.63,score 70 coût 1.0%
+2026-11-26 10:12:17,hasard,VENTE,Elonmas,0.0001494,316.64,stop-loss (-45%) PnL -273.62$ coût 3.2%
+2026-11-26 10:12:17,hasard,ACHAT,Zero,0.0002301684524,586.63,score 32 coût 4.1%

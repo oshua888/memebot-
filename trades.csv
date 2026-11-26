@@ -3132,3 +3132,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-26 08:50,2026-11-26 09:15,hasard,Elonmas,profil,trailing-stop,0.42,31.94,43,32738,5.87,3.8,3.159,0.529,9.32,82.5,572,0
 2026-11-26 09:20,2026-11-26 09:57,prudente,PUMPCHAN,boost,stop-loss (-23%),0.62,-23.95,71,178005,33.61,7.8,1.396,0.649,7.91,-13.34,406,1
 2026-11-26 01:58,2026-11-26 09:58,prudente,UHI,boost+profil,durée max 8h,8.0,10.82,71,70722,13.86,2.7,1.42,0.695,0.51,55.14,2647,1
+2026-11-26 09:15,2026-11-26 10:12,hasard,Elonmas,nouveau,stop-loss (-45%),0.95,-46.36,46,38596,6.7,4.2,6.244,0.55,-15.78,87.42,805,0
