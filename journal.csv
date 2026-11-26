@@ -6883,3 +6883,7 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 00:12:56,hasard,ACHAT,enu,0.0002078053316,591.87,score 50 coût 4.5%
 2026-11-26 00:13:56,hasard,ACHAT,NORFEATH,0.0005557077879,590.78,score 58 coût 3.3%
 2026-11-26 00:18:56,hasard,VENTE,4CHAN,0.0001978,390.12,stop-loss (-34%) PnL -216.51$ coût 3.2%
+2026-11-26 00:22:58,actuelle,ACHAT,NORFEATH,0.000714957292,668.40,score 60 coût 3.2%
+2026-11-26 00:25:57,prudente,ACHAT,NORFEATH,0.000790916354,7.64,score 74 coût 1.0%
+2026-11-26 00:26:58,actuelle,ACHAT,Grodia,0.001182527426,669.44,score 64 coût 2.7%
+2026-11-26 00:26:58,hasard,ACHAT,Grodia,0.001180303183,595.06,score 64 coût 2.5%
