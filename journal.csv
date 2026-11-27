@@ -6988,3 +6988,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-26 23:21:41,prudente,VENTE,Snowball,0.0004775,5.97,stop-loss (-20%) PnL -1.60$ coût 1.0%
 2026-11-26 23:48:43,actuelle,VENTE,Snowball,0.0004143,431.69,stop-loss (-32%) PnL -223.79$ coût 2.7%
 2026-11-26 23:48:43,hasard,VENTE,Snowball,0.0004143,383.71,stop-loss (-31%) PnL -188.60$ coût 2.6%
+2026-11-27 00:10:41,agressive,ACHAT,Zero,0.0001417219975,261.51,score 56 coût 2.7%
