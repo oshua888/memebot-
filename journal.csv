@@ -6991,3 +6991,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 00:10:41,agressive,ACHAT,Zero,0.0001417219975,261.51,score 56 coût 2.7%
 2026-11-27 00:13:42,agressive,VENTE,enu,0.0001719,237.78,durée max 24h PnL -52.12$ coût 2.6%
 2026-11-27 02:41:01,hasard,ACHAT,CINU,0.0002060228235,567.22,score 37 coût 3.9%
+2026-11-27 02:45:02,agressive,ACHAT,KAI,0.002910551479,265.63,score 57 coût 1.4%
+2026-11-27 02:45:02,hasard,ACHAT,KAI,0.002923965139,566.28,score 57 coût 1.9%
