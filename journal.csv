@@ -7020,3 +7020,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 06:18:07,hasard,VENTE,CINU,0.0001781,334.37,stop-loss (-40%) PnL -237.32$ coût 2.8%
 2026-11-27 11:19:16,hasard,VENTE,hello,0.0003082,521.55,durée max 12h PnL -51.82$ coût 3.4%
 2026-11-27 11:19:16,hasard,VENTE,ROCKET,0.0008713,529.55,durée max 12h PnL -41.89$ coût 2.2%
+2026-11-27 11:31:15,actuelle,VENTE,KAI,9.547e-05,19.63,stop-loss (-97%) PnL -628.15$ coût 1.2%
+2026-11-27 11:31:15,agressive,VENTE,KAI,9.547e-05,8.62,stop-loss (-97%) PnL -257.01$ coût 1.1%
+2026-11-27 11:31:15,hasard,VENTE,KAI,9.547e-05,18.27,stop-loss (-97%) PnL -548.01$ coût 1.2%
