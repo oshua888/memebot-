@@ -7048,3 +7048,10 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 16:38:16,actuelle,VENTE,Kibo,8.287e-05,394.31,stop-loss (-34%) PnL -238.02$ coût 4.9%
 2026-11-27 16:38:16,hasard,VENTE,Kibo,8.287e-05,348.81,stop-loss (-34%) PnL -204.59$ coût 4.4%
 2026-11-27 16:38:16,hasard,ACHAT,Fireball,0.0007505598685,533.32,score 77 coût 2.7%
+2026-11-27 20:13:54,prudente,VENTE,Fireball,0.0003974,4.16,stop-loss (-44%) PnL -3.38$ coût 1.0%
+2026-11-27 20:13:54,actuelle,VENTE,KITT,1.861e-06,7.09,stop-loss (-99%) PnL -628.62$ coût 1.7%
+2026-11-27 20:13:54,actuelle,VENTE,Fireball,0.0003974,371.67,stop-loss (-40%) PnL -260.65$ coût 2.7%
+2026-11-27 20:13:54,hasard,VENTE,MEOWI,0.0001119,334.42,stop-loss (-35%) PnL -205.00$ coût 4.1%
+2026-11-27 20:13:54,hasard,VENTE,Fireball,0.0003974,276.04,stop-loss (-47%) PnL -257.28$ coût 2.2%
+2026-11-27 20:13:54,hasard,ACHAT,enu,0.0002641533236,522.92,score 26 coût 3.7%
+2026-11-27 20:14:53,hasard,ACHAT,Split,0.0001981598476,522.02,score 47 coût 4.0%
