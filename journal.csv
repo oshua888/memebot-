@@ -6994,3 +6994,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 02:45:02,agressive,ACHAT,KAI,0.002910551479,265.63,score 57 coût 1.4%
 2026-11-27 02:45:02,hasard,ACHAT,KAI,0.002923965139,566.28,score 57 coût 1.9%
 2026-11-27 02:50:02,agressive,ACHAT,Santa,0.0001889249079,265.64,score 59 coût 3.1%
+2026-11-27 02:58:02,actuelle,VENTE,PUMPCHAN,0.01057,436.71,palier +100% PnL +216.45$ coût 1.4%
+2026-11-27 02:58:02,hasard,VENTE,PUMPCHAN,0.01057,390.01,palier +100% PnL +193.54$ coût 1.3%
+2026-11-27 02:59:02,actuelle,ACHAT,KAI,0.003113393392,647.78,score 64 coût 2.0%
