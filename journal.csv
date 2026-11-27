@@ -7059,3 +7059,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 21:14:54,actuelle,ACHAT,FIONA,0.001377151049,614.39,score 60 coût 1.9%
 2026-11-27 21:14:54,hasard,ACHAT,JIMMY,0.0008296011723,522.09,score 41 coût 2.2%
 2026-11-27 21:17:55,actuelle,VENTE,PUMPCHAN,0.02662,594.87,palier +100% PnL +379.94$ coût 1.3%
+2026-11-27 21:18:53,actuelle,VENTE,PUMPCHAN,0.01591,355.75,trailing-stop PnL +140.82$ coût 1.2%
