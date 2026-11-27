@@ -7068,3 +7068,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 23:07:55,prudente,VENTE,MAYA,0.002049,5.87,stop-loss (-21%) PnL -1.64$ coût 1.0%
 2026-11-27 23:18:53,hasard,VENTE,FIONA,0.001235,408.70,trailing-stop PnL +39.87$ coût 1.7%
 2026-11-27 23:43:53,hasard,VENTE,enu,0.0004022,257.33,palier +50% PnL +84.77$ coût 2.1%
+2026-11-27 23:50:52,hasard,ACHAT,BASKET,0.0003391307298,528.02,score 24 coût 2.3%
