@@ -7034,3 +7034,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 15:16:14,hasard,VENTE,duk,5.863e-05,356.67,stop-loss (-32%) PnL -194.19$ coût 4.2%
 2026-11-27 15:18:16,hasard,ACHAT,WINSTON,0.0002161495903,543.11,score 48 coût 4.2%
 2026-11-27 15:31:15,hasard,ACHAT,SIDOOR,0.0007385266212,541.49,score 31 coût 2.7%
+2026-11-27 15:42:15,actuelle,VENTE,PUMPCHAN,0.01431,315.25,palier +50% PnL +103.52$ coût 1.2%
