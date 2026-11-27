@@ -7000,3 +7000,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 03:29:01,agressive,ACHAT,JIMMY,0.0006081612408,266.87,score 51 coût 1.8%
 2026-11-27 03:50:02,prudente,ACHAT,Santaball,0.001314245706,7.53,score 79 coût 1.0%
 2026-11-27 03:50:02,actuelle,ACHAT,Santaball,0.001334239549,646.24,score 79 coût 2.6%
+2026-11-27 04:01:02,prudente,VENTE,Santaball,0.001037,5.88,stop-loss (-21%) PnL -1.65$ coût 1.0%
+2026-11-27 04:02:04,actuelle,VENTE,Santaball,0.0009092,430.37,stop-loss (-32%) PnL -215.87$ coût 2.3%
