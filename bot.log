@@ -5687,3 +5687,71 @@ agressive     8825.87$  +782.6%  +7800.55$17480835.87$  171/476     5
 hasard       28686.43$ +2768.6% +27210.56$12423195.74$  383/677     5
 apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 206 — 2026-11-27 05:33:00 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  7 retenus / 86 ; rejets : liquidité faible ×60, volume faible ×38, trop récent ×32, trop ancien ×15, FDV/liquidité trop élevé ×6, RugCheck: liquidité non verrouillée ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       754.34$   -24.6%   -247.37$   83.20$  417/319     1
+actuelle     32271.76$ +3127.2% +30842.91$12588267.21$  337/599     3
+agressive     8816.10$  +781.6%  +7800.55$17480835.87$  171/476     5
+hasard       28731.74$ +2773.2% +27210.56$12423195.74$  383/677     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 207 — 2026-11-27 05:34:00 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  7 retenus / 86 ; rejets : liquidité faible ×61, volume faible ×38, trop récent ×32, trop ancien ×15, FDV/liquidité trop élevé ×4, RugCheck: liquidité non verrouillée ×1
+  [prudente] VENTE SpaceXCoin @ 0.0008231$ — 3.09$ palier +60% PnL +1.22$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       755.06$   -24.5%   -246.16$   83.23$  418/319     1
+actuelle     32380.50$ +3138.1% +30842.91$12588267.21$  337/599     3
+agressive     8833.12$  +783.3%  +7800.55$17480835.87$  171/476     5
+hasard       28703.53$ +2770.4% +27210.56$12423195.74$  383/677     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 208 — 2026-11-27 05:35:00 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  87 tokens trouvés, analyse en cours…
+  6 retenus / 86 ; rejets : liquidité faible ×62, volume faible ×39, trop récent ×32, trop ancien ×15, FDV/liquidité trop élevé ×4, RugCheck: liquidité non verrouillée ×1
+  [prudente] VENTE SpaceXCoin @ 0.000671$ — 2.52$ trailing-stop PnL +0.64$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       754.49$   -24.6%   -245.51$   83.26$  419/319     0
+actuelle     32289.47$ +3128.9% +30842.91$12588267.21$  337/599     3
+agressive     8814.76$  +781.5%  +7800.55$17480835.87$  171/476     5
+hasard       28721.90$ +2772.2% +27210.56$12423195.74$  383/677     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 209 — 2026-11-27 05:36:00 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  7 retenus / 87 ; rejets : liquidité faible ×60, volume faible ×39, trop récent ×33, trop ancien ×15, FDV/liquidité trop élevé ×4, RugCheck: liquidité non verrouillée ×1
+  [actuelle] VENTE SpaceXCoin @ 0.0005476$ — 451.71$ trailing-stop PnL +21.76$ coût 2.7%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       754.49$   -24.6%   -245.51$   83.26$  419/319     0
+actuelle     32280.95$ +3128.1% +30864.67$12588279.84$  338/599     2
+agressive     8822.23$  +782.2%  +7800.55$17480835.87$  171/476     5
+hasard       28787.04$ +2778.7% +27210.56$12423195.74$  383/677     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 210 — 2026-11-27 05:37:00 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  88 tokens trouvés, analyse en cours…
+  6 retenus / 87 ; rejets : liquidité faible ×64, volume faible ×38, trop récent ×33, trop ancien ×15, FDV/liquidité trop élevé ×4, RugCheck: liquidité non verrouillée ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       754.49$   -24.6%   -245.51$   83.26$  419/319     0
+actuelle     32222.65$ +3122.3% +30864.67$12588279.84$  338/599     2
+agressive     8811.34$  +781.1%  +7800.55$17480835.87$  171/476     5
+hasard       28764.97$ +2776.5% +27210.56$12423195.74$  383/677     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)

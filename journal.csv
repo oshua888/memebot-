@@ -7009,3 +7009,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 04:58:08,actuelle,VENTE,DragonRiders,0.0001061,415.76,stop-loss (-33%) PnL -227.99$ coût 4.0%
 2026-11-27 05:28:07,prudente,VENTE,SpaceXCoin,0.000674,5.07,palier +30% PnL +1.31$ coût 1.0%
 2026-11-27 05:32:07,actuelle,VENTE,SpaceXCoin,0.0007812,319.71,palier +50% PnL +107.94$ coût 2.0%
+2026-11-27 05:34:07,prudente,VENTE,SpaceXCoin,0.0008231,3.09,palier +60% PnL +1.22$ coût 1.0%
+2026-11-27 05:35:06,prudente,VENTE,SpaceXCoin,0.000671,2.52,trailing-stop PnL +0.64$ coût 1.0%
+2026-11-27 05:36:07,actuelle,VENTE,SpaceXCoin,0.0005476,451.71,trailing-stop PnL +21.76$ coût 2.7%
