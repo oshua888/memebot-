@@ -7063,3 +7063,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 21:31:55,hasard,VENTE,FIONA,0.001648,269.40,palier +50% PnL +87.74$ coût 1.4%
 2026-11-27 21:50:54,agressive,VENTE,Snowball,0.0005353,229.64,durée max 24h PnL -39.26$ coût 1.8%
 2026-11-27 21:50:54,agressive,ACHAT,DEXDATA,0.0002182520073,257.23,score 52 coût 2.5%
+2026-11-27 23:04:56,actuelle,ACHAT,MAYA,0.002556530726,618.06,score 67 coût 2.1%
+2026-11-27 23:05:55,prudente,ACHAT,MAYA,0.002595015815,7.51,score 82 coût 1.0%
+2026-11-27 23:07:55,prudente,VENTE,MAYA,0.002049,5.87,stop-loss (-21%) PnL -1.64$ coût 1.0%

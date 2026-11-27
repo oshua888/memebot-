@@ -5227,3 +5227,71 @@ agressive     8558.25$  +755.8%  +7504.28$17480852.66$  171/478     5
 hasard       26216.70$ +2521.7% +25334.47$12423598.48$  386/688     5
 apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 171 — 2026-11-27 23:03:44 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  93 tokens trouvés, analyse en cours…
+  9 retenus / 92 ; rejets : liquidité faible ×64, volume faible ×49, trop récent ×38, trop ancien ×15, FDV/liquidité trop élevé ×3, RugCheck: liquidité non verrouillée ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       751.08$   -24.9%   -248.92$   83.69$  421/321     0
+actuelle     30902.38$ +2990.2% +29964.83$12588443.31$  342/603     1
+agressive     8578.56$  +757.9%  +7504.28$17480852.66$  171/478     5
+hasard       26207.51$ +2520.8% +25334.47$12423598.48$  386/688     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 172 — 2026-11-27 23:04:44 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  93 tokens trouvés, analyse en cours…
+  10 retenus / 93 ; rejets : liquidité faible ×67, volume faible ×49, trop récent ×38, trop ancien ×15, FDV/liquidité trop élevé ×1, RugCheck: liquidité non verrouillée ×1
+  [actuelle] ACHAT MAYA @ 0.0025565307$ — 618.06$ score 67 coût 2.1%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       751.08$   -24.9%   -248.92$   83.69$  421/321     0
+actuelle     30878.03$ +2987.8% +29964.83$12588455.77$  342/603     2
+agressive     8572.13$  +757.2%  +7504.28$17480852.66$  171/478     5
+hasard       26240.31$ +2524.0% +25334.47$12423598.48$  386/688     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 173 — 2026-11-27 23:05:44 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  93 tokens trouvés, analyse en cours…
+  10 retenus / 93 ; rejets : liquidité faible ×67, volume faible ×49, trop récent ×38, trop ancien ×15, FDV/liquidité trop élevé ×1, RugCheck: liquidité non verrouillée ×1
+  [prudente] ACHAT MAYA @ 0.0025950158$ — 7.51$ score 82 coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       750.93$   -24.9%   -248.92$   83.76$  421/321     1
+actuelle     30892.67$ +2989.3% +29964.83$12588455.77$  342/603     2
+agressive     8567.98$  +756.8%  +7504.28$17480852.66$  171/478     5
+hasard       26228.99$ +2522.9% +25334.47$12423598.48$  386/688     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 174 — 2026-11-27 23:06:44 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  92 tokens trouvés, analyse en cours…
+  10 retenus / 92 ; rejets : liquidité faible ×66, volume faible ×47, trop récent ×37, trop ancien ×15, FDV/liquidité trop élevé ×1, RugCheck: liquidité non verrouillée ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.97$   -25.0%   -248.92$   83.76$  421/321     1
+actuelle     30815.74$ +2981.6% +29964.83$12588455.77$  342/603     2
+agressive     8572.04$  +757.2%  +7504.28$17480852.66$  171/478     5
+hasard       26233.05$ +2523.3% +25334.47$12423598.48$  386/688     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 175 — 2026-11-27 23:07:44 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  92 tokens trouvés, analyse en cours…
+  10 retenus / 90 ; rejets : liquidité faible ×64, volume faible ×46, trop récent ×34, trop ancien ×15, FDV/liquidité trop élevé ×1, RugCheck: liquidité non verrouillée ×1
+  [prudente] VENTE MAYA @ 0.002049$ — 5.87$ stop-loss (-21%) PnL -1.64$ coût 1.0%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.44$   -25.1%   -250.56$   83.82$  421/322     0
+actuelle     30765.30$ +2976.5% +29964.83$12588455.77$  342/603     2
+agressive     8567.41$  +756.7%  +7504.28$17480852.66$  171/478     5
+hasard       26237.19$ +2523.7% +25334.47$12423598.48$  386/688     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
