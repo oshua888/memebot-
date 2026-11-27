@@ -7045,3 +7045,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 16:29:16,prudente,VENTE,Fireball,0.0008183,5.07,palier +30% PnL +1.30$ coût 1.0%
 2026-11-27 16:33:16,prudente,VENTE,Fireball,0.0007057,4.37,trailing-stop PnL +0.61$ coût 1.0%
 2026-11-27 16:33:16,prudente,ACHAT,Fireball,0.0007129336998,7.54,score 76 coût 1.0%
+2026-11-27 16:38:16,actuelle,VENTE,Kibo,8.287e-05,394.31,stop-loss (-34%) PnL -238.02$ coût 4.9%
+2026-11-27 16:38:16,hasard,VENTE,Kibo,8.287e-05,348.81,stop-loss (-34%) PnL -204.59$ coût 4.4%
+2026-11-27 16:38:16,hasard,ACHAT,Fireball,0.0007505598685,533.32,score 77 coût 2.7%
