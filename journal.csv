@@ -7012,3 +7012,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 05:34:07,prudente,VENTE,SpaceXCoin,0.0008231,3.09,palier +60% PnL +1.22$ coût 1.0%
 2026-11-27 05:35:06,prudente,VENTE,SpaceXCoin,0.000671,2.52,trailing-stop PnL +0.64$ coût 1.0%
 2026-11-27 05:36:07,actuelle,VENTE,SpaceXCoin,0.0005476,451.71,trailing-stop PnL +21.76$ coût 2.7%
+2026-11-27 05:44:06,actuelle,VENTE,PUMPCHAN,0.01093,451.57,trailing-stop PnL +231.31$ coût 1.4%
+2026-11-27 05:44:06,hasard,VENTE,PUMPCHAN,0.01093,403.28,trailing-stop PnL +206.82$ coût 1.3%
+2026-11-27 05:45:08,actuelle,ACHAT,PUMPCHAN,0.00949348063,641.58,score 64 coût 1.5%
+2026-11-27 05:45:08,hasard,VENTE,CINU,0.0002864,511.63,trailing-stop PnL +131.59$ coût 3.2%
+2026-11-27 05:45:08,hasard,ACHAT,CINU,0.0002959491233,571.69,score 38 coût 3.3%

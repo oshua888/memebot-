@@ -3164,3 +3164,6 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-27 04:41,2026-11-27 04:58,actuelle,DragonRiders,profil,stop-loss (-33%),0.28,-35.42,65,34273,4.39,2.5,4.228,0.591,7.05,12.26,208,0
 2026-11-27 04:25,2026-11-27 05:35,prudente,SpaceXCoin,profil,trailing-stop,1.17,42.16,77,50509,9.69,2.0,2.285,0.831,1.09,19.82,1386,0
 2026-11-27 04:25,2026-11-27 05:36,actuelle,SpaceXCoin,profil,trailing-stop,1.18,20.21,77,50509,9.69,2.0,2.285,0.831,1.09,19.82,1386,0
+2026-11-26 08:49,2026-11-27 05:44,actuelle,PUMPCHAN,boost,trailing-stop,20.91,86.88,63,164926,31.31,7.3,1.719,0.541,11.84,-35.22,328,1
+2026-11-26 08:49,2026-11-27 05:44,hasard,PUMPCHAN,boost,trailing-stop,20.91,87.11,63,164926,31.31,7.3,1.719,0.541,11.84,-35.22,328,1
+2026-11-27 02:41,2026-11-27 05:45,hasard,CINU,boost,trailing-stop,3.07,40.1,37,39193,5.05,4.3,0.181,0.542,-9.07,27.92,332,1
