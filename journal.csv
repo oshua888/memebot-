@@ -7037,3 +7037,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 15:42:15,actuelle,VENTE,PUMPCHAN,0.01431,315.25,palier +50% PnL +103.52$ coût 1.2%
 2026-11-27 15:55:15,hasard,VENTE,WINSTON,0.0001512,366.14,stop-loss (-30%) PnL -176.97$ coût 3.6%
 2026-11-27 15:55:15,hasard,ACHAT,MEOWI,0.0001731508585,539.41,score 51 coût 4.9%
+2026-11-27 16:17:18,prudente,ACHAT,KITT,0.0001569376233,7.54,score 72 coût 1.1%
+2026-11-27 16:17:18,actuelle,ACHAT,KITT,0.0001639831213,635.71,score 72 coût 5.6%
