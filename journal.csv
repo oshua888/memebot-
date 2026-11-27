@@ -7018,3 +7018,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 05:45:08,hasard,VENTE,CINU,0.0002864,511.63,trailing-stop PnL +131.59$ coût 3.2%
 2026-11-27 05:45:08,hasard,ACHAT,CINU,0.0002959491233,571.69,score 38 coût 3.3%
 2026-11-27 06:18:07,hasard,VENTE,CINU,0.0001781,334.37,stop-loss (-40%) PnL -237.32$ coût 2.8%
+2026-11-27 11:19:16,hasard,VENTE,hello,0.0003082,521.55,durée max 12h PnL -51.82$ coût 3.4%
+2026-11-27 11:19:16,hasard,VENTE,ROCKET,0.0008713,529.55,durée max 12h PnL -41.89$ coût 2.2%
