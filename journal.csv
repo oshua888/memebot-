@@ -7061,3 +7061,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 21:17:55,actuelle,VENTE,PUMPCHAN,0.02662,594.87,palier +100% PnL +379.94$ coût 1.3%
 2026-11-27 21:18:53,actuelle,VENTE,PUMPCHAN,0.01591,355.75,trailing-stop PnL +140.82$ coût 1.2%
 2026-11-27 21:31:55,hasard,VENTE,FIONA,0.001648,269.40,palier +50% PnL +87.74$ coût 1.4%
+2026-11-27 21:50:54,agressive,VENTE,Snowball,0.0005353,229.64,durée max 24h PnL -39.26$ coût 1.8%
+2026-11-27 21:50:54,agressive,ACHAT,DEXDATA,0.0002182520073,257.23,score 52 coût 2.5%

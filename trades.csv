@@ -3187,3 +3187,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-27 16:38,2026-11-27 20:13,hasard,Fireball,profil,stop-loss (-47%),3.59,-48.24,77,61584,11.86,2.5,1.958,0.795,-2.72,46.38,2035,0
 2026-11-27 20:14,2026-11-27 20:41,hasard,Split,tendance,stop-loss (-31%),0.45,-33.33,47,35196,5.41,3.1,10.126,0.563,-7.14,-45.08,522,0
 2026-11-27 05:45,2026-11-27 21:18,actuelle,PUMPCHAN,tendance,trailing-stop,15.56,97.3,64,235265,39.73,28.2,1.889,0.487,-28.97,-17.03,0.67,0
+2026-11-26 21:50,2026-11-27 21:50,agressive,Snowball,tendance,durée max 24h,24.0,-14.6,58,60309,10.02,27.5,4.316,0.537,18.66,115,950,0
