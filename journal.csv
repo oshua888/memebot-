@@ -7069,3 +7069,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-27 23:18:53,hasard,VENTE,FIONA,0.001235,408.70,trailing-stop PnL +39.87$ coût 1.7%
 2026-11-27 23:43:53,hasard,VENTE,enu,0.0004022,257.33,palier +50% PnL +84.77$ coût 2.1%
 2026-11-27 23:50:52,hasard,ACHAT,BASKET,0.0003391307298,528.02,score 24 coût 2.3%
+2026-11-28 00:10:53,agressive,VENTE,Zero,0.000152,272.92,durée max 24h PnL +11.41$ coût 2.7%
+2026-11-28 00:10:53,agressive,ACHAT,Fireball,0.0007121335097,258.94,score 67 coût 1.8%
