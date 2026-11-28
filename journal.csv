@@ -7113,3 +7113,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 12:59:48,hasard,ACHAT,JIMMY,0.0009696671358,521.49,score 39 coût 2.1%
 2026-11-28 14:01:58,actuelle,VENTE,MoonBoy,0.0006636,501.22,trailing-stop PnL +99.13$ coût 2.3%
 2026-11-28 14:19:58,actuelle,VENTE,WLFI,0.000237,400.00,stop-loss (-32%) PnL -203.96$ coût 3.2%
+2026-11-28 14:26:47,actuelle,VENTE,Zhaki,0.0001242,336.70,stop-loss (-41%) PnL -257.20$ coût 3.6%
+2026-11-28 14:26:47,agressive,VENTE,Zhaki,0.0001242,126.99,stop-loss (-48%) PnL -121.81$ coût 2.0%
+2026-11-28 14:26:47,agressive,ACHAT,PumpMas,0.0002492258448,250.36,score 56 coût 2.4%
