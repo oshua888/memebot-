@@ -7077,3 +7077,12 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 01:18:52,actuelle,VENTE,ZERO,1.433e-06,0.41,stop-loss (-100%) PnL -414.35$ coût 1.1%
 2026-11-28 01:19:52,agressive,ACHAT,FIONA,0.001249377183,257.58,score 50 coût 1.4%
 2026-11-28 01:24:52,hasard,VENTE,enu,0.0003013,388.19,trailing-stop PnL +37.83$ coût 2.9%
+2026-11-28 02:55:28,prudente,ACHAT,MoonBoy,0.000511574104,7.49,score 71 coût 1.0%
+2026-11-28 02:55:28,actuelle,VENTE,MAYA,1.421e-06,0.34,stop-loss (-100%) PnL -617.72$ coût 1.0%
+2026-11-28 02:55:28,actuelle,ACHAT,MoonBoy,0.0005202809705,600.14,score 71 coût 2.7%
+2026-11-28 02:55:28,actuelle,ACHAT,Memeball,0.0007903574939,599.50,score 61 coût 2.9%
+2026-11-28 02:55:28,agressive,VENTE,Santa,0.0002094,285.02,durée max 24h PnL +19.38$ coût 3.2%
+2026-11-28 02:55:28,agressive,ACHAT,MoonBoy,0.000515161864,251.70,score 71 coût 1.7%
+2026-11-28 02:55:28,hasard,VENTE,WW,0.0005221,464.69,durée max 12h PnL -87.06$ coût 2.8%
+2026-11-28 02:55:28,hasard,ACHAT,Singularity,0.0001037430864,523.50,score 38 coût 4.6%
+2026-11-28 02:55:28,hasard,ACHAT,PumpMas,0.0002044011895,522.59,score 37 coût 4.2%
