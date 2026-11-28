@@ -7117,3 +7117,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 14:26:47,agressive,VENTE,Zhaki,0.0001242,126.99,stop-loss (-48%) PnL -121.81$ coût 2.0%
 2026-11-28 14:26:47,agressive,ACHAT,PumpMas,0.0002492258448,250.36,score 56 coût 2.4%
 2026-11-28 14:49:07,actuelle,VENTE,Split,0.0001916,293.87,palier +50% PnL +98.31$ coût 2.6%
+2026-11-28 14:56:08,hasard,VENTE,Singularity,8.519e-05,411.57,durée max 12h PnL -111.93$ coût 4.3%
+2026-11-28 14:56:08,hasard,VENTE,PumpMas,0.0002446,597.40,durée max 12h PnL +74.81$ coût 4.5%
