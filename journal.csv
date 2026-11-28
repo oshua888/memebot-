@@ -7122,3 +7122,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 15:00:49,actuelle,ACHAT,MoonBoy,0.0006646387835,602.25,score 60 coût 2.5%
 2026-11-28 15:00:49,hasard,ACHAT,PumpMas,0.0002493499505,516.86,score 56 coût 3.9%
 2026-11-28 15:01:49,hasard,ACHAT,BITCOINU,0.001048595877,516.02,score 39 coût 2.4%
+2026-11-28 15:13:49,actuelle,VENTE,Split,0.000176,539.61,trailing-stop PnL +142.54$ coût 4.1%
+2026-11-28 15:13:49,actuelle,ACHAT,Split,0.0001835642308,600.41,score 67 coût 4.3%
