@@ -7137,3 +7137,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 16:35:08,prudente,ACHAT,BITCOINU,0.00120010274,7.48,score 73 coût 1.0%
 2026-11-28 16:40:04,agressive,VENTE,MoonBoy,0.001131,179.91,palier +100% PnL +96.85$ coût 1.3%
 2026-11-28 16:40:04,hasard,VENTE,STEADY,0.0001051,349.19,stop-loss (-30%) PnL -164.26$ coût 2.6%
+2026-11-28 16:47:51,actuelle,VENTE,STEADY,9.493e-05,406.74,stop-loss (-30%) PnL -194.13$ coût 2.9%
+2026-11-28 16:49:51,hasard,VENTE,MoonBoy,0.001282,262.20,palier +50% PnL +88.73$ coût 1.5%
