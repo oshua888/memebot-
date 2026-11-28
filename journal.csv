@@ -7142,3 +7142,13 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 16:51:59,actuelle,VENTE,BITCOINU,0.00136,291.36,palier +50% PnL +94.79$ coût 1.7%
 2026-11-28 16:53:00,prudente,VENTE,BITCOINU,0.001613,4.97,palier +30% PnL +1.24$ coût 1.0%
 2026-11-28 16:53:00,hasard,VENTE,BITCOINU,0.001613,257.86,palier +50% PnL +87.57$ coût 1.6%
+2026-11-28 19:53:23,prudente,VENTE,BITCOINU,0.0006414,1.98,stop-loss (-47%) PnL -1.76$ coût 1.0%
+2026-11-28 19:53:23,actuelle,VENTE,BITCOINU,0.0006414,278.22,trailing-stop PnL -120.87$ coût 2.0%
+2026-11-28 19:53:23,actuelle,VENTE,Vicewire,7.73e-05,371.62,stop-loss (-35%) PnL -228.26$ coût 4.8%
+2026-11-28 19:53:23,actuelle,ACHAT,nelson,0.0002847075968,593.81,score 62 coût 4.1%
+2026-11-28 19:53:23,agressive,VENTE,BITCOINU,0.0006414,146.57,stop-loss (-42%) PnL -108.90$ coût 1.5%
+2026-11-28 19:53:23,agressive,ACHAT,nelson,0.0002798338588,252.23,score 62 coût 2.3%
+2026-11-28 19:53:23,hasard,VENTE,BITCOINU,0.0006414,207.85,stop-loss (-39%) PnL -137.89$ coût 1.7%
+2026-11-28 19:53:23,hasard,ACHAT,Artcoin,0.0003202322148,515.71,score 47 coût 3.3%
+2026-11-28 19:57:24,prudente,ACHAT,STEADY,0.0003330576977,7.47,score 74 coût 1.0%
+2026-11-28 19:57:24,hasard,ACHAT,Memeball,0.001895779653,515.14,score 41 coût 2.0%
