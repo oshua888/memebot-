@@ -3200,3 +3200,4 @@ ouverture,fermeture,strategie,symbole,sources,sortie,duree_h,pnl_pct,score,liq,f
 2026-11-27 03:29,2026-11-28 03:29,agressive,JIMMY,boost+tendance,durée max 24h,24.01,18.0,51,71142,7.85,78.3,0.33,0.587,3.25,7.36,7.67,1
 2026-11-27 15:31,2026-11-28 03:31,hasard,SIDOOR,tendance,durée max 12h,12.0,-7.52,31,64734,10.11,138.7,0.188,0.507,-0.08,10.06,-9.34,0
 2026-11-28 02:55,2026-11-28 04:05,actuelle,Memeball,profil,stop-loss (-30%),1.17,-32.01,61,62738,12.24,2.5,0.662,0.734,-1.48,19.65,2244,0
+2026-11-28 02:55,2026-11-28 04:26,prudente,MoonBoy,tendance,trailing-stop,1.52,19.98,71,68937,7.33,6.3,1.127,0.613,15.27,35.28,32.59,0
