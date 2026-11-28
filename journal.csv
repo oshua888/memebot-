@@ -7119,3 +7119,6 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 14:49:07,actuelle,VENTE,Split,0.0001916,293.87,palier +50% PnL +98.31$ coût 2.6%
 2026-11-28 14:56:08,hasard,VENTE,Singularity,8.519e-05,411.57,durée max 12h PnL -111.93$ coût 4.3%
 2026-11-28 14:56:08,hasard,VENTE,PumpMas,0.0002446,597.40,durée max 12h PnL +74.81$ coût 4.5%
+2026-11-28 15:00:49,actuelle,ACHAT,MoonBoy,0.0006646387835,602.25,score 60 coût 2.5%
+2026-11-28 15:00:49,hasard,ACHAT,PumpMas,0.0002493499505,516.86,score 56 coût 3.9%
+2026-11-28 15:01:49,hasard,ACHAT,BITCOINU,0.001048595877,516.02,score 39 coût 2.4%
