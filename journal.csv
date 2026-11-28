@@ -7102,3 +7102,8 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 06:41:30,hasard,ACHAT,Zhaki,0.0002495301623,519.39,score 64 coût 3.8%
 2026-11-28 06:47:28,actuelle,ACHAT,BITCOINU,0.0009020147823,595.66,score 63 coût 2.8%
 2026-11-28 07:06:28,actuelle,ACHAT,Split,0.0001242102265,592.64,score 69 coût 5.1%
+2026-11-28 11:35:56,actuelle,VENTE,FIONA,0.001678,733.46,durée max 12h PnL +119.06$ coût 2.0%
+2026-11-28 11:35:56,actuelle,VENTE,MoonBoy,0.000818,306.10,palier +50% PnL +108.05$ coût 1.7%
+2026-11-28 11:35:56,actuelle,ACHAT,WLFI,0.0003463701182,603.96,score 64 coût 3.7%
+2026-11-28 11:35:56,hasard,VENTE,JIMMY,0.0009679,594.96,durée max 12h PnL +72.87$ coût 2.3%
+2026-11-28 11:35:56,hasard,ACHAT,MoonBoy,0.0008357631782,525.68,score 73 coût 2.2%
