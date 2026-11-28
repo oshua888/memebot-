@@ -7074,3 +7074,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 01:08:13,actuelle,ACHAT,ZERO,0.001417979577,619.05,score 62 coût 2.5%
 2026-11-28 01:13:52,agressive,VENTE,Fireball,0.0004111,147.03,stop-loss (-42%) PnL -111.91$ coût 1.6%
 2026-11-28 01:15:52,actuelle,VENTE,ZERO,0.002161,306.41,palier +50% PnL +102.12$ coût 1.6%
+2026-11-28 01:18:52,actuelle,VENTE,ZERO,1.433e-06,0.41,stop-loss (-100%) PnL -414.35$ coût 1.1%
+2026-11-28 01:19:52,agressive,ACHAT,FIONA,0.001249377183,257.58,score 50 coût 1.4%
