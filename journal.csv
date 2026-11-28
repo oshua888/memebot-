@@ -7109,3 +7109,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 11:35:56,hasard,ACHAT,MoonBoy,0.0008357631782,525.68,score 73 coût 2.2%
 2026-11-28 12:19:57,agressive,VENTE,CINU,0.0001393,236.64,durée max 24h PnL -19.37$ coût 2.5%
 2026-11-28 12:26:46,agressive,ACHAT,BITCOINU,0.001101148446,255.48,score 61 coût 1.7%
+2026-11-28 12:59:48,hasard,VENTE,Zhaki,0.0001725,347.38,stop-loss (-31%) PnL -172.01$ coût 3.3%
+2026-11-28 12:59:48,hasard,ACHAT,JIMMY,0.0009696671358,521.49,score 39 coût 2.1%
