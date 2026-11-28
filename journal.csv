@@ -7125,3 +7125,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 15:13:49,actuelle,VENTE,Split,0.000176,539.61,trailing-stop PnL +142.54$ coût 4.1%
 2026-11-28 15:13:49,actuelle,ACHAT,Split,0.0001835642308,600.41,score 67 coût 4.3%
 2026-11-28 15:17:59,prudente,ACHAT,Split,0.0001755088593,7.49,score 70 coût 1.0%
+2026-11-28 15:32:10,hasard,VENTE,FIONA,0.001285,515.93,durée max 12h PnL -5.00$ coût 1.8%
+2026-11-28 15:32:10,hasard,ACHAT,DEXDATA,0.0003286439163,515.92,score 37 coût 3.4%
