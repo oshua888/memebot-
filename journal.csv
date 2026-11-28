@@ -7096,3 +7096,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 04:26:26,prudente,ACHAT,MoonBoy,0.0005680385284,7.51,score 80 coût 1.0%
 2026-11-28 04:53:26,prudente,VENTE,MoonBoy,0.000443,5.80,stop-loss (-22%) PnL -1.71$ coût 1.0%
 2026-11-28 05:15:27,actuelle,ACHAT,Zhaki,0.0002112026204,593.90,score 60 coût 4.5%
+2026-11-28 06:07:26,agressive,VENTE,Kibo,6.81e-05,146.35,stop-loss (-40%) PnL -106.06$ coût 2.6%
+2026-11-28 06:07:26,agressive,ACHAT,Zhaki,0.0002385574231,248.80,score 68 coût 2.3%
