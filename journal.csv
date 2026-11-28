@@ -7129,3 +7129,5 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 15:32:10,hasard,ACHAT,DEXDATA,0.0003286439163,515.92,score 37 coût 3.4%
 2026-11-28 15:52:03,actuelle,ACHAT,Vicewire,0.0001188082699,599.88,score 60 coût 5.8%
 2026-11-28 15:58:04,actuelle,ACHAT,STEADY,0.0001361196734,600.87,score 60 coût 3.4%
+2026-11-28 16:16:14,hasard,VENTE,JIMMY,0.0006688,352.69,stop-loss (-31%) PnL -168.80$ coût 1.9%
+2026-11-28 16:16:14,hasard,ACHAT,STEADY,0.0001505601189,513.45,score 44 coût 2.9%

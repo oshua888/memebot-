@@ -6671,3 +6671,73 @@ agressive     8346.91$  +734.7%  +7223.96$17480926.01$  174/482     5
 hasard       25683.18$ +2468.3% +25054.80$12423892.74$  391/694     5
 apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
 (argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 281 — 2026-11-28 16:15:40 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  [!] geckoterminal new_pools : HTTP Error 404: Not Found
+  65 tokens trouvés, analyse en cours…
+  9 retenus / 64 ; rejets : liquidité faible ×38, volume faible ×18, trop ancien ×11, trop récent ×11, FDV/liquidité trop élevé ×4, RugCheck indisponible ×2, RugCheck: Creator history of rugged tokens ×1
+  [hasard] VENTE JIMMY @ 0.0006688$ — 352.69$ stop-loss (-31%) PnL -168.80$ coût 1.9%
+  [hasard] ACHAT STEADY @ 0.00015056012$ — 513.45$ score 44 coût 2.9%
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.57$   -25.0%   -250.78$   84.21$  423/323     1
+actuelle     30006.46$ +2900.6% +28948.94$12588791.40$  348/608     5
+agressive     8352.07$  +735.2%  +7223.96$17480926.01$  174/482     5
+hasard       25643.73$ +2464.4% +24886.00$12423914.26$  391/695     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 282 — 2026-11-28 16:16:40 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  [!] geckoterminal new_pools : HTTP Error 404: Not Found
+  65 tokens trouvés, analyse en cours…
+  9 retenus / 64 ; rejets : liquidité faible ×39, volume faible ×18, trop ancien ×11, trop récent ×11, FDV/liquidité trop élevé ×3, RugCheck indisponible ×2, RugCheck: Creator history of rugged tokens ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.58$   -25.0%   -250.78$   84.21$  423/323     1
+actuelle     30003.43$ +2900.3% +28948.94$12588791.40$  348/608     5
+agressive     8363.31$  +736.3%  +7223.96$17480926.01$  174/482     5
+hasard       25655.54$ +2465.6% +24886.00$12423914.26$  391/695     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 283 — 2026-11-28 16:17:40 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  [!] geckoterminal new_pools : HTTP Error 404: Not Found
+  65 tokens trouvés, analyse en cours…
+  11 retenus / 63 ; rejets : liquidité faible ×38, volume faible ×18, trop récent ×12, trop ancien ×11, FDV/liquidité trop élevé ×3, RugCheck: Creator history of rugged tokens ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.67$   -25.0%   -250.78$   84.21$  423/323     1
+actuelle     30029.24$ +2902.9% +28948.94$12588791.40$  348/608     5
+agressive     8354.95$  +735.5%  +7223.96$17480926.01$  174/482     5
+hasard       25646.11$ +2464.6% +24886.00$12423914.26$  391/695     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 284 — 2026-11-28 16:18:40 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  83 tokens trouvés, analyse en cours…
+  11 retenus / 81 ; rejets : liquidité faible ×56, volume faible ×35, trop récent ×29, trop ancien ×12, FDV/liquidité trop élevé ×4, RugCheck: Creator history of rugged tokens ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.49$   -25.1%   -250.78$   84.21$  423/323     1
+actuelle     30057.55$ +2905.8% +28948.94$12588791.40$  348/608     5
+agressive     8365.93$  +736.6%  +7223.96$17480926.01$  174/482     5
+hasard       25688.70$ +2468.9% +24886.00$12423914.26$  391/695     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
+
+--- cycle 285 — 2026-11-28 16:19:40 ---
+Récupération des candidats (DexScreener + GeckoTerminal)…
+  85 tokens trouvés, analyse en cours…
+  10 retenus / 77 ; rejets : liquidité faible ×52, volume faible ×31, trop récent ×26, trop ancien ×11, FDV/liquidité trop élevé ×3, RugCheck indisponible ×1, RugCheck: Creator history of rugged tokens ×1
+
+STRATÉGIE      CAPITAL    P&L %    RÉALISÉ    FRAIS      W/L  POS.
+prudente       749.36$   -25.1%   -250.78$   84.21$  423/323     1
+actuelle     30081.68$ +2908.2% +28948.94$12588791.40$  348/608     5
+agressive     8368.82$  +736.9%  +7223.96$17480926.01$  174/482     5
+hasard       25688.74$ +2468.9% +24886.00$12423914.26$  391/695     5
+apprentie      789.34$   -21.1%   -210.66$  174.71$  220/250     0
+(argent fictif — valeur nette si tout était revendu maintenant)
