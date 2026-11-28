@@ -7095,3 +7095,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 04:26:26,prudente,VENTE,MoonBoy,0.0005623,4.08,trailing-stop PnL +0.33$ coût 1.0%
 2026-11-28 04:26:26,prudente,ACHAT,MoonBoy,0.0005680385284,7.51,score 80 coût 1.0%
 2026-11-28 04:53:26,prudente,VENTE,MoonBoy,0.000443,5.80,stop-loss (-22%) PnL -1.71$ coût 1.0%
+2026-11-28 05:15:27,actuelle,ACHAT,Zhaki,0.0002112026204,593.90,score 60 coût 4.5%
