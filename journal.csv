@@ -7091,3 +7091,4 @@ date,strategie,action,symbole,prix,montant_usd,note
 2026-11-28 03:31:29,hasard,ACHAT,FIONA,0.001273829059,520.93,score 32 coût 1.8%
 2026-11-28 03:32:28,agressive,ACHAT,Kibo,0.0001144500207,252.41,score 51 coût 3.0%
 2026-11-28 03:59:27,prudente,VENTE,MoonBoy,0.0006778,4.91,palier +30% PnL +1.17$ coût 1.0%
+2026-11-28 04:05:28,actuelle,VENTE,Memeball,0.0005516,407.63,stop-loss (-30%) PnL -191.88$ coût 2.6%
